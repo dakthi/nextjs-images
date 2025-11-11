@@ -7088,7 +7088,7 @@
       "discountPercentage": 10,
       "images": {
         "topLeft": "/topleft.jpg",
-        "topRight": "/topleft.jpg",
+        "topRight": "/topright.jpg",
         "bottomLeft": "/bottom.jpg"
       },
       "pricingTable": [
