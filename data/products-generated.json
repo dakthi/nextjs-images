@@ -7093,10 +7093,22 @@
       },
       "pricingTable": [
         {
-          "size": "",
-          "price": "",
-          "condition": "",
-          "discount": ""
+          "size": "🎉",
+          "price": "DOUBLE",
+          "condition": "VL SALE TẤT CẢ MỌI THỨ",
+          "discount": "DOUBLE SALE"
+        },
+        {
+          "size": "💥",
+          "price": "GIẢM GIÁ",
+          "condition": "GIẢM GIÁ LẠI",
+          "discount": "GIẢM GIÁ TỔNG BILL"
+        },
+        {
+          "size": "🔥",
+          "price": "+ 10%",
+          "condition": "ÁP DỤNG TẤT CẢ",
+          "discount": "ĐẶC BIỆT"
         }
       ],
       "badgePosition": "bottom-right"
