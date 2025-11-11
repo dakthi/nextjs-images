@@ -516,6 +516,7 @@ export default function Home() {
               showProductId={true}
               badgePosition={product.badgePosition || 'middle-right'}
               showOnlyLastTwoColumns={product.id === 'product-333'}
+              imageLabels={product.id === 'product-372' ? { topLeft: 'Kira', topRight: 'MAIA', bottomLeft: 'NORA' } : undefined}
             />
           </div>
         ))}
@@ -554,6 +555,7 @@ export default function Home() {
               showProductId={false}
               badgePosition={product.badgePosition || 'middle-right'}
               showOnlyLastTwoColumns={product.id === 'product-333'}
+              imageLabels={product.id === 'product-372' ? { topLeft: 'Kira', topRight: 'MAIA', bottomLeft: 'NORA' } : undefined}
             />
           </div>
         ))}
