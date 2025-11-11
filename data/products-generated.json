@@ -2965,9 +2965,9 @@
       "badgePosition": "bottom-right"
     },
     {
-      "id": "product-373",
+      "id": "product-372",
       "category": "FURNITURE",
-      "productName": "Ghế Thợ Kira",
+      "productName": "Ghế Thợ",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
@@ -2981,43 +2981,13 @@
           "price": "£100.00",
           "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
           "discount": "£80.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-374",
-      "category": "FURNITURE",
-      "productName": "Ghế Thợ MAIA",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "MAIA",
           "price": "£130.00",
           "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
           "discount": "£104.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-372",
-      "category": "FURNITURE",
-      "productName": "Ghế Thợ NORA",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "NORA",
           "price": "£75.00",
