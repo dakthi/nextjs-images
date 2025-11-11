@@ -25,6 +25,11 @@ interface SaleCardProps {
   badgePosition?: 'middle-right' | 'bottom-right';
   showProductId?: boolean;
   showOnlyLastTwoColumns?: boolean;
+  imageLabels?: {
+    topLeft?: string;
+    topRight?: string;
+    bottomLeft?: string;
+  };
 }
 
 export default function SaleCard({
@@ -39,6 +44,7 @@ export default function SaleCard({
   badgePosition = 'middle-right',
   showProductId = false,
   showOnlyLastTwoColumns = false,
+  imageLabels,
 }: SaleCardProps) {
   const textRef = useRef<HTMLParagraphElement>(null);
 
@@ -95,13 +101,20 @@ export default function SaleCard({
         {/* TOP LEFT QUADRANT */}
         {productImages[0] && (
           <div className="flex items-center justify-center p-1 relative">
-            <div className="border-[12px] border-white shadow-2xl w-full h-full">
+            <div className="border-[12px] border-white shadow-2xl w-full h-full relative">
               <img
                 src={productImages[0]}
                 alt="Product Image 1"
                 className="w-full h-full object-cover"
                 style={{ display: 'block' }}
               />
+              {imageLabels?.topLeft && (
+                <div className="absolute bottom-2 left-2 bg-black bg-opacity-50 px-2 py-1 rounded">
+                  <p className="font-[family-name:var(--font-montserrat)] text-white text-xs">
+                    {imageLabels.topLeft}
+                  </p>
+                </div>
+              )}
             </div>
           </div>
         )}
@@ -109,13 +122,20 @@ export default function SaleCard({
         {/* TOP RIGHT QUADRANT */}
         {productImages[1] && (
           <div className="flex items-center justify-center p-1">
-            <div className="border-[12px] border-white shadow-2xl w-full h-full">
+            <div className="border-[12px] border-white shadow-2xl w-full h-full relative">
               <img
                 src={productImages[1]}
                 alt="Product Image 2"
                 className="w-full h-full object-cover"
                 style={{ display: 'block' }}
               />
+              {imageLabels?.topRight && (
+                <div className="absolute bottom-2 left-2 bg-black bg-opacity-50 px-2 py-1 rounded">
+                  <p className="font-[family-name:var(--font-montserrat)] text-white text-xs">
+                    {imageLabels.topRight}
+                  </p>
+                </div>
+              )}
             </div>
           </div>
         )}
@@ -123,13 +143,20 @@ export default function SaleCard({
         {/* BOTTOM LEFT QUADRANT */}
         {productImages[2] && (
           <div className="flex items-center justify-center p-1">
-            <div className="border-[12px] border-white shadow-2xl w-full h-full">
+            <div className="border-[12px] border-white shadow-2xl w-full h-full relative">
               <img
                 src={productImages[2]}
                 alt="Product Image 3"
                 className="w-full h-full object-cover"
                 style={{ display: 'block' }}
               />
+              {imageLabels?.bottomLeft && (
+                <div className="absolute bottom-2 left-2 bg-black bg-opacity-50 px-2 py-1 rounded">
+                  <p className="font-[family-name:var(--font-montserrat)] text-white text-xs">
+                    {imageLabels.bottomLeft}
+                  </p>
+                </div>
+              )}
             </div>
           </div>
         )}
