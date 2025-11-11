@@ -571,11 +571,11 @@
       ]
     },
     {
-      "id": "product-229",
+      "id": "product-228",
       "category": "SƠN GEL POLISH",
-      "productName": "MBerry Gel Polish 15ml - Set 180",
+      "productName": "MBerry Gel Polish - 15ml",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
+      "discountPercentage": 0,
       "images": {
         "topLeft": "/vllondon-logo.jpeg",
         "topRight": "/vllondon-logo.jpeg",
@@ -583,30 +583,22 @@
       },
       "pricingTable": [
         {
-          "size": "Set 180",
-          "price": "£990.00",
-          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
-          "discount": "£792.00"
-        }
-      ]
-    },
-    {
-      "id": "product-228",
-      "category": "SƠN GEL POLISH",
-      "productName": "MBerry Gel Polish 15ml - Set 36",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 15,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+          "size": "Lẻ",
+          "price": "£5.50",
+          "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£4.95"
+        },
         {
           "size": "Set 36",
           "price": "£198.00",
           "condition": "GIẢM 15% TỪ GIÁ ORIGINAL",
           "discount": "£168.30"
+        },
+        {
+          "size": "Set 180",
+          "price": "£990.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£792.00"
         }
       ]
     },
@@ -633,7 +625,7 @@
     {
       "id": "product-231",
       "category": "TOP & BASE",
-      "productName": "Bold Berry Gel Top 480ml - Lẻ",
+      "productName": "Bold Berry Gel Top - 480ml",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
@@ -643,27 +635,13 @@
       },
       "pricingTable": [
         {
-          "size": "Lẻ",
+          "size": "480ml",
           "price": "£70.00",
           "condition": "LẺ 1 CHAI KO GIẢM",
           "discount": "£70.00"
-        }
-      ]
-    },
-    {
-      "id": "product-232",
-      "category": "TOP & BASE",
-      "productName": "Bold Berry Gel Top 480ml - Lẻ",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 40,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "Lẻ",
+          "size": "480ml",
           "price": "£70.00",
           "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 8 VỎ ( CHAI TẶNG K TẶNG VỎ )",
           "discount": "£42.00"
@@ -773,27 +751,7 @@
     {
       "id": "product-238",
       "category": "TOP & BASE",
-      "productName": "BlazingStar Gel Top Original 480ML - Lẻ",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 40,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Lẻ",
-          "price": "£70.00",
-          "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 8 VỎ ( CHAI TẶNG K TẶNG VỎ )",
-          "discount": "£42.00"
-        }
-      ]
-    },
-    {
-      "id": "product-239",
-      "category": "TOP & BASE",
-      "productName": "BlazingStar Revive Base / Revive Base HF / Durabase HF 15ml - Lẻ",
+      "productName": "BlazingStar Gel Top Original - 15ml",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
@@ -803,19 +761,25 @@
       },
       "pricingTable": [
         {
-          "size": "Lẻ",
-          "price": "£8.00",
+          "size": "15ml",
+          "price": "£9.00",
           "condition": "SL <12 CHAI",
-          "discount": "£8.00"
+          "discount": "£9.00"
+        },
+        {
+          "size": "15ml",
+          "price": "£9.00",
+          "condition": "SL >=12 GIẢM 10% MIX & MATCH",
+          "discount": "£8.10"
         }
       ]
     },
     {
-      "id": "product-240",
+      "id": "product-238-refill",
       "category": "TOP & BASE",
-      "productName": "BlazingStar Revive Base / Revive Base HF / Durabase HF 15ml - Lẻ",
+      "productName": "BlazingStar Gel Top Original - Refill 480ml",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
+      "discountPercentage": 40,
       "images": {
         "topLeft": "/vllondon-logo.jpeg",
         "topRight": "/vllondon-logo.jpeg",
@@ -823,7 +787,33 @@
       },
       "pricingTable": [
         {
-          "size": "Lẻ",
+          "size": "Refill 480ml",
+          "price": "£70.00",
+          "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 8 VỎ ( CHAI TẶNG K TẶNG VỎ )",
+          "discount": "£42.00"
+        }
+      ]
+    },
+    {
+      "id": "product-239",
+      "category": "TOP & BASE",
+      "productName": "BlazingStar Revive Base / Revive Base HF / Durabase HF - 15ml",
+      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Lẻ 15ml",
+          "price": "£8.00",
+          "condition": "SL <12 CHAI",
+          "discount": "£8.00"
+        },
+        {
+          "size": "Lẻ 15ml",
           "price": "£8.00",
           "condition": "SL >=12 CHAI - GIẢM 10%",
           "discount": "£7.20"
@@ -853,7 +843,7 @@
     {
       "id": "product-242",
       "category": "TOP & BASE",
-      "productName": "MBerry Gel Top 480ml - 480ml",
+      "productName": "MBerry Gel Top - 480ml",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 40,
       "images": {
@@ -1051,31 +1041,11 @@
       ]
     },
     {
-      "id": "product-253",
-      "category": "NAIL TIP",
-      "productName": "Tip Nhọn Stilletto - NATURAL - Case 0-10",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 15,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Case 0-10",
-          "price": "£320.00",
-          "condition": "OFF 15% TỪ GIÁ ORIGINAL",
-          "discount": "£272.00"
-        }
-      ]
-    },
-    {
       "id": "product-250",
       "category": "NAIL TIP",
-      "productName": "Tip Nhọn Stilletto - NATURAL - Pack 10",
+      "productName": "Tip Nhọn Stilletto - NATURAL",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
+      "discountPercentage": 0,
       "images": {
         "topLeft": "/vllondon-logo.jpeg",
         "topRight": "/vllondon-logo.jpeg",
@@ -1087,41 +1057,19 @@
           "price": "£4.00",
           "condition": "SL >=10 GIẢM 10%",
           "discount": "£3.60"
-        }
-      ]
-    },
-    {
-      "id": "product-252",
-      "category": "NAIL TIP",
-      "productName": "Tip Nhọn Stilletto - NATURAL - Pack 100",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Pack 100",
           "price": "£35.00",
           "condition": "SL>=5 GIẢM 10%",
           "discount": "£31.50"
-        }
-      ]
-    },
-    {
-      "id": "product-251",
-      "category": "NAIL TIP",
-      "productName": "Tip Nhọn Stilletto - NATURAL - Set box (0-10-50pcs)",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
+        {
+          "size": "Case 0-10",
+          "price": "£320.00",
+          "condition": "OFF 15% TỪ GIÁ ORIGINAL",
+          "discount": "£272.00"
+        },
         {
           "size": "Set box (0-10-50pcs)",
           "price": "£10.00",
@@ -1131,31 +1079,11 @@
       ]
     },
     {
-      "id": "product-257",
-      "category": "NAIL TIP",
-      "productName": "Tip Thẳng Coffin - NATURAL - Case 0-10",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 15,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Case 0-10",
-          "price": "£320.00",
-          "condition": "OFF 15% TỪ GIÁ ORIGINAL",
-          "discount": "£272.00"
-        }
-      ]
-    },
-    {
       "id": "product-254",
       "category": "NAIL TIP",
-      "productName": "Tip Thẳng Coffin - NATURAL - Pack 10",
+      "productName": "Tip Thẳng Coffin - NATURAL",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
+      "discountPercentage": 0,
       "images": {
         "topLeft": "/vllondon-logo.jpeg",
         "topRight": "/vllondon-logo.jpeg",
@@ -1167,41 +1095,19 @@
           "price": "£4.00",
           "condition": "SL >=10 GIẢM 10%",
           "discount": "£3.60"
-        }
-      ]
-    },
-    {
-      "id": "product-256",
-      "category": "NAIL TIP",
-      "productName": "Tip Thẳng Coffin - NATURAL - Pack 100",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Pack 100",
           "price": "£35.00",
           "condition": "SL>=5 GIẢM 10%",
           "discount": "£31.50"
-        }
-      ]
-    },
-    {
-      "id": "product-255",
-      "category": "NAIL TIP",
-      "productName": "Tip Thẳng Coffin - NATURAL - Set box (0-10-50pcs)",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
+        {
+          "size": "Case 0-10",
+          "price": "£320.00",
+          "condition": "OFF 15% TỪ GIÁ ORIGINAL",
+          "discount": "£272.00"
+        },
         {
           "size": "Set box (0-10-50pcs)",
           "price": "£10.00",
