@@ -6691,6 +6691,27 @@
       "badgePosition": "bottom-right"
     },
     {
+      "id": "product-174-e",
+      "category": "KDS",
+      "productName": "KDS Sugar Scrub Orange GAL",
+      "promotionText": "Valid from 14/11 to 30/11",
+      "discountPercentage": 32,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "4",
+          "price": "£35.00",
+          "condition": "OFF 10%, Buy 3 Get 1 Free",
+          "discount": "£23.63"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
       "id": "product-392",
       "category": "SOCIAL",
       "productName": "SỰ KIỆN HOT NHẤT LUÂN-ĐÔN 2025",
