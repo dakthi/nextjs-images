@@ -218,17 +218,11 @@
       "discountPercentage": 0,
       "badgePosition": "bottom-right",
       "images": {
-        "topLeft": "/bbpowder.png",
-        "topRight": "/bbpowder-2.png",
-        "bottomLeft": "/bbpowder-1.png"
+        "topLeft": "/bbpowder-1.png",
+        "topRight": "/bbpowder-4.png",
+        "bottomLeft": "/bbpowder-3.png"
       },
       "pricingTable": [
-        {
-          "size": "2oz",
-          "price": "£10.00",
-          "condition": "SL <10",
-          "discount": "£10.00"
-        },
         {
           "size": "2oz",
           "price": "£10.00",
@@ -390,15 +384,27 @@
     {
       "id": "product-213",
       "category": "SƠN GEL POLISH",
-      "productName": "Bold Berry Gel Polish 15ml - Set 433 + Set 36 Reflective (BẢNG 12) = SET 469",
+      "productName": "Bold Berry - Gel Polish - Reflective Collection",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/bbreflective1.png",
+        "topRight": "/bbreflective3.jpg",
+        "bottomLeft": "/bbreflective2.png"
       },
       "pricingTable": [
+        {
+          "size": "Lẻ 15ml",
+          "price": "£7.00",
+          "condition": "GIẢM 10% TỪ GIÁ ORIGINAL",
+          "discount": "£6.30"
+        },
+        {
+          "size": "Set 36 BẢNG SỐ 12",
+          "price": "£252.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£201.60"
+        },
         {
           "size": "Set 433 + Set 36 Reflective (BẢNG 12) = SET 469",
           "price": "£2417.00",
@@ -420,12 +426,6 @@
         "bottomLeft": "/jelly3.jpg"
       },
       "pricingTable": [
-        {
-          "size": "Lẻ 15ml",
-          "price": "£5.00",
-          "condition": "SL <12 CHAI",
-          "discount": "£5.00"
-        },
         {
           "size": "Lẻ 15ml",
           "price": "£5.00",
@@ -819,13 +819,13 @@
     {
       "id": "product-238",
       "category": "TOP & BASE",
-      "productName": "BlazingStar Gel Top Original - 15ml",
+      "productName": "BlazingStar Gel Base Original/Durashine/Sunshield - 15ml",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/bstop-2.png",
+        "topRight": "/bstop-1.jpg",
+        "bottomLeft": "/bstop.jpg"
       },
       "pricingTable": [
         {
@@ -839,26 +839,11 @@
           "price": "£9.00",
           "condition": "SL >=12 GIẢM 10% MIX & MATCH",
           "discount": "£8.10"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-238-refill",
-      "category": "TOP & BASE",
-      "productName": "BlazingStar Gel Top Original - Refill 480ml",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 40,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Refill 480ml",
           "price": "£70.00",
-          "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 8 VỎ ( CHAI TẶNG K TẶNG VỎ )",
+          "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 8 VỎ ( CHAI TẶNG K TẶNG VỚ )",
           "discount": "£42.00"
         }
       ],
@@ -1912,22 +1897,22 @@
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/5in1.png",
+        "topRight": "/5in1-2.png",
+        "bottomLeft": "/5in1-1.png"
       },
       "pricingTable": [
         {
           "size": "",
-          "price": "£12.00",
-          "condition": "MUA <5 OFF 20%",
-          "discount": "£9.60"
+          "price": "",
+          "condition": "MUA <5",
+          "discount": "OFF 20%"
         },
         {
           "size": "",
-          "price": "£12.00",
-          "condition": "MUA >=5 OFF 30%",
-          "discount": "£8.40"
+          "price": "",
+          "condition": "MUA >=5",
+          "discount": "OFF 30%"
         }
       ],
       "badgePosition": "bottom-right"
