@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "capture-website": "^5.1.0",
     "fitty": "^2.4.2",
+    "html-to-image": "^1.11.13",
     "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "jszip": "^3.10.1",
     "next": "^15",
+    "papaparse": "^5.5.3",
     "react": "^18",
     "react-dom": "^18"
   },

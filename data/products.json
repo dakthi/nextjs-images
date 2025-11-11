@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "id": "bold-berry-gel-polish",
+      "productName": "Bold Berry Gel Polish",
+      "promotionText": "ÁP DỤNG TỪ NGÀY 14/11 ĐẾN HẾT NGÀY 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "/bold-berry-product.png",
+        "topRight": "/hand-posing.jpg",
+        "bottomLeft": "/cateye.png"
+      },
+      "pricingTable": [
+        {
+          "size": "15ml",
+          "price": "£5",
+          "condition": "Mua từ 12 chai trở lên có thể MIX & MATCH với Base/Top",
+          "discount": "£4.5"
+        },
+        {
+          "size": "Set 36 màu",
+          "price": "£216",
+          "condition": "Mua cả set",
+          "discount": "£194.4"
+        }
+      ]
+    },
+    {
+      "id": "blazingstar-acrylic-powder",
+      "productName": "BlazingStar Acrylic Powder - Natural Pink",
+      "promotionText": "ÁP DỤNG TỪ NGÀY 14/11 ĐẾN HẾT NGÀY 30/11",
+      "discountPercentage": 15,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "23oz",
+          "price": "£36",
+          "condition": "Mua từ 5 trở lên",
+          "discount": "£30.6"
+        }
+      ]
+    }
+  ]
+}

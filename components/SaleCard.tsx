@@ -34,32 +34,35 @@ export default function SaleCard({
 
   useEffect(() => {
     if (textRef.current) {
-      fitty(textRef.current, {
+      const fit = fitty(textRef.current, {
         minSize: 16,
         maxSize: 96,
       });
+      return () => {
+        if (fit && fit.unsubscribe) {
+          fit.unsubscribe();
+        }
+      };
     }
   }, [productName]);
+
   return (
     <div className="relative w-full max-w-3xl mx-auto">
       {/* Background Image */}
-      <Image
+      <img
         src="/background.png"
         alt="Winter background"
-        width={1200}
-        height={1200}
         className="w-full h-auto rounded-lg"
-        priority
+        style={{ display: 'block' }}
       />
 
       {/* Penguin Sale Corner - Top Left */}
       <div className="absolute -top-4 -left-4 w-48 h-48 z-20">
-        <Image
+        <img
           src="/penguin-sale-corner.png"
           alt="Sale Corner"
-          width={192}
-          height={192}
           className="w-full h-full"
+          style={{ display: 'block' }}
         />
       </div>
 
@@ -71,112 +74,94 @@ export default function SaleCard({
       </div>
 
       {/* 4 Quadrant Grid Overlay */}
-      <div className="absolute inset-0 grid grid-cols-2 grid-rows-2 p-4 gap-2">
-        {/* TOP LEFT QUADRANT - Logo Placeholder */}
-        <div className="flex items-center justify-center p-2 relative">
-          <div className="border-[12px] border-white shadow-2xl w-full h-full">
-            <Image
-              src="/vllondon-logo.jpeg"
-              alt="VL London Logo"
-              width={500}
-              height={500}
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </div>
-
-        {/* TOP RIGHT QUADRANT - Logo Placeholder */}
-        <div className="flex items-center justify-center p-2">
-          <div className="border-[12px] border-white shadow-2xl w-full h-full">
-            <Image
-              src="/vllondon-logo.jpeg"
-              alt="VL London Logo"
-              width={500}
-              height={500}
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </div>
-
-        {/* BOTTOM LEFT QUADRANT - Logo Placeholder */}
-        <div className="flex items-center justify-center p-2">
-          <div className="border-[12px] border-white shadow-2xl w-full h-full">
-            <Image
-              src="/vllondon-logo.jpeg"
-              alt="VL London Logo"
-              width={500}
-              height={500}
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </div>
-
-        {/* BOTTOM RIGHT QUADRANT - Divided into 3 rows */}
-        <div className="grid grid-rows-3">
-          {/* First Two Rows - Pricing Table */}
-          <div className="row-span-2 flex items-start justify-start p-2">
-            <div className="bg-white/95 backdrop-blur-sm rounded-lg shadow-2xl overflow-hidden w-auto">
-              <table className="w-full font-[family-name:var(--font-montserrat)] text-black">
-                <thead>
-                  <tr className="bg-gray-100">
-                    <th className="px-2 py-2 text-left text-xs font-semibold border-r border-gray-300 text-black">Size</th>
-                    <th className="px-2 py-2 text-left text-xs font-semibold border-r border-gray-300 text-black">Giá gốc</th>
-                    <th className="px-2 py-2 text-left text-xs font-semibold border-r border-gray-300 text-black">Điều kiện</th>
-                    <th className="px-2 py-2 text-left text-xs font-semibold text-black">Giảm còn</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="border-t border-gray-300">
-                    <td className="px-2 py-2 text-xs border-r border-gray-300 text-black">15ml</td>
-                    <td className="px-2 py-2 text-xs border-r border-gray-300 text-black">£5</td>
-                    <td className="px-2 py-2 text-xs border-r border-gray-300 text-black">Mua từ 12 chai trở lên có thể MIX & MATCH với Base/Top</td>
-                    <td className="px-2 py-2 text-sm font-bold text-black">£4.5</td>
-                  </tr>
-                  <tr className="border-t border-gray-300">
-                    <td className="px-2 py-2 text-xs border-r border-gray-300 text-black">Set 36 màu</td>
-                    <td className="px-2 py-2 text-xs border-r border-gray-300 text-black">£27</td>
-                    <td className="px-2 py-2 text-xs border-r border-gray-300 text-black">Mua cả set</td>
-                    <td className="px-2 py-2 text-sm font-bold text-black">£216</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          {/* Third Row - Grid with 3 columns */}
-          <div className="grid grid-cols-3">
-            {/* First Two Columns - Title Badge */}
-            <div className="col-span-2 flex items-center justify-center">
-              <div className="bg-[#d10000] rounded-3xl shadow-xl px-4 py-3 flex items-center justify-center h-[100px] w-[90%]">
-                <p
-                  ref={textRef}
-                  className="text-white font-bold font-[family-name:var(--font-balsamiq)] text-center leading-tight tracking-wider w-full">
-                  {productName}
-                </p>
-              </div>
-            </div>
-
-            {/* Third Column - Discount Badge */}
-            <div className="flex items-center justify-center">
-              <Image
-                src="/discount-badge-10.png"
-                alt="10% discount"
-                width={180}
-                height={180}
-                className="w-full h-full object-contain"
+      <div className="absolute inset-0 grid grid-cols-2 grid-rows-2 p-2 gap-1">
+        {/* TOP LEFT QUADRANT */}
+        {productImages[0] && (
+          <div className="flex items-center justify-center p-1 relative">
+            <div className="border-[12px] border-white shadow-2xl w-full h-full">
+              <img
+                src={productImages[0]}
+                alt="Product Image 1"
+                className="w-full h-full object-cover"
+                style={{ display: 'block' }}
               />
             </div>
+          </div>
+        )}
+
+        {/* TOP RIGHT QUADRANT */}
+        {productImages[1] && (
+          <div className="flex items-center justify-center p-1">
+            <div className="border-[12px] border-white shadow-2xl w-full h-full">
+              <img
+                src={productImages[1]}
+                alt="Product Image 2"
+                className="w-full h-full object-cover"
+                style={{ display: 'block' }}
+              />
+            </div>
+          </div>
+        )}
+
+        {/* BOTTOM LEFT QUADRANT */}
+        {productImages[2] && (
+          <div className="flex items-center justify-center p-1">
+            <div className="border-[12px] border-white shadow-2xl w-full h-full">
+              <img
+                src={productImages[2]}
+                alt="Product Image 3"
+                className="w-full h-full object-cover"
+                style={{ display: 'block' }}
+              />
+            </div>
+          </div>
+        )}
+
+        {/* BOTTOM RIGHT QUADRANT - Pricing Table */}
+        <div className="flex items-start justify-start p-1">
+          <div className="bg-white/95 backdrop-blur-sm rounded-lg shadow-2xl overflow-hidden w-auto">
+            <table className="w-full font-[family-name:var(--font-montserrat)] text-black">
+              <thead>
+                <tr className="bg-gray-100">
+                  <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length <= 3 ? 'text-base' : 'text-xs'}`}>Size</th>
+                  <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length <= 3 ? 'text-base' : 'text-xs'}`}>Giá gốc</th>
+                  <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length <= 3 ? 'text-base' : 'text-xs'}`}>Điều kiện</th>
+                  <th className={`px-2 py-2 text-left font-semibold text-black ${pricingTable.length <= 3 ? 'text-base' : 'text-xs'}`}>Giảm còn</th>
+                </tr>
+              </thead>
+              <tbody>
+                {pricingTable.map((row, index) => (
+                  <tr key={index} className="border-t border-gray-300">
+                    <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length <= 3 ? 'text-base' : 'text-xs'}`}>{row.size}</td>
+                    <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length <= 3 ? 'text-base' : 'text-xs'}`}>{row.price}</td>
+                    <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length <= 3 ? 'text-base' : 'text-xs'}`}>{row.condition}</td>
+                    <td className={`px-2 py-2 font-bold text-black ${pricingTable.length <= 3 ? 'text-lg' : 'text-sm'}`}>{row.discount}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
 
-      {/* Orange Overlay Copy - Badge Only (Same Location) */}
-      <div className="absolute bottom-0 right-0 z-30">
+      {/* Title Badge - Middle Right */}
+      <div className="absolute top-[48%] right-4 -translate-y-1/2 z-50">
+        <div className="bg-[#d10000] rounded-3xl shadow-xl px-6 py-4 flex items-center justify-center min-w-[300px]">
+          <p
+            ref={textRef}
+            className="text-white font-bold font-[family-name:var(--font-balsamiq)] text-center leading-tight tracking-wider w-full">
+            {productName}
+          </p>
+        </div>
+      </div>
+
+      {/* Discount Badge - Higher up */}
+      <div className="absolute top-[36%] right-2 -translate-y-1/2 z-50">
         <Image
           src="/discount-badge-10.png"
           alt="10% discount"
-          width={160}
-          height={160}
+          width={140}
+          height={140}
           className="object-contain"
         />
       </div>
