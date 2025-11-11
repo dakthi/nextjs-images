@@ -164,7 +164,7 @@ export default function SaleCard({
         <div className="bg-[#d10000] rounded-3xl shadow-xl px-6 py-4 flex items-center justify-center min-w-[300px]">
           <p
             ref={textRef}
-            className="text-white font-bold font-[family-name:var(--font-balsamiq)] text-center leading-tight tracking-wider w-full">
+            className="text-white font-bold font-[family-name:var(--font-montserrat)] text-center leading-tight tracking-wider w-full">
             {productName}
           </p>
         </div>

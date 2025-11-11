@@ -208,10 +208,11 @@
       "productName": "Bold Berry - Dipping and Ombre - 2oz",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 0,
+      "badgePosition": "bottom-right",
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/bbpowder.png",
+        "topRight": "/bbpowder-2.png",
+        "bottomLeft": "/bbpowder-1.png"
       },
       "pricingTable": [
         {
@@ -469,7 +470,7 @@
     {
       "id": "product-220",
       "category": "SƠN GEL POLISH",
-      "productName": "BlazingStar Gel Polish / Gel Top Original/Durashine/Sunshield / Gel Base Original / Gel Base Express 15ml - Lẻ",
+      "productName": "Gel Top Original/Durashine/Sunshield / Gel Base Original / Gel Base Express 15ml - Lẻ",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 33,
       "images": {
@@ -501,6 +502,32 @@
           "price": "£2172.00",
           "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
           "discount": "£1737.60"
+        }
+      ]
+    },
+    {
+      "id": "product-220-1",
+      "category": "SƠN GEL POLISH",
+      "productName": "BlazingStar - Gel Polish",
+      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
+      "discountPercentage": 33,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "",
+          "price": "£9.00",
+          "condition": "SL <12",
+          "discount": "£6.00"
+        },
+        {
+          "size": "",
+          "price": "£9.00",
+          "condition": "SL >=12 OFF 10%",
+          "discount": "£5.40"
         }
       ]
     },
@@ -1490,91 +1517,119 @@
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
+        "topLeft": "/premiumplus-1.jpg",
+        "topRight": "/premiumplus-2.jpg",
+        "bottomLeft": "/premiumplus.png"
+      },
+      "pricingTable": [
+        {
+          "size": "8 - CÁN TRÒN",
+          "price": "£30.00",
+          "condition": "MUA <5 OFF 10%",
+          "discount": "£27.00"
+        },
+        {
+          "size": "8 - CÁN TRÒN",
+          "price": "£30.00",
+          "condition": "MUA >=5 OFF 20% MIX & MATCH",
+          "discount": "£24.00"
+        },
+        {
+          "size": "10 - CÁN TRÒN",
+          "price": "£35.00",
+          "condition": "MUA <5 OFF 10%",
+          "discount": "£31.50"
+        },
+        {
+          "size": "10 - CÁN TRÒN",
+          "price": "£35.00",
+          "condition": "MUA >=5 OFF 20% MIX & MATCH",
+          "discount": "£28.00"
+        }
+      ]
+    },
+    {
+      "id": "product-283-a",
+      "category": "ACRYLIC BRUSHES",
+      "productName": "BlazingStar Brush Premium Plus - LÔNG MỀM",
+      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
         "topLeft": "/vllondon-logo.jpeg",
         "topRight": "/vllondon-logo.jpeg",
         "bottomLeft": "/vllondon-logo.jpeg"
       },
       "pricingTable": [
         {
-          "size": "8",
-          "price": "£30.00",
-          "condition": "MUA <5 OFF 10%",
-          "discount": "£27.00"
-        },
-        {
-          "size": "8",
-          "price": "£30.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "£24.00"
-        },
-        {
-          "size": "10",
-          "price": "£35.00",
-          "condition": "MUA <5 OFF 10%",
-          "discount": "£31.50"
-        },
-        {
-          "size": "10",
-          "price": "£35.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "£28.00"
-        },
-        {
-          "size": "12",
+          "size": "12 - CÁN TRÒN + NHỌN",
           "price": "£40.00",
           "condition": "MUA <5 OFF 10%",
           "discount": "£36.00"
         },
         {
-          "size": "12",
+          "size": "12 - CÁN TRÒN + NHỌN",
           "price": "£40.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
           "discount": "£32.00"
         },
         {
-          "size": "14",
+          "size": "14 - CÁN TRÒN + NHỌN",
           "price": "£45.00",
           "condition": "MUA <5 OFF 10%",
           "discount": "£40.50"
         },
         {
-          "size": "14",
+          "size": "14 - CÁN TRÒN + NHỌN",
           "price": "£45.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
           "discount": "£36.00"
-        },
+        }
+      ]
+    },
+    {
+      "id": "product-283-c",
+      "category": "ACRYLIC BRUSHES",
+      "productName": "BlazingStar Brush Premium Plus - LÔNG MỀM",
+      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
         {
-          "size": "16",
+          "size": "16 - CÁN TRÒN + NHỌN",
           "price": "£50.00",
           "condition": "MUA <5 OFF 10%",
           "discount": "£45.00"
         },
         {
-          "size": "16",
+          "size": "16 - CÁN TRÒN + NHỌN",
           "price": "£50.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
           "discount": "£40.00"
         },
         {
-          "size": "18",
+          "size": "18 - CÁN TRÒN + NHỌN",
           "price": "£55.00",
           "condition": "MUA <5 OFF 10%",
           "discount": "£49.50"
         },
         {
-          "size": "18",
+          "size": "18 - CÁN TRÒN + NHỌN",
           "price": "£55.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
           "discount": "£44.00"
         },
         {
-          "size": "20",
+          "size": "20 - CÁN TRÒN + NHỌN",
           "price": "£60.00",
           "condition": "MUA <5 OFF 10%",
           "discount": "£54.00"
         },
         {
-          "size": "20",
+          "size": "20 - CÁN TRÒN + NHỌN",
           "price": "£60.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
           "discount": "£48.00"
@@ -1594,30 +1649,28 @@
       },
       "pricingTable": [
         {
-          "size": "",
+          "size": "14",
           "price": "£45.00",
-          "condition": "MUA <5 OFF 10%",
+          "condition": "MUA <3 OFF 10%",
           "discount": "£40.50"
-        }
-      ]
-    },
-    {
-      "id": "product-298",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Pro 14 - LÔNG DÀY HƠN PlUS",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "",
+          "size": "14",
           "price": "£45.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
+          "condition": "MUA 3-5 OFF 15%",
+          "discount": "£38.25"
+        },
+        {
+          "size": "14",
+          "price": "£45.00",
+          "condition": "MUA 6-10 OFF 20%",
           "discount": "£36.00"
+        },
+        {
+          "size": "14",
+          "price": "£45.00",
+          "condition": "MUA >=11 OFF 25%",
+          "discount": "£33.75"
         }
       ]
     },
@@ -1634,30 +1687,28 @@
       },
       "pricingTable": [
         {
-          "size": "",
+          "size": "16",
           "price": "£50.00",
-          "condition": "MUA <5 OFF 10%",
+          "condition": "MUA <3 OFF 10%",
           "discount": "£45.00"
-        }
-      ]
-    },
-    {
-      "id": "product-300",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Pro 16 - LÔNG DÀY HƠN PLUS",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "",
+          "size": "16",
           "price": "£50.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
+          "condition": "MUA 3-5 OFF 15%",
+          "discount": "£42.50"
+        },
+        {
+          "size": "16",
+          "price": "£50.00",
+          "condition": "MUA 6-10 OFF 20%",
           "discount": "£40.00"
+        },
+        {
+          "size": "16",
+          "price": "£50.00",
+          "condition": "MUA >=11 OFF 25%",
+          "discount": "£37.50"
         }
       ]
     },
@@ -1674,37 +1725,35 @@
       },
       "pricingTable": [
         {
-          "size": "",
+          "size": "18",
           "price": "£55.00",
-          "condition": "MUA <5 OFF 10%",
+          "condition": "MUA <3 OFF 10%",
           "discount": "£49.50"
-        }
-      ]
-    },
-    {
-      "id": "product-302",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Pro 18 - LÔNG DÀY HƠN PLUS",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "",
+          "size": "18",
           "price": "£55.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
+          "condition": "MUA 3-5 OFF 15%",
+          "discount": "£46.75"
+        },
+        {
+          "size": "18",
+          "price": "£55.00",
+          "condition": "MUA 6-10 OFF 20%",
           "discount": "£44.00"
+        },
+        {
+          "size": "18",
+          "price": "£55.00",
+          "condition": "MUA >=11 OFF 25%",
+          "discount": "£41.25"
         }
       ]
     },
     {
       "id": "product-303",
       "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Pro 20- LÔNG DÀY HƠN PLUS",
+      "productName": "BlazingStar Brush Premium Pro 20 - LÔNG DÀY HƠN PLUS",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
@@ -1714,10 +1763,28 @@
       },
       "pricingTable": [
         {
-          "size": "",
+          "size": "20",
           "price": "£60.00",
-          "condition": "MUA <5 OFF 10%",
+          "condition": "MUA <3 OFF 10%",
           "discount": "£54.00"
+        },
+        {
+          "size": "20",
+          "price": "£60.00",
+          "condition": "MUA 3-5 OFF 15%",
+          "discount": "£51.00"
+        },
+        {
+          "size": "20",
+          "price": "£60.00",
+          "condition": "MUA 6-10 OFF 20%",
+          "discount": "£48.00"
+        },
+        {
+          "size": "20",
+          "price": "£60.00",
+          "condition": "MUA >=11 OFF 25%",
+          "discount": "£45.00"
         }
       ]
     },
@@ -1774,7 +1841,7 @@
     {
       "id": "product-333",
       "category": "DRILL BIT",
-      "productName": "5in1/Tornado/Flam Bit/Safety/XF/Mini Corn/ Cuticle/",
+      "productName": "Đầu bào 5in1/Tornado/Flame Bit/Safety/XF/Mini Corn/ Cuticle/",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
@@ -1788,21 +1855,7 @@
           "price": "£12.00",
           "condition": "MUA <5 OFF 20%",
           "discount": "£9.60"
-        }
-      ]
-    },
-    {
-      "id": "product-334",
-      "category": "DRILL BIT",
-      "productName": "5in1/Tornado/Flam Bit/Safety/XF/Mini Corn/ Cuticle/",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "",
           "price": "£12.00",

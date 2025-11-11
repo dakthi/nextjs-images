@@ -512,7 +512,9 @@ export default function Home() {
               productName={product.productName}
               discountPercentage={product.discountPercentage}
               pricingTable={product.pricingTable}
-              cardNumber={productsData.products.findIndex(p => p.id === product.id) + 1}
+              productId={product.id}
+              showProductId={true}
+              badgePosition={product.badgePosition || 'middle-right'}
             />
           </div>
         ))}
@@ -547,7 +549,9 @@ export default function Home() {
               productName={product.productName}
               discountPercentage={product.discountPercentage}
               pricingTable={product.pricingTable}
-              cardNumber={index + 1}
+              productId={product.id}
+              showProductId={false}
+              badgePosition={product.badgePosition || 'middle-right'}
             />
           </div>
         ))}
