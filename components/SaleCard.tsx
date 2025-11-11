@@ -151,7 +151,7 @@ export default function SaleCard({
                 style={{ display: 'block' }}
               />
               {imageLabels?.bottomLeft && (
-                <div className="absolute bottom-2 left-2 bg-black bg-opacity-50 px-2 py-1 rounded">
+                <div className="absolute top-2 left-2 bg-black bg-opacity-50 px-2 py-1 rounded">
                   <p className="font-[family-name:var(--font-montserrat)] text-white text-xs">
                     {imageLabels.bottomLeft}
                   </p>
