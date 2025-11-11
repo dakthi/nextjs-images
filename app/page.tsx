@@ -546,7 +546,7 @@ export default function Home() {
       </div>
 
       {/* Hidden cards for export - rendered but not visible */}
-      <div ref={cardRef} className="fixed -left-[9999px] top-0 space-y-8" style={{ width: '800px' }}>
+      <div ref={cardRef} className="fixed -left-[9999px] top-0" style={{ width: '1200px' }}>
         {productsData.products
           .slice()
           .sort(byCategoryPriorityThenName)
@@ -555,6 +555,15 @@ export default function Home() {
             key={product.id}
             ref={(el) => {
               if (el) cardRefsMap.current[product.id] = el;
+            }}
+            style={{
+              marginBottom: '60px',
+              paddingTop: '20px',
+              paddingLeft: '20px',
+              paddingRight: '20px',
+              paddingBottom: '20px',
+              width: 'fit-content',
+              position: 'relative'
             }}
           >
             <SaleCard
