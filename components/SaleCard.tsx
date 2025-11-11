@@ -20,6 +20,8 @@ interface SaleCardProps {
   pricingTable: PricingRow[];
   saleStartDate?: string;
   saleEndDate?: string;
+  cardNumber?: number;
+  badgePosition?: 'middle-right' | 'bottom-right';
 }
 
 export default function SaleCard({
@@ -29,6 +31,8 @@ export default function SaleCard({
   productName,
   discountPercentage,
   pricingTable,
+  cardNumber,
+  badgePosition = 'middle-right',
 }: SaleCardProps) {
   const textRef = useRef<HTMLParagraphElement>(null);
 
@@ -48,6 +52,13 @@ export default function SaleCard({
 
   return (
     <div className="relative w-full max-w-3xl mx-auto">
+      {/* Card Number Badge - Top Left Corner */}
+      {cardNumber && (
+        <div className="absolute top-2 left-2 bg-black/80 text-white px-3 py-1 rounded-md z-50 font-bold text-sm">
+          #{cardNumber}
+        </div>
+      )}
+
       {/* Background Image */}
       <img
         src="/background.png"
@@ -123,19 +134,19 @@ export default function SaleCard({
             <table className="w-full font-[family-name:var(--font-montserrat)] text-black">
               <thead>
                 <tr className="bg-gray-100">
-                  <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length <= 3 ? 'text-base' : 'text-xs'}`}>Size</th>
-                  <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length <= 3 ? 'text-base' : 'text-xs'}`}>Giá gốc</th>
-                  <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length <= 3 ? 'text-base' : 'text-xs'}`}>Điều kiện</th>
-                  <th className={`px-2 py-2 text-left font-semibold text-black ${pricingTable.length <= 3 ? 'text-base' : 'text-xs'}`}>Giảm còn</th>
+                  <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>Size</th>
+                  <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>Giá gốc</th>
+                  <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>Điều kiện</th>
+                  <th className={`px-2 py-2 text-left font-semibold text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>Giảm còn</th>
                 </tr>
               </thead>
               <tbody>
                 {pricingTable.map((row, index) => (
                   <tr key={index} className="border-t border-gray-300">
-                    <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length <= 3 ? 'text-base' : 'text-xs'}`}>{row.size}</td>
-                    <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length <= 3 ? 'text-base' : 'text-xs'}`}>{row.price}</td>
-                    <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length <= 3 ? 'text-base' : 'text-xs'}`}>{row.condition}</td>
-                    <td className={`px-2 py-2 font-bold text-black ${pricingTable.length <= 3 ? 'text-lg' : 'text-sm'}`}>{row.discount}</td>
+                    <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>{row.size}</td>
+                    <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>{row.price}</td>
+                    <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>{row.condition}</td>
+                    <td className={`px-2 py-2 font-bold text-black ${pricingTable.length < 3 ? 'text-lg' : 'text-sm'}`}>{row.discount}</td>
                   </tr>
                 ))}
               </tbody>
@@ -155,8 +166,12 @@ export default function SaleCard({
         </div>
       </div>
 
-      {/* Discount Badge - Higher up */}
-      <div className="absolute top-[36%] right-2 -translate-y-1/2 z-50">
+      {/* Discount Badge */}
+      <div className={`absolute z-50 ${
+        badgePosition === 'bottom-right'
+          ? 'bottom-4 right-4'
+          : 'top-[36%] right-2 -translate-y-1/2'
+      }`}>
         <Image
           src="/discount-badge-10.png"
           alt="10% discount"

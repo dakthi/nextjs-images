@@ -32,7 +32,6 @@ export async function POST(request: NextRequest) {
           type: format as any,
           width: 1200,
           height: 1200,
-          scale: 2,
           timeout: 30,
           waitForNetworkIdle: true,
         });

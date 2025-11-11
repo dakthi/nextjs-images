@@ -1,25 +1,13 @@
 'use client';
 
 import SaleCard from '@/components/SaleCard';
+import ExportSelector from '@/components/ExportSelector';
 import { useRef, useState } from 'react';
 import { toPng } from 'html-to-image';
 import JSZip from 'jszip';
 import productsData from '@/data/products-generated.json';
 
-// Desired source/category priority: Manicure first, then La Palm, then KDS
-const CATEGORY_PRIORITY: Record<string, number> = {
-  'Manicure & Supplies': 0,
-  'La Palm': 1,
-  'KDS': 2,
-};
-
-const byCategoryPriorityThenName = (a: any, b: any) => {
-  const pa = CATEGORY_PRIORITY[a.category] ?? 99;
-  const pb = CATEGORY_PRIORITY[b.category] ?? 99;
-  if (pa !== pb) return pa - pb;
-  // Stable secondary sort by product name to keep deterministic order
-  return String(a.productName).localeCompare(String(b.productName));
-};
+// Products are already sorted in the JSON file in the desired order
 
 export default function Home() {
   const cardRef = useRef<HTMLDivElement>(null);
@@ -64,9 +52,7 @@ export default function Home() {
     const failedProducts: string[] = [];
 
     const selectedProductsList = productsData.products
-      .filter(p => selectedProducts.has(p.id))
-      .slice()
-      .sort(byCategoryPriorityThenName);
+      .filter(p => selectedProducts.has(p.id));
     const total = selectedProductsList.length;
     let current = 0;
 
@@ -232,11 +218,11 @@ export default function Home() {
         message: '',
       });
 
-      const message = failedProducts.length > 0
-        ? `Exported ${currentStep} PNG files. Failed: ${failedProducts.join(', ')}`
-        : `Successfully exported ${currentStep} PNG files!`;
-
-      alert(message);
+      if (failedProducts.length > 0) {
+        alert(`Exported ${currentStep} PNG files. Failed: ${failedProducts.join(', ')}`);
+      }
+      // Success - no alert, just log to console
+      console.log(`Successfully exported ${currentStep} PNG files!`);
     } catch (error) {
       setExportProgress({
         isExporting: false,
@@ -299,11 +285,11 @@ export default function Home() {
         message: '',
       });
 
-      const message = failedProducts.length > 0
-        ? `Created zip with ${pngBlobs.length} PNG files. Failed: ${failedProducts.join(', ')}`
-        : `Successfully created zip with ${pngBlobs.length} PNG files!`;
-
-      alert(message);
+      if (failedProducts.length > 0) {
+        alert(`Created zip with ${pngBlobs.length} PNG files. Failed: ${failedProducts.join(', ')}`);
+      }
+      // Success - no alert, just log to console
+      console.log(`Successfully created zip with ${pngBlobs.length} PNG files!`);
     } catch (error) {
       setExportProgress({
         isExporting: false,
@@ -374,9 +360,8 @@ export default function Home() {
 
       let addedPages = 0;
 
-      const ordered = productsData.products.slice().sort(byCategoryPriorityThenName);
-      for (let index = 0; index < ordered.length; index++) {
-        const product = ordered[index];
+      for (let index = 0; index < productsData.products.length; index++) {
+        const product = productsData.products[index];
 
         if (!selectedProducts.has(product.id)) continue;
 
@@ -444,22 +429,14 @@ export default function Home() {
         Winter Sale 2025
       </h1>
 
-      <div className="flex justify-center gap-4 mb-4 flex-wrap">
-        <button
-          onClick={exportIndividualPNGs}
-          disabled={exportProgress.isExporting}
-          className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-        >
-          Export Individual PNGs
-        </button>
-        <button
-          onClick={exportAllAsZip}
-          disabled={exportProgress.isExporting}
-          className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-        >
-          Export All as ZIP
-        </button>
-      </div>
+      <ExportSelector
+        selectedCount={selectedProducts.size}
+        totalCount={productsData.products.length}
+        onExportPNGs={exportIndividualPNGs}
+        onExportZip={exportAllAsZip}
+        onExportPDF={exportToPDF}
+        isExporting={exportProgress.isExporting}
+      />
 
       {/* Progress Indicator */}
       {exportProgress.isExporting && (
@@ -504,10 +481,7 @@ export default function Home() {
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {productsData.products
-            .slice()
-            .sort(byCategoryPriorityThenName)
-            .map((product) => (
+          {productsData.products.map((product) => (
             <label key={product.id} className="flex items-center gap-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
               <input
                 type="checkbox"
@@ -524,10 +498,8 @@ export default function Home() {
       {/* Visible cards for UI */}
       <div className="space-y-8">
         {productsData.products
-          .slice()
-          .sort(byCategoryPriorityThenName)
           .filter(product => selectedProducts.has(product.id))
-          .map((product) => (
+          .map((product, index) => (
           <div key={`visible-${product.id}`}>
             <SaleCard
               productImages={[
@@ -540,6 +512,7 @@ export default function Home() {
               productName={product.productName}
               discountPercentage={product.discountPercentage}
               pricingTable={product.pricingTable}
+              cardNumber={productsData.products.findIndex(p => p.id === product.id) + 1}
             />
           </div>
         ))}
@@ -547,10 +520,7 @@ export default function Home() {
 
       {/* Hidden cards for export - rendered but not visible */}
       <div ref={cardRef} className="fixed -left-[9999px] top-0" style={{ width: '1200px' }}>
-        {productsData.products
-          .slice()
-          .sort(byCategoryPriorityThenName)
-          .map((product) => (
+        {productsData.products.map((product, index) => (
           <div
             key={product.id}
             ref={(el) => {
@@ -577,6 +547,7 @@ export default function Home() {
               productName={product.productName}
               discountPercentage={product.discountPercentage}
               pricingTable={product.pricingTable}
+              cardNumber={index + 1}
             />
           </div>
         ))}
