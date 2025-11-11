@@ -3835,9 +3835,9 @@
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 32,
       "images": {
-        "topLeft": "/flowersoap-1.JPG",
-        "topRight": "/flowersoap-2.JPG",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/flowersoap.JPG",
+        "topRight": "/flowersoap.JPG",
+        "bottomLeft": "/flowersoap.JPG"
       },
       "pricingTable": [
         {
