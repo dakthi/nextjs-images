@@ -185,13 +185,13 @@
     {
       "id": "product-185",
       "category": "BỘT ACRYLIC + OMBRE",
-      "productName": "BlazingStar Maxx Perform Powder - White - Milky White/Soft White/French White - 23oz",
+      "productName": "BlazingStar Maxx Perform Powder - Milky/Soft/French White",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/Milky White.png",
+        "topRight": "/BS Soft White.jpeg",
+        "bottomLeft": "/French White.png"
       },
       "pricingTable": [
         {
@@ -247,99 +247,37 @@
       ]
     },
     {
-      "id": "product-203",
-      "category": "BỘT ACRYLIC + OMBRE",
-      "productName": "Bold Berry - Dipping and Ombre 2oz - Set 240",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Set 240",
-          "price": "£2400.00",
-          "condition": "GIẢM 20% TỪ GIÁ GỐC",
-          "discount": "£1920.00"
-        }
-      ]
-    },
-    {
       "id": "product-204",
       "category": "SƠN GEL POLISH",
-      "productName": "Bold Berry French Cateye 15ml - Lẻ",
+      "productName": "Bold Berry - French Pearl Cateye",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/1.png",
+        "topRight": "/3.png",
+        "bottomLeft": "/full bảng màu updated.png"
       },
       "pricingTable": [
         {
-          "size": "Lẻ",
+          "size": "Lẻ 15ml",
           "price": "£8.00",
           "condition": "SL <6 CHAI",
           "discount": "£8.00"
-        }
-      ]
-    },
-    {
-      "id": "product-205",
-      "category": "SƠN GEL POLISH",
-      "productName": "Bold Berry French Cateye 15ml - Lẻ",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "Lẻ",
+          "size": "Lẻ 15ml",
           "price": "£8.00",
           "condition": "OFF 10% VỚI SL >=6",
           "discount": "£7.20"
-        }
-      ]
-    },
-    {
-      "id": "product-206",
-      "category": "SƠN GEL POLISH",
-      "productName": "Bold Berry French Cateye 15ml - Lẻ",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "Lẻ",
+          "size": "Lẻ 15ml",
           "price": "£8.00",
           "condition": "OFF 20% VỚI SL >=12",
           "discount": "£6.40"
-        }
-      ]
-    },
-    {
-      "id": "product-207",
-      "category": "SƠN GEL POLISH",
-      "productName": "Bold Berry French Cateye 15ml - Set 36",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 25,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "Set 36",
+          "size": "Set 36 màu 15ml",
           "price": "£288.00",
           "condition": "GIẢM 25% TỪ GIÁ ORIGINAL",
           "discount": "£216.00"
@@ -369,77 +307,73 @@
     {
       "id": "product-208",
       "category": "SƠN GEL POLISH",
-      "productName": "Bold Berry Gel Polish - Lẻ",
+      "productName": "Bold Berry - Gel Polish",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/reflective1.jpg",
+        "topRight": "/reflective2.png",
+        "bottomLeft": "/reflective3.png"
       },
       "pricingTable": [
         {
-          "size": "Lẻ",
+          "size": "Lẻ 15ml",
           "price": "£5.00",
           "condition": "SL <12 CHAI",
           "discount": "£5.00"
+        },
+        {
+          "size": "Lẻ 15ml",
+          "price": "£5.00",
+          "condition": "SL >= 12 GIẢM 10% MIX & MATCH với BASE và TOP",
+          "discount": "£4.50"
+        },
+        {
+          "size": "Set 36 15ml",
+          "price": "£180.00",
+          "condition": "GIẢM 15% TỪ GIÁ ORIGINAL",
+          "discount": "£153.00"
+        },
+        {
+          "size": "Set 433 (bảng màu 1-11, 13) 15ml",
+          "price": "£2165.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£1732.00"
         }
       ]
     },
     {
       "id": "product-209",
       "category": "SƠN GEL POLISH",
-      "productName": "Bold Berry Gel Polish - Lẻ",
+      "productName": "Bold Berry - Gel Polish - Red Collection",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
+      "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/red1.jpg",
+        "topRight": "/red2.jpg",
+        "bottomLeft": "/red3.jpg"
       },
       "pricingTable": [
         {
-          "size": "Lẻ",
+          "size": "Lẻ 15ml",
+          "price": "£5.00",
+          "condition": "SL <12 CHAI",
+          "discount": "£5.00"
+        },
+        {
+          "size": "Lẻ 15ml",
           "price": "£5.00",
           "condition": "SL >= 12 GIẢM 10% MIX & MATCH với BASE và TOP",
           "discount": "£4.50"
-        }
-      ]
-    },
-    {
-      "id": "product-211",
-      "category": "SƠN GEL POLISH",
-      "productName": "Bold Berry Gel Polish 15ml - Set 36",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 15,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "Set 36",
+          "size": "Set 36 15ml",
           "price": "£180.00",
           "condition": "GIẢM 15% TỪ GIÁ ORIGINAL",
           "discount": "£153.00"
-        }
-      ]
-    },
-    {
-      "id": "product-212",
-      "category": "SƠN GEL POLISH",
-      "productName": "Bold Berry Gel Polish 15ml - Set 433 (BẢNG MÀU TỪ SỐ 1-11 VÀ 13 )",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "Set 433 (BẢNG MÀU TỪ SỐ 1-11 VÀ 13 )",
+          "size": "Set 433 (bảng màu 1-11, 13) 15ml",
           "price": "£2165.00",
           "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
           "discount": "£1732.00"
@@ -469,57 +403,23 @@
     {
       "id": "product-216",
       "category": "SƠN GEL POLISH",
-      "productName": "Bold Berry Gel Polish 15ml JELLY - Box 6pcs",
+      "productName": "Bold Berry - Gel Polish - Jelly Collection",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/jelly1.png",
+        "topRight": "/jelly2.png",
+        "bottomLeft": "/jelly3.jpg"
       },
       "pricingTable": [
         {
-          "size": "Box 6pcs",
-          "price": "£27.00",
-          "condition": "",
-          "discount": "£27.00"
-        }
-      ]
-    },
-    {
-      "id": "product-214",
-      "category": "SƠN GEL POLISH",
-      "productName": "Bold Berry Gel Polish 15ml JELLY - Lẻ",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Lẻ",
+          "size": "Lẻ 15ml",
           "price": "£5.00",
           "condition": "SL <12 CHAI",
           "discount": "£5.00"
-        }
-      ]
-    },
-    {
-      "id": "product-215",
-      "category": "SƠN GEL POLISH",
-      "productName": "Bold Berry Gel Polish 15ml JELLY - Lẻ",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "Lẻ",
+          "size": "Lẻ 15ml",
           "price": "£5.00",
           "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
           "discount": "£4.50"
@@ -527,59 +427,25 @@
       ]
     },
     {
-      "id": "product-217",
-      "category": "SƠN GEL POLISH",
-      "productName": "Bold Berry Gel Polish 15ml JELLY - Set 12 màu",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Set 12 màu",
-          "price": "£60.00",
-          "condition": "GIẢM 10% TỪ GIÁ ORIGINAL",
-          "discount": "£54.00"
-        }
-      ]
-    },
-    {
       "id": "product-218",
       "category": "SƠN GEL POLISH",
-      "productName": "Bold Berry Gel Polish Reflective 15ml - Lẻ",
+      "productName": "Bold Berry Gel Polish Reflective",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/bbreflective2.png",
+        "topRight": "/bbreflective1.png",
+        "bottomLeft": "/bbreflective3.jpg"
       },
       "pricingTable": [
         {
-          "size": "Lẻ",
+          "size": "Lẻ 15ml",
           "price": "£7.00",
           "condition": "GIẢM 10% TỪ GIÁ ORIGINAL",
           "discount": "£6.30"
-        }
-      ]
-    },
-    {
-      "id": "product-219",
-      "category": "SƠN GEL POLISH",
-      "productName": "Bold Berry Gel Polish Reflective 15ml - Set 36 BẢNG SỐ 12",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "Set 36 BẢNG SỐ 12",
+          "size": "Set 36 màu 15ml (bảng số 12)",
           "price": "£252.00",
           "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
           "discount": "£201.60"
@@ -619,67 +485,25 @@
       },
       "pricingTable": [
         {
-          "size": "Lẻ",
+          "size": "Lẻ 15ml",
           "price": "£9.00",
           "condition": "ĐỀU GIÁ £6/CHAI - SL <12",
           "discount": "£6.00"
-        }
-      ]
-    },
-    {
-      "id": "product-221",
-      "category": "SƠN GEL POLISH",
-      "productName": "BlazingStar Gel Polish / Gel Top Original/Durashine/Sunshield / Gel Base Original / Gel Base Express 15ml - Lẻ",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 40,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "Lẻ",
+          "size": "Lẻ 15ml",
           "price": "£9.00",
           "condition": "ĐỀU GIÁ £6/CHAI - SL >=12 GIẢM THÊM 10% MIX & MATCH",
           "discount": "£5.40"
-        }
-      ]
-    },
-    {
-      "id": "product-223",
-      "category": "SƠN GEL POLISH",
-      "productName": "BlazingStar Gel Polish 15ml - d",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 15,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "d",
+          "size": "Set 362 15ml",
           "price": "£216.00",
           "condition": "GIẢM 15%",
           "discount": "£183.60"
-        }
-      ]
-    },
-    {
-      "id": "product-224",
-      "category": "SƠN GEL POLISH",
-      "productName": "BlazingStar Gel Polish 15ml - Set 362",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "Set 362",
+          "size": "Set 362 15ml",
           "price": "£2172.00",
           "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
           "discount": "£1737.60"
