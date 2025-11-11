@@ -515,7 +515,7 @@ export default function Home() {
               productId={product.id}
               showProductId={true}
               badgePosition={product.badgePosition || 'middle-right'}
-              showAllColumns={['product-333', 'product-378'].includes(product.id)}
+              showAllColumns={product.id === 'product-378'}
             />
           </div>
         ))}
@@ -553,7 +553,7 @@ export default function Home() {
               productId={product.id}
               showProductId={false}
               badgePosition={product.badgePosition || 'middle-right'}
-              showAllColumns={['product-333', 'product-378'].includes(product.id)}
+              showAllColumns={product.id === 'product-378'}
             />
           </div>
         ))}
