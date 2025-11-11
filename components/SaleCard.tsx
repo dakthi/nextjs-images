@@ -21,7 +21,9 @@ interface SaleCardProps {
   saleStartDate?: string;
   saleEndDate?: string;
   cardNumber?: number;
+  productId?: string;
   badgePosition?: 'middle-right' | 'bottom-right';
+  showProductId?: boolean;
 }
 
 export default function SaleCard({
@@ -32,7 +34,9 @@ export default function SaleCard({
   discountPercentage,
   pricingTable,
   cardNumber,
+  productId,
   badgePosition = 'middle-right',
+  showProductId = false,
 }: SaleCardProps) {
   const textRef = useRef<HTMLParagraphElement>(null);
 
@@ -52,10 +56,10 @@ export default function SaleCard({
 
   return (
     <div className="relative w-full max-w-3xl mx-auto">
-      {/* Card Number Badge - Top Left Corner */}
-      {cardNumber && (
-        <div className="absolute top-2 left-2 bg-black/80 text-white px-3 py-1 rounded-md z-50 font-bold text-sm">
-          #{cardNumber}
+      {/* Product ID Display - Outside Card (Not rendered in image) */}
+      {showProductId && productId && (
+        <div className="text-gray-600 text-xs mt-2 pl-2">
+          Product ID: {productId}
         </div>
       )}
 
@@ -78,7 +82,7 @@ export default function SaleCard({
       </div>
 
       {/* Promotion Banner - Top Right */}
-      <div className="absolute top-1 right-2 bg-blue-800 text-white px-6 py-3 rounded-xl shadow-xl z-20">
+      <div className="absolute top-3 right-2 bg-blue-800 text-white px-6 py-3 rounded-xl shadow-xl z-20">
         <p className="font-[family-name:var(--font-montserrat)] text-sm font-bold text-center">
           {promotionText}
         </p>

@@ -197,12 +197,6 @@
         {
           "size": "23oz",
           "price": "£50.00",
-          "condition": "SL <3",
-          "discount": "£50.00"
-        },
-        {
-          "size": "23oz",
-          "price": "£50.00",
           "condition": "MUA >=4 GIẢM 20% - MIX & MATCH",
           "discount": "£40.00"
         }
@@ -731,20 +725,39 @@
     {
       "id": "product-237",
       "category": "TOP & BASE",
-      "productName": "BlazingStar Gel Top Durashine/Sunshield 480ml - Lẻ",
+      "productName": "BlazingStar Gel Top Sunshield 480ml - Lẻ",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 40,
+      "badgePosition": "middle-right",
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/sunshield.png",
+        "topRight": "/sunshield1.png",
+        "bottomLeft": "/sunshield2.png"
       },
       "pricingTable": [
         {
-          "size": "Lẻ",
+          "size": "Lẻ 480ml",
           "price": "£80.00",
           "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 8 VỎ ( CHAI TẶNG K TẶNG VỎ )",
           "discount": "£48.00"
+        },
+        {
+          "size": "Lẻ 15ml",
+          "price": "£9.00",
+          "condition": "ĐỀU GIÁ £6/CHAI - SL <12",
+          "discount": "£6.00"
+        },
+        {
+          "size": "Lẻ 15ml",
+          "price": "£9.00",
+          "condition": "ĐỀU GIÁ £6/CHAI - SL >=12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£5.40"
+        },
+        {
+          "size": "Box - 6 Chai 15ml cùng 1 màu",
+          "price": "£32.40",
+          "condition": "",
+          "discount": "£32.40"
         }
       ]
     },
@@ -1155,31 +1168,11 @@
       ]
     },
     {
-      "id": "product-249",
-      "category": "NAIL TIP",
-      "productName": "Tip Thường Curve Tip - NATURAL - Case 0-10",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Case 0-10",
-          "price": "£280.00",
-          "condition": "OFF 20% TỪ GIÁ ORIGINAL",
-          "discount": "£224.00"
-        }
-      ]
-    },
-    {
       "id": "product-247",
       "category": "NAIL TIP",
-      "productName": "Tip Thường Curve Tip - NATURAL - Pack 10",
+      "productName": "Tip Thường Curve Tip - NATURAL",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
+      "discountPercentage": 0,
       "images": {
         "topLeft": "/vllondon-logo.jpeg",
         "topRight": "/vllondon-logo.jpeg",
@@ -1191,26 +1184,18 @@
           "price": "£3.50",
           "condition": "SL >=10 GIẢM 10%",
           "discount": "£3.15"
-        }
-      ]
-    },
-    {
-      "id": "product-248",
-      "category": "NAIL TIP",
-      "productName": "Tip Thường Curve Tip - NATURAL - Pack 100",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Pack 100",
           "price": "£30.00",
           "condition": "SL>=5 GIẢM 10%",
           "discount": "£27.00"
+        },
+        {
+          "size": "Case 0-10",
+          "price": "£280.00",
+          "condition": "OFF 20% TỪ GIÁ ORIGINAL",
+          "discount": "£224.00"
         }
       ]
     },
@@ -1499,251 +1484,11 @@
       ]
     },
     {
-      "id": "product-285",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus 10 - LÔNG MỀM - CÁN TRÒN",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "CÁN TRÒN",
-          "price": "£35.00",
-          "condition": "MUA <5 OFF 10%",
-          "discount": "£31.50"
-        }
-      ]
-    },
-    {
-      "id": "product-286",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus 10 - LÔNG MỀM - CÁN TRÒN",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "CÁN TRÒN",
-          "price": "£35.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "£28.00"
-        }
-      ]
-    },
-    {
-      "id": "product-287",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus 12 - LÔNG MỀM - CÁN TRÒN + NHỌN",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "CÁN TRÒN + NHỌN",
-          "price": "£40.00",
-          "condition": "MUA <5 OFF 10%",
-          "discount": "£36.00"
-        }
-      ]
-    },
-    {
-      "id": "product-288",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus 12 - LÔNG MỀM - CÁN TRÒN + NHỌN",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "CÁN TRÒN + NHỌN",
-          "price": "£40.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "£32.00"
-        }
-      ]
-    },
-    {
-      "id": "product-289",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus 14 - LÔNG MỀM - CÁN TRÒN + NHỌN",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "CÁN TRÒN + NHỌN",
-          "price": "£45.00",
-          "condition": "MUA <5 OFF 10%",
-          "discount": "£40.50"
-        }
-      ]
-    },
-    {
-      "id": "product-290",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus 14 - LÔNG MỀM - CÁN TRÒN + NHỌN",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "CÁN TRÒN + NHỌN",
-          "price": "£45.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "£36.00"
-        }
-      ]
-    },
-    {
-      "id": "product-291",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus 16 - LÔNG MỀM - CÁN TRÒN + NHỌN",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "CÁN TRÒN + NHỌN",
-          "price": "£50.00",
-          "condition": "MUA <5 OFF 10%",
-          "discount": "£45.00"
-        }
-      ]
-    },
-    {
-      "id": "product-292",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus 16 - LÔNG MỀM - CÁN TRÒN + NHỌN",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "CÁN TRÒN + NHỌN",
-          "price": "£50.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "£40.00"
-        }
-      ]
-    },
-    {
-      "id": "product-293",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus 18 - LÔNG MỀM - CÁN TRÒN + NHỌN",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "CÁN TRÒN + NHỌN",
-          "price": "£55.00",
-          "condition": "MUA <5 OFF 10%",
-          "discount": "£49.50"
-        }
-      ]
-    },
-    {
-      "id": "product-294",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus 18 - LÔNG MỀM - CÁN TRÒN + NHỌN",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "CÁN TRÒN + NHỌN",
-          "price": "£55.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "£44.00"
-        }
-      ]
-    },
-    {
-      "id": "product-295",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus 20 - LÔNG MỀM - CÁN TRÒN + NHỌN",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "CÁN TRÒN + NHỌN",
-          "price": "£60.00",
-          "condition": "MUA <5 OFF 10%",
-          "discount": "£54.00"
-        }
-      ]
-    },
-    {
-      "id": "product-296",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus 20 - LÔNG MỀM - CÁN TRÒN + NHỌN",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "CÁN TRÒN + NHỌN",
-          "price": "£60.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "£48.00"
-        }
-      ]
-    },
-    {
       "id": "product-283",
       "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus 8 - LÔNG MỀM - CÁN TRÒN",
+      "productName": "BlazingStar Brush Premium Plus - LÔNG MỀM",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
+      "discountPercentage": 0,
       "images": {
         "topLeft": "/vllondon-logo.jpeg",
         "topRight": "/vllondon-logo.jpeg",
@@ -1751,30 +1496,88 @@
       },
       "pricingTable": [
         {
-          "size": "CÁN TRÒN",
+          "size": "8",
           "price": "£30.00",
           "condition": "MUA <5 OFF 10%",
           "discount": "£27.00"
-        }
-      ]
-    },
-    {
-      "id": "product-284",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus 8 - LÔNG MỀM - CÁN TRÒN",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "CÁN TRÒN",
+          "size": "8",
           "price": "£30.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
           "discount": "£24.00"
+        },
+        {
+          "size": "10",
+          "price": "£35.00",
+          "condition": "MUA <5 OFF 10%",
+          "discount": "£31.50"
+        },
+        {
+          "size": "10",
+          "price": "£35.00",
+          "condition": "MUA >=5 OFF 20% MIX & MATCH",
+          "discount": "£28.00"
+        },
+        {
+          "size": "12",
+          "price": "£40.00",
+          "condition": "MUA <5 OFF 10%",
+          "discount": "£36.00"
+        },
+        {
+          "size": "12",
+          "price": "£40.00",
+          "condition": "MUA >=5 OFF 20% MIX & MATCH",
+          "discount": "£32.00"
+        },
+        {
+          "size": "14",
+          "price": "£45.00",
+          "condition": "MUA <5 OFF 10%",
+          "discount": "£40.50"
+        },
+        {
+          "size": "14",
+          "price": "£45.00",
+          "condition": "MUA >=5 OFF 20% MIX & MATCH",
+          "discount": "£36.00"
+        },
+        {
+          "size": "16",
+          "price": "£50.00",
+          "condition": "MUA <5 OFF 10%",
+          "discount": "£45.00"
+        },
+        {
+          "size": "16",
+          "price": "£50.00",
+          "condition": "MUA >=5 OFF 20% MIX & MATCH",
+          "discount": "£40.00"
+        },
+        {
+          "size": "18",
+          "price": "£55.00",
+          "condition": "MUA <5 OFF 10%",
+          "discount": "£49.50"
+        },
+        {
+          "size": "18",
+          "price": "£55.00",
+          "condition": "MUA >=5 OFF 20% MIX & MATCH",
+          "discount": "£44.00"
+        },
+        {
+          "size": "20",
+          "price": "£60.00",
+          "condition": "MUA <5 OFF 10%",
+          "discount": "£54.00"
+        },
+        {
+          "size": "20",
+          "price": "£60.00",
+          "condition": "MUA >=5 OFF 20% MIX & MATCH",
+          "discount": "£48.00"
         }
       ]
     },
@@ -1925,9 +1728,9 @@
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/bsstandard-1.jpg",
+        "topRight": "/bsstandard-2.jpg",
+        "bottomLeft": "/bsstandard.jpg"
       },
       "pricingTable": [
         {
@@ -2009,9 +1812,9 @@
       ]
     },
     {
-      "id": "product-319",
+      "id": "product-317",
       "category": "DRILL BIT",
-      "productName": "Bào Carbide Crystal   X4(XC) / X5 (2XC) / X6 (4XC) ( Đầu kim cương) - Purple - Bền hơn Silver",
+      "productName": "Bào Carbide Crystal ( Đầu kim cương)",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
@@ -2021,67 +1824,25 @@
       },
       "pricingTable": [
         {
-          "size": "Purple - Bền hơn Silver",
+          "size": "X4/X5/X6 - Purple - Bền hơn Silver",
           "price": "£8.00",
           "condition": "MUA <5 OFF 20%",
           "discount": "£6.40"
-        }
-      ]
-    },
-    {
-      "id": "product-320",
-      "category": "DRILL BIT",
-      "productName": "Bào Carbide Crystal   X4(XC) / X5 (2XC) / X6 (4XC) ( Đầu kim cương) - Purple - Bền hơn Silver",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "Purple - Bền hơn Silver",
+          "size": "X4/X5/X6 - Purple - Bền hơn Silver",
           "price": "£8.00",
           "condition": "MUA >=5 OFF 30%",
           "discount": "£5.60"
-        }
-      ]
-    },
-    {
-      "id": "product-317",
-      "category": "DRILL BIT",
-      "productName": "Bào Carbide Crystal   X4(XC) / X5 (2XC) / X6 (4XC) ( Đầu kim cương) - Silver - Sắc hơn Purple",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "Silver - Sắc hơn Purple",
+          "size": "X4/X5/X6 - Silver - Sắc hơn Purple",
           "price": "£8.00",
           "condition": "MUA <5 OFF 20%",
           "discount": "£6.40"
-        }
-      ]
-    },
-    {
-      "id": "product-318",
-      "category": "DRILL BIT",
-      "productName": "Bào Carbide Crystal   X4(XC) / X5 (2XC) / X6 (4XC) ( Đầu kim cương) - Silver - Sắc hơn Purple",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "Silver - Sắc hơn Purple",
+          "size": "X4/X5/X6 - Silver - Sắc hơn Purple",
           "price": "£8.00",
           "condition": "MUA >=5 OFF 30%",
           "discount": "£5.60"
@@ -2791,9 +2552,9 @@
     {
       "id": "product-356",
       "category": "ELECTRICAL",
-      "productName": "Bold Berry LED LAMP - Cord",
+      "productName": "Bold Berry LED LAMP",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
+      "discountPercentage": 0,
       "images": {
         "topLeft": "/vllondon-logo.jpeg",
         "topRight": "/vllondon-logo.jpeg",
@@ -2805,61 +2566,19 @@
           "price": "£100.00",
           "condition": "MUA < 4 OFF 10%",
           "discount": "£90.00"
-        }
-      ]
-    },
-    {
-      "id": "product-357",
-      "category": "ELECTRICAL",
-      "productName": "Bold Berry LED LAMP - Cord",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Cord",
           "price": "£100.00",
           "condition": "MUA >=4 OFF 20%",
           "discount": "£80.00"
-        }
-      ]
-    },
-    {
-      "id": "product-358",
-      "category": "ELECTRICAL",
-      "productName": "Bold Berry LED LAMP - Cordless",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Cordless",
           "price": "£130.00",
           "condition": "MUA < 4 OFF 10%",
           "discount": "£117.00"
-        }
-      ]
-    },
-    {
-      "id": "product-359",
-      "category": "ELECTRICAL",
-      "productName": "Bold Berry LED LAMP - Cordless",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Cordless",
           "price": "£130.00",
@@ -2891,13 +2610,13 @@
     {
       "id": "product-352",
       "category": "ELECTRICAL",
-      "productName": "BlazingStar LED Lamp - Cord",
+      "productName": "BlazingStar LED Lamp",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
+      "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/bslamp1.png",
+        "topRight": "/bslamp.png",
+        "bottomLeft": "/bslamp-2.png"
       },
       "pricingTable": [
         {
@@ -2905,61 +2624,19 @@
           "price": "£180.00",
           "condition": "MUA < 4 OFF 10%",
           "discount": "£162.00"
-        }
-      ]
-    },
-    {
-      "id": "product-353",
-      "category": "ELECTRICAL",
-      "productName": "BlazingStar LED Lamp - Cord",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Cord",
           "price": "£180.00",
           "condition": "MUA >=4 OFF 20%",
           "discount": "£144.00"
-        }
-      ]
-    },
-    {
-      "id": "product-354",
-      "category": "ELECTRICAL",
-      "productName": "BlazingStar LED Lamp - Cordless",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Cordless",
           "price": "£200.00",
           "condition": "MUA < 4 OFF 10%",
           "discount": "£180.00"
-        }
-      ]
-    },
-    {
-      "id": "product-355",
-      "category": "ELECTRICAL",
-      "productName": "BlazingStar LED Lamp - Cordless",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Cordless",
           "price": "£200.00",
@@ -2971,7 +2648,7 @@
     {
       "id": "product-366",
       "category": "ELECTRICAL",
-      "productName": "Drill Hand Piece X5 Plus ( Dây mặc định cho Super UP200) - Check khách dùng cho máy UP200 để phải thay dây (Khách UK đa số dùng máy UP200)",
+      "productName": "Tay bào X5 Plus (dây mặc định cho Super UP200)",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
@@ -2981,67 +2658,25 @@
       },
       "pricingTable": [
         {
-          "size": "Check khách dùng cho máy UP200 để phải thay dây (Khách UK đa số dùng máy UP200)",
+          "size": "X5 Plus",
           "price": "£200.00",
           "condition": "OFF 10% MUA < 3",
           "discount": "£180.00"
-        }
-      ]
-    },
-    {
-      "id": "product-367",
-      "category": "ELECTRICAL",
-      "productName": "Drill Hand Piece X5 Plus ( Dây mặc định cho Super UP200) - Check khách dùng cho máy UP200 để phải thay dây (Khách UK đa số dùng máy UP200)",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "Check khách dùng cho máy UP200 để phải thay dây (Khách UK đa số dùng máy UP200)",
+          "size": "X5 Plus",
           "price": "£200.00",
           "condition": "OFF 20% MUA >=3",
           "discount": "£160.00"
-        }
-      ]
-    },
-    {
-      "id": "product-368",
-      "category": "ELECTRICAL",
-      "productName": "Drill Hand Piece X7 Plus ( Dây mặc định cho Super UP200) - Check khách dùng cho máy UP200 để phải thay dây (Khách UK đa số dùng máy UP200)",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "Check khách dùng cho máy UP200 để phải thay dây (Khách UK đa số dùng máy UP200)",
+          "size": "X7 Plus",
           "price": "£220.00",
           "condition": "OFF 10% MUA < 3",
           "discount": "£198.00"
-        }
-      ]
-    },
-    {
-      "id": "product-369",
-      "category": "ELECTRICAL",
-      "productName": "Drill Hand Piece X7 Plus ( Dây mặc định cho Super UP200) - Check khách dùng cho máy UP200 để phải thay dây (Khách UK đa số dùng máy UP200)",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "Check khách dùng cho máy UP200 để phải thay dây (Khách UK đa số dùng máy UP200)",
+          "size": "X7 Plus",
           "price": "£220.00",
           "condition": "OFF 20% MUA >=3",
           "discount": "£176.00"
@@ -3051,7 +2686,7 @@
     {
       "id": "product-364",
       "category": "ELECTRICAL",
-      "productName": "Masterled - Cord",
+      "productName": "Masterled",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
@@ -3065,21 +2700,7 @@
           "price": "£150.00",
           "condition": "",
           "discount": "£150.00"
-        }
-      ]
-    },
-    {
-      "id": "product-365",
-      "category": "ELECTRICAL",
-      "productName": "Masterled - Cordless",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Cordless",
           "price": "£170.00",
@@ -3091,9 +2712,9 @@
     {
       "id": "product-360",
       "category": "ELECTRICAL",
-      "productName": "MBerry LED LAMP - Cord",
+      "productName": "MBerry LED LAMP",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
+      "discountPercentage": 0,
       "images": {
         "topLeft": "/vllondon-logo.jpeg",
         "topRight": "/vllondon-logo.jpeg",
@@ -3105,61 +2726,19 @@
           "price": "£110.00",
           "condition": "MUA < 4 OFF 10%",
           "discount": "£99.00"
-        }
-      ]
-    },
-    {
-      "id": "product-361",
-      "category": "ELECTRICAL",
-      "productName": "MBerry LED LAMP - Cord",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Cord",
           "price": "£110.00",
           "condition": "MUA >=4 OFF 20%",
           "discount": "£88.00"
-        }
-      ]
-    },
-    {
-      "id": "product-362",
-      "category": "ELECTRICAL",
-      "productName": "MBerry LED LAMP - Cordless",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Cordless",
           "price": "£140.00",
           "condition": "MUA < 4 OFF 10%",
           "discount": "£126.00"
-        }
-      ]
-    },
-    {
-      "id": "product-363",
-      "category": "ELECTRICAL",
-      "productName": "MBerry LED LAMP - Cordless",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Cordless",
           "price": "£140.00",
