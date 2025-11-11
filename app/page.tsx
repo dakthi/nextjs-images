@@ -516,7 +516,12 @@ export default function Home() {
               showProductId={true}
               badgePosition={product.badgePosition || 'middle-right'}
               showOnlyLastTwoColumns={product.id === 'product-333'}
-              imageLabels={product.id === 'product-372' ? { topLeft: 'Kira', topRight: 'MAIA', bottomLeft: 'NORA' } : undefined}
+              imageLabels={
+                product.id === 'product-372' ? { topLeft: 'Kira', topRight: 'MAIA', bottomLeft: 'NORA' } :
+                product.id === 'product-378' ? { topLeft: 'Bendi', topRight: 'Bendi', bottomLeft: 'Bendi' } :
+                product.id === 'product-377' ? { topLeft: 'Etan', topRight: 'Kaylee', bottomLeft: 'Velda' } :
+                undefined
+              }
             />
           </div>
         ))}
@@ -555,7 +560,12 @@ export default function Home() {
               showProductId={false}
               badgePosition={product.badgePosition || 'middle-right'}
               showOnlyLastTwoColumns={product.id === 'product-333'}
-              imageLabels={product.id === 'product-372' ? { topLeft: 'Kira', topRight: 'MAIA', bottomLeft: 'NORA' } : undefined}
+              imageLabels={
+                product.id === 'product-372' ? { topLeft: 'Kira', topRight: 'MAIA', bottomLeft: 'NORA' } :
+                product.id === 'product-378' ? { topLeft: 'Bendi', topRight: 'Bendi', bottomLeft: 'Bendi' } :
+                product.id === 'product-377' ? { topLeft: 'Etan', topRight: 'Kaylee', bottomLeft: 'Velda' } :
+                undefined
+              }
             />
           </div>
         ))}

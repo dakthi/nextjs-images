@@ -2887,9 +2887,9 @@
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/Ghế Khách Bendi - Khaki -silver.png",
+        "topRight": "/Ghế Khách Bendi - Light Grey.png",
+        "bottomLeft": "/Ghế Khách Bendi - Khaki -silver.png"
       },
       "pricingTable": [
         {
@@ -2904,13 +2904,13 @@
     {
       "id": "product-377",
       "category": "FURNITURE",
-      "productName": "Ghế Khách Etan",
+      "productName": "Ghế Khách",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/Ghế Khách Etan - Grey.png",
+        "topRight": "/Ghế Khách Kaylee - Light Grey.png",
+        "bottomLeft": "/Ghế Khách Velda - Khaki.png"
       },
       "pricingTable": [
         {
@@ -2918,43 +2918,13 @@
           "price": "£160.00",
           "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
           "discount": "£128.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-375",
-      "category": "FURNITURE",
-      "productName": "Ghế Khách Kaylee",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Kaylee",
           "price": "£140.00",
           "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
           "discount": "£112.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-376",
-      "category": "FURNITURE",
-      "productName": "Ghế Khách Velda",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Velda",
           "price": "£150.00",
