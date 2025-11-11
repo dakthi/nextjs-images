@@ -1921,9 +1921,9 @@
     {
       "id": "product-277",
       "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Standard 14 - LÔNG CỨNG",
+      "productName": "BlazingStar Brush Standard - LÔNG CỨNG",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
+      "discountPercentage": 0,
       "images": {
         "topLeft": "/vllondon-logo.jpeg",
         "topRight": "/vllondon-logo.jpeg",
@@ -1931,107 +1931,37 @@
       },
       "pricingTable": [
         {
-          "size": "",
+          "size": "14",
           "price": "£40.00",
           "condition": "MUA <5 OFF 10%",
           "discount": "£36.00"
-        }
-      ]
-    },
-    {
-      "id": "product-278",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Standard 14 - LÔNG CỨNG",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "",
+          "size": "14",
           "price": "£40.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
           "discount": "£32.00"
-        }
-      ]
-    },
-    {
-      "id": "product-279",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Standard 16 - LÔNG CỨNG",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "",
+          "size": "16",
           "price": "£45.00",
           "condition": "MUA <5 OFF 10%",
           "discount": "£40.50"
-        }
-      ]
-    },
-    {
-      "id": "product-280",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Standard 16 - LÔNG CỨNG",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "",
+          "size": "16",
           "price": "£45.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
           "discount": "£36.00"
-        }
-      ]
-    },
-    {
-      "id": "product-281",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Standard 18 - LÔNG CỨNG",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "",
+          "size": "18",
           "price": "£50.00",
           "condition": "MUA <5 OFF 10%",
           "discount": "£45.00"
-        }
-      ]
-    },
-    {
-      "id": "product-282",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Standard 18 - LÔNG CỨNG",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "",
+          "size": "18",
           "price": "£50.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
           "discount": "£40.00"
