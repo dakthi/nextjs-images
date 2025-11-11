@@ -819,7 +819,7 @@
     {
       "id": "product-238",
       "category": "TOP & BASE",
-      "productName": "BlazingStar Gel Base Original/Durashine/Sunshield - 15ml",
+      "productName": "BlazingStar Gel Base - 15ml",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
@@ -831,20 +831,14 @@
         {
           "size": "15ml",
           "price": "£9.00",
-          "condition": "SL <12 CHAI",
-          "discount": "£9.00"
+          "condition": "ĐỀU GIÁ £6/CHAI - SL <12",
+          "discount": "£6.00"
         },
         {
           "size": "15ml",
           "price": "£9.00",
-          "condition": "SL >=12 GIẢM 10% MIX & MATCH",
-          "discount": "£8.10"
-        },
-        {
-          "size": "Refill 480ml",
-          "price": "£70.00",
-          "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 8 VỎ ( CHAI TẶNG K TẶNG VỚ )",
-          "discount": "£42.00"
+          "condition": "ĐỀU GIÁ £6/CHAI - SL >=12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£5.40"
         }
       ],
       "badgePosition": "bottom-right"
@@ -1260,51 +1254,9 @@
     {
       "id": "product-275",
       "category": "ACRYLIC LIQUID",
-      "productName": "BlazingStar Liquid Coffee Purple/Clear - LIQUID THƯỜNG MÙI COFFEE - Case",
+      "productName": "BlazingStar Liquid Coffee Purple/Clear - LIQUID THƯỜNG MÙI COFFEE",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Case",
-          "price": "£180.00",
-          "condition": "OFF 10%",
-          "discount": "£162.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-276",
-      "category": "ACRYLIC LIQUID",
-      "productName": "BlazingStar Liquid Coffee Purple/Clear - LIQUID THƯỜNG MÙI COFFEE - Case",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 15,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Case",
-          "price": "£180.00",
-          "condition": "OFF 15% MUA TRÊN 2",
-          "discount": "£153.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-274",
-      "category": "ACRYLIC LIQUID",
-      "productName": "BlazingStar Liquid Coffee Purple/Clear - LIQUID THƯỜNG MÙI COFFEE - Gal",
-      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
       "images": {
         "topLeft": "/vllondon-logo.jpeg",
         "topRight": "/vllondon-logo.jpeg",
@@ -1316,6 +1268,18 @@
           "price": "£60.00",
           "condition": "",
           "discount": "£60.00"
+        },
+        {
+          "size": "Case",
+          "price": "£180.00",
+          "condition": "OFF 10%",
+          "discount": "£162.00"
+        },
+        {
+          "size": "Case",
+          "price": "£180.00",
+          "condition": "OFF 15% MUA TRÊN 2",
+          "discount": "£153.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -1893,7 +1857,7 @@
     {
       "id": "product-333",
       "category": "DRILL BIT",
-      "productName": "Đầu bào 5in1/Tornado/Flame Bit/Safety/XF/Mini Corn/ Cuticle/",
+      "productName": "Các loại đầu bào (Mix & Match)",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
@@ -2832,7 +2796,7 @@
     {
       "id": "product-364",
       "category": "ELECTRICAL",
-      "productName": "Masterled",
+      "productName": "Masterled LED Lamp",
       "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {

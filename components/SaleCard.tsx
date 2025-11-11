@@ -24,6 +24,7 @@ interface SaleCardProps {
   productId?: string;
   badgePosition?: 'middle-right' | 'bottom-right';
   showProductId?: boolean;
+  showAllColumns?: boolean;
 }
 
 export default function SaleCard({
@@ -37,6 +38,7 @@ export default function SaleCard({
   productId,
   badgePosition = 'middle-right',
   showProductId = false,
+  showAllColumns = false,
 }: SaleCardProps) {
   const textRef = useRef<HTMLParagraphElement>(null);
 
@@ -138,8 +140,12 @@ export default function SaleCard({
             <table className="w-full font-[family-name:var(--font-montserrat)] text-black">
               <thead>
                 <tr className="bg-gray-100">
-                  <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>Size</th>
-                  <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>Giá gốc</th>
+                  {showAllColumns && (
+                    <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>Size</th>
+                  )}
+                  {showAllColumns && (
+                    <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>Giá gốc</th>
+                  )}
                   <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>Điều kiện</th>
                   <th className={`px-2 py-2 text-left font-semibold text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>Giảm còn</th>
                 </tr>
@@ -147,8 +153,12 @@ export default function SaleCard({
               <tbody>
                 {pricingTable.map((row, index) => (
                   <tr key={index} className="border-t border-gray-300">
-                    <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>{row.size}</td>
-                    <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>{row.price}</td>
+                    {showAllColumns && (
+                      <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>{row.size}</td>
+                    )}
+                    {showAllColumns && (
+                      <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>{row.price}</td>
+                    )}
                     <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>{row.condition}</td>
                     <td className={`px-2 py-2 font-bold text-black ${pricingTable.length < 3 ? 'text-lg' : 'text-sm'}`}>{row.discount}</td>
                   </tr>
