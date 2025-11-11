@@ -7079,6 +7079,27 @@
         }
       ],
       "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-392",
+      "category": "SOCIAL",
+      "productName": "Social",
+      "promotionText": "Áp dụng từ ngày 14/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "/topleft.jpg",
+        "topRight": "/topleft.jpg",
+        "bottomLeft": "/bottom.jpg"
+      },
+      "pricingTable": [
+        {
+          "size": "",
+          "price": "",
+          "condition": "",
+          "discount": ""
+        }
+      ],
+      "badgePosition": "bottom-right"
     }
   ]
 }
