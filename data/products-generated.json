@@ -2414,6 +2414,12 @@
           "price": "£4.50",
           "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
           "discount": "£3.15"
+        },
+        {
+          "size": "Lemon",
+          "price": "£4.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
+          "discount": "£3.15"
         }
       ],
       "badgePosition": "middle-right"
@@ -2430,12 +2436,6 @@
         "bottomLeft": "/collagen.jpg"
       },
       "pricingTable": [
-        {
-          "size": "Lemon",
-          "price": "£4.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
-          "discount": "£3.15"
-        },
         {
           "size": "Luxury Pearl",
           "price": "£4.50",
