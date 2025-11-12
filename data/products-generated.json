@@ -2548,30 +2548,9 @@
       "badgePosition": "middle-right"
     },
     {
-      "id": "product-18",
-      "category": "La Palm",
-      "productName": "La Palm Cuticle Oil Gallon - Peach",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "4",
-          "price": "£20.00",
-          "condition": "Lẻ OFF 10% - CASE OFF 20% TỪ GIÁ ORIGINAL",
-          "discount": "£18.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
       "id": "product-17",
       "category": "La Palm",
-      "productName": "La Palm Cuticle Oil Gallon - Yellow Pineapple",
+      "productName": "La Palm Cuticle Oil Gallon",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
@@ -2581,28 +2560,19 @@
       },
       "pricingTable": [
         {
-          "size": "4",
+          "size": "Gallon - Peach",
           "price": "£20.00",
           "condition": "Lẻ OFF 10% - CASE OFF 20% TỪ GIÁ ORIGINAL",
           "discount": "£18.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-19",
-      "category": "La Palm",
-      "productName": "La Palm Cuticle Oil Gallon CASE",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "",
+          "size": "Gallon - Yellow Pineapple",
+          "price": "£20.00",
+          "condition": "Lẻ OFF 10% - CASE OFF 20% TỪ GIÁ ORIGINAL",
+          "discount": "£18.00"
+        },
+        {
+          "size": "Case (4 Gallon)",
           "price": "£80.00",
           "condition": "CASE OFF 20% TỪ GIÁ ORIGINAL",
           "discount": "£64.00"
