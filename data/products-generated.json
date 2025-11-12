@@ -2710,6 +2710,18 @@
           "discount": "£10.13"
         }
       ],
+      "scents": [
+        "Cucumber Cashmere",
+        "Eucalyptus",
+        "French Floral",
+        "Fresh Linen",
+        "Honey Pearl",
+        "Lavender Tea",
+        "Lemon",
+        "Lemongrass",
+        "Lilac",
+        "Orange"
+      ],
       "badgePosition": "middle-right"
     },
     {
