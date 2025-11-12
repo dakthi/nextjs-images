@@ -35,20 +35,33 @@ Working through product merges systematically by product type and brand.
 - [x] **products 309-310**: 3D Brush - Merged into product-309
 - [x] **products 277-282**: BlazingStar Brush Standard - Merged into product-277 with sizes 14/16/18 in size column
 
+### Lotion Products (Max 4 Rows Per Card)
+- [x] **product-27**: Split into 4 products (27, 27-2, 27-1, 27-3) - 4 rows each
+- [x] **product-27-2, product-27-3**: Set to middle-right badge position
+- [x] **product-267**: Updated "(4 Gallon)" to Case size labels, removed duplicate OFF text
+
+### Removed Products
+- [x] **All DRILL BIT products** (28 items): product-333, 317, 323, 324, 321, 322, 327, 328, 325, 326, 331, 332, 329, 330, 315, 316, 313, 314, 335, 336, 337, 338, 339, 340, 341, 342, 311, 312
+
+### La Palm Merged Products
+- [x] **product-7, product-8**: Cooling Gel - Merged into product-7 (12oz + Gallon)
+- [x] **product-17, 18, 19**: Cuticle Oil - Merged into product-17 (Peach + Yellow Pineapple + Case)
+- [x] **products 84, 90, 91, 85, 92, 86, 87, 88, 93, 94, 89, 95**: Pedicure Trays - Split into 3 cards (4 rows max each)
+
 ## Pending Work
 
-### To Merge (Similar Pattern Products)
-The following product groups appear to have similar patterns and should be reviewed for merging:
-
-1. **BlazingStar Brush French** - Check if Size 12/14/16 variants need merging
-2. **BlazingStar Brush Gel** - Check if Size 6/8 variants need merging
-3. **BlazingStar Brush Premium Plus** - Check if multiple size variants need consolidation
-4. **BlazingStar Brush Premium Pro** - Check if multiple size variants need consolidation
-5. **BlazingStar File** - Check if variants need consolidation
-6. **Bào Carbide** products - Multiple variants may need consolidation
-7. **Bold Berry Gel Polish** colors/variants - May have redundant entries
-8. **Tip Thường Curve Tip - NATURAL** - Likely similar to other nail tip merges
-9. **La Palm** product variants - Multiple scent/size combinations
+### To Merge (Max 4 Rows Per Card Rule)
+- [ ] **La Palm Sugar Scrub** - 12 variants across types (regular, extreme) and sizes (12oz, bucket, gallon) with 2-3 scents
+- [ ] **La Palm Volcano 6 Step** - 6+ scent variants
+- [ ] **KDS products** - callus remover, deluxe, pedi salt, scrub (need to locate)
+- [ ] **BlazingStar Brush French** - Check if Size 12/14/16 variants need merging
+- [ ] **BlazingStar Brush Gel** - Check if Size 6/8 variants need merging
+- [ ] **BlazingStar Brush Premium Plus** - Check if multiple size variants need consolidation
+- [ ] **BlazingStar Brush Premium Pro** - Check if multiple size variants need consolidation
+- [ ] **BlazingStar File** - Check if variants need consolidation
+- [ ] **Bào Carbide** products - Multiple variants may need consolidation
+- [ ] **Bold Berry Gel Polish** colors/variants - May have redundant entries
+- [ ] **Tip Thường Curve Tip - NATURAL** - Likely similar to other nail tip merges
 
 ### Image Assignment Needed
 - [ ] **product-11**: La Palm Cream Mask 12oz - Orange Tangerine Zest (needs images)
