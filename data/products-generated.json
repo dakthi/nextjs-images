@@ -2332,19 +2332,19 @@
       },
       "pricingTable": [
         {
-          "size": "Single - MÁY HÚT THƯỜNG",
+          "size": "bàn đơn + Máy hút thường",
           "price": "£700.00",
           "condition": "OFF 10%",
           "discount": "£630.00"
         },
         {
-          "size": "Double - MÁY HÚT THƯỜNG",
+          "size": "bàn đôi + máy hút thường",
           "price": "£1200.00",
           "condition": "OFF 10%",
           "discount": "£1080.00"
         },
         {
-          "size": "Triple - MÁY HÚT THƯỜNG",
+          "size": "bàn ba + máy hút thường",
           "price": "£1800.00",
           "condition": "OFF 10%",
           "discount": "£1620.00"
