@@ -1199,7 +1199,7 @@
           "discount": "\u00a3153.00"
         }
       ],
-      "badgePosition": "middle-right",
+      "badgePosition": "bottom-right",
       "scents": [
         "Liquid Coffee",
         "Liquid Traditional Purple",
@@ -3160,9 +3160,9 @@
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/kds4-1.png",
+        "topRight": "/kds4.png",
+        "bottomLeft": "/kds4-2.jpg"
       },
       "pricingTable": [
         {
@@ -3277,6 +3277,50 @@
       "tableTextSize": "base"
     },
     {
+      "id": "product-161",
+      "category": "KDS",
+      "productName": "KDS Scrub",
+      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "/scrub-1.webp",
+        "topRight": "/lemongrass.webp",
+        "bottomLeft": "/scrub-2.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Bucket",
+          "price": "\u00a370.00",
+          "condition": "OFF 10%",
+          "discount": "\u00a363.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "\u00a330.00",
+          "condition": "OFF 10%",
+          "discount": "\u00a327.00"
+        },
+        {
+          "size": "Case (4 Gallon)",
+          "price": "\u00a330.00",
+          "condition": "OFF 10%",
+          "discount": "\u00a327.00"
+        },
+        {
+          "size": "Case (4 Gallon)",
+          "price": "\u00a330.00",
+          "condition": "MUA 3 T\u1eb6NG 1",
+          "discount": "\u00a320.25"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "scents": [
+        "Lemongrass",
+        "Mint"
+      ],
+      "tableTextSize": "base"
+    },
+    {
       "id": "product-180",
       "category": "KDS",
       "productName": "KDS Sugar Scrub",
@@ -3290,39 +3334,15 @@
       "pricingTable": [
         {
           "size": "Bucket",
-          "price": "\u00a370.00",
-          "condition": "OFF 10%",
-          "discount": "\u00a363.00"
-        },
-        {
-          "size": "Bucket",
           "price": "\u00a3105.00",
           "condition": "OFF 10%",
           "discount": "\u00a394.50"
         },
         {
           "size": "Gallon",
-          "price": "\u00a330.00",
-          "condition": "OFF 10%",
-          "discount": "\u00a327.00"
-        },
-        {
-          "size": "Gallon",
           "price": "\u00a335.00",
           "condition": "OFF 10%",
           "discount": "\u00a331.50"
-        },
-        {
-          "size": "Case (4 Gallon)",
-          "price": "\u00a330.00",
-          "condition": "OFF 10%",
-          "discount": "\u00a327.00"
-        },
-        {
-          "size": "Case (4 Gallon)",
-          "price": "\u00a330.00",
-          "condition": "MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a320.25"
         },
         {
           "size": "Case (4 Gallon)",
@@ -3351,15 +3371,13 @@
       ],
       "badgePosition": "middle-right",
       "scents": [
-        "Lemongrass",
-        "Mint",
         "Honey Blossom",
         "Lavender",
         "Lemon",
         "Milk",
         "Orange"
       ],
-      "tableTextSize": "xxs"
+      "tableTextSize": "xs"
     },
     {
       "id": "product-393",
