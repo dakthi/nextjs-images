@@ -1727,15 +1727,21 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 40,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/strong-build-4.png",
+        "topRight": "/strong-build-1.png",
+        "bottomLeft": "/strong-build-2.png"
       },
       "pricingTable": [
         {
           "size": "240ml",
           "price": "£90.00",
-          "condition": "LẺ OFF 10% - MUA 2 TẶNG 1 - TẶNG 2 VỎ ( CHAI TẶNG K TẶNG VỎ ) MIX & MATCH VỚI REVIVE BASE 240 - CHEAPEST FREE",
+          "condition": "LẺ OFF 10%",
+          "discount": "£54.00"
+        },
+        {
+          "size": "240ml",
+          "price": "£90.00",
+          "condition": "MUA 2 TẶNG 1 - TẶNG 2 VỎ - MIX & MATCH VỚI REVIVE BASE 240",
           "discount": "£54.00"
         }
       ],
