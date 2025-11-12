@@ -2977,198 +2977,9 @@
       ]
     },
     {
-      "id": "product-104",
-      "category": "La Palm",
-      "productName": "La Palm Volcano 6 Step - Acacia",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "36",
-          "price": "£4.80",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36 HOẶC HƠN GIẢM 30%",
-          "discount": "£3.36"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-100",
-      "category": "La Palm",
-      "productName": "La Palm Volcano 6 Step - Green Tea & Aloe",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "36",
-          "price": "£4.80",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36 HOẶC HƠN GIẢM 30%",
-          "discount": "£3.36"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-105",
-      "category": "La Palm",
-      "productName": "La Palm Volcano 6 Step - Honeysuckle",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "36",
-          "price": "£4.80",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36 HOẶC HƠN GIẢM 30%",
-          "discount": "£3.36"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-103",
-      "category": "La Palm",
-      "productName": "La Palm Volcano 6 Step - Jasmine",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "36",
-          "price": "£4.80",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36 HOẶC HƠN GIẢM 30%",
-          "discount": "£3.36"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-101",
-      "category": "La Palm",
-      "productName": "La Palm Volcano 6 Step - Lavender Eruption",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "36",
-          "price": "£4.80",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36 HOẶC HƠN GIẢM 30%",
-          "discount": "£3.36"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-102",
-      "category": "La Palm",
-      "productName": "La Palm Volcano 6 Step - Lemongrass Ginger",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "36",
-          "price": "£4.80",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36 HOẶC HƠN GIẢM 30%",
-          "discount": "£3.36"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-97",
-      "category": "La Palm",
-      "productName": "La Palm Volcano 6 Step - Orange No.5",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "36",
-          "price": "£4.80",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36 HOẶC HƠN GIẢM 30%",
-          "discount": "£3.36"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-98",
-      "category": "La Palm",
-      "productName": "La Palm Volcano 6 Step - Romance",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "36",
-          "price": "£4.80",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36 HOẶC HƠN GIẢM 30%",
-          "discount": "£3.36"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-99",
-      "category": "La Palm",
-      "productName": "La Palm Volcano 6 Step - Tropical Citrus",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "36",
-          "price": "£4.80",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36 HOẶC HƠN GIẢM 30%",
-          "discount": "£3.36"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
       "id": "product-96",
       "category": "La Palm",
-      "productName": "La Palm Volcano 6 Step (10 scents ) - Honey Pearl",
+      "productName": "La Palm Volcano",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 30,
       "images": {
@@ -3178,13 +2989,69 @@
       },
       "pricingTable": [
         {
-          "size": "24",
+          "size": "Honey Pearl",
           "price": "£4.80",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36 HOẶC HƠN GIẢM 30%",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24",
+          "discount": "£3.36"
+        },
+        {
+          "size": "Orange No.5",
+          "price": "£4.80",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36",
+          "discount": "£3.36"
+        },
+        {
+          "size": "Romance",
+          "price": "£4.80",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36",
+          "discount": "£3.36"
+        },
+        {
+          "size": "Tropical Citrus",
+          "price": "£4.80",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36",
+          "discount": "£3.36"
+        },
+        {
+          "size": "Green Tea & Aloe",
+          "price": "£4.80",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36",
+          "discount": "£3.36"
+        },
+        {
+          "size": "Lavender Eruption",
+          "price": "£4.80",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36",
+          "discount": "£3.36"
+        },
+        {
+          "size": "Lemongrass Ginger",
+          "price": "£4.80",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36",
+          "discount": "£3.36"
+        },
+        {
+          "size": "Jasmine",
+          "price": "£4.80",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36",
+          "discount": "£3.36"
+        },
+        {
+          "size": "Acacia",
+          "price": "£4.80",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36",
+          "discount": "£3.36"
+        },
+        {
+          "size": "Honeysuckle",
+          "price": "£4.80",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 36",
           "discount": "£3.36"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right",
+      "tableTextSize": "sm",
+      "scents": ["Honey Pearl", "Orange No.5", "Romance", "Tropical Citrus", "Green Tea & Aloe", "Lavender Eruption", "Lemongrass Ginger", "Jasmine", "Acacia", "Honeysuckle"]
     },
     {
       "id": "product-137",
