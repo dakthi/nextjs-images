@@ -17,6 +17,9 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "VL London - Sale Cards",
   description: "Product sale cards with winter theme",
+  icons: {
+    icon: "/vllondon-logo.jpeg",
+  },
 };
 
 export default function RootLayout({
