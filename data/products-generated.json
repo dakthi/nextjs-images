@@ -2280,26 +2280,27 @@
       },
       "pricingTable": [
         {
-          "size": "Single + MÁY HÚT PRO",
+          "size": "BÀN ĐƠN + MÁY HÚT PRO",
           "price": "£1200.00",
           "condition": "",
           "discount": "£1200.00"
         },
         {
-          "size": "Double + MÁY HÚT PRO",
+          "size": "BÀN ĐÔI + MÁY HÚT PRO",
           "price": "£2200.00",
           "condition": "",
           "discount": "£2200.00"
         },
         {
-          "size": "Triple + MÁY HÚT PRO",
+          "size": "BÀN BA + MÁY HÚT PRO",
           "price": "£3300.00",
           "condition": "",
           "discount": "£3300.00"
         }
       ],
       "badgePosition": "bottom-right",
-      "showOnlyLastTwoColumns": true
+      "showOnlyPriceColumn": true,
+      "tableTextSize": "md"
     },
     {
       "id": "product-385",

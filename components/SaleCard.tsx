@@ -26,6 +26,7 @@ interface SaleCardProps {
   badgePosition?: 'middle-right' | 'bottom-right';
   showProductId?: boolean;
   showOnlyLastTwoColumns?: boolean;
+  showOnlyPriceColumn?: boolean;
   imageLabels?: {
     topLeft?: string;
     topRight?: string;
@@ -49,6 +50,7 @@ export default function SaleCard({
   badgePosition = 'middle-right',
   showProductId = false,
   showOnlyLastTwoColumns = false,
+  showOnlyPriceColumn = false,
   imageLabels,
   isChecked = false,
   onCheckChange,
@@ -318,11 +320,13 @@ export default function SaleCard({
                   {!showOnlyLastTwoColumns && (
                     <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>Size</th>
                   )}
-                  {!showOnlyLastTwoColumns && (
-                    <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>Giá gốc</th>
+                  <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>{showOnlyPriceColumn ? 'Giá ưu đãi' : 'Giá gốc'}</th>
+                  {!showOnlyLastTwoColumns && !showOnlyPriceColumn && (
+                    <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>Điều kiện</th>
                   )}
-                  <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>Điều kiện</th>
-                  <th className={`px-2 py-2 text-left font-semibold text-black ${getTableTextSizeClass()}`}>Giảm còn</th>
+                  {!showOnlyPriceColumn && (
+                    <th className={`px-2 py-2 text-left font-semibold text-black ${getTableTextSizeClass()}`}>Giảm còn</th>
+                  )}
                 </tr>
               </thead>
               <tbody>
@@ -331,11 +335,13 @@ export default function SaleCard({
                     {!showOnlyLastTwoColumns && (
                       <td className={`px-2 py-2 border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>{row.size}</td>
                     )}
-                    {!showOnlyLastTwoColumns && (
-                      <td className={`px-2 py-2 border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>{row.price}</td>
+                    <td className={`px-2 py-2 border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>{row.price}</td>
+                    {!showOnlyLastTwoColumns && !showOnlyPriceColumn && (
+                      <td className={`px-2 py-2 border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>{row.condition}</td>
                     )}
-                    <td className={`px-2 py-2 border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>{row.condition}</td>
-                    <td className={`px-2 py-2 font-bold text-black ${getTableDiscountSizeClass()}`}>{row.discount}</td>
+                    {!showOnlyPriceColumn && (
+                      <td className={`px-2 py-2 font-bold text-black ${getTableDiscountSizeClass()}`}>{row.discount}</td>
+                    )}
                   </tr>
                 ))}
               </tbody>
