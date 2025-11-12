@@ -2692,6 +2692,27 @@
       "badgePosition": "middle-right"
     },
     {
+      "id": "product-115-test",
+      "category": "La Palm",
+      "productName": "La Palm Fragrance Oil 2oz",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 32,
+      "images": {
+        "topLeft": "/fragrance-3.png",
+        "topRight": "/fragrance-2.jpeg",
+        "bottomLeft": "/fragrance.png"
+      },
+      "pricingTable": [
+        {
+          "size": "2oz (59ml)",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        }
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
       "id": "product-115-2",
       "category": "La Palm",
       "productName": "La Palm Fragrance Oil 2oz",
