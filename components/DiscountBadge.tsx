@@ -24,7 +24,7 @@ export default function DiscountBadge({
   };
 
   const positionClasses = {
-    'middle-right': 'top-[27%] right-2 -translate-y-1/2',
+    'middle-right': 'top-[20%] right-2 -translate-y-1/2',
     'bottom-right': 'bottom-4 right-4',
   };
 
