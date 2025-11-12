@@ -99,6 +99,12 @@ export default function SaleCard({
       return 'bg-red-100 border-red-300 text-red-800';
     }
 
+    // White/Light scents (check early to avoid conflicts)
+    if (scentsLower.includes('white') || scentsLower.includes('milky') ||
+        scentsLower.includes('soft')) {
+      return 'bg-gray-100 border-gray-300 text-gray-800';
+    }
+
     // Teal/Cool Mint scents
     if (scentsLower.includes('mint') || scentsLower.includes('spearmint') ||
         scentsLower.includes('peppermint') || scentsLower.includes('cool') ||

@@ -192,7 +192,7 @@
     {
       "id": "product-185",
       "category": "B\u1ed8T ACRYLIC + OMBRE",
-      "productName": "BlazingStar Maxx Perform Powder - Milky/Soft/French White",
+      "productName": "BlazingStar Maxx Perform Powder",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 0,
       "images": {
@@ -207,6 +207,11 @@
           "condition": "MUA >=4 GI\u1ea2M 20% - MIX & MATCH",
           "discount": "\u00a340.00"
         }
+      ],
+      "scents": [
+        "Milky White",
+        "Soft White",
+        "French White"
       ],
       "badgePosition": "bottom-right"
     },
@@ -1166,13 +1171,13 @@
     {
       "id": "product-275",
       "category": "ACRYLIC LIQUID",
-      "productName": "BlazingStar Liquid Coffee Purple/Clear - LIQUID TH\u01af\u1edcNG M\u00d9I COFFEE",
+      "productName": "BlazingStar Liquid",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/liquid-7.jpg",
+        "topRight": "/liquid-5.jpeg",
+        "bottomLeft": "/liquid-6.jpg"
       },
       "pricingTable": [
         {
@@ -1194,7 +1199,12 @@
           "discount": "\u00a3153.00"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right",
+      "scents": [
+        "Liquid Coffee",
+        "Liquid Traditional Purple",
+        "Traditional Clear"
+      ]
     },
     {
       "id": "product-270",
@@ -2373,13 +2383,25 @@
         {
           "size": "Gallon",
           "price": "\u00a330.00",
-          "condition": "OFF 10% MUA 3 T\u1eb6NG 1",
+          "condition": "OFF 10%",
+          "discount": "\u00a327.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "\u00a330.00",
+          "condition": "MUA 3 T\u1eb6NG 1",
           "discount": "\u00a320.25"
         },
         {
           "size": "Gallon Extreme",
           "price": "\u00a340.00",
-          "condition": "OFF 10% MUA 3 T\u1eb6NG 1",
+          "condition": "OFF 10%",
+          "discount": "\u00a336.00"
+        },
+        {
+          "size": "Gallon Extreme",
+          "price": "\u00a340.00",
+          "condition": "MUA 3 T\u1eb6NG 1",
           "discount": "\u00a327.00"
         }
       ],
@@ -2436,13 +2458,13 @@
     {
       "id": "product-7",
       "category": "La Palm",
-      "productName": "La Palm Cooling Gel Aloe Vera",
+      "productName": "La Palm Cooling Gel",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/cool-1.png",
+        "topRight": "/cool.png",
+        "bottomLeft": "/cool-2.jpg"
       },
       "pricingTable": [
         {
@@ -2454,11 +2476,21 @@
         {
           "size": "Gallon",
           "price": "\u00a330.00",
-          "condition": "OFF 10% MUA 3 T\u1eb6NG 1",
+          "condition": "OFF 10%",
+          "discount": "\u00a327.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "\u00a330.00",
+          "condition": "MUA 3 T\u1eb6NG 1",
           "discount": "\u00a320.25"
         }
       ],
-      "badgePosition": "bottom-right"
+      "scents": [
+        "Aloe Vera"
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
     },
     {
       "id": "product-9",
@@ -2481,7 +2513,13 @@
         {
           "size": "Gallon",
           "price": "\u00a330.00",
-          "condition": "OFF 10% MUA 3 T\u1eb6NG 1",
+          "condition": "OFF 10%",
+          "discount": "\u00a327.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "\u00a330.00",
+          "condition": "MUA 3 T\u1eb6NG 1",
           "discount": "\u00a320.25"
         }
       ],
@@ -2500,9 +2538,9 @@
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/oil-1.png",
+        "topRight": "/oil-2.png",
+        "bottomLeft": "/oil.jpg"
       },
       "pricingTable": [
         {
@@ -2524,7 +2562,8 @@
           "discount": "\u00a364.00"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
     },
     {
       "id": "product-21",
@@ -2629,7 +2668,13 @@
         {
           "size": "2oz (59ml)",
           "price": "\u00a315.00",
-          "condition": "OFF 10% - MUA 3 T\u1eb6NG 1",
+          "condition": "OFF 10%",
+          "discount": "\u00a313.50"
+        },
+        {
+          "size": "2oz (59ml)",
+          "price": "\u00a315.00",
+          "condition": "MUA 3 T\u1eb6NG 1",
           "discount": "\u00a310.13"
         }
       ],
@@ -2678,7 +2723,13 @@
         {
           "size": "Gallon",
           "price": "\u00a325.00",
-          "condition": "OFF 10% MUA 3 T\u1eb6NG 1",
+          "condition": "OFF 10%",
+          "discount": "\u00a322.50"
+        },
+        {
+          "size": "Gallon",
+          "price": "\u00a325.00",
+          "condition": "MUA 3 T\u1eb6NG 1",
           "discount": "\u00a316.88"
         },
         {
@@ -2788,7 +2839,13 @@
         {
           "size": "Gallon - Cucumber",
           "price": "\u00a330.00",
-          "condition": "OFF 10% MUA 3 T\u1eb6NG 1",
+          "condition": "OFF 10%",
+          "discount": "\u00a327.00"
+        },
+        {
+          "size": "Gallon - Cucumber",
+          "price": "\u00a330.00",
+          "condition": "MUA 3 T\u1eb6NG 1",
           "discount": "\u00a320.25"
         }
       ],
@@ -2883,9 +2940,9 @@
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 32,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/salt.jpg",
+        "topRight": "/salt-1.jpg",
+        "bottomLeft": "/salt-2.jpg"
       },
       "pricingTable": [
         {
@@ -3183,9 +3240,9 @@
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/ksalt.jpg",
+        "topRight": "/ksalt-1.webp",
+        "bottomLeft": "/ksalt-2.webp"
       },
       "pricingTable": [
         {
@@ -3195,33 +3252,40 @@
           "discount": "\u00a354.00"
         },
         {
-          "size": "GAL",
+          "size": "Gallon",
           "price": "\u00a320.00",
           "condition": "OFF 10%",
           "discount": "\u00a318.00"
         },
         {
-          "size": "GAL 4",
+          "size": "Case (4 Gallon)",
           "price": "\u00a320.00",
-          "condition": "OFF 10%, MUA 3 T\u1eb6NG 1",
+          "condition": "OFF 10%",
+          "discount": "\u00a318.00"
+        },
+        {
+          "size": "Case (4 Gallon)",
+          "price": "\u00a320.00",
+          "condition": "MUA 3 T\u1eb6NG 1",
           "discount": "\u00a313.50"
         }
       ],
       "badgePosition": "middle-right",
       "scents": [
         "Mint"
-      ]
+      ],
+      "tableTextSize": "base"
     },
     {
-      "id": "product-161",
+      "id": "product-180",
       "category": "KDS",
-      "productName": "KDS Scrub",
+      "productName": "KDS Sugar Scrub",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/kscrub-1.webp",
+        "topRight": "/kscrub-2.jpg",
+        "bottomLeft": "/kscrub.webp"
       },
       "pricingTable": [
         {
@@ -3231,193 +3295,71 @@
           "discount": "\u00a363.00"
         },
         {
-          "size": "GAL",
-          "price": "\u00a330.00",
-          "condition": "OFF 10%",
-          "discount": "\u00a327.00"
-        },
-        {
-          "size": "GAL 4",
-          "price": "\u00a330.00",
-          "condition": "OFF 10%, MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a320.25"
-        }
-      ],
-      "badgePosition": "middle-right",
-      "scents": [
-        "Lemongrass",
-        "Mint"
-      ]
-    },
-    {
-      "id": "product-172",
-      "category": "KDS",
-      "productName": "KDS Scrub Sugar 18oz - Honey Blossom",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
-      "discountPercentage": 28,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "27",
-          "price": "\u00a318.00",
-          "condition": "OFF 10%, MUA 4 T\u1eb6NG 1",
-          "discount": "\u00a312.96"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-169",
-      "category": "KDS",
-      "productName": "KDS Scrub Sugar 18oz - Lavender",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
-      "discountPercentage": 28,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "27",
-          "price": "\u00a318.00",
-          "condition": "OFF 10%, MUA 4 T\u1eb6NG 1",
-          "discount": "\u00a312.96"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-171",
-      "category": "KDS",
-      "productName": "KDS Scrub Sugar 18oz - Lemon",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
-      "discountPercentage": 28,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "27",
-          "price": "\u00a318.00",
-          "condition": "OFF 10%, MUA 4 T\u1eb6NG 1",
-          "discount": "\u00a312.96"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-170",
-      "category": "KDS",
-      "productName": "KDS Scrub Sugar 18oz - Milk",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
-      "discountPercentage": 28,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "27",
-          "price": "\u00a318.00",
-          "condition": "OFF 10%, MUA 4 T\u1eb6NG 1",
-          "discount": "\u00a312.96"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-167",
-      "category": "KDS",
-      "productName": "KDS Scrub Sugar 18oz - Orange",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "",
-          "price": "\u00a318.00",
-          "condition": "OFF 10% SL<4",
-          "discount": "\u00a316.20"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-168",
-      "category": "KDS",
-      "productName": "KDS Scrub Sugar 18oz - Orange",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
-      "discountPercentage": 28,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "27",
-          "price": "\u00a318.00",
-          "condition": "OFF 10%, MUA 4 T\u1eb6NG 1",
-          "discount": "\u00a312.96"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-180",
-      "category": "KDS",
-      "productName": "KDS Sugar Scrub",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
           "size": "Bucket",
           "price": "\u00a3105.00",
           "condition": "OFF 10%",
           "discount": "\u00a394.50"
         },
         {
-          "size": "GAL",
+          "size": "Gallon",
+          "price": "\u00a330.00",
+          "condition": "OFF 10%",
+          "discount": "\u00a327.00"
+        },
+        {
+          "size": "Gallon",
           "price": "\u00a335.00",
-          "condition": "OFF 10% SL<3",
+          "condition": "OFF 10%",
           "discount": "\u00a331.50"
         },
         {
-          "size": "GAL 4",
+          "size": "Case (4 Gallon)",
+          "price": "\u00a330.00",
+          "condition": "OFF 10%",
+          "discount": "\u00a327.00"
+        },
+        {
+          "size": "Case (4 Gallon)",
+          "price": "\u00a330.00",
+          "condition": "MUA 3 T\u1eb6NG 1",
+          "discount": "\u00a320.25"
+        },
+        {
+          "size": "Case (4 Gallon)",
           "price": "\u00a335.00",
-          "condition": "OFF 10%, MUA 3 T\u1eb6NG 1",
+          "condition": "OFF 10%",
           "discount": "\u00a331.50"
         },
         {
-          "size": "CASE 4",
+          "size": "Case (4 Gallon)",
+          "price": "\u00a335.00",
+          "condition": "MUA 3 T\u1eb6NG 1",
+          "discount": "\u00a331.50"
+        },
+        {
+          "size": "Case (16 Gallon)",
           "price": "\u00a3140.00",
-          "condition": "OFF 10%, MUA 3 T\u1eb6NG 1",
+          "condition": "OFF 10%",
+          "discount": "\u00a3126.00"
+        },
+        {
+          "size": "Case (16 Gallon)",
+          "price": "\u00a3140.00",
+          "condition": "MUA 3 T\u1eb6NG 1",
           "discount": "\u00a394.50"
         }
       ],
       "badgePosition": "middle-right",
       "scents": [
+        "Lemongrass",
+        "Mint",
         "Honey Blossom",
+        "Lavender",
+        "Lemon",
         "Milk",
         "Orange"
-      ]
+      ],
+      "tableTextSize": "xxs"
     },
     {
       "id": "product-393",
