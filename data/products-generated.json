@@ -1699,25 +1699,19 @@
       },
       "pricingTable": [
         {
-          "size": "15ml - Single",
-          "price": "£8.00",
-          "condition": "SL <6",
-          "discount": "£8.00"
-        },
-        {
-          "size": "15ml - Pack of 6+",
+          "size": "15ml",
           "price": "£8.00",
           "condition": "SL >=6 OFF 10%",
           "discount": "£7.20"
         },
         {
-          "size": "15ml - Box of 6",
+          "size": "15ml - hộp 6 lọ cùng màu",
           "price": "£43.20",
           "condition": "",
           "discount": "£43.20"
         },
         {
-          "size": "15ml - Set 36 colors",
+          "size": "15ml - Set 36 màu",
           "price": "£288.00",
           "condition": "OFF 20% TỪ GIÁ ORIGINAL",
           "discount": "£230.40"
