@@ -1973,7 +1973,8 @@
           "discount": "£160.00"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "bottom-right",
+      "tableTextSize": "lg"
     },
     {
       "id": "product-366-1",
