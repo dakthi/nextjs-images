@@ -40,7 +40,7 @@ parsed.data.forEach((row) => {
     id: `product-${productId++}`,
     category: row.CATEGORIES,
     productName: row['Product Name'],
-    promotionText: "ÁP DỤNG TỪ NGÀY 14/11 ĐẾN HẾT NGÀY 30/11",
+    promotionText: "ÁP DỤNG TỪ NGÀY 16/11 ĐẾN HẾT NGÀY 30/11",
     discountPercentage: discountPercentage,
     images: {
       topLeft: "/vllondon-logo.jpeg",
