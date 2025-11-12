@@ -34,3 +34,6 @@ next-env.d.ts
 
 # public folder
 /public
+/public-organized
+
+/app/generated/prisma
