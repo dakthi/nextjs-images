@@ -2478,7 +2478,7 @@
     {
       "id": "product-7",
       "category": "La Palm",
-      "productName": "La Palm Cooling Gel 12oz - Aloe Vera",
+      "productName": "La Palm Cooling Gel Aloe Vera",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
@@ -2488,28 +2488,13 @@
       },
       "pricingTable": [
         {
-          "size": "12",
+          "size": "12oz",
           "price": "£8.00",
           "condition": "",
           "discount": "£8.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-8",
-      "category": "La Palm",
-      "productName": "La Palm Cooling Gel Gallon - Aloe Vera",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "Gallon",
           "price": "£30.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£20.25"
