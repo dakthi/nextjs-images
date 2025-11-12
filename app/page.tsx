@@ -498,7 +498,6 @@ export default function Home() {
       {/* Visible cards for UI */}
       <div className="space-y-8">
         {productsData.products
-          .filter(product => selectedProducts.has(product.id))
           .map((product, index) => (
           <div key={`visible-${product.id}`}>
             <SaleCard
@@ -522,6 +521,17 @@ export default function Home() {
                 product.id === 'product-377' ? { topLeft: 'Etan', topRight: 'Kaylee', bottomLeft: 'Velda' } :
                 undefined
               }
+              isChecked={selectedProducts.has(product.id)}
+              onCheckChange={(checked) => {
+                const newSelected = new Set(selectedProducts);
+                if (checked) {
+                  newSelected.add(product.id);
+                } else {
+                  newSelected.delete(product.id);
+                }
+                setSelectedProducts(newSelected);
+              }}
+              scents={(product as any).scents}
             />
           </div>
         ))}
@@ -566,6 +576,7 @@ export default function Home() {
                 product.id === 'product-377' ? { topLeft: 'Etan', topRight: 'Kaylee', bottomLeft: 'Velda' } :
                 undefined
               }
+              scents={(product as any).scents}
             />
           </div>
         ))}

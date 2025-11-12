@@ -30,6 +30,9 @@ interface SaleCardProps {
     topRight?: string;
     bottomLeft?: string;
   };
+  isChecked?: boolean;
+  onCheckChange?: (checked: boolean) => void;
+  scents?: string[];
 }
 
 export default function SaleCard({
@@ -45,6 +48,9 @@ export default function SaleCard({
   showProductId = false,
   showOnlyLastTwoColumns = false,
   imageLabels,
+  isChecked = false,
+  onCheckChange,
+  scents,
 }: SaleCardProps) {
   const textRef = useRef<HTMLParagraphElement>(null);
 
@@ -78,6 +84,16 @@ export default function SaleCard({
         className="w-full h-auto rounded-lg"
         style={{ display: 'block' }}
       />
+
+      {/* Checkbox - Top Left */}
+      <div className="absolute top-3 left-3 z-30">
+        <input
+          type="checkbox"
+          checked={isChecked}
+          onChange={(e) => onCheckChange?.(e.target.checked)}
+          className="w-6 h-6 cursor-pointer accent-blue-600"
+        />
+      </div>
 
       {/* Penguin Sale Corner - Top Left */}
       <div className="absolute -top-4 -left-4 w-48 h-48 z-20">
@@ -161,8 +177,8 @@ export default function SaleCard({
           </div>
         )}
 
-        {/* BOTTOM RIGHT QUADRANT - Pricing Table */}
-        <div className="flex items-start justify-start p-1">
+        {/* BOTTOM RIGHT QUADRANT - Pricing Table & Scents */}
+        <div className="flex flex-col items-start justify-start p-1 gap-1">
           <div className="bg-white/95 backdrop-blur-sm rounded-lg shadow-2xl overflow-hidden w-auto">
             <table className="w-full font-[family-name:var(--font-montserrat)] text-black">
               <thead>
@@ -193,6 +209,22 @@ export default function SaleCard({
               </tbody>
             </table>
           </div>
+
+          {/* Scents Box - Only visible when scents are provided */}
+          {scents && scents.length > 0 && (
+            <div className="bg-white/95 backdrop-blur-sm rounded-lg shadow-xl px-3 py-2 text-black w-auto">
+              <div className="flex flex-wrap gap-2">
+                {scents.map((scent, index) => (
+                  <span
+                    key={index}
+                    className="text-xs bg-gray-100 border border-gray-300 rounded-full px-2 py-1 font-[family-name:var(--font-montserrat)]"
+                  >
+                    {scent}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
