@@ -214,14 +214,29 @@ export default function SaleCard({
           {scents && scents.length > 0 && (
             <div className="bg-white/95 backdrop-blur-sm rounded-lg shadow-xl px-3 py-2 text-black w-auto">
               <div className="flex flex-wrap gap-2">
-                {scents.map((scent, index) => (
-                  <span
-                    key={index}
-                    className="text-xs bg-gray-100 border border-gray-300 rounded-full px-2 py-1 font-[family-name:var(--font-montserrat)]"
-                  >
-                    {scent}
-                  </span>
-                ))}
+                {scents.map((scent, index) => {
+                  const colors = [
+                    'bg-pink-100 border-pink-300 text-pink-800',
+                    'bg-purple-100 border-purple-300 text-purple-800',
+                    'bg-blue-100 border-blue-300 text-blue-800',
+                    'bg-green-100 border-green-300 text-green-800',
+                    'bg-yellow-100 border-yellow-300 text-yellow-800',
+                    'bg-orange-100 border-orange-300 text-orange-800',
+                    'bg-red-100 border-red-300 text-red-800',
+                    'bg-indigo-100 border-indigo-300 text-indigo-800',
+                    'bg-cyan-100 border-cyan-300 text-cyan-800',
+                    'bg-teal-100 border-teal-300 text-teal-800',
+                  ];
+                  const colorClass = colors[index % colors.length];
+                  return (
+                    <span
+                      key={index}
+                      className={`text-xs border rounded-full px-2 py-1 font-[family-name:var(--font-montserrat)] ${colorClass}`}
+                    >
+                      {scent}
+                    </span>
+                  );
+                })}
               </div>
             </div>
           )}
