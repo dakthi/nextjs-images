@@ -2765,13 +2765,13 @@
       },
       "pricingTable": [
         {
-          "size": "Purple / Clear / Mango",
+          "size": "Can",
           "price": "£50.00",
           "condition": "",
           "discount": "£50.00"
         },
         {
-          "size": "Purple / Clear / Mango (Case)",
+          "size": "Thùng",
           "price": "£200.00",
           "condition": "OFF 10%",
           "discount": "£180.00"
