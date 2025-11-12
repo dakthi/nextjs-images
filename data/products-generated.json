@@ -2066,32 +2066,32 @@
       },
       "pricingTable": [
         {
-          "size": "Đèn có dây",
+          "size": "Có dây",
           "price": "£110.00",
           "condition": "MUA < 4 OFF 10%",
           "discount": "£99.00"
         },
         {
-          "size": "Đèn có dây",
+          "size": "Có dây",
           "price": "£110.00",
           "condition": "MUA >=4 OFF 20%",
           "discount": "£88.00"
         },
         {
-          "size": "Đèn không dây",
+          "size": "Không dây",
           "price": "£140.00",
           "condition": "MUA < 4 OFF 10%",
           "discount": "£126.00"
         },
         {
-          "size": "Đèn không dây",
+          "size": "Không dây",
           "price": "£140.00",
           "condition": "MUA >=4 OFF 20%",
           "discount": "£112.00"
         }
       ],
       "badgePosition": "middle-right",
-      "tableTextSize": "base"
+      "tableTextSize": "sm"
     },
     {
       "id": "product-371",
