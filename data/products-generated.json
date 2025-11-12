@@ -3184,240 +3184,9 @@
       "badgePosition": "bottom-right"
     },
     {
-      "id": "product-90",
-      "category": "La Palm",
-      "productName": "La Palm Pedicure Trays 4 step - Aloe Vera CBD",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-91",
-      "category": "La Palm",
-      "productName": "La Palm Pedicure Trays 4 step - Lemongrass & Ginger CBD",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-85",
-      "category": "La Palm",
-      "productName": "La Palm Pedicure Trays 4 step - Matcha Green Tea",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-92",
-      "category": "La Palm",
-      "productName": "La Palm Pedicure Trays 4 step - Milk & Honey CBD",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-86",
-      "category": "La Palm",
-      "productName": "La Palm Pedicure Trays 4 step - No.5",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-87",
-      "category": "La Palm",
-      "productName": "La Palm Pedicure Trays 4 step - Ocean Pearl",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-88",
-      "category": "La Palm",
-      "productName": "La Palm Pedicure Trays 4 step - Orange Tangerine Zest",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-93",
-      "category": "La Palm",
-      "productName": "La Palm Pedicure Trays 4 step - Pure Peppermint CBD",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-94",
-      "category": "La Palm",
-      "productName": "La Palm Pedicure Trays 4 step - Romantic Rose CBD",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-89",
-      "category": "La Palm",
-      "productName": "La Palm Pedicure Trays 4 step - Sweet Lavender Fields",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-95",
-      "category": "La Palm",
-      "productName": "La Palm Pedicure Trays 4 step - Tropical Island Mango CBD",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
       "id": "product-84",
       "category": "La Palm",
-      "productName": "La Palm Pedicure Trays 4 step( 12 MÙI) - Lemon Lime",
+      "productName": "La Palm Pedicure Trays 4 step",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 30,
       "images": {
@@ -3427,7 +3196,103 @@
       },
       "pricingTable": [
         {
-          "size": "24",
+          "size": "Aloe Vera CBD - 24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        },
+        {
+          "size": "Lemongrass & Ginger CBD - 24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        },
+        {
+          "size": "Matcha Green Tea - 24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        },
+        {
+          "size": "Milk & Honey CBD - 24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-84-2",
+      "category": "La Palm",
+      "productName": "La Palm Pedicure Trays 4 step",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "No.5 - 24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        },
+        {
+          "size": "Ocean Pearl - 24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        },
+        {
+          "size": "Orange Tangerine Zest - 24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        },
+        {
+          "size": "Pure Peppermint CBD - 24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-84-3",
+      "category": "La Palm",
+      "productName": "La Palm Pedicure Trays 4 step",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Romantic Rose CBD - 24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        },
+        {
+          "size": "Sweet Lavender Fields - 24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        },
+        {
+          "size": "Tropical Island Mango CBD - 24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        },
+        {
+          "size": "Lemon Lime - 24",
           "price": "£2.50",
           "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
           "discount": "£1.75"
