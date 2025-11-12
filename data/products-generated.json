@@ -2353,8 +2353,8 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/callus-2.png",
-        "topRight": "/callus-2.png",
+        "topLeft": "/callus.png",
+        "topRight": "/callus-1.png",
         "bottomLeft": "/callus-2.png"
       },
       "pricingTable": [
