@@ -2711,33 +2711,7 @@
           "price": "£7.00",
           "condition": "OFF 10% MUA TRÊN 3",
           "discount": "£6.30"
-        }
-      ],
-      "scents": [
-        "Coconut Cream",
-        "French Rose",
-        "Green Tea",
-        "Lavender Purple",
-        "Lemon",
-        "Lychee Lemongrass",
-        "Mango",
-        "Tropical Citrus"
-      ],
-      "badgePosition": "middle-right",
-      "tableTextSize": "base"
-    },
-    {
-      "id": "product-27-1",
-      "category": "La Palm",
-      "productName": "La Palm Lotion",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/lotion.jpg",
-        "topRight": "/lotion-2.jpg",
-        "bottomLeft": "/lotion-1.jpg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "Gallon",
           "price": "£25.00",
