@@ -57,7 +57,19 @@ Working through product merges systematically by product type and brand.
 - [x] **product-42 (Massage Oil Gallon)**: Simplified to single size, uses scents prop for 3 scents, larger table text (base), badge to middle-right
 
 ### Component Enhancements
+- [x] **Added `badgePosition` prop** to SaleCard component - Controls badge placement on product card:
+  - `"bottom-right"` - Default position (bottom right of card)
+  - `"middle-right"` - Recommended for merged products with scents (center-right of card for better visibility)
+  - Used when merging multiple variants/scents into single card to distinguish from basic product cards
+
+- [x] **Added `scents` prop** to SaleCard component - Displays scent/flavor variants as colored badges:
+  - Array of scent names that appear as interactive color-coded badges on card
+  - Used for products with multiple flavor/scent options (e.g., fragrances, scrubs, specialty items)
+  - Replaces individual product listings when consolidating scent variants
+  - Semantic color mapping applied automatically based on scent keywords
+
 - [x] **Added `tableTextSize` prop** to SaleCard component - Controls pricing table text size (xs/sm/base/lg/xl)
+
 - [x] **Added semantic scent color mapping** - Scents now display with colors based on their type:
   - Green: Aloe, Eucalyptus, Lemongrass, Green Tea, Tea Tree, Spearmint
   - Yellow: Lemon, Citrus

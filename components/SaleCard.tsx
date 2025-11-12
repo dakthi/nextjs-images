@@ -35,7 +35,7 @@ interface SaleCardProps {
   isChecked?: boolean;
   onCheckChange?: (checked: boolean) => void;
   scents?: string[];
-  tableTextSize?: 'xs' | 'sm' | 'base' | 'lg' | 'xl';
+  tableTextSize?: 'xxs' | 'xs' | 'sm' | 'base' | 'lg' | 'xl';
 }
 
 export default function SaleCard({
@@ -62,6 +62,7 @@ export default function SaleCard({
   // Map size prop to Tailwind classes
   const getTableTextSizeClass = () => {
     const sizeMap: Record<string, string> = {
+      xxs: 'text-xs leading-tight px-1 py-1',
       xs: 'text-xs',
       sm: 'text-sm',
       base: 'text-base',
@@ -73,6 +74,7 @@ export default function SaleCard({
 
   const getTableDiscountSizeClass = () => {
     const sizeMap: Record<string, string> = {
+      xxs: 'text-xs leading-tight',
       xs: 'text-sm',
       sm: 'text-base',
       base: 'text-lg',
