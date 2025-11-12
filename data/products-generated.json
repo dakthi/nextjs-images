@@ -2332,19 +2332,19 @@
       },
       "pricingTable": [
         {
-          "size": "bàn đơn + Máy hút thường",
+          "size": "Bàn đơn + máy hút thường",
           "price": "£700.00",
           "condition": "OFF 10%",
           "discount": "£630.00"
         },
         {
-          "size": "bàn đôi + máy hút thường",
+          "size": "Bàn đôi + máy hút thường",
           "price": "£1200.00",
           "condition": "OFF 10%",
           "discount": "£1080.00"
         },
         {
-          "size": "bàn ba + máy hút thường",
+          "size": "Bàn ba + máy hút thường",
           "price": "£1800.00",
           "condition": "OFF 10%",
           "discount": "£1620.00"
