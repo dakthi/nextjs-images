@@ -601,13 +601,13 @@
     {
       "id": "product-225-1",
       "category": "SƠN GEL POLISH",
-      "productName": "MBerry Gel Polish 15ml - Lẻ",
+      "productName": "MBerry Gel Polish",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/mgel.png",
+        "topRight": "/mgel-1.png",
+        "bottomLeft": "/mgel-2.png"
       },
       "pricingTable": [
         {
