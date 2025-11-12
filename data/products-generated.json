@@ -150,7 +150,7 @@
     {
       "id": "product-184",
       "category": "B\u1ed8T ACRYLIC + OMBRE",
-      "productName": "BlazingStar Maxx Perform Powder - Medium/Fast Set - Clear Gel 23oz",
+      "productName": "BlazingStar Maxx Perform Powder",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 20,
       "images": {
@@ -165,6 +165,11 @@
           "condition": "MUA >=3 GI\u1ea2M 20%",
           "discount": "\u00a332.00"
         }
+      ],
+      "scents": [
+        "Medium Set",
+        "Fast Set",
+        "Clear Gel"
       ],
       "badgePosition": "bottom-right"
     },
@@ -1400,22 +1405,7 @@
           "price": "\u00a335.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
           "discount": "\u00a328.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-283-a",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus - L\u00d4NG M\u1ec0M",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "12 - C\u00c1N TR\u00d2N + NH\u1eccN",
           "price": "\u00a340.00",
@@ -1439,22 +1429,7 @@
           "price": "\u00a345.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
           "discount": "\u00a336.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-283-c",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus - L\u00d4NG M\u1ec0M",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
           "size": "16 - C\u00c1N TR\u00d2N + NH\u1eccN",
           "price": "\u00a350.00",
