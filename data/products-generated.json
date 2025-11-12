@@ -573,7 +573,7 @@
     {
       "id": "product-225",
       "category": "SƠN GEL POLISH",
-      "productName": "MBerry Gel Polish / Gel Top / Gel Base 15ml - Lẻ",
+      "productName": "MBerry Gel Top 480ml",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
@@ -583,7 +583,55 @@
       },
       "pricingTable": [
         {
-          "size": "Lẻ",
+          "size": "480ml",
+          "price": "£5.50",
+          "condition": "OFF 10%",
+          "discount": "£4.95"
+        },
+        {
+          "size": "480ml",
+          "price": "£5.50",
+          "condition": "SL < 12 CHAI",
+          "discount": "£5.50"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-225-1",
+      "category": "SƠN GEL POLISH",
+      "productName": "MBerry Gel Polish 15ml - Lẻ",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "15ml",
+          "price": "£5.50",
+          "condition": "SL < 12 CHAI",
+          "discount": "£5.50"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-225-2",
+      "category": "SƠN GEL POLISH",
+      "productName": "MBerry Gel Base 15ml - Lẻ",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "15ml",
           "price": "£5.50",
           "condition": "SL < 12 CHAI",
           "discount": "£5.50"
