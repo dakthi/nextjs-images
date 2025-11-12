@@ -2531,6 +2531,12 @@
           "price": "£30.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£20.25"
+        },
+        {
+          "size": "Gallon - Orange Tangerine Zest",
+          "price": "£30.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£20.25"
         }
       ],
       "badgePosition": "middle-right"
