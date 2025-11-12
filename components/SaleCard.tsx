@@ -3,6 +3,7 @@
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import fitty from 'fitty';
+import DiscountBadge from './DiscountBadge';
 
 interface PricingRow {
   size: string;
@@ -373,20 +374,13 @@ export default function SaleCard({
         </div>
       </div>
 
-      {/* Discount Badge */}
-      <div className={`absolute z-50 ${
-        badgePosition === 'bottom-right'
-          ? 'bottom-4 right-4'
-          : 'top-[36%] right-2 -translate-y-1/2'
-      }`}>
-        <Image
-          src="/discount-badge-10.png"
-          alt="10% discount"
-          width={140}
-          height={140}
-          className="object-contain"
-        />
-      </div>
+      {/* Discount Badge - Red Starburst */}
+      <DiscountBadge
+        discountPercentage={10}
+        position={badgePosition}
+        size="medium"
+        scale={0.75}
+      />
 
       {/* Background Overlay - Full size on top */}
       <div className="absolute inset-0 z-50 pointer-events-none">
