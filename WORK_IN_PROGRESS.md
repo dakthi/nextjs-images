@@ -47,6 +47,26 @@ Working through product merges systematically by product type and brand.
 - [x] **product-7, product-8**: Cooling Gel - Merged into product-7 (12oz + Gallon)
 - [x] **product-17, 18, 19**: Cuticle Oil - Merged into product-17 (Peach + Yellow Pineapple + Case)
 - [x] **products 84, 90, 91, 85, 92, 86, 87, 88, 93, 94, 89, 95**: Pedicure Trays - Split into 3 cards (4 rows max each)
+- [x] **product-115-test**: Fragrance Oil - Consolidated main product with 20 scents (Aloe Vera added)
+- [x] **products 115, 115-1, 115-2, 115-3**: Fragrance Oil duplicates - Removed, kept only product-115-test
+- [x] **product-53**: Jojoba Scrub - Merged 2 products into 1, uses scents prop for 3 scents, badge to middle-right
+- [x] **product-107 (Collagen)**: Merged 2 products into 1, uses scents prop for 8 scents, smaller table text (sm)
+- [x] **product-9 (Cream Mask)**: Simplified pricing, uses scents prop for 3 scents (removed Orange from Gallon per CSV), larger table text (base), badge to middle-right
+- [x] **product-3 (Callus Remover)**: Simplified pricing, uses scents prop for 2 scents, badge to middle-right
+- [x] **product-27 (Lotion)**: Simplified to single size, uses scents prop for 4 scents, larger table text (base), badge to middle-right
+- [x] **product-42 (Massage Oil Gallon)**: Simplified to single size, uses scents prop for 3 scents, larger table text (base), badge to middle-right
+
+### Component Enhancements
+- [x] **Added `tableTextSize` prop** to SaleCard component - Controls pricing table text size (xs/sm/base/lg/xl)
+- [x] **Added semantic scent color mapping** - Scents now display with colors based on their type:
+  - Green: Aloe, Eucalyptus, Lemongrass, Green Tea, Tea Tree, Spearmint
+  - Yellow: Lemon, Citrus
+  - Orange: Orange, Tangerine
+  - Pink: Rose, Floral, Raspberry, Pomegranate
+  - Purple: Lavender, Perfume, Luxury, Mademoiselle, Romance
+  - Blue: Honey, Pearl, Milk & Honey, Crystal Waters
+  - Red/Warm: Mango, Tropical, Ginger, Sweet flavors
+  - Indigo: Default fallback
 
 ## Pending Work
 

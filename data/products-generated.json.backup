@@ -1645,6 +1645,618 @@
       "badgePosition": "bottom-right"
     },
     {
+      "id": "product-333",
+      "category": "DRILL BIT",
+      "productName": "Các loại đầu bào (Mix & Match)",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/5in1.png",
+        "topRight": "/5in1-2.png",
+        "bottomLeft": "/5in1-1.png"
+      },
+      "pricingTable": [
+        {
+          "size": "",
+          "price": "",
+          "condition": "MUA <5",
+          "discount": "OFF 20%"
+        },
+        {
+          "size": "",
+          "price": "",
+          "condition": "MUA >=5",
+          "discount": "OFF 30%"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-317",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide Crystal ( Đầu kim cương)",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "X4/X5/X6 - Purple - Bền hơn Silver",
+          "price": "£8.00",
+          "condition": "MUA <5 OFF 20%",
+          "discount": "£6.40"
+        },
+        {
+          "size": "X4/X5/X6 - Purple - Bền hơn Silver",
+          "price": "£8.00",
+          "condition": "MUA >=5 OFF 30%",
+          "discount": "£5.60"
+        },
+        {
+          "size": "X4/X5/X6 - Silver - Sắc hơn Purple",
+          "price": "£8.00",
+          "condition": "MUA <5 OFF 20%",
+          "discount": "£6.40"
+        },
+        {
+          "size": "X4/X5/X6 - Silver - Sắc hơn Purple",
+          "price": "£8.00",
+          "condition": "MUA >=5 OFF 30%",
+          "discount": "£5.60"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-323",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide KF/KM (Bào mịn đầu vót hình trụ) - Purple - Bền hơn Silver",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Purple - Bền hơn Silver",
+          "price": "£10.00",
+          "condition": "MUA <5 OFF 20%",
+          "discount": "£8.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-324",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide KF/KM (Bào mịn đầu vót hình trụ) - Purple - Bền hơn Silver",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Purple - Bền hơn Silver",
+          "price": "£10.00",
+          "condition": "MUA >=5 OFF 30%",
+          "discount": "£7.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-321",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide KF/KM (Bào mịn đầu vót hình trụ) - Silver - Sắc hơn Purple",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Silver - Sắc hơn Purple",
+          "price": "£10.00",
+          "condition": "MUA <5 OFF 20%",
+          "discount": "£8.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-322",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide KF/KM (Bào mịn đầu vót hình trụ) - Silver - Sắc hơn Purple",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Silver - Sắc hơn Purple",
+          "price": "£10.00",
+          "condition": "MUA >=5 OFF 30%",
+          "discount": "£7.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-327",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide KF/KM Round (Bào mịn đầu tròn)) - Purple - Bền hơn Silver",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Purple - Bền hơn Silver",
+          "price": "£10.00",
+          "condition": "MUA <5 OFF 20%",
+          "discount": "£8.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-328",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide KF/KM Round (Bào mịn đầu tròn)) - Purple - Bền hơn Silver",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Purple - Bền hơn Silver",
+          "price": "£10.00",
+          "condition": "MUA >=5 OFF 30%",
+          "discount": "£7.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-325",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide KF/KM Round (Bào mịn đầu tròn)) - Silver - Sắc hơn Purple",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Silver - Sắc hơn Purple",
+          "price": "£10.00",
+          "condition": "MUA <5 OFF 20%",
+          "discount": "£8.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-326",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide KF/KM Round (Bào mịn đầu tròn)) - Silver - Sắc hơn Purple",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Silver - Sắc hơn Purple",
+          "price": "£10.00",
+          "condition": "MUA >=5 OFF 30%",
+          "discount": "£7.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-331",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide Round Top X4 (XC) / X5 (2XC) / X6 (4XC) - Purple - Bền hơn Silver",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Purple - Bền hơn Silver",
+          "price": "£10.00",
+          "condition": "MUA <5 OFF 20%",
+          "discount": "£8.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-332",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide Round Top X4 (XC) / X5 (2XC) / X6 (4XC) - Purple - Bền hơn Silver",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Purple - Bền hơn Silver",
+          "price": "£10.00",
+          "condition": "MUA >=5 OFF 30%",
+          "discount": "£7.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-329",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide Round Top X4 (XC) / X5 (2XC) / X6 (4XC) - Silver - Sắc hơn Purple",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Silver - Sắc hơn Purple",
+          "price": "£10.00",
+          "condition": "MUA <5 OFF 20%",
+          "discount": "£8.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-330",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide Round Top X4 (XC) / X5 (2XC) / X6 (4XC) - Silver - Sắc hơn Purple",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Silver - Sắc hơn Purple",
+          "price": "£10.00",
+          "condition": "MUA >=5 OFF 30%",
+          "discount": "£7.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-315",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide Triangle X1 (F-Fine) / X2 (M-Medium) / X3(C-Coarse) / Bào phá X4(XC) / X5 (2XC) / X6 (4XC) ( Đầu phẳng Flat) - Purple - Bền hơn Silver",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Purple - Bền hơn Silver",
+          "price": "£8.00",
+          "condition": "MUA <5 OFF 20%",
+          "discount": "£6.40"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-316",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide Triangle X1 (F-Fine) / X2 (M-Medium) / X3(C-Coarse) / Bào phá X4(XC) / X5 (2XC) / X6 (4XC) ( Đầu phẳng Flat) - Purple - Bền hơn Silver",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Purple - Bền hơn Silver",
+          "price": "£8.00",
+          "condition": "MUA >=5 OFF 30%",
+          "discount": "£5.60"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-313",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide Triangle X1 (F-Fine) / X2 (M-Medium) / X3(C-Coarse) / Bào phá X4(XC) / X5 (2XC) / X6 (4XC) ( Đầu phẳng Flat) - Silver - Sắc hơn Purple",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Silver - Sắc hơn Purple",
+          "price": "£8.00",
+          "condition": "MUA <5 OFF 20%",
+          "discount": "£6.40"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-314",
+      "category": "DRILL BIT",
+      "productName": "Bào Carbide Triangle X1 (F-Fine) / X2 (M-Medium) / X3(C-Coarse) / Bào phá X4(XC) / X5 (2XC) / X6 (4XC) ( Đầu phẳng Flat) - Silver - Sắc hơn Purple",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Silver - Sắc hơn Purple",
+          "price": "£8.00",
+          "condition": "MUA >=5 OFF 30%",
+          "discount": "£5.60"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-335",
+      "category": "DRILL BIT",
+      "productName": "Bào Cuticle Diamond 2.5 / 4.5 / 5.5 - Bào Sần Biab",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "",
+          "price": "£12.00",
+          "condition": "MUA <5 OFF 20%",
+          "discount": "£9.60"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-336",
+      "category": "DRILL BIT",
+      "productName": "Bào Cuticle Diamond 2.5 / 4.5 / 5.5 - Bào Sần Biab",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "",
+          "price": "£12.00",
+          "condition": "MUA >=5 OFF 30%",
+          "discount": "£8.40"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-337",
+      "category": "DRILL BIT",
+      "productName": "Bào Đĩa Disc M ( Bào cắt tràn sơn )",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "",
+          "price": "£5.00",
+          "condition": "MUA <5 OFF 20%",
+          "discount": "£4.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-338",
+      "category": "DRILL BIT",
+      "productName": "Bào Đĩa Disc M ( Bào cắt tràn sơn )",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "",
+          "price": "£5.00",
+          "condition": "MUA >=5 OFF 30%",
+          "discount": "£3.50"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-339",
+      "category": "DRILL BIT",
+      "productName": "Bào Pedicure C ( Bào cạo da chết gót chân)",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "",
+          "price": "£15.00",
+          "condition": "MUA <5 OFF 20%",
+          "discount": "£12.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-340",
+      "category": "DRILL BIT",
+      "productName": "Bào Pedicure C ( Bào cạo da chết gót chân)",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "",
+          "price": "£15.00",
+          "condition": "MUA >=5 OFF 30%",
+          "discount": "£10.50"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-341",
+      "category": "DRILL BIT",
+      "productName": "Bào Siêu phá S-X3 / S-X4 / S-X5",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "",
+          "price": "£10.00",
+          "condition": "MUA <5 OFF 20%",
+          "discount": "£8.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-342",
+      "category": "DRILL BIT",
+      "productName": "Bào Siêu phá S-X3 / S-X4 / S-X5",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "",
+          "price": "£10.00",
+          "condition": "MUA >=5 OFF 30%",
+          "discount": "£7.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-311",
+      "category": "DRILL BIT",
+      "productName": "Mandrell ( lỗi bào sần ) - Chống rung - long life",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Chống rung - long life",
+          "price": "£5.00",
+          "condition": "MUA <5 OFF 20%",
+          "discount": "£4.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-312",
+      "category": "DRILL BIT",
+      "productName": "Mandrell ( lỗi bào sần ) - Chống rung - long life",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "Chống rung - long life",
+          "price": "£5.00",
+          "condition": "MUA >=5 OFF 30%",
+          "discount": "£3.50"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
       "id": "product-347",
       "category": "BIAB",
       "productName": "Flexibuild X - 240ml Refill - X201, X202, X203, X204",
@@ -1699,19 +2311,25 @@
       },
       "pricingTable": [
         {
-          "size": "15ml",
+          "size": "15ml - Single",
+          "price": "£8.00",
+          "condition": "SL <6",
+          "discount": "£8.00"
+        },
+        {
+          "size": "15ml - Pack of 6+",
           "price": "£8.00",
           "condition": "SL >=6 OFF 10%",
           "discount": "£7.20"
         },
         {
-          "size": "15ml - hộp 6 lọ cùng màu",
+          "size": "15ml - Box of 6",
           "price": "£43.20",
           "condition": "",
           "discount": "£43.20"
         },
         {
-          "size": "15ml - Set 36 màu",
+          "size": "15ml - Set 36 colors",
           "price": "£288.00",
           "condition": "OFF 20% TỪ GIÁ ORIGINAL",
           "discount": "£230.40"
@@ -1732,19 +2350,25 @@
       },
       "pricingTable": [
         {
-          "size": "15ml",
+          "size": "15ml - Single",
+          "price": "£8.00",
+          "condition": "SL <6",
+          "discount": "£8.00"
+        },
+        {
+          "size": "15ml - Pack of 6+",
           "price": "£8.00",
           "condition": "SL >=6 OFF 10%",
           "discount": "£7.20"
         },
         {
-          "size": "15ml - hộp 6 lọ cùng màu",
+          "size": "15ml - Box of 6",
           "price": "£43.20",
           "condition": "",
           "discount": "£43.20"
         },
         {
-          "size": "15ml - Set 36 màu",
+          "size": "15ml - Set 36 colors",
           "price": "£288.00",
           "condition": "OFF 20% TỪ GIÁ ORIGINAL",
           "discount": "£230.40"
@@ -1759,9 +2383,9 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 15,
       "images": {
-        "topLeft": "/file.png",
-        "topRight": "/file-1.png",
-        "bottomLeft": "/file-2.png"
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
       },
       "pricingTable": [
         {
@@ -1777,7 +2401,7 @@
           "discount": "£17.00"
         }
       ],
-      "badgePosition": "middle-right"
+      "badgePosition": "bottom-right"
     },
     {
       "id": "product-351",
@@ -1868,8 +2492,8 @@
       "discountPercentage": 10,
       "images": {
         "topLeft": "/fx200.png",
-        "topRight": "/fx200-3.png",
-        "bottomLeft": "/fx200-4.png"
+        "topRight": "/fx200-1.jpg",
+        "bottomLeft": "/fx200-2.png"
       },
       "pricingTable": [
         {
@@ -2353,41 +2977,37 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/callus.png",
+        "topLeft": "/callus-2.png",
         "topRight": "/callus-1.png",
         "bottomLeft": "/callus-2.png"
       },
       "pricingTable": [
         {
-          "size": "32oz",
+          "size": "32oz - Super Lemon",
           "price": "£12.00",
           "condition": "",
           "discount": "£12.00"
         },
         {
-          "size": "32oz Extreme",
+          "size": "32oz Extreme - French Rose",
           "price": "£15.00",
           "condition": "",
           "discount": "£15.00"
         },
         {
-          "size": "Gallon",
+          "size": "Gallon - Super Lemon",
           "price": "£30.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£20.25"
         },
         {
-          "size": "Gallon Extreme",
+          "size": "Gallon Extreme - French Rose",
           "price": "£40.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£27.00"
         }
       ],
-      "scents": [
-        "Super Lemon",
-        "French Rose"
-      ],
-      "badgePosition": "middle-right"
+      "badgePosition": "bottom-right"
     },
     {
       "id": "product-107",
@@ -2402,35 +3022,75 @@
       },
       "pricingTable": [
         {
-          "size": "5 Step",
+          "size": "10 Step - Jasmine",
           "price": "£4.80",
           "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
           "discount": "£3.36"
         },
         {
-          "size": "7 Step Bomber",
+          "size": "10 Step - Avocado",
+          "price": "£4.80",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
+          "discount": "£3.36"
+        },
+        {
+          "size": "7 Step Bomber - Lavender Lace",
           "price": "£4.50",
           "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
           "discount": "£3.15"
         }
       ],
-      "scents": [
-        "Avocado",
-        "Crystal Waters",
-        "Jasmine",
-        "Lavender Lace",
-        "Lemon",
-        "Luxury Pearl",
-        "No.5 Perfume",
-        "Sweet Orange"
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-107-1",
+      "category": "La Palm",
+      "productName": "La Palm Collagen",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/collagen-1.jpg",
+        "topRight": "/collagen-2.jpg",
+        "bottomLeft": "/collagen.jpg"
+      },
+      "pricingTable": [
+        {
+          "size": "7 Step Bomber - Lemon",
+          "price": "£4.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
+          "discount": "£3.15"
+        },
+        {
+          "size": "7 Step Bomber - Luxury Pearl",
+          "price": "£4.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
+          "discount": "£3.15"
+        },
+        {
+          "size": "7 Step Bomber - No.5 Perfume",
+          "price": "£4.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
+          "discount": "£3.15"
+        },
+        {
+          "size": "7 Step Bomber - Sweet Orange",
+          "price": "£4.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
+          "discount": "£3.15"
+        },
+        {
+          "size": "7 Step Bomber - Crystal Waters",
+          "price": "£4.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
+          "discount": "£3.15"
+        }
       ],
-      "badgePosition": "middle-right",
-      "tableTextSize": "sm"
+      "badgePosition": "bottom-right"
     },
     {
       "id": "product-7",
       "category": "La Palm",
-      "productName": "La Palm Cooling Gel Aloe Vera",
+      "productName": "La Palm Cooling Gel 12oz - Aloe Vera",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
@@ -2440,13 +3100,28 @@
       },
       "pricingTable": [
         {
-          "size": "12oz",
+          "size": "12",
           "price": "£8.00",
           "condition": "",
           "discount": "£8.00"
-        },
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-8",
+      "category": "La Palm",
+      "productName": "La Palm Cooling Gel Gallon - Aloe Vera",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 32,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
         {
-          "size": "Gallon",
+          "size": "4",
           "price": "£30.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£20.25"
@@ -2467,30 +3142,42 @@
       },
       "pricingTable": [
         {
-          "size": "12oz",
+          "size": "12oz - Aloe Vera",
           "price": "£10.00",
           "condition": "",
           "discount": "£10.00"
         },
         {
-          "size": "Gallon",
+          "size": "12oz - Lemon",
+          "price": "£10.00",
+          "condition": "",
+          "discount": "£10.00"
+        },
+        {
+          "size": "12oz - Orange Tangerine Zest",
+          "price": "£10.00",
+          "condition": "",
+          "discount": "£10.00"
+        },
+        {
+          "size": "Gallon - Aloe Vera",
+          "price": "£30.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£20.25"
+        },
+        {
+          "size": "Gallon - Lemon",
           "price": "£30.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£20.25"
         }
       ],
-      "scents": [
-        "Aloe Vera",
-        "Lemon",
-        "Orange Tangerine Zest"
-      ],
-      "badgePosition": "middle-right",
-      "tableTextSize": "base"
+      "badgePosition": "middle-right"
     },
     {
-      "id": "product-17",
+      "id": "product-18",
       "category": "La Palm",
-      "productName": "La Palm Cuticle Oil",
+      "productName": "La Palm Cuticle Oil Gallon - Peach",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
@@ -2500,19 +3187,49 @@
       },
       "pricingTable": [
         {
-          "size": "Gallon - Peach",
+          "size": "4",
           "price": "£20.00",
           "condition": "Lẻ OFF 10% - CASE OFF 20% TỪ GIÁ ORIGINAL",
           "discount": "£18.00"
-        },
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-17",
+      "category": "La Palm",
+      "productName": "La Palm Cuticle Oil Gallon - Yellow Pineapple",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
         {
-          "size": "Gallon - Yellow Pineapple",
+          "size": "4",
           "price": "£20.00",
           "condition": "Lẻ OFF 10% - CASE OFF 20% TỪ GIÁ ORIGINAL",
           "discount": "£18.00"
-        },
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-19",
+      "category": "La Palm",
+      "productName": "La Palm Cuticle Oil Gallon CASE",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
         {
-          "size": "Case (4 Gallon)",
+          "size": "",
           "price": "£80.00",
           "condition": "CASE OFF 20% TỪ GIÁ ORIGINAL",
           "discount": "£64.00"
@@ -2529,7 +3246,7 @@
       "images": {
         "topLeft": "/cuticle-1.png",
         "topRight": "/cuticle.png",
-        "bottomLeft": "/cuticle-4.png"
+        "bottomLeft": "/cuticle-2.png"
       },
       "pricingTable": [
         {
@@ -2593,7 +3310,7 @@
       "badgePosition": "bottom-right"
     },
     {
-      "id": "product-115-test",
+      "id": "product-115",
       "category": "La Palm",
       "productName": "La Palm Fragrance Oil 2oz",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
@@ -2605,33 +3322,170 @@
       },
       "pricingTable": [
         {
-          "size": "2oz (59ml)",
+          "size": "Cucumber Cashmere",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1 ",
+          "discount": "£10.13"
+        },
+        {
+          "size": "Eucalyptus",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        },
+        {
+          "size": "French Floral",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        },
+        {
+          "size": "Fresh Linen",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        },
+        {
+          "size": "Honey Pearl",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
         }
       ],
-      "scents": [
-        "Aloe Vera",
-        "Cucumber Cashmere",
-        "Eucalyptus",
-        "French Floral",
-        "Fresh Linen",
-        "Honey Pearl",
-        "Lavender Tea",
-        "Lemon",
-        "Lemongrass & Ginger",
-        "Mademoiselle",
-        "Mango",
-        "Milk & Honey",
-        "Orange Tangerine Zest",
-        "Perfume No.5",
-        "Raspberry Pomegranate",
-        "Romance",
-        "Rose",
-        "Spearmint",
-        "Tea Tree",
-        "Tropical Citrus"
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-115-2",
+      "category": "La Palm",
+      "productName": "La Palm Fragrance Oil 2oz",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 32,
+      "images": {
+        "topLeft": "/fragrance-3.png",
+        "topRight": "/fragrance-2.jpeg",
+        "bottomLeft": "/fragrance.png"
+      },
+      "pricingTable": [
+        {
+          "size": "Lavender Tea",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        },
+        {
+          "size": "Lemon",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        },
+        {
+          "size": "Lemongrass & Ginger",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        },
+        {
+          "size": "Mademoiselle",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        },
+        {
+          "size": "Mango",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        }
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-115-1",
+      "category": "La Palm",
+      "productName": "La Palm Fragrance Oil 2oz",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 32,
+      "images": {
+        "topLeft": "/fragrance-3.png",
+        "topRight": "/fragrance-2.jpeg",
+        "bottomLeft": "/fragrance.png"
+      },
+      "pricingTable": [
+        {
+          "size": "Milk & Honey",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        },
+        {
+          "size": "Orange Tangerine Zest",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        },
+        {
+          "size": "Perfume No.5",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        },
+        {
+          "size": "Raspberry Pomegranate",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        },
+        {
+          "size": "Romance",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        }
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-115-3",
+      "category": "La Palm",
+      "productName": "La Palm Fragrance Oil 2oz",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 32,
+      "images": {
+        "topLeft": "/fragrance-3.png",
+        "topRight": "/fragrance-2.jpeg",
+        "bottomLeft": "/fragrance.png"
+      },
+      "pricingTable": [
+        {
+          "size": "Rose",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        },
+        {
+          "size": "Spearmint",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        },
+        {
+          "size": "Tea Tree",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        },
+        {
+          "size": "Tropical Citrus",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        },
+        {
+          "size": "Aloe Vera",
+          "price": "£15.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1 ",
+          "discount": "£10.13"
+        }
       ],
       "badgePosition": "middle-right"
     },
@@ -2648,24 +3502,58 @@
       },
       "pricingTable": [
         {
-          "size": "Bucket (17 oz)",
+          "size": "Bucket - Green Tea",
           "price": "£70.00",
           "condition": "OFF 10%",
           "discount": "£63.00"
         },
         {
-          "size": "Gallon (128 oz)",
+          "size": "Bucket - Lemongrass",
+          "price": "£70.00",
+          "condition": "OFF 10%",
+          "discount": "£63.00"
+        },
+        {
+          "size": "Bucket - Spearmint Eucalyptus",
+          "price": "£70.00",
+          "condition": "OFF 10%",
+          "discount": "£63.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-53-1",
+      "category": "La Palm",
+      "productName": "La Palm Jojoba Scrub",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "/jojoba-2.png",
+        "topRight": "/jojoba-1.png",
+        "bottomLeft": "/jojoba.png"
+      },
+      "pricingTable": [
+        {
+          "size": "Gallon - Green Tea",
+          "price": "£25.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£16.88"
+        },
+        {
+          "size": "Gallon - Lemongrass",
+          "price": "£25.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£16.88"
+        },
+        {
+          "size": "Gallon - Spearmint Eucalyptus",
           "price": "£25.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£16.88"
         }
       ],
-      "scents": [
-        "Green Tea",
-        "Lemongrass & Ginger",
-        "Spearmint Eucalyptus"
-      ],
-      "badgePosition": "middle-right"
+      "badgePosition": "bottom-right"
     },
     {
       "id": "product-1",
@@ -2722,24 +3610,70 @@
       },
       "pricingTable": [
         {
-          "size": "24oz",
+          "size": "24oz - Coconut Cream",
+          "price": "£7.00",
+          "condition": "OFF 10% MUA TRÊN 3",
+          "discount": "£6.30"
+        },
+        {
+          "size": "24oz - French Rose",
+          "price": "£7.00",
+          "condition": "OFF 10% MUA TRÊN 3",
+          "discount": "£6.30"
+        },
+        {
+          "size": "24oz - Green Tea",
+          "price": "£7.00",
+          "condition": "OFF 10% MUA TRÊN 3",
+          "discount": "£6.30"
+        },
+        {
+          "size": "24oz - Lavender Purple",
           "price": "£7.00",
           "condition": "OFF 10% MUA TRÊN 3",
           "discount": "£6.30"
         }
       ],
-      "scents": [
-        "Coconut Cream",
-        "French Rose",
-        "Green Tea",
-        "Lavender Purple",
-        "Lemon",
-        "Lychee Lemongrass",
-        "Mango",
-        "Tropical Citrus"
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-27-2",
+      "category": "La Palm",
+      "productName": "La Palm Lotion",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "/lotion.jpg",
+        "topRight": "/lotion-2.jpg",
+        "bottomLeft": "/lotion-1.jpg"
+      },
+      "pricingTable": [
+        {
+          "size": "24oz - Lemon",
+          "price": "£7.00",
+          "condition": "OFF 10% MUA TRÊN 3",
+          "discount": "£6.30"
+        },
+        {
+          "size": "24oz - Mango",
+          "price": "£7.00",
+          "condition": "OFF 10% MUA TRÊN 3",
+          "discount": "£6.30"
+        },
+        {
+          "size": "24oz - Tropical Citrus",
+          "price": "£7.00",
+          "condition": "OFF 10% MUA TRÊN 3",
+          "discount": "£6.30"
+        },
+        {
+          "size": "24oz Set 8 MÙI - Lychee Lemongrass",
+          "price": "£7.00",
+          "condition": "OFF 10% MUA TRÊN 3",
+          "discount": "£6.30"
+        }
       ],
-      "badgePosition": "middle-right",
-      "tableTextSize": "base"
+      "badgePosition": "middle-right"
     },
     {
       "id": "product-27-1",
@@ -2754,24 +3688,70 @@
       },
       "pricingTable": [
         {
-          "size": "Gallon",
+          "size": "Gallon - Coconut Cream",
+          "price": "£25.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£16.88"
+        },
+        {
+          "size": "Gallon - French Rose",
+          "price": "£25.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£16.88"
+        },
+        {
+          "size": "Gallon - Green Tea",
+          "price": "£25.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£16.88"
+        },
+        {
+          "size": "Gallon - Lavender Purple",
           "price": "£25.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£16.88"
         }
       ],
-      "scents": [
-        "Coconut Cream",
-        "French Rose",
-        "Green Tea",
-        "Lavender Purple",
-        "Lemon",
-        "Lychee Lemongrass",
-        "Mango",
-        "Tropical Citrus"
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-27-3",
+      "category": "La Palm",
+      "productName": "La Palm Lotion",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "/lotion.jpg",
+        "topRight": "/lotion-2.jpg",
+        "bottomLeft": "/lotion-1.jpg"
+      },
+      "pricingTable": [
+        {
+          "size": "Gallon - Lemon",
+          "price": "£25.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£16.88"
+        },
+        {
+          "size": "Gallon - Mango",
+          "price": "£25.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£16.88"
+        },
+        {
+          "size": "Gallon - Tropical Citrus",
+          "price": "£25.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£16.88"
+        },
+        {
+          "size": "Gallon Set 8 MÙI - Lychee Lemongrass",
+          "price": "£25.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£16.88"
+        }
       ],
-      "badgePosition": "middle-right",
-      "tableTextSize": "base"
+      "badgePosition": "middle-right"
     },
     {
       "id": "product-15",
@@ -2803,7 +3783,7 @@
     {
       "id": "product-42",
       "category": "La Palm",
-      "productName": "La Palm Massage Oil",
+      "productName": "La Palm Massage Oil Gallon",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
@@ -2813,24 +3793,30 @@
       },
       "pricingTable": [
         {
-          "size": "Gallon",
+          "size": "Gallon - Green Tea",
+          "price": "£20.00",
+          "condition": "Lẻ OFF 10% - CASE OFF 20%",
+          "discount": "£18.00"
+        },
+        {
+          "size": "Gallon - Lavender Purple",
+          "price": "£20.00",
+          "condition": "Lẻ OFF 10% - CASE OFF 20%",
+          "discount": "£18.00"
+        },
+        {
+          "size": "Gallon - Orange Tangerine Zest",
           "price": "£20.00",
           "condition": "Lẻ OFF 10% - CASE OFF 20%",
           "discount": "£18.00"
         }
       ],
-      "scents": [
-        "Green Tea",
-        "Lavender Purple",
-        "Orange Tangerine Zest"
-      ],
-      "badgePosition": "middle-right",
-      "tableTextSize": "base"
+      "badgePosition": "bottom-right"
     },
     {
       "id": "product-42-1",
       "category": "La Palm",
-      "productName": "La Palm Massage Oil",
+      "productName": "La Palm Massage Oil Gallon",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
@@ -2855,9 +3841,240 @@
       "badgePosition": "bottom-right"
     },
     {
+      "id": "product-90",
+      "category": "La Palm",
+      "productName": "La Palm Pedicure Trays 4 step - Aloe Vera CBD",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-91",
+      "category": "La Palm",
+      "productName": "La Palm Pedicure Trays 4 step - Lemongrass & Ginger CBD",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-85",
+      "category": "La Palm",
+      "productName": "La Palm Pedicure Trays 4 step - Matcha Green Tea",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-92",
+      "category": "La Palm",
+      "productName": "La Palm Pedicure Trays 4 step - Milk & Honey CBD",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-86",
+      "category": "La Palm",
+      "productName": "La Palm Pedicure Trays 4 step - No.5",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-87",
+      "category": "La Palm",
+      "productName": "La Palm Pedicure Trays 4 step - Ocean Pearl",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-88",
+      "category": "La Palm",
+      "productName": "La Palm Pedicure Trays 4 step - Orange Tangerine Zest",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-93",
+      "category": "La Palm",
+      "productName": "La Palm Pedicure Trays 4 step - Pure Peppermint CBD",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-94",
+      "category": "La Palm",
+      "productName": "La Palm Pedicure Trays 4 step - Romantic Rose CBD",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-89",
+      "category": "La Palm",
+      "productName": "La Palm Pedicure Trays 4 step - Sweet Lavender Fields",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-95",
+      "category": "La Palm",
+      "productName": "La Palm Pedicure Trays 4 step - Tropical Island Mango CBD",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/vllondon-logo.jpeg",
+        "topRight": "/vllondon-logo.jpeg",
+        "bottomLeft": "/vllondon-logo.jpeg"
+      },
+      "pricingTable": [
+        {
+          "size": "24",
+          "price": "£2.50",
+          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
+          "discount": "£1.75"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
       "id": "product-84",
       "category": "La Palm",
-      "productName": "La Palm Pedicure Trays 4 step",
+      "productName": "La Palm Pedicure Trays 4 step( 12 MÙI) - Lemon Lime",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 30,
       "images": {
@@ -2867,103 +4084,7 @@
       },
       "pricingTable": [
         {
-          "size": "Aloe Vera CBD - 24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        },
-        {
-          "size": "Lemongrass & Ginger CBD - 24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        },
-        {
-          "size": "Matcha Green Tea - 24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        },
-        {
-          "size": "Milk & Honey CBD - 24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-84-2",
-      "category": "La Palm",
-      "productName": "La Palm Pedicure Trays 4 step",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "No.5 - 24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        },
-        {
-          "size": "Ocean Pearl - 24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        },
-        {
-          "size": "Orange Tangerine Zest - 24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        },
-        {
-          "size": "Pure Peppermint CBD - 24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-84-3",
-      "category": "La Palm",
-      "productName": "La Palm Pedicure Trays 4 step",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 30,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Romantic Rose CBD - 24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        },
-        {
-          "size": "Sweet Lavender Fields - 24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        },
-        {
-          "size": "Tropical Island Mango CBD - 24",
-          "price": "£2.50",
-          "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
-          "discount": "£1.75"
-        },
-        {
-          "size": "Lemon Lime - 24",
+          "size": "24",
           "price": "£2.50",
           "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, CASE 24 HOẶC HƠN GIẢM 30%",
           "discount": "£1.75"
@@ -3016,7 +4137,7 @@
     {
       "id": "product-47",
       "category": "La Palm",
-      "productName": "La Palm Sea Salts",
+      "productName": "La Palm Sea Salts Gallon - Spearmint Eucalyptus",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 32,
       "images": {
@@ -3026,7 +4147,7 @@
       },
       "pricingTable": [
         {
-          "size": "Gallon",
+          "size": "4",
           "price": "£20.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£13.50"
@@ -3205,7 +4326,7 @@
     {
       "id": "product-64",
       "category": "La Palm",
-      "productName": "La Palm Sugar Scrub Extreme",
+      "productName": "La Palm Sugar Scrub Extreme Gallon - Lavender Purple",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 32,
       "images": {
@@ -3215,7 +4336,7 @@
       },
       "pricingTable": [
         {
-          "size": "Gallon Extreme",
+          "size": "4",
           "price": "£40.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£27.00"
@@ -3226,7 +4347,7 @@
     {
       "id": "product-63",
       "category": "La Palm",
-      "productName": "La Palm Sugar Scrub Extreme",
+      "productName": "La Palm Sugar Scrub Extreme Gallon - Orange Tangerine Zest",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 32,
       "images": {
@@ -3236,7 +4357,7 @@
       },
       "pricingTable": [
         {
-          "size": "Gallon Extreme",
+          "size": "4",
           "price": "£40.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£27.00"
@@ -3247,7 +4368,7 @@
     {
       "id": "product-58",
       "category": "La Palm",
-      "productName": "La Palm Sugar Scrub",
+      "productName": "La Palm Sugar Scrub Gallon - Lemon",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 32,
       "images": {
@@ -3257,7 +4378,7 @@
       },
       "pricingTable": [
         {
-          "size": "Gallon",
+          "size": "4",
           "price": "£35.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£23.63"
@@ -3268,7 +4389,7 @@
     {
       "id": "product-57",
       "category": "La Palm",
-      "productName": "La Palm Sugar Scrub",
+      "productName": "La Palm Sugar Scrub Gallon - Tropical Citrus",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 32,
       "images": {
@@ -3278,7 +4399,7 @@
       },
       "pricingTable": [
         {
-          "size": "Gallon",
+          "size": "4",
           "price": "£35.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£23.63"

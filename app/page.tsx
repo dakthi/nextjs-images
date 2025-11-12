@@ -532,6 +532,7 @@ export default function Home() {
                 setSelectedProducts(newSelected);
               }}
               scents={(product as any).scents}
+              tableTextSize={(product as any).tableTextSize || 'xs'}
             />
           </div>
         ))}
@@ -577,6 +578,7 @@ export default function Home() {
                 undefined
               }
               scents={(product as any).scents}
+              tableTextSize={(product as any).tableTextSize || 'xs'}
             />
           </div>
         ))}

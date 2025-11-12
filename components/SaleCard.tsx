@@ -33,6 +33,7 @@ interface SaleCardProps {
   isChecked?: boolean;
   onCheckChange?: (checked: boolean) => void;
   scents?: string[];
+  tableTextSize?: 'xs' | 'sm' | 'base' | 'lg' | 'xl';
 }
 
 export default function SaleCard({
@@ -51,8 +52,138 @@ export default function SaleCard({
   isChecked = false,
   onCheckChange,
   scents,
+  tableTextSize = 'xs',
 }: SaleCardProps) {
   const textRef = useRef<HTMLParagraphElement>(null);
+
+  // Map size prop to Tailwind classes
+  const getTableTextSizeClass = () => {
+    const sizeMap: Record<string, string> = {
+      xs: 'text-xs',
+      sm: 'text-sm',
+      base: 'text-base',
+      lg: 'text-lg',
+      xl: 'text-xl',
+    };
+    return sizeMap[tableTextSize] || 'text-xs';
+  };
+
+  const getTableDiscountSizeClass = () => {
+    const sizeMap: Record<string, string> = {
+      xs: 'text-sm',
+      sm: 'text-base',
+      base: 'text-lg',
+      lg: 'text-xl',
+      xl: 'text-2xl',
+    };
+    return sizeMap[tableTextSize] || 'text-sm';
+  };
+
+  // Map scents to semantic colors based on their nature
+  const getScentColorClass = (scent: string): string => {
+    const scentsLower = scent.toLowerCase();
+
+    // Warm/Spicy scents (check first to avoid conflicts with other categories)
+    if (scentsLower.includes('mango') || scentsLower.includes('tropical') ||
+        scentsLower.includes('ginger') || scentsLower.includes('sweet') ||
+        scentsLower.includes('cinnamon') || scentsLower.includes('vanilla') ||
+        scentsLower.includes('caramel') || scentsLower.includes('nutmeg') ||
+        scentsLower.includes('clove') || scentsLower.includes('cardamom') ||
+        scentsLower.includes('cocoa') || scentsLower.includes('chocolate') ||
+        scentsLower.includes('coffee') || scentsLower.includes('amber')) {
+      return 'bg-red-100 border-red-300 text-red-800';
+    }
+
+    // Teal/Cool Mint scents
+    if (scentsLower.includes('mint') || scentsLower.includes('spearmint') ||
+        scentsLower.includes('peppermint') || scentsLower.includes('cool') ||
+        scentsLower.includes('fresh')) {
+      return 'bg-teal-100 border-teal-300 text-teal-800';
+    }
+
+    // Green/Herbal scents
+    if (scentsLower.includes('aloe') || scentsLower.includes('eucalyptus') ||
+        scentsLower.includes('lemongrass') || scentsLower.includes('green') ||
+        scentsLower.includes('tea tree') || scentsLower.includes('basil') ||
+        scentsLower.includes('rosemary') || scentsLower.includes('thyme') ||
+        scentsLower.includes('sage') || scentsLower.includes('juniper') ||
+        scentsLower.includes('pine') || scentsLower.includes('fir') ||
+        scentsLower.includes('cypress') || scentsLower.includes('cedarwood') ||
+        scentsLower.includes('forest') || scentsLower.includes('nature') ||
+        scentsLower.includes('grass') || scentsLower.includes('herb')) {
+      return 'bg-green-100 border-green-300 text-green-800';
+    }
+
+    // Yellow/Citrus/Bright scents
+    if (scentsLower.includes('lemon') || scentsLower.includes('citrus') ||
+        scentsLower.includes('lime') || scentsLower.includes('grapefruit') ||
+        scentsLower.includes('bergamot') || scentsLower.includes('yuzu') ||
+        scentsLower.includes('passion') || scentsLower.includes('pineapple') ||
+        scentsLower.includes('kiwi') || scentsLower.includes('coconut') ||
+        scentsLower.includes('banana')) {
+      return 'bg-yellow-100 border-yellow-300 text-yellow-800';
+    }
+
+    // Orange/Warm Citrus scents
+    if (scentsLower.includes('orange') || scentsLower.includes('tangerine') ||
+        scentsLower.includes('mandarin') || scentsLower.includes('peach') ||
+        scentsLower.includes('apricot') || scentsLower.includes('cantaloupe') ||
+        scentsLower.includes('papaya') || scentsLower.includes('pecan')) {
+      return 'bg-orange-100 border-orange-300 text-orange-800';
+    }
+
+    // Pink/Rose/Floral scents
+    if (scentsLower.includes('rose') || scentsLower.includes('floral') ||
+        scentsLower.includes('raspberry') || scentsLower.includes('pomegranate') ||
+        scentsLower.includes('cherry') || scentsLower.includes('berry') ||
+        scentsLower.includes('strawberry') || scentsLower.includes('cranberry') ||
+        scentsLower.includes('peony') || scentsLower.includes('carnation') ||
+        scentsLower.includes('hibiscus') || scentsLower.includes('gardenia') ||
+        scentsLower.includes('magnolia') || scentsLower.includes('poppy') ||
+        scentsLower.includes('sweet pea') || scentsLower.includes('lilac') ||
+        scentsLower.includes('orchid') || scentsLower.includes('camellia')) {
+      return 'bg-pink-100 border-pink-300 text-pink-800';
+    }
+
+    // Purple/Luxury/Floral scents
+    if (scentsLower.includes('lavender') || scentsLower.includes('perfume') ||
+        scentsLower.includes('luxury') || scentsLower.includes('mademoiselle') ||
+        scentsLower.includes('romance') || scentsLower.includes('iris') ||
+        scentsLower.includes('violet') || scentsLower.includes('wisteria') ||
+        scentsLower.includes('hyacinth') || scentsLower.includes('lilium') ||
+        scentsLower.includes('tuberose') || scentsLower.includes('heliotrope') ||
+        scentsLower.includes('jasmine') || scentsLower.includes('ylang') ||
+        scentsLower.includes('oud') || scentsLower.includes('musky')) {
+      return 'bg-purple-100 border-purple-300 text-purple-800';
+    }
+
+    // Blue/Creamy/Gentle scents
+    if (scentsLower.includes('honey') || scentsLower.includes('pearl') ||
+        scentsLower.includes('milk') || scentsLower.includes('crystal') ||
+        scentsLower.includes('waters') || scentsLower.includes('cream') ||
+        scentsLower.includes('vanilla') || scentsLower.includes('butter') ||
+        scentsLower.includes('oat') || scentsLower.includes('almond') ||
+        scentsLower.includes('cotton') || scentsLower.includes('cloud') ||
+        scentsLower.includes('aqua') || scentsLower.includes('ocean') ||
+        scentsLower.includes('marine') || scentsLower.includes('sea') ||
+        scentsLower.includes('breeze') || scentsLower.includes('wind') ||
+        scentsLower.includes('rain') || scentsLower.includes('dew')) {
+      return 'bg-blue-100 border-blue-300 text-blue-800';
+    }
+
+    // Brown/Woody scents
+    if (scentsLower.includes('sandalwood') || scentsLower.includes('patchouli') ||
+        scentsLower.includes('vetiver') || scentsLower.includes('oak') ||
+        scentsLower.includes('mahogany') || scentsLower.includes('teak') ||
+        scentsLower.includes('tobacco') || scentsLower.includes('leather') ||
+        scentsLower.includes('musk') || scentsLower.includes('incense') ||
+        scentsLower.includes('wood')) {
+      return 'bg-amber-100 border-amber-300 text-amber-800';
+    }
+
+    // Default fallback
+    return 'bg-indigo-100 border-indigo-300 text-indigo-800';
+  };
 
   useEffect(() => {
     if (textRef.current) {
@@ -184,26 +315,26 @@ export default function SaleCard({
               <thead>
                 <tr className="bg-gray-100">
                   {!showOnlyLastTwoColumns && (
-                    <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>Size</th>
+                    <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>Size</th>
                   )}
                   {!showOnlyLastTwoColumns && (
-                    <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>Giá gốc</th>
+                    <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>Giá gốc</th>
                   )}
-                  <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>Điều kiện</th>
-                  <th className={`px-2 py-2 text-left font-semibold text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>Giảm còn</th>
+                  <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>Điều kiện</th>
+                  <th className={`px-2 py-2 text-left font-semibold text-black ${getTableTextSizeClass()}`}>Giảm còn</th>
                 </tr>
               </thead>
               <tbody>
                 {pricingTable.map((row, index) => (
                   <tr key={index} className="border-t border-gray-300">
                     {!showOnlyLastTwoColumns && (
-                      <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>{row.size}</td>
+                      <td className={`px-2 py-2 border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>{row.size}</td>
                     )}
                     {!showOnlyLastTwoColumns && (
-                      <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>{row.price}</td>
+                      <td className={`px-2 py-2 border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>{row.price}</td>
                     )}
-                    <td className={`px-2 py-2 border-r border-gray-300 text-black ${pricingTable.length < 3 ? 'text-base' : 'text-xs'}`}>{row.condition}</td>
-                    <td className={`px-2 py-2 font-bold text-black ${pricingTable.length < 3 ? 'text-lg' : 'text-sm'}`}>{row.discount}</td>
+                    <td className={`px-2 py-2 border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>{row.condition}</td>
+                    <td className={`px-2 py-2 font-bold text-black ${getTableDiscountSizeClass()}`}>{row.discount}</td>
                   </tr>
                 ))}
               </tbody>
@@ -215,19 +346,7 @@ export default function SaleCard({
             <div className="bg-white/95 backdrop-blur-sm rounded-lg shadow-xl px-3 py-2 text-black w-auto">
               <div className="flex flex-wrap gap-2">
                 {scents.map((scent, index) => {
-                  const colors = [
-                    'bg-pink-100 border-pink-300 text-pink-800',
-                    'bg-purple-100 border-purple-300 text-purple-800',
-                    'bg-blue-100 border-blue-300 text-blue-800',
-                    'bg-green-100 border-green-300 text-green-800',
-                    'bg-yellow-100 border-yellow-300 text-yellow-800',
-                    'bg-orange-100 border-orange-300 text-orange-800',
-                    'bg-red-100 border-red-300 text-red-800',
-                    'bg-indigo-100 border-indigo-300 text-indigo-800',
-                    'bg-cyan-100 border-cyan-300 text-cyan-800',
-                    'bg-teal-100 border-teal-300 text-teal-800',
-                  ];
-                  const colorClass = colors[index % colors.length];
+                  const colorClass = getScentColorClass(scent);
                   return (
                     <span
                       key={index}
