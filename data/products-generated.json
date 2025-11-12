@@ -2684,24 +2684,9 @@
           "price": "£50.00",
           "condition": "",
           "discount": "£50.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-2",
-      "category": "La Palm",
-      "productName": "La Palm Liquid 4 Season - Mango",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "4 Case",
           "price": "£200.00",
           "condition": "OFF 10%",
           "discount": "£180.00"
@@ -3224,49 +3209,7 @@
       "badgePosition": "bottom-right"
     },
     {
-      "id": "product-63",
-      "category": "La Palm",
-      "productName": "La Palm Sugar Scrub Extreme",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Gallon Extreme",
-          "price": "£40.00",
-          "condition": "OFF 10% MUA 3 TẶNG 1",
-          "discount": "£27.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
       "id": "product-58",
-      "category": "La Palm",
-      "productName": "La Palm Sugar Scrub",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Gallon",
-          "price": "£35.00",
-          "condition": "OFF 10% MUA 3 TẶNG 1",
-          "discount": "£23.63"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-57",
       "category": "La Palm",
       "productName": "La Palm Sugar Scrub",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
