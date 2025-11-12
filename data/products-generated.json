@@ -3036,13 +3036,13 @@
     {
       "id": "product-96",
       "category": "La Palm",
-      "productName": "La Palm Volcano",
+      "productName": "La Palm Volcano 6 Step",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 30,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/volcano-5.jpg",
+        "topRight": "/volcano-6.jpg",
+        "bottomLeft": "/volcano-7.jpg"
       },
       "pricingTable": [
         {
