@@ -2765,32 +2765,20 @@
       },
       "pricingTable": [
         {
-          "size": "Liquid Mùa Đông",
+          "size": "Purple / Clear / Mango",
           "price": "£50.00",
           "condition": "",
           "discount": "£50.00"
         },
         {
-          "size": "Liquid Mùa Đông (Case)",
-          "price": "£200.00",
-          "condition": "OFF 10%",
-          "discount": "£180.00"
-        },
-        {
-          "size": "Liquid 4 Mùa - Mango",
-          "price": "£50.00",
-          "condition": "",
-          "discount": "£50.00"
-        },
-        {
-          "size": "Liquid 4 Mùa - Mango (Case)",
+          "size": "Purple / Clear / Mango (Case)",
           "price": "£200.00",
           "condition": "OFF 10%",
           "discount": "£180.00"
         }
       ],
       "badgePosition": "middle-right",
-      "scents": ["Liquid Mùa Đông (2 Màu)", "Liquid 4 Mùa - Mango"]
+      "scents": ["Purple", "Clear", "Liquid 4 Mùa - Mango"]
     },
     {
       "id": "product-27",
