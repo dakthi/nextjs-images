@@ -601,7 +601,7 @@
     {
       "id": "product-225-1",
       "category": "SƠN GEL POLISH",
-      "productName": "MBerry Gel Polish",
+      "productName": "MBerry Gel",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
@@ -615,9 +615,16 @@
           "price": "£5.50",
           "condition": "SL < 12 CHAI",
           "discount": "£5.50"
+        },
+        {
+          "size": "15ml",
+          "price": "£5.50",
+          "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£4.95"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right",
+      "scents": ["Gel Polish", "Gel Top", "Gel Base"]
     },
     {
       "id": "product-225-2",
