@@ -2259,7 +2259,7 @@
     {
       "id": "product-347",
       "category": "BIAB",
-      "productName": "Flexibuild X - 240ml Refill",
+      "productName": "Flexibuild X - 240ml Refill - X201, X202, X203, X204",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 40,
       "images": {
@@ -2271,7 +2271,7 @@
         {
           "size": "240ml",
           "price": "£90.00",
-          "condition": "LẺ OFF 10% - MUA 2 TẶNG 1 - TẶNG 2 VỎ ( CHAI TẶNG K TẶNG VỎ ) MIX & MATCH VỚI REVIVE BASE 240 - CHEAPEST FREE",
+          "condition": "LẺ OFF 10% - MUA 2 TẶNG 1 - TẶNG 2 VỎ - MIX & MATCH VỚI REVIVE BASE 240 - CHEAPEST FREE",
           "discount": "£54.00"
         }
       ],
@@ -2308,6 +2308,45 @@
         "topLeft": "/flexibuild.jpg",
         "topRight": "/flexibuild-1.png",
         "bottomLeft": "/flexibuild-208.png"
+      },
+      "pricingTable": [
+        {
+          "size": "15ml - Single",
+          "price": "£8.00",
+          "condition": "SL <6",
+          "discount": "£8.00"
+        },
+        {
+          "size": "15ml - Pack of 6+",
+          "price": "£8.00",
+          "condition": "SL >=6 OFF 10%",
+          "discount": "£7.20"
+        },
+        {
+          "size": "15ml - Box of 6",
+          "price": "£43.20",
+          "condition": "",
+          "discount": "£43.20"
+        },
+        {
+          "size": "15ml - Set 36 colors",
+          "price": "£288.00",
+          "condition": "OFF 20% TỪ GIÁ ORIGINAL",
+          "discount": "£230.40"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-343-1",
+      "category": "BIAB",
+      "productName": "Strong Build 15ml",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "/strong-build-1.jpg",
+        "topRight": "/strong-build.png",
+        "bottomLeft": "/strong-build-2.jpeg"
       },
       "pricingTable": [
         {
@@ -2452,9 +2491,9 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/fx200.png",
+        "topRight": "/fx200-1.jpg",
+        "bottomLeft": "/fx200-2.png"
       },
       "pricingTable": [
         {
@@ -2617,9 +2656,9 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/m3-1.jpg",
+        "topRight": "/m3-2.jpg",
+        "bottomLeft": "/m3.jpg"
       },
       "pricingTable": [
         {
@@ -2746,9 +2785,9 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vl9615.png",
+        "topRight": "/vl9615-2.png",
+        "bottomLeft": "/vl9615-1.png"
       },
       "pricingTable": [
         {
@@ -2938,9 +2977,9 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/callus-2.png",
+        "topRight": "/callus-1.png",
+        "bottomLeft": "/callus-2.png"
       },
       "pricingTable": [
         {
@@ -2977,9 +3016,9 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 30,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/collagen-1.jpg",
+        "topRight": "/collagen-2.jpg",
+        "bottomLeft": "/collagen.jpg"
       },
       "pricingTable": [
         {
@@ -2999,7 +3038,22 @@
           "price": "£4.50",
           "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
           "discount": "£3.15"
-        },
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-107-1",
+      "category": "La Palm",
+      "productName": "La Palm Collagen",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "/collagen-1.jpg",
+        "topRight": "/collagen-2.jpg",
+        "bottomLeft": "/collagen.jpg"
+      },
+      "pricingTable": [
         {
           "size": "7 Step Bomber - Lemon",
           "price": "£4.50",
@@ -3078,128 +3132,47 @@
     {
       "id": "product-9",
       "category": "La Palm",
-      "productName": "La Palm Cream Mask 12oz - Aloe Vera",
+      "productName": "La Palm Cream Mask",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/creammask-1.png",
+        "topRight": "/creammask-2.png",
+        "bottomLeft": "/creammask.png"
       },
       "pricingTable": [
         {
-          "size": "12",
+          "size": "12oz - Aloe Vera",
           "price": "£10.00",
           "condition": "",
           "discount": "£10.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-10",
-      "category": "La Palm",
-      "productName": "La Palm Cream Mask 12oz - Lemon",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "12",
+          "size": "12oz - Lemon",
           "price": "£10.00",
           "condition": "",
           "discount": "£10.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-11",
-      "category": "La Palm",
-      "productName": "La Palm Cream Mask 12oz - Orange Tangerine Zest",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "12",
+          "size": "12oz - Orange Tangerine Zest",
           "price": "£10.00",
           "condition": "",
           "discount": "£10.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-12",
-      "category": "La Palm",
-      "productName": "La Palm Cream Mask Gallon - Aloe Vera",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "Gallon - Aloe Vera",
+          "price": "£30.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£20.25"
+        },
+        {
+          "size": "Gallon - Lemon",
           "price": "£30.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£20.25"
         }
       ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-13",
-      "category": "La Palm",
-      "productName": "La Palm Cream Mask Gallon - Aloe Vera",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "4",
-          "price": "£30.00",
-          "condition": "OFF 10% MUA 3 TẶNG 1",
-          "discount": "£20.25"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-14",
-      "category": "La Palm",
-      "productName": "La Palm Cream Mask Gallon - Lemon",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "4",
-          "price": "£30.00",
-          "condition": "OFF 10% MUA 3 TẶNG 1",
-          "discount": "£20.25"
-        }
-      ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right"
     },
     {
       "id": "product-18",
@@ -3267,107 +3240,47 @@
     {
       "id": "product-21",
       "category": "La Palm",
-      "productName": "La Palm Cuticle Softener 8oz - Mandarin Pear",
+      "productName": "La Palm Cuticle Softener",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/cuticle-1.png",
+        "topRight": "/cuticle.png",
+        "bottomLeft": "/cuticle-2.png"
       },
       "pricingTable": [
         {
-          "size": "18",
+          "size": "8oz - Mandarin Pear",
           "price": "£5.00",
           "condition": "",
           "discount": "£5.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-20",
-      "category": "La Palm",
-      "productName": "La Palm Cuticle Softener 8oz - Peach & Aloe Vera",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "18",
+          "size": "8oz - Peach & Aloe Vera",
           "price": "£5.00",
           "condition": "",
           "discount": "£5.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-23",
-      "category": "La Palm",
-      "productName": "La Palm Cuticle Softener Gallon - Mandarin Pear",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "Gallon - Mandarin Pear",
           "price": "£20.00",
           "condition": "Lẻ OFF 10% - CASE OFF 20%",
           "discount": "£18.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-22",
-      "category": "La Palm",
-      "productName": "La Palm Cuticle Softener Gallon - Peach & Aloe Vera",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "Gallon - Peach & Aloe Vera",
           "price": "£20.00",
           "condition": "Lẻ OFF 10% - CASE OFF 20%",
           "discount": "£18.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-24",
-      "category": "La Palm",
-      "productName": "La Palm Cuticle Softener Gallon CASE",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "",
+          "size": "Gallon CASE",
           "price": "£80.00",
           "condition": "CASE OFF 20% TỪ GIÁ ORIGINAL",
           "discount": "£72.00"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right"
     },
     {
       "id": "product-67",
@@ -3399,7 +3312,7 @@
     {
       "id": "product-115",
       "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Cucumber Cashmere",
+      "productName": "La Palm Fragrance Oil 2oz",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 32,
       "images": {
@@ -3409,406 +3322,121 @@
       },
       "pricingTable": [
         {
-          "size": "6",
+          "size": "Cucumber Cashmere",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1 ",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-116",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Eucalyptus",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Eucalyptus",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-117",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - French Floral",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "French Floral",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-118",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Fresh Linen",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Fresh Linen",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-119",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Honey Pearl",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Honey Pearl",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-120",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Lavender Tea",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Lavender Tea",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-121",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Lemon",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Lemon",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-122",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Lemongrass & Ginger",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Lemongrass & Ginger",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-123",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Mademoiselle",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Mademoiselle",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-124",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Mango",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Mango",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-125",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Milk & Honey",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Milk & Honey",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-126",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Orange Tangerine Zest",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Orange Tangerine Zest",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-127",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Perfume No.5",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Perfume No.5",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-128",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Raspberry Pomegranate",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Raspberry Pomegranate",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-129",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Romance",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Romance",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-130",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Rose",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Rose",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-131",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Spearmint",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Spearmint",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-132",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Tea Tree",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Tea Tree",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-133",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz - Tropical Citrus",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Tropical Citrus",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£10.13"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-114",
-      "category": "La Palm",
-      "productName": "La Palm Fragrance Oil 2oz ( 20 MÙI ) - Aloe Vera",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "6",
+          "size": "Set 20 MÙI - Aloe Vera",
           "price": "£15.00",
           "condition": "OFF 10% - MUA 3 TẶNG 1 ",
           "discount": "£10.13"
@@ -3987,7 +3615,7 @@
     {
       "id": "product-27",
       "category": "La Palm",
-      "productName": "La Palm Lotion 24oz - Coconut Cream",
+      "productName": "La Palm Lotion",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
@@ -3997,322 +3625,97 @@
       },
       "pricingTable": [
         {
-          "size": "16",
+          "size": "24oz - Coconut Cream",
           "price": "£7.00",
           "condition": "OFF 10% MUA TRÊN 3",
           "discount": "£6.30"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-28",
-      "category": "La Palm",
-      "productName": "La Palm Lotion 24oz - French Rose",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "16",
+          "size": "24oz - French Rose",
           "price": "£7.00",
           "condition": "OFF 10% MUA TRÊN 3",
           "discount": "£6.30"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-29",
-      "category": "La Palm",
-      "productName": "La Palm Lotion 24oz - Green Tea",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "16",
+          "size": "24oz - Green Tea",
           "price": "£7.00",
           "condition": "OFF 10% MUA TRÊN 3",
           "discount": "£6.30"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-30",
-      "category": "La Palm",
-      "productName": "La Palm Lotion 24oz - Lavender Purple",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "16",
+          "size": "24oz - Lavender Purple",
           "price": "£7.00",
           "condition": "OFF 10% MUA TRÊN 3",
           "discount": "£6.30"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-31",
-      "category": "La Palm",
-      "productName": "La Palm Lotion 24oz - Lemon",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "16",
+          "size": "24oz - Lemon",
           "price": "£7.00",
           "condition": "OFF 10% MUA TRÊN 3",
           "discount": "£6.30"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-26",
-      "category": "La Palm",
-      "productName": "La Palm Lotion 24oz - Mango",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "16",
+          "size": "24oz - Mango",
           "price": "£7.00",
           "condition": "OFF 10% MUA TRÊN 3",
           "discount": "£6.30"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-32",
-      "category": "La Palm",
-      "productName": "La Palm Lotion 24oz - Tropical Citrus",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "16",
+          "size": "24oz - Tropical Citrus",
           "price": "£7.00",
           "condition": "OFF 10% MUA TRÊN 3",
           "discount": "£6.30"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-25",
-      "category": "La Palm",
-      "productName": "La Palm Lotion 24oz ( 8 MÙI) - Lychee Lemongrass",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "16",
+          "size": "24oz Set 8 MÙI - Lychee Lemongrass",
           "price": "£7.00",
           "condition": "OFF 10% MUA TRÊN 3",
           "discount": "£6.30"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-35",
-      "category": "La Palm",
-      "productName": "La Palm Lotion Gallon - Coconut Cream",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "Gallon - Coconut Cream",
           "price": "£25.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£16.88"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-36",
-      "category": "La Palm",
-      "productName": "La Palm Lotion Gallon - French Rose",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "Gallon - French Rose",
           "price": "£25.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£16.88"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-37",
-      "category": "La Palm",
-      "productName": "La Palm Lotion Gallon - Green Tea",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "Gallon - Green Tea",
           "price": "£25.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£16.88"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-38",
-      "category": "La Palm",
-      "productName": "La Palm Lotion Gallon - Lavender Purple",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "Gallon - Lavender Purple",
           "price": "£25.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£16.88"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-39",
-      "category": "La Palm",
-      "productName": "La Palm Lotion Gallon - Lemon",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "Gallon - Lemon",
           "price": "£25.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£16.88"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-34",
-      "category": "La Palm",
-      "productName": "La Palm Lotion Gallon - Mango",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "Gallon - Mango",
           "price": "£25.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£16.88"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-40",
-      "category": "La Palm",
-      "productName": "La Palm Lotion Gallon - Tropical Citrus",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "Gallon - Tropical Citrus",
           "price": "£25.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£16.88"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-33",
-      "category": "La Palm",
-      "productName": "La Palm Lotion Gallon (8 MÙI) - Lychee Lemongrass",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "Gallon Set 8 MÙI - Lychee Lemongrass",
           "price": "£25.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£16.88"
@@ -4323,7 +3726,7 @@
     {
       "id": "product-15",
       "category": "La Palm",
-      "productName": "La Palm Marine Mask 12oz - Cucumber",
+      "productName": "La Palm Marine Mask",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
@@ -4333,28 +3736,13 @@
       },
       "pricingTable": [
         {
-          "size": "12",
+          "size": "12oz - Cucumber",
           "price": "£10.00",
           "condition": "",
           "discount": "£10.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-16",
-      "category": "La Palm",
-      "productName": "La Palm Marine Mask Gallon - Cucumber",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 32,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "Gallon - Cucumber",
           "price": "£30.00",
           "condition": "OFF 10% MUA 3 TẶNG 1",
           "discount": "£20.25"
@@ -4365,7 +3753,7 @@
     {
       "id": "product-42",
       "category": "La Palm",
-      "productName": "La Palm Massage Oil Gallon - Green Tea",
+      "productName": "La Palm Massage Oil Gallon",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
@@ -4375,91 +3763,31 @@
       },
       "pricingTable": [
         {
-          "size": "4",
+          "size": "Gallon - Green Tea",
           "price": "£20.00",
           "condition": "Lẻ OFF 10% - CASE OFF 20%",
           "discount": "£18.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-43",
-      "category": "La Palm",
-      "productName": "La Palm Massage Oil Gallon - Lavender Purple",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "Gallon - Lavender Purple",
           "price": "£20.00",
           "condition": "Lẻ OFF 10% - CASE OFF 20%",
           "discount": "£18.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-44",
-      "category": "La Palm",
-      "productName": "La Palm Massage Oil Gallon - Orange Tangerine Zest",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "Gallon - Orange Tangerine Zest",
           "price": "£20.00",
           "condition": "Lẻ OFF 10% - CASE OFF 20%",
           "discount": "£18.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-41",
-      "category": "La Palm",
-      "productName": "La Palm Massage Oil Gallon (4 MÙI) - Aloe Vera",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "4",
+          "size": "Gallon Set 4 MÙI - Aloe Vera",
           "price": "£20.00",
           "condition": "Lẻ OFF 10% - CASE OFF 20%",
           "discount": "£18.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-45",
-      "category": "La Palm",
-      "productName": "La Palm Massage Oil Gallon CASE",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "",
+          "size": "Gallon CASE",
           "price": "£80.00",
           "condition": "CASE OFF 20%",
           "discount": "£64.00"
