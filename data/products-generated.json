@@ -1855,32 +1855,32 @@
       },
       "pricingTable": [
         {
-          "size": "Cord",
+          "size": "Đèn có dây",
           "price": "£100.00",
           "condition": "MUA < 4 OFF 10%",
           "discount": "£90.00"
         },
         {
-          "size": "Cord",
+          "size": "Đèn có dây",
           "price": "£100.00",
           "condition": "MUA >=4 OFF 20%",
           "discount": "£80.00"
         },
         {
-          "size": "Cordless",
+          "size": "Đèn không dây",
           "price": "£130.00",
           "condition": "MUA < 4 OFF 10%",
           "discount": "£117.00"
         },
         {
-          "size": "Cordless",
+          "size": "Đèn không dây",
           "price": "£130.00",
           "condition": "MUA >=4 OFF 20%",
           "discount": "£104.00"
         }
       ],
       "badgePosition": "middle-right",
-      "tableTextSize": "base"
+      "tableTextSize": "sm"
     },
     {
       "id": "product-370",
