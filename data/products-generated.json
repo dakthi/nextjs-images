@@ -2090,7 +2090,8 @@
           "discount": "£112.00"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
     },
     {
       "id": "product-371",
