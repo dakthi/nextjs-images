@@ -1868,8 +1868,8 @@
       "discountPercentage": 10,
       "images": {
         "topLeft": "/fx200.png",
-        "topRight": "/fx200-2.png",
-        "bottomLeft": "/fx200-1.jpg"
+        "topRight": "/fx200-3.png",
+        "bottomLeft": "/fx200-4.png"
       },
       "pricingTable": [
         {
