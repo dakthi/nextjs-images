@@ -2755,7 +2755,7 @@
     {
       "id": "product-1",
       "category": "La Palm",
-      "productName": "La Palm Liquid 4 Season",
+      "productName": "Liquid BlazingStar Nhẹ Mùi",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
@@ -2765,20 +2765,32 @@
       },
       "pricingTable": [
         {
-          "size": "Mango",
+          "size": "Liquid Mùa Đông",
           "price": "£50.00",
           "condition": "",
           "discount": "£50.00"
         },
         {
-          "size": "Mango (Case)",
+          "size": "Liquid Mùa Đông (Case)",
+          "price": "£200.00",
+          "condition": "OFF 10%",
+          "discount": "£180.00"
+        },
+        {
+          "size": "Liquid 4 Mùa - Mango",
+          "price": "£50.00",
+          "condition": "",
+          "discount": "£50.00"
+        },
+        {
+          "size": "Liquid 4 Mùa - Mango (Case)",
           "price": "£200.00",
           "condition": "OFF 10%",
           "discount": "£180.00"
         }
       ],
       "badgePosition": "middle-right",
-      "scents": ["Mango"]
+      "scents": ["Liquid Mùa Đông (2 Màu)", "Liquid 4 Mùa - Mango"]
     },
     {
       "id": "product-27",
