@@ -2388,7 +2388,7 @@
     {
       "id": "product-107",
       "category": "La Palm",
-      "productName": "La Palm Collagen",
+      "productName": "La Palm Collagen - 10 Step",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 30,
       "images": {
@@ -2398,19 +2398,19 @@
       },
       "pricingTable": [
         {
-          "size": "10 Step - Jasmine",
+          "size": "Jasmine",
           "price": "£4.80",
           "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
           "discount": "£3.36"
         },
         {
-          "size": "10 Step - Avocado",
+          "size": "Avocado",
           "price": "£4.80",
           "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
           "discount": "£3.36"
         },
         {
-          "size": "7 Step Bomber - Lavender Lace",
+          "size": "Lavender Lace",
           "price": "£4.50",
           "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
           "discount": "£3.15"
@@ -2421,7 +2421,7 @@
     {
       "id": "product-107-1",
       "category": "La Palm",
-      "productName": "La Palm Collagen",
+      "productName": "La Palm Collagen - 7 Step Bomber",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 30,
       "images": {
@@ -2431,31 +2431,31 @@
       },
       "pricingTable": [
         {
-          "size": "7 Step Bomber - Lemon",
+          "size": "Lemon",
           "price": "£4.50",
           "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
           "discount": "£3.15"
         },
         {
-          "size": "7 Step Bomber - Luxury Pearl",
+          "size": "Luxury Pearl",
           "price": "£4.50",
           "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
           "discount": "£3.15"
         },
         {
-          "size": "7 Step Bomber - No.5 Perfume",
+          "size": "No.5 Perfume",
           "price": "£4.50",
           "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
           "discount": "£3.15"
         },
         {
-          "size": "7 Step Bomber - Sweet Orange",
+          "size": "Sweet Orange",
           "price": "£4.50",
           "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
           "discount": "£3.15"
         },
         {
-          "size": "7 Step Bomber - Crystal Waters",
+          "size": "Crystal Waters",
           "price": "£4.50",
           "condition": "OFF 10%, MUA TRÊN 10 MIX GIẢM 20%, SL>=36 GIẢM 30%",
           "discount": "£3.15"
