@@ -14,15 +14,15 @@
       "pricingTable": [
         {
           "size": "23oz",
-          "price": "£70.00",
+          "price": "£60.00",
           "condition": "SL <3",
-          "discount": "£63.00"
+          "discount": "£48.00"
         },
         {
           "size": "23oz",
           "price": "£60.00",
           "condition": "MUA >=4 GIẢM 20% - MIX & MATCH",
-          "discount": "£48.00"
+          "discount": "£43.20"
         }
       ],
       "badgePosition": "bottom-right"
@@ -102,7 +102,7 @@
     {
       "id": "product-197",
       "category": "BỘT ACRYLIC + OMBRE",
-      "productName": "BlazingStar Maxx Perform - 2oz",
+      "productName": "Bột Màu - Ombre",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
@@ -333,7 +333,7 @@
           "discount": "£1732.00"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right"
     },
     {
       "id": "product-209",
@@ -343,8 +343,8 @@
       "discountPercentage": 0,
       "images": {
         "topLeft": "/product-209-topLeft.webp",
-        "topRight": "/product-209-topRight.webp",
-        "bottomLeft": "/product-209-bottomLeft.webp"
+        "topRight": "/product-209-bottomLeft.webp",
+        "bottomLeft": "/product-209-topRight.webp"
       },
       "pricingTable": [
         {
@@ -372,7 +372,7 @@
           "discount": "£1732.00"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right"
     },
     {
       "id": "product-213",
@@ -381,8 +381,8 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/product-213-topLeft.png",
-        "topRight": "/product-213-topRight.jpg",
+        "topLeft": "/product-213-topRight.jpg",
+        "topRight": "/product-213-topLeft.png",
         "bottomLeft": "/product-213-bottomLeft.png"
       },
       "pricingTable": [
@@ -405,7 +405,7 @@
           "discount": "£1933.60"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right"
     },
     {
       "id": "product-216",
@@ -426,7 +426,7 @@
           "discount": "£4.50"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right"
     },
     {
       "id": "product-218",
@@ -435,8 +435,8 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/product-218-topLeft.webp",
-        "topRight": "/product-218-topRight.webp",
+        "topLeft": "/product-218-topRight.webp",
+        "topRight": "/product-218-topLeft.webp",
         "bottomLeft": "/product-218-bottomLeft.webp"
       },
       "pricingTable": [
@@ -453,7 +453,7 @@
           "discount": "£201.60"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right"
     },
     {
       "id": "product-225",
@@ -981,7 +981,7 @@
     {
       "id": "product-343-1",
       "category": "BIAB",
-      "productName": "Strong Build 15ml",
+      "productName": "Strong Build HF",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
@@ -1462,7 +1462,7 @@
     {
       "id": "product-386",
       "category": "NAIL TABLE",
-      "productName": "BlazingStar Nail Table - MÁY HÚT PRO",
+      "productName": "BlazingStar Nail Table - MÁY HÚT TORNADO PRO",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
@@ -1507,19 +1507,19 @@
       },
       "pricingTable": [
         {
-          "size": "Bàn đơn + máy hút thường",
+          "size": "Bàn đơn (tặng máy hút thường)",
           "price": "£700.00",
           "condition": "OFF 10%",
           "discount": "£630.00"
         },
         {
-          "size": "Bàn đôi + máy hút thường",
+          "size": "Bàn đôi (tặng máy hút thường)",
           "price": "£1200.00",
           "condition": "OFF 10%",
           "discount": "£1080.00"
         },
         {
-          "size": "Bàn ba + máy hút thường",
+          "size": "Bàn ba (tặng máy hút thường)",
           "price": "£1800.00",
           "condition": "OFF 10%",
           "discount": "£1620.00"
@@ -2079,9 +2079,9 @@
           "discount": "£2.00"
         },
         {
-          "size": "CASE 24 Tray",
+          "size": "Tray",
           "price": "£2.50",
-          "condition": "GIẢM 30%",
+          "condition": "CASE 24 GIẢM 30%",
           "discount": "£1.75"
         }
       ],
@@ -2231,20 +2231,20 @@
           "discount": "£4.32"
         },
         {
-          "size": "10+ hộp",
+          "size": "1 hộp",
           "price": "£4.80",
           "condition": "MUA TRÊN 10 MIX GIẢM 20%",
           "discount": "£3.84"
         },
         {
-          "size": "CASE 36+",
+          "size": "1 hộp",
           "price": "£4.80",
-          "condition": "GIẢM 30%",
+          "condition": "MUA CASE HOẶC TỪ 35 HỘP TRỞ LÊN GIẢM 30%",
           "discount": "£3.36"
         }
       ],
       "badgePosition": "middle-right",
-      "tableTextSize": "sm",
+      "tableTextSize": "xs",
       "scents": [
         "Honey Pearl",
         "Orange No.5",
@@ -2537,7 +2537,9 @@
           "discount": "£8.40"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "bottom-right",
+      "tableTextSize": "base",
+      "showSizeAndConditionColumnsOnly": true
     },
     {
       "id": "product-392",
@@ -2586,21 +2588,21 @@
       "pricingTable": [
         {
           "size": "Lẻ 15ml",
-          "price": "£9.00",
+          "price": "£12.00",
           "condition": "SL <12 CHAI",
-          "discount": "£6.00"
+          "discount": "£8.00"
         },
         {
           "size": "Lẻ 15ml",
-          "price": "£9.00",
-          "condition": "SL >=12 GIẢM 10% MIX & MATCH",
-          "discount": "£5.40"
+          "price": "£12.00",
+          "condition": "SL >=12 MUA 2 TẶNG 1 + GIẢM 10%",
+          "discount": "£7.20"
         },
         {
-          "size": "Set 362 15ml",
-          "price": "£2172.00",
-          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
-          "discount": "£1737.60"
+          "size": "Set 36 màu 15ml",
+          "price": "£288.00",
+          "condition": "GIẢM 15% TỪ GIÁ ORIGINAL",
+          "discount": "£244.80"
         }
       ],
       "badgePosition": "bottom-right"
@@ -2631,15 +2633,15 @@
         },
         {
           "size": "Set 36 15ml",
-          "price": "£324.00",
-          "condition": "GIẢM 15% Từ GIÁ ORIGINAL",
-          "discount": "£275.40"
+          "price": "£216.00",
+          "condition": "GIẢM 15%",
+          "discount": "£183.60"
         },
         {
-          "size": "Set 180 15ml",
-          "price": "£1620.00",
+          "size": "Set 362 15ml",
+          "price": "£2172.00",
           "condition": "GIẢM 20% Từ GIÁ ORIGINAL",
-          "discount": "£1296.00"
+          "discount": "£1737.60"
         }
       ],
       "badgePosition": "middle-right",
@@ -2668,18 +2670,6 @@
           "price": "£9.00",
           "condition": "SL >=12 GIẢM 10% MIX & MATCH",
           "discount": "£5.40"
-        },
-        {
-          "size": "Set 362 15ml",
-          "price": "£216.00",
-          "condition": "GIẢM 15%",
-          "discount": "£183.60"
-        },
-        {
-          "size": "Set 362 15ml",
-          "price": "£2172.00",
-          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
-          "discount": "£1737.60"
         }
       ],
       "badgePosition": "middle-right",
@@ -2758,7 +2748,7 @@
     {
       "id": "product-399",
       "category": "NAIL TIP",
-      "productName": "Tip Gel BlazingStar - 4 loại",
+      "productName": "Tip Gel BlazingStar",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
@@ -2905,20 +2895,20 @@
       },
       "pricingTable": [
         {
-          "size": "Mua 1 thùng",
-          "price": "£1.20",
+          "size": "Mua 1 thùng (96 lọ)",
+          "price": "£1.20/lọ",
           "condition": "/lọ",
           "discount": "£1.20"
         },
         {
-          "size": "Mua trên 3 thùng",
-          "price": "£1.00",
+          "size": "Mua trên 3 thùng (96 lọ)",
+          "price": "£1.00/lọ",
           "condition": "/lọ",
           "discount": "£1.00"
         },
         {
-          "size": "Mua 8 thùng, 8 mùi",
-          "price": "£0.90",
+          "size": "Mua 8 thùng (96 lọ), 8 mùi",
+          "price": "£0.90/lọ",
           "condition": "/lọ",
           "discount": "£0.90"
         }
