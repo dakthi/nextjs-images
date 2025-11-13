@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VL London - Product Catalog 2025</title>
+    <link rel="stylesheet" href="catalog-styles.css">
+</head>
+<body>
+    <div class="catalog-container">
+        <!-- Cover Page -->
+        <div class="page cover-page">
+            <div class="cover-content">
+                <h1 class="catalog-title">VL LONDON</h1>
+                <h2 class="catalog-subtitle">Winter Sale 2025</h2>
+                <p class="catalog-dates">Áp dụng từ ngày 16/11 đến hết ngày 30/11</p>
+                <div class="catalog-logo">
+                    <img src="../public/vllondon-logo.jpeg" alt="VL London Logo">
+                </div>
+            </div>
+        </div>
+
+        <!-- Products will be inserted here by JavaScript -->
+        <div id="catalog-products"></div>
+
+        <!-- Back Cover -->
+        <div class="page back-cover">
+            <div class="back-cover-content">
+                <h2>Contact Information</h2>
+                <div class="contact-info">
+                    <p>VL London</p>
+                    <p>Email: contact@vllondon.com</p>
+                    <p>Phone: +44 XXX XXX XXXX</p>
+                </div>
+                <p class="catalog-footer">© 2025 VL London. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls no-print">
+        <button onclick="window.print()" class="btn-primary">Print Catalog / Save as PDF</button>
+        <button onclick="generateCatalog()" class="btn-secondary">Regenerate</button>
+        <div class="filter-controls">
+            <label>
+                <input type="checkbox" id="filter-with-images" checked> Only products with images
+            </label>
+            <label>
+                <select id="category-filter">
+                    <option value="all">All Categories</option>
+                </select>
+            </label>
+        </div>
+    </div>
+
+    <script src="catalog-script.js"></script>
+</body>
+</html>

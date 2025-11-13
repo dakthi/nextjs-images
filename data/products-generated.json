@@ -603,16 +603,10 @@
       "discountPercentage": 0,
       "images": {
         "topLeft": "/mberry.jpg",
-        "topRight": "/mberry-1.jpg",
+        "topRight": "/mgel-3.jpg",
         "bottomLeft": "/mberry-2.jpg"
       },
       "pricingTable": [
-        {
-          "size": "480ml",
-          "price": "\u00a35.50",
-          "condition": "OFF 10%",
-          "discount": "\u00a34.95"
-        },
         {
           "size": "480ml",
           "price": "\u00a35.50",
@@ -1973,14 +1967,15 @@
     {
       "id": "product-366",
       "category": "ELECTRICAL",
-      "productName": "Tay b\u00e0o X5 Plus (d\u00e2y m\u1eb7c \u0111\u1ecbnh cho Super UP200)",
+      "productName": "Tay b\u00e0o X5 Plus",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 10,
       "images": {
         "topLeft": "/x5.webp",
-        "topRight": "/x5-1.png",
-        "bottomLeft": "/x5-2.png"
+        "topRight": "/x5-2.png",
+        "bottomLeft": "/x5-1.png"
       },
+      "scents": ["M\u1eb7c \u0111\u1ecbnh l\u00e0 d\u00e2y Super UP200, VL h\u1ed7 tr\u1ee3 thay d\u00e2y UP200 mi\u1ec5n ph\u00ed vui l\u00f2ng li\u00ean h\u1ec7 sale khi mua"],
       "pricingTable": [
         {
           "size": "X5 Plus",
@@ -1995,20 +1990,21 @@
           "discount": "\u00a3160.00"
         }
       ],
-      "badgePosition": "bottom-right",
+      "badgePosition": "middle-right",
       "tableTextSize": "lg"
     },
     {
       "id": "product-366-1",
       "category": "ELECTRICAL",
-      "productName": "Tay b\u00e0o X7 Plus (d\u00e2y m\u1eb7c \u0111\u1ecbnh cho Super UP200)",
+      "productName": "Tay b\u00e0o X7 Plus",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 10,
       "images": {
         "topLeft": "/x7.png",
-        "topRight": "/x7-1.png",
-        "bottomLeft": "/x7-2.png"
+        "topRight": "/x7-2.png",
+        "bottomLeft": "/x7-1.png"
       },
+      "scents": ["M\u1eb7c \u0111\u1ecbnh l\u00e0 d\u00e2y Super UP200, VL h\u1ed7 tr\u1ee3 thay d\u00e2y UP200 mi\u1ec5n ph\u00ed vui l\u00f2ng li\u00ean h\u1ec7 sale khi mua"],
       "pricingTable": [
         {
           "size": "X7 Plus",
@@ -2023,7 +2019,7 @@
           "discount": "\u00a3176.00"
         }
       ],
-      "badgePosition": "bottom-right",
+      "badgePosition": "middle-right",
       "tableTextSize": "lg"
     },
     {
