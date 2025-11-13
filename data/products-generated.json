@@ -475,7 +475,7 @@
     {
       "id": "product-222",
       "category": "S\u01a0N GEL POLISH",
-      "productName": "BlazingStar Gel Polish / Gel Top Original/Durashine/Sunshield / Gel Base Original / Gel Base Express 15ml - Box - 6 Chai c\u00f9ng 1 m\u00e0u",
+      "productName": "BlazingStar Gel Polish 15ml - Box 6 chai c\u00f9ng 1 m\u00e0u",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 0,
       "images": {
@@ -485,7 +485,7 @@
       },
       "pricingTable": [
         {
-          "size": "Box - 6 Chai c\u00f9ng 1 m\u00e0u",
+          "size": "Box 6 chai c\u00f9ng 1 m\u00e0u",
           "price": "\u00a332.40",
           "condition": "",
           "discount": "\u00a332.40"
@@ -495,8 +495,8 @@
     },
     {
       "id": "product-220",
-      "category": "S\u01a0N GEL POLISH",
-      "productName": "Gel Top Original/Durashine/Sunshield / Gel Base Original / Gel Base Express 15ml - L\u1ebb",
+      "category": "TOP & BASE",
+      "productName": "BlazingStar Gel Top & Gel Base 15ml",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 33,
       "images": {
@@ -504,17 +504,18 @@
         "topRight": "/vllondon-logo.jpeg",
         "bottomLeft": "/vllondon-logo.jpeg"
       },
+      "scents": ["Gel Top Original", "Gel Top Durashine", "Gel Top Sunshield", "Gel Base Original", "Gel Base Express"],
       "pricingTable": [
         {
           "size": "L\u1ebb 15ml",
           "price": "\u00a39.00",
-          "condition": "\u0110\u1ec0U GI\u00c1 \u00a36/CHAI - SL <12",
+          "condition": "SL <12 CHAI",
           "discount": "\u00a36.00"
         },
         {
           "size": "L\u1ebb 15ml",
           "price": "\u00a39.00",
-          "condition": "\u0110\u1ec0U GI\u00c1 \u00a36/CHAI - SL >=12 GI\u1ea2M TH\u00caM 10% MIX & MATCH",
+          "condition": "SL >=12 GI\u1ea2M 10% MIX & MATCH",
           "discount": "\u00a35.40"
         },
         {
@@ -530,7 +531,8 @@
           "discount": "\u00a31737.60"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right",
+      "tableTextSize": "sm"
     },
     {
       "id": "product-220-1",
@@ -545,24 +547,37 @@
       },
       "pricingTable": [
         {
-          "size": "",
+          "size": "L\u1ebb 15ml",
           "price": "\u00a39.00",
-          "condition": "SL <12",
+          "condition": "SL <12 CHAI",
           "discount": "\u00a36.00"
         },
         {
-          "size": "",
+          "size": "L\u1ebb 15ml",
           "price": "\u00a39.00",
-          "condition": "SL >=12 OFF 10%",
+          "condition": "SL >= 12 GI\u1ea2M 10% MIX & MATCH",
           "discount": "\u00a35.40"
+        },
+        {
+          "size": "Set 36 15ml",
+          "price": "\u00a3324.00",
+          "condition": "GI\u1ea2M 15% T\u1eeb GI\u00c1 ORIGINAL",
+          "discount": "\u00a3275.40"
+        },
+        {
+          "size": "Set 180 15ml",
+          "price": "\u00a31620.00",
+          "condition": "GI\u1ea2M 20% T\u1eeb GI\u00c1 ORIGINAL",
+          "discount": "\u00a31296.00"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right",
+      "tableTextSize": "sm"
     },
     {
       "id": "product-227",
       "category": "S\u01a0N GEL POLISH",
-      "productName": "MBerry Gel Polish / Gel Top / Gel Base 15ml - Box 6 chai c\u00f9ng 1 m\u00e0u",
+      "productName": "MBerry Gel Polish 15ml - Box 6 chai c\u00f9ng 1 m\u00e0u",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 0,
       "images": {
@@ -664,27 +679,6 @@
       "badgePosition": "bottom-right"
     },
     {
-      "id": "product-226",
-      "category": "S\u01a0N GEL POLISH",
-      "productName": "MBerry Gel Polish / Gel Top / Gel Base 15ml - L\u1ebb",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "L\u1ebb",
-          "price": "\u00a35.50",
-          "condition": "SL >= 12 GI\u1ea2M TH\u00caM 10% MIX & MATCH",
-          "discount": "\u00a34.95"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
       "id": "product-228",
       "category": "S\u01a0N GEL POLISH",
       "productName": "MBerry Gel Polish - 15ml",
@@ -720,7 +714,7 @@
     {
       "id": "product-230",
       "category": "TOP & BASE",
-      "productName": "Bold Berry Gel Base 240ml - 240ml",
+      "productName": "Bold Berry Gel Base 240ml",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 10,
       "images": {
@@ -1308,7 +1302,8 @@
           "discount": "\u00a310.80"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "bottom-right",
+      "tableTextSize": "base"
     },
     {
       "id": "product-304",
@@ -1346,7 +1341,7 @@
     {
       "id": "product-307",
       "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Gel",
+      "productName": "BlazingStar Gel Brush",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 10,
       "images": {
@@ -1472,13 +1467,13 @@
     {
       "id": "product-297",
       "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Pro - L\u00d4NG D\u00c0Y H\u01a0N PLUS",
+      "productName": "BlazingStar Brush Premium Pro - L\u00d4NG D\u00c0Y H\u01a0N PLUS - Size 14",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/pro-1.jpg",
+        "topRight": "/pro-2.jpg",
+        "bottomLeft": "/pro.jpg"
       },
       "pricingTable": [
         {
@@ -1504,7 +1499,23 @@
           "price": "\u00a345.00",
           "condition": "MUA >=11 OFF 25%",
           "discount": "\u00a333.75"
-        },
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-297-1",
+      "category": "ACRYLIC BRUSHES",
+      "productName": "BlazingStar Brush Premium Pro - L\u00d4NG D\u00c0Y H\u01a0N PLUS - Size 16",
+      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "/pro-1.jpg",
+        "topRight": "/pro-2.jpg",
+        "bottomLeft": "/pro.jpg"
+      },
+      "pricingTable": [
         {
           "size": "16",
           "price": "\u00a350.00",
@@ -1528,7 +1539,23 @@
           "price": "\u00a350.00",
           "condition": "MUA >=11 OFF 25%",
           "discount": "\u00a337.50"
-        },
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-297-2",
+      "category": "ACRYLIC BRUSHES",
+      "productName": "BlazingStar Brush Premium Pro - L\u00d4NG D\u00c0Y H\u01a0N PLUS - Size 18",
+      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "/pro-1.jpg",
+        "topRight": "/pro-2.jpg",
+        "bottomLeft": "/pro.jpg"
+      },
+      "pricingTable": [
         {
           "size": "18",
           "price": "\u00a355.00",
@@ -1552,7 +1579,23 @@
           "price": "\u00a355.00",
           "condition": "MUA >=11 OFF 25%",
           "discount": "\u00a341.25"
-        },
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-297-3",
+      "category": "ACRYLIC BRUSHES",
+      "productName": "BlazingStar Brush Premium Pro - L\u00d4NG D\u00c0Y H\u01a0N PLUS - Size 20",
+      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "/pro-1.jpg",
+        "topRight": "/pro-2.jpg",
+        "bottomLeft": "/pro.jpg"
+      },
+      "pricingTable": [
         {
           "size": "20",
           "price": "\u00a360.00",
@@ -1578,7 +1621,8 @@
           "discount": "\u00a345.00"
         }
       ],
-      "badgePosition": "middle-right"
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
     },
     {
       "id": "product-277",
@@ -2186,40 +2230,26 @@
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/958-1.png",
+        "topRight": "/958-2.png",
+        "bottomLeft": "/958.png"
       },
       "pricingTable": [
         {
-          "size": "",
+          "size": "T\u1ef1 \u0111\u1ed9ng ng\u1eaft n\u01b0\u1edbc",
           "price": "\u00a33000.00",
-          "condition": "",
+          "condition": "Free v\u1eadn chuy\u1ec3n kh\u00f4ng bao g\u1ed3m l\u1eafp \u0111\u1eb7t",
           "discount": "\u00a32400.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-383",
-      "category": "PEDICURE CHAIR",
-      "productName": "Gh\u1ebf New Space VL958 Non Auto",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
-      "discountPercentage": 13,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "",
+          "size": "Kh\u00f4ng t\u1ef1 \u0111\u1ed9ng",
           "price": "\u00a32750.00",
-          "condition": "",
+          "condition": "Free v\u1eadn chuy\u1ec3n kh\u00f4ng bao g\u1ed3m l\u1eafp \u0111\u1eb7t",
           "discount": "\u00a32400.00"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
     },
     {
       "id": "product-379",
@@ -3087,30 +3117,9 @@
       "badgePosition": "middle-right"
     },
     {
-      "id": "product-139",
-      "category": "KDS",
-      "productName": "KDS Clay Mask Cucumber CASE",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "",
-          "price": "\u00a3108.00",
-          "condition": "",
-          "discount": "\u00a3108.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
       "id": "product-138",
       "category": "KDS",
-      "productName": "KDS Clay Mask Cucumber GAL",
+      "productName": "KDS Clay Mask Cucumber",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 10,
       "images": {
@@ -3120,10 +3129,16 @@
       },
       "pricingTable": [
         {
-          "size": "",
+          "size": "Gallon",
           "price": "\u00a330.00",
           "condition": "OFF 10%",
           "discount": "\u00a327.00"
+        },
+        {
+          "size": "Case",
+          "price": "\u00a3108.00",
+          "condition": "",
+          "discount": "\u00a3108.00"
         }
       ],
       "badgePosition": "bottom-right"

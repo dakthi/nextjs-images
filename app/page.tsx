@@ -15,6 +15,7 @@ export default function Home() {
   const [selectedProducts, setSelectedProducts] = useState<Set<string>>(
     new Set(productsData.products.map(p => p.id))
   );
+  const [imageFilter, setImageFilter] = useState<'all' | 'with-images' | 'no-images'>('all');
   const [exportProgress, setExportProgress] = useState<{
     isExporting: boolean;
     current: number;
@@ -44,6 +45,25 @@ export default function Home() {
   const deselectAll = () => {
     setSelectedProducts(new Set());
   };
+
+  // Function to check if a product has placeholder images
+  const hasPlaceholderImages = (product: any) => {
+    return (
+      product.images.topLeft === '/vllondon-logo.jpeg' ||
+      product.images.topRight === '/vllondon-logo.jpeg' ||
+      product.images.bottomLeft === '/vllondon-logo.jpeg'
+    );
+  };
+
+  // Filter products based on image filter
+  const filteredProducts = productsData.products.filter((product) => {
+    if (imageFilter === 'with-images') {
+      return !hasPlaceholderImages(product);
+    } else if (imageFilter === 'no-images') {
+      return hasPlaceholderImages(product);
+    }
+    return true; // 'all'
+  });
 
   // Shared function to convert product cards to PNG blobs
   const convertCardsToPngBlobs = async (options: { delayBetweenCards?: number } = {}) => {
@@ -423,6 +443,94 @@ export default function Home() {
     }
   };
 
+  const exportToCSV = () => {
+    if (selectedProducts.size === 0) {
+      alert('Please select at least one product to export');
+      return;
+    }
+
+    try {
+      // Get selected products that match the current filter
+      const selectedFilteredProducts = filteredProducts.filter(p => selectedProducts.has(p.id));
+
+      if (selectedFilteredProducts.length === 0) {
+        alert('No products match the current filter selection');
+        return;
+      }
+
+      // CSV Headers
+      const headers = [
+        'Product ID',
+        'Category',
+        'Product Name',
+        'Promotion Text',
+        'Discount Percentage',
+        'Has Images',
+        'Image Top Left',
+        'Image Top Right',
+        'Image Bottom Left',
+        'Pricing Details',
+        'Scents',
+        'Badge Position',
+        'Table Text Size'
+      ];
+
+      // Build CSV rows
+      const rows = selectedFilteredProducts.map(product => {
+        const hasImages = !hasPlaceholderImages(product);
+
+        // Format pricing table as a single cell
+        const pricingDetails = product.pricingTable
+          .map(pt => `${pt.size || 'N/A'}: ${pt.price} → ${pt.discount} (${pt.condition || 'No condition'})`)
+          .join(' | ');
+
+        const scents = (product as any).scents ? (product as any).scents.join(', ') : '';
+
+        return [
+          product.id,
+          product.category,
+          `"${product.productName.replace(/"/g, '""')}"`, // Escape quotes
+          `"${product.promotionText.replace(/"/g, '""')}"`,
+          product.discountPercentage,
+          hasImages ? 'Yes' : 'No',
+          product.images.topLeft,
+          product.images.topRight,
+          product.images.bottomLeft,
+          `"${pricingDetails.replace(/"/g, '""')}"`,
+          `"${scents.replace(/"/g, '""')}"`,
+          product.badgePosition || 'bottom-right',
+          (product as any).tableTextSize || 'xs'
+        ];
+      });
+
+      // Combine headers and rows
+      const csvContent = [
+        headers.join(','),
+        ...rows.map(row => row.join(','))
+      ].join('\n');
+
+      // Add BOM for proper UTF-8 encoding in Excel
+      const BOM = '\uFEFF';
+      const csvWithBOM = BOM + csvContent;
+
+      // Create blob and download
+      const blob = new Blob([csvWithBOM], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `vl-london-products-${imageFilter}-${new Date().toISOString().split('T')[0]}.csv`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+
+      console.log(`Successfully exported ${selectedFilteredProducts.length} products to CSV`);
+    } catch (error) {
+      console.error('CSV export failed:', error);
+      alert(`CSV export failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
+    }
+  };
+
   return (
     <main className="min-h-screen bg-gray-50 py-8 px-4">
       <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">
@@ -435,6 +543,7 @@ export default function Home() {
         onExportPNGs={exportIndividualPNGs}
         onExportZip={exportAllAsZip}
         onExportPDF={exportToPDF}
+        onExportCSV={exportToCSV}
         isExporting={exportProgress.isExporting}
       />
 
@@ -463,33 +572,68 @@ export default function Home() {
 
       {/* Product Selector */}
       <div className="max-w-6xl mx-auto mb-8 bg-white p-6 rounded-lg shadow">
-        <div className="flex justify-between items-center mb-4">
-          <h2 className="text-2xl font-bold text-gray-800">Select Products to Export ({selectedProducts.size}/{productsData.products.length})</h2>
-          <div className="flex gap-2">
+        <div className="flex justify-between items-center mb-4 flex-wrap gap-2">
+          <h2 className="text-xl font-bold text-gray-800">Products</h2>
+          <div className="flex gap-2 flex-wrap">
             <button
               onClick={selectAll}
-              className="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition-colors"
+              className="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded transition-colors text-sm"
             >
               Select All
             </button>
             <button
               onClick={deselectAll}
-              className="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition-colors"
+              className="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded transition-colors text-sm"
             >
               Deselect All
             </button>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {productsData.products.map((product) => (
-            <label key={product.id} className="flex items-center gap-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+
+        {/* Image Filter Buttons */}
+        <div className="flex gap-2 mb-4 flex-wrap">
+          <button
+            onClick={() => setImageFilter('all')}
+            className={`px-3 py-1 rounded text-sm transition-colors ${
+              imageFilter === 'all'
+                ? 'bg-gray-800 text-white'
+                : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+            }`}
+          >
+            All ({productsData.products.length})
+          </button>
+          <button
+            onClick={() => setImageFilter('with-images')}
+            className={`px-3 py-1 rounded text-sm transition-colors ${
+              imageFilter === 'with-images'
+                ? 'bg-gray-800 text-white'
+                : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+            }`}
+          >
+            With Images ({productsData.products.filter(p => !hasPlaceholderImages(p)).length})
+          </button>
+          <button
+            onClick={() => setImageFilter('no-images')}
+            className={`px-3 py-1 rounded text-sm transition-colors ${
+              imageFilter === 'no-images'
+                ? 'bg-gray-800 text-white'
+                : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+            }`}
+          >
+            No Images ({productsData.products.filter(p => hasPlaceholderImages(p)).length})
+          </button>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+          {filteredProducts.map((product) => (
+            <label key={product.id} className="flex items-center gap-2 p-2 border rounded hover:bg-gray-50 cursor-pointer">
               <input
                 type="checkbox"
                 checked={selectedProducts.has(product.id)}
                 onChange={() => toggleProduct(product.id)}
                 className="w-4 h-4 cursor-pointer"
               />
-              <span className="text-gray-700">{product.productName}</span>
+              <span className="text-sm text-gray-700">{product.productName}</span>
             </label>
           ))}
         </div>
@@ -497,7 +641,7 @@ export default function Home() {
 
       {/* Visible cards for UI */}
       <div className="space-y-8">
-        {productsData.products
+        {filteredProducts
           .map((product, index) => (
           <div key={`visible-${product.id}`}>
             <SaleCard
