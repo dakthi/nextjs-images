@@ -600,7 +600,7 @@
       "category": "S\u01a0N GEL POLISH",
       "productName": "MBerry Gel Top 480ml",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
-      "discountPercentage": 10,
+      "discountPercentage": 46,
       "images": {
         "topLeft": "/mberry.jpg",
         "topRight": "/mgel-3.jpg",
@@ -610,14 +610,8 @@
         {
           "size": "480ml",
           "price": "\u00a375.00",
-          "condition": "L\u1ebb OFF 10%",
-          "discount": "\u00a367.50"
-        },
-        {
-          "size": "480ml",
-          "price": "\u00a375.00",
-          "condition": "MUA 2 T\u1eb6NG 1 - T\u1eb6NG 2 CHAI TOP 15ML",
-          "discount": "\u00a350.00"
+          "condition": "L\u1ebb OFF 10% & MUA 2 T\u1eb6NG 1 - T\u1eb6NG 2 CHAI TOP 15ML",
+          "discount": "\u00a340.50"
         }
       ],
       "badgePosition": "middle-right",
@@ -693,17 +687,12 @@
         {
           "size": "15ml",
           "price": "\u00a35.50",
-          "condition": "SL < 12 CHAI",
-          "discount": "\u00a35.50"
-        },
-        {
-          "size": "15ml",
-          "price": "\u00a35.50",
           "condition": "SL >= 12 GI\u1ea2M TH\u00caM 10% MIX & MATCH",
           "discount": "\u00a34.95"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "bottom-right",
+      "tableTextSize": "lg"
     },
     {
       "id": "product-228",
@@ -1494,7 +1483,7 @@
     {
       "id": "product-297",
       "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Pro - L\u00d4NG D\u00c0Y H\u01a0N PLUS - Size 14",
+      "productName": "BlazingStar Brush Premium Pro - Size 14",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 10,
       "images": {
@@ -1506,25 +1495,25 @@
         {
           "size": "14",
           "price": "\u00a345.00",
-          "condition": "MUA <3 OFF 10%",
+          "condition": "MUA <2 C\u00c2Y OFF 10%",
           "discount": "\u00a340.50"
         },
         {
           "size": "14",
           "price": "\u00a345.00",
-          "condition": "MUA 3-5 OFF 15%",
+          "condition": "MUA 2-5 C\u00c2Y OFF 15%",
           "discount": "\u00a338.25"
         },
         {
           "size": "14",
           "price": "\u00a345.00",
-          "condition": "MUA 6-10 OFF 20%",
+          "condition": "MUA 6-10 C\u00c2Y OFF 20%",
           "discount": "\u00a336.00"
         },
         {
           "size": "14",
           "price": "\u00a345.00",
-          "condition": "MUA >=11 OFF 25%",
+          "condition": "MUA >=11 C\u00c2Y OFF 25%",
           "discount": "\u00a333.75"
         }
       ],
@@ -1534,7 +1523,7 @@
     {
       "id": "product-297-1",
       "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Pro - L\u00d4NG D\u00c0Y H\u01a0N PLUS - Size 16",
+      "productName": "BlazingStar Brush Premium Pro - Size 16",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 10,
       "images": {
@@ -1546,25 +1535,25 @@
         {
           "size": "16",
           "price": "\u00a350.00",
-          "condition": "MUA <3 OFF 10%",
+          "condition": "MUA <2 C\u00c2Y OFF 10%",
           "discount": "\u00a345.00"
         },
         {
           "size": "16",
           "price": "\u00a350.00",
-          "condition": "MUA 3-5 OFF 15%",
+          "condition": "MUA 2-5 C\u00c2Y OFF 15%",
           "discount": "\u00a342.50"
         },
         {
           "size": "16",
           "price": "\u00a350.00",
-          "condition": "MUA 6-10 OFF 20%",
+          "condition": "MUA 6-10 C\u00c2Y OFF 20%",
           "discount": "\u00a340.00"
         },
         {
           "size": "16",
           "price": "\u00a350.00",
-          "condition": "MUA >=11 OFF 25%",
+          "condition": "MUA >=11 C\u00c2Y OFF 25%",
           "discount": "\u00a337.50"
         }
       ],
@@ -1574,7 +1563,7 @@
     {
       "id": "product-297-2",
       "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Pro - L\u00d4NG D\u00c0Y H\u01a0N PLUS - Size 18",
+      "productName": "BlazingStar Brush Premium Pro - Size 18",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 10,
       "images": {
@@ -1586,25 +1575,25 @@
         {
           "size": "18",
           "price": "\u00a355.00",
-          "condition": "MUA <3 OFF 10%",
+          "condition": "MUA <2 C\u00c2Y OFF 10%",
           "discount": "\u00a349.50"
         },
         {
           "size": "18",
           "price": "\u00a355.00",
-          "condition": "MUA 3-5 OFF 15%",
+          "condition": "MUA 2-5 C\u00c2Y OFF 15%",
           "discount": "\u00a346.75"
         },
         {
           "size": "18",
           "price": "\u00a355.00",
-          "condition": "MUA 6-10 OFF 20%",
+          "condition": "MUA 6-10 C\u00c2Y OFF 20%",
           "discount": "\u00a344.00"
         },
         {
           "size": "18",
           "price": "\u00a355.00",
-          "condition": "MUA >=11 OFF 25%",
+          "condition": "MUA >=11 C\u00c2Y OFF 25%",
           "discount": "\u00a341.25"
         }
       ],
@@ -1614,7 +1603,7 @@
     {
       "id": "product-297-3",
       "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Pro - L\u00d4NG D\u00c0Y H\u01a0N PLUS - Size 20",
+      "productName": "BlazingStar Brush Premium Pro - Size 20",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 10,
       "images": {
@@ -1626,25 +1615,25 @@
         {
           "size": "20",
           "price": "\u00a360.00",
-          "condition": "MUA <3 OFF 10%",
+          "condition": "MUA <2 C\u00c2Y OFF 10%",
           "discount": "\u00a354.00"
         },
         {
           "size": "20",
           "price": "\u00a360.00",
-          "condition": "MUA 3-5 OFF 15%",
+          "condition": "MUA 2-5 C\u00c2Y OFF 15%",
           "discount": "\u00a351.00"
         },
         {
           "size": "20",
           "price": "\u00a360.00",
-          "condition": "MUA 6-10 OFF 20%",
+          "condition": "MUA 6-10 C\u00c2Y OFF 20%",
           "discount": "\u00a348.00"
         },
         {
           "size": "20",
           "price": "\u00a360.00",
-          "condition": "MUA >=11 OFF 25%",
+          "condition": "MUA >=11 C\u00c2Y OFF 25%",
           "discount": "\u00a345.00"
         }
       ],
@@ -1890,7 +1879,8 @@
           "discount": "\u00a321.00"
         }
       ],
-      "badgePosition": "middle-right"
+      "badgePosition": "middle-right",
+      "tableTextSize": "lg"
     },
     {
       "id": "product-356",
@@ -3006,9 +2996,9 @@
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 32,
       "images": {
-        "topLeft": "/sugar-5.jpg",
-        "topRight": "/sugar-6.jpg",
-        "bottomLeft": "/sugar-7.jpg"
+        "topLeft": "/no-1.jpg",
+        "topRight": "/no-2.jpg",
+        "bottomLeft": "/no.jpg"
       },
       "pricingTable": [
         {
@@ -3028,7 +3018,26 @@
           "price": "\u00a335.00",
           "condition": "OFF 10% MUA 3 T\u1eb6NG 1",
           "discount": "\u00a323.63"
-        },
+        }
+      ],
+      "badgePosition": "bottom-right",
+      "scents": [
+        "Tropical Citrus",
+        "Lemon"
+      ]
+    },
+    {
+      "id": "product-58-1",
+      "category": "La Palm",
+      "productName": "La Palm Sugar Scrub Extreme",
+      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "discountPercentage": 32,
+      "images": {
+        "topLeft": "/yes-1.jpg",
+        "topRight": "/yes-2.jpg",
+        "bottomLeft": "/yes.jpg"
+      },
+      "pricingTable": [
         {
           "size": "12oz Extreme",
           "price": "\u00a315.00",
@@ -3050,10 +3059,8 @@
       ],
       "badgePosition": "middle-right",
       "scents": [
-        "Lavender Purple",
-        "Lemon",
         "Orange Tangerine Zest",
-        "Tropical Citrus"
+        "Lavender Purple"
       ]
     },
     {
@@ -3176,8 +3183,8 @@
       "discountPercentage": 0,
       "images": {
         "topLeft": "/kds4-1.png",
-        "topRight": "/kds4.png",
-        "bottomLeft": "/kds4-2.jpg"
+        "topRight": "/kds4-2.jpg",
+        "bottomLeft": "/kds4.png"
       },
       "pricingTable": [
         {

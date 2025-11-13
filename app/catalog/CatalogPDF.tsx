@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Document, Page, Text, View, StyleSheet, Font } from '@react-pdf/renderer';
+import { Document, Page, Text, View, StyleSheet, Font, Image } from '@react-pdf/renderer';
 
 // Register font with Vietnamese support
 // Using Open Sans from Google Fonts with Vietnamese subset
@@ -55,7 +55,15 @@ const styles = StyleSheet.create({
     padding: 8,
     fontSize: 16,
     fontWeight: 'bold',
+    marginBottom: 5,
+  },
+  promotionHeader: {
+    backgroundColor: '#667eea',
+    color: '#ffffff',
+    padding: 6,
+    fontSize: 11,
     marginBottom: 10,
+    textAlign: 'center',
   },
   productItem: {
     marginBottom: 10,
@@ -107,9 +115,15 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     justifyContent: 'space-between',
   },
+  imagesContainer: {
+    flexDirection: 'row',
+    marginBottom: 8,
+    justifyContent: 'space-between',
+    gap: 4,
+  },
   productImage: {
-    width: '30%',
-    height: 150,
+    width: '32%',
+    height: 50,
     borderWidth: 1,
     borderColor: '#ddd',
     borderStyle: 'solid',
@@ -226,11 +240,11 @@ export default function CatalogPDF({ products }: CatalogPDFProps) {
       {Object.entries(groupedProducts).map(([category, categoryProducts]) => (
         <Page key={category} size="A4" style={styles.page} wrap>
           <Text style={styles.categoryHeader}>{category}</Text>
+          <Text style={styles.promotionHeader}>{categoryProducts[0]?.promotionText}</Text>
           {categoryProducts.map((product) => (
             <View key={product.id} style={styles.productItem} wrap={false}>
               <View style={styles.productInfo}>
                 <Text style={styles.productName}>{product.productName}</Text>
-                <Text style={styles.productPromotion}>{product.promotionText}</Text>
                 {product.discountPercentage > 0 && (
                   <Text style={styles.discountBadge}>
                     -{product.discountPercentage}% OFF
@@ -244,6 +258,33 @@ export default function CatalogPDF({ products }: CatalogPDFProps) {
                       </Text>
                     ))}
                   </View>
+                )}
+              </View>
+
+              <View style={styles.imagesContainer}>
+                {product.images.topLeft && product.images.topLeft !== '/vllondon-logo.jpeg' && (
+                  <Image
+                    src={product.images.topLeft}
+                    style={styles.productImage}
+                    cache={false}
+                    allowDangerousPaths
+                  />
+                )}
+                {product.images.topRight && product.images.topRight !== '/vllondon-logo.jpeg' && (
+                  <Image
+                    src={product.images.topRight}
+                    style={styles.productImage}
+                    cache={false}
+                    allowDangerousPaths
+                  />
+                )}
+                {product.images.bottomLeft && product.images.bottomLeft !== '/vllondon-logo.jpeg' && (
+                  <Image
+                    src={product.images.bottomLeft}
+                    style={styles.productImage}
+                    cache={false}
+                    allowDangerousPaths
+                  />
                 )}
               </View>
 
