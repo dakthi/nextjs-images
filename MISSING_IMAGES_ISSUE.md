@@ -11,7 +11,7 @@ The image rename script (`renameProductImages.js`) successfully renamed 200 imag
 
 ## Recovery Status
 
-### ✅ Fully Restored (Commit f194c6c)
+### ✅ Fully Restored (Commits f194c6c, 99e3ced)
 - **product-213** (Bold Berry - Gel Polish - Reflective Collection)
   - All 3 images restored: topLeft.png, topRight.jpg, bottomLeft.png
   - Status: Complete, verified with findBrokenImages.js
@@ -26,11 +26,11 @@ The image rename script (`renameProductImages.js`) successfully renamed 200 imag
   - topRight.webp and bottomLeft.webp were already present
   - Status: Complete, JSON updated, verified
 
-### ⚠️ Partially Restored / Missing Backup
+### ✅ Fully Restored (Commit 99e3ced)
 - **product-386** (BlazingStar Nail Table - MÁY HÚT PRO)
-  - topLeft.webp and topRight.webp exist
-  - bottomLeft.webp missing - NOT FOUND in public-organized/ backup
-  - Status: 2/3 images available, 1 missing from backup
+  - topLeft.webp and topRight.webp (already existed)
+  - bottomLeft.png restored from `public-organized/bstable.png`
+  - Status: Complete, all 3 images now available, JSON updated, verified
 
 - **product-297** (BlazingStar Brush Premium Pro - Size 14)
   - No images found in public-organized/ backup
@@ -61,13 +61,12 @@ product-137, product-138, product-155, product-210, product-220, product-220-1, 
 product-304 (✅ FIXED)
 
 **Using placeholder logo for 1/3 images:**
-product-378 (✅ FIXED), product-386
+(None remaining)
 
 ## Recommended Next Steps
 
 1. **For products missing from backup** (high priority):
    - product-297, product-297-1, product-297-2: Need to acquire original image files
-   - product-386: Search for bottomLeft image or contact source for replacement
    - product-228, product-243: Should have images but missing from backup
 
 2. **For remaining 30+ products with full placeholder images**:
