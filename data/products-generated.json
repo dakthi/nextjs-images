@@ -1334,8 +1334,8 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
+        "topLeft": "/product-304-topLeft.jpeg",
+        "topRight": "/product-304-topRight.jpeg",
         "bottomLeft": "/product-304-bottomLeft.webp"
       },
       "pricingTable": [
@@ -2131,7 +2131,7 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
+        "topLeft": "/product-378-topLeft.png",
         "topRight": "/product-378-topRight.webp",
         "bottomLeft": "/product-378-bottomLeft.webp"
       },
