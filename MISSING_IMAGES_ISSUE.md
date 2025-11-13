@@ -64,35 +64,3 @@ product-304 (✅ FIXED)
 (None remaining)
 
 ## Recommended Next Steps
-
-1. **For products missing from backup** (high priority):
-   - product-297, product-297-1, product-297-2: Need to acquire original image files
-   - product-228, product-243: Should have images but missing from backup
-
-2. **For remaining 30+ products with full placeholder images**:
-   - Search `public-organized/` systematically for:
-     - product-137 (KDS Callus Remover)
-     - product-138 (KDS Clay Mask Cucumber)
-     - product-155, product-210, product-220 series (gel products)
-     - product-258 (Nail Tips) - has images in backup at `blazingstar/tips/`
-     - product-270, product-307, product-309 (brushes, liquids)
-     - product-350, product-379, product-380, product-381 (furniture)
-   - For each found product:
-     - Copy images to `/public/` with standardized names
-     - Update JSON with correct image paths
-     - Consider WebP conversion for consistency
-
-3. **Validation** (Completed ✅):
-   - ✅ Run `scripts/findBrokenImages.js` - returned 0 broken references
-   - TODO: Test PDF export to ensure images render properly
-   - TODO: Check web catalog displays product images correctly
-
-## Git History Reference
-- Commit `fbabc59` - Last working version before WebP optimization (has correct image references)
-- Commit `9145ee5` - WebP optimization started (images began getting lost)
-- Use `git show fbabc59:data/products-generated.json` to see original image paths
-
-## Notes
-- Original files in `public-organized/` are preserved and can be recovered
-- WebP conversion should only happen AFTER all images are restored to `/public/`
-- Consider batch processing remaining products to restore all images at once

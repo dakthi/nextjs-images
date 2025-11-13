@@ -227,16 +227,6 @@ export default function SaleCard({
         style={{ display: 'block' }}
       />
 
-      {/* Checkbox - Top Left */}
-      <div className="absolute top-3 left-3 z-30">
-        <input
-          type="checkbox"
-          checked={isChecked}
-          onChange={(e) => onCheckChange?.(e.target.checked)}
-          className="w-6 h-6 cursor-pointer accent-blue-600"
-        />
-      </div>
-
       {/* Penguin Sale Corner - Top Left */}
       <div className="absolute -top-4 -left-4 w-48 h-48 z-20">
         <img
