@@ -2,168 +2,168 @@
   "products": [
     {
       "id": "product-187",
-      "category": "B\u1ed8T ACRYLIC + OMBRE",
+      "category": "BỘT ACRYLIC + OMBRE",
       "productName": "BlazingStar Maxx Perform - French Collection",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/card-1-top-left.JPG",
-        "topRight": "/card-1-blazingstar-french-collection-/french bs 23oz .png",
-        "bottomLeft": "/card-1-blazingstar-french-collection-/D2DC03AE-74DB-45F2-BE70-E9B1FE9B7A4C.jpeg"
+        "topLeft": "/product-187-topLeft.webp",
+        "topRight": "/product-187-topRight.webp",
+        "bottomLeft": "/product-187-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "23oz",
-          "price": "\u00a370.00",
+          "price": "£70.00",
           "condition": "SL <3",
-          "discount": "\u00a363.00"
+          "discount": "£63.00"
         },
         {
           "size": "23oz",
-          "price": "\u00a360.00",
-          "condition": "MUA >=4 GI\u1ea2M 20% - MIX & MATCH",
-          "discount": "\u00a348.00"
+          "price": "£60.00",
+          "condition": "MUA >=4 GIẢM 20% - MIX & MATCH",
+          "discount": "£48.00"
         }
       ],
       "badgePosition": "bottom-right"
     },
     {
       "id": "product-189",
-      "category": "B\u1ed8T ACRYLIC + OMBRE",
+      "category": "BỘT ACRYLIC + OMBRE",
       "productName": "BlazingStar Maxx Perform - Ombre Collection",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/card-3-blazingstar-maxx-perform---omb/ombre 23oz blazingstar.png",
-        "topRight": "/card-3-blazingstar-maxx-perform---omb/BS Ombre 19.jpeg",
-        "bottomLeft": "/card-2-bottom-left.png"
+        "topLeft": "/product-189-topLeft.webp",
+        "topRight": "/product-189-topRight.webp",
+        "bottomLeft": "/product-189-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "23oz",
-          "price": "\u00a370.00",
+          "price": "£70.00",
           "condition": "SL <3",
-          "discount": "\u00a363.00"
+          "discount": "£63.00"
         },
         {
           "size": "23oz",
-          "price": "\u00a370.00",
-          "condition": "MUA >=4 GI\u1ea2M 20% - MIX & MATCH",
-          "discount": "\u00a356.00"
+          "price": "£70.00",
+          "condition": "MUA >=4 GIẢM 20% - MIX & MATCH",
+          "discount": "£56.00"
         }
       ],
       "badgePosition": "bottom-right"
     },
     {
       "id": "product-191",
-      "category": "B\u1ed8T ACRYLIC + OMBRE",
+      "category": "BỘT ACRYLIC + OMBRE",
       "productName": "BlazingStar Maxx Perform - 23oz",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 25,
       "images": {
-        "topLeft": "/card-3-bottom-left.png",
-        "topRight": "/card-3-top-left.png",
-        "bottomLeft": "/card-3-top-right.png"
+        "topLeft": "/product-191-topLeft.webp",
+        "topRight": "/product-191-topRight.webp",
+        "bottomLeft": "/product-191-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Set 22 Ombre Colors (1-22) 23oz",
-          "price": "\u00a31540.00",
-          "condition": "GI\u1ea2M 25% T\u1eea GI\u00c1 G\u1ed0C",
-          "discount": "\u00a31155.00"
+          "price": "£1540.00",
+          "condition": "GIẢM 25% TỪ GIÁ GỐC",
+          "discount": "£1155.00"
         },
         {
           "size": "Set 28 (22 Ombre + 6 French) 23oz",
-          "price": "\u00a31900.00",
-          "condition": "GI\u1ea2M 25% T\u1eea GI\u00c1 G\u1ed0C",
-          "discount": "\u00a31425.00"
+          "price": "£1900.00",
+          "condition": "GIẢM 25% TỪ GIÁ GỐC",
+          "discount": "£1425.00"
         },
         {
           "size": "Set 31 (22 Ombre + 3 White + 6 French) 23oz",
-          "price": "\u00a32050.00",
-          "condition": "GI\u1ea2M 25% T\u1eea GI\u00c1 G\u1ed0C",
-          "discount": "\u00a31537.50"
+          "price": "£2050.00",
+          "condition": "GIẢM 25% TỪ GIÁ GỐC",
+          "discount": "£1537.50"
         }
       ],
       "badgePosition": "bottom-right"
     },
     {
       "id": "product-194",
-      "category": "B\u1ed8T ACRYLIC + OMBRE",
+      "category": "BỘT ACRYLIC + OMBRE",
       "productName": "BlazingStar Maxx Perform - Ombre Collection",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/card-4-blazingstar-ombre-2oz/blazingstar-ombre-rosepetal.jpg",
-        "topRight": "/card-4-blazingstar-ombre-2oz/blazingstar-ombre-piggypink.jpg",
-        "bottomLeft": "/card-4-blazingstar-ombre-2oz/blazingstar-ombre-color-chart.png"
+        "topLeft": "/product-194-topLeft.webp",
+        "topRight": "/product-194-topRight.webp",
+        "bottomLeft": "/product-194-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "2oz",
-          "price": "\u00a310.00",
-          "condition": "SL >=10 GI\u1ea2M 10%",
-          "discount": "\u00a39.00"
+          "price": "£10.00",
+          "condition": "SL >=10 GIẢM 10%",
+          "discount": "£9.00"
         },
         {
           "size": "2oz",
-          "price": "\u00a310.00",
-          "condition": "SL >=20 GI\u1ea2M 20%",
-          "discount": "\u00a38.00"
+          "price": "£10.00",
+          "condition": "SL >=20 GIẢM 20%",
+          "discount": "£8.00"
         }
       ],
       "badgePosition": "bottom-right"
     },
     {
       "id": "product-197",
-      "category": "B\u1ed8T ACRYLIC + OMBRE",
+      "category": "BỘT ACRYLIC + OMBRE",
       "productName": "BlazingStar Maxx Perform - 2oz",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/card-3-bottom-left.png",
-        "topRight": "/card-3-top-left.png",
-        "bottomLeft": "/card-3-top-right.png"
+        "topLeft": "/product-197-topLeft.webp",
+        "topRight": "/product-197-topRight.webp",
+        "bottomLeft": "/product-197-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "Set 22 H\u0169 2oz",
-          "price": "\u00a3220.00",
-          "condition": "GI\u1ea2M 20% T\u1eea GI\u00c1 G\u1ed0C",
-          "discount": "\u00a3176.00"
+          "size": "Set 22 Hũ 2oz",
+          "price": "£220.00",
+          "condition": "GIẢM 20% TỪ GIÁ GỐC",
+          "discount": "£176.00"
         },
         {
-          "size": "Set 28 (22 Ombre + 6 French) H\u0169 2oz",
-          "price": "\u00a3280.00",
-          "condition": "GI\u1ea2M 20% T\u1eea GI\u00c1 G\u1ed0C",
-          "discount": "\u00a3224.00"
+          "size": "Set 28 (22 Ombre + 6 French) Hũ 2oz",
+          "price": "£280.00",
+          "condition": "GIẢM 20% TỪ GIÁ GỐC",
+          "discount": "£224.00"
         },
         {
-          "size": "Set 31 (22 Ombre + 3 White + 6 French) H\u0169 2oz",
-          "price": "\u00a3310.00",
-          "condition": "GI\u1ea2M 20% T\u1eea GI\u00c1 G\u1ed0C",
-          "discount": "\u00a3248.00"
+          "size": "Set 31 (22 Ombre + 3 White + 6 French) Hũ 2oz",
+          "price": "£310.00",
+          "condition": "GIẢM 20% TỪ GIÁ GỐC",
+          "discount": "£248.00"
         }
       ],
       "badgePosition": "bottom-right"
     },
     {
       "id": "product-184",
-      "category": "B\u1ed8T ACRYLIC + OMBRE",
+      "category": "BỘT ACRYLIC + OMBRE",
       "productName": "BlazingStar Maxx Perform Powder",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/card-6-blazingstar-powder-clear-gel-2/MaxxPerform Gel Clear.png",
-        "topRight": "/card-6-blazingstar-powder-clear-gel-2/GEL CLEAR.jpg",
-        "bottomLeft": "/card-6-blazingstar-powder-clear-gel-2/Screenshot 2025-11-11 at 12.33.44.png"
+        "topLeft": "/product-184-topLeft.webp",
+        "topRight": "/product-184-topRight.webp",
+        "bottomLeft": "/product-184-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "23oz",
-          "price": "\u00a340.00",
-          "condition": "MUA >=3 GI\u1ea2M 20%",
-          "discount": "\u00a332.00"
+          "price": "£40.00",
+          "condition": "MUA >=3 GIẢM 20%",
+          "discount": "£32.00"
         }
       ],
       "scents": [
@@ -175,42 +175,42 @@
     },
     {
       "id": "product-181",
-      "category": "B\u1ed8T ACRYLIC + OMBRE",
+      "category": "BỘT ACRYLIC + OMBRE",
       "productName": "BlazingStar Maxx Perform - Natural Pink - Slow/Medium/Fast Set - 23oz",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/card-7-blazingstar-powder-natural-pink/MaxxPerform Natural Pink.png",
-        "topRight": "/card-7-blazingstar-powder-natural-pink/BS Premium Powder copy.JPG",
-        "bottomLeft": "/card-7-blazingstar-powder-natural-pink/blazingstar-maxxperform-original-slowset.jpg"
+        "topLeft": "/product-181-topLeft.webp",
+        "topRight": "/product-181-topRight.webp",
+        "bottomLeft": "/product-181-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "23oz",
-          "price": "\u00a336.00",
-          "condition": "MUA >=5 GI\u1ea2M 15%",
-          "discount": "\u00a330.60"
+          "price": "£36.00",
+          "condition": "MUA >=5 GIẢM 15%",
+          "discount": "£30.60"
         }
       ],
       "badgePosition": "bottom-right"
     },
     {
       "id": "product-185",
-      "category": "B\u1ed8T ACRYLIC + OMBRE",
+      "category": "BỘT ACRYLIC + OMBRE",
       "productName": "BlazingStar Maxx Perform Powder",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/Milky White.png",
-        "topRight": "/BS Soft White.jpeg",
-        "bottomLeft": "/French White.png"
+        "topLeft": "/product-185-topLeft.webp",
+        "topRight": "/product-185-topRight.webp",
+        "bottomLeft": "/product-185-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "23oz",
-          "price": "\u00a350.00",
-          "condition": "MUA >=4 GI\u1ea2M 20% - MIX & MATCH",
-          "discount": "\u00a340.00"
+          "price": "£50.00",
+          "condition": "MUA >=4 GIẢM 20% - MIX & MATCH",
+          "discount": "£40.00"
         }
       ],
       "scents": [
@@ -222,273 +222,273 @@
     },
     {
       "id": "product-200",
-      "category": "B\u1ed8T ACRYLIC + OMBRE",
+      "category": "BỘT ACRYLIC + OMBRE",
       "productName": "Bold Berry - Dipping and Ombre - 2oz",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "badgePosition": "bottom-right",
       "images": {
-        "topLeft": "/bbpowder-1.png",
-        "topRight": "/bbpowder-4.png",
-        "bottomLeft": "/bbpowder-3.png"
+        "topLeft": "/product-200-topLeft.webp",
+        "topRight": "/product-200-topRight.webp",
+        "bottomLeft": "/product-200-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "2oz",
-          "price": "\u00a310.00",
+          "price": "£10.00",
           "condition": "SL >=10",
-          "discount": "\u00a39.00"
+          "discount": "£9.00"
         },
         {
           "size": "2oz",
-          "price": "\u00a310.00",
+          "price": "£10.00",
           "condition": "SL >=20",
-          "discount": "\u00a38.00"
+          "discount": "£8.00"
         },
         {
           "size": "Set 240",
-          "price": "\u00a32400.00",
-          "condition": "GI\u1ea2M 20% T\u1eea GI\u00c1 G\u1ed0C",
-          "discount": "\u00a31920.00"
+          "price": "£2400.00",
+          "condition": "GIẢM 20% TỪ GIÁ GỐC",
+          "discount": "£1920.00"
         }
       ]
     },
     {
       "id": "product-204",
-      "category": "S\u01a0N GEL POLISH",
+      "category": "SƠN GEL POLISH",
       "productName": "Bold Berry - French Pearl Cateye",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/1.png",
-        "topRight": "/3.png",
-        "bottomLeft": "/full b\u1ea3ng m\u00e0u updated.png"
+        "topLeft": "/product-204-topLeft.webp",
+        "topRight": "/product-204-topRight.webp",
+        "bottomLeft": "/product-204-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a38.00",
+          "size": "Lẻ 15ml",
+          "price": "£8.00",
           "condition": "SL <6 CHAI",
-          "discount": "\u00a38.00"
+          "discount": "£8.00"
         },
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a38.00",
-          "condition": "OFF 10% V\u1edaI SL >=6",
-          "discount": "\u00a37.20"
+          "size": "Lẻ 15ml",
+          "price": "£8.00",
+          "condition": "OFF 10% VỚI SL >=6",
+          "discount": "£7.20"
         },
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a38.00",
-          "condition": "OFF 20% V\u1edaI SL >=12",
-          "discount": "\u00a36.40"
+          "size": "Lẻ 15ml",
+          "price": "£8.00",
+          "condition": "OFF 20% VỚI SL >=12",
+          "discount": "£6.40"
         },
         {
-          "size": "Set 36 m\u00e0u 15ml",
-          "price": "\u00a3288.00",
-          "condition": "GI\u1ea2M 25% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a3216.00"
+          "size": "Set 36 màu 15ml",
+          "price": "£288.00",
+          "condition": "GIẢM 25% TỪ GIÁ ORIGINAL",
+          "discount": "£216.00"
         }
       ],
       "badgePosition": "bottom-right"
     },
     {
       "id": "product-210",
-      "category": "S\u01a0N GEL POLISH",
-      "productName": "Bold Berry GEL BASE / GEL TOP 15ML - L\u1ebb",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "category": "SƠN GEL POLISH",
+      "productName": "Bold Berry GEL BASE / GEL TOP 15ML - Lẻ",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
-          "size": "L\u1ebb",
-          "price": "\u00a35.00",
-          "condition": "SL >= 12 GI\u1ea2M 10% MIX & MATCH v\u1edbi GEL POLISH",
-          "discount": "\u00a34.50"
+          "size": "Lẻ",
+          "price": "£5.00",
+          "condition": "SL >= 12 GIẢM 10% MIX & MATCH với GEL POLISH",
+          "discount": "£4.50"
         }
       ],
       "badgePosition": "bottom-right"
     },
     {
       "id": "product-208",
-      "category": "S\u01a0N GEL POLISH",
+      "category": "SƠN GEL POLISH",
       "productName": "Bold Berry - Gel Polish",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/reflective1.jpg",
-        "topRight": "/reflective2.png",
-        "bottomLeft": "/reflective3.png"
+        "topLeft": "/product-208-topLeft.webp",
+        "topRight": "/product-208-topRight.webp",
+        "bottomLeft": "/product-208-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a35.00",
+          "size": "Lẻ 15ml",
+          "price": "£5.00",
           "condition": "SL <12 CHAI",
-          "discount": "\u00a35.00"
+          "discount": "£5.00"
         },
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a35.00",
-          "condition": "SL >= 12 GI\u1ea2M 10% MIX & MATCH v\u1edbi BASE v\u00e0 TOP",
-          "discount": "\u00a34.50"
+          "size": "Lẻ 15ml",
+          "price": "£5.00",
+          "condition": "SL >= 12 GIẢM 10% MIX & MATCH với BASE và TOP",
+          "discount": "£4.50"
         },
         {
           "size": "Set 36 15ml",
-          "price": "\u00a3180.00",
-          "condition": "GI\u1ea2M 15% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a3153.00"
+          "price": "£180.00",
+          "condition": "GIẢM 15% TỪ GIÁ ORIGINAL",
+          "discount": "£153.00"
         },
         {
-          "size": "Set 433 (b\u1ea3ng m\u00e0u 1-11, 13) 15ml",
-          "price": "\u00a32165.00",
-          "condition": "GI\u1ea2M 20% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a31732.00"
+          "size": "Set 433 (bảng màu 1-11, 13) 15ml",
+          "price": "£2165.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£1732.00"
         }
       ],
       "badgePosition": "bottom-right"
     },
     {
       "id": "product-209",
-      "category": "S\u01a0N GEL POLISH",
+      "category": "SƠN GEL POLISH",
       "productName": "Bold Berry - Gel Polish - Red Collection",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/red1.jpg",
-        "topRight": "/red2.jpg",
-        "bottomLeft": "/red3.jpg"
+        "topLeft": "/product-209-topLeft.webp",
+        "topRight": "/product-209-topRight.webp",
+        "bottomLeft": "/product-209-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a35.00",
+          "size": "Lẻ 15ml",
+          "price": "£5.00",
           "condition": "SL <12 CHAI",
-          "discount": "\u00a35.00"
+          "discount": "£5.00"
         },
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a35.00",
-          "condition": "SL >= 12 GI\u1ea2M 10% MIX & MATCH v\u1edbi BASE v\u00e0 TOP",
-          "discount": "\u00a34.50"
+          "size": "Lẻ 15ml",
+          "price": "£5.00",
+          "condition": "SL >= 12 GIẢM 10% MIX & MATCH với BASE và TOP",
+          "discount": "£4.50"
         },
         {
           "size": "Set 36 15ml",
-          "price": "\u00a3180.00",
-          "condition": "GI\u1ea2M 15% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a3153.00"
+          "price": "£180.00",
+          "condition": "GIẢM 15% TỪ GIÁ ORIGINAL",
+          "discount": "£153.00"
         },
         {
-          "size": "Set 433 (b\u1ea3ng m\u00e0u 1-11, 13) 15ml",
-          "price": "\u00a32165.00",
-          "condition": "GI\u1ea2M 20% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a31732.00"
+          "size": "Set 433 (bảng màu 1-11, 13) 15ml",
+          "price": "£2165.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£1732.00"
         }
       ],
       "badgePosition": "bottom-right"
     },
     {
       "id": "product-213",
-      "category": "S\u01a0N GEL POLISH",
+      "category": "SƠN GEL POLISH",
       "productName": "Bold Berry - Gel Polish - Reflective Collection",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/bbreflective1.png",
-        "topRight": "/bbreflective3.jpg",
-        "bottomLeft": "/bbreflective2.png"
+        "topLeft": "/product-213-topLeft.webp",
+        "topRight": "/product-213-topRight.webp",
+        "bottomLeft": "/product-213-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a37.00",
-          "condition": "GI\u1ea2M 10% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a36.30"
+          "size": "Lẻ 15ml",
+          "price": "£7.00",
+          "condition": "GIẢM 10% TỪ GIÁ ORIGINAL",
+          "discount": "£6.30"
         },
         {
-          "size": "Set 36 B\u1ea2NG S\u1ed0 12",
-          "price": "\u00a3252.00",
-          "condition": "GI\u1ea2M 20% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a3201.60"
+          "size": "Set 36 BẢNG SỐ 12",
+          "price": "£252.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£201.60"
         },
         {
-          "size": "Set 433 + Set 36 Reflective (B\u1ea2NG 12) = SET 469",
-          "price": "\u00a32417.00",
-          "condition": "GI\u1ea2M 20% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a31933.60"
+          "size": "Set 433 + Set 36 Reflective (BẢNG 12) = SET 469",
+          "price": "£2417.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£1933.60"
         }
       ],
       "badgePosition": "bottom-right"
     },
     {
       "id": "product-216",
-      "category": "S\u01a0N GEL POLISH",
+      "category": "SƠN GEL POLISH",
       "productName": "Bold Berry - Gel Polish - Jelly Collection",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/jelly1.png",
-        "topRight": "/jelly2.png",
-        "bottomLeft": "/jelly3.jpg"
+        "topLeft": "/product-216-topLeft.webp",
+        "topRight": "/product-216-topRight.webp",
+        "bottomLeft": "/product-216-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a35.00",
-          "condition": "SL >= 12 GI\u1ea2M TH\u00caM 10% MIX & MATCH",
-          "discount": "\u00a34.50"
+          "size": "Lẻ 15ml",
+          "price": "£5.00",
+          "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£4.50"
         }
       ],
       "badgePosition": "bottom-right"
     },
     {
       "id": "product-218",
-      "category": "S\u01a0N GEL POLISH",
+      "category": "SƠN GEL POLISH",
       "productName": "Bold Berry Gel Polish Reflective",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/bbreflective2.png",
-        "topRight": "/bbreflective1.png",
-        "bottomLeft": "/bbreflective3.jpg"
+        "topLeft": "/product-218-topLeft.webp",
+        "topRight": "/product-218-topRight.webp",
+        "bottomLeft": "/product-218-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a37.00",
-          "condition": "GI\u1ea2M 10% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a36.30"
+          "size": "Lẻ 15ml",
+          "price": "£7.00",
+          "condition": "GIẢM 10% TỪ GIÁ ORIGINAL",
+          "discount": "£6.30"
         },
         {
-          "size": "Set 36 m\u00e0u 15ml (b\u1ea3ng s\u1ed1 12)",
-          "price": "\u00a3252.00",
-          "condition": "GI\u1ea2M 20% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a3201.60"
+          "size": "Set 36 màu 15ml (bảng số 12)",
+          "price": "£252.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£201.60"
         }
       ],
       "badgePosition": "bottom-right"
     },
     {
       "id": "product-222",
-      "category": "S\u01a0N GEL POLISH",
-      "productName": "BlazingStar Gel Polish 15ml - Box 6 chai c\u00f9ng 1 m\u00e0u",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "category": "SƠN GEL POLISH",
+      "productName": "BlazingStar Gel Polish 15ml - Box 6 chai cùng 1 màu",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
-          "size": "Box 6 chai c\u00f9ng 1 m\u00e0u",
-          "price": "\u00a332.40",
+          "size": "Box 6 chai cùng 1 màu",
+          "price": "£32.40",
           "condition": "",
-          "discount": "\u00a332.40"
+          "discount": "£32.40"
         }
       ],
       "badgePosition": "bottom-right"
@@ -497,38 +497,44 @@
       "id": "product-220",
       "category": "TOP & BASE",
       "productName": "BlazingStar Gel Top & Gel Base 15ml",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 33,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
-      "scents": ["Gel Top Original", "Gel Top Durashine", "Gel Top Sunshield", "Gel Base Original", "Gel Base Express"],
+      "scents": [
+        "Gel Top Original",
+        "Gel Top Durashine",
+        "Gel Top Sunshield",
+        "Gel Base Original",
+        "Gel Base Express"
+      ],
       "pricingTable": [
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a39.00",
+          "size": "Lẻ 15ml",
+          "price": "£9.00",
           "condition": "SL <12 CHAI",
-          "discount": "\u00a36.00"
+          "discount": "£6.00"
         },
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a39.00",
-          "condition": "SL >=12 GI\u1ea2M 10% MIX & MATCH",
-          "discount": "\u00a35.40"
-        },
-        {
-          "size": "Set 362 15ml",
-          "price": "\u00a3216.00",
-          "condition": "GI\u1ea2M 15%",
-          "discount": "\u00a3183.60"
+          "size": "Lẻ 15ml",
+          "price": "£9.00",
+          "condition": "SL >=12 GIẢM 10% MIX & MATCH",
+          "discount": "£5.40"
         },
         {
           "size": "Set 362 15ml",
-          "price": "\u00a32172.00",
-          "condition": "GI\u1ea2M 20% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a31737.60"
+          "price": "£216.00",
+          "condition": "GIẢM 15%",
+          "discount": "£183.60"
+        },
+        {
+          "size": "Set 362 15ml",
+          "price": "£2172.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£1737.60"
         }
       ],
       "badgePosition": "middle-right",
@@ -536,39 +542,39 @@
     },
     {
       "id": "product-220-1",
-      "category": "S\u01a0N GEL POLISH",
+      "category": "SƠN GEL POLISH",
       "productName": "BlazingStar - Gel Polish",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 33,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a39.00",
+          "size": "Lẻ 15ml",
+          "price": "£9.00",
           "condition": "SL <12 CHAI",
-          "discount": "\u00a36.00"
+          "discount": "£6.00"
         },
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a39.00",
-          "condition": "SL >= 12 GI\u1ea2M 10% MIX & MATCH",
-          "discount": "\u00a35.40"
+          "size": "Lẻ 15ml",
+          "price": "£9.00",
+          "condition": "SL >= 12 GIẢM 10% MIX & MATCH",
+          "discount": "£5.40"
         },
         {
           "size": "Set 36 15ml",
-          "price": "\u00a3324.00",
-          "condition": "GI\u1ea2M 15% T\u1eeb GI\u00c1 ORIGINAL",
-          "discount": "\u00a3275.40"
+          "price": "£324.00",
+          "condition": "GIẢM 15% Từ GIÁ ORIGINAL",
+          "discount": "£275.40"
         },
         {
           "size": "Set 180 15ml",
-          "price": "\u00a31620.00",
-          "condition": "GI\u1ea2M 20% T\u1eeb GI\u00c1 ORIGINAL",
-          "discount": "\u00a31296.00"
+          "price": "£1620.00",
+          "condition": "GIẢM 20% Từ GIÁ ORIGINAL",
+          "discount": "£1296.00"
         }
       ],
       "badgePosition": "middle-right",
@@ -576,42 +582,42 @@
     },
     {
       "id": "product-227",
-      "category": "S\u01a0N GEL POLISH",
-      "productName": "MBerry Gel Polish 15ml - Box 6 chai c\u00f9ng 1 m\u00e0u",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "category": "SƠN GEL POLISH",
+      "productName": "MBerry Gel Polish 15ml - Box 6 chai cùng 1 màu",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
-          "size": "Box 6 chai c\u00f9ng 1 m\u00e0u",
-          "price": "\u00a329.70",
+          "size": "Box 6 chai cùng 1 màu",
+          "price": "£29.70",
           "condition": "",
-          "discount": "\u00a329.70"
+          "discount": "£29.70"
         }
       ],
       "badgePosition": "bottom-right"
     },
     {
       "id": "product-225",
-      "category": "S\u01a0N GEL POLISH",
+      "category": "SƠN GEL POLISH",
       "productName": "MBerry Gel Top 480ml",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 46,
       "images": {
-        "topLeft": "/mberry.jpg",
-        "topRight": "/mgel-3.jpg",
-        "bottomLeft": "/mberry-2.jpg"
+        "topLeft": "/product-225-topLeft.webp",
+        "topRight": "/product-225-topRight.webp",
+        "bottomLeft": "/product-225-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "480ml",
-          "price": "\u00a375.00",
-          "condition": "L\u1ebb OFF 10% & MUA 2 T\u1eb6NG 1 - T\u1eb6NG 2 CHAI TOP 15ML",
-          "discount": "\u00a340.50"
+          "price": "£75.00",
+          "condition": "Lẻ OFF 10% & MUA 2 TẶNG 1 - TẶNG 2 CHAI TOP 15ML",
+          "discount": "£40.50"
         }
       ],
       "badgePosition": "middle-right",
@@ -619,33 +625,33 @@
     },
     {
       "id": "product-225-1",
-      "category": "S\u01a0N GEL POLISH",
+      "category": "SƠN GEL POLISH",
       "productName": "MBerry Gel Polish",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/mgel.png",
-        "topRight": "/mgel-1.png",
-        "bottomLeft": "/mgel-2.png"
+        "topLeft": "/product-225-1-topLeft.webp",
+        "topRight": "/product-225-1-topRight.webp",
+        "bottomLeft": "/product-225-1-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "15ml",
-          "price": "\u00a35.50",
-          "condition": "SL >= 12 GI\u1ea2M TH\u00caM 10% MIX & MATCH",
-          "discount": "\u00a34.95"
+          "price": "£5.50",
+          "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£4.95"
         },
         {
           "size": "Set 36",
-          "price": "\u00a3198.00",
-          "condition": "GI\u1ea2M 15% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a3168.30"
+          "price": "£198.00",
+          "condition": "GIẢM 15% TỪ GIÁ ORIGINAL",
+          "discount": "£168.30"
         },
         {
           "size": "Set 180",
-          "price": "\u00a3990.00",
-          "condition": "GI\u1ea2M 20% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a3792.00"
+          "price": "£990.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£792.00"
         }
       ],
       "badgePosition": "middle-right",
@@ -653,42 +659,42 @@
     },
     {
       "id": "product-225-2",
-      "category": "S\u01a0N GEL POLISH",
-      "productName": "MBerry Gel Base 15ml - L\u1ebb",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "category": "SƠN GEL POLISH",
+      "productName": "MBerry Gel Base 15ml - Lẻ",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
           "size": "15ml",
-          "price": "\u00a35.50",
+          "price": "£5.50",
           "condition": "SL < 12 CHAI",
-          "discount": "\u00a35.50"
+          "discount": "£5.50"
         }
       ],
       "badgePosition": "bottom-right"
     },
     {
       "id": "product-225-3",
-      "category": "S\u01a0N GEL POLISH",
+      "category": "SƠN GEL POLISH",
       "productName": "MBerry Gel Top 15ml",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/top-7.png",
-        "topRight": "/top-8.png",
-        "bottomLeft": "/top-9.png"
+        "topLeft": "/product-225-3-topLeft.webp",
+        "topRight": "/product-225-3-topRight.webp",
+        "bottomLeft": "/product-225-3-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "15ml",
-          "price": "\u00a35.50",
-          "condition": "SL >= 12 GI\u1ea2M TH\u00caM 10% MIX & MATCH",
-          "discount": "\u00a34.95"
+          "price": "£5.50",
+          "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£4.95"
         }
       ],
       "badgePosition": "bottom-right",
@@ -696,33 +702,33 @@
     },
     {
       "id": "product-228",
-      "category": "S\u01a0N GEL POLISH",
+      "category": "SƠN GEL POLISH",
       "productName": "MBerry Gel Polish - 15ml",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
-          "size": "L\u1ebb",
-          "price": "\u00a35.50",
-          "condition": "SL >= 12 GI\u1ea2M TH\u00caM 10% MIX & MATCH",
-          "discount": "\u00a34.95"
+          "size": "Lẻ",
+          "price": "£5.50",
+          "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£4.95"
         },
         {
           "size": "Set 36",
-          "price": "\u00a3198.00",
-          "condition": "GI\u1ea2M 15% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a3168.30"
+          "price": "£198.00",
+          "condition": "GIẢM 15% TỪ GIÁ ORIGINAL",
+          "discount": "£168.30"
         },
         {
           "size": "Set 180",
-          "price": "\u00a3990.00",
-          "condition": "GI\u1ea2M 20% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a3792.00"
+          "price": "£990.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£792.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -731,19 +737,19 @@
       "id": "product-230",
       "category": "TOP & BASE",
       "productName": "Bold Berry Gel Base 240ml",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
           "size": "240ml",
-          "price": "\u00a345.00",
-          "condition": "GI\u1ea2M 10% - T\u1eb6NG 2 V\u1ece",
-          "discount": "\u00a340.50"
+          "price": "£45.00",
+          "condition": "GIẢM 10% - TẶNG 2 VỎ",
+          "discount": "£40.50"
         }
       ],
       "badgePosition": "bottom-right"
@@ -752,25 +758,25 @@
       "id": "product-231",
       "category": "TOP & BASE",
       "productName": "Bold Berry Gel Top - 480ml",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
           "size": "480ml",
-          "price": "\u00a370.00",
-          "condition": "L\u1eba 1 CHAI KO GI\u1ea2M",
-          "discount": "\u00a370.00"
+          "price": "£70.00",
+          "condition": "LẺ 1 CHAI KO GIẢM",
+          "discount": "£70.00"
         },
         {
           "size": "480ml",
-          "price": "\u00a370.00",
-          "condition": "MUA 2 T\u1eb6NG 1 V\u00c0 GI\u1ea2M 10% - T\u1eb6NG 8 V\u1ece ( CHAI T\u1eb6NG K T\u1eb6NG V\u1ece )",
-          "discount": "\u00a342.00"
+          "price": "£70.00",
+          "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 8 VỎ ( CHAI TẶNG K TẶNG VỎ )",
+          "discount": "£42.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -778,20 +784,20 @@
     {
       "id": "product-233",
       "category": "TOP & BASE",
-      "productName": "BlazingStar Gel Base 240ml - L\u1ebb",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "BlazingStar Gel Base 240ml - Lẻ",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
-          "size": "L\u1ebb",
-          "price": "\u00a360.00",
-          "condition": "L\u1eba 1 CHAI KO GI\u1ea2M",
-          "discount": "\u00a360.00"
+          "size": "Lẻ",
+          "price": "£60.00",
+          "condition": "LẺ 1 CHAI KO GIẢM",
+          "discount": "£60.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -799,20 +805,20 @@
     {
       "id": "product-234",
       "category": "TOP & BASE",
-      "productName": "BlazingStar Gel Base 240ml - L\u1ebb",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "BlazingStar Gel Base 240ml - Lẻ",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 33,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
-          "size": "L\u1ebb",
-          "price": "\u00a360.00",
-          "condition": "MUA 2 T\u1eb6NG 1 - T\u1eb6NG 2 V\u1ece ( CHAI T\u1eb6NG K T\u1eb6NG V\u1ece )",
-          "discount": "\u00a340.00"
+          "size": "Lẻ",
+          "price": "£60.00",
+          "condition": "MUA 2 TẶNG 1 - TẶNG 2 VỎ ( CHAI TẶNG K TẶNG VỎ )",
+          "discount": "£40.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -820,20 +826,20 @@
     {
       "id": "product-235",
       "category": "TOP & BASE",
-      "productName": "BlazingStar Gel Base Express 480ml - L\u1ebb",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "BlazingStar Gel Base Express 480ml - Lẻ",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
-          "size": "L\u1ebb",
-          "price": "\u00a380.00",
-          "condition": "L\u1eba 1 CHAI KO GI\u1ea2M",
-          "discount": "\u00a380.00"
+          "size": "Lẻ",
+          "price": "£80.00",
+          "condition": "LẺ 1 CHAI KO GIẢM",
+          "discount": "£80.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -841,20 +847,20 @@
     {
       "id": "product-236",
       "category": "TOP & BASE",
-      "productName": "BlazingStar Gel Base Express 480ml - L\u1ebb",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "BlazingStar Gel Base Express 480ml - Lẻ",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 40,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
-          "size": "L\u1ebb",
-          "price": "\u00a380.00",
-          "condition": "MUA 2 T\u1eb6NG 1 V\u00c0 GI\u1ea2M 10% - T\u1eb6NG 8 V\u1ece ( CHAI T\u1eb6NG K T\u1eb6NG V\u1ece )",
-          "discount": "\u00a348.00"
+          "size": "Lẻ",
+          "price": "£80.00",
+          "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 8 VỎ ( CHAI TẶNG K TẶNG VỎ )",
+          "discount": "£48.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -862,39 +868,39 @@
     {
       "id": "product-237",
       "category": "TOP & BASE",
-      "productName": "BlazingStar Gel Top Sunshield 480ml - L\u1ebb",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "BlazingStar Gel Top Sunshield 480ml - Lẻ",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 40,
       "badgePosition": "middle-right",
       "images": {
-        "topLeft": "/sunshield.png",
-        "topRight": "/sunshield1.png",
-        "bottomLeft": "/sunshield2.png"
+        "topLeft": "/product-237-topLeft.webp",
+        "topRight": "/product-237-topRight.webp",
+        "bottomLeft": "/product-237-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "L\u1ebb 480ml",
-          "price": "\u00a380.00",
-          "condition": "MUA 2 T\u1eb6NG 1 V\u00c0 GI\u1ea2M 10% - T\u1eb6NG 8 V\u1ece ( CHAI T\u1eb6NG K T\u1eb6NG V\u1ece )",
-          "discount": "\u00a348.00"
+          "size": "Lẻ 480ml",
+          "price": "£80.00",
+          "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 8 VỎ ( CHAI TẶNG K TẶNG VỎ )",
+          "discount": "£48.00"
         },
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a39.00",
-          "condition": "\u0110\u1ec0U GI\u00c1 \u00a36/CHAI - SL <12",
-          "discount": "\u00a36.00"
+          "size": "Lẻ 15ml",
+          "price": "£9.00",
+          "condition": "ĐỀU GIÁ £6/CHAI - SL <12",
+          "discount": "£6.00"
         },
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a39.00",
-          "condition": "\u0110\u1ec0U GI\u00c1 \u00a36/CHAI - SL >=12 GI\u1ea2M TH\u00caM 10% MIX & MATCH",
-          "discount": "\u00a35.40"
+          "size": "Lẻ 15ml",
+          "price": "£9.00",
+          "condition": "ĐỀU GIÁ £6/CHAI - SL >=12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£5.40"
         },
         {
-          "size": "Box - 6 Chai 15ml c\u00f9ng 1 m\u00e0u",
-          "price": "\u00a332.40",
+          "size": "Box - 6 Chai 15ml cùng 1 màu",
+          "price": "£32.40",
           "condition": "",
-          "discount": "\u00a332.40"
+          "discount": "£32.40"
         }
       ]
     },
@@ -902,25 +908,25 @@
       "id": "product-238",
       "category": "TOP & BASE",
       "productName": "BlazingStar Gel Base - 15ml",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/bstop-2.png",
-        "topRight": "/bstop-1.jpg",
-        "bottomLeft": "/bstop.jpg"
+        "topLeft": "/product-238-topLeft.webp",
+        "topRight": "/product-238-topRight.webp",
+        "bottomLeft": "/product-238-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "15ml",
-          "price": "\u00a39.00",
-          "condition": "\u0110\u1ec0U GI\u00c1 \u00a36/CHAI - SL <12",
-          "discount": "\u00a36.00"
+          "price": "£9.00",
+          "condition": "ĐỀU GIÁ £6/CHAI - SL <12",
+          "discount": "£6.00"
         },
         {
           "size": "15ml",
-          "price": "\u00a39.00",
-          "condition": "\u0110\u1ec0U GI\u00c1 \u00a36/CHAI - SL >=12 GI\u1ea2M TH\u00caM 10% MIX & MATCH",
-          "discount": "\u00a35.40"
+          "price": "£9.00",
+          "condition": "ĐỀU GIÁ £6/CHAI - SL >=12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£5.40"
         }
       ],
       "badgePosition": "bottom-right"
@@ -929,25 +935,25 @@
       "id": "product-239",
       "category": "TOP & BASE",
       "productName": "BlazingStar Revive Base / Revive Base HF / Durabase HF - 15ml",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a38.00",
+          "size": "Lẻ 15ml",
+          "price": "£8.00",
           "condition": "SL <12 CHAI",
-          "discount": "\u00a38.00"
+          "discount": "£8.00"
         },
         {
-          "size": "L\u1ebb 15ml",
-          "price": "\u00a38.00",
-          "condition": "SL >=12 CHAI - GI\u1ea2M 10%",
-          "discount": "\u00a37.20"
+          "size": "Lẻ 15ml",
+          "price": "£8.00",
+          "condition": "SL >=12 CHAI - GIẢM 10%",
+          "discount": "£7.20"
         }
       ],
       "badgePosition": "bottom-right"
@@ -955,20 +961,20 @@
     {
       "id": "product-241",
       "category": "TOP & BASE",
-      "productName": "BlazingStar Revive Base 240ml - L\u1ebb",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "BlazingStar Revive Base 240ml - Lẻ",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 40,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
-          "size": "L\u1ebb",
-          "price": "\u00a380.00",
-          "condition": "OFF 10% V\u00c0 MUA 2 T\u1eb6NG 1 - T\u1eb6NG 2 V\u1ece ( CHAI T\u1eb6NG K T\u1eb6NG V\u1ece )",
-          "discount": "\u00a348.00"
+          "size": "Lẻ",
+          "price": "£80.00",
+          "condition": "OFF 10% VÀ MUA 2 TẶNG 1 - TẶNG 2 VỎ ( CHAI TẶNG K TẶNG VỎ )",
+          "discount": "£48.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -977,19 +983,19 @@
       "id": "product-242",
       "category": "TOP & BASE",
       "productName": "MBerry Gel Top - 480ml",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 40,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
           "size": "480ml",
-          "price": "\u00a375.00",
-          "condition": "L\u1eba OFF 10% & MUA 2 T\u1eb6NG 1- T\u1eb6NG 2 CHAI TOP 15ML",
-          "discount": "\u00a345.00"
+          "price": "£75.00",
+          "condition": "LẺ OFF 10% & MUA 2 TẶNG 1- TẶNG 2 CHAI TOP 15ML",
+          "discount": "£45.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -998,49 +1004,49 @@
       "id": "product-258",
       "category": "NAIL TIP",
       "productName": "Tip Gel BlazingStar - Straight & Stiletto",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/tipgel.png",
-        "topRight": "/tipgel-1.png",
-        "bottomLeft": "/tipgel-2.png"
+        "topLeft": "/product-258-topLeft.webp",
+        "topRight": "/product-258-topRight.webp",
+        "bottomLeft": "/product-258-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Straight - Pack 10",
-          "price": "\u00a36.00",
+          "price": "£6.00",
           "condition": "OFF 20%",
-          "discount": "\u00a34.80"
+          "discount": "£4.80"
         },
         {
           "size": "Straight - Box 550 pcs",
-          "price": "\u00a312.00",
+          "price": "£12.00",
           "condition": "OFF 20%",
-          "discount": "\u00a39.60"
+          "discount": "£9.60"
         },
         {
           "size": "Straight - Pack 100",
-          "price": "\u00a350.00",
+          "price": "£50.00",
           "condition": "OFF 20%",
-          "discount": "\u00a340.00"
+          "discount": "£40.00"
         },
         {
           "size": "Stiletto - Pack 10",
-          "price": "\u00a36.00",
+          "price": "£6.00",
           "condition": "OFF 20%",
-          "discount": "\u00a34.80"
+          "discount": "£4.80"
         },
         {
           "size": "Stiletto - Box 550 pcs",
-          "price": "\u00a312.00",
+          "price": "£12.00",
           "condition": "OFF 20%",
-          "discount": "\u00a39.60"
+          "discount": "£9.60"
         },
         {
           "size": "Stiletto - Pack 100",
-          "price": "\u00a350.00",
+          "price": "£50.00",
           "condition": "OFF 20%",
-          "discount": "\u00a340.00"
+          "discount": "£40.00"
         }
       ],
       "badgePosition": "middle-right"
@@ -1049,31 +1055,31 @@
       "id": "product-258-1",
       "category": "NAIL TIP",
       "productName": "Tip Gel BlazingStar - Long",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/tipgel.png",
-        "topRight": "/tipgel-1.png",
-        "bottomLeft": "/tipgel-2.png"
+        "topLeft": "/product-258-1-topLeft.webp",
+        "topRight": "/product-258-1-topRight.webp",
+        "bottomLeft": "/product-258-1-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Long - Pack 10",
-          "price": "\u00a37.00",
+          "price": "£7.00",
           "condition": "OFF 20%",
-          "discount": "\u00a35.60"
+          "discount": "£5.60"
         },
         {
           "size": "Long - Box 550 pcs",
-          "price": "\u00a315.00",
+          "price": "£15.00",
           "condition": "OFF 20%",
-          "discount": "\u00a312.00"
+          "discount": "£12.00"
         },
         {
           "size": "Long - Pack 100",
-          "price": "\u00a360.00",
+          "price": "£60.00",
           "condition": "OFF 20%",
-          "discount": "\u00a348.00"
+          "discount": "£48.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -1082,103 +1088,103 @@
       "id": "product-243",
       "category": "NAIL TIP",
       "productName": "Tip Natural BlazingStar",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
           "size": "Straight - Pack 10",
-          "price": "\u00a34.00",
-          "condition": "SL >=10 GI\u1ea2M 10%",
-          "discount": "\u00a33.60"
+          "price": "£4.00",
+          "condition": "SL >=10 GIẢM 10%",
+          "discount": "£3.60"
         },
         {
           "size": "Straight - Pack 100",
-          "price": "\u00a335.00",
-          "condition": "SL>=5 GI\u1ea2M 10%",
-          "discount": "\u00a331.50"
+          "price": "£35.00",
+          "condition": "SL>=5 GIẢM 10%",
+          "discount": "£31.50"
         },
         {
           "size": "Straight - Case 0-10",
-          "price": "\u00a3320.00",
-          "condition": "OFF 15% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a3272.00"
+          "price": "£320.00",
+          "condition": "OFF 15% TỪ GIÁ ORIGINAL",
+          "discount": "£272.00"
         },
         {
           "size": "Straight - Set box (0-10-50pcs)",
-          "price": "\u00a310.00",
-          "condition": "GI\u1ea2M 10%",
-          "discount": "\u00a39.00"
+          "price": "£10.00",
+          "condition": "GIẢM 10%",
+          "discount": "£9.00"
         },
         {
           "size": "Curve - Pack 10",
-          "price": "\u00a33.50",
-          "condition": "SL >=10 GI\u1ea2M 10%",
-          "discount": "\u00a33.15"
+          "price": "£3.50",
+          "condition": "SL >=10 GIẢM 10%",
+          "discount": "£3.15"
         },
         {
           "size": "Curve - Pack 100",
-          "price": "\u00a330.00",
-          "condition": "SL>=5 GI\u1ea2M 10%",
-          "discount": "\u00a327.00"
+          "price": "£30.00",
+          "condition": "SL>=5 GIẢM 10%",
+          "discount": "£27.00"
         },
         {
           "size": "Curve - Case 0-10",
-          "price": "\u00a3280.00",
-          "condition": "OFF 20% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a3224.00"
+          "price": "£280.00",
+          "condition": "OFF 20% TỪ GIÁ ORIGINAL",
+          "discount": "£224.00"
         },
         {
           "size": "Stiletto - Pack 10",
-          "price": "\u00a34.00",
-          "condition": "SL >=10 GI\u1ea2M 10%",
-          "discount": "\u00a33.60"
+          "price": "£4.00",
+          "condition": "SL >=10 GIẢM 10%",
+          "discount": "£3.60"
         },
         {
           "size": "Stiletto - Pack 100",
-          "price": "\u00a335.00",
-          "condition": "SL>=5 GI\u1ea2M 10%",
-          "discount": "\u00a331.50"
+          "price": "£35.00",
+          "condition": "SL>=5 GIẢM 10%",
+          "discount": "£31.50"
         },
         {
           "size": "Stiletto - Case 0-10",
-          "price": "\u00a3320.00",
-          "condition": "OFF 15% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a3272.00"
+          "price": "£320.00",
+          "condition": "OFF 15% TỪ GIÁ ORIGINAL",
+          "discount": "£272.00"
         },
         {
           "size": "Stiletto - Set box (0-10-50pcs)",
-          "price": "\u00a310.00",
+          "price": "£10.00",
           "condition": "OFF 10%",
-          "discount": "\u00a39.00"
+          "discount": "£9.00"
         },
         {
           "size": "Coffin - Pack 10",
-          "price": "\u00a34.00",
-          "condition": "SL >=10 GI\u1ea2M 10%",
-          "discount": "\u00a33.60"
+          "price": "£4.00",
+          "condition": "SL >=10 GIẢM 10%",
+          "discount": "£3.60"
         },
         {
           "size": "Coffin - Pack 100",
-          "price": "\u00a335.00",
-          "condition": "SL>=5 GI\u1ea2M 10%",
-          "discount": "\u00a331.50"
+          "price": "£35.00",
+          "condition": "SL>=5 GIẢM 10%",
+          "discount": "£31.50"
         },
         {
           "size": "Coffin - Case 0-10",
-          "price": "\u00a3320.00",
-          "condition": "OFF 15% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a3272.00"
+          "price": "£320.00",
+          "condition": "OFF 15% TỪ GIÁ ORIGINAL",
+          "discount": "£272.00"
         },
         {
           "size": "Coffin - Set box (0-10-50pcs)",
-          "price": "\u00a310.00",
+          "price": "£10.00",
           "condition": "OFF 10%",
-          "discount": "\u00a39.00"
+          "discount": "£9.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -1187,31 +1193,31 @@
       "id": "product-275",
       "category": "ACRYLIC LIQUID",
       "productName": "BlazingStar Liquid",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/liquid-7.jpg",
-        "topRight": "/liquid-5.jpeg",
-        "bottomLeft": "/liquid-6.jpg"
+        "topLeft": "/product-275-topLeft.webp",
+        "topRight": "/product-275-topRight.webp",
+        "bottomLeft": "/product-275-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Gallon",
-          "price": "\u00a360.00",
+          "price": "£60.00",
           "condition": "",
-          "discount": "\u00a360.00"
+          "discount": "£60.00"
         },
         {
           "size": "Case",
-          "price": "\u00a3180.00",
+          "price": "£180.00",
           "condition": "OFF 10%",
-          "discount": "\u00a3162.00"
+          "discount": "£162.00"
         },
         {
           "size": "Case",
-          "price": "\u00a3180.00",
-          "condition": "OFF 15% MUA TR\u00caN 2",
-          "discount": "\u00a3153.00"
+          "price": "£180.00",
+          "condition": "OFF 15% MUA TRÊN 2",
+          "discount": "£153.00"
         }
       ],
       "badgePosition": "bottom-right",
@@ -1224,38 +1230,38 @@
     {
       "id": "product-270",
       "category": "ACRYLIC LIQUID",
-      "productName": "BlazingStar Liquid EMA Purple - LIQUID CH\u1ea2Y",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "BlazingStar Liquid EMA Purple - LIQUID CHẢY",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
           "size": "16fl/480ml",
-          "price": "\u00a318.00",
+          "price": "£18.00",
           "condition": "",
-          "discount": "\u00a318.00"
+          "discount": "£18.00"
         },
         {
           "size": "Gallon",
-          "price": "\u00a390.00",
+          "price": "£90.00",
           "condition": "",
-          "discount": "\u00a390.00"
+          "discount": "£90.00"
         },
         {
           "size": "Case",
-          "price": "\u00a3320.00",
+          "price": "£320.00",
           "condition": "OFF 10%",
-          "discount": "\u00a3288.00"
+          "discount": "£288.00"
         },
         {
           "size": "Case",
-          "price": "\u00a3320.00",
-          "condition": "OFF 15% MUA TR\u00caN 2",
-          "discount": "\u00a3272.00"
+          "price": "£320.00",
+          "condition": "OFF 15% MUA TRÊN 2",
+          "discount": "£272.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -1263,32 +1269,32 @@
     {
       "id": "product-267",
       "category": "ACRYLIC LIQUID",
-      "productName": "BlazingStar Liquid Purple/Clear - LIQUID TH\u01af\u1edcNG",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "BlazingStar Liquid Purple/Clear - LIQUID THƯỜNG",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/liquid.jpeg",
-        "topRight": "/liquid-1.jpg",
-        "bottomLeft": "/liquid-2.jpg"
+        "topLeft": "/product-267-topLeft.webp",
+        "topRight": "/product-267-topRight.webp",
+        "bottomLeft": "/product-267-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Gallon",
-          "price": "\u00a360.00",
+          "price": "£60.00",
           "condition": "",
-          "discount": "\u00a360.00"
+          "discount": "£60.00"
         },
         {
           "size": "Case (4 Gallon)",
-          "price": "\u00a3180.00",
+          "price": "£180.00",
           "condition": "OFF 10%",
-          "discount": "\u00a3162.00"
+          "discount": "£162.00"
         },
         {
           "size": "Case (4 Gallon)",
-          "price": "\u00a3180.00",
+          "price": "£180.00",
           "condition": "OFF 15% SL>=2",
-          "discount": "\u00a3153.00"
+          "discount": "£153.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -1297,25 +1303,25 @@
       "id": "product-309",
       "category": "ACRYLIC BRUSHES",
       "productName": "3D Brush",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
           "size": "Size 4",
-          "price": "\u00a310.00",
+          "price": "£10.00",
           "condition": "OFF 10%",
-          "discount": "\u00a39.00"
+          "discount": "£9.00"
         },
         {
           "size": "Size 6",
-          "price": "\u00a312.00",
+          "price": "£12.00",
           "condition": "OFF 10%",
-          "discount": "\u00a310.80"
+          "discount": "£10.80"
         }
       ],
       "badgePosition": "bottom-right",
@@ -1325,31 +1331,31 @@
       "id": "product-304",
       "category": "ACRYLIC BRUSHES",
       "productName": "BlazingStar Brush French",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/bsfrenchbrush.jpeg",
-        "topRight": "/bsfrenchbrush.jpeg",
-        "bottomLeft": "/bsfrenchbrush.jpeg"
+        "topLeft": "/product-304-topLeft.webp",
+        "topRight": "/product-304-topRight.webp",
+        "bottomLeft": "/product-304-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Size 12",
-          "price": "\u00a310.00",
+          "price": "£10.00",
           "condition": "OFF 10%",
-          "discount": "\u00a39.00"
+          "discount": "£9.00"
         },
         {
           "size": "Size 14",
-          "price": "\u00a312.00",
+          "price": "£12.00",
           "condition": "OFF 10%",
-          "discount": "\u00a310.80"
+          "discount": "£10.80"
         },
         {
           "size": "Size 16",
-          "price": "\u00a314.00",
+          "price": "£14.00",
           "condition": "OFF 10%",
-          "discount": "\u00a312.60"
+          "discount": "£12.60"
         }
       ],
       "badgePosition": "bottom-right"
@@ -1358,25 +1364,25 @@
       "id": "product-307",
       "category": "ACRYLIC BRUSHES",
       "productName": "BlazingStar Gel Brush",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
           "size": "Size 6",
-          "price": "\u00a310.00",
+          "price": "£10.00",
           "condition": "OFF 10%",
-          "discount": "\u00a39.00"
+          "discount": "£9.00"
         },
         {
           "size": "Size 8",
-          "price": "\u00a310.00",
+          "price": "£10.00",
           "condition": "OFF 10%",
-          "discount": "\u00a39.00"
+          "discount": "£9.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -1384,98 +1390,98 @@
     {
       "id": "product-283",
       "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus - L\u00d4NG M\u1ec0M",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "BlazingStar Brush Premium Plus - LÔNG MỀM",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/premiumplus-1.jpg",
-        "topRight": "/premiumplus-2.jpg",
-        "bottomLeft": "/premiumplus.png"
+        "topLeft": "/product-283-topLeft.webp",
+        "topRight": "/product-283-topRight.webp",
+        "bottomLeft": "/product-283-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "8 - C\u00c1N TR\u00d2N",
-          "price": "\u00a330.00",
+          "size": "8 - CÁN TRÒN",
+          "price": "£30.00",
           "condition": "MUA <5 OFF 10%",
-          "discount": "\u00a327.00"
+          "discount": "£27.00"
         },
         {
-          "size": "8 - C\u00c1N TR\u00d2N",
-          "price": "\u00a330.00",
+          "size": "8 - CÁN TRÒN",
+          "price": "£30.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "\u00a324.00"
+          "discount": "£24.00"
         },
         {
-          "size": "10 - C\u00c1N TR\u00d2N",
-          "price": "\u00a335.00",
+          "size": "10 - CÁN TRÒN",
+          "price": "£35.00",
           "condition": "MUA <5 OFF 10%",
-          "discount": "\u00a331.50"
+          "discount": "£31.50"
         },
         {
-          "size": "10 - C\u00c1N TR\u00d2N",
-          "price": "\u00a335.00",
+          "size": "10 - CÁN TRÒN",
+          "price": "£35.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "\u00a328.00"
+          "discount": "£28.00"
         },
         {
-          "size": "12 - C\u00c1N TR\u00d2N + NH\u1eccN",
-          "price": "\u00a340.00",
+          "size": "12 - CÁN TRÒN + NHỌN",
+          "price": "£40.00",
           "condition": "MUA <5 OFF 10%",
-          "discount": "\u00a336.00"
+          "discount": "£36.00"
         },
         {
-          "size": "12 - C\u00c1N TR\u00d2N + NH\u1eccN",
-          "price": "\u00a340.00",
+          "size": "12 - CÁN TRÒN + NHỌN",
+          "price": "£40.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "\u00a332.00"
+          "discount": "£32.00"
         },
         {
-          "size": "14 - C\u00c1N TR\u00d2N + NH\u1eccN",
-          "price": "\u00a345.00",
+          "size": "14 - CÁN TRÒN + NHỌN",
+          "price": "£45.00",
           "condition": "MUA <5 OFF 10%",
-          "discount": "\u00a340.50"
+          "discount": "£40.50"
         },
         {
-          "size": "14 - C\u00c1N TR\u00d2N + NH\u1eccN",
-          "price": "\u00a345.00",
+          "size": "14 - CÁN TRÒN + NHỌN",
+          "price": "£45.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "\u00a336.00"
+          "discount": "£36.00"
         },
         {
-          "size": "16 - C\u00c1N TR\u00d2N + NH\u1eccN",
-          "price": "\u00a350.00",
+          "size": "16 - CÁN TRÒN + NHỌN",
+          "price": "£50.00",
           "condition": "MUA <5 OFF 10%",
-          "discount": "\u00a345.00"
+          "discount": "£45.00"
         },
         {
-          "size": "16 - C\u00c1N TR\u00d2N + NH\u1eccN",
-          "price": "\u00a350.00",
+          "size": "16 - CÁN TRÒN + NHỌN",
+          "price": "£50.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "\u00a340.00"
+          "discount": "£40.00"
         },
         {
-          "size": "18 - C\u00c1N TR\u00d2N + NH\u1eccN",
-          "price": "\u00a355.00",
+          "size": "18 - CÁN TRÒN + NHỌN",
+          "price": "£55.00",
           "condition": "MUA <5 OFF 10%",
-          "discount": "\u00a349.50"
+          "discount": "£49.50"
         },
         {
-          "size": "18 - C\u00c1N TR\u00d2N + NH\u1eccN",
-          "price": "\u00a355.00",
+          "size": "18 - CÁN TRÒN + NHỌN",
+          "price": "£55.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "\u00a344.00"
+          "discount": "£44.00"
         },
         {
-          "size": "20 - C\u00c1N TR\u00d2N + NH\u1eccN",
-          "price": "\u00a360.00",
+          "size": "20 - CÁN TRÒN + NHỌN",
+          "price": "£60.00",
           "condition": "MUA <5 OFF 10%",
-          "discount": "\u00a354.00"
+          "discount": "£54.00"
         },
         {
-          "size": "20 - C\u00c1N TR\u00d2N + NH\u1eccN",
-          "price": "\u00a360.00",
+          "size": "20 - CÁN TRÒN + NHỌN",
+          "price": "£60.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "\u00a348.00"
+          "discount": "£48.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -1484,37 +1490,37 @@
       "id": "product-297",
       "category": "ACRYLIC BRUSHES",
       "productName": "BlazingStar Brush Premium Pro - Size 14",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/pro-1.jpg",
-        "topRight": "/pro-2.jpg",
-        "bottomLeft": "/pro.jpg"
+        "topLeft": "/product-297-topLeft.webp",
+        "topRight": "/product-297-topRight.webp",
+        "bottomLeft": "/product-297-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "14",
-          "price": "\u00a345.00",
-          "condition": "MUA <2 C\u00c2Y OFF 10%",
-          "discount": "\u00a340.50"
+          "price": "£45.00",
+          "condition": "MUA <2 CÂY OFF 10%",
+          "discount": "£40.50"
         },
         {
           "size": "14",
-          "price": "\u00a345.00",
-          "condition": "MUA 2-5 C\u00c2Y OFF 15%",
-          "discount": "\u00a338.25"
+          "price": "£45.00",
+          "condition": "MUA 2-5 CÂY OFF 15%",
+          "discount": "£38.25"
         },
         {
           "size": "14",
-          "price": "\u00a345.00",
-          "condition": "MUA 6-10 C\u00c2Y OFF 20%",
-          "discount": "\u00a336.00"
+          "price": "£45.00",
+          "condition": "MUA 6-10 CÂY OFF 20%",
+          "discount": "£36.00"
         },
         {
           "size": "14",
-          "price": "\u00a345.00",
-          "condition": "MUA >=11 C\u00c2Y OFF 25%",
-          "discount": "\u00a333.75"
+          "price": "£45.00",
+          "condition": "MUA >=11 CÂY OFF 25%",
+          "discount": "£33.75"
         }
       ],
       "badgePosition": "middle-right",
@@ -1524,37 +1530,37 @@
       "id": "product-297-1",
       "category": "ACRYLIC BRUSHES",
       "productName": "BlazingStar Brush Premium Pro - Size 16",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/pro-1.jpg",
-        "topRight": "/pro-2.jpg",
-        "bottomLeft": "/pro.jpg"
+        "topLeft": "/product-297-1-topLeft.webp",
+        "topRight": "/product-297-1-topRight.webp",
+        "bottomLeft": "/product-297-1-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "16",
-          "price": "\u00a350.00",
-          "condition": "MUA <2 C\u00c2Y OFF 10%",
-          "discount": "\u00a345.00"
+          "price": "£50.00",
+          "condition": "MUA <2 CÂY OFF 10%",
+          "discount": "£45.00"
         },
         {
           "size": "16",
-          "price": "\u00a350.00",
-          "condition": "MUA 2-5 C\u00c2Y OFF 15%",
-          "discount": "\u00a342.50"
+          "price": "£50.00",
+          "condition": "MUA 2-5 CÂY OFF 15%",
+          "discount": "£42.50"
         },
         {
           "size": "16",
-          "price": "\u00a350.00",
-          "condition": "MUA 6-10 C\u00c2Y OFF 20%",
-          "discount": "\u00a340.00"
+          "price": "£50.00",
+          "condition": "MUA 6-10 CÂY OFF 20%",
+          "discount": "£40.00"
         },
         {
           "size": "16",
-          "price": "\u00a350.00",
-          "condition": "MUA >=11 C\u00c2Y OFF 25%",
-          "discount": "\u00a337.50"
+          "price": "£50.00",
+          "condition": "MUA >=11 CÂY OFF 25%",
+          "discount": "£37.50"
         }
       ],
       "badgePosition": "middle-right",
@@ -1564,37 +1570,37 @@
       "id": "product-297-2",
       "category": "ACRYLIC BRUSHES",
       "productName": "BlazingStar Brush Premium Pro - Size 18",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/pro-1.jpg",
-        "topRight": "/pro-2.jpg",
-        "bottomLeft": "/pro.jpg"
+        "topLeft": "/product-297-2-topLeft.webp",
+        "topRight": "/product-297-2-topRight.webp",
+        "bottomLeft": "/product-297-2-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "18",
-          "price": "\u00a355.00",
-          "condition": "MUA <2 C\u00c2Y OFF 10%",
-          "discount": "\u00a349.50"
+          "price": "£55.00",
+          "condition": "MUA <2 CÂY OFF 10%",
+          "discount": "£49.50"
         },
         {
           "size": "18",
-          "price": "\u00a355.00",
-          "condition": "MUA 2-5 C\u00c2Y OFF 15%",
-          "discount": "\u00a346.75"
+          "price": "£55.00",
+          "condition": "MUA 2-5 CÂY OFF 15%",
+          "discount": "£46.75"
         },
         {
           "size": "18",
-          "price": "\u00a355.00",
-          "condition": "MUA 6-10 C\u00c2Y OFF 20%",
-          "discount": "\u00a344.00"
+          "price": "£55.00",
+          "condition": "MUA 6-10 CÂY OFF 20%",
+          "discount": "£44.00"
         },
         {
           "size": "18",
-          "price": "\u00a355.00",
-          "condition": "MUA >=11 C\u00c2Y OFF 25%",
-          "discount": "\u00a341.25"
+          "price": "£55.00",
+          "condition": "MUA >=11 CÂY OFF 25%",
+          "discount": "£41.25"
         }
       ],
       "badgePosition": "middle-right",
@@ -1604,37 +1610,37 @@
       "id": "product-297-3",
       "category": "ACRYLIC BRUSHES",
       "productName": "BlazingStar Brush Premium Pro - Size 20",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/pro-1.jpg",
-        "topRight": "/pro-2.jpg",
-        "bottomLeft": "/pro.jpg"
+        "topLeft": "/product-297-3-topLeft.webp",
+        "topRight": "/product-297-3-topRight.webp",
+        "bottomLeft": "/product-297-3-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "20",
-          "price": "\u00a360.00",
-          "condition": "MUA <2 C\u00c2Y OFF 10%",
-          "discount": "\u00a354.00"
+          "price": "£60.00",
+          "condition": "MUA <2 CÂY OFF 10%",
+          "discount": "£54.00"
         },
         {
           "size": "20",
-          "price": "\u00a360.00",
-          "condition": "MUA 2-5 C\u00c2Y OFF 15%",
-          "discount": "\u00a351.00"
+          "price": "£60.00",
+          "condition": "MUA 2-5 CÂY OFF 15%",
+          "discount": "£51.00"
         },
         {
           "size": "20",
-          "price": "\u00a360.00",
-          "condition": "MUA 6-10 C\u00c2Y OFF 20%",
-          "discount": "\u00a348.00"
+          "price": "£60.00",
+          "condition": "MUA 6-10 CÂY OFF 20%",
+          "discount": "£48.00"
         },
         {
           "size": "20",
-          "price": "\u00a360.00",
-          "condition": "MUA >=11 C\u00c2Y OFF 25%",
-          "discount": "\u00a345.00"
+          "price": "£60.00",
+          "condition": "MUA >=11 CÂY OFF 25%",
+          "discount": "£45.00"
         }
       ],
       "badgePosition": "middle-right",
@@ -1643,50 +1649,50 @@
     {
       "id": "product-277",
       "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Standard - L\u00d4NG C\u1ee8NG",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "BlazingStar Brush Standard - LÔNG CỨNG",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/bsstandard-1.jpg",
-        "topRight": "/bsstandard-2.jpg",
-        "bottomLeft": "/bsstandard.jpg"
+        "topLeft": "/product-277-topLeft.webp",
+        "topRight": "/product-277-topRight.webp",
+        "bottomLeft": "/product-277-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "14",
-          "price": "\u00a340.00",
+          "price": "£40.00",
           "condition": "MUA <5 OFF 10%",
-          "discount": "\u00a336.00"
+          "discount": "£36.00"
         },
         {
           "size": "14",
-          "price": "\u00a340.00",
+          "price": "£40.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "\u00a332.00"
+          "discount": "£32.00"
         },
         {
           "size": "16",
-          "price": "\u00a345.00",
+          "price": "£45.00",
           "condition": "MUA <5 OFF 10%",
-          "discount": "\u00a340.50"
+          "discount": "£40.50"
         },
         {
           "size": "16",
-          "price": "\u00a345.00",
+          "price": "£45.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "\u00a336.00"
+          "discount": "£36.00"
         },
         {
           "size": "18",
-          "price": "\u00a350.00",
+          "price": "£50.00",
           "condition": "MUA <5 OFF 10%",
-          "discount": "\u00a345.00"
+          "discount": "£45.00"
         },
         {
           "size": "18",
-          "price": "\u00a350.00",
+          "price": "£50.00",
           "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "\u00a340.00"
+          "discount": "£40.00"
         }
       ],
       "badgePosition": "middle-right"
@@ -1695,25 +1701,25 @@
       "id": "product-347",
       "category": "BIAB",
       "productName": "Flexibuild X - 240ml Refill - X201, X202, X203, X204",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 40,
       "images": {
-        "topLeft": "/flexibuild-refill.png",
-        "topRight": "/flexibuild-refill-1.png",
-        "bottomLeft": "/flexibuild-refill-2.png"
+        "topLeft": "/product-347-topLeft.webp",
+        "topRight": "/product-347-topRight.webp",
+        "bottomLeft": "/product-347-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "240ml",
-          "price": "\u00a390.00",
-          "condition": "L\u1eba OFF 10%",
-          "discount": "\u00a381.00"
+          "price": "£90.00",
+          "condition": "LẺ OFF 10%",
+          "discount": "£81.00"
         },
         {
           "size": "240ml",
-          "price": "\u00a390.00",
-          "condition": "MUA 2 T\u1eb6NG 1 - T\u1eb6NG 2 V\u1ece - MIX & MATCH V\u1edaI REVIVE BASE 240 - CHEAPEST FREE",
-          "discount": "\u00a354.00"
+          "price": "£90.00",
+          "condition": "MUA 2 TẶNG 1 - TẶNG 2 VỎ - MIX & MATCH VỚI REVIVE BASE 240 - CHEAPEST FREE",
+          "discount": "£54.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -1722,25 +1728,25 @@
       "id": "product-347-1",
       "category": "BIAB",
       "productName": "Strong Build HF 240ml",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 40,
       "images": {
-        "topLeft": "/strong-build-4.png",
-        "topRight": "/strong-build-1.png",
-        "bottomLeft": "/strong-build-2.png"
+        "topLeft": "/product-347-1-topLeft.webp",
+        "topRight": "/product-347-1-topRight.webp",
+        "bottomLeft": "/product-347-1-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "240ml",
-          "price": "\u00a390.00",
-          "condition": "L\u1eba OFF 10%",
-          "discount": "\u00a381.00"
+          "price": "£90.00",
+          "condition": "LẺ OFF 10%",
+          "discount": "£81.00"
         },
         {
           "size": "240ml",
-          "price": "\u00a390.00",
-          "condition": "OFF 10% - MUA 2 T\u1eb6NG 1 - T\u1eb6NG 2 V\u1ece - MIX & MATCH V\u1edaI REVIVE BASE 240 - CHEAPEST FREE",
-          "discount": "\u00a354.00"
+          "price": "£90.00",
+          "condition": "OFF 10% - MUA 2 TẶNG 1 - TẶNG 2 VỎ - MIX & MATCH VỚI REVIVE BASE 240 - CHEAPEST FREE",
+          "discount": "£54.00"
         }
       ],
       "badgePosition": "bottom-right",
@@ -1750,31 +1756,31 @@
       "id": "product-343",
       "category": "BIAB",
       "productName": "Flexibuild X",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/flexibuild.jpg",
-        "topRight": "/flexibuild-1.png",
-        "bottomLeft": "/flexibuild-208.png"
+        "topLeft": "/product-343-topLeft.webp",
+        "topRight": "/product-343-topRight.webp",
+        "bottomLeft": "/product-343-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "15ml",
-          "price": "\u00a38.00",
+          "price": "£8.00",
           "condition": "SL >=6 OFF 10%",
-          "discount": "\u00a37.20"
+          "discount": "£7.20"
         },
         {
-          "size": "15ml - h\u1ed9p 6 l\u1ecd c\u00f9ng m\u00e0u",
-          "price": "\u00a343.20",
+          "size": "15ml - hộp 6 lọ cùng màu",
+          "price": "£43.20",
           "condition": "",
-          "discount": "\u00a343.20"
+          "discount": "£43.20"
         },
         {
-          "size": "15ml - Set 36 m\u00e0u",
-          "price": "\u00a3288.00",
-          "condition": "OFF 20% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a3230.40"
+          "size": "15ml - Set 36 màu",
+          "price": "£288.00",
+          "condition": "OFF 20% TỪ GIÁ ORIGINAL",
+          "discount": "£230.40"
         }
       ],
       "badgePosition": "bottom-right"
@@ -1783,31 +1789,31 @@
       "id": "product-343-1",
       "category": "BIAB",
       "productName": "Strong Build 15ml",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/strong-build-1.jpg",
-        "topRight": "/strong-build.png",
-        "bottomLeft": "/strong-build-2.jpeg"
+        "topLeft": "/product-343-1-topLeft.webp",
+        "topRight": "/product-343-1-topRight.webp",
+        "bottomLeft": "/product-343-1-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "15ml",
-          "price": "\u00a38.00",
+          "price": "£8.00",
           "condition": "SL >=6 OFF 10%",
-          "discount": "\u00a37.20"
+          "discount": "£7.20"
         },
         {
-          "size": "15ml - h\u1ed9p 6 l\u1ecd c\u00f9ng m\u00e0u",
-          "price": "\u00a343.20",
+          "size": "15ml - hộp 6 lọ cùng màu",
+          "price": "£43.20",
           "condition": "",
-          "discount": "\u00a343.20"
+          "discount": "£43.20"
         },
         {
-          "size": "15ml - Set 36 m\u00e0u",
-          "price": "\u00a3288.00",
-          "condition": "OFF 20% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a3230.40"
+          "size": "15ml - Set 36 màu",
+          "price": "£288.00",
+          "condition": "OFF 20% TỪ GIÁ ORIGINAL",
+          "discount": "£230.40"
         }
       ],
       "badgePosition": "bottom-right"
@@ -1816,31 +1822,31 @@
       "id": "product-348",
       "category": "NAIL FILE",
       "productName": "BlazingStar File",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 15,
       "images": {
-        "topLeft": "/file1.png",
-        "topRight": "/file2.png",
-        "bottomLeft": "/file3.png"
+        "topLeft": "/product-348-topLeft.webp",
+        "topRight": "/product-348-topRight.webp",
+        "bottomLeft": "/product-348-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Straight",
-          "price": "\u00a316.00",
+          "price": "£16.00",
           "condition": "MUA >=5 OFF 15%",
-          "discount": "\u00a313.60"
+          "discount": "£13.60"
         },
         {
           "size": "Square",
-          "price": "\u00a320.00",
+          "price": "£20.00",
           "condition": "MUA >=5 OFF 15%",
-          "discount": "\u00a317.00"
+          "discount": "£17.00"
         },
         {
           "size": "Curve",
-          "price": "\u00a316.00",
+          "price": "£16.00",
           "condition": "MUA >=5 OFF 15%",
-          "discount": "\u00a313.60"
+          "discount": "£13.60"
         }
       ],
       "scents": [
@@ -1858,25 +1864,25 @@
       "id": "product-350",
       "category": "NAIL FILE",
       "productName": "JK File",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
           "size": "Straight 80/80",
-          "price": "\u00a316.00",
+          "price": "£16.00",
           "condition": "",
-          "discount": "\u00a316.00"
+          "discount": "£16.00"
         },
         {
           "size": "Square 80/80",
-          "price": "\u00a321.00",
+          "price": "£21.00",
           "condition": "",
-          "discount": "\u00a321.00"
+          "discount": "£21.00"
         }
       ],
       "badgePosition": "middle-right",
@@ -1886,37 +1892,37 @@
       "id": "product-356",
       "category": "ELECTRICAL",
       "productName": "Bold Berry LED LAMP",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/bblamp.png",
-        "topRight": "/bblamp-2.png",
-        "bottomLeft": "/bblamp-1.png"
+        "topLeft": "/product-356-topLeft.webp",
+        "topRight": "/product-356-topRight.webp",
+        "bottomLeft": "/product-356-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "\u0110\u00e8n c\u00f3 d\u00e2y",
-          "price": "\u00a3100.00",
+          "size": "Đèn có dây",
+          "price": "£100.00",
           "condition": "MUA < 4 OFF 10%",
-          "discount": "\u00a390.00"
+          "discount": "£90.00"
         },
         {
-          "size": "\u0110\u00e8n c\u00f3 d\u00e2y",
-          "price": "\u00a3100.00",
+          "size": "Đèn có dây",
+          "price": "£100.00",
           "condition": "MUA >=4 OFF 20%",
-          "discount": "\u00a380.00"
+          "discount": "£80.00"
         },
         {
-          "size": "\u0110\u00e8n kh\u00f4ng d\u00e2y",
-          "price": "\u00a3130.00",
+          "size": "Đèn không dây",
+          "price": "£130.00",
           "condition": "MUA < 4 OFF 10%",
-          "discount": "\u00a3117.00"
+          "discount": "£117.00"
         },
         {
-          "size": "\u0110\u00e8n kh\u00f4ng d\u00e2y",
-          "price": "\u00a3130.00",
+          "size": "Đèn không dây",
+          "price": "£130.00",
           "condition": "MUA >=4 OFF 20%",
-          "discount": "\u00a3104.00"
+          "discount": "£104.00"
         }
       ],
       "badgePosition": "middle-right",
@@ -1925,26 +1931,26 @@
     {
       "id": "product-370",
       "category": "ELECTRICAL",
-      "productName": "M\u00e1y b\u00e0o kh\u00f4ng d\u00e2y BlazingStar FX200",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "Máy bào không dây BlazingStar FX200",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/fx200.png",
-        "topRight": "/fx200-3.png",
-        "bottomLeft": "/fx200-4.png"
+        "topLeft": "/product-370-topLeft.webp",
+        "topRight": "/product-370-topRight.webp",
+        "bottomLeft": "/product-370-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "",
-          "price": "\u00a3260.00",
+          "price": "£260.00",
           "condition": "OFF 10%",
-          "discount": "\u00a3234.00"
+          "discount": "£234.00"
         },
         {
           "size": "",
-          "price": "\u00a3260.00",
-          "condition": "MUA >=3 GI\u1ea2M 20%",
-          "discount": "\u00a3208.00"
+          "price": "£260.00",
+          "condition": "MUA >=3 GIẢM 20%",
+          "discount": "£208.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -1953,37 +1959,37 @@
       "id": "product-352",
       "category": "ELECTRICAL",
       "productName": "BlazingStar LED Lamp",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/bslamp1.png",
-        "topRight": "/bslamp.png",
-        "bottomLeft": "/bslamp-2.png"
+        "topLeft": "/product-352-topLeft.webp",
+        "topRight": "/product-352-topRight.webp",
+        "bottomLeft": "/product-352-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Cord",
-          "price": "\u00a3180.00",
+          "price": "£180.00",
           "condition": "MUA < 4 OFF 10%",
-          "discount": "\u00a3162.00"
+          "discount": "£162.00"
         },
         {
           "size": "Cord",
-          "price": "\u00a3180.00",
+          "price": "£180.00",
           "condition": "MUA >=4 OFF 20%",
-          "discount": "\u00a3144.00"
+          "discount": "£144.00"
         },
         {
           "size": "Cordless",
-          "price": "\u00a3200.00",
+          "price": "£200.00",
           "condition": "MUA < 4 OFF 10%",
-          "discount": "\u00a3180.00"
+          "discount": "£180.00"
         },
         {
           "size": "Cordless",
-          "price": "\u00a3200.00",
+          "price": "£200.00",
           "condition": "MUA >=4 OFF 20%",
-          "discount": "\u00a3160.00"
+          "discount": "£160.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -1991,27 +1997,29 @@
     {
       "id": "product-366",
       "category": "ELECTRICAL",
-      "productName": "Tay b\u00e0o X5 Plus",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "Tay bào X5 Plus",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/x5.webp",
-        "topRight": "/x5-2.png",
-        "bottomLeft": "/x5-1.png"
+        "topLeft": "/product-366-topLeft.webp",
+        "topRight": "/product-366-topRight.webp",
+        "bottomLeft": "/product-366-bottomLeft.webp"
       },
-      "scents": ["M\u1eb7c \u0111\u1ecbnh l\u00e0 d\u00e2y Super UP200, VL h\u1ed7 tr\u1ee3 thay d\u00e2y UP200 mi\u1ec5n ph\u00ed vui l\u00f2ng li\u00ean h\u1ec7 sale khi mua"],
+      "scents": [
+        "Mặc định là dây Super UP200, VL hỗ trợ thay dây UP200 miễn phí vui lòng liên hệ sale khi mua"
+      ],
       "pricingTable": [
         {
           "size": "X5 Plus",
-          "price": "\u00a3200.00",
+          "price": "£200.00",
           "condition": "OFF 10% MUA < 3",
-          "discount": "\u00a3180.00"
+          "discount": "£180.00"
         },
         {
           "size": "X5 Plus",
-          "price": "\u00a3200.00",
+          "price": "£200.00",
           "condition": "OFF 20% MUA >=3",
-          "discount": "\u00a3160.00"
+          "discount": "£160.00"
         }
       ],
       "badgePosition": "middle-right",
@@ -2020,27 +2028,29 @@
     {
       "id": "product-366-1",
       "category": "ELECTRICAL",
-      "productName": "Tay b\u00e0o X7 Plus",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "Tay bào X7 Plus",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/x7.png",
-        "topRight": "/x7-2.png",
-        "bottomLeft": "/x7-1.png"
+        "topLeft": "/product-366-1-topLeft.webp",
+        "topRight": "/product-366-1-topRight.webp",
+        "bottomLeft": "/product-366-1-bottomLeft.webp"
       },
-      "scents": ["M\u1eb7c \u0111\u1ecbnh l\u00e0 d\u00e2y Super UP200, VL h\u1ed7 tr\u1ee3 thay d\u00e2y UP200 mi\u1ec5n ph\u00ed vui l\u00f2ng li\u00ean h\u1ec7 sale khi mua"],
+      "scents": [
+        "Mặc định là dây Super UP200, VL hỗ trợ thay dây UP200 miễn phí vui lòng liên hệ sale khi mua"
+      ],
       "pricingTable": [
         {
           "size": "X7 Plus",
-          "price": "\u00a3220.00",
+          "price": "£220.00",
           "condition": "OFF 10% MUA < 3",
-          "discount": "\u00a3198.00"
+          "discount": "£198.00"
         },
         {
           "size": "X7 Plus",
-          "price": "\u00a3220.00",
+          "price": "£220.00",
           "condition": "OFF 20% MUA >=3",
-          "discount": "\u00a3176.00"
+          "discount": "£176.00"
         }
       ],
       "badgePosition": "middle-right",
@@ -2050,37 +2060,37 @@
       "id": "product-360",
       "category": "ELECTRICAL",
       "productName": "MBerry LED LAMP",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/mlamp.png",
-        "topRight": "/mlamp-1.png",
-        "bottomLeft": "/mlamp-2.png"
+        "topLeft": "/product-360-topLeft.webp",
+        "topRight": "/product-360-topRight.webp",
+        "bottomLeft": "/product-360-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "C\u00f3 d\u00e2y",
-          "price": "\u00a3110.00",
+          "size": "Có dây",
+          "price": "£110.00",
           "condition": "MUA < 4 OFF 10%",
-          "discount": "\u00a399.00"
+          "discount": "£99.00"
         },
         {
-          "size": "C\u00f3 d\u00e2y",
-          "price": "\u00a3110.00",
+          "size": "Có dây",
+          "price": "£110.00",
           "condition": "MUA >=4 OFF 20%",
-          "discount": "\u00a388.00"
+          "discount": "£88.00"
         },
         {
-          "size": "Kh\u00f4ng d\u00e2y",
-          "price": "\u00a3140.00",
+          "size": "Không dây",
+          "price": "£140.00",
           "condition": "MUA < 4 OFF 10%",
-          "discount": "\u00a3126.00"
+          "discount": "£126.00"
         },
         {
-          "size": "Kh\u00f4ng d\u00e2y",
-          "price": "\u00a3140.00",
+          "size": "Không dây",
+          "price": "£140.00",
           "condition": "MUA >=4 OFF 20%",
-          "discount": "\u00a3112.00"
+          "discount": "£112.00"
         }
       ],
       "badgePosition": "middle-right",
@@ -2089,26 +2099,26 @@
     {
       "id": "product-371",
       "category": "ELECTRICAL",
-      "productName": "M\u00e1y b\u00e0o kh\u00f4ng d\u00e2y MBerry M3",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "Máy bào không dây MBerry M3",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/m3-1.jpg",
-        "topRight": "/m3-2.jpg",
-        "bottomLeft": "/m3.jpg"
+        "topLeft": "/product-371-topLeft.webp",
+        "topRight": "/product-371-topRight.webp",
+        "bottomLeft": "/product-371-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "",
-          "price": "\u00a3200.00",
+          "price": "£200.00",
           "condition": "OFF 10%",
-          "discount": "\u00a3180.00"
+          "discount": "£180.00"
         },
         {
           "size": "",
-          "price": "\u00a3200.00",
-          "condition": "MUA >=3 GI\u1ea2M 20%",
-          "discount": "\u00a3160.00"
+          "price": "£200.00",
+          "condition": "MUA >=3 GIẢM 20%",
+          "discount": "£160.00"
         }
       ],
       "badgePosition": "bottom-right",
@@ -2117,20 +2127,20 @@
     {
       "id": "product-378",
       "category": "FURNITURE",
-      "productName": "Gh\u1ebf Kh\u00e1ch Bendi",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "Ghế Khách Bendi",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/Gh\u1ebf Kh\u00e1ch Bendi - Khaki -silver.png",
-        "topRight": "/Gh\u1ebf Kh\u00e1ch Bendi - Light Grey.png",
-        "bottomLeft": "/Gh\u1ebf Kh\u00e1ch Bendi - Khaki -silver.png"
+        "topLeft": "/product-378-topLeft.webp",
+        "topRight": "/product-378-topRight.webp",
+        "bottomLeft": "/product-378-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Bendi",
-          "price": "\u00a3160.00",
-          "condition": "OFF 20% ( K BAO G\u1ed2M PH\u00cd G\u1eecI )",
-          "discount": "\u00a3128.00"
+          "price": "£160.00",
+          "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
+          "discount": "£128.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -2138,32 +2148,32 @@
     {
       "id": "product-377",
       "category": "FURNITURE",
-      "productName": "Gh\u1ebf Kh\u00e1ch",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "Ghế Khách",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/Gh\u1ebf Kh\u00e1ch Etan - Grey.png",
-        "topRight": "/Gh\u1ebf Kh\u00e1ch Kaylee - Light Grey.png",
-        "bottomLeft": "/Gh\u1ebf Kh\u00e1ch Velda - Khaki.png"
+        "topLeft": "/product-377-topLeft.webp",
+        "topRight": "/product-377-topRight.webp",
+        "bottomLeft": "/product-377-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Etan",
-          "price": "\u00a3160.00",
-          "condition": "OFF 20% ( K BAO G\u1ed2M PH\u00cd G\u1eecI )",
-          "discount": "\u00a3128.00"
+          "price": "£160.00",
+          "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
+          "discount": "£128.00"
         },
         {
           "size": "Kaylee",
-          "price": "\u00a3140.00",
-          "condition": "OFF 20% ( K BAO G\u1ed2M PH\u00cd G\u1eecI )",
-          "discount": "\u00a3112.00"
+          "price": "£140.00",
+          "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
+          "discount": "£112.00"
         },
         {
           "size": "Velda",
-          "price": "\u00a3150.00",
-          "condition": "OFF 20% ( K BAO G\u1ed2M PH\u00cd G\u1eecI )",
-          "discount": "\u00a3120.00"
+          "price": "£150.00",
+          "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
+          "discount": "£120.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -2171,32 +2181,32 @@
     {
       "id": "product-372",
       "category": "FURNITURE",
-      "productName": "Gh\u1ebf Th\u1ee3",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "Ghế Thợ",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/Gh\u1ebf Th\u1ee3 Kira - Light Grey.png",
-        "topRight": "/Gh\u1ebf Th\u1ee3 Maia - Khaki -silver.png",
-        "bottomLeft": "/Gh\u1ebf Th\u1ee3 Nora - Grey.png"
+        "topLeft": "/product-372-topLeft.webp",
+        "topRight": "/product-372-topRight.webp",
+        "bottomLeft": "/product-372-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Kira",
-          "price": "\u00a3100.00",
-          "condition": "OFF 20% ( K BAO G\u1ed2M PH\u00cd G\u1eecI )",
-          "discount": "\u00a380.00"
+          "price": "£100.00",
+          "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
+          "discount": "£80.00"
         },
         {
           "size": "MAIA",
-          "price": "\u00a3130.00",
-          "condition": "OFF 20% ( K BAO G\u1ed2M PH\u00cd G\u1eecI )",
-          "discount": "\u00a3104.00"
+          "price": "£130.00",
+          "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
+          "discount": "£104.00"
         },
         {
           "size": "NORA",
-          "price": "\u00a375.00",
-          "condition": "OFF 20% ( K BAO G\u1ed2M PH\u00cd G\u1eecI )",
-          "discount": "\u00a360.00"
+          "price": "£75.00",
+          "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
+          "discount": "£60.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -2204,20 +2214,20 @@
     {
       "id": "product-381",
       "category": "PEDICURE CHAIR",
-      "productName": "Gh\u1ebf Auto Fill",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "Ghế Auto Fill",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 27,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
           "size": "",
-          "price": "\u00a33000.00",
+          "price": "£3000.00",
           "condition": "",
-          "discount": "\u00a32200.00"
+          "discount": "£2200.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -2225,20 +2235,20 @@
     {
       "id": "product-384",
       "category": "PEDICURE CHAIR",
-      "productName": "Gh\u1ebf Luxury VL9615",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "Ghế Luxury VL9615",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/vl9615.png",
-        "topRight": "/vl9615-2.png",
-        "bottomLeft": "/vl9615-1.png"
+        "topLeft": "/product-384-topLeft.webp",
+        "topRight": "/product-384-topRight.webp",
+        "bottomLeft": "/product-384-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "",
-          "price": "\u00a33300.00",
+          "price": "£3300.00",
           "condition": "",
-          "discount": "\u00a32650.00"
+          "discount": "£2650.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -2246,26 +2256,26 @@
     {
       "id": "product-382",
       "category": "PEDICURE CHAIR",
-      "productName": "Gh\u1ebf New Space VL958",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "Ghế New Space VL958",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/958-1.png",
-        "topRight": "/958-2.png",
-        "bottomLeft": "/958.png"
+        "topLeft": "/product-382-topLeft.webp",
+        "topRight": "/product-382-topRight.webp",
+        "bottomLeft": "/product-382-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "T\u1ef1 \u0111\u1ed9ng ng\u1eaft n\u01b0\u1edbc",
-          "price": "\u00a33000.00",
-          "condition": "Free v\u1eadn chuy\u1ec3n kh\u00f4ng bao g\u1ed3m l\u1eafp \u0111\u1eb7t",
-          "discount": "\u00a32400.00"
+          "size": "Tự động ngắt nước",
+          "price": "£3000.00",
+          "condition": "Free vận chuyển không bao gồm lắp đặt",
+          "discount": "£2400.00"
         },
         {
-          "size": "Kh\u00f4ng t\u1ef1 \u0111\u1ed9ng",
-          "price": "\u00a32750.00",
-          "condition": "Free v\u1eadn chuy\u1ec3n kh\u00f4ng bao g\u1ed3m l\u1eafp \u0111\u1eb7t",
-          "discount": "\u00a32400.00"
+          "size": "Không tự động",
+          "price": "£2750.00",
+          "condition": "Free vận chuyển không bao gồm lắp đặt",
+          "discount": "£2400.00"
         }
       ],
       "badgePosition": "middle-right",
@@ -2274,20 +2284,20 @@
     {
       "id": "product-379",
       "category": "PEDICURE CHAIR",
-      "productName": "Gh\u1ebf Non Auto Fill - Ch\u1eadu Cao Su",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "Ghế Non Auto Fill - Chậu Cao Su",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 27,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
           "size": "",
-          "price": "\u00a32750.00",
+          "price": "£2750.00",
           "condition": "",
-          "discount": "\u00a32000.00"
+          "discount": "£2000.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -2295,20 +2305,20 @@
     {
       "id": "product-380",
       "category": "PEDICURE CHAIR",
-      "productName": "Gh\u1ebf Non Auto Fill - Ch\u1eadu Th\u1ee7y Tinh",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "Ghế Non Auto Fill - Chậu Thủy Tinh",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 27,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
           "size": "",
-          "price": "\u00a32750.00",
+          "price": "£2750.00",
           "condition": "",
-          "discount": "\u00a32000.00"
+          "discount": "£2000.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -2316,32 +2326,32 @@
     {
       "id": "product-386",
       "category": "NAIL TABLE",
-      "productName": "BlazingStar Nail Table - M\u00c1Y H\u00daT PRO",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "BlazingStar Nail Table - MÁY HÚT PRO",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/may hut-1.png",
-        "topRight": "/may hut-2.png",
-        "bottomLeft": "/bstable.png"
+        "topLeft": "/product-386-topLeft.webp",
+        "topRight": "/product-386-topRight.webp",
+        "bottomLeft": "/product-386-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "B\u00c0N \u0110\u01a0N + M\u00c1Y H\u00daT PRO",
-          "price": "\u00a31200.00",
+          "size": "BÀN ĐƠN + MÁY HÚT PRO",
+          "price": "£1200.00",
           "condition": "",
-          "discount": "\u00a31200.00"
+          "discount": "£1200.00"
         },
         {
-          "size": "B\u00c0N \u0110\u00d4I + M\u00c1Y H\u00daT PRO",
-          "price": "\u00a32200.00",
+          "size": "BÀN ĐÔI + MÁY HÚT PRO",
+          "price": "£2200.00",
           "condition": "",
-          "discount": "\u00a32200.00"
+          "discount": "£2200.00"
         },
         {
-          "size": "B\u00c0N BA + M\u00c1Y H\u00daT PRO",
-          "price": "\u00a33300.00",
+          "size": "BÀN BA + MÁY HÚT PRO",
+          "price": "£3300.00",
           "condition": "",
-          "discount": "\u00a33300.00"
+          "discount": "£3300.00"
         }
       ],
       "badgePosition": "bottom-right",
@@ -2351,32 +2361,32 @@
     {
       "id": "product-385",
       "category": "NAIL TABLE",
-      "productName": "BlazingStar Nail Table - M\u00c1Y H\u00daT TH\u01af\u1edcNG",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "BlazingStar Nail Table - MÁY HÚT THƯỜNG",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/bstable-1.png",
-        "topRight": "/bstable.png",
-        "bottomLeft": "/table-3.png"
+        "topLeft": "/product-385-topLeft.webp",
+        "topRight": "/product-385-topRight.webp",
+        "bottomLeft": "/product-385-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "B\u00e0n \u0111\u01a1n + m\u00e1y h\u00fat th\u01b0\u1eddng",
-          "price": "\u00a3700.00",
+          "size": "Bàn đơn + máy hút thường",
+          "price": "£700.00",
           "condition": "OFF 10%",
-          "discount": "\u00a3630.00"
+          "discount": "£630.00"
         },
         {
-          "size": "B\u00e0n \u0111\u00f4i + m\u00e1y h\u00fat th\u01b0\u1eddng",
-          "price": "\u00a31200.00",
+          "size": "Bàn đôi + máy hút thường",
+          "price": "£1200.00",
           "condition": "OFF 10%",
-          "discount": "\u00a31080.00"
+          "discount": "£1080.00"
         },
         {
-          "size": "B\u00e0n ba + m\u00e1y h\u00fat th\u01b0\u1eddng",
-          "price": "\u00a31800.00",
+          "size": "Bàn ba + máy hút thường",
+          "price": "£1800.00",
           "condition": "OFF 10%",
-          "discount": "\u00a31620.00"
+          "discount": "£1620.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -2385,49 +2395,49 @@
       "id": "product-3",
       "category": "La Palm",
       "productName": "La Palm Callus Remover",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/callus.png",
-        "topRight": "/callus-1.png",
-        "bottomLeft": "/callus-2.png"
+        "topLeft": "/product-3-topLeft.webp",
+        "topRight": "/product-3-topRight.webp",
+        "bottomLeft": "/product-3-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "32oz",
-          "price": "\u00a312.00",
+          "price": "£12.00",
           "condition": "",
-          "discount": "\u00a312.00"
+          "discount": "£12.00"
         },
         {
           "size": "32oz Extreme",
-          "price": "\u00a315.00",
+          "price": "£15.00",
           "condition": "",
-          "discount": "\u00a315.00"
+          "discount": "£15.00"
         },
         {
           "size": "Gallon",
-          "price": "\u00a330.00",
+          "price": "£30.00",
           "condition": "OFF 10%",
-          "discount": "\u00a327.00"
+          "discount": "£27.00"
         },
         {
           "size": "Gallon",
-          "price": "\u00a330.00",
-          "condition": "MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a320.25"
+          "price": "£30.00",
+          "condition": "MUA 3 TẶNG 1",
+          "discount": "£20.25"
         },
         {
           "size": "Gallon Extreme",
-          "price": "\u00a340.00",
+          "price": "£40.00",
           "condition": "OFF 10%",
-          "discount": "\u00a336.00"
+          "discount": "£36.00"
         },
         {
           "size": "Gallon Extreme",
-          "price": "\u00a340.00",
-          "condition": "MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a327.00"
+          "price": "£40.00",
+          "condition": "MUA 3 TẶNG 1",
+          "discount": "£27.00"
         }
       ],
       "scents": [
@@ -2440,31 +2450,31 @@
       "id": "product-107",
       "category": "La Palm",
       "productName": "La Palm Collagen 5-Steps",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 30,
       "images": {
-        "topLeft": "/collagen-1.jpg",
-        "topRight": "/collagen-3.jpg",
-        "bottomLeft": "/collagen-5.jpg"
+        "topLeft": "/product-107-topLeft.webp",
+        "topRight": "/product-107-topRight.webp",
+        "bottomLeft": "/product-107-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "1 h\u1ed9p",
-          "price": "\u00a34.50",
+          "size": "1 hộp",
+          "price": "£4.50",
           "condition": "OFF 10%",
-          "discount": "\u00a34.05"
+          "discount": "£4.05"
         },
         {
-          "size": "1 h\u1ed9p",
-          "price": "\u00a34.50",
-          "condition": "MUA TR\u00caN 10 MIX GI\u1ea2M 20%",
-          "discount": "\u00a33.60"
+          "size": "1 hộp",
+          "price": "£4.50",
+          "condition": "MUA TRÊN 10 MIX GIẢM 20%",
+          "discount": "£3.60"
         },
         {
-          "size": "1 h\u1ed9p",
-          "price": "\u00a34.50",
-          "condition": "SL>=36 GI\u1ea2M 30%",
-          "discount": "\u00a33.15"
+          "size": "1 hộp",
+          "price": "£4.50",
+          "condition": "SL>=36 GIẢM 30%",
+          "discount": "£3.15"
         }
       ],
       "scents": [
@@ -2484,31 +2494,31 @@
       "id": "product-7",
       "category": "La Palm",
       "productName": "La Palm Cooling Gel",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/cool-1.png",
-        "topRight": "/cool.png",
-        "bottomLeft": "/cool-2.jpg"
+        "topLeft": "/product-7-topLeft.webp",
+        "topRight": "/product-7-topRight.webp",
+        "bottomLeft": "/product-7-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "12oz",
-          "price": "\u00a38.00",
+          "price": "£8.00",
           "condition": "",
-          "discount": "\u00a38.00"
+          "discount": "£8.00"
         },
         {
           "size": "Gallon",
-          "price": "\u00a330.00",
+          "price": "£30.00",
           "condition": "OFF 10%",
-          "discount": "\u00a327.00"
+          "discount": "£27.00"
         },
         {
           "size": "Gallon",
-          "price": "\u00a330.00",
-          "condition": "OFF 10% - MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a320.25"
+          "price": "£30.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£20.25"
         }
       ],
       "scents": [
@@ -2521,31 +2531,31 @@
       "id": "product-9",
       "category": "La Palm",
       "productName": "La Palm Cream Mask",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/creammask-1.png",
-        "topRight": "/creammask-2.png",
-        "bottomLeft": "/creammask.png"
+        "topLeft": "/product-9-topLeft.webp",
+        "topRight": "/product-9-topRight.webp",
+        "bottomLeft": "/product-9-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "12oz",
-          "price": "\u00a310.00",
+          "price": "£10.00",
           "condition": "",
-          "discount": "\u00a310.00"
+          "discount": "£10.00"
         },
         {
           "size": "Gallon",
-          "price": "\u00a330.00",
+          "price": "£30.00",
           "condition": "OFF 10%",
-          "discount": "\u00a327.00"
+          "discount": "£27.00"
         },
         {
           "size": "Gallon",
-          "price": "\u00a330.00",
-          "condition": "MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a320.25"
+          "price": "£30.00",
+          "condition": "MUA 3 TẶNG 1",
+          "discount": "£20.25"
         }
       ],
       "scents": [
@@ -2560,28 +2570,31 @@
       "id": "product-17",
       "category": "La Palm",
       "productName": "La Palm Cuticle Oil",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/oil-1.png",
-        "topRight": "/oil-2.png",
-        "bottomLeft": "/oil.jpg"
+        "topLeft": "/product-17-topLeft.webp",
+        "topRight": "/product-17-topRight.webp",
+        "bottomLeft": "/product-17-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Gallon",
-          "price": "\u00a320.00",
-          "condition": "L\u1ebb OFF 10% - CASE OFF 20% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a318.00"
+          "price": "£20.00",
+          "condition": "Lẻ OFF 10% - CASE OFF 20% TỪ GIÁ ORIGINAL",
+          "discount": "£18.00"
         },
         {
           "size": "Case (4 Gallon)",
-          "price": "\u00a380.00",
-          "condition": "CASE OFF 20% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a364.00"
+          "price": "£80.00",
+          "condition": "CASE OFF 20% TỪ GIÁ ORIGINAL",
+          "discount": "£64.00"
         }
       ],
-      "scents": ["Peach", "Yellow Pineapple"],
+      "scents": [
+        "Peach",
+        "Yellow Pineapple"
+      ],
       "badgePosition": "middle-right",
       "tableTextSize": "base"
     },
@@ -2589,31 +2602,31 @@
       "id": "product-21",
       "category": "La Palm",
       "productName": "La Palm Cuticle Softener",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/cuticle-1.png",
-        "topRight": "/cuticle.png",
-        "bottomLeft": "/cuticle-4.png"
+        "topLeft": "/product-21-topLeft.webp",
+        "topRight": "/product-21-topRight.webp",
+        "bottomLeft": "/product-21-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "8oz",
-          "price": "\u00a35.00",
+          "price": "£5.00",
           "condition": "",
-          "discount": "\u00a35.00"
+          "discount": "£5.00"
         },
         {
           "size": "Gallon",
-          "price": "\u00a320.00",
-          "condition": "L\u1ebb OFF 10%",
-          "discount": "\u00a318.00"
+          "price": "£20.00",
+          "condition": "Lẻ OFF 10%",
+          "discount": "£18.00"
         },
         {
           "size": "Case (4 Gallon)",
-          "price": "\u00a380.00",
+          "price": "£80.00",
           "condition": "CASE OFF 20%",
-          "discount": "\u00a372.00"
+          "discount": "£72.00"
         }
       ],
       "scents": [
@@ -2626,37 +2639,37 @@
       "id": "product-67",
       "category": "La Palm",
       "productName": "La Palm Flower Soap",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 32,
       "images": {
-        "topLeft": "/flowersoap.JPG",
-        "topRight": "/flowersoap-2.JPG",
-        "bottomLeft": "/flowersoap-1.JPG"
+        "topLeft": "/product-67-topLeft.webp",
+        "topRight": "/product-67-topRight.webp",
+        "bottomLeft": "/product-67-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "12oz",
-          "price": "\u00a315.00",
-          "condition": "L\u1eba 10%",
-          "discount": "\u00a313.50"
+          "price": "£15.00",
+          "condition": "LẺ 10%",
+          "discount": "£13.50"
         },
         {
           "size": "12oz",
-          "price": "\u00a315.00",
-          "condition": "L\u1eba 10% - MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a310.13"
+          "price": "£15.00",
+          "condition": "LẺ 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
         },
         {
           "size": "Gallon",
-          "price": "\u00a340.00",
-          "condition": "L\u1eba 10%",
-          "discount": "\u00a336.00"
+          "price": "£40.00",
+          "condition": "LẺ 10%",
+          "discount": "£36.00"
         },
         {
           "size": "Gallon",
-          "price": "\u00a340.00",
-          "condition": "L\u1eba 10% - MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a327.00"
+          "price": "£40.00",
+          "condition": "LẺ 10% - MUA 3 TẶNG 1",
+          "discount": "£27.00"
         }
       ],
       "scents": [
@@ -2677,25 +2690,25 @@
       "id": "product-115-test",
       "category": "La Palm",
       "productName": "La Palm Fragrance Oil",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 32,
       "images": {
-        "topLeft": "/fragrance-3.png",
-        "topRight": "/fragrance-2.jpeg",
-        "bottomLeft": "/fragrance.png"
+        "topLeft": "/product-115-test-topLeft.webp",
+        "topRight": "/product-115-test-topRight.webp",
+        "bottomLeft": "/product-115-test-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "2oz (59ml)",
-          "price": "\u00a315.00",
+          "price": "£15.00",
           "condition": "OFF 10%",
-          "discount": "\u00a313.50"
+          "discount": "£13.50"
         },
         {
           "size": "2oz (59ml)",
-          "price": "\u00a315.00",
-          "condition": "MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a310.13"
+          "price": "£15.00",
+          "condition": "MUA 3 TẶNG 1",
+          "discount": "£10.13"
         }
       ],
       "scents": [
@@ -2726,37 +2739,37 @@
       "id": "product-53",
       "category": "La Palm",
       "productName": "La Palm Jojoba Scrub",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/jojoba-2.png",
-        "topRight": "/jojoba-1.png",
-        "bottomLeft": "/jojoba.png"
+        "topLeft": "/product-53-topLeft.webp",
+        "topRight": "/product-53-topRight.webp",
+        "bottomLeft": "/product-53-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "12oz",
-          "price": "\u00a312.00",
+          "price": "£12.00",
           "condition": "",
-          "discount": "\u00a312.00"
+          "discount": "£12.00"
         },
         {
           "size": "Gallon",
-          "price": "\u00a325.00",
+          "price": "£25.00",
           "condition": "OFF 10%",
-          "discount": "\u00a322.50"
+          "discount": "£22.50"
         },
         {
           "size": "Gallon",
-          "price": "\u00a325.00",
-          "condition": "MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a316.88"
+          "price": "£25.00",
+          "condition": "MUA 3 TẶNG 1",
+          "discount": "£16.88"
         },
         {
           "size": "Bucket",
-          "price": "\u00a370.00",
+          "price": "£70.00",
           "condition": "OFF 10%",
-          "discount": "\u00a363.00"
+          "discount": "£63.00"
         }
       ],
       "scents": [
@@ -2770,59 +2783,59 @@
     {
       "id": "product-1",
       "category": "La Palm",
-      "productName": "Liquid BlazingStar Nh\u1eb9 M\u00f9i",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "Liquid BlazingStar Nhẹ Mùi",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/mango.png",
-        "topRight": "/mango-1.png",
-        "bottomLeft": "/mango-2.png"
+        "topLeft": "/product-1-topLeft.webp",
+        "topRight": "/product-1-topRight.webp",
+        "bottomLeft": "/product-1-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Can",
-          "price": "\u00a360.00",
+          "price": "£60.00",
           "condition": "",
-          "discount": "\u00a360.00"
+          "discount": "£60.00"
         },
         {
-          "size": "Th\u00f9ng",
-          "price": "\u00a3200.00",
+          "size": "Thùng",
+          "price": "£200.00",
           "condition": "OFF 10%",
-          "discount": "\u00a3180.00"
+          "discount": "£180.00"
         }
       ],
       "badgePosition": "middle-right",
       "tableTextSize": "lg",
       "scents": [
-        "Purple - Liquid M\u00f9a \u0111\u00f4ng",
-        "Clear - Liquid M\u00f9a \u0111\u00f4ng",
-        "Liquid 4 M\u00f9a - Mango"
+        "Purple - Liquid Mùa đông",
+        "Clear - Liquid Mùa đông",
+        "Liquid 4 Mùa - Mango"
       ]
     },
     {
       "id": "product-27",
       "category": "La Palm",
       "productName": "La Palm Lotion",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/lotion.jpg",
-        "topRight": "/lotion-2.jpg",
-        "bottomLeft": "/lotion-1.jpg"
+        "topLeft": "/product-27-topLeft.webp",
+        "topRight": "/product-27-topRight.webp",
+        "bottomLeft": "/product-27-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "24oz",
-          "price": "\u00a37.00",
-          "condition": "OFF 10% MUA TR\u00caN 3",
-          "discount": "\u00a36.30"
+          "price": "£7.00",
+          "condition": "OFF 10% MUA TRÊN 3",
+          "discount": "£6.30"
         },
         {
           "size": "Gallon",
-          "price": "\u00a325.00",
-          "condition": "OFF 10% MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a316.88"
+          "price": "£25.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£16.88"
         }
       ],
       "scents": [
@@ -2842,31 +2855,31 @@
       "id": "product-15",
       "category": "La Palm",
       "productName": "La Palm Marine Mask",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/marine-1.png",
-        "topRight": "/marine-2.png",
-        "bottomLeft": "/marine.png"
+        "topLeft": "/product-15-topLeft.webp",
+        "topRight": "/product-15-topRight.webp",
+        "bottomLeft": "/product-15-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "12oz - Cucumber",
-          "price": "\u00a310.00",
+          "price": "£10.00",
           "condition": "",
-          "discount": "\u00a310.00"
+          "discount": "£10.00"
         },
         {
           "size": "Gallon - Cucumber",
-          "price": "\u00a330.00",
+          "price": "£30.00",
           "condition": "OFF 10%",
-          "discount": "\u00a327.00"
+          "discount": "£27.00"
         },
         {
           "size": "Gallon - Cucumber",
-          "price": "\u00a330.00",
-          "condition": "MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a320.25"
+          "price": "£30.00",
+          "condition": "MUA 3 TẶNG 1",
+          "discount": "£20.25"
         }
       ],
       "badgePosition": "bottom-right"
@@ -2875,25 +2888,25 @@
       "id": "product-42",
       "category": "La Palm",
       "productName": "La Palm Massage Oil",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/massage-1.jpg",
-        "topRight": "/massage.jpg",
-        "bottomLeft": "/massage-2.png"
+        "topLeft": "/product-42-topLeft.webp",
+        "topRight": "/product-42-topRight.webp",
+        "bottomLeft": "/product-42-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Gallon",
-          "price": "\u00a320.00",
-          "condition": "L\u1ebb OFF 10%",
-          "discount": "\u00a318.00"
+          "price": "£20.00",
+          "condition": "Lẻ OFF 10%",
+          "discount": "£18.00"
         },
         {
           "size": "Case (4 Gallon)",
-          "price": "\u00a380.00",
+          "price": "£80.00",
           "condition": "CASE OFF 20%",
-          "discount": "\u00a364.00"
+          "discount": "£64.00"
         }
       ],
       "scents": [
@@ -2909,31 +2922,31 @@
       "id": "product-84",
       "category": "La Palm",
       "productName": "La Palm Pedicure Trays 4 step",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 30,
       "images": {
-        "topLeft": "/4step.jpg",
-        "topRight": "/4step-1.jpg",
-        "bottomLeft": "/4step-2.jpg"
+        "topLeft": "/product-84-topLeft.webp",
+        "topRight": "/product-84-topRight.webp",
+        "bottomLeft": "/product-84-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Tray",
-          "price": "\u00a32.50",
+          "price": "£2.50",
           "condition": "OFF 10%",
-          "discount": "\u00a32.25"
+          "discount": "£2.25"
         },
         {
           "size": "Tray",
-          "price": "\u00a32.50",
-          "condition": "MUA TR\u00caN 10 MIX GI\u1ea2M 20%",
-          "discount": "\u00a32.00"
+          "price": "£2.50",
+          "condition": "MUA TRÊN 10 MIX GIẢM 20%",
+          "discount": "£2.00"
         },
         {
           "size": "CASE 24 Tray",
-          "price": "\u00a32.50",
-          "condition": "GI\u1ea2M 30%",
-          "discount": "\u00a31.75"
+          "price": "£2.50",
+          "condition": "GIẢM 30%",
+          "discount": "£1.75"
         }
       ],
       "scents": [
@@ -2957,31 +2970,31 @@
       "id": "product-47",
       "category": "La Palm",
       "productName": "La Palm Sea Salts",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 32,
       "images": {
-        "topLeft": "/salt.jpg",
-        "topRight": "/salt-1.jpg",
-        "bottomLeft": "/salt-2.jpg"
+        "topLeft": "/product-47-topLeft.webp",
+        "topRight": "/product-47-topRight.webp",
+        "bottomLeft": "/product-47-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "10000pcs Tablet",
-          "price": "\u00a398.00",
+          "price": "£98.00",
           "condition": "OFF 10%",
-          "discount": "\u00a388.20"
+          "discount": "£88.20"
         },
         {
           "size": "Bucket",
-          "price": "\u00a360.00",
+          "price": "£60.00",
           "condition": "OFF 10%",
-          "discount": "\u00a354.00"
+          "discount": "£54.00"
         },
         {
           "size": "Gallon",
-          "price": "\u00a320.00",
-          "condition": "OFF 10% MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a313.50"
+          "price": "£20.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£13.50"
         }
       ],
       "badgePosition": "middle-right",
@@ -2993,31 +3006,31 @@
       "id": "product-58",
       "category": "La Palm",
       "productName": "La Palm Sugar Scrub",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 32,
       "images": {
-        "topLeft": "/no-1.jpg",
-        "topRight": "/no-2.jpg",
-        "bottomLeft": "/no.jpg"
+        "topLeft": "/product-58-topLeft.webp",
+        "topRight": "/product-58-topRight.webp",
+        "bottomLeft": "/product-58-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "12oz",
-          "price": "\u00a312.00",
+          "price": "£12.00",
           "condition": "",
-          "discount": "\u00a312.00"
+          "discount": "£12.00"
         },
         {
           "size": "Bucket",
-          "price": "\u00a3105.00",
+          "price": "£105.00",
           "condition": "OFF 10%",
-          "discount": "\u00a394.50"
+          "discount": "£94.50"
         },
         {
           "size": "Gallon",
-          "price": "\u00a335.00",
-          "condition": "OFF 10% MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a323.63"
+          "price": "£35.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£23.63"
         }
       ],
       "badgePosition": "bottom-right",
@@ -3030,31 +3043,31 @@
       "id": "product-58-1",
       "category": "La Palm",
       "productName": "La Palm Sugar Scrub Extreme",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 32,
       "images": {
-        "topLeft": "/yes-1.jpg",
-        "topRight": "/yes-2.jpg",
-        "bottomLeft": "/yes.jpg"
+        "topLeft": "/product-58-1-topLeft.webp",
+        "topRight": "/product-58-1-topRight.webp",
+        "bottomLeft": "/product-58-1-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "12oz Extreme",
-          "price": "\u00a315.00",
+          "price": "£15.00",
           "condition": "",
-          "discount": "\u00a315.00"
+          "discount": "£15.00"
         },
         {
           "size": "Bucket Extreme",
-          "price": "\u00a3125.00",
+          "price": "£125.00",
           "condition": "OFF 10%",
-          "discount": "\u00a3112.50"
+          "discount": "£112.50"
         },
         {
           "size": "Gallon Extreme",
-          "price": "\u00a340.00",
-          "condition": "OFF 10% MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a327.00"
+          "price": "£40.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£27.00"
         }
       ],
       "badgePosition": "middle-right",
@@ -3067,31 +3080,31 @@
       "id": "product-96",
       "category": "La Palm",
       "productName": "La Palm Volcano 6 Step",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 30,
       "images": {
-        "topLeft": "/volcano-5.jpg",
-        "topRight": "/volcano-6.jpg",
-        "bottomLeft": "/volcano-7.jpg"
+        "topLeft": "/product-96-topLeft.webp",
+        "topRight": "/product-96-topRight.webp",
+        "bottomLeft": "/product-96-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "1 h\u1ed9p",
-          "price": "\u00a34.80",
+          "size": "1 hộp",
+          "price": "£4.80",
           "condition": "OFF 10%",
-          "discount": "\u00a34.32"
+          "discount": "£4.32"
         },
         {
-          "size": "10+ h\u1ed9p",
-          "price": "\u00a34.80",
-          "condition": "MUA TR\u00caN 10 MIX GI\u1ea2M 20%",
-          "discount": "\u00a33.84"
+          "size": "10+ hộp",
+          "price": "£4.80",
+          "condition": "MUA TRÊN 10 MIX GIẢM 20%",
+          "discount": "£3.84"
         },
         {
           "size": "CASE 36+",
-          "price": "\u00a34.80",
-          "condition": "GI\u1ea2M 30%",
-          "discount": "\u00a33.36"
+          "price": "£4.80",
+          "condition": "GIẢM 30%",
+          "discount": "£3.36"
         }
       ],
       "badgePosition": "middle-right",
@@ -3113,37 +3126,37 @@
       "id": "product-137",
       "category": "KDS",
       "productName": "KDS Callus Remover",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
           "size": "32oz - 12",
-          "price": "\u00a315.00",
+          "price": "£15.00",
           "condition": "",
-          "discount": "\u00a315.00"
+          "discount": "£15.00"
         },
         {
           "size": "GAL",
-          "price": "\u00a330.00",
+          "price": "£30.00",
           "condition": "OFF 10% SL<3",
-          "discount": "\u00a327.00"
+          "discount": "£27.00"
         },
         {
           "size": "GAL - 4",
-          "price": "\u00a330.00",
-          "condition": "OFF 10%, MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a320.25"
+          "price": "£30.00",
+          "condition": "OFF 10%, MUA 3 TẶNG 1",
+          "discount": "£20.25"
         },
         {
           "size": "CASE",
-          "price": "\u00a3108.00",
-          "condition": "GI\u1ea2M 25%",
-          "discount": "\u00a381.00"
+          "price": "£108.00",
+          "condition": "GIẢM 25%",
+          "discount": "£81.00"
         }
       ],
       "badgePosition": "middle-right"
@@ -3152,25 +3165,25 @@
       "id": "product-138",
       "category": "KDS",
       "productName": "KDS Clay Mask Cucumber",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
           "size": "Gallon",
-          "price": "\u00a330.00",
+          "price": "£30.00",
           "condition": "OFF 10%",
-          "discount": "\u00a327.00"
+          "discount": "£27.00"
         },
         {
           "size": "Case",
-          "price": "\u00a3108.00",
+          "price": "£108.00",
           "condition": "",
-          "discount": "\u00a3108.00"
+          "discount": "£108.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -3179,31 +3192,31 @@
       "id": "product-150",
       "category": "KDS",
       "productName": "KDS Deluxe 4 steps",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/kds4-1.png",
-        "topRight": "/kds4-2.jpg",
-        "bottomLeft": "/kds4.png"
+        "topLeft": "/product-150-topLeft.webp",
+        "topRight": "/product-150-topRight.webp",
+        "bottomLeft": "/product-150-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "88",
-          "price": "\u00a32.50",
+          "price": "£2.50",
           "condition": "SL <30 OFF 10%",
-          "discount": "\u00a32.25"
+          "discount": "£2.25"
         },
         {
           "size": "88",
-          "price": "\u00a32.50",
+          "price": "£2.50",
           "condition": "SL >=30 OFF 20%",
-          "discount": "\u00a32.00"
+          "discount": "£2.00"
         },
         {
           "size": "88",
-          "price": "\u00a32.50",
+          "price": "£2.50",
           "condition": "SL >=88 OFF 30%",
-          "discount": "\u00a31.75"
+          "discount": "£1.75"
         }
       ],
       "badgePosition": "middle-right",
@@ -3226,31 +3239,31 @@
       "id": "product-155",
       "category": "KDS",
       "productName": "KDS Liquid Coffee Purple",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/vllondon-logo.webp",
+        "topRight": "/vllondon-logo.webp",
+        "bottomLeft": "/vllondon-logo.webp"
       },
       "pricingTable": [
         {
           "size": "GAL",
-          "price": "\u00a360.00",
+          "price": "£60.00",
           "condition": "",
-          "discount": "\u00a360.00"
+          "discount": "£60.00"
         },
         {
           "size": "CASE 4",
-          "price": "\u00a3180.00",
+          "price": "£180.00",
           "condition": "OFF 10%",
-          "discount": "\u00a3162.00"
+          "discount": "£162.00"
         },
         {
           "size": "CASE 4",
-          "price": "\u00a3180.00",
+          "price": "£180.00",
           "condition": "SL>=2 OFF 15%",
-          "discount": "\u00a3153.00"
+          "discount": "£153.00"
         }
       ],
       "badgePosition": "middle-right"
@@ -3259,31 +3272,31 @@
       "id": "product-158",
       "category": "KDS",
       "productName": "KDS Pedi Salt",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/ksalt.jpg",
-        "topRight": "/ksalt-1.webp",
-        "bottomLeft": "/ksalt-2.webp"
+        "topLeft": "/product-158-topLeft.webp",
+        "topRight": "/product-158-topRight.webp",
+        "bottomLeft": "/product-158-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Bucket",
-          "price": "\u00a360.00",
+          "price": "£60.00",
           "condition": "OFF 10%",
-          "discount": "\u00a354.00"
+          "discount": "£54.00"
         },
         {
           "size": "Gallon",
-          "price": "\u00a320.00",
+          "price": "£20.00",
           "condition": "OFF 10%",
-          "discount": "\u00a318.00"
+          "discount": "£18.00"
         },
         {
           "size": "Gallon",
-          "price": "\u00a320.00",
-          "condition": "OFF 10% - MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a313.50"
+          "price": "£20.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£13.50"
         }
       ],
       "badgePosition": "middle-right",
@@ -3296,37 +3309,37 @@
       "id": "product-161",
       "category": "KDS",
       "productName": "KDS Scrub",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/scrub-1.webp",
-        "topRight": "/lemongrass.webp",
-        "bottomLeft": "/scrub-2.webp"
+        "topLeft": "/product-161-topLeft.webp",
+        "topRight": "/product-161-topRight.webp",
+        "bottomLeft": "/product-161-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Bucket",
-          "price": "\u00a370.00",
+          "price": "£70.00",
           "condition": "OFF 10%",
-          "discount": "\u00a363.00"
+          "discount": "£63.00"
         },
         {
           "size": "Gallon",
-          "price": "\u00a330.00",
+          "price": "£30.00",
           "condition": "OFF 10%",
-          "discount": "\u00a327.00"
+          "discount": "£27.00"
         },
         {
           "size": "Case (4 Gallon)",
-          "price": "\u00a330.00",
+          "price": "£30.00",
           "condition": "OFF 10%",
-          "discount": "\u00a327.00"
+          "discount": "£27.00"
         },
         {
           "size": "Case (4 Gallon)",
-          "price": "\u00a330.00",
-          "condition": "MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a320.25"
+          "price": "£30.00",
+          "condition": "MUA 3 TẶNG 1",
+          "discount": "£20.25"
         }
       ],
       "badgePosition": "middle-right",
@@ -3340,49 +3353,49 @@
       "id": "product-180",
       "category": "KDS",
       "productName": "KDS Sugar Scrub",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/kscrub-1.webp",
-        "topRight": "/kscrub-2.jpg",
-        "bottomLeft": "/kscrub.webp"
+        "topLeft": "/product-180-topLeft.webp",
+        "topRight": "/product-180-topRight.webp",
+        "bottomLeft": "/product-180-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "Bucket",
-          "price": "\u00a3105.00",
+          "price": "£105.00",
           "condition": "OFF 10%",
-          "discount": "\u00a394.50"
+          "discount": "£94.50"
         },
         {
           "size": "Gallon",
-          "price": "\u00a335.00",
+          "price": "£35.00",
           "condition": "OFF 10%",
-          "discount": "\u00a331.50"
+          "discount": "£31.50"
         },
         {
           "size": "Case (4 Gallon)",
-          "price": "\u00a335.00",
+          "price": "£35.00",
           "condition": "OFF 10%",
-          "discount": "\u00a331.50"
+          "discount": "£31.50"
         },
         {
           "size": "Case (4 Gallon)",
-          "price": "\u00a335.00",
-          "condition": "MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a331.50"
+          "price": "£35.00",
+          "condition": "MUA 3 TẶNG 1",
+          "discount": "£31.50"
         },
         {
           "size": "Case (16 Gallon)",
-          "price": "\u00a3140.00",
+          "price": "£140.00",
           "condition": "OFF 10%",
-          "discount": "\u00a3126.00"
+          "discount": "£126.00"
         },
         {
           "size": "Case (16 Gallon)",
-          "price": "\u00a3140.00",
-          "condition": "MUA 3 T\u1eb6NG 1",
-          "discount": "\u00a394.50"
+          "price": "£140.00",
+          "condition": "MUA 3 TẶNG 1",
+          "discount": "£94.50"
         }
       ],
       "badgePosition": "middle-right",
@@ -3398,26 +3411,26 @@
     {
       "id": "product-393",
       "category": "DRILL BIT",
-      "productName": "\u0110\u1ea7u b\u00e0o c\u00e1c lo\u1ea1i - Mix and Match",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "Đầu bào các loại - Mix and Match",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
-        "topLeft": "/5in1-1.png",
-        "topRight": "/5in1-2.png",
-        "bottomLeft": "/5in1.png"
+        "topLeft": "/product-393-topLeft.webp",
+        "topRight": "/product-393-topRight.webp",
+        "bottomLeft": "/product-393-bottomLeft.webp"
       },
       "pricingTable": [
         {
           "size": "",
-          "price": "\u00a312.00",
+          "price": "£12.00",
           "condition": "MUA <5 OFF 20%",
-          "discount": "\u00a39.60"
+          "discount": "£9.60"
         },
         {
           "size": "",
-          "price": "\u00a312.00",
+          "price": "£12.00",
           "condition": "MUA >=5 OFF 30%",
-          "discount": "\u00a38.40"
+          "discount": "£8.40"
         }
       ],
       "badgePosition": "bottom-right"
@@ -3425,32 +3438,32 @@
     {
       "id": "product-392",
       "category": "SOCIAL",
-      "productName": "S\u1ef0 KI\u1ec6N HOT NH\u1ea4T LU\u00c2N-\u0110\u00d4N 2025",
-      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "productName": "SỰ KIỆN HOT NHẤT LUÂN-ĐÔN 2025",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/topleft.jpg",
-        "topRight": "/topright.jpg",
-        "bottomLeft": "/bottom.jpg"
+        "topLeft": "/product-392-topLeft.webp",
+        "topRight": "/product-392-topRight.webp",
+        "bottomLeft": "/product-392-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "\ud83c\udf89",
+          "size": "🎉",
           "price": "DOUBLE",
-          "condition": "VL SALE T\u1ea4T C\u1ea2 M\u1eccI TH\u1ee8",
+          "condition": "VL SALE TẤT CẢ MỌI THỨ",
           "discount": "DOUBLE SALE"
         },
         {
-          "size": "\ud83d\udca5",
-          "price": "GI\u1ea2M GI\u00c1",
-          "condition": "GI\u1ea2M GI\u00c1 L\u1ea0I",
-          "discount": "GI\u1ea2M GI\u00c1 T\u1ed4NG BILL"
+          "size": "💥",
+          "price": "GIẢM GIÁ",
+          "condition": "GIẢM GIÁ LẠI",
+          "discount": "GIẢM GIÁ TỔNG BILL"
         },
         {
-          "size": "\ud83d\udd25",
+          "size": "🔥",
           "price": "+ 10%",
-          "condition": "\u00c1P D\u1ee4NG T\u1ea4T C\u1ea2",
-          "discount": "\u0110\u1eb6C BI\u1ec6T"
+          "condition": "ÁP DỤNG TẤT CẢ",
+          "discount": "ĐẶC BIỆT"
         }
       ],
       "badgePosition": "bottom-right"
