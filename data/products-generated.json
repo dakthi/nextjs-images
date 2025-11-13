@@ -600,7 +600,7 @@
       "category": "S\u01a0N GEL POLISH",
       "productName": "MBerry Gel Top 480ml",
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
-      "discountPercentage": 0,
+      "discountPercentage": 10,
       "images": {
         "topLeft": "/mberry.jpg",
         "topRight": "/mgel-3.jpg",
@@ -609,12 +609,18 @@
       "pricingTable": [
         {
           "size": "480ml",
-          "price": "\u00a35.50",
-          "condition": "SL < 12 CHAI",
-          "discount": "\u00a35.50"
+          "price": "\u00a375.00",
+          "condition": "L\u1ebb OFF 10%",
+          "discount": "\u00a367.50"
+        },
+        {
+          "size": "480ml",
+          "price": "\u00a375.00",
+          "condition": "MUA 2 T\u1eb6NG 1 - T\u1eb6NG 2 CHAI TOP 15ML",
+          "discount": "\u00a350.00"
         }
       ],
-      "badgePosition": "bottom-right",
+      "badgePosition": "middle-right",
       "tableTextSize": "lg"
     },
     {
@@ -668,6 +674,33 @@
           "price": "\u00a35.50",
           "condition": "SL < 12 CHAI",
           "discount": "\u00a35.50"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-225-3",
+      "category": "S\u01a0N GEL POLISH",
+      "productName": "MBerry Gel Top 15ml",
+      "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "/top-7.png",
+        "topRight": "/top-8.png",
+        "bottomLeft": "/top-9.png"
+      },
+      "pricingTable": [
+        {
+          "size": "15ml",
+          "price": "\u00a35.50",
+          "condition": "SL < 12 CHAI",
+          "discount": "\u00a35.50"
+        },
+        {
+          "size": "15ml",
+          "price": "\u00a35.50",
+          "condition": "SL >= 12 GI\u1ea2M TH\u00caM 10% MIX & MATCH",
+          "discount": "\u00a34.95"
         }
       ],
       "badgePosition": "bottom-right"
@@ -1712,16 +1745,17 @@
           "size": "240ml",
           "price": "\u00a390.00",
           "condition": "L\u1eba OFF 10%",
-          "discount": "\u00a354.00"
+          "discount": "\u00a381.00"
         },
         {
           "size": "240ml",
           "price": "\u00a390.00",
-          "condition": "MUA 2 T\u1eb6NG 1 - T\u1eb6NG 2 V\u1ece - MIX & MATCH V\u1edaI REVIVE BASE 240",
+          "condition": "OFF 10% - MUA 2 T\u1eb6NG 1 - T\u1eb6NG 2 V\u1ece - MIX & MATCH V\u1edaI REVIVE BASE 240 - CHEAPEST FREE",
           "discount": "\u00a354.00"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "bottom-right",
+      "tableTextSize": "sm"
     },
     {
       "id": "product-343",
@@ -2483,7 +2517,7 @@
         {
           "size": "Gallon",
           "price": "\u00a330.00",
-          "condition": "MUA 3 T\u1eb6NG 1",
+          "condition": "OFF 10% - MUA 3 T\u1eb6NG 1",
           "discount": "\u00a320.25"
         }
       ],
@@ -2545,13 +2579,7 @@
       },
       "pricingTable": [
         {
-          "size": "Gallon - Peach",
-          "price": "\u00a320.00",
-          "condition": "L\u1ebb OFF 10% - CASE OFF 20% T\u1eea GI\u00c1 ORIGINAL",
-          "discount": "\u00a318.00"
-        },
-        {
-          "size": "Gallon - Yellow Pineapple",
+          "size": "Gallon",
           "price": "\u00a320.00",
           "condition": "L\u1ebb OFF 10% - CASE OFF 20% T\u1eea GI\u00c1 ORIGINAL",
           "discount": "\u00a318.00"
@@ -2563,6 +2591,7 @@
           "discount": "\u00a364.00"
         }
       ],
+      "scents": ["Peach", "Yellow Pineapple"],
       "badgePosition": "middle-right",
       "tableTextSize": "base"
     },
@@ -2776,8 +2805,8 @@
       "badgePosition": "middle-right",
       "tableTextSize": "lg",
       "scents": [
-        "Purple",
-        "Clear",
+        "Purple - Liquid M\u00f9a \u0111\u00f4ng",
+        "Clear - Liquid M\u00f9a \u0111\u00f4ng",
         "Liquid 4 M\u00f9a - Mango"
       ]
     },
@@ -2977,9 +3006,9 @@
       "promotionText": "\u00c1p d\u1ee5ng t\u1eeb ng\u00e0y 16/11 \u0111\u1ebfn h\u1ebft ng\u00e0y 30/11",
       "discountPercentage": 32,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/sugar-5.jpg",
+        "topRight": "/sugar-6.jpg",
+        "bottomLeft": "/sugar-7.jpg"
       },
       "pricingTable": [
         {
@@ -3244,15 +3273,9 @@
           "discount": "\u00a318.00"
         },
         {
-          "size": "Case (4 Gallon)",
+          "size": "Gallon",
           "price": "\u00a320.00",
-          "condition": "OFF 10%",
-          "discount": "\u00a318.00"
-        },
-        {
-          "size": "Case (4 Gallon)",
-          "price": "\u00a320.00",
-          "condition": "MUA 3 T\u1eb6NG 1",
+          "condition": "OFF 10% - MUA 3 T\u1eb6NG 1",
           "discount": "\u00a313.50"
         }
       ],
