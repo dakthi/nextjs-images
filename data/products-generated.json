@@ -485,95 +485,6 @@
       "badgePosition": "bottom-right"
     },
     {
-      "id": "product-222",
-      "category": "SƠN GEL POLISH",
-      "productName": "BlazingStar Gel Polish 15ml - Box 6 chai cùng 1 màu",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Box 6 chai cùng 1 màu",
-          "price": "£32.40",
-          "condition": "",
-          "discount": "£32.40"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-220",
-      "category": "TOP & BASE",
-      "productName": "BlazingStar Gel Top & Gel Base 15ml",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 33,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "scents": [
-        "Gel Top Original",
-        "Gel Top Durashine",
-        "Gel Top Sunshield",
-        "Gel Base Original",
-        "Gel Base Express"
-      ],
-      "pricingTable": [
-        {
-          "size": "Lẻ 15ml",
-          "price": "£9.00",
-          "condition": "SL <12 CHAI",
-          "discount": "£6.00"
-        },
-        {
-          "size": "Lẻ 15ml",
-          "price": "£9.00",
-          "condition": "SL >=12 GIẢM 10% MIX & MATCH",
-          "discount": "£5.40"
-        },
-        {
-          "size": "Set 362 15ml",
-          "price": "£216.00",
-          "condition": "GIẢM 15%",
-          "discount": "£183.60"
-        },
-        {
-          "size": "Set 362 15ml",
-          "price": "£2172.00",
-          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
-          "discount": "£1737.60"
-        }
-      ],
-      "badgePosition": "middle-right",
-      "tableTextSize": "sm"
-    },
-    {
-      "id": "product-227",
-      "category": "SƠN GEL POLISH",
-      "productName": "MBerry Gel Polish 15ml - Box 6 chai cùng 1 màu",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Box 6 chai cùng 1 màu",
-          "price": "£29.70",
-          "condition": "",
-          "discount": "£29.70"
-        }
-      ],
-      "badgePosition": "middle-right"
-    },
-    {
       "id": "product-225",
       "category": "SƠN GEL POLISH",
       "productName": "MBerry Gel Top 480ml",
@@ -581,19 +492,31 @@
       "discountPercentage": 46,
       "images": {
         "topLeft": "/product-225-topLeft.webp",
-        "topRight": "/product-225-topRight.webp",
-        "bottomLeft": "/product-225-bottomLeft.webp"
+        "topRight": "/product-225-3-topRight.webp",
+        "bottomLeft": "/product-225-3-topLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "480ml",
+          "size": "Top 15ml",
+          "price": "£5.50",
+          "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£4.95"
+        },
+        {
+          "size": "Base 15ml",
+          "price": "£5.50",
+          "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£4.95"
+        },
+        {
+          "size": "Top 480ml",
           "price": "£75.00",
           "condition": "Lẻ OFF 10% & MUA 2 TẶNG 1 - TẶNG 2 CHAI TOP 15ML",
           "discount": "£40.50"
         }
       ],
       "badgePosition": "middle-right",
-      "tableTextSize": "lg"
+      "tableTextSize": "sm"
     },
     {
       "id": "product-225-1",
@@ -628,28 +551,6 @@
       ],
       "badgePosition": "middle-right",
       "tableTextSize": "sm"
-    },
-    {
-      "id": "product-225-3",
-      "category": "SƠN GEL POLISH",
-      "productName": "MBerry Gel Top 15ml",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/product-225-3-topLeft.webp",
-        "topRight": "/product-225-3-topRight.webp",
-        "bottomLeft": "/product-225-3-bottomLeft.webp"
-      },
-      "pricingTable": [
-        {
-          "size": "15ml",
-          "price": "£5.50",
-          "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
-          "discount": "£4.95"
-        }
-      ],
-      "badgePosition": "bottom-right",
-      "tableTextSize": "lg"
     },
     {
       "id": "product-237",
@@ -705,12 +606,6 @@
         {
           "size": "Revive Base 15ml",
           "price": "£8.00",
-          "condition": "SL <12 CHAI",
-          "discount": "£8.00"
-        },
-        {
-          "size": "Revive Base 15ml",
-          "price": "£8.00",
           "condition": "SL >=12 CHAI - GIẢM 10%",
           "discount": "£7.20"
         },
@@ -742,54 +637,6 @@
       "badgePosition": "middle-right",
       "tableTextSize": "xs",
       "badgeSize": "sm"
-    },
-    {
-      "id": "product-239",
-      "category": "TOP & BASE",
-      "productName": "BlazingStar Revive Base / Revive Base HF / Durabase HF - 15ml",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Lẻ 15ml",
-          "price": "£8.00",
-          "condition": "SL <12 CHAI",
-          "discount": "£8.00"
-        },
-        {
-          "size": "Lẻ 15ml",
-          "price": "£8.00",
-          "condition": "SL >=12 CHAI - GIẢM 10%",
-          "discount": "£7.20"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-241",
-      "category": "TOP & BASE",
-      "productName": "BlazingStar Revive Base 240ml - Lẻ",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 40,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Lẻ",
-          "price": "£80.00",
-          "condition": "OFF 10% VÀ MUA 2 TẶNG 1 - TẶNG 2 VỎ ( CHAI TẶNG K TẶNG VỎ )",
-          "discount": "£48.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
     },
     {
       "id": "product-258",
@@ -1188,7 +1035,7 @@
           "discount": "£48.00"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right"
     },
     {
       "id": "product-297",
@@ -1565,34 +1412,6 @@
       "tableTextSize": "base"
     },
     {
-      "id": "product-350",
-      "category": "NAIL FILE",
-      "productName": "JK File",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/jk-1.webp",
-        "topRight": "/jk-2.webp",
-        "bottomLeft": "/jk-top.webp"
-      },
-      "pricingTable": [
-        {
-          "size": "Straight 80/80",
-          "price": "£16.00",
-          "condition": "",
-          "discount": "£16.00"
-        },
-        {
-          "size": "Square 80/80",
-          "price": "£21.00",
-          "condition": "",
-          "discount": "£21.00"
-        }
-      ],
-      "badgePosition": "middle-right",
-      "tableTextSize": "lg"
-    },
-    {
       "id": "product-356",
       "category": "ELECTRICAL",
       "productName": "Bold Berry LED LAMP",
@@ -1918,23 +1737,31 @@
     {
       "id": "product-381",
       "category": "PEDICURE CHAIR",
-      "productName": "Ghế Auto Fill",
+      "productName": "Ghế Pedicure Tự Động / Không Tự Động Ngắt Nước",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 27,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/chair-1.webp",
+        "topRight": "/chair-2.webp",
+        "bottomLeft": "/chair-3.webp"
       },
       "pricingTable": [
         {
-          "size": "",
+          "size": "Tự Động Ngắt Nước",
           "price": "£3000.00",
           "condition": "",
           "discount": "£2200.00"
+        },
+        {
+          "size": "Không Tự Động Ngắt Nước",
+          "price": "£2750.00",
+          "condition": "",
+          "discount": "£2000.00"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right",
+      "tableTextSize": "base",
+      "scents": ["Classic VL939", "White Swan VL900", "Black Swan VL900", "White Zebra VL942"]
     },
     {
       "id": "product-384",
@@ -1984,48 +1811,6 @@
       ],
       "badgePosition": "middle-right",
       "tableTextSize": "base"
-    },
-    {
-      "id": "product-379",
-      "category": "PEDICURE CHAIR",
-      "productName": "Ghế Non Auto Fill - Chậu Cao Su",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 27,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "",
-          "price": "£2750.00",
-          "condition": "",
-          "discount": "£2000.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-380",
-      "category": "PEDICURE CHAIR",
-      "productName": "Ghế Non Auto Fill - Chậu Thủy Tinh",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 27,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "",
-          "price": "£2750.00",
-          "condition": "",
-          "discount": "£2000.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
     },
     {
       "id": "product-386",
@@ -3314,6 +3099,211 @@
       ],
       "badgePosition": "middle-right",
       "tableTextSize": "lg"
+    },
+    {
+      "id": "product-399",
+      "category": "NAIL TIP",
+      "productName": "Tip Gel BlazingStar - 4 loại",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "/product-258-topLeft.png",
+        "topRight": "/product-258-topRight.png",
+        "bottomLeft": "/product-258-bottomLeft.png"
+      },
+      "pricingTable": [
+        {
+          "size": "Straight - Pack 10",
+          "price": "£6.00",
+          "condition": "Gói lẻ OFF 20%",
+          "discount": "£4.80"
+        },
+        {
+          "size": "Straight - Box 550 pcs",
+          "price": "£12.00",
+          "condition": "Thùng OFF 20%",
+          "discount": "£9.60"
+        },
+        {
+          "size": "Stiletto - Pack 10",
+          "price": "£6.00",
+          "condition": "Gói lẻ OFF 20%",
+          "discount": "£4.80"
+        },
+        {
+          "size": "Stiletto - Box 550 pcs",
+          "price": "£12.00",
+          "condition": "Thùng OFF 20%",
+          "discount": "£9.60"
+        },
+        {
+          "size": "Long - Pack 10",
+          "price": "£7.00",
+          "condition": "Gói lẻ OFF 20%",
+          "discount": "£5.60"
+        },
+        {
+          "size": "Long - Box 550 pcs",
+          "price": "£15.00",
+          "condition": "Thùng OFF 20%",
+          "discount": "£12.00"
+        },
+        {
+          "size": "Natural - Pack 10",
+          "price": "£4.00",
+          "condition": "Gói lẻ SL >=10 GIẢM 10%",
+          "discount": "£3.60"
+        },
+        {
+          "size": "Natural - Case",
+          "price": "£320.00",
+          "condition": "Thùng OFF 15%",
+          "discount": "£272.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "xs"
+    },
+    {
+      "id": "product-400",
+      "category": "PROTECTIVE GLOVES",
+      "productName": "Găng tay BlazingStar",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "/gang-tay-1.webp",
+        "topRight": "/gang-tay-2.webp",
+        "bottomLeft": "/gang-tay-3.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Latex Protect+ - Trắng",
+          "price": "£40.00",
+          "condition": "OFF 10%",
+          "discount": "£36.00"
+        },
+        {
+          "size": "Latex Protect+ - Trắng",
+          "price": "£40.00",
+          "condition": "MUA TRÊN 3 THÙNG GIẢM 15% MIX & MATCH",
+          "discount": "£34.00"
+        },
+        {
+          "size": "Nitrile - Đen",
+          "price": "£40.00",
+          "condition": "OFF 10%",
+          "discount": "£36.00"
+        },
+        {
+          "size": "Nitrile - Đen",
+          "price": "£40.00",
+          "condition": "MUA TRÊN 3 THÙNG GIẢM 15% MIX & MATCH",
+          "discount": "£34.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "xs",
+      "scents": ["Latex Protect+ - Trắng", "Nitrile - Đen"]
+    },
+    {
+      "id": "product-401",
+      "category": "NAIL TIP",
+      "productName": "Tip Natural BlazingStar",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "/natural.png",
+        "topRight": "/natural-1.png",
+        "bottomLeft": "/natural-2.png"
+      },
+      "pricingTable": [
+        {
+          "size": "Straight - Pack 10",
+          "price": "£4.00",
+          "condition": "Gói lẻ SL >=10 GIẢM 10%",
+          "discount": "£3.60"
+        },
+        {
+          "size": "Straight - Case 0-10",
+          "price": "£320.00",
+          "condition": "Thùng OFF 15%",
+          "discount": "£272.00"
+        },
+        {
+          "size": "Stiletto - Pack 10",
+          "price": "£4.00",
+          "condition": "Gói lẻ SL >=10 GIẢM 10%",
+          "discount": "£3.60"
+        },
+        {
+          "size": "Stiletto - Case 0-10",
+          "price": "£320.00",
+          "condition": "Thùng OFF 15%",
+          "discount": "£272.00"
+        },
+        {
+          "size": "Coffin - Pack 10",
+          "price": "£4.00",
+          "condition": "Gói lẻ SL >=10 GIẢM 10%",
+          "discount": "£3.60"
+        },
+        {
+          "size": "Coffin - Case 0-10",
+          "price": "£320.00",
+          "condition": "Thùng OFF 15%",
+          "discount": "£272.00"
+        },
+        {
+          "size": "Curve - Pack 10",
+          "price": "£3.50",
+          "condition": "Gói lẻ SL >=10 GIẢM 10%",
+          "discount": "£3.15"
+        },
+        {
+          "size": "Curve - Case 0-10",
+          "price": "£280.00",
+          "condition": "Thùng OFF 20%",
+          "discount": "£224.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "xs",
+      "scents": ["Straight / Thẳng", "Stiletto / Nhọn", "Coffin / Thẳng", "Curve / Cong"]
+    },
+    {
+      "id": "product-402",
+      "category": "LOTION",
+      "productName": "Lotion tặng khách",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "/lotion-1.webp",
+        "topRight": "/lotion-2.webp",
+        "bottomLeft": "/lotion-3.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Mua 1 thùng",
+          "price": "£1.20",
+          "condition": "/lọ",
+          "discount": "£1.20"
+        },
+        {
+          "size": "Mua trên 3 thùng",
+          "price": "£1.00",
+          "condition": "/lọ",
+          "discount": "£1.00"
+        },
+        {
+          "size": "Mua 8 thùng, 8 mùi",
+          "price": "£0.90",
+          "condition": "/lọ",
+          "discount": "£0.90"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base",
+      "showOnlyPriceColumn": true
     }
   ]
 }
