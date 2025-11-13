@@ -553,46 +553,6 @@
       "tableTextSize": "sm"
     },
     {
-      "id": "product-220-1",
-      "category": "SƠN GEL POLISH",
-      "productName": "BlazingStar - Gel Polish",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 33,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Lẻ 15ml",
-          "price": "£9.00",
-          "condition": "SL <12 CHAI",
-          "discount": "£6.00"
-        },
-        {
-          "size": "Lẻ 15ml",
-          "price": "£9.00",
-          "condition": "SL >= 12 GIẢM 10% MIX & MATCH",
-          "discount": "£5.40"
-        },
-        {
-          "size": "Set 36 15ml",
-          "price": "£324.00",
-          "condition": "GIẢM 15% Từ GIÁ ORIGINAL",
-          "discount": "£275.40"
-        },
-        {
-          "size": "Set 180 15ml",
-          "price": "£1620.00",
-          "condition": "GIẢM 20% Từ GIÁ ORIGINAL",
-          "discount": "£1296.00"
-        }
-      ],
-      "badgePosition": "middle-right",
-      "tableTextSize": "sm"
-    },
-    {
       "id": "product-227",
       "category": "SƠN GEL POLISH",
       "productName": "MBerry Gel Polish 15ml - Box 6 chai cùng 1 màu",
@@ -670,27 +630,6 @@
       "tableTextSize": "sm"
     },
     {
-      "id": "product-225-2",
-      "category": "SƠN GEL POLISH",
-      "productName": "MBerry Gel Base 15ml - Lẻ",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "15ml",
-          "price": "£5.50",
-          "condition": "SL < 12 CHAI",
-          "discount": "£5.50"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
       "id": "product-225-3",
       "category": "SƠN GEL POLISH",
       "productName": "MBerry Gel Top 15ml",
@@ -711,171 +650,6 @@
       ],
       "badgePosition": "bottom-right",
       "tableTextSize": "lg"
-    },
-    {
-      "id": "product-228",
-      "category": "SƠN GEL POLISH",
-      "productName": "MBerry Gel Polish - 15ml",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Lẻ",
-          "price": "£5.50",
-          "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
-          "discount": "£4.95"
-        },
-        {
-          "size": "Set 36",
-          "price": "£198.00",
-          "condition": "GIẢM 15% TỪ GIÁ ORIGINAL",
-          "discount": "£168.30"
-        },
-        {
-          "size": "Set 180",
-          "price": "£990.00",
-          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
-          "discount": "£792.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-230",
-      "category": "TOP & BASE",
-      "productName": "Bold Berry Gel Base 240ml",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "240ml",
-          "price": "£45.00",
-          "condition": "GIẢM 10% - TẶNG 2 VỎ",
-          "discount": "£40.50"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-231",
-      "category": "TOP & BASE",
-      "productName": "Bold Berry Gel Top - 480ml",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "480ml",
-          "price": "£70.00",
-          "condition": "LẺ 1 CHAI KO GIẢM",
-          "discount": "£70.00"
-        },
-        {
-          "size": "480ml",
-          "price": "£70.00",
-          "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 8 VỎ ( CHAI TẶNG K TẶNG VỎ )",
-          "discount": "£42.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-233",
-      "category": "TOP & BASE",
-      "productName": "BlazingStar Gel Base 240ml - Lẻ",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Lẻ",
-          "price": "£60.00",
-          "condition": "LẺ 1 CHAI KO GIẢM",
-          "discount": "£60.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-234",
-      "category": "TOP & BASE",
-      "productName": "BlazingStar Gel Base 240ml - Lẻ",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 33,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Lẻ",
-          "price": "£60.00",
-          "condition": "MUA 2 TẶNG 1 - TẶNG 2 VỎ ( CHAI TẶNG K TẶNG VỎ )",
-          "discount": "£40.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-235",
-      "category": "TOP & BASE",
-      "productName": "BlazingStar Gel Base Express 480ml - Lẻ",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Lẻ",
-          "price": "£80.00",
-          "condition": "LẺ 1 CHAI KO GIẢM",
-          "discount": "£80.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-236",
-      "category": "TOP & BASE",
-      "productName": "BlazingStar Gel Base Express 480ml - Lẻ",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 40,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Lẻ",
-          "price": "£80.00",
-          "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 8 VỎ ( CHAI TẶNG K TẶNG VỎ )",
-          "discount": "£48.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
     },
     {
       "id": "product-237",
@@ -923,25 +697,51 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/product-238-topLeft.webp",
-        "topRight": "/product-238-topRight.webp",
+        "topLeft": "/product-238-topRight.webp",
+        "topRight": "/product-238-topLeft.webp",
         "bottomLeft": "/product-238-bottomLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "15ml",
+          "size": "Revive Base 15ml",
+          "price": "£8.00",
+          "condition": "SL <12 CHAI",
+          "discount": "£8.00"
+        },
+        {
+          "size": "Revive Base 15ml",
+          "price": "£8.00",
+          "condition": "SL >=12 CHAI - GIẢM 10%",
+          "discount": "£7.20"
+        },
+        {
+          "size": "Original Base 15ml",
           "price": "£9.00",
-          "condition": "ĐỀU GIÁ £6/CHAI - SL <12",
+          "condition": "SL <12 CHAI",
           "discount": "£6.00"
         },
         {
-          "size": "15ml",
+          "size": "Original Base 15ml",
           "price": "£9.00",
-          "condition": "ĐỀU GIÁ £6/CHAI - SL >=12 GIẢM THÊM 10% MIX & MATCH",
+          "condition": "SL >=12 CHAI - GIẢM 10%",
           "discount": "£5.40"
+        },
+        {
+          "size": "Original Base Refill 240ml",
+          "price": "£60.00",
+          "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 2 VỎ",
+          "discount": "£40.00"
+        },
+        {
+          "size": "Revive Base Refill 240ml",
+          "price": "£80.00",
+          "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 2 VỎ",
+          "discount": "£48.00"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right",
+      "tableTextSize": "xs",
+      "badgeSize": "sm"
     },
     {
       "id": "product-239",
@@ -1193,9 +993,9 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/ema-liquid-1.webp",
+        "topRight": "/ema-liquid-2.webp",
+        "bottomLeft": "/ema-liquid-3.webp"
       },
       "pricingTable": [
         {
@@ -1259,34 +1059,6 @@
       "badgePosition": "bottom-right"
     },
     {
-      "id": "product-309",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "3D Brush",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Size 4",
-          "price": "£10.00",
-          "condition": "OFF 10%",
-          "discount": "£9.00"
-        },
-        {
-          "size": "Size 6",
-          "price": "£12.00",
-          "condition": "OFF 10%",
-          "discount": "£10.80"
-        }
-      ],
-      "badgePosition": "bottom-right",
-      "tableTextSize": "base"
-    },
-    {
       "id": "product-304",
       "category": "ACRYLIC BRUSHES",
       "productName": "BlazingStar Brush French",
@@ -1315,33 +1087,6 @@
           "price": "£14.00",
           "condition": "OFF 10%",
           "discount": "£12.60"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-307",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Gel Brush",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "Size 6",
-          "price": "£10.00",
-          "condition": "OFF 10%",
-          "discount": "£9.00"
-        },
-        {
-          "size": "Size 8",
-          "price": "£10.00",
-          "condition": "OFF 10%",
-          "discount": "£9.00"
         }
       ],
       "badgePosition": "bottom-right"
@@ -1826,9 +1571,9 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/jk-1.webp",
+        "topRight": "/jk-2.webp",
+        "bottomLeft": "/jk-top.webp"
       },
       "pricingTable": [
         {
@@ -3088,31 +2833,31 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/kds-callus-1.webp",
+        "topRight": "/kds-callus-2.webp",
+        "bottomLeft": "/kds-callus-3.webp"
       },
       "pricingTable": [
         {
-          "size": "32oz - 12",
+          "size": "32oz",
           "price": "£15.00",
           "condition": "",
           "discount": "£15.00"
         },
         {
-          "size": "GAL",
+          "size": "Gallon",
           "price": "£30.00",
           "condition": "OFF 10% SL<3",
           "discount": "£27.00"
         },
         {
-          "size": "GAL - 4",
+          "size": "Gallon",
           "price": "£30.00",
           "condition": "OFF 10%, MUA 3 TẶNG 1",
           "discount": "£20.25"
         },
         {
-          "size": "CASE",
+          "size": "Case (4 Gallon)",
           "price": "£108.00",
           "condition": "GIẢM 25%",
           "discount": "£81.00"
@@ -3127,9 +2872,9 @@
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
+        "topLeft": "/kds-clay-cucumber.webp",
+        "topRight": "/kds-clay-2.webp",
+        "bottomLeft": "/kds-clay-2.webp"
       },
       "pricingTable": [
         {
@@ -3145,7 +2890,8 @@
           "discount": "£108.00"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "bottom-right",
+      "tableTextSize": "sm"
     },
     {
       "id": "product-150",
@@ -3193,39 +2939,6 @@
         "Tingly Lemon",
         "White Jasmine"
       ]
-    },
-    {
-      "id": "product-155",
-      "category": "KDS",
-      "productName": "KDS Liquid Coffee Purple",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/vllondon-logo.jpeg",
-        "topRight": "/vllondon-logo.jpeg",
-        "bottomLeft": "/vllondon-logo.jpeg"
-      },
-      "pricingTable": [
-        {
-          "size": "GAL",
-          "price": "£60.00",
-          "condition": "",
-          "discount": "£60.00"
-        },
-        {
-          "size": "CASE 4",
-          "price": "£180.00",
-          "condition": "OFF 10%",
-          "discount": "£162.00"
-        },
-        {
-          "size": "CASE 4",
-          "price": "£180.00",
-          "condition": "SL>=2 OFF 15%",
-          "discount": "£153.00"
-        }
-      ],
-      "badgePosition": "middle-right"
     },
     {
       "id": "product-158",
@@ -3441,21 +3154,21 @@
       "pricingTable": [
         {
           "size": "Lẻ 15ml",
-          "price": "£8.00",
-          "condition": "SL < 12 CHAI",
-          "discount": "£8.00"
+          "price": "£9.00",
+          "condition": "SL <12 CHAI",
+          "discount": "£6.00"
         },
         {
           "size": "Lẻ 15ml",
-          "price": "£12.00",
-          "condition": "SL >= 12 GIẢM 40%",
-          "discount": "£7.20"
+          "price": "£9.00",
+          "condition": "SL >=12 GIẢM 10% MIX & MATCH",
+          "discount": "£5.40"
         },
         {
-          "size": "Set 36 màu 15ml",
-          "price": "£288.00",
-          "condition": "GIẢM 15% TỪ GIÁ ORIGINAL",
-          "discount": "£244.80"
+          "size": "Set 362 15ml",
+          "price": "£2172.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£1737.60"
         }
       ],
       "badgePosition": "bottom-right"
@@ -3573,6 +3286,34 @@
         }
       ],
       "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-398",
+      "category": "TOP & BASE",
+      "productName": "BlazingStar Base MỚI - HEMA FREE",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "/base-new-1.webp",
+        "topRight": "/base-new-2.webp",
+        "bottomLeft": "/base-new.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Lẻ 15ml",
+          "price": "£8.00",
+          "condition": "SL <12 CHAI",
+          "discount": "£7.20"
+        },
+        {
+          "size": "Lẻ 15ml",
+          "price": "£8.00",
+          "condition": "SL >=12 CHAI - GIẢM 10%",
+          "discount": "£6.48"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "lg"
     }
   ]
 }

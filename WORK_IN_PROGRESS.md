@@ -42,6 +42,7 @@ Working through product merges systematically by product type and brand.
 
 ### Removed Products
 - [x] **All DRILL BIT products** (28 items): product-333, 317, 323, 324, 321, 322, 327, 328, 325, 326, 331, 332, 329, 330, 315, 316, 313, 314, 335, 336, 337, 338, 339, 340, 341, 342, 311, 312
+- [x] **product-242**: MBerry Gel Top 480ml duplicate - Removed (kept product-225 with real images instead)
 
 ### La Palm Merged Products
 - [x] **product-7, product-8**: Cooling Gel - Merged into product-7 (12oz + Gallon)
@@ -79,6 +80,46 @@ Working through product merges systematically by product type and brand.
   - Blue: Honey, Pearl, Milk & Honey, Crystal Waters
   - Red/Warm: Mango, Tropical, Ginger, Sweet flavors
   - Indigo: Default fallback
+
+- [x] **Removed checkbox from HTML render** - Removed checkbox element from SaleCard to improve HTML-to-image export performance
+
+### New Products Created (Session Nov 13)
+- [x] **product-243**: Tip Natural BlazingStar - Consolidated Straight/Stiletto/Coffin with scents prop, Curve kept separate as product-243-1
+  - product-243: Straight/Stiletto/Coffin merged with scents (middle-right badge)
+  - product-243-1: Curve tip separate listing (bottom-right badge) - different pricing (£3.50 vs £4.00)
+  - Images: natural.png, natural-1.png, natural-2.png
+
+- [x] **product-210**: Bold Berry GEL BASE / GEL TOP - Updated with all sizes
+  - Lẻ 15ml - Base & Top: £5.00 → £4.50
+  - Base 240ml: £45.00 → £40.50
+  - Top 480ml: £70.00 → £42.00 (MUA 2 TẶNG 1)
+  - Images: boldtop.jpg (converted to webp)
+  - Badge: bottom-right
+
+- [x] **product-394**: BlazingStar - Gel Polish - Revive
+  - Lẻ 15ml: £9.00 → £6.00 (SL <12)
+  - Lẻ 15ml: £9.00 → £5.40 (SL >=12, 10% off)
+  - Set 362 15ml: £2172.00 → £1737.60 (20% off)
+  - Images: rv.png (converted to webp)
+  - Same pricing as product-220-1 (BlazingStar Gel Polish)
+
+- [x] **product-395**: BlazingStar - Gel Polish - Original
+  - Same pricing as product-220-1 (33% discount)
+  - Images: bsgel1.png, bsgel2.png, bsgel3.png
+  - Badge: middle-right, Table text: sm
+
+- [x] **product-396**: BlazingStar - Gel Top
+  - Scents: Durashine, Original, TPO/HEMA Free, Sunshield, Chrome, Blooming, Matte
+  - Lẻ 15ml: £9.00 → £6.00 / £5.40
+  - Set 362: £216.00 → £183.60 / £2172.00 → £1737.60
+  - Images: btop.png (converted to webp)
+  - Badge: middle-right, Table text: xs (smallest)
+
+- [x] **product-397**: BlazingStar - Express Base
+  - Lẻ 15ml: £9.00 → £6.00 / £5.40
+  - Lẻ 480ml: £80.00 → £48.00 (MUA 2 TẶNG 1)
+  - Images: ep.jpg (converted to webp) - swapped: topLeft=bottomLeft, topRight=topLeft, bottomLeft=topRight
+  - Badge: middle-right
 
 ## Pending Work
 
@@ -121,8 +162,16 @@ When merging products:
 - Use `Edit` tool to make targeted changes
 - Don't save checkpoint commits after each merge; batch multiple changes
 - Update `CHANGELOG.md` and this file after each session
+- **Always check CSV for accurate pricing** - Use manicure.csv and vl-london-products-no-images CSV for reference
+- **Image conversion** - Use cwebp to convert PNG/JPG to WebP format for optimized file size
+- **Scent naming** - Use both English and Vietnamese names with "/" separator (e.g., "Straight / Thẳng")
+- **Price calculations** - Always calculate discounts yourself to verify accuracy (e.g., £12 × 0.40 = £4.80 off, so discount is £12 - £4.80 = £7.20)
 
 ### Technical Notes
 - All changes are in `/data/products-generated.json`
 - Product IDs don't auto-update - if deleting products, subsequent IDs stay the same
 - When merging: keep earliest product ID, combine pricing tables, remove size from name, add size to size column
+- **Image swapping** - When rearranging images, remember the format: topLeft/topRight/bottomLeft are the three positions on card
+- **Badge positions** - Use "middle-right" for merged products with scents or variants, "bottom-right" for basic single products
+- **CSV as source of truth** - Always refer to manicure.csv for pricing and product structure, not assumptions
+- **Duplicate detection** - Check CSV for both product names and pricing to identify true duplicates (some products appear in multiple categories)
