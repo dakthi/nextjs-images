@@ -57,7 +57,7 @@
     {
       "id": "product-191",
       "category": "BỘT ACRYLIC + OMBRE",
-      "productName": "BlazingStar Maxx Perform - 23oz",
+      "productName": "BlazingStar Maxx Perform",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 25,
       "images": {
@@ -66,6 +66,18 @@
         "bottomLeft": "/product-197-bottomLeft.webp"
       },
       "pricingTable": [
+        {
+          "size": "2oz",
+          "price": "£10.00",
+          "condition": "SL >=10 GIẢM 10%",
+          "discount": "£9.00"
+        },
+        {
+          "size": "2oz",
+          "price": "£10.00",
+          "condition": "SL >=20 GIẢM 20%",
+          "discount": "£8.00"
+        },
         {
           "size": "Set 22 Ombre Colors (1-22) 23oz",
           "price": "£1540.00",
@@ -85,34 +97,7 @@
           "discount": "£1537.50"
         }
       ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-194",
-      "category": "BỘT ACRYLIC + OMBRE",
-      "productName": "BlazingStar Maxx Perform - Ombre Collection",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/product-194-topLeft.webp",
-        "topRight": "/product-194-topRight.webp",
-        "bottomLeft": "/product-194-bottomLeft.webp"
-      },
-      "pricingTable": [
-        {
-          "size": "2oz",
-          "price": "£10.00",
-          "condition": "SL >=10 GIẢM 10%",
-          "discount": "£9.00"
-        },
-        {
-          "size": "2oz",
-          "price": "£10.00",
-          "condition": "SL >=20 GIẢM 20%",
-          "discount": "£8.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right"
     },
     {
       "id": "product-197",
@@ -145,54 +130,40 @@
           "discount": "£248.00"
         }
       ],
-      "badgePosition": "bottom-right"
+      "badgePosition": "middle-right"
     },
     {
       "id": "product-184",
       "category": "BỘT ACRYLIC + OMBRE",
-      "productName": "BlazingStar Maxx Perform Powder",
+      "productName": "BlazingStar Maxx Perform - Bột Tốc Độ",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 20,
       "images": {
         "topLeft": "/product-184-topLeft.webp",
         "topRight": "/product-184-topRight.webp",
-        "bottomLeft": "/product-184-bottomLeft.webp"
+        "bottomLeft": "/product-181-topLeft.webp"
       },
       "pricingTable": [
         {
-          "size": "23oz",
+          "size": "23oz - Gel Clear",
           "price": "£40.00",
           "condition": "MUA >=3 GIẢM 20%",
           "discount": "£32.00"
-        }
-      ],
-      "scents": [
-        "Medium Set",
-        "Fast Set",
-        "Clear Gel"
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-181",
-      "category": "BỘT ACRYLIC + OMBRE",
-      "productName": "BlazingStar Maxx Perform - Natural Pink - Slow/Medium/Fast Set - 23oz",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/product-181-topLeft.webp",
-        "topRight": "/product-181-topRight.webp",
-        "bottomLeft": "/product-181-bottomLeft.webp"
-      },
-      "pricingTable": [
+        },
         {
-          "size": "23oz",
+          "size": "23oz - Natural Pink",
           "price": "£36.00",
           "condition": "MUA >=5 GIẢM 15%",
           "discount": "£30.60"
         }
       ],
-      "badgePosition": "bottom-right"
+      "scents": [
+        "Medium Set - 4 Mùa",
+        "Fast Set - Bột Mùa Đông",
+        "Slow Set - Bột Mùa Hè"
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
     },
     {
       "id": "product-185",
@@ -639,163 +610,6 @@
       "badgeSize": "sm"
     },
     {
-      "id": "product-258",
-      "category": "NAIL TIP",
-      "productName": "Tip Gel BlazingStar - Straight & Stiletto",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/product-258-topLeft.png",
-        "topRight": "/product-258-topRight.png",
-        "bottomLeft": "/product-258-bottomLeft.png"
-      },
-      "pricingTable": [
-        {
-          "size": "Straight - Pack 10",
-          "price": "£6.00",
-          "condition": "OFF 20%",
-          "discount": "£4.80"
-        },
-        {
-          "size": "Straight - Box 550 pcs",
-          "price": "£12.00",
-          "condition": "OFF 20%",
-          "discount": "£9.60"
-        },
-        {
-          "size": "Straight - Pack 100",
-          "price": "£50.00",
-          "condition": "OFF 20%",
-          "discount": "£40.00"
-        },
-        {
-          "size": "Stiletto - Pack 10",
-          "price": "£6.00",
-          "condition": "OFF 20%",
-          "discount": "£4.80"
-        },
-        {
-          "size": "Stiletto - Box 550 pcs",
-          "price": "£12.00",
-          "condition": "OFF 20%",
-          "discount": "£9.60"
-        },
-        {
-          "size": "Stiletto - Pack 100",
-          "price": "£50.00",
-          "condition": "OFF 20%",
-          "discount": "£40.00"
-        }
-      ],
-      "badgePosition": "middle-right"
-    },
-    {
-      "id": "product-258-1",
-      "category": "NAIL TIP",
-      "productName": "Tip Gel BlazingStar - Long",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 20,
-      "images": {
-        "topLeft": "/product-258-1-topLeft.webp",
-        "topRight": "/product-258-1-topRight.webp",
-        "bottomLeft": "/product-258-1-bottomLeft.webp"
-      },
-      "pricingTable": [
-        {
-          "size": "Long - Pack 10",
-          "price": "£7.00",
-          "condition": "OFF 20%",
-          "discount": "£5.60"
-        },
-        {
-          "size": "Long - Box 550 pcs",
-          "price": "£15.00",
-          "condition": "OFF 20%",
-          "discount": "£12.00"
-        },
-        {
-          "size": "Long - Pack 100",
-          "price": "£60.00",
-          "condition": "OFF 20%",
-          "discount": "£48.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-243",
-      "category": "NAIL TIP",
-      "productName": "Tip Natural BlazingStar",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/natural.png",
-        "topRight": "/natural-1.png",
-        "bottomLeft": "/natural-2.png"
-      },
-      "pricingTable": [
-        {
-          "size": "Pack 10",
-          "price": "£4.00",
-          "condition": "SL >=10 GIẢM 10%",
-          "discount": "£3.60"
-        },
-        {
-          "size": "Pack 100",
-          "price": "£35.00",
-          "condition": "SL>=5 GIẢM 10%",
-          "discount": "£31.50"
-        },
-        {
-          "size": "Case 0-10",
-          "price": "£320.00",
-          "condition": "OFF 15% TỪ GIÁ ORIGINAL",
-          "discount": "£272.00"
-        },
-        {
-          "size": "Set box (0-10-50pcs)",
-          "price": "£10.00",
-          "condition": "GIẢM 10%",
-          "discount": "£9.00"
-        }
-      ],
-      "badgePosition": "middle-right",
-      "scents": ["Straight / Thẳng", "Stiletto / Nhọn", "Coffin / Thẳng"]
-    },
-    {
-      "id": "product-243-1",
-      "category": "NAIL TIP",
-      "productName": "Tip Natural BlazingStar Thường - Curve",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/product-243-1-topLeft.webp",
-        "topRight": "/product-243-1-topRight.webp",
-        "bottomLeft": "/product-243-1-bottomLeft.webp"
-      },
-      "pricingTable": [
-        {
-          "size": "Curve - Pack 10",
-          "price": "£3.50",
-          "condition": "SL >=10 GIẢM 10%",
-          "discount": "£3.15"
-        },
-        {
-          "size": "Curve - Pack 100",
-          "price": "£30.00",
-          "condition": "SL>=5 GIẢM 10%",
-          "discount": "£27.00"
-        },
-        {
-          "size": "Curve - Case 0-10",
-          "price": "£280.00",
-          "condition": "OFF 20% TỪ GIÁ ORIGINAL",
-          "discount": "£224.00"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
       "id": "product-275",
       "category": "ACRYLIC LIQUID",
       "productName": "BlazingStar Liquid",
@@ -904,178 +718,6 @@
         }
       ],
       "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-304",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush French",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/product-304-topLeft.jpeg",
-        "topRight": "/product-304-topRight.jpeg",
-        "bottomLeft": "/product-304-bottomLeft.webp"
-      },
-      "pricingTable": [
-        {
-          "size": "Size 12",
-          "price": "£10.00",
-          "condition": "OFF 10%",
-          "discount": "£9.00"
-        },
-        {
-          "size": "Size 14",
-          "price": "£12.00",
-          "condition": "OFF 10%",
-          "discount": "£10.80"
-        },
-        {
-          "size": "Size 16",
-          "price": "£14.00",
-          "condition": "OFF 10%",
-          "discount": "£12.60"
-        }
-      ],
-      "badgePosition": "bottom-right"
-    },
-    {
-      "id": "product-283",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Plus - LÔNG MỀM",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 0,
-      "images": {
-        "topLeft": "/product-283-topLeft.webp",
-        "topRight": "/product-283-topRight.webp",
-        "bottomLeft": "/product-283-bottomLeft.webp"
-      },
-      "pricingTable": [
-        {
-          "size": "8 - CÁN TRÒN",
-          "price": "£30.00",
-          "condition": "MUA <5 OFF 10%",
-          "discount": "£27.00"
-        },
-        {
-          "size": "8 - CÁN TRÒN",
-          "price": "£30.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "£24.00"
-        },
-        {
-          "size": "10 - CÁN TRÒN",
-          "price": "£35.00",
-          "condition": "MUA <5 OFF 10%",
-          "discount": "£31.50"
-        },
-        {
-          "size": "10 - CÁN TRÒN",
-          "price": "£35.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "£28.00"
-        },
-        {
-          "size": "12 - CÁN TRÒN + NHỌN",
-          "price": "£40.00",
-          "condition": "MUA <5 OFF 10%",
-          "discount": "£36.00"
-        },
-        {
-          "size": "12 - CÁN TRÒN + NHỌN",
-          "price": "£40.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "£32.00"
-        },
-        {
-          "size": "14 - CÁN TRÒN + NHỌN",
-          "price": "£45.00",
-          "condition": "MUA <5 OFF 10%",
-          "discount": "£40.50"
-        },
-        {
-          "size": "14 - CÁN TRÒN + NHỌN",
-          "price": "£45.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "£36.00"
-        },
-        {
-          "size": "16 - CÁN TRÒN + NHỌN",
-          "price": "£50.00",
-          "condition": "MUA <5 OFF 10%",
-          "discount": "£45.00"
-        },
-        {
-          "size": "16 - CÁN TRÒN + NHỌN",
-          "price": "£50.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "£40.00"
-        },
-        {
-          "size": "18 - CÁN TRÒN + NHỌN",
-          "price": "£55.00",
-          "condition": "MUA <5 OFF 10%",
-          "discount": "£49.50"
-        },
-        {
-          "size": "18 - CÁN TRÒN + NHỌN",
-          "price": "£55.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "£44.00"
-        },
-        {
-          "size": "20 - CÁN TRÒN + NHỌN",
-          "price": "£60.00",
-          "condition": "MUA <5 OFF 10%",
-          "discount": "£54.00"
-        },
-        {
-          "size": "20 - CÁN TRÒN + NHỌN",
-          "price": "£60.00",
-          "condition": "MUA >=5 OFF 20% MIX & MATCH",
-          "discount": "£48.00"
-        }
-      ],
-      "badgePosition": "middle-right"
-    },
-    {
-      "id": "product-297",
-      "category": "ACRYLIC BRUSHES",
-      "productName": "BlazingStar Brush Premium Pro - Size 14",
-      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
-      "discountPercentage": 10,
-      "images": {
-        "topLeft": "/product-297-topLeft.webp",
-        "topRight": "/product-297-topRight.webp",
-        "bottomLeft": "/product-297-bottomLeft.webp"
-      },
-      "pricingTable": [
-        {
-          "size": "14",
-          "price": "£45.00",
-          "condition": "MUA <2 CÂY OFF 10%",
-          "discount": "£40.50"
-        },
-        {
-          "size": "14",
-          "price": "£45.00",
-          "condition": "MUA 2-5 CÂY OFF 15%",
-          "discount": "£38.25"
-        },
-        {
-          "size": "14",
-          "price": "£45.00",
-          "condition": "MUA 6-10 CÂY OFF 20%",
-          "discount": "£36.00"
-        },
-        {
-          "size": "14",
-          "price": "£45.00",
-          "condition": "MUA >=11 CÂY OFF 25%",
-          "discount": "£33.75"
-        }
-      ],
-      "badgePosition": "middle-right",
-      "tableTextSize": "base"
     },
     {
       "id": "product-297-1",
@@ -1761,7 +1403,12 @@
       ],
       "badgePosition": "middle-right",
       "tableTextSize": "base",
-      "scents": ["Classic VL939", "White Swan VL900", "Black Swan VL900", "White Zebra VL942"]
+      "scents": [
+        "Classic VL939",
+        "White Swan VL900",
+        "Black Swan VL900",
+        "White Zebra VL942"
+      ]
     },
     {
       "id": "product-384",
@@ -3037,7 +2684,15 @@
       ],
       "badgePosition": "middle-right",
       "tableTextSize": "xs",
-      "scents": ["Durashine", "Original", "TPO/HEMA Free", "Sunshield", "Chrome", "Blooming", "Matte"]
+      "scents": [
+        "Durashine",
+        "Original",
+        "TPO/HEMA Free",
+        "Sunshield",
+        "Chrome",
+        "Blooming",
+        "Matte"
+      ]
     },
     {
       "id": "product-397",
@@ -3113,56 +2768,32 @@
       },
       "pricingTable": [
         {
-          "size": "Straight - Pack 10",
+          "size": "Pack 10",
           "price": "£6.00",
-          "condition": "Gói lẻ OFF 20%",
+          "condition": "OFF 20%",
           "discount": "£4.80"
         },
         {
-          "size": "Straight - Box 550 pcs",
+          "size": "Pack 100",
+          "price": "£50.00",
+          "condition": "OFF 20%",
+          "discount": "£40.00"
+        },
+        {
+          "size": "Box 550 pcs",
           "price": "£12.00",
-          "condition": "Thùng OFF 20%",
+          "condition": "OFF 20%",
           "discount": "£9.60"
-        },
-        {
-          "size": "Stiletto - Pack 10",
-          "price": "£6.00",
-          "condition": "Gói lẻ OFF 20%",
-          "discount": "£4.80"
-        },
-        {
-          "size": "Stiletto - Box 550 pcs",
-          "price": "£12.00",
-          "condition": "Thùng OFF 20%",
-          "discount": "£9.60"
-        },
-        {
-          "size": "Long - Pack 10",
-          "price": "£7.00",
-          "condition": "Gói lẻ OFF 20%",
-          "discount": "£5.60"
-        },
-        {
-          "size": "Long - Box 550 pcs",
-          "price": "£15.00",
-          "condition": "Thùng OFF 20%",
-          "discount": "£12.00"
-        },
-        {
-          "size": "Natural - Pack 10",
-          "price": "£4.00",
-          "condition": "Gói lẻ SL >=10 GIẢM 10%",
-          "discount": "£3.60"
-        },
-        {
-          "size": "Natural - Case",
-          "price": "£320.00",
-          "condition": "Thùng OFF 15%",
-          "discount": "£272.00"
         }
       ],
       "badgePosition": "middle-right",
-      "tableTextSize": "xs"
+      "tableTextSize": "base",
+      "scents": [
+        "Straight",
+        "Stiletto",
+        "Long"
+      ],
+      "showSizeAndConditionColumnsOnly": true
     },
     {
       "id": "product-400",
@@ -3203,7 +2834,10 @@
       ],
       "badgePosition": "middle-right",
       "tableTextSize": "xs",
-      "scents": ["Latex Protect+ - Trắng", "Nitrile - Đen"]
+      "scents": [
+        "Latex Protect+ - Trắng",
+        "Nitrile - Đen"
+      ]
     },
     {
       "id": "product-401",
@@ -3218,62 +2852,50 @@
       },
       "pricingTable": [
         {
-          "size": "Straight - Pack 10",
+          "size": "Pack 10",
           "price": "£4.00",
-          "condition": "Gói lẻ SL >=10 GIẢM 10%",
+          "condition": "SL ≥ 10 giảm 10%",
           "discount": "£3.60"
         },
         {
-          "size": "Straight - Case 0-10",
-          "price": "£320.00",
-          "condition": "Thùng OFF 15%",
-          "discount": "£272.00"
-        },
-        {
-          "size": "Stiletto - Pack 10",
+          "size": "Set box (0–10–50 pcs)",
           "price": "£4.00",
-          "condition": "Gói lẻ SL >=10 GIẢM 10%",
+          "condition": "Giảm 10%",
           "discount": "£3.60"
         },
         {
-          "size": "Stiletto - Case 0-10",
-          "price": "£320.00",
-          "condition": "Thùng OFF 15%",
-          "discount": "£272.00"
-        },
-        {
-          "size": "Coffin - Pack 10",
+          "size": "Pack 100",
           "price": "£4.00",
-          "condition": "Gói lẻ SL >=10 GIẢM 10%",
+          "condition": "SL ≥ 5 giảm 10%",
           "discount": "£3.60"
         },
         {
-          "size": "Coffin - Case 0-10",
+          "size": "Case 0–10",
           "price": "£320.00",
-          "condition": "Thùng OFF 15%",
+          "condition": "Giảm 15% từ giá original",
           "discount": "£272.00"
         },
         {
-          "size": "Curve - Pack 10",
-          "price": "£3.50",
-          "condition": "Gói lẻ SL >=10 GIẢM 10%",
-          "discount": "£3.15"
-        },
-        {
-          "size": "Curve - Case 0-10",
-          "price": "£280.00",
-          "condition": "Thùng OFF 20%",
-          "discount": "£224.00"
+          "size": "Case 0–10 (Curve)",
+          "price": "£320.00",
+          "condition": "Giảm 20% từ giá original",
+          "discount": "£256.00"
         }
       ],
       "badgePosition": "middle-right",
-      "tableTextSize": "xs",
-      "scents": ["Straight / Thẳng", "Stiletto / Nhọn", "Coffin / Thẳng", "Curve / Cong"]
+      "tableTextSize": "sm",
+      "scents": [
+        "Straight / Thẳng",
+        "Stiletto / Nhọn",
+        "Coffin / Thẳng",
+        "Curve / Cong"
+      ],
+      "showSizeAndConditionColumnsOnly": true
     },
     {
       "id": "product-402",
       "category": "LOTION",
-      "productName": "Lotion tặng khách",
+      "productName": "La Palm Lotion tặng khách",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 0,
       "images": {
@@ -3303,7 +2925,161 @@
       ],
       "badgePosition": "middle-right",
       "tableTextSize": "base",
-      "showOnlyPriceColumn": true
+      "showOnlyPriceColumn": true,
+      "scents": [
+        "Lavender Indulgence",
+        "No.5 Perfume",
+        "Spearmint Eucalyptus Burst",
+        "Aloe Vera Green Tea",
+        "Rose Gold",
+        "Soothing Honey Pearl",
+        "Orange Tangerine Twist",
+        "Radiant Rose Petal"
+      ]
+    },
+    {
+      "id": "product-403",
+      "category": "ACRYLIC BRUSHES",
+      "productName": "BlazingStar Brush Standard",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "/product-277-topLeft.webp",
+        "topRight": "/product-277-topRight.webp",
+        "bottomLeft": "/product-277-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "MUA <5",
+          "price": "£40.00",
+          "condition": "OFF 10%",
+          "discount": "£36.00"
+        },
+        {
+          "size": "MUA >=5",
+          "price": "£40.00",
+          "condition": "OFF 20% MIX & MATCH",
+          "discount": "£32.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "scents": [
+        "Size 14",
+        "Size 16",
+        "Size 18"
+      ],
+      "showSizeAndConditionColumnsOnly": true,
+      "tableTextSize": "sm"
+    },
+    {
+      "id": "product-404",
+      "category": "ACRYLIC BRUSHES",
+      "productName": "BlazingStar Brush Premium Plus",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "/product-283-topLeft.webp",
+        "topRight": "/product-283-topRight.webp",
+        "bottomLeft": "/product-283-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "MUA <5",
+          "price": "£30.00",
+          "condition": "OFF 10%",
+          "discount": "£27.00"
+        },
+        {
+          "size": "MUA >=5",
+          "price": "£30.00",
+          "condition": "OFF 20% MIX & MATCH",
+          "discount": "£24.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base",
+      "scents": [
+        "Size 8 - Cán Tròn",
+        "Size 10 - Cán Tròn",
+        "Size 12 - Cán Tròn / Nhọn",
+        "Size 14 - Cán Tròn / Nhọn",
+        "Size 16 - Cán Tròn / Nhọn",
+        "Size 18 - Cán Tròn / Nhọn",
+        "Size 20 - Cán Tròn / Nhọn"
+      ],
+      "showSizeAndConditionColumnsOnly": true
+    },
+    {
+      "id": "product-405",
+      "category": "ACRYLIC BRUSHES",
+      "productName": "BlazingStar Brush Premium Pro",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "/product-297-topLeft.webp",
+        "topRight": "/product-297-topRight.webp",
+        "bottomLeft": "/product-297-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "MUA <5",
+          "price": "£45.00",
+          "condition": "OFF 10%",
+          "discount": "£40.50"
+        },
+        {
+          "size": "MUA >=5",
+          "price": "£45.00",
+          "condition": "OFF 20% MIX & MATCH",
+          "discount": "£36.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base",
+      "scents": [
+        "Size 14",
+        "Size 16",
+        "Size 18",
+        "Size 20"
+      ],
+      "showSizeAndConditionColumnsOnly": true
+    },
+    {
+      "id": "product-406",
+      "category": "SƠN GEL POLISH",
+      "productName": "MBerry - Gel Polish - Bảng Màu Mùa Thu",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "/au.png",
+        "topRight": "/au-3.jpg",
+        "bottomLeft": "/au-1.png"
+      },
+      "pricingTable": [
+        {
+          "size": "15ml",
+          "price": "£5.50",
+          "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£4.95"
+        },
+        {
+          "size": "Set 36",
+          "price": "£198.00",
+          "condition": "GIẢM 15% TỪ GIÁ ORIGINAL",
+          "discount": "£168.30"
+        },
+        {
+          "size": "Set 180",
+          "price": "£990.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£792.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "sm",
+      "scents": [
+        "Hàng sắp về các anh chị order để giữ giá sale"
+      ]
     }
   ]
 }

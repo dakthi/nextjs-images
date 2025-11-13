@@ -27,6 +27,7 @@ interface SaleCardProps {
   showProductId?: boolean;
   showOnlyLastTwoColumns?: boolean;
   showOnlyPriceColumn?: boolean;
+  showSizeAndConditionColumnsOnly?: boolean;
   imageLabels?: {
     topLeft?: string;
     topRight?: string;
@@ -51,6 +52,7 @@ export default function SaleCard({
   showProductId = false,
   showOnlyLastTwoColumns = false,
   showOnlyPriceColumn = false,
+  showSizeAndConditionColumnsOnly = false,
   imageLabels,
   isChecked = false,
   onCheckChange,
@@ -315,14 +317,22 @@ export default function SaleCard({
             <table className="w-full font-[family-name:var(--font-montserrat)] text-black">
               <thead>
                 <tr className="bg-gray-100">
-                  {!showOnlyLastTwoColumns && (
+                  {!showOnlyLastTwoColumns && !showSizeAndConditionColumnsOnly && (
                     <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>Size</th>
                   )}
-                  <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>{showOnlyPriceColumn ? 'Giá ưu đãi' : 'Giá gốc'}</th>
-                  {!showOnlyLastTwoColumns && !showOnlyPriceColumn && (
+                  {showSizeAndConditionColumnsOnly && (
+                    <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>Size</th>
+                  )}
+                  {!showSizeAndConditionColumnsOnly && (
+                    <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>{showOnlyPriceColumn ? 'Giá ưu đãi' : 'Giá gốc'}</th>
+                  )}
+                  {!showOnlyLastTwoColumns && !showOnlyPriceColumn && !showSizeAndConditionColumnsOnly && (
                     <th className={`px-2 py-2 text-left font-semibold border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>Điều kiện</th>
                   )}
-                  {!showOnlyPriceColumn && (
+                  {showSizeAndConditionColumnsOnly && (
+                    <th className={`px-2 py-2 text-left font-semibold text-black ${getTableTextSizeClass()}`}>Điều kiện</th>
+                  )}
+                  {!showOnlyPriceColumn && !showSizeAndConditionColumnsOnly && (
                     <th className={`px-2 py-2 text-left font-semibold text-black ${getTableTextSizeClass()}`}>Giảm còn</th>
                   )}
                 </tr>
@@ -330,14 +340,16 @@ export default function SaleCard({
               <tbody>
                 {pricingTable.map((row, index) => (
                   <tr key={index} className="border-t border-gray-300">
-                    {!showOnlyLastTwoColumns && (
+                    {(!showOnlyLastTwoColumns || showSizeAndConditionColumnsOnly) && (
                       <td className={`px-2 py-2 border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>{row.size}</td>
                     )}
-                    <td className={`px-2 py-2 border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>{row.price}</td>
-                    {!showOnlyLastTwoColumns && !showOnlyPriceColumn && (
-                      <td className={`px-2 py-2 border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>{row.condition}</td>
+                    {!showSizeAndConditionColumnsOnly && (
+                      <td className={`px-2 py-2 border-r border-gray-300 text-black ${getTableTextSizeClass()}`}>{row.price}</td>
                     )}
-                    {!showOnlyPriceColumn && (
+                    {((!showOnlyLastTwoColumns && !showOnlyPriceColumn) || showSizeAndConditionColumnsOnly) && (
+                      <td className={`px-2 py-2${showSizeAndConditionColumnsOnly ? '' : ' border-r border-gray-300'} text-black ${getTableTextSizeClass()}`}>{row.condition}</td>
+                    )}
+                    {!showOnlyPriceColumn && !showSizeAndConditionColumnsOnly && (
                       <td className={`px-2 py-2 font-bold text-black ${getTableDiscountSizeClass()}`}>{row.discount}</td>
                     )}
                   </tr>

@@ -165,7 +165,8 @@ export default function Home() {
         }
 
         // Remove or replace problematic characters in filename
-        const filename = `${product.productName
+        const orderPrefix = product.order ? `${String(product.order).padStart(3, '0')}-` : '';
+        const filename = `${orderPrefix}${product.productName
           .replace(/[/\\:*?"<>|]/g, '-') // Replace illegal filename characters
           .replace(/\s+/g, '-') // Replace spaces with dashes
           .toLowerCase()}.png`;
@@ -660,6 +661,7 @@ export default function Home() {
               badgePosition={product.badgePosition || 'middle-right'}
               showOnlyLastTwoColumns={product.id === 'product-333'}
               showOnlyPriceColumn={(product as any).showOnlyPriceColumn || false}
+              showSizeAndConditionColumnsOnly={(product as any).showSizeAndConditionColumnsOnly || false}
               imageLabels={
                 product.id === 'product-372' ? { topLeft: 'Kira', topRight: 'MAIA', bottomLeft: 'NORA' } :
                 product.id === 'product-378' ? { topLeft: 'Bendi', topRight: 'Bendi', bottomLeft: 'Bendi' } :
@@ -716,6 +718,7 @@ export default function Home() {
               showProductId={false}
               badgePosition={product.badgePosition || 'middle-right'}
               showOnlyLastTwoColumns={product.id === 'product-333'}
+              showSizeAndConditionColumnsOnly={['product-404', 'product-403', 'product-405'].includes(product.id)}
               imageLabels={
                 product.id === 'product-372' ? { topLeft: 'Kira', topRight: 'MAIA', bottomLeft: 'NORA' } :
                 product.id === 'product-378' ? { topLeft: 'Bendi', topRight: 'Bendi', bottomLeft: 'Bendi' } :
