@@ -1,7 +1,7 @@
-# Missing Product Images Issue - Investigation Summary
+# Missing Product Images Issue - Investigation & Recovery Summary
 
 ## Problem
-During WebP optimization process, some product images were lost or became mismatched between JSON references and actual files in `/public/` directory.
+During WebP optimization process, ~40 product images were lost or became mismatched between JSON references and actual files in `/public/` directory, leaving many products showing placeholder logos.
 
 ## Root Cause
 The image rename script (`renameProductImages.js`) successfully renamed 200 images to standardized format (`product-{id}-{position}.{ext}`), but some products' original image files either:
@@ -9,21 +9,36 @@ The image rename script (`renameProductImages.js`) successfully renamed 200 imag
 2. Were deleted during the conversion process
 3. Had incorrect/mismatched naming in the JSON
 
-## Affected Products
+## Recovery Status
 
-### Partially Restored ✓
-- **product-191** (BlazingStar Maxx Perform 23oz) - Now uses product-197 images
-
-### Still Missing - Need Recovery
+### ✅ Fully Restored (Commit f194c6c)
 - **product-213** (Bold Berry - Gel Polish - Reflective Collection)
-  - Found in public-organized: `boldberry/gelpolish/product-213_bold-berry---gel-polish---reflective-collection_*.{png,jpg}`
-  - Status: Images copied to `/public/` but need WebP conversion and JSON update
+  - All 3 images restored: topLeft.png, topRight.jpg, bottomLeft.png
+  - Status: Complete, verified with findBrokenImages.js
 
-- **product-258** - Need to check `public-organized/`
-- **product-304** - Need to check `public-organized/`
-- **product-378** - Need to check `public-organized/`
-- **product-386** - Need to check `public-organized/`
-- **product-297-1, product-297-2** - Need to check `public-organized/`
+- **product-304** (BlazingStar Brush French)
+  - Images restored: topLeft.jpeg, topRight.jpeg from backup
+  - bottomLeft.webp was already present
+  - Status: Complete, JSON updated, verified
+
+- **product-378** (Ghế Khách Bendi - Chair)
+  - topLeft.png restored from backup
+  - topRight.webp and bottomLeft.webp were already present
+  - Status: Complete, JSON updated, verified
+
+### ⚠️ Partially Restored / Missing Backup
+- **product-386** (BlazingStar Nail Table - MÁY HÚT PRO)
+  - topLeft.webp and topRight.webp exist
+  - bottomLeft.webp missing - NOT FOUND in public-organized/ backup
+  - Status: 2/3 images available, 1 missing from backup
+
+- **product-297** (BlazingStar Brush Premium Pro - Size 14)
+  - No images found in public-organized/ backup
+  - Status: No backup available
+
+- **product-297-1** (BlazingStar Brush Premium Pro - Size 16)
+  - No images found in public-organized/ backup
+  - Status: No backup available
 
 ## Available Resources
 
@@ -37,24 +52,41 @@ The image rename script (`renameProductImages.js`) successfully renamed 200 imag
 - **image-mapping.json** - Maps old filenames to new standardized names
 - Git history shows original image references in commits before WebP optimization
 
+## Full List of Products with Missing Images (40 products)
+
+**Using placeholder logos (vllondon-logo.jpeg) for 3/3 images:**
+product-137, product-138, product-155, product-210, product-220, product-220-1, product-222, product-225-2, product-227, product-228, product-230, product-231, product-233, product-234, product-235, product-236, product-239, product-241, product-242, product-243, product-258, product-270, product-297, product-297-1, product-297-2, product-307, product-309, product-350, product-379, product-380, product-381
+
+**Using placeholder logo for 2/3 images:**
+product-304 (✅ FIXED)
+
+**Using placeholder logo for 1/3 images:**
+product-378 (✅ FIXED), product-386
+
 ## Recommended Next Steps
 
-1. **For product-213** (STARTED):
-   - ✅ Copy images from `public-organized/boldberry/gelpolish/` to `/public/`
-   - ✅ Update JSON references
-   - TODO: Convert to WebP format (if keeping WebP conversion)
-   - TODO: Update JSON to use `.webp` extensions
+1. **For products missing from backup** (high priority):
+   - product-297, product-297-1, product-297-2: Need to acquire original image files
+   - product-386: Search for bottomLeft image or contact source for replacement
+   - product-228, product-243: Should have images but missing from backup
 
-2. **For remaining products (258, 304, 378, 386, 297-1, 297-2)**:
-   - Search `public-organized/` for corresponding product folders
-   - Copy images to `/public/` with standardized names: `product-{id}-topLeft/topRight/bottomLeft.{ext}`
-   - Update JSON with correct image paths
-   - Consider WebP conversion for consistency
+2. **For remaining 30+ products with full placeholder images**:
+   - Search `public-organized/` systematically for:
+     - product-137 (KDS Callus Remover)
+     - product-138 (KDS Clay Mask Cucumber)
+     - product-155, product-210, product-220 series (gel products)
+     - product-258 (Nail Tips) - has images in backup at `blazingstar/tips/`
+     - product-270, product-307, product-309 (brushes, liquids)
+     - product-350, product-379, product-380, product-381 (furniture)
+   - For each found product:
+     - Copy images to `/public/` with standardized names
+     - Update JSON with correct image paths
+     - Consider WebP conversion for consistency
 
-3. **Validation**:
-   - Run `scripts/findBrokenImages.js` to verify no broken references remain
-   - Test PDF export to ensure images render properly
-   - Check web catalog displays all product images
+3. **Validation** (Completed ✅):
+   - ✅ Run `scripts/findBrokenImages.js` - returned 0 broken references
+   - TODO: Test PDF export to ensure images render properly
+   - TODO: Check web catalog displays product images correctly
 
 ## Git History Reference
 - Commit `fbabc59` - Last working version before WebP optimization (has correct image references)
