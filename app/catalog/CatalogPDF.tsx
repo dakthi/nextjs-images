@@ -31,19 +31,23 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 40,
+    fontFamily: 'Open Sans',
   },
   coverTitle: {
     fontSize: 48,
     fontWeight: 'bold',
     marginBottom: 20,
+    fontFamily: 'Open Sans',
   },
   coverSubtitle: {
     fontSize: 24,
     marginBottom: 20,
+    fontFamily: 'Open Sans',
   },
   coverDates: {
     fontSize: 14,
     marginBottom: 30,
+    fontFamily: 'Open Sans',
   },
   categoryHeader: {
     backgroundColor: '#4a5568',
