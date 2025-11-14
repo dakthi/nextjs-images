@@ -165,8 +165,7 @@ export default function Home() {
         }
 
         // Remove or replace problematic characters in filename
-        const orderPrefix = product.order ? `${String(product.order).padStart(3, '0')}-` : '';
-        const filename = `${orderPrefix}${product.productName
+        const filename = `${product.productName
           .replace(/[/\\:*?"<>|]/g, '-') // Replace illegal filename characters
           .replace(/\s+/g, '-') // Replace spaces with dashes
           .toLowerCase()}.png`;
@@ -658,7 +657,7 @@ export default function Home() {
               pricingTable={product.pricingTable}
               productId={product.id}
               showProductId={true}
-              badgePosition={product.badgePosition || 'middle-right'}
+              badgePosition={(product.badgePosition as 'middle-right' | 'bottom-right' | undefined) || 'middle-right'}
               showOnlyLastTwoColumns={product.id === 'product-333'}
               showOnlyPriceColumn={(product as any).showOnlyPriceColumn || false}
               showSizeAndConditionColumnsOnly={(product as any).showSizeAndConditionColumnsOnly || false}
@@ -716,7 +715,7 @@ export default function Home() {
               pricingTable={product.pricingTable}
               productId={product.id}
               showProductId={false}
-              badgePosition={product.badgePosition || 'middle-right'}
+              badgePosition={(product.badgePosition as 'middle-right' | 'bottom-right' | undefined) || 'middle-right'}
               showOnlyLastTwoColumns={product.id === 'product-333'}
               showSizeAndConditionColumnsOnly={['product-404', 'product-403', 'product-405'].includes(product.id)}
               imageLabels={

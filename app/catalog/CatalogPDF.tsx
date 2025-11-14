@@ -112,11 +112,6 @@ const styles = StyleSheet.create({
   },
   imagesContainer: {
     flexDirection: 'row',
-    marginBottom: 15,
-    justifyContent: 'space-between',
-  },
-  imagesContainer: {
-    flexDirection: 'row',
     marginBottom: 8,
     justifyContent: 'space-between',
     gap: 4,
@@ -267,7 +262,6 @@ export default function CatalogPDF({ products }: CatalogPDFProps) {
                     src={product.images.topLeft}
                     style={styles.productImage}
                     cache={false}
-                    allowDangerousPaths
                   />
                 )}
                 {product.images.topRight && product.images.topRight !== '/vllondon-logo.jpeg' && (
@@ -275,7 +269,6 @@ export default function CatalogPDF({ products }: CatalogPDFProps) {
                     src={product.images.topRight}
                     style={styles.productImage}
                     cache={false}
-                    allowDangerousPaths
                   />
                 )}
                 {product.images.bottomLeft && product.images.bottomLeft !== '/vllondon-logo.jpeg' && (
@@ -283,7 +276,6 @@ export default function CatalogPDF({ products }: CatalogPDFProps) {
                     src={product.images.bottomLeft}
                     style={styles.productImage}
                     cache={false}
-                    allowDangerousPaths
                   />
                 )}
               </View>

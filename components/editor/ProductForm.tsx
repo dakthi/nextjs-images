@@ -150,8 +150,9 @@ export default function ProductForm({ product, onSave }: ProductFormProps) {
                   setFormData((prev) => ({
                     ...prev,
                     images: {
-                      ...(prev.images || {}),
                       topLeft: url,
+                      topRight: prev.images?.topRight || '',
+                      bottomLeft: prev.images?.bottomLeft || '',
                     },
                   }));
                 }}
@@ -164,8 +165,9 @@ export default function ProductForm({ product, onSave }: ProductFormProps) {
                   setFormData((prev) => ({
                     ...prev,
                     images: {
-                      ...(prev.images || {}),
+                      topLeft: prev.images?.topLeft || '',
                       topRight: url,
+                      bottomLeft: prev.images?.bottomLeft || '',
                     },
                   }));
                 }}
@@ -178,7 +180,8 @@ export default function ProductForm({ product, onSave }: ProductFormProps) {
                   setFormData((prev) => ({
                     ...prev,
                     images: {
-                      ...(prev.images || {}),
+                      topLeft: prev.images?.topLeft || '',
+                      topRight: prev.images?.topRight || '',
                       bottomLeft: url,
                     },
                   }));
