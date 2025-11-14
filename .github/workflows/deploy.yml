@@ -1,4 +1,4 @@
-name: Build and Deploy VL London
+name: Build and Deploy vl-london
 
 on:
   push:
@@ -11,27 +11,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-          cache: 'npm'
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Build Docker image (linux/amd64)
+        run: docker buildx build --platform linux/amd64 -t vl-london:latest --load .
 
-      - name: Build static site
-        run: npm run build
-        env:
-          NEXT_PUBLIC_MEDIA_BASE_URL: ${{ secrets.R2_PUBLIC_URL }}
+      - name: Save Docker image to tar.gz
+        run: docker save vl-london:latest | gzip > vl-london.tar.gz
 
-      - name: Copy build and deploy kit to VPS
+      - name: Copy image to VPS
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
-          source: "out,static-deploy-kit/vl-london"
+          source: "vl-london.tar.gz"
           target: "/root/docker-images/vl-london/"
 
       - name: Deploy on VPS
@@ -41,5 +36,5 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
-            chmod +x /root/docker-images/vl-london/vl-london/deploy-vl-london.sh || true
-            /root/docker-images/vl-london/vl-london/deploy-vl-london.sh
+            chmod +x /root/docker-images/vl-london/deploy-vl-london.sh || true
+            /root/docker-images/vl-london/deploy-vl-london.sh
