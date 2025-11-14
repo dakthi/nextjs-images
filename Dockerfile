@@ -1,4 +1,4 @@
-# Dockerfile for VL London - Build and Serve Static Files
+# Dockerfile for VL London - Build and Run Next.js Server
 
 FROM node:18-alpine
 
@@ -16,11 +16,8 @@ COPY . .
 # Build the Next.js app
 RUN npm run build
 
-# Install serve to host static files
-RUN npm install -g serve
-
 # Expose the port
 EXPOSE 3000
 
-# Serve the .next directory
-CMD ["serve", "-s", ".next", "-l", "3000"]
+# Start the Next.js server
+CMD ["npm", "start"]
