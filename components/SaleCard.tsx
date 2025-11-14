@@ -4,6 +4,9 @@ import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import fitty from 'fitty';
 import DiscountBadge from './DiscountBadge';
+import backgroundImg from '../assets/salecard/background.png';
+import penguinSaleCornerImg from '../assets/salecard/penguin-sale-corner.png';
+import backgroundOverlayImg from '../assets/salecard/background-overlay.svg';
 
 interface PricingRow {
   size: string;
@@ -223,7 +226,7 @@ export default function SaleCard({
 
       {/* Background Image */}
       <img
-        src="/background.png"
+        src={backgroundImg.src}
         alt="Winter background"
         className="w-full h-auto rounded-lg"
         style={{ display: 'block' }}
@@ -232,7 +235,7 @@ export default function SaleCard({
       {/* Penguin Sale Corner - Top Left */}
       <div className="absolute -top-4 -left-4 w-48 h-48 z-20">
         <img
-          src="/penguin-sale-corner.png"
+          src={penguinSaleCornerImg.src}
           alt="Sale Corner"
           className="w-full h-full"
           style={{ display: 'block' }}
@@ -401,7 +404,7 @@ export default function SaleCard({
       {/* Background Overlay - Full size on top */}
       <div className="absolute inset-0 z-50 pointer-events-none">
         <Image
-          src="/background-overlay.svg"
+          src={backgroundOverlayImg}
           alt="Background overlay"
           fill
           className="w-full h-full object-cover rounded-lg"
