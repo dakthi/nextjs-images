@@ -56,6 +56,7 @@ export default function Home() {
     );
   };
 
+
   // Filter products based on image filter
   const filteredProducts = productsData.products.filter((product) => {
     if (imageFilter === 'with-images') {
@@ -136,15 +137,10 @@ export default function Home() {
               cacheBust: true,
               pixelRatio: 2,
               backgroundColor: '#f9fafb',
-              skipFonts: false,
-              includeQueryParams: false,
-              filter: (node) => {
-                // Filter out any problematic nodes
-                return true;
-              },
             });
+            console.log(`✓ Successfully converted ${product.productName} to PNG`);
           } catch (err) {
-            console.error(`Attempt ${attempts} failed:`, err);
+            console.error(`✗ Attempt ${attempts} failed:`, err);
             if (attempts < maxAttempts) {
               await new Promise(resolve => setTimeout(resolve, 500));
             } else {
