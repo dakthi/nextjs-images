@@ -7,8 +7,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -25,14 +26,12 @@ jobs:
         env:
           NEXT_PUBLIC_MEDIA_BASE_URL: ${{ secrets.R2_PUBLIC_URL }}
 
-      - name: Create deployment bundle
+      - name: Create .tar.gz bundle
         run: |
-          # Copy built files to root for easier tar creation
-          cp -r out/* . 2>/dev/null || true
-          tar -czf vl-london-build.tar.gz out/ static-deploy-kit/vl-london/
+          tar -czf vl-london-build.tar.gz out static-deploy-kit/vl-london/
           ls -lh vl-london-build.tar.gz
 
-      - name: Copy bundle to VPS
+      - name: Upload bundle to VPS
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.VPS_HOST }}
@@ -41,7 +40,7 @@ jobs:
           source: "vl-london-build.tar.gz"
           target: "/root/docker-images/vl-london/"
 
-      - name: Deploy on VPS
+      - name: Extract + Deploy on VPS
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.VPS_HOST }}
@@ -50,6 +49,7 @@ jobs:
           script: |
             cd /root/docker-images/vl-london/
             tar -xzf vl-london-build.tar.gz
-            chmod +x ./static-deploy-kit/vl-london/deploy-vl-london.sh || true
-            cd ./static-deploy-kit/vl-london/
+
+            chmod +x static-deploy-kit/vl-london/deploy-vl-london.sh
+            cd static-deploy-kit/vl-london/
             ./deploy-vl-london.sh
