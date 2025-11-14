@@ -30,10 +30,17 @@ Runs on push to main branch only.
 
 **What it does:**
 - Builds static site
-- Deploys to Cloudflare Pages
+- Uses static deploy kit (`static-deploy-kit/vl-london/deploy-vl-london.sh`)
+- Deploys to Cloudflare Pages via wrangler
 - Creates deployment record in GitHub
 - Comments on PRs with build status
 - Notifies on failures
+
+**How it works:**
+1. Builds Next.js app to static files (`npm run build` → `out/`)
+2. Sets up environment variables from GitHub Secrets
+3. Runs deploy kit script: `./deploy-vl-london.sh`
+4. Deploy script uses `wrangler pages deploy out/` to upload to Cloudflare
 
 **Triggers:**
 - Push to `main` branch only
@@ -49,11 +56,23 @@ Runs on push to main branch only.
 
 Go to **Settings > Secrets and variables > Actions** and add:
 
+**Cloudflare & Deployment:**
 ```
 CLOUDFLARE_API_TOKEN      # Cloudflare API token (with Pages access)
-CLOUDFLARE_ACCOUNT_ID     # Your Cloudflare Account ID
-R2_PUBLIC_URL             # https://vllondon.chartedconsultants.com
+DOMAIN                    # vllondon.chartedconsultants.com
 ```
+
+**R2 Configuration:**
+```
+R2_ACCOUNT_ID             # f47d23c072e7b2f871ecca11e36e0b25
+R2_ACCESS_KEY_ID          # Your R2 access key
+R2_SECRET_ACCESS_KEY      # Your R2 secret key
+R2_BUCKET_NAME            # bucket-vllondon
+R2_PUBLIC_URL             # https://vllondon.chartedconsultants.com
+R2_ENDPOINT               # https://[ACCOUNT_ID].r2.cloudflarestorage.com/
+```
+
+**Note:** These secrets are used by the static deploy kit (`static-deploy-kit/vl-london/deploy-vl-london.sh`) during deployment.
 
 ### 2. Configure Next.js for Static Export
 

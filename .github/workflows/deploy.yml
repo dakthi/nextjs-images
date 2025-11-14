@@ -40,15 +40,27 @@ jobs:
           retention-days: 5
 
       # Only deploy on push to main, not on pull requests
-      - name: Deploy to Cloudflare Pages
+      - name: Deploy using static deploy kit
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy out/ --project-name=vl-london
-          secrets: |
-            R2_PUBLIC_URL
+        working-directory: ./static-deploy-kit/vl-london
+        run: |
+          # Set up environment for deployment
+          cat > .env.vl-london << 'ENVEOF'
+          R2_ACCOUNT_ID=${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID=${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY=${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET_NAME=${{ secrets.R2_BUCKET_NAME }}
+          R2_PUBLIC_URL=${{ secrets.R2_PUBLIC_URL }}
+          R2_ENDPOINT=${{ secrets.R2_ENDPOINT }}
+          R2_REGION=auto
+          CLOUDFLARE_API_TOKEN=${{ secrets.CLOUDFLARE_API_TOKEN }}
+          PROJECT_NAME=vl-london
+          DOMAIN=${{ secrets.DOMAIN }}
+          ENVEOF
+
+          # Run the deploy script
+          chmod +x ./deploy-vl-london.sh
+          ./deploy-vl-london.sh
 
       - name: Create deployment
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
