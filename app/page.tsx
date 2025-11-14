@@ -6,6 +6,7 @@ import { useRef, useState } from 'react';
 import { toPng } from 'html-to-image';
 import JSZip from 'jszip';
 import productsData from '@/data/products-generated.json';
+import { getImageUrl } from '@/utils/imageUrl';
 
 // Products are already sorted in the JSON file in the desired order
 
@@ -646,9 +647,9 @@ export default function Home() {
           <div key={`visible-${product.id}`}>
             <SaleCard
               productImages={[
-                product.images.topLeft,
-                product.images.topRight,
-                product.images.bottomLeft,
+                getImageUrl(product.images.topLeft),
+                getImageUrl(product.images.topRight),
+                getImageUrl(product.images.bottomLeft),
               ]}
               resultImage=""
               promotionText={product.promotionText}
@@ -704,9 +705,9 @@ export default function Home() {
           >
             <SaleCard
               productImages={[
-                product.images.topLeft,
-                product.images.topRight,
-                product.images.bottomLeft,
+                getImageUrl(product.images.topLeft),
+                getImageUrl(product.images.topRight),
+                getImageUrl(product.images.bottomLeft),
               ]}
               resultImage=""
               promotionText={product.promotionText}

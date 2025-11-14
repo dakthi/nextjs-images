@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Document, Page, Text, View, StyleSheet, Font, Image } from '@react-pdf/renderer';
+import { getImageUrl } from '@/utils/imageUrl';
 
 // Register font with Vietnamese support
 // Using Open Sans from Google Fonts with Vietnamese subset
@@ -259,21 +260,21 @@ export default function CatalogPDF({ products }: CatalogPDFProps) {
               <View style={styles.imagesContainer}>
                 {product.images.topLeft && product.images.topLeft !== '/vllondon-logo.jpeg' && (
                   <Image
-                    src={product.images.topLeft}
+                    src={getImageUrl(product.images.topLeft)}
                     style={styles.productImage}
                     cache={false}
                   />
                 )}
                 {product.images.topRight && product.images.topRight !== '/vllondon-logo.jpeg' && (
                   <Image
-                    src={product.images.topRight}
+                    src={getImageUrl(product.images.topRight)}
                     style={styles.productImage}
                     cache={false}
                   />
                 )}
                 {product.images.bottomLeft && product.images.bottomLeft !== '/vllondon-logo.jpeg' && (
                   <Image
-                    src={product.images.bottomLeft}
+                    src={getImageUrl(product.images.bottomLeft)}
                     style={styles.productImage}
                     cache={false}
                   />

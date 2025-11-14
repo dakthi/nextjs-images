@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import productsData from '@/data/products-generated.json';
 import PDFButton from './PDFButton';
+import { getImageUrl } from '@/utils/imageUrl';
 import './catalog.css';
 
 export default function CatalogPage() {
@@ -80,9 +81,9 @@ export default function CatalogPage() {
                 </div>
 
                 <div className="product-images">
-                  <img src={product.images.topLeft} alt={product.productName} />
-                  <img src={product.images.topRight} alt={product.productName} />
-                  <img src={product.images.bottomLeft} alt={product.productName} />
+                  <img src={getImageUrl(product.images.topLeft)} alt={product.productName} />
+                  <img src={getImageUrl(product.images.topRight)} alt={product.productName} />
+                  <img src={getImageUrl(product.images.bottomLeft)} alt={product.productName} />
                 </div>
 
                 <table className="pricing-table">
