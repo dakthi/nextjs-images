@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useEffect, useRef } from 'react';
-import Image from 'next/image';
 import fitty from 'fitty';
 import DiscountBadge from './DiscountBadge';
 import backgroundImg from '../assets/salecard/background.png';
@@ -405,13 +404,12 @@ export default function SaleCard({
       />
 
       {/* Background Overlay - Full size on top */}
-      <div className="absolute inset-0 z-50 pointer-events-none">
-        <Image
-          src={backgroundOverlayImg}
+      <div className="absolute inset-0 z-50 pointer-events-none rounded-lg overflow-hidden">
+        <img
+          src={backgroundOverlayImg.src}
           alt="Background overlay"
-          fill
-          className="w-full h-full object-cover rounded-lg"
-          priority
+          className="w-full h-full object-cover"
+          style={{ display: 'block' }}
         />
       </div>
     </div>
