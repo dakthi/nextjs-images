@@ -16,7 +16,9 @@ RUN npm install
 COPY . .
 
 # 6. Generate Prisma client before building the app
-RUN npx prisma generate
+# Prisma needs DATABASE_URL for schema validation during generate
+# We provide a dummy value since the actual DB connection happens at runtime
+RUN DATABASE_URL="postgresql://dummy:dummy@localhost:5432/dummy" npx prisma generate
 
 # 7. Build the Next.js app
 RUN npm run build
