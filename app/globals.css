@@ -15,10 +15,41 @@
 }
 
 body {
-  color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Default body text color - dark on light background */
+@media (prefers-color-scheme: light) {
+  body {
+    color: #171717;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ededed;
+  }
+}
+
+/* Force Tailwind text colors to work */
+.text-gray-900 { color: #111827 !important; }
+.text-gray-800 { color: #1f2937 !important; }
+.text-gray-700 { color: #374151 !important; }
+.text-gray-600 { color: #4b5563 !important; }
+.text-gray-500 { color: #6b7280 !important; }
+.text-gray-400 { color: #9ca3af !important; }
+
+.text-blue-600 { color: #2563eb !important; }
+.text-blue-700 { color: #1d4ed8 !important; }
+
+.text-red-600 { color: #dc2626 !important; }
+.text-red-700 { color: #b91c1c !important; }
+
+.text-green-600 { color: #16a34a !important; }
+.text-green-700 { color: #15803d !important; }
+
+.text-white { color: #ffffff !important; }
 
 @layer utilities {
   .text-balance {

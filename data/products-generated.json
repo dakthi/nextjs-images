@@ -3,7 +3,7 @@
     {
       "id": "product-187",
       "category": "BỘT ACRYLIC + OMBRE",
-      "productName": "BlazingStar Maxx Perform - French Collection",
+      "productName": "Bột Màu - French",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
@@ -458,7 +458,7 @@
     {
       "id": "product-225",
       "category": "SƠN GEL POLISH",
-      "productName": "MBerry Gel Top 480ml",
+      "productName": "MBerry Gel Top",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 46,
       "images": {
@@ -483,7 +483,7 @@
           "size": "Top 480ml",
           "price": "£75.00",
           "condition": "Lẻ OFF 10% & MUA 2 TẶNG 1 - TẶNG 2 CHAI TOP 15ML",
-          "discount": "£40.50"
+          "discount": "£45"
         }
       ],
       "badgePosition": "middle-right",
@@ -553,12 +553,6 @@
           "price": "£9.00",
           "condition": "ĐỀU GIÁ £6/CHAI - SL >=12 GIẢM THÊM 10% MIX & MATCH",
           "discount": "£5.40"
-        },
-        {
-          "size": "Box - 6 Chai 15ml cùng 1 màu",
-          "price": "£32.40",
-          "condition": "",
-          "discount": "£32.40"
         }
       ]
     },
@@ -1762,7 +1756,7 @@
           "size": "Case (4 Gallon)",
           "price": "£80.00",
           "condition": "CASE OFF 20%",
-          "discount": "£72.00"
+          "discount": "£64.00"
         }
       ],
       "scents": [
@@ -2239,7 +2233,7 @@
         {
           "size": "1 hộp",
           "price": "£4.80",
-          "condition": "MUA CASE HOẶC TỪ 35 HỘP TRỞ LÊN GIẢM 30%",
+          "condition": "MUA CASE (36 HỘP) TRỞ LÊN GIẢM 30%",
           "discount": "£3.36"
         }
       ],
@@ -2430,20 +2424,8 @@
         {
           "size": "Gallon",
           "price": "£30.00",
-          "condition": "OFF 10%",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£27.00"
-        },
-        {
-          "size": "Case (4 Gallon)",
-          "price": "£30.00",
-          "condition": "OFF 10%",
-          "discount": "£27.00"
-        },
-        {
-          "size": "Case (4 Gallon)",
-          "price": "£30.00",
-          "condition": "MUA 3 TẶNG 1",
-          "discount": "£20.25"
         }
       ],
       "badgePosition": "middle-right",
@@ -2474,32 +2456,8 @@
         {
           "size": "Gallon",
           "price": "£35.00",
-          "condition": "OFF 10%",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
           "discount": "£31.50"
-        },
-        {
-          "size": "Case (4 Gallon)",
-          "price": "£35.00",
-          "condition": "OFF 10%",
-          "discount": "£31.50"
-        },
-        {
-          "size": "Case (4 Gallon)",
-          "price": "£35.00",
-          "condition": "MUA 3 TẶNG 1",
-          "discount": "£31.50"
-        },
-        {
-          "size": "Case (16 Gallon)",
-          "price": "£140.00",
-          "condition": "OFF 10%",
-          "discount": "£126.00"
-        },
-        {
-          "size": "Case (16 Gallon)",
-          "price": "£140.00",
-          "condition": "MUA 3 TẶNG 1",
-          "discount": "£94.50"
         }
       ],
       "badgePosition": "middle-right",
