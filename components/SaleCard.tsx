@@ -259,6 +259,7 @@ export default function SaleCard({
                 src={productImages[0]}
                 alt="Product Image 1"
                 className="w-full h-full object-cover"
+                crossOrigin="anonymous"
                 style={{ display: 'block' }}
               />
               {imageLabels?.topLeft && (
@@ -280,6 +281,7 @@ export default function SaleCard({
                 src={productImages[1]}
                 alt="Product Image 2"
                 className="w-full h-full object-cover"
+                crossOrigin="anonymous"
                 style={{ display: 'block' }}
               />
               {imageLabels?.topRight && (
@@ -301,6 +303,7 @@ export default function SaleCard({
                 src={productImages[2]}
                 alt="Product Image 3"
                 className="w-full h-full object-cover"
+                crossOrigin="anonymous"
                 style={{ display: 'block' }}
               />
               {imageLabels?.bottomLeft && (
