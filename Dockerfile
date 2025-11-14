@@ -1,23 +1,28 @@
-# Dockerfile for VL London - Build and Run Next.js Server
+# Dockerfile
 
+# 1. Use Node base image
 FROM node:18-alpine
 
+# 2. Set working directory
 WORKDIR /app
 
-# Copy package files
+# 3. Copy package files
 COPY package*.json ./
 
-# Install dependencies
-RUN npm ci
+# 4. Install dependencies
+RUN npm install
 
-# Copy the rest of the app
+# 5. Copy the rest of the app (but not media files)
 COPY . .
 
-# Build the Next.js app
+# 6. Generate Prisma client before building the app
+RUN npx prisma generate
+
+# 7. Build the Next.js app
 RUN npm run build
 
-# Expose the port
+# 8. Expose the port
 EXPOSE 3000
 
-# Start the Next.js server
-CMD ["npm", "start"]
+# 9. Start the app
+CMD ["npm", "run", "start"]

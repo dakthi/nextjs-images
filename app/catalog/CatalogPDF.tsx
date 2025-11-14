@@ -192,8 +192,8 @@ interface Product {
   id: string;
   productName: string;
   category: string;
-  promotionText: string;
-  discountPercentage: number;
+  promotionText?: string;
+  discountPercentage?: number;
   images: {
     topLeft: string;
     topRight: string;
@@ -206,6 +206,7 @@ interface Product {
     discount: string;
   }>;
   scents?: string[];
+  [key: string]: any;
 }
 
 interface CatalogPDFProps {
@@ -241,7 +242,7 @@ export default function CatalogPDF({ products }: CatalogPDFProps) {
             <View key={product.id} style={styles.productItem} wrap={false}>
               <View style={styles.productInfo}>
                 <Text style={styles.productName}>{product.productName}</Text>
-                {product.discountPercentage > 0 && (
+                {product.discountPercentage != null && product.discountPercentage > 0 && (
                   <Text style={styles.discountBadge}>
                     -{product.discountPercentage}% OFF
                   </Text>

@@ -6,8 +6,8 @@ interface Product {
   id: string;
   productName: string;
   category: string;
-  promotionText: string;
-  discountPercentage: number;
+  promotionText?: string;
+  discountPercentage?: number;
   images: {
     topLeft: string;
     topRight: string;
@@ -20,6 +20,7 @@ interface Product {
     discount: string;
   }>;
   scents?: string[];
+  [key: string]: any;
 }
 
 interface PDFButtonProps {

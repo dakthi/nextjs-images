@@ -2,20 +2,39 @@
 
 import SaleCard from '@/components/SaleCard';
 import ExportSelector from '@/components/ExportSelector';
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { toPng } from 'html-to-image';
 import JSZip from 'jszip';
-import productsData from '@/data/products-generated.json';
 import { getImageUrl } from '@/utils/imageUrl';
 
 // Products are already sorted in the JSON file in the desired order
 
+interface Product {
+  id: string;
+  productName: string;
+  images: {
+    topLeft: string;
+    topRight: string;
+    bottomLeft: string;
+  };
+  pricingTable: Array<{
+    size: string;
+    price: string;
+    condition: string;
+    discount: string;
+  }>;
+  [key: string]: any;
+}
+
+interface ProductsData {
+  products: Product[];
+}
+
 export default function Home() {
   const cardRef = useRef<HTMLDivElement>(null);
   const cardRefsMap = useRef<{ [key: string]: HTMLDivElement | null }>({});
-  const [selectedProducts, setSelectedProducts] = useState<Set<string>>(
-    new Set(productsData.products.map(p => p.id))
-  );
+  const [productsData, setProductsData] = useState<ProductsData | null>(null);
+  const [selectedProducts, setSelectedProducts] = useState<Set<string>>(new Set());
   const [imageFilter, setImageFilter] = useState<'all' | 'with-images' | 'no-images'>('all');
   const [exportProgress, setExportProgress] = useState<{
     isExporting: boolean;
@@ -29,6 +48,24 @@ export default function Home() {
     message: '',
   });
 
+  // Fetch products from database via API
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await fetch('/api/products');
+        if (!response.ok) throw new Error('Failed to fetch products');
+        const data = await response.json();
+        setProductsData({ products: data.products });
+        // Set all products as selected by default
+        setSelectedProducts(new Set(data.products.map((p: Product) => p.id)));
+      } catch (error) {
+        console.error('Error fetching products:', error);
+      }
+    };
+
+    fetchProducts();
+  }, []);
+
   const toggleProduct = (productId: string) => {
     const newSelected = new Set(selectedProducts);
     if (newSelected.has(productId)) {
@@ -40,7 +77,9 @@ export default function Home() {
   };
 
   const selectAll = () => {
-    setSelectedProducts(new Set(productsData.products.map(p => p.id)));
+    if (productsData) {
+      setSelectedProducts(new Set(productsData.products.map(p => p.id)));
+    }
   };
 
   const deselectAll = () => {
@@ -58,20 +97,24 @@ export default function Home() {
 
 
   // Filter products based on image filter
-  const filteredProducts = productsData.products.filter((product) => {
+  const filteredProducts = productsData?.products?.filter((product) => {
     if (imageFilter === 'with-images') {
       return !hasPlaceholderImages(product);
     } else if (imageFilter === 'no-images') {
       return hasPlaceholderImages(product);
     }
     return true; // 'all'
-  });
+  }) || [];
 
   // Shared function to convert product cards to PNG blobs
   const convertCardsToPngBlobs = async (options: { delayBetweenCards?: number } = {}) => {
     const { delayBetweenCards = 1000 } = options;
     const pngBlobs: Array<{ filename: string; blob: Blob }> = [];
     const failedProducts: string[] = [];
+
+    if (!productsData) {
+      throw new Error('Products data not loaded');
+    }
 
     const selectedProductsList = productsData.products
       .filter(p => selectedProducts.has(p.id));
@@ -377,8 +420,10 @@ export default function Home() {
 
       let addedPages = 0;
 
-      for (let index = 0; index < productsData.products.length; index++) {
-        const product = productsData.products[index];
+      // TypeScript guard: we know productsData exists because of the loading check above
+      const products = (productsData as ProductsData).products;
+      for (let index = 0; index < products.length; index++) {
+        const product = products[index];
 
         if (!selectedProducts.has(product.id)) continue;
 
@@ -527,6 +572,18 @@ export default function Home() {
       alert(`CSV export failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
     }
   };
+
+  // Show loading state while products are being fetched
+  if (!productsData) {
+    return (
+      <main className="min-h-screen bg-gray-50 py-8 px-4 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+          <p className="text-gray-600">Loading products...</p>
+        </div>
+      </main>
+    );
+  }
 
   return (
     <main className="min-h-screen bg-gray-50 py-8 px-4">

@@ -1,44 +1,17 @@
 import { NextRequest, NextResponse } from 'next/server';
-import * as fs from 'fs';
-import * as path from 'path';
+import { getAllProductsFromDb, updateProductInDb } from '@/lib/db-product-transformer';
 
-const PRODUCTS_FILE = path.join(process.cwd(), 'data', 'products-generated.json');
-const LOCK_FILE = path.join(process.cwd(), 'data', '.products-lock');
-const LOCK_TIMEOUT = 10 * 60 * 1000; // 10 minutes
-
-// Check and manage locks
-function acquireLock() {
-  if (fs.existsSync(LOCK_FILE)) {
-    const lockTime = fs.statSync(LOCK_FILE).mtime.getTime();
-    const now = Date.now();
-    if (now - lockTime < LOCK_TIMEOUT) {
-      return false; // Lock still active
-    } else {
-      fs.unlinkSync(LOCK_FILE); // Remove expired lock
-    }
-  }
-  fs.writeFileSync(LOCK_FILE, Date.now().toString());
-  return true;
-}
-
-function releaseLock() {
-  if (fs.existsSync(LOCK_FILE)) {
-    fs.unlinkSync(LOCK_FILE);
-  }
-}
-
-// GET: Read products
+// GET: Read products from database
 export async function GET() {
   try {
-    const data = fs.readFileSync(PRODUCTS_FILE, 'utf-8');
-    const products = JSON.parse(data);
-    const lockExists = fs.existsSync(LOCK_FILE);
+    const products = await getAllProductsFromDb();
 
     return NextResponse.json({
-      products: products.products,
-      locked: lockExists,
+      products,
+      locked: false, // Database handles concurrent access with transactions
     });
   } catch (error) {
+    console.error('Failed to read products from database:', error);
     return NextResponse.json(
       { error: 'Failed to read products' },
       { status: 500 }
@@ -46,31 +19,30 @@ export async function GET() {
   }
 }
 
-// POST: Save products with lock
+// POST: Save products to database
 export async function POST(request: NextRequest) {
   try {
     const { products } = await request.json();
 
-    if (!acquireLock()) {
+    if (!Array.isArray(products)) {
       return NextResponse.json(
-        { error: 'File is being edited. Please try again in a few moments.' },
-        { status: 409 }
+        { error: 'Invalid request: products must be an array' },
+        { status: 400 }
       );
     }
 
-    try {
-      const data = { products };
-      fs.writeFileSync(PRODUCTS_FILE, JSON.stringify(data, null, 2));
-      releaseLock();
+    // Update each product in the database
+    const userId = request.headers.get('x-user-id') || 'system';
 
-      return NextResponse.json({ success: true });
-    } catch (error) {
-      releaseLock();
-      throw error;
+    for (const product of products) {
+      await updateProductInDb(product.id, product, userId);
     }
+
+    return NextResponse.json({ success: true });
   } catch (error) {
+    console.error('Failed to save products to database:', error);
     return NextResponse.json(
-      { error: 'Failed to save products' },
+      { error: error instanceof Error ? error.message : 'Failed to save products' },
       { status: 500 }
     );
   }

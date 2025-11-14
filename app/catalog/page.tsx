@@ -1,17 +1,60 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import productsData from '@/data/products-generated.json';
 import PDFButton from './PDFButton';
 import { getImageUrl } from '@/utils/imageUrl';
 import './catalog.css';
 
+interface PricingRow {
+  size?: string;
+  price: string;
+  condition?: string;
+  discount: string;
+}
+
+interface Product {
+  id: string;
+  productName: string;
+  category: string;
+  promotionText?: string;
+  discountPercentage?: number;
+  images: {
+    topLeft: string;
+    topRight: string;
+    bottomLeft: string;
+  };
+  pricingTable: PricingRow[];
+  scents?: string[];
+  [key: string]: any;
+}
+
 export default function CatalogPage() {
-  const [filteredProducts, setFilteredProducts] = useState(productsData.products);
+  const [allProducts, setAllProducts] = useState<Product[]>([]);
+  const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
   const [filterWithImages, setFilterWithImages] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState('all');
+  const [loading, setLoading] = useState(true);
 
-  const categories = [...new Set(productsData.products.map(p => p.category))].sort();
+  // Fetch products from database
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await fetch('/api/products');
+        if (!response.ok) throw new Error('Failed to fetch products');
+        const data = await response.json();
+        setAllProducts(data.products);
+        setFilteredProducts(data.products);
+      } catch (error) {
+        console.error('Error fetching products:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchProducts();
+  }, []);
+
+  const categories = [...new Set(allProducts.map(p => p.category))].sort();
 
   const hasPlaceholderImages = (product: any) => {
     return product.images.topLeft === '/vllondon-logo.jpeg' ||
@@ -20,7 +63,7 @@ export default function CatalogPage() {
   };
 
   useEffect(() => {
-    let filtered = productsData.products;
+    let filtered = allProducts;
 
     if (filterWithImages) {
       filtered = filtered.filter(p => !hasPlaceholderImages(p));
@@ -31,7 +74,7 @@ export default function CatalogPage() {
     }
 
     setFilteredProducts(filtered);
-  }, [filterWithImages, selectedCategory]);
+  }, [filterWithImages, selectedCategory, allProducts]);
 
   const groupedProducts = filteredProducts.reduce((acc, product) => {
     if (!acc[product.category]) {
@@ -39,11 +82,19 @@ export default function CatalogPage() {
     }
     acc[product.category].push(product);
     return acc;
-  }, {} as Record<string, typeof productsData.products>);
+  }, {} as Record<string, Product[]>);
 
   const handlePrint = () => {
     window.print();
   };
+
+  if (loading) {
+    return (
+      <div className="catalog-container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
+        <p>Loading catalog...</p>
+      </div>
+    );
+  }
 
   return (
     <>
@@ -66,7 +117,7 @@ export default function CatalogPage() {
                 <div className="product-info">
                   <h3 className="product-name">{product.productName}</h3>
                   <p className="product-promotion">{product.promotionText}</p>
-                  {product.discountPercentage > 0 && (
+                  {product.discountPercentage != null && product.discountPercentage > 0 && (
                     <span className="product-discount-badge">
                       -{product.discountPercentage}% OFF
                     </span>
