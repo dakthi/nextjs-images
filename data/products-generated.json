@@ -2678,7 +2678,7 @@
     {
       "id": "product-398",
       "category": "TOP & BASE",
-      "productName": "BlazingStar Base MỚI - HEMA FREE",
+      "productName": "BlazingStar Base MỚI - HEMA FREE - 15ml",
       "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
       "discountPercentage": 10,
       "images": {
@@ -2688,16 +2688,28 @@
       },
       "pricingTable": [
         {
-          "size": "Lẻ 15ml",
-          "price": "£8.00",
-          "condition": "SL <12 CHAI",
+          "size": "Revive Base 15ml",
+          "price": "£12.00",
+          "condition": "SL <12",
           "discount": "£7.20"
         },
         {
-          "size": "Lẻ 15ml",
-          "price": "£8.00",
-          "condition": "SL >=12 CHAI - GIẢM 10%",
+          "size": "Revive Base 15ml",
+          "price": "£12.00",
+          "condition": "SL >=12",
           "discount": "£6.48"
+        },
+        {
+          "size": "DuraBase 15ml",
+          "price": "£9.00",
+          "condition": "SL <12",
+          "discount": "£6.00"
+        },
+        {
+          "size": "DuraBase 15ml",
+          "price": "£9.00",
+          "condition": "SL >=12",
+          "discount": "£5.40"
         }
       ],
       "badgePosition": "middle-right",
