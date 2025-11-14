@@ -3,16 +3,10 @@ name: Build and Deploy VL London
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      deployments: write
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -29,93 +23,33 @@ jobs:
       - name: Build static site
         run: npm run build
         env:
-          # Environment variables for build
           NEXT_PUBLIC_MEDIA_BASE_URL: ${{ secrets.R2_PUBLIC_URL }}
 
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-output
-          path: out/
-          retention-days: 5
-
-      # Only deploy on push to main, not on pull requests
-      - name: Deploy using static deploy kit
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        working-directory: ./static-deploy-kit/vl-london
+      - name: Create deployment bundle
         run: |
-          # Set up environment for deployment
-          cat > .env.vl-london << 'ENVEOF'
-          R2_ACCOUNT_ID=${{ secrets.R2_ACCOUNT_ID }}
-          R2_ACCESS_KEY_ID=${{ secrets.R2_ACCESS_KEY_ID }}
-          R2_SECRET_ACCESS_KEY=${{ secrets.R2_SECRET_ACCESS_KEY }}
-          R2_BUCKET_NAME=${{ secrets.R2_BUCKET_NAME }}
-          R2_PUBLIC_URL=${{ secrets.R2_PUBLIC_URL }}
-          R2_ENDPOINT=${{ secrets.R2_ENDPOINT }}
-          R2_REGION=auto
-          CLOUDFLARE_API_TOKEN=${{ secrets.CLOUDFLARE_API_TOKEN }}
-          PROJECT_NAME=vl-london
-          DOMAIN=${{ secrets.DOMAIN }}
-          ENVEOF
+          # Copy built files to root for easier tar creation
+          cp -r out/* . 2>/dev/null || true
+          tar -czf vl-london-build.tar.gz out/ static-deploy-kit/vl-london/
+          ls -lh vl-london-build.tar.gz
 
-          # Run the deploy script
-          chmod +x ./deploy-vl-london.sh
-          ./deploy-vl-london.sh
-
-      - name: Create deployment
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        uses: actions/github-script@v7
+      - name: Copy bundle to VPS
+        uses: appleboy/scp-action@v0.1.7
         with:
-          script: |
-            const deployment = await github.rest.repos.createDeployment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              ref: context.ref,
-              environment: 'production',
-              auto_merge: false,
-              required_contexts: [],
-              production_environment: true,
-            });
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          source: "vl-london-build.tar.gz"
+          target: "/root/docker-images/vl-london/"
 
-            await github.rest.repos.createDeploymentStatus({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              deployment_id: deployment.data.id,
-              state: 'success',
-              environment_url: 'https://vllondon.chartedconsultants.com',
-              description: 'Deployed to Cloudflare Pages',
-            });
-
-      - name: Comment on PR
-        if: github.event_name == 'pull_request'
-        uses: actions/github-script@v7
+      - name: Deploy on VPS
+        uses: appleboy/ssh-action@v1.0.3
         with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
           script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: '✅ Build successful!\n\nPreview artifacts available in the Actions tab.'
-            })
-
-      - name: Notify on failure
-        if: failure()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const message = github.event_name === 'pull_request'
-              ? '❌ Build failed for PR'
-              : '❌ Deployment failed for main branch';
-
-            const target = github.event_name === 'pull_request'
-              ? { issue_number: context.issue.number }
-              : { ref: context.ref };
-
-            if (github.event_name === 'pull_request') {
-              github.rest.issues.createComment({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                body: message
-              })
-            }
+            cd /root/docker-images/vl-london/
+            tar -xzf vl-london-build.tar.gz
+            chmod +x ./static-deploy-kit/vl-london/deploy-vl-london.sh || true
+            cd ./static-deploy-kit/vl-london/
+            ./deploy-vl-london.sh

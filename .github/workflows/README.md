@@ -24,31 +24,44 @@ Runs on every push and pull request.
 - Build output saved for 7 days
 - Can download from Actions tab
 
-### 2. `deploy.yml` - Deploy to Cloudflare Pages
+### 2. `deploy.yml` - Deploy to VPS
 
 Runs on push to main branch only.
 
 **What it does:**
-- Builds static site
-- Uses static deploy kit (`static-deploy-kit/vl-london/deploy-vl-london.sh`)
-- Deploys to Cloudflare Pages via wrangler
-- Creates deployment record in GitHub
-- Comments on PRs with build status
-- Notifies on failures
+1. Builds static site (`npm run build`)
+2. Creates tar.gz bundle with `out/` and `static-deploy-kit/`
+3. Copies bundle to VPS via SCP
+4. Extracts bundle on VPS
+5. Runs deploy kit script: `./static-deploy-kit/vl-london/deploy-vl-london.sh`
+6. Deploy kit uses `.env.vl-london` already on VPS for configuration
 
 **How it works:**
-1. Builds Next.js app to static files (`npm run build` → `out/`)
-2. Sets up environment variables from GitHub Secrets
-3. Runs deploy kit script: `./deploy-vl-london.sh`
-4. Deploy script uses `wrangler pages deploy out/` to upload to Cloudflare
+```
+GitHub Actions (ubuntu-latest)
+  ↓
+Build: npm run build → out/
+  ↓
+Bundle: tar -czf vl-london-build.tar.gz out/ static-deploy-kit/
+  ↓
+Copy to VPS via SCP
+  ↓
+VPS (/root/docker-images/vl-london/)
+  ↓
+Extract bundle: tar -xzf
+  ↓
+Run deploy script (uses .env.vl-london on VPS)
+  ↓
+Deploy to Cloudflare Pages ✅
+```
 
 **Triggers:**
 - Push to `main` branch only
-- Manual trigger available
 
 **Deployment:**
 - Automatic deployment to: `https://vllondon.chartedconsultants.com`
 - Updates on every commit to main
+- Uses `.env.vl-london` already configured on VPS
 
 ## Setup
 
@@ -56,23 +69,22 @@ Runs on push to main branch only.
 
 Go to **Settings > Secrets and variables > Actions** and add:
 
-**Cloudflare & Deployment:**
+**VPS SSH Configuration:**
 ```
-CLOUDFLARE_API_TOKEN      # Cloudflare API token (with Pages access)
-DOMAIN                    # vllondon.chartedconsultants.com
+VPS_HOST                  # IP or hostname of your VPS
+VPS_USER                  # SSH username (usually root)
+VPS_SSH_KEY               # SSH private key for authentication
 ```
 
-**R2 Configuration:**
+**Build Environment:**
 ```
-R2_ACCOUNT_ID             # f47d23c072e7b2f871ecca11e36e0b25
-R2_ACCESS_KEY_ID          # Your R2 access key
-R2_SECRET_ACCESS_KEY      # Your R2 secret key
-R2_BUCKET_NAME            # bucket-vllondon
 R2_PUBLIC_URL             # https://vllondon.chartedconsultants.com
-R2_ENDPOINT               # https://[ACCOUNT_ID].r2.cloudflarestorage.com/
 ```
 
-**Note:** These secrets are used by the static deploy kit (`static-deploy-kit/vl-london/deploy-vl-london.sh`) during deployment.
+**Note:**
+- The `.env.vl-london` file must already exist on the VPS at `/root/docker-images/vl-london/`
+- The deploy kit script uses that `.env.vl-london` for Cloudflare/R2 configuration
+- SSH key should be able to authenticate as VPS_USER on VPS_HOST
 
 ### 2. Configure Next.js for Static Export
 
