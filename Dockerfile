@@ -27,14 +27,11 @@ WORKDIR /app
 # 9. Copy built static files from builder
 COPY --from=builder /app/out ./out
 
-# 10. Copy public assets from source
-COPY public ./public
-
-# 11. Install serve to host static files
+# 10. Install serve to host static files
 RUN npm install -g serve
 
-# 12. Expose the port
+# 11. Expose the port
 EXPOSE 3000
 
-# 13. Start serving static files
+# 12. Start serving static files
 CMD ["serve", "-s", "out", "-l", "3000"]
