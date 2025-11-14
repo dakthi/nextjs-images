@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useRef } from 'react';
+import Image from 'next/image';
 import fitty from 'fitty';
 import DiscountBadge from './DiscountBadge';
 import backgroundImg from '../assets/salecard/background.png';
@@ -254,12 +255,14 @@ export default function SaleCard({
         {productImages[0] && (
           <div className="flex items-center justify-center p-1 relative">
             <div className="border-[12px] border-white shadow-2xl w-full h-full relative">
-              <img
+              <Image
                 src={productImages[0]}
                 alt="Product Image 1"
-                className="w-full h-full object-cover"
-                crossOrigin="anonymous"
-                style={{ display: 'block' }}
+                fill
+                className="object-cover"
+                unoptimized
+                onError={(e) => console.error('Image failed to load:', productImages[0], e)}
+                onLoad={() => console.log('Image loaded:', productImages[0])}
               />
               {imageLabels?.topLeft && (
                 <div className="absolute bottom-2 left-2 bg-black bg-opacity-50 px-2 py-1 rounded">
@@ -276,12 +279,14 @@ export default function SaleCard({
         {productImages[1] && (
           <div className="flex items-center justify-center p-1">
             <div className="border-[12px] border-white shadow-2xl w-full h-full relative">
-              <img
+              <Image
                 src={productImages[1]}
                 alt="Product Image 2"
-                className="w-full h-full object-cover"
-                crossOrigin="anonymous"
-                style={{ display: 'block' }}
+                fill
+                className="object-cover"
+                unoptimized
+                onError={(e) => console.error('Image failed to load:', productImages[1], e)}
+                onLoad={() => console.log('Image loaded:', productImages[1])}
               />
               {imageLabels?.topRight && (
                 <div className="absolute bottom-2 left-2 bg-black bg-opacity-50 px-2 py-1 rounded">
@@ -298,12 +303,14 @@ export default function SaleCard({
         {productImages[2] && (
           <div className="flex items-center justify-center p-1">
             <div className="border-[12px] border-white shadow-2xl w-full h-full relative">
-              <img
+              <Image
                 src={productImages[2]}
                 alt="Product Image 3"
-                className="w-full h-full object-cover"
-                crossOrigin="anonymous"
-                style={{ display: 'block' }}
+                fill
+                className="object-cover"
+                unoptimized
+                onError={(e) => console.error('Image failed to load:', productImages[2], e)}
+                onLoad={() => console.log('Image loaded:', productImages[2])}
               />
               {imageLabels?.bottomLeft && (
                 <div className="absolute top-2 left-2 bg-black bg-opacity-50 px-2 py-1 rounded">

@@ -482,7 +482,13 @@
         {
           "size": "Top 480ml",
           "price": "£75.00",
-          "condition": "Lẻ OFF 10% & MUA 2 TẶNG 1 - TẶNG 2 CHAI TOP 15ML",
+          "condition": "OFF 10%",
+          "discount": "£67.5"
+        },
+        {
+          "size": "Top 480ml",
+          "price": "£75.00",
+          "condition": "OFF 10% MUA 2 TẶNG 1 - TẶNG THÊM 2 CHAI TOP 15ML",
           "discount": "£45"
         }
       ],
@@ -2332,21 +2338,21 @@
       },
       "pricingTable": [
         {
-          "size": "88",
+          "size": "1 hộp",
           "price": "£2.50",
           "condition": "SL <30 OFF 10%",
           "discount": "£2.25"
         },
         {
-          "size": "88",
+          "size": "1 hộp",
           "price": "£2.50",
           "condition": "SL >=30 OFF 20%",
           "discount": "£2.00"
         },
         {
-          "size": "88",
+          "size": "1 hộp",
           "price": "£2.50",
-          "condition": "SL >=88 OFF 30%",
+          "condition": "SL >= 1 thùng (88 hộp) OFF 30%",
           "discount": "£1.75"
         }
       ],
@@ -2728,22 +2734,10 @@
       },
       "pricingTable": [
         {
-          "size": "Pack 10",
-          "price": "£6.00",
+          "size": "",
+          "price": "£6.00 / £12.00 / £50.00",
           "condition": "OFF 20%",
-          "discount": "£4.80"
-        },
-        {
-          "size": "Pack 100",
-          "price": "£50.00",
-          "condition": "OFF 20%",
-          "discount": "£40.00"
-        },
-        {
-          "size": "Box 550 pcs",
-          "price": "£12.00",
-          "condition": "OFF 20%",
-          "discount": "£9.60"
+          "discount": "£4.80 / £9.60 / £40.00"
         }
       ],
       "badgePosition": "middle-right",
