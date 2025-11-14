@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { Product } from '@/types/product';
 import ProductPreview from './ProductPreview';
+import ImageUploader from './ImageUploader';
 
 interface ProductFormProps {
   product: Product;
@@ -133,6 +134,55 @@ export default function ProductForm({ product, onSave }: ProductFormProps) {
                 value={formData.promotionText || ''}
                 onChange={handleInputChange}
                 className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+              />
+            </div>
+          </div>
+
+          {/* Image Upload */}
+          <div className="border-t pt-4">
+            <h4 className="font-semibold text-gray-900 mb-3">Product Images (R2 CDN)</h4>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <ImageUploader
+                productId={formData.id}
+                position="topLeft"
+                currentImageUrl={formData.images?.topLeft}
+                onUploadSuccess={(url) => {
+                  setFormData((prev) => ({
+                    ...prev,
+                    images: {
+                      ...(prev.images || {}),
+                      topLeft: url,
+                    },
+                  }));
+                }}
+              />
+              <ImageUploader
+                productId={formData.id}
+                position="topRight"
+                currentImageUrl={formData.images?.topRight}
+                onUploadSuccess={(url) => {
+                  setFormData((prev) => ({
+                    ...prev,
+                    images: {
+                      ...(prev.images || {}),
+                      topRight: url,
+                    },
+                  }));
+                }}
+              />
+              <ImageUploader
+                productId={formData.id}
+                position="bottomLeft"
+                currentImageUrl={formData.images?.bottomLeft}
+                onUploadSuccess={(url) => {
+                  setFormData((prev) => ({
+                    ...prev,
+                    images: {
+                      ...(prev.images || {}),
+                      bottomLeft: url,
+                    },
+                  }));
+                }}
               />
             </div>
           </div>
@@ -407,7 +457,9 @@ export default function ProductForm({ product, onSave }: ProductFormProps) {
           {/* Preview Tab */}
           {showPreview && (
             <div className="px-6 py-4">
-              <ProductPreview product={formData} />
+              <ProductPreview product={formData} onSave={(updatedProduct) => {
+                setFormData(updatedProduct);
+              }} />
               <div className="mt-4 flex gap-2">
                 <button
                   onClick={() => setIsExpanded(false)}
