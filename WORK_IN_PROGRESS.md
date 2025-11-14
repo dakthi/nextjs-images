@@ -121,6 +121,11 @@ Working through product merges systematically by product type and brand.
   - Images: ep.jpg (converted to webp) - swapped: topLeft=bottomLeft, topRight=topLeft, bottomLeft=topRight
   - Badge: middle-right
 
+- [x] **product-239**: BlazingStar Revive Base / Revive Base HF / Durabase HF - 15ml
+  - Revive Base 15ml: £12.00 → £7.20 (SL <12) / £6.48 (SL >=12)
+  - DuraBase 15ml: £9.00 → £6.00 (SL <12) / £5.40 (SL >=12)
+  - Updated size column to differentiate between Revive Base and DuraBase
+
 ## Pending Work
 
 ### To Merge (Max 4 Rows Per Card Rule)
