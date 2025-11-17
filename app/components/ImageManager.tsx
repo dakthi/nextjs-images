@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import FileUpload from './FileUpload';
 
 interface ProductImage {
   id: string;
@@ -275,57 +276,77 @@ export default function ImageManager({ versionId, images, onImagesUpdated }: Ima
       {/* Add Image Form */}
       {showAddForm && (
         <div className="mb-6 p-4 bg-gray-100 border-2 border-gray-300 rounded-lg">
-          <h4 className="text-lg font-bold text-black mb-3">Add New Image</h4>
-          <div className="grid grid-cols-2 gap-3">
-            <input
-              type="text"
-              placeholder="Image URL"
-              value={newImage.imageUrl}
-              onChange={(e) => setNewImage({ ...newImage, imageUrl: e.target.value })}
-              className="col-span-2 border-2 border-gray-400 rounded px-3 py-2 text-black font-medium"
+          <h4 className="text-lg font-bold text-black mb-4">Add New Image</h4>
+          <div className="space-y-4">
+            <FileUpload
+              label="Upload Image File"
+              onFileSelect={(data) => setNewImage({ ...newImage, imageUrl: data.url })}
             />
-            <select
-              value={newImage.imageType}
-              onChange={(e) => setNewImage({ ...newImage, imageType: e.target.value })}
-              className="border-2 border-gray-400 rounded px-3 py-2 text-black font-medium"
-            >
-              <option value="main">Main</option>
-              <option value="thumbnail">Thumbnail</option>
-              <option value="detail">Detail</option>
-              <option value="side">Side</option>
-              <option value="back">Back</option>
-            </select>
-            <select
-              value={newImage.position}
-              onChange={(e) => setNewImage({ ...newImage, position: e.target.value })}
-              className="border-2 border-gray-400 rounded px-3 py-2 text-black font-medium"
-            >
-              <option value="top">Top</option>
-              <option value="middle">Middle</option>
-              <option value="bottom">Bottom</option>
-            </select>
-            <input
-              type="text"
-              placeholder="Alt Text"
-              value={newImage.altText}
-              onChange={(e) => setNewImage({ ...newImage, altText: e.target.value })}
-              className="col-span-2 border-2 border-gray-400 rounded px-3 py-2 text-black font-medium"
-            />
-            <input
-              type="text"
-              placeholder="Label"
-              value={newImage.label}
-              onChange={(e) => setNewImage({ ...newImage, label: e.target.value })}
-              className="col-span-2 border-2 border-gray-400 rounded px-3 py-2 text-black font-medium"
-            />
+
+            {newImage.imageUrl && (
+              <div className="space-y-3">
+                <img
+                  src={newImage.imageUrl}
+                  alt="Preview"
+                  className="max-h-40 object-contain border-2 border-gray-300 rounded"
+                />
+
+                <select
+                  value={newImage.imageType}
+                  onChange={(e) => setNewImage({ ...newImage, imageType: e.target.value })}
+                  className="w-full border-2 border-gray-400 rounded px-3 py-2 text-black font-medium"
+                >
+                  <option value="main">Main</option>
+                  <option value="thumbnail">Thumbnail</option>
+                  <option value="detail">Detail</option>
+                  <option value="side">Side</option>
+                  <option value="back">Back</option>
+                </select>
+
+                <select
+                  value={newImage.position}
+                  onChange={(e) => setNewImage({ ...newImage, position: e.target.value })}
+                  className="w-full border-2 border-gray-400 rounded px-3 py-2 text-black font-medium"
+                >
+                  <option value="top">Top</option>
+                  <option value="middle">Middle</option>
+                  <option value="bottom">Bottom</option>
+                </select>
+
+                <input
+                  type="text"
+                  placeholder="Alt Text (optional)"
+                  value={newImage.altText}
+                  onChange={(e) => setNewImage({ ...newImage, altText: e.target.value })}
+                  className="w-full border-2 border-gray-400 rounded px-3 py-2 text-black font-medium"
+                />
+
+                <input
+                  type="text"
+                  placeholder="Label (optional)"
+                  value={newImage.label}
+                  onChange={(e) => setNewImage({ ...newImage, label: e.target.value })}
+                  className="w-full border-2 border-gray-400 rounded px-3 py-2 text-black font-medium"
+                />
+
+                <div className="flex gap-2">
+                  <button
+                    onClick={handleAddImage}
+                    className="flex-1 bg-green-600 text-white font-bold px-6 py-2 rounded hover:bg-green-700"
+                    disabled={loading}
+                  >
+                    {loading ? 'Adding...' : '✓ Add Image'}
+                  </button>
+                  <button
+                    onClick={() => setNewImage({ imageUrl: '', imageType: 'main', position: 'top', altText: '', label: '' })}
+                    className="flex-1 bg-gray-500 text-white font-bold px-6 py-2 rounded hover:bg-gray-600"
+                  >
+                    ✕ Clear
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
-          <button
-            onClick={handleAddImage}
-            className="mt-3 bg-green-600 text-white font-bold px-6 py-2 rounded hover:bg-green-700 w-full"
-            disabled={loading}
-          >
-            {loading ? 'Adding...' : 'Add Image'}
-          </button>
         </div>
       )}
 
