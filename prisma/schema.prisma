@@ -11,15 +11,17 @@ datasource db {
 // BRANDS
 // ============================================
 model Brand {
-  id          String    @id @default(uuid())
-  name        String    @unique
-  slug        String    @unique
+  id        String    @id @default(uuid())
+  name      String    @unique
+  slug      String    @unique
   description String?
-  logoUrl     String?   @map("logo_url")
-  products    Product[]
-  createdAt   DateTime  @default(now()) @map("created_at")
-  updatedAt   DateTime  @updatedAt @map("updated_at")
+  logoUrl   String?   @map("logo_url")
+  products  Product[]
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
+  @@index([deletedAt])
   @@map("brands")
 }
 
@@ -37,10 +39,13 @@ model Product {
   versions    ProductVersion[]
   createdAt   DateTime         @default(now()) @map("created_at")
   updatedAt   DateTime         @updatedAt @map("updated_at")
+  deletedAt   DateTime?        @map("deleted_at")
 
   @@index([brandId])
   @@index([productCode])
   @@index([isActive])
+  @@index([deletedAt])
+  @@index([slug])
   @@map("products")
 }
 
@@ -80,6 +85,7 @@ model ProductContent {
   content     String         @db.Text
   language    String         @default("en")
   createdAt   DateTime       @default(now()) @map("created_at")
+  updatedAt   DateTime       @updatedAt @map("updated_at")
 
   @@index([versionId])
   @@index([contentType])
@@ -100,9 +106,11 @@ model ProductImage {
   altText      String?        @map("alt_text")
   label        String?
   createdAt    DateTime       @default(now()) @map("created_at")
+  updatedAt    DateTime       @updatedAt @map("updated_at")
 
   @@index([versionId])
   @@index([imageType])
+  @@unique([versionId, position], name: "unique_version_position")
   @@map("product_images")
 }
 
@@ -117,6 +125,7 @@ model ProductProperty {
   propertyValue String         @map("property_value")
   displayOrder  Int            @default(0) @map("display_order")
   createdAt     DateTime       @default(now()) @map("created_at")
+  updatedAt     DateTime       @updatedAt @map("updated_at")
 
   @@index([versionId])
   @@index([propertyKey])
@@ -138,6 +147,7 @@ model Pricing {
   discountLabel String?        @map("discount_label")
   displayOrder  Int            @default(0) @map("display_order")
   createdAt     DateTime       @default(now()) @map("created_at")
+  updatedAt     DateTime       @updatedAt @map("updated_at")
 
   @@index([versionId])
   @@map("pricing")

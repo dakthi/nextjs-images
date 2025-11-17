@@ -24,7 +24,8 @@
     "papaparse": "^5.5.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-pdf-html": "^2.1.4"
+    "react-pdf-html": "^2.1.4",
+    "zod": "^4.1.12"
   },
   "devDependencies": {
     "@prisma/client": "^6.19.0",
