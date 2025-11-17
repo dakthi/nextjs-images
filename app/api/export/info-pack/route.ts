@@ -22,7 +22,7 @@ async function buildProductInfo(productCode: string) {
       versions: {
         where: { isCurrent: true },
         include: {
-          content: true,
+          contents: true,
           images: { orderBy: { displayOrder: 'asc' } },
           pricing: { orderBy: { displayOrder: 'asc' } },
           properties: { orderBy: { displayOrder: 'asc' } },
@@ -56,7 +56,7 @@ async function buildProductInfo(productCode: string) {
       createdBy: version.createdBy,
       createdAt: version.createdAt.toISOString(),
     },
-    content: version.content.map((c) => ({
+    content: version.contents.map((c) => ({
       type: c.contentType,
       text: c.content,
       language: c.language,

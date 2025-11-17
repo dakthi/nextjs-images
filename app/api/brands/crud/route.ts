@@ -19,7 +19,7 @@ export async function GET(request: NextRequest) {
               versions: {
                 where: { isCurrent: true },
                 include: {
-                  content: true,
+                  contents: true,
                   images: true,
                   properties: true,
                   pricing: true,

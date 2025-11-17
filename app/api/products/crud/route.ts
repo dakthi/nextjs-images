@@ -18,7 +18,7 @@ export async function GET(request: NextRequest) {
           brand: true,
           versions: {
             include: {
-              content: true,
+              contents: true,
               images: { orderBy: { displayOrder: 'asc' } },
               properties: { orderBy: { displayOrder: 'asc' } },
               pricing: { orderBy: { displayOrder: 'asc' } },
@@ -45,7 +45,7 @@ export async function GET(request: NextRequest) {
           versions: {
             where: { isCurrent: true },
             include: {
-              content: true,
+              contents: true,
               images: true,
               properties: true,
               pricing: true,
