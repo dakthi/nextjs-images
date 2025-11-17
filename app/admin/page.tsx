@@ -31,6 +31,9 @@ export default function AdminPage() {
   const [showCreateBrandModal, setShowCreateBrandModal] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [showProductModal, setShowProductModal] = useState(false);
+  const [isEditingProduct, setIsEditingProduct] = useState(false);
+  const [productForm, setProductForm] = useState<any>({});
+  const [selectedProductIds, setSelectedProductIds] = useState<Set<string>>(new Set());
 
   // Brand form state
   const [brandForm, setBrandForm] = useState({
@@ -75,9 +78,99 @@ export default function AdminPage() {
       if (!response.ok) throw new Error('Failed to fetch product details');
       const data = await response.json();
       setSelectedProduct(data);
+
+      // Initialize form with current data
+      if (data.versions && data.versions[0]) {
+        const currentVersion = data.versions[0];
+        setProductForm({
+          name: data.name,
+          description: currentVersion.description || '',
+          contents: currentVersion.contents || [],
+          properties: currentVersion.properties || [],
+          images: currentVersion.images || [],
+          pricing: currentVersion.pricing || [],
+        });
+      }
+
       setShowProductModal(true);
+      setIsEditingProduct(false);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to fetch product details');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Update product content
+  const handleUpdateProductContent = async (contentId: string, newContent: string) => {
+    setLoading(true);
+    try {
+      const response = await fetch('/api/product-content/crud', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          id: contentId,
+          content: newContent,
+        }),
+      });
+      if (!response.ok) throw new Error('Failed to update content');
+      setSuccess('Content updated successfully');
+      if (selectedProduct) {
+        fetchProductDetails(selectedProduct.productCode);
+      }
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to update content');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Add new content
+  const handleAddContent = async (contentType: string, content: string) => {
+    if (!selectedProduct || !selectedProduct.versions?.[0]) return;
+
+    setLoading(true);
+    try {
+      const response = await fetch('/api/product-content/crud', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          versionId: selectedProduct.versions[0].id,
+          contentType,
+          content,
+          language: 'en',
+        }),
+      });
+      if (!response.ok) throw new Error('Failed to add content');
+      setSuccess('Content added successfully');
+      fetchProductDetails(selectedProduct.productCode);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to add content');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Update property
+  const handleUpdateProperty = async (propertyId: string, key: string, value: string) => {
+    setLoading(true);
+    try {
+      const response = await fetch('/api/product-properties/crud', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          id: propertyId,
+          propertyKey: key,
+          propertyValue: value,
+        }),
+      });
+      if (!response.ok) throw new Error('Failed to update property');
+      setSuccess('Property updated successfully');
+      if (selectedProduct) {
+        fetchProductDetails(selectedProduct.productCode);
+      }
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to update property');
     } finally {
       setLoading(false);
     }
@@ -155,7 +248,7 @@ export default function AdminPage() {
 
         {/* Search and Filter */}
         <div className="bg-white p-6 rounded-lg shadow-md border-2 border-gray-300 mb-6">
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4 mb-4">
             <div>
               <label className="block text-base font-bold mb-2 text-black">Search Products</label>
               <input
@@ -182,6 +275,52 @@ export default function AdminPage() {
               </select>
             </div>
           </div>
+
+          {/* Bulk Actions */}
+          {selectedProductIds.size > 0 && (
+            <div className="flex gap-3 items-center p-4 bg-blue-50 rounded-lg border-2 border-blue-300">
+              <span className="text-black font-bold">
+                {selectedProductIds.size} product{selectedProductIds.size > 1 ? 's' : ''} selected
+              </span>
+              <button
+                onClick={async () => {
+                  try {
+                    const response = await fetch('/api/export/info-pack', {
+                      method: 'POST',
+                      headers: { 'Content-Type': 'application/json' },
+                      body: JSON.stringify({
+                        productIds: Array.from(selectedProductIds),
+                        format: 'json',
+                        includeImages: true,
+                        includeProperties: true,
+                        includePricing: true,
+                        includeVersions: true,
+                      }),
+                    });
+                    if (!response.ok) throw new Error('Export failed');
+                    const blob = await response.blob();
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = `products-info-pack-${selectedProductIds.size}-items.json`;
+                    a.click();
+                    setSuccess(`Exported ${selectedProductIds.size} products!`);
+                  } catch (err) {
+                    setError('Failed to export info pack');
+                  }
+                }}
+                className="bg-purple-600 text-white font-bold px-4 py-2 rounded hover:bg-purple-700 text-sm"
+              >
+                📦 Export Info Pack (JSON)
+              </button>
+              <button
+                onClick={() => setSelectedProductIds(new Set())}
+                className="bg-gray-400 text-white font-bold px-4 py-2 rounded hover:bg-gray-500 text-sm"
+              >
+                Clear Selection
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Create Brand Modal */}
@@ -299,14 +438,43 @@ export default function AdminPage() {
                 {/* Content */}
                 {selectedProduct.versions?.[0]?.contents && selectedProduct.versions[0].contents.length > 0 && (
                   <div className="mb-6">
-                    <h3 className="text-xl font-bold text-black mb-3">Content</h3>
+                    <h3 className="text-xl font-bold text-black mb-3">
+                      Content
+                      {isEditingProduct && (
+                        <button
+                          onClick={() => {
+                            const contentType = prompt('Enter content type (e.g., short_description, long_description):');
+                            const content = prompt('Enter content:');
+                            if (contentType && content) {
+                              handleAddContent(contentType, content);
+                            }
+                          }}
+                          className="ml-4 text-sm bg-green-600 text-white px-3 py-1 rounded hover:bg-green-700"
+                        >
+                          + Add Content
+                        </button>
+                      )}
+                    </h3>
                     <div className="space-y-3">
-                      {selectedProduct.versions[0].contents.map((content: any) => (
+                      {selectedProduct.versions[0].contents.map((content: any, index: number) => (
                         <div key={content.id} className="bg-gray-100 p-4 rounded-lg">
-                          <p className="text-sm font-bold text-black mb-1">
+                          <p className="text-sm font-bold text-black mb-2">
                             {content.contentType} ({content.language})
                           </p>
-                          <p className="text-black">{content.content}</p>
+                          {isEditingProduct ? (
+                            <textarea
+                              value={productForm.contents[index]?.content || content.content}
+                              onChange={(e) => {
+                                const newContents = [...productForm.contents];
+                                newContents[index] = { ...content, content: e.target.value };
+                                setProductForm({ ...productForm, contents: newContents });
+                              }}
+                              onBlur={() => handleUpdateProductContent(content.id, productForm.contents[index]?.content || content.content)}
+                              className="w-full border-2 border-gray-400 rounded px-3 py-2 text-black font-medium min-h-24"
+                            />
+                          ) : (
+                            <p className="text-black">{content.content}</p>
+                          )}
                         </div>
                       ))}
                     </div>
@@ -341,10 +509,24 @@ export default function AdminPage() {
                   <div className="mb-6">
                     <h3 className="text-xl font-bold text-black mb-3">Properties</h3>
                     <div className="grid grid-cols-2 gap-3">
-                      {selectedProduct.versions[0].properties.map((prop: any) => (
+                      {selectedProduct.versions[0].properties.map((prop: any, index: number) => (
                         <div key={prop.id} className="bg-gray-100 p-3 rounded-lg">
-                          <p className="text-sm font-bold text-black">{prop.propertyKey}</p>
-                          <p className="text-black">{prop.propertyValue}</p>
+                          <p className="text-sm font-bold text-black mb-1">{prop.propertyKey}</p>
+                          {isEditingProduct ? (
+                            <input
+                              type="text"
+                              value={productForm.properties[index]?.propertyValue || prop.propertyValue}
+                              onChange={(e) => {
+                                const newProps = [...productForm.properties];
+                                newProps[index] = { ...prop, propertyValue: e.target.value };
+                                setProductForm({ ...productForm, properties: newProps });
+                              }}
+                              onBlur={() => handleUpdateProperty(prop.id, prop.propertyKey, productForm.properties[index]?.propertyValue || prop.propertyValue)}
+                              className="w-full border-2 border-gray-400 rounded px-2 py-1 text-black font-medium"
+                            />
+                          ) : (
+                            <p className="text-black">{prop.propertyValue}</p>
+                          )}
                         </div>
                       ))}
                     </div>
@@ -385,18 +567,58 @@ export default function AdminPage() {
                 )}
 
                 {/* Actions */}
-                <div className="flex gap-4 pt-4 border-t-2 border-gray-300">
+                <div className="flex gap-3 pt-4 border-t-2 border-gray-300">
                   <button
                     onClick={() => {
                       setShowProductModal(false);
                       setSelectedProduct(null);
+                      setIsEditingProduct(false);
                     }}
-                    className="flex-1 bg-gray-400 text-white font-bold py-3 rounded-md hover:bg-gray-500 transition-colors text-lg"
+                    className="bg-gray-400 text-white font-bold px-6 py-3 rounded-md hover:bg-gray-500 transition-colors text-base"
                   >
                     Close
                   </button>
-                  <button className="flex-1 bg-blue-600 text-white font-bold py-3 rounded-md hover:bg-blue-700 transition-colors text-lg">
-                    Edit Product
+                  <button
+                    onClick={() => setIsEditingProduct(!isEditingProduct)}
+                    className={`flex-1 font-bold py-3 rounded-md transition-colors text-base ${
+                      isEditingProduct
+                        ? 'bg-green-600 text-white hover:bg-green-700'
+                        : 'bg-blue-600 text-white hover:bg-blue-700'
+                    }`}
+                  >
+                    {isEditingProduct ? '✓ Done Editing' : 'Edit Product'}
+                  </button>
+                  <button
+                    onClick={async () => {
+                      if (!selectedProduct) return;
+                      try {
+                        const response = await fetch('/api/export/info-pack', {
+                          method: 'POST',
+                          headers: { 'Content-Type': 'application/json' },
+                          body: JSON.stringify({
+                            productIds: [selectedProduct.productCode],
+                            format: 'json',
+                            includeImages: true,
+                            includeProperties: true,
+                            includePricing: true,
+                            includeVersions: true,
+                          }),
+                        });
+                        if (!response.ok) throw new Error('Export failed');
+                        const blob = await response.blob();
+                        const url = window.URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = `${selectedProduct.productCode}-info-pack.json`;
+                        a.click();
+                        setSuccess('Info pack downloaded!');
+                      } catch (err) {
+                        setError('Failed to export info pack');
+                      }
+                    }}
+                    className="bg-purple-600 text-white font-bold px-6 py-3 rounded-md hover:bg-purple-700 transition-colors text-base"
+                  >
+                    📦 Export Info Pack
                   </button>
                 </div>
               </div>
@@ -409,6 +631,20 @@ export default function AdminPage() {
           <table className="w-full">
             <thead className="bg-gray-800 text-white">
               <tr>
+                <th className="px-4 py-4 text-center text-base font-bold w-12">
+                  <input
+                    type="checkbox"
+                    checked={filteredProducts.length > 0 && filteredProducts.every(p => selectedProductIds.has(p.productCode))}
+                    onChange={(e) => {
+                      if (e.target.checked) {
+                        setSelectedProductIds(new Set(filteredProducts.map(p => p.productCode)));
+                      } else {
+                        setSelectedProductIds(new Set());
+                      }
+                    }}
+                    className="w-5 h-5 cursor-pointer"
+                  />
+                </th>
                 <th className="px-6 py-4 text-left text-base font-bold">Product Code</th>
                 <th className="px-6 py-4 text-left text-base font-bold">Product Name</th>
                 <th className="px-6 py-4 text-left text-base font-bold">Brand</th>
@@ -420,7 +656,7 @@ export default function AdminPage() {
             <tbody className="divide-y-2 divide-gray-200">
               {filteredProducts.length === 0 ? (
                 <tr>
-                  <td colSpan={6} className="px-6 py-8 text-center text-black text-base font-medium">
+                  <td colSpan={7} className="px-6 py-8 text-center text-black text-base font-medium">
                     {searchTerm || brandFilter !== 'all'
                       ? 'No products found matching your filters'
                       : 'No products yet. Import or create your first product!'}
@@ -430,17 +666,49 @@ export default function AdminPage() {
                 filteredProducts.map((product) => (
                   <tr
                     key={product.id}
-                    className="hover:bg-blue-50 transition-colors cursor-pointer"
-                    onClick={() => fetchProductDetails(product.productCode)}
+                    className="hover:bg-blue-50 transition-colors"
                   >
-                    <td className="px-6 py-4 text-black font-bold text-base">{product.productCode}</td>
-                    <td className="px-6 py-4 text-black font-medium text-base">{product.name}</td>
-                    <td className="px-6 py-4 text-black font-medium text-base">
+                    <td className="px-4 py-4 text-center">
+                      <input
+                        type="checkbox"
+                        checked={selectedProductIds.has(product.productCode)}
+                        onChange={(e) => {
+                          const newSet = new Set(selectedProductIds);
+                          if (e.target.checked) {
+                            newSet.add(product.productCode);
+                          } else {
+                            newSet.delete(product.productCode);
+                          }
+                          setSelectedProductIds(newSet);
+                        }}
+                        onClick={(e) => e.stopPropagation()}
+                        className="w-5 h-5 cursor-pointer"
+                      />
+                    </td>
+                    <td
+                      onClick={() => fetchProductDetails(product.productCode)}
+                      className="px-6 py-4 text-black font-bold text-base cursor-pointer"
+                    >
+                      {product.productCode}
+                    </td>
+                    <td
+                      onClick={() => fetchProductDetails(product.productCode)}
+                      className="px-6 py-4 text-black font-medium text-base cursor-pointer"
+                    >
+                      {product.name}
+                    </td>
+                    <td
+                      onClick={() => fetchProductDetails(product.productCode)}
+                      className="px-6 py-4 text-black font-medium text-base cursor-pointer"
+                    >
                       <span className="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-bold">
                         {product.brand?.name || 'Unknown'}
                       </span>
                     </td>
-                    <td className="px-6 py-4 text-center">
+                    <td
+                      onClick={() => fetchProductDetails(product.productCode)}
+                      className="px-6 py-4 text-center cursor-pointer"
+                    >
                       <span
                         className={`px-3 py-1 rounded-full font-bold text-sm ${
                           product.isActive
@@ -451,16 +719,16 @@ export default function AdminPage() {
                         {product.isActive ? 'Active' : 'Inactive'}
                       </span>
                     </td>
-                    <td className="px-6 py-4 text-center text-black font-medium text-base">
+                    <td
+                      onClick={() => fetchProductDetails(product.productCode)}
+                      className="px-6 py-4 text-center text-black font-medium text-base cursor-pointer"
+                    >
                       {product.versions?.length || 0}
                     </td>
                     <td className="px-6 py-4 text-right">
                       <div className="flex gap-2 justify-end">
                         <button
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            fetchProductDetails(product.productCode);
-                          }}
+                          onClick={() => fetchProductDetails(product.productCode)}
                           className="bg-blue-600 text-white font-bold px-4 py-2 rounded hover:bg-blue-700 transition-colors text-sm"
                         >
                           View
