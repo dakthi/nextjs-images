@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import ImageManager from '../components/ImageManager';
 
 interface Brand {
   id: string;
@@ -757,26 +758,22 @@ export default function AdminPage() {
                   </div>
                 )}
 
-                {/* Images */}
-                {selectedProduct.versions?.[0]?.images && selectedProduct.versions[0].images.length > 0 && (
+                {/* Images Manager */}
+                {selectedProduct.versions?.[0] && (
                   <div className="mb-6">
-                    <h3 className="text-xl font-bold text-black mb-3">Images ({selectedProduct.versions[0].images.length})</h3>
-                    <div className="grid grid-cols-3 gap-4">
-                      {selectedProduct.versions[0].images.map((image: any) => (
-                        <div key={image.id} className="border-2 border-gray-300 rounded-lg overflow-hidden">
-                          <img
-                            src={image.imageUrl}
-                            alt={image.altText || image.position || 'Product image'}
-                            className="w-full h-48 object-cover"
-                          />
-                          <div className="p-2 bg-gray-100">
-                            <p className="text-xs font-bold text-black">
-                              {image.position || image.imageType}
-                            </p>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
+                    <ImageManager
+                      versionId={selectedProduct.versions[0].id}
+                      images={productForm.images || selectedProduct.versions[0].images || []}
+                      onImagesUpdated={(images) => {
+                        setProductForm({ ...productForm, images });
+                        if (selectedProduct && selectedProduct.versions?.[0]) {
+                          setSelectedProduct({
+                            ...selectedProduct,
+                            versions: [{ ...selectedProduct.versions[0], images }],
+                          });
+                        }
+                      }}
+                    />
                   </div>
                 )}
 
