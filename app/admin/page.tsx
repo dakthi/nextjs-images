@@ -3,6 +3,8 @@
 import { useState, useEffect } from 'react';
 import MainLayout from '../components/MainLayout';
 import ImageManager from '../components/ImageManager';
+import CSVImport from '../components/CSVImport';
+import VersionComparison from '../components/VersionComparison';
 
 interface Brand {
   id: string;
@@ -39,7 +41,8 @@ export default function AdminPage() {
   const [isEditingProduct, setIsEditingProduct] = useState(false);
   const [productForm, setProductForm] = useState<any>({});
   const [selectedProductIds, setSelectedProductIds] = useState<Set<string>>(new Set());
-  const [activeTab, setActiveTab] = useState<'products' | 'brands'>('products');
+  const [activeTab, setActiveTab] = useState<'products' | 'brands' | 'import'>('products');
+  const [showVersionComparison, setShowVersionComparison] = useState(false);
 
   // Brand form state
   const [brandForm, setBrandForm] = useState({
@@ -339,6 +342,16 @@ export default function AdminPage() {
             }`}
           >
             Brands ({brands.length})
+          </button>
+          <button
+            onClick={() => setActiveTab('import')}
+            className={`px-6 py-3 font-bold text-lg transition-colors ${
+              activeTab === 'import'
+                ? 'border-b-4 border-purple-600 text-purple-600'
+                : 'text-gray-600 hover:text-purple-600'
+            }`}
+          >
+            Import CSV
           </button>
         </div>
 
@@ -700,7 +713,17 @@ export default function AdminPage() {
                 {/* Version Info */}
                 {selectedProduct.versions && selectedProduct.versions.length > 0 && (
                   <div className="mb-6">
-                    <h3 className="text-xl font-bold text-black mb-3">Current Version</h3>
+                    <div className="flex justify-between items-start mb-3">
+                      <h3 className="text-xl font-bold text-black">Current Version</h3>
+                      {selectedProduct.versions.length > 1 && (
+                        <button
+                          onClick={() => setShowVersionComparison(true)}
+                          className="text-sm bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 font-bold"
+                        >
+                          📊 Compare Versions
+                        </button>
+                      )}
+                    </div>
                     <div className="bg-gray-100 p-4 rounded-lg">
                       <p className="text-black font-medium">
                         Version {selectedProduct.versions[0].versionNumber}
@@ -709,6 +732,9 @@ export default function AdminPage() {
                       {selectedProduct.versions[0].description && (
                         <p className="text-black mt-2">{selectedProduct.versions[0].description}</p>
                       )}
+                      <p className="text-xs text-gray-600 mt-2">
+                        {selectedProduct.versions.length} total version{selectedProduct.versions.length > 1 ? 's' : ''}
+                      </p>
                     </div>
                   </div>
                 )}
@@ -847,6 +873,7 @@ export default function AdminPage() {
                       setShowProductModal(false);
                       setSelectedProduct(null);
                       setIsEditingProduct(false);
+                      setShowVersionComparison(false);
                     }}
                     className="bg-gray-400 text-white font-bold px-6 py-3 rounded-md hover:bg-gray-500 transition-colors text-base"
                   >
@@ -893,6 +920,39 @@ export default function AdminPage() {
                     className="bg-purple-600 text-white font-bold px-6 py-3 rounded-md hover:bg-purple-700 transition-colors text-base"
                   >
                     📦 Export Info Pack
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Version Comparison Modal */}
+        {showVersionComparison && selectedProduct && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+            <div className="bg-white rounded-xl shadow-2xl border-4 border-purple-600 max-w-6xl w-full max-h-[95vh] overflow-y-auto">
+              <div className="p-8">
+                <div className="flex justify-between items-start mb-6">
+                  <div>
+                    <h2 className="text-3xl font-bold text-black mb-2">{selectedProduct.name}</h2>
+                    <p className="text-base text-black font-medium">Version Comparison & Rollback</p>
+                  </div>
+                  <button
+                    onClick={() => setShowVersionComparison(false)}
+                    className="text-gray-500 hover:text-black text-3xl font-bold"
+                  >
+                    ×
+                  </button>
+                </div>
+
+                <VersionComparison productCode={selectedProduct.productCode} />
+
+                <div className="flex gap-3 pt-6 mt-6 border-t-2 border-gray-300">
+                  <button
+                    onClick={() => setShowVersionComparison(false)}
+                    className="flex-1 bg-gray-400 text-white font-bold px-6 py-3 rounded-md hover:bg-gray-500 transition-colors text-base"
+                  >
+                    Close
                   </button>
                 </div>
               </div>
@@ -1026,6 +1086,13 @@ export default function AdminPage() {
               Showing {filteredProducts.length} of {products.length} products
             </div>
           </>
+        )}
+
+        {/* CSV IMPORT TAB */}
+        {activeTab === 'import' && (
+          <div className="bg-white rounded-lg shadow-md border-2 border-gray-300 p-8">
+            <CSVImport />
+          </div>
         )}
 
         {/* BRANDS TAB */}
