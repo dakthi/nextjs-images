@@ -1,183 +1,135 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { PrismaClient } from '@prisma/client';
-import JSZip from 'jszip';
-
-const prisma = new PrismaClient();
+import {
+  buildProductInfo,
+  getProductsByBrand,
+  getAllActiveProducts,
+  searchProducts,
+  generateJSONExport,
+  generateCSVExport,
+  generateZIPExport,
+  getExportFileName,
+} from '@/lib/export-utils';
+import { ExportInfoPackSchema } from '@/lib/validations';
 
 interface ExportOptions {
   productIds?: string[];
   brandId?: string;
+  search?: string;
+  allActive?: boolean;
   format: 'json' | 'csv' | 'zip';
   includeImages?: boolean;
-  includeProperties?: boolean;
-  includePricing?: boolean;
-  includeVersions?: boolean;
 }
 
-async function buildProductInfo(productCode: string) {
-  const product = await prisma.product.findUnique({
-    where: { productCode },
-    include: {
-      brand: true,
-      versions: {
-        where: { isCurrent: true },
-        include: {
-          contents: true,
-          images: { orderBy: { displayOrder: 'asc' } },
-          pricing: { orderBy: { displayOrder: 'asc' } },
-          properties: { orderBy: { displayOrder: 'asc' } },
-        },
-        take: 1,
-      },
-    },
-  });
-
-  if (!product || !product.versions[0]) return null;
-  const version = product.versions[0];
-
-  return {
-    id: product.id,
-    productCode: product.productCode,
-    name: product.name,
-    slug: product.slug,
-    isActive: product.isActive,
-    brand: { id: product.brand.id, name: product.brand.name, slug: product.brand.slug },
-    currentVersion: {
-      versionNumber: version.versionNumber,
-      versionName: version.versionName,
-      description: version.description,
-      createdBy: version.createdBy,
-      createdAt: version.createdAt.toISOString(),
-    },
-    content: version.contents.map((c: any) => ({
-      type: c.contentType,
-      text: c.content,
-      language: c.language,
-    })),
-    images: version.images.map((img: any) => ({
-      url: img.imageUrl,
-      type: img.imageType,
-      position: img.position,
-      altText: img.altText,
-      label: img.label,
-    })),
-    properties: version.properties
-      .filter((prop: any) => {
-        const saleCardProps = ['promotionText', 'badgePosition', 'showOnlyPriceColumn', 'showSizeAndConditionColumnsOnly', 'discountPercentage'];
-        return !saleCardProps.includes(prop.propertyKey);
-      })
-      .map((prop: any) => ({ key: prop.propertyKey, value: prop.propertyValue })),
-    pricing: version.pricing.map((p: any) => ({
-      size: p.size,
-      price: p.price.toString(),
-      currency: p.currency,
-      condition: p.condition,
-      discountPrice: p.discountPrice?.toString(),
-      discountLabel: p.discountLabel,
-    })),
-  };
-}
-
-async function downloadImage(imageUrl: string): Promise<Buffer | null> {
-  try {
-    const response = await fetch(imageUrl);
-    if (!response.ok) return null;
-    return Buffer.from(await response.arrayBuffer());
-  } catch (error) {
-    console.error(`Error downloading image:`, error);
-    return null;
-  }
-}
-
-function getFileExtension(url: string): string {
-  try {
-    const pathname = new URL(url).pathname;
-    const match = pathname.match(/\.(\w+)$/);
-    return match ? match[1].toLowerCase() : 'jpg';
-  } catch {
-    return 'jpg';
-  }
-}
-
+/**
+ * Enhanced export endpoint supporting:
+ * - Single or multiple products by ID
+ * - All products from a specific brand
+ * - Search by name or product code
+ * - All active products
+ * - Multiple formats: JSON, CSV, ZIP
+ */
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json() as ExportOptions;
-    const { productIds, brandId, format = 'zip', includeImages = true, includeProperties = true, includePricing = true } = body;
+    const {
+      productIds,
+      brandId,
+      search,
+      allActive = false,
+      format = 'zip',
+      includeImages = true,
+    } = body;
 
-    let productsToExport = [];
+    let productCodes: string[] = [];
 
+    // Determine which products to export
     if (productIds && productIds.length > 0) {
-      for (const id of productIds) {
-        const product = await buildProductInfo(id);
-        if (product) productsToExport.push(product);
-      }
+      productCodes = productIds;
     } else if (brandId) {
-      const products = await prisma.product.findMany({ where: { brandId }, select: { productCode: true } });
-      for (const p of products) {
-        const product = await buildProductInfo(p.productCode);
-        if (product) productsToExport.push(product);
-      }
+      productCodes = await getProductsByBrand(brandId);
+    } else if (search) {
+      productCodes = await searchProducts(search);
+    } else if (allActive) {
+      productCodes = await getAllActiveProducts();
     } else {
-      const products = await prisma.product.findMany({ select: { productCode: true } });
-      for (const p of products) {
-        const product = await buildProductInfo(p.productCode);
-        if (product) productsToExport.push(product);
-      }
+      return NextResponse.json(
+        { error: 'Please specify productIds, brandId, search query, or set allActive=true' },
+        { status: 400 }
+      );
     }
 
-    const filteredProducts = productsToExport.map((p) => ({
-      ...p,
-      images: includeImages ? p.images : undefined,
-      properties: includeProperties ? p.properties : undefined,
-      pricing: includePricing ? p.pricing : undefined,
-    }));
+    if (productCodes.length === 0) {
+      return NextResponse.json(
+        { error: 'No products found matching your criteria' },
+        { status: 404 }
+      );
+    }
 
-    const timestamp = new Date().toISOString().split('T')[0];
-    const filename = `product-info-pack-${filteredProducts.length}-items-${timestamp}`;
+    // Fetch product details
+    const productsToExport = [];
+    for (const code of productCodes) {
+      const product = await buildProductInfo(code);
+      if (product) productsToExport.push(product);
+    }
 
-    if (format === 'zip') {
-      const zip = new JSZip();
-      zip.file('products.json', JSON.stringify(filteredProducts, null, 2));
+    if (productsToExport.length === 0) {
+      return NextResponse.json(
+        { error: 'Could not load product details' },
+        { status: 500 }
+      );
+    }
 
-      for (const product of filteredProducts) {
-        const folder = zip.folder(`${product.productCode}`);
-        if (!folder) continue;
+    const filename = getExportFileName(
+      format,
+      productsToExport.length,
+      brandId ? 'brand' : 'products',
+      brandId ? productsToExport[0]?.brandName : undefined
+    );
 
-        folder.file('product.json', JSON.stringify(product, null, 2));
-
-        if (includeImages && product.images && product.images.length > 0) {
-          const imagesFolder = folder.folder('images');
-          if (imagesFolder) {
-            for (let i = 0; i < product.images.length; i++) {
-              const image = product.images[i];
-              const ext = getFileExtension(image.url);
-              const imageName = `${i}-${image.type}.${ext}`;
-              const imageBuffer = await downloadImage(image.url);
-              if (imageBuffer) imagesFolder.file(imageName, imageBuffer);
-            }
-          }
-        }
-      }
-
-      const zipBuffer = await zip.generateAsync({ type: 'nodebuffer' });
-      return new NextResponse(new Uint8Array(zipBuffer), {
+    // Generate export based on format
+    if (format === 'json') {
+      const jsonData = generateJSONExport(productsToExport);
+      return new NextResponse(jsonData, {
         status: 200,
         headers: {
-          'Content-Type': 'application/zip',
-          'Content-Disposition': `attachment; filename="${filename}.zip"`,
+          'Content-Type': 'application/json',
+          'Content-Disposition': `attachment; filename="${filename}"`,
         },
       });
     }
 
-    return new NextResponse(JSON.stringify(filteredProducts, null, 2), {
-      status: 200,
-      headers: {
-        'Content-Type': 'application/json',
-        'Content-Disposition': `attachment; filename="${filename}.json"`,
-      },
-    });
+    if (format === 'csv') {
+      const csvData = generateCSVExport(productsToExport);
+      return new NextResponse(csvData, {
+        status: 200,
+        headers: {
+          'Content-Type': 'text/csv',
+          'Content-Disposition': `attachment; filename="${filename}"`,
+        },
+      });
+    }
+
+    if (format === 'zip') {
+      const zipBuffer = await generateZIPExport(productsToExport, includeImages);
+      const buffer = Buffer.from(zipBuffer);
+      return new NextResponse(buffer, {
+        status: 200,
+        headers: {
+          'Content-Type': 'application/zip',
+          'Content-Disposition': `attachment; filename="${filename}"`,
+        },
+      });
+    }
+
+    return NextResponse.json(
+      { error: 'Invalid format. Use: json, csv, or zip' },
+      { status: 400 }
+    );
   } catch (error) {
     console.error('Export failed:', error);
-    return NextResponse.json({ error: error instanceof Error ? error.message : 'Export failed' }, { status: 500 });
+    return NextResponse.json(
+      { error: error instanceof Error ? error.message : 'Export failed' },
+      { status: 500 }
+    );
   }
 }
