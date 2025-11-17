@@ -29,6 +29,8 @@ export default function AdminPage() {
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
   const [showCreateBrandModal, setShowCreateBrandModal] = useState(false);
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [showProductModal, setShowProductModal] = useState(false);
 
   // Brand form state
   const [brandForm, setBrandForm] = useState({
@@ -62,6 +64,22 @@ export default function AdminPage() {
       setBrands(data);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to fetch brands');
+    }
+  };
+
+  // Fetch single product details
+  const fetchProductDetails = async (productCode: string) => {
+    setLoading(true);
+    try {
+      const response = await fetch(`/api/products/crud?id=${productCode}`);
+      if (!response.ok) throw new Error('Failed to fetch product details');
+      const data = await response.json();
+      setSelectedProduct(data);
+      setShowProductModal(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to fetch product details');
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -238,6 +256,154 @@ export default function AdminPage() {
           </div>
         )}
 
+        {/* Product Detail Modal */}
+        {showProductModal && selectedProduct && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+            <div className="bg-white rounded-xl shadow-2xl border-4 border-blue-600 max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+              <div className="p-8">
+                {/* Header */}
+                <div className="flex justify-between items-start mb-6">
+                  <div>
+                    <h2 className="text-3xl font-bold text-black mb-2">{selectedProduct.name}</h2>
+                    <p className="text-base text-black font-medium">
+                      Code: {selectedProduct.productCode} | Brand: {selectedProduct.brand?.name}
+                    </p>
+                  </div>
+                  <button
+                    onClick={() => {
+                      setShowProductModal(false);
+                      setSelectedProduct(null);
+                    }}
+                    className="text-gray-500 hover:text-black text-3xl font-bold"
+                  >
+                    ×
+                  </button>
+                </div>
+
+                {/* Version Info */}
+                {selectedProduct.versions && selectedProduct.versions.length > 0 && (
+                  <div className="mb-6">
+                    <h3 className="text-xl font-bold text-black mb-3">Current Version</h3>
+                    <div className="bg-gray-100 p-4 rounded-lg">
+                      <p className="text-black font-medium">
+                        Version {selectedProduct.versions[0].versionNumber}
+                        {selectedProduct.versions[0].versionName && ` - ${selectedProduct.versions[0].versionName}`}
+                      </p>
+                      {selectedProduct.versions[0].description && (
+                        <p className="text-black mt-2">{selectedProduct.versions[0].description}</p>
+                      )}
+                    </div>
+                  </div>
+                )}
+
+                {/* Content */}
+                {selectedProduct.versions?.[0]?.contents && selectedProduct.versions[0].contents.length > 0 && (
+                  <div className="mb-6">
+                    <h3 className="text-xl font-bold text-black mb-3">Content</h3>
+                    <div className="space-y-3">
+                      {selectedProduct.versions[0].contents.map((content: any) => (
+                        <div key={content.id} className="bg-gray-100 p-4 rounded-lg">
+                          <p className="text-sm font-bold text-black mb-1">
+                            {content.contentType} ({content.language})
+                          </p>
+                          <p className="text-black">{content.content}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Images */}
+                {selectedProduct.versions?.[0]?.images && selectedProduct.versions[0].images.length > 0 && (
+                  <div className="mb-6">
+                    <h3 className="text-xl font-bold text-black mb-3">Images ({selectedProduct.versions[0].images.length})</h3>
+                    <div className="grid grid-cols-3 gap-4">
+                      {selectedProduct.versions[0].images.map((image: any) => (
+                        <div key={image.id} className="border-2 border-gray-300 rounded-lg overflow-hidden">
+                          <img
+                            src={image.imageUrl}
+                            alt={image.altText || image.position || 'Product image'}
+                            className="w-full h-48 object-cover"
+                          />
+                          <div className="p-2 bg-gray-100">
+                            <p className="text-xs font-bold text-black">
+                              {image.position || image.imageType}
+                            </p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Properties */}
+                {selectedProduct.versions?.[0]?.properties && selectedProduct.versions[0].properties.length > 0 && (
+                  <div className="mb-6">
+                    <h3 className="text-xl font-bold text-black mb-3">Properties</h3>
+                    <div className="grid grid-cols-2 gap-3">
+                      {selectedProduct.versions[0].properties.map((prop: any) => (
+                        <div key={prop.id} className="bg-gray-100 p-3 rounded-lg">
+                          <p className="text-sm font-bold text-black">{prop.propertyKey}</p>
+                          <p className="text-black">{prop.propertyValue}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Pricing */}
+                {selectedProduct.versions?.[0]?.pricing && selectedProduct.versions[0].pricing.length > 0 && (
+                  <div className="mb-6">
+                    <h3 className="text-xl font-bold text-black mb-3">Pricing</h3>
+                    <div className="overflow-x-auto">
+                      <table className="w-full border-2 border-gray-300">
+                        <thead className="bg-gray-800 text-white">
+                          <tr>
+                            <th className="px-4 py-2 text-left font-bold">Size</th>
+                            <th className="px-4 py-2 text-left font-bold">Price</th>
+                            <th className="px-4 py-2 text-left font-bold">Discount</th>
+                            <th className="px-4 py-2 text-left font-bold">Condition</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y-2 divide-gray-200">
+                          {selectedProduct.versions[0].pricing.map((price: any) => (
+                            <tr key={price.id}>
+                              <td className="px-4 py-2 text-black font-medium">{price.size}</td>
+                              <td className="px-4 py-2 text-black font-bold">
+                                {price.currency} {price.price}
+                              </td>
+                              <td className="px-4 py-2 text-black font-bold text-green-700">
+                                {price.discountPrice ? `${price.currency} ${price.discountPrice}` : '—'}
+                              </td>
+                              <td className="px-4 py-2 text-black text-sm">{price.condition || '—'}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                )}
+
+                {/* Actions */}
+                <div className="flex gap-4 pt-4 border-t-2 border-gray-300">
+                  <button
+                    onClick={() => {
+                      setShowProductModal(false);
+                      setSelectedProduct(null);
+                    }}
+                    className="flex-1 bg-gray-400 text-white font-bold py-3 rounded-md hover:bg-gray-500 transition-colors text-lg"
+                  >
+                    Close
+                  </button>
+                  <button className="flex-1 bg-blue-600 text-white font-bold py-3 rounded-md hover:bg-blue-700 transition-colors text-lg">
+                    Edit Product
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Products Table */}
         <div className="bg-white rounded-lg shadow-md border-2 border-gray-300 overflow-hidden">
           <table className="w-full">
@@ -262,7 +428,11 @@ export default function AdminPage() {
                 </tr>
               ) : (
                 filteredProducts.map((product) => (
-                  <tr key={product.id} className="hover:bg-blue-50 transition-colors">
+                  <tr
+                    key={product.id}
+                    className="hover:bg-blue-50 transition-colors cursor-pointer"
+                    onClick={() => fetchProductDetails(product.productCode)}
+                  >
                     <td className="px-6 py-4 text-black font-bold text-base">{product.productCode}</td>
                     <td className="px-6 py-4 text-black font-medium text-base">{product.name}</td>
                     <td className="px-6 py-4 text-black font-medium text-base">
@@ -286,10 +456,19 @@ export default function AdminPage() {
                     </td>
                     <td className="px-6 py-4 text-right">
                       <div className="flex gap-2 justify-end">
-                        <button className="bg-blue-600 text-white font-bold px-4 py-2 rounded hover:bg-blue-700 transition-colors text-sm">
-                          Edit
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            fetchProductDetails(product.productCode);
+                          }}
+                          className="bg-blue-600 text-white font-bold px-4 py-2 rounded hover:bg-blue-700 transition-colors text-sm"
+                        >
+                          View
                         </button>
-                        <button className="bg-red-600 text-white font-bold px-4 py-2 rounded hover:bg-red-700 transition-colors text-sm">
+                        <button
+                          onClick={(e) => e.stopPropagation()}
+                          className="bg-red-600 text-white font-bold px-4 py-2 rounded hover:bg-red-700 transition-colors text-sm"
+                        >
                           Delete
                         </button>
                       </div>
