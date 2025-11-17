@@ -353,19 +353,23 @@ export default function AdminPage() {
 
             {/* Brands List */}
             <div className="bg-white p-6 rounded-lg shadow">
-              <h2 className="text-2xl font-bold mb-4">Brands</h2>
-              <div className="space-y-2">
+              <h2 className="text-2xl font-bold mb-4">Brands ({brands.length})</h2>
+              <div className="space-y-3 max-h-[600px] overflow-y-auto">
                 {brands.map((brand) => (
                   <div
                     key={brand.id}
-                    className="p-3 border rounded cursor-pointer hover:bg-gray-50"
+                    className={`p-4 border-2 rounded-lg cursor-pointer transition-all ${
+                      selectedBrand?.id === brand.id
+                        ? 'border-blue-500 bg-blue-50'
+                        : 'border-gray-200 hover:border-gray-300 hover:bg-gray-50'
+                    }`}
                     onClick={() => setSelectedBrand(brand)}
                   >
-                    <div className="flex justify-between items-start">
+                    <div className="flex justify-between items-start mb-2">
                       <div>
-                        <h3 className="font-medium">{brand.name}</h3>
+                        <h3 className="font-bold text-lg">{brand.name}</h3>
                         <p className="text-sm text-gray-600">
-                          {brand.productCount || 0} products
+                          {brand.productCount || 0} products · {brand.slug}
                         </p>
                       </div>
                       <button
@@ -373,11 +377,16 @@ export default function AdminPage() {
                           e.stopPropagation();
                           handleDeleteBrand(brand.id);
                         }}
-                        className="text-red-600 hover:text-red-800"
+                        className="text-red-600 hover:text-red-800 text-sm font-medium"
                       >
                         Delete
                       </button>
                     </div>
+                    {brand.description && (
+                      <p className="text-sm text-gray-700 line-clamp-2">
+                        {brand.description.split('\n')[0]}
+                      </p>
+                    )}
                   </div>
                 ))}
               </div>
