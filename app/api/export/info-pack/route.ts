@@ -1,19 +1,19 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { PrismaClient } from '@prisma/client';
+import JSZip from 'jszip';
 
 const prisma = new PrismaClient();
 
 interface ExportOptions {
   productIds?: string[];
   brandId?: string;
-  format: 'json' | 'csv';
+  format: 'json' | 'csv' | 'zip';
   includeImages?: boolean;
   includeProperties?: boolean;
   includePricing?: boolean;
   includeVersions?: boolean;
 }
 
-// Build comprehensive product data object
 async function buildProductInfo(productCode: string) {
   const product = await prisma.product.findUnique({
     where: { productCode },
@@ -32,10 +32,7 @@ async function buildProductInfo(productCode: string) {
     },
   });
 
-  if (!product || !product.versions[0]) {
-    return null;
-  }
-
+  if (!product || !product.versions[0]) return null;
   const version = product.versions[0];
 
   return {
@@ -44,11 +41,7 @@ async function buildProductInfo(productCode: string) {
     name: product.name,
     slug: product.slug,
     isActive: product.isActive,
-    brand: {
-      id: product.brand.id,
-      name: product.brand.name,
-      slug: product.brand.slug,
-    },
+    brand: { id: product.brand.id, name: product.brand.name, slug: product.brand.slug },
     currentVersion: {
       versionNumber: version.versionNumber,
       versionName: version.versionName,
@@ -56,23 +49,25 @@ async function buildProductInfo(productCode: string) {
       createdBy: version.createdBy,
       createdAt: version.createdAt.toISOString(),
     },
-    content: version.contents.map((c) => ({
+    content: version.contents.map((c: any) => ({
       type: c.contentType,
       text: c.content,
       language: c.language,
     })),
-    images: version.images.map((img) => ({
+    images: version.images.map((img: any) => ({
       url: img.imageUrl,
       type: img.imageType,
       position: img.position,
       altText: img.altText,
       label: img.label,
     })),
-    properties: version.properties.map((prop) => ({
-      key: prop.propertyKey,
-      value: prop.propertyValue,
-    })),
-    pricing: version.pricing.map((p) => ({
+    properties: version.properties
+      .filter((prop: any) => {
+        const saleCardProps = ['promotionText', 'badgePosition', 'showOnlyPriceColumn', 'showSizeAndConditionColumnsOnly', 'discountPercentage'];
+        return !saleCardProps.includes(prop.propertyKey);
+      })
+      .map((prop: any) => ({ key: prop.propertyKey, value: prop.propertyValue })),
+    pricing: version.pricing.map((p: any) => ({
       size: p.size,
       price: p.price.toString(),
       currency: p.currency,
@@ -83,173 +78,106 @@ async function buildProductInfo(productCode: string) {
   };
 }
 
-// Convert to CSV format
-function convertToCSV(products: any[]): string {
-  if (products.length === 0) {
-    return 'No products found';
+async function downloadImage(imageUrl: string): Promise<Buffer | null> {
+  try {
+    const response = await fetch(imageUrl);
+    if (!response.ok) return null;
+    return Buffer.from(await response.arrayBuffer());
+  } catch (error) {
+    console.error(`Error downloading image:`, error);
+    return null;
   }
+}
 
-  // Flatten product data for CSV
-  const rows: string[] = [];
-
-  // Header
-  const headers = [
-    'Product ID',
-    'Product Code',
-    'Product Name',
-    'Brand',
-    'Category',
-    'Status',
-    'Version',
-    'Description',
-    'Image URLs',
-    'Sizes',
-    'Prices (GBP)',
-    'Discount Prices',
-    'Conditions',
-    'Properties',
-  ];
-  rows.push(headers.map((h) => `"${h}"`).join(','));
-
-  // Data rows
-  for (const product of products) {
-    const category =
-      product.properties.find((p: any) => p.key === 'category')?.value || '';
-    const imageurls = product.images.map((img: any) => img.url).join('; ');
-    const sizes = product.pricing.map((p: any) => p.size).join('; ');
-    const prices = product.pricing.map((p: any) => p.price).join('; ');
-    const discountPrices = product.pricing
-      .map((p: any) => p.discountPrice || p.price)
-      .join('; ');
-    const conditions = product.pricing.map((p: any) => p.condition || '').join('; ');
-    const propertiesStr = product.properties
-      .map((p: any) => `${p.key}=${p.value}`)
-      .join('; ');
-
-    const row = [
-      product.id,
-      product.productCode,
-      product.name,
-      product.brand.name,
-      category,
-      product.isActive ? 'Active' : 'Inactive',
-      `v${product.currentVersion.versionNumber}`,
-      product.currentVersion.description || '',
-      imageurls,
-      sizes,
-      prices,
-      discountPrices,
-      conditions,
-      propertiesStr,
-    ];
-
-    rows.push(row.map((cell) => `"${String(cell).replace(/"/g, '""')}"`).join(','));
+function getFileExtension(url: string): string {
+  try {
+    const pathname = new URL(url).pathname;
+    const match = pathname.match(/\.(\w+)$/);
+    return match ? match[1].toLowerCase() : 'jpg';
+  } catch {
+    return 'jpg';
   }
-
-  return rows.join('\n');
 }
 
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json() as ExportOptions;
-    const {
-      productIds,
-      brandId,
-      format = 'json',
-      includeImages = true,
-      includeProperties = true,
-      includePricing = true,
-      includeVersions = true,
-    } = body;
+    const { productIds, brandId, format = 'zip', includeImages = true, includeProperties = true, includePricing = true } = body;
 
     let productsToExport = [];
 
-    // Get products based on filter
     if (productIds && productIds.length > 0) {
-      // Specific products
       for (const id of productIds) {
         const product = await buildProductInfo(id);
-        if (product) {
-          productsToExport.push(product);
-        }
+        if (product) productsToExport.push(product);
       }
     } else if (brandId) {
-      // All products from a brand
-      const products = await prisma.product.findMany({
-        where: { brandId },
-        select: { productCode: true },
-      });
+      const products = await prisma.product.findMany({ where: { brandId }, select: { productCode: true } });
       for (const p of products) {
         const product = await buildProductInfo(p.productCode);
-        if (product) {
-          productsToExport.push(product);
-        }
+        if (product) productsToExport.push(product);
       }
     } else {
-      // All products
-      const products = await prisma.product.findMany({
-        select: { productCode: true },
-      });
+      const products = await prisma.product.findMany({ select: { productCode: true } });
       for (const p of products) {
         const product = await buildProductInfo(p.productCode);
-        if (product) {
-          productsToExport.push(product);
-        }
+        if (product) productsToExport.push(product);
       }
     }
 
-    // Filter based on options
     const filteredProducts = productsToExport.map((p) => ({
       ...p,
       images: includeImages ? p.images : undefined,
       properties: includeProperties ? p.properties : undefined,
       pricing: includePricing ? p.pricing : undefined,
-      content: p.content || undefined,
-      currentVersion: includeVersions ? p.currentVersion : undefined,
     }));
 
-    // Generate filename
     const timestamp = new Date().toISOString().split('T')[0];
-    const count = filteredProducts.length;
-    const filename = `product-info-pack-${count}-items-${timestamp}`;
+    const filename = `product-info-pack-${filteredProducts.length}-items-${timestamp}`;
 
-    // Return in requested format
-    if (format === 'csv') {
-      const csv = convertToCSV(filteredProducts);
-      return new NextResponse(csv, {
+    if (format === 'zip') {
+      const zip = new JSZip();
+      zip.file('products.json', JSON.stringify(filteredProducts, null, 2));
+
+      for (const product of filteredProducts) {
+        const folder = zip.folder(`${product.productCode}`);
+        if (!folder) continue;
+
+        folder.file('product.json', JSON.stringify(product, null, 2));
+
+        if (includeImages && product.images && product.images.length > 0) {
+          const imagesFolder = folder.folder('images');
+          if (imagesFolder) {
+            for (let i = 0; i < product.images.length; i++) {
+              const image = product.images[i];
+              const ext = getFileExtension(image.url);
+              const imageName = `${i}-${image.type}.${ext}`;
+              const imageBuffer = await downloadImage(image.url);
+              if (imageBuffer) imagesFolder.file(imageName, imageBuffer);
+            }
+          }
+        }
+      }
+
+      const zipBuffer = await zip.generateAsync({ type: 'nodebuffer' });
+      return new NextResponse(zipBuffer, {
         status: 200,
         headers: {
-          'Content-Type': 'text/csv; charset=utf-8',
-          'Content-Disposition': `attachment; filename="${filename}.csv"`,
-        },
-      });
-    } else {
-      // JSON format
-      const json = {
-        metadata: {
-          exportedAt: new Date().toISOString(),
-          totalProducts: filteredProducts.length,
-          filters: {
-            productIds: productIds?.length ?? 'all',
-            brandId: brandId || 'all',
-          },
-        },
-        products: filteredProducts,
-      };
-
-      return new NextResponse(JSON.stringify(json, null, 2), {
-        status: 200,
-        headers: {
-          'Content-Type': 'application/json',
-          'Content-Disposition': `attachment; filename="${filename}.json"`,
+          'Content-Type': 'application/zip',
+          'Content-Disposition': `attachment; filename="${filename}.zip"`,
         },
       });
     }
+
+    return new NextResponse(JSON.stringify(filteredProducts, null, 2), {
+      status: 200,
+      headers: {
+        'Content-Type': 'application/json',
+        'Content-Disposition': `attachment; filename="${filename}.json"`,
+      },
+    });
   } catch (error) {
     console.error('Export failed:', error);
-    return NextResponse.json(
-      { error: error instanceof Error ? error.message : 'Export failed' },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: error instanceof Error ? error.message : 'Export failed' }, { status: 500 });
   }
 }
