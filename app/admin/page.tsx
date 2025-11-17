@@ -399,7 +399,7 @@ export default function AdminPage() {
                       headers: { 'Content-Type': 'application/json' },
                       body: JSON.stringify({
                         productIds: Array.from(selectedProductIds),
-                        format: 'json',
+                        format: 'zip',
                         includeImages: true,
                         includeProperties: true,
                         includePricing: true,
@@ -411,16 +411,16 @@ export default function AdminPage() {
                     const url = window.URL.createObjectURL(blob);
                     const a = document.createElement('a');
                     a.href = url;
-                    a.download = `products-info-pack-${selectedProductIds.size}-items.json`;
+                    a.download = `products-info-pack-${selectedProductIds.size}-items.zip`;
                     a.click();
-                    setSuccess(`Exported ${selectedProductIds.size} products!`);
+                    setSuccess(`Exported ${selectedProductIds.size} products as ZIP!`);
                   } catch (err) {
                     setError('Failed to export info pack');
                   }
                 }}
                 className="bg-purple-600 text-white font-bold px-4 py-2 rounded hover:bg-purple-700 text-sm"
               >
-                📦 Export Info Pack (JSON)
+                📦 Export Info Pack (ZIP)
               </button>
               <button
                 onClick={() => setSelectedProductIds(new Set())}
@@ -873,7 +873,7 @@ export default function AdminPage() {
                           headers: { 'Content-Type': 'application/json' },
                           body: JSON.stringify({
                             productIds: [selectedProduct.productCode],
-                            format: 'json',
+                            format: 'zip',
                             includeImages: true,
                             includeProperties: true,
                             includePricing: true,
