@@ -882,9 +882,9 @@ export default function AdminPage() {
                         const url = window.URL.createObjectURL(blob);
                         const a = document.createElement('a');
                         a.href = url;
-                        a.download = `${selectedProduct.productCode}-info-pack.json`;
+                        a.download = `${selectedProduct.productCode}-info-pack.zip`;
                         a.click();
-                        setSuccess('Info pack downloaded!');
+                        setSuccess('Info pack downloaded as ZIP!');
                       } catch (err) {
                         setError('Failed to export info pack');
                       }
