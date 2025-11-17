@@ -29,11 +29,15 @@ export default function AdminPage() {
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
   const [showCreateBrandModal, setShowCreateBrandModal] = useState(false);
+  const [showEditBrandModal, setShowEditBrandModal] = useState(false);
+  const [showBrandDetailsModal, setShowBrandDetailsModal] = useState(false);
+  const [selectedBrand, setSelectedBrand] = useState<any>(null);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [showProductModal, setShowProductModal] = useState(false);
   const [isEditingProduct, setIsEditingProduct] = useState(false);
   const [productForm, setProductForm] = useState<any>({});
   const [selectedProductIds, setSelectedProductIds] = useState<Set<string>>(new Set());
+  const [activeTab, setActiveTab] = useState<'products' | 'brands'>('products');
 
   // Brand form state
   const [brandForm, setBrandForm] = useState({
@@ -176,6 +180,22 @@ export default function AdminPage() {
     }
   };
 
+  // Fetch single brand details
+  const fetchBrandDetails = async (brandId: string) => {
+    setLoading(true);
+    try {
+      const response = await fetch(`/api/brands/crud?id=${brandId}`);
+      if (!response.ok) throw new Error('Failed to fetch brand details');
+      const data = await response.json();
+      setSelectedBrand(data);
+      setShowBrandDetailsModal(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to fetch brand details');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   // Create brand
   const handleCreateBrand = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -197,6 +217,68 @@ export default function AdminPage() {
     } finally {
       setLoading(false);
     }
+  };
+
+  // Update brand
+  const handleUpdateBrand = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!selectedBrand) return;
+    setLoading(true);
+    setError(null);
+    try {
+      const response = await fetch('/api/brands/crud', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          id: selectedBrand.id,
+          ...brandForm,
+        }),
+      });
+      if (!response.ok) throw new Error('Failed to update brand');
+      setSuccess('Brand updated successfully');
+      setShowEditBrandModal(false);
+      setSelectedBrand(null);
+      setBrandForm({ name: '', slug: '', description: '', logoUrl: '' });
+      fetchBrands();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to update brand');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Delete brand
+  const handleDeleteBrand = async (brandId: string, brandName: string) => {
+    if (!confirm(`Are you sure you want to delete "${brandName}"? This action cannot be undone and will affect all related products.`)) {
+      return;
+    }
+    setLoading(true);
+    setError(null);
+    try {
+      const response = await fetch(`/api/brands/crud?id=${brandId}`, {
+        method: 'DELETE',
+      });
+      if (!response.ok) throw new Error('Failed to delete brand');
+      setSuccess('Brand deleted successfully');
+      fetchBrands();
+      fetchProducts();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to delete brand');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Open edit modal
+  const openEditBrandModal = (brand: any) => {
+    setSelectedBrand(brand);
+    setBrandForm({
+      name: brand.name,
+      slug: brand.slug,
+      description: brand.description || '',
+      logoUrl: brand.logoUrl || '',
+    });
+    setShowEditBrandModal(true);
   };
 
   useEffect(() => {
@@ -223,7 +305,7 @@ export default function AdminPage() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-8 flex justify-between items-center">
           <div>
-            <h1 className="text-4xl font-bold text-black mb-2">Product Management</h1>
+            <h1 className="text-4xl font-bold text-black mb-2">Admin Dashboard</h1>
             <p className="text-xl text-black font-semibold">Manage products and brands</p>
           </div>
           <button
@@ -231,6 +313,30 @@ export default function AdminPage() {
             className="bg-green-600 text-white font-bold px-6 py-3 rounded-md hover:bg-green-700 transition-colors text-base"
           >
             + Create Brand
+          </button>
+        </div>
+
+        {/* Tabs */}
+        <div className="mb-6 flex gap-4 border-b-2 border-gray-300">
+          <button
+            onClick={() => setActiveTab('products')}
+            className={`px-6 py-3 font-bold text-lg transition-colors ${
+              activeTab === 'products'
+                ? 'border-b-4 border-blue-600 text-blue-600'
+                : 'text-gray-600 hover:text-blue-600'
+            }`}
+          >
+            Products ({products.length})
+          </button>
+          <button
+            onClick={() => setActiveTab('brands')}
+            className={`px-6 py-3 font-bold text-lg transition-colors ${
+              activeTab === 'brands'
+                ? 'border-b-4 border-green-600 text-green-600'
+                : 'text-gray-600 hover:text-green-600'
+            }`}
+          >
+            Brands ({brands.length})
           </button>
         </div>
 
@@ -246,8 +352,11 @@ export default function AdminPage() {
           </div>
         )}
 
-        {/* Search and Filter */}
-        <div className="bg-white p-6 rounded-lg shadow-md border-2 border-gray-300 mb-6">
+        {/* PRODUCTS TAB */}
+        {activeTab === 'products' && (
+          <>
+            {/* Search and Filter */}
+            <div className="bg-white p-6 rounded-lg shadow-md border-2 border-gray-300 mb-6">
           <div className="grid grid-cols-2 gap-4 mb-4">
             <div>
               <label className="block text-base font-bold mb-2 text-black">Search Products</label>
@@ -391,6 +500,173 @@ export default function AdminPage() {
                   </button>
                 </div>
               </form>
+            </div>
+          </div>
+        )}
+
+        {/* Edit Brand Modal */}
+        {showEditBrandModal && selectedBrand && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+            <div className="bg-white p-8 rounded-xl shadow-2xl border-4 border-yellow-600 max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto">
+              <h2 className="text-3xl font-bold text-black mb-6">Edit Brand</h2>
+              <form onSubmit={handleUpdateBrand} className="space-y-5">
+                <div>
+                  <label className="block text-base font-bold mb-2 text-black">Name *</label>
+                  <input
+                    type="text"
+                    value={brandForm.name}
+                    onChange={(e) => setBrandForm({ ...brandForm, name: e.target.value })}
+                    className="w-full border-2 border-gray-400 rounded-md px-4 py-3 text-base text-black font-medium focus:border-blue-600 focus:ring-2 focus:ring-blue-300 outline-none"
+                    required
+                  />
+                </div>
+                <div>
+                  <label className="block text-base font-bold mb-2 text-black">Slug *</label>
+                  <input
+                    type="text"
+                    value={brandForm.slug}
+                    onChange={(e) => setBrandForm({ ...brandForm, slug: e.target.value })}
+                    className="w-full border-2 border-gray-400 rounded-md px-4 py-3 text-base text-black font-medium focus:border-blue-600 focus:ring-2 focus:ring-blue-300 outline-none"
+                    required
+                  />
+                </div>
+                <div>
+                  <label className="block text-base font-bold mb-2 text-black">Description</label>
+                  <textarea
+                    value={brandForm.description}
+                    onChange={(e) => setBrandForm({ ...brandForm, description: e.target.value })}
+                    className="w-full border-2 border-gray-400 rounded-md px-4 py-3 text-base text-black font-medium focus:border-blue-600 focus:ring-2 focus:ring-blue-300 outline-none"
+                    rows={4}
+                  />
+                </div>
+                <div>
+                  <label className="block text-base font-bold mb-2 text-black">Logo URL</label>
+                  <input
+                    type="url"
+                    value={brandForm.logoUrl}
+                    onChange={(e) => setBrandForm({ ...brandForm, logoUrl: e.target.value })}
+                    className="w-full border-2 border-gray-400 rounded-md px-4 py-3 text-base text-black font-medium focus:border-blue-600 focus:ring-2 focus:ring-blue-300 outline-none"
+                  />
+                </div>
+                <div className="flex gap-4 pt-4">
+                  <button
+                    type="submit"
+                    disabled={loading}
+                    className="flex-1 bg-yellow-600 text-white font-bold py-4 rounded-md hover:bg-yellow-700 disabled:opacity-50 transition-colors text-lg"
+                  >
+                    {loading ? 'Updating...' : 'Update Brand'}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowEditBrandModal(false);
+                      setSelectedBrand(null);
+                      setBrandForm({ name: '', slug: '', description: '', logoUrl: '' });
+                    }}
+                    className="px-8 bg-gray-400 text-white font-bold py-4 rounded-md hover:bg-gray-500 transition-colors text-lg"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        )}
+
+        {/* Brand Details Modal */}
+        {showBrandDetailsModal && selectedBrand && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+            <div className="bg-white rounded-xl shadow-2xl border-4 border-green-600 max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+              <div className="p-8">
+                <div className="flex justify-between items-start mb-6">
+                  <div>
+                    <h2 className="text-3xl font-bold text-black mb-2">{selectedBrand.name}</h2>
+                    <p className="text-base text-black font-medium">Slug: {selectedBrand.slug}</p>
+                  </div>
+                  <button
+                    onClick={() => {
+                      setShowBrandDetailsModal(false);
+                      setSelectedBrand(null);
+                    }}
+                    className="text-gray-500 hover:text-black text-3xl font-bold"
+                  >
+                    ×
+                  </button>
+                </div>
+
+                {/* Description */}
+                {selectedBrand.description && (
+                  <div className="mb-6">
+                    <h3 className="text-xl font-bold text-black mb-3">Description</h3>
+                    <p className="text-black bg-gray-100 p-4 rounded-lg">{selectedBrand.description}</p>
+                  </div>
+                )}
+
+                {/* Logo */}
+                {selectedBrand.logoUrl && (
+                  <div className="mb-6">
+                    <h3 className="text-xl font-bold text-black mb-3">Logo</h3>
+                    <img
+                      src={selectedBrand.logoUrl}
+                      alt={`${selectedBrand.name} logo`}
+                      className="max-w-xs border-2 border-gray-300 rounded-lg"
+                    />
+                  </div>
+                )}
+
+                {/* Products */}
+                {selectedBrand.products && selectedBrand.products.length > 0 && (
+                  <div className="mb-6">
+                    <h3 className="text-xl font-bold text-black mb-3">
+                      Products ({selectedBrand.products.length})
+                    </h3>
+                    <div className="grid grid-cols-2 gap-3">
+                      {selectedBrand.products.map((product: any) => (
+                        <div key={product.id} className="bg-gray-100 p-4 rounded-lg border-2 border-gray-300">
+                          <p className="text-base font-bold text-black">{product.name}</p>
+                          <p className="text-sm text-black font-medium">Code: {product.productCode}</p>
+                          <p className="text-sm text-black">
+                            Status: <span className={product.isActive ? 'text-green-700' : 'text-red-700'}>
+                              {product.isActive ? 'Active' : 'Inactive'}
+                            </span>
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Metadata */}
+                <div className="mb-6">
+                  <h3 className="text-xl font-bold text-black mb-3">Metadata</h3>
+                  <div className="bg-gray-100 p-4 rounded-lg">
+                    <p className="text-black font-medium">Created: {new Date(selectedBrand.createdAt).toLocaleString()}</p>
+                    <p className="text-black font-medium">Updated: {new Date(selectedBrand.updatedAt).toLocaleString()}</p>
+                  </div>
+                </div>
+
+                {/* Actions */}
+                <div className="flex gap-3 pt-4 border-t-2 border-gray-300">
+                  <button
+                    onClick={() => {
+                      setShowBrandDetailsModal(false);
+                      setSelectedBrand(null);
+                    }}
+                    className="bg-gray-400 text-white font-bold px-6 py-3 rounded-md hover:bg-gray-500 transition-colors text-base"
+                  >
+                    Close
+                  </button>
+                  <button
+                    onClick={() => {
+                      setShowBrandDetailsModal(false);
+                      openEditBrandModal(selectedBrand);
+                    }}
+                    className="flex-1 bg-yellow-600 text-white font-bold py-3 rounded-md hover:bg-yellow-700 transition-colors text-base"
+                  >
+                    Edit Brand
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         )}
@@ -748,9 +1024,87 @@ export default function AdminPage() {
           </table>
         </div>
 
-        <div className="mt-4 text-black text-base font-bold">
-          Showing {filteredProducts.length} of {products.length} products
-        </div>
+            <div className="mt-4 text-black text-base font-bold">
+              Showing {filteredProducts.length} of {products.length} products
+            </div>
+          </>
+        )}
+
+        {/* BRANDS TAB */}
+        {activeTab === 'brands' && (
+          <>
+            <div className="bg-white rounded-lg shadow-md border-2 border-gray-300 overflow-hidden">
+              <table className="w-full">
+                <thead className="bg-gray-800 text-white">
+                  <tr>
+                    <th className="px-6 py-4 text-left text-base font-bold">Brand Name</th>
+                    <th className="px-6 py-4 text-left text-base font-bold">Slug</th>
+                    <th className="px-6 py-4 text-left text-base font-bold">Description</th>
+                    <th className="px-6 py-4 text-center text-base font-bold">Products</th>
+                    <th className="px-6 py-4 text-right text-base font-bold">Actions</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y-2 divide-gray-200">
+                  {brands.length === 0 ? (
+                    <tr>
+                      <td colSpan={5} className="px-6 py-8 text-center text-black text-base font-medium">
+                        No brands yet. Create your first brand!
+                      </td>
+                    </tr>
+                  ) : (
+                    brands.map((brand: any) => (
+                      <tr
+                        key={brand.id}
+                        className="hover:bg-green-50 transition-colors"
+                      >
+                        <td className="px-6 py-4 text-black font-bold text-base">
+                          {brand.name}
+                        </td>
+                        <td className="px-6 py-4 text-black font-medium text-base">
+                          {brand.slug}
+                        </td>
+                        <td className="px-6 py-4 text-black text-base max-w-md truncate">
+                          {brand.description || '—'}
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                          <span className="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-bold">
+                            {brand._count?.products || 0}
+                          </span>
+                        </td>
+                        <td className="px-6 py-4 text-right">
+                          <div className="flex gap-2 justify-end">
+                            <button
+                              onClick={() => fetchBrandDetails(brand.id)}
+                              className="bg-blue-600 text-white font-bold px-4 py-2 rounded hover:bg-blue-700 transition-colors text-sm"
+                            >
+                              View
+                            </button>
+                            <button
+                              onClick={() => openEditBrandModal(brand)}
+                              className="bg-yellow-600 text-white font-bold px-4 py-2 rounded hover:bg-yellow-700 transition-colors text-sm"
+                            >
+                              Edit
+                            </button>
+                            <button
+                              onClick={() => handleDeleteBrand(brand.id, brand.name)}
+                              className="bg-red-600 text-white font-bold px-4 py-2 rounded hover:bg-red-700 transition-colors text-sm"
+                            >
+                              Delete
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    ))
+                  )}
+                </tbody>
+              </table>
+            </div>
+
+            <div className="mt-4 text-black text-base font-bold">
+              Showing {brands.length} brand{brands.length !== 1 ? 's' : ''}
+            </div>
+          </>
+        )}
       </div>
     </div>
   );
