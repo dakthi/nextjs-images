@@ -2,6 +2,7 @@
 
 import SaleCard from '@/components/SaleCard';
 import ExportSelector from '@/components/ExportSelector';
+import MainLayout from './components/MainLayout';
 import { useRef, useState, useEffect } from 'react';
 import { toPng } from 'html-to-image';
 import JSZip from 'jszip';
@@ -586,13 +587,14 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-gray-50 py-8 px-4">
-      <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">
-        Winter Sale 2025
-      </h1>
+    <MainLayout>
+      <div className="space-y-8">
+        <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">
+          Winter Sale 2025
+        </h1>
 
-      <ExportSelector
-        selectedCount={selectedProducts.size}
+        <ExportSelector
+          selectedCount={selectedProducts.size}
         totalCount={productsData.products.length}
         onExportPNGs={exportIndividualPNGs}
         onExportZip={exportAllAsZip}
@@ -824,6 +826,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </main>
+      </div>
+    </MainLayout>
   );
 }

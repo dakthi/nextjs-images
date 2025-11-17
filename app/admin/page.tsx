@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import MainLayout from '../components/MainLayout';
 import ImageManager from '../components/ImageManager';
 
 interface Brand {
@@ -302,21 +303,21 @@ export default function AdminPage() {
   });
 
   return (
-    <div className="min-h-screen bg-gray-50 p-8">
-      <div className="max-w-7xl mx-auto">
-        <div className="mb-8 flex justify-between items-center">
-          <div>
-            <h1 className="text-4xl font-bold text-black mb-2">Admin Dashboard</h1>
-            <p className="text-xl text-black font-semibold">Manage products and brands</p>
-          </div>
-          <button
-            onClick={() => setShowCreateBrandModal(true)}
-            className="bg-green-600 text-white font-bold px-6 py-3 rounded-md hover:bg-green-700 transition-colors text-base"
-          >
-            + Create Brand
-          </button>
+    <MainLayout>
+      <div className="mb-8 flex justify-between items-center">
+        <div>
+          <h1 className="text-4xl font-bold text-black mb-2">Products</h1>
+          <p className="text-xl text-black font-semibold">Manage products and brands</p>
         </div>
+        <button
+          onClick={() => setShowCreateBrandModal(true)}
+          className="bg-green-600 text-white font-bold px-6 py-3 rounded-md hover:bg-green-700 transition-colors text-base"
+        >
+          + Create Brand
+        </button>
+      </div>
 
+      <div>
         {/* Tabs */}
         <div className="mb-6 flex gap-4 border-b-2 border-gray-300">
           <button
@@ -1103,6 +1104,6 @@ export default function AdminPage() {
           </>
         )}
       </div>
-    </div>
+    </MainLayout>
   );
 }

@@ -15,8 +15,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "VL London - Sale Cards",
-  description: "Product sale cards with winter theme",
+  title: "VL London - Product Manager",
+  description: "Comprehensive product and sale cards management system",
   icons: {
     icon: "/vllondon-logo.jpeg",
   },
@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${balsamiqSans.variable} ${montserrat.variable}`}>{children}</body>
+      <body className={`${balsamiqSans.variable} ${montserrat.variable} bg-gray-50`}>{children}</body>
     </html>
   );
 }
