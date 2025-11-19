@@ -1,7 +1,5 @@
 import { Product, PricingRow } from '@/types/product';
-import { PrismaClient } from '@prisma/client';
-
-const prisma = new PrismaClient();
+import { prisma } from '@/lib/prisma';
 
 /**
  * Transform database product record to frontend Product format
