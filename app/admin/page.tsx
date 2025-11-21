@@ -435,7 +435,7 @@ export default function AdminPage() {
                 }}
                 className="bg-purple-600 text-white font-bold px-4 py-2 rounded hover:bg-purple-700 text-sm"
               >
-                📦 Export Info Pack (ZIP)
+                Export Info Pack (ZIP)
               </button>
               <button
                 onClick={() => setSelectedProductIds(new Set())}
@@ -720,7 +720,7 @@ export default function AdminPage() {
                           onClick={() => setShowVersionComparison(true)}
                           className="text-sm bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 font-bold"
                         >
-                          📊 Compare Versions
+                          Compare Versions
                         </button>
                       )}
                     </div>
@@ -887,7 +887,7 @@ export default function AdminPage() {
                         : 'bg-blue-600 text-white hover:bg-blue-700'
                     }`}
                   >
-                    {isEditingProduct ? '✓ Done Editing' : 'Edit Product'}
+                    {isEditingProduct ? 'Done Editing' : 'Edit Product'}
                   </button>
                   <button
                     onClick={async () => {
@@ -919,7 +919,7 @@ export default function AdminPage() {
                     }}
                     className="bg-purple-600 text-white font-bold px-6 py-3 rounded-md hover:bg-purple-700 transition-colors text-base"
                   >
-                    📦 Export Info Pack
+                    Export Info Pack
                   </button>
                 </div>
               </div>

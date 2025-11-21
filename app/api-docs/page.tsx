@@ -155,43 +155,43 @@ export default function APIDocs() {
         <h2 className="text-xl font-bold text-green-900 mb-3">Key Features</h2>
         <ul className="space-y-2 text-black">
           <li className="flex items-start">
-            <span className="font-bold mr-2">✓</span>
+            <span className="font-bold mr-2">•</span>
             <span>Full product lifecycle management (CRUD operations)</span>
           </li>
           <li className="flex items-start">
-            <span className="font-bold mr-2">✓</span>
+            <span className="font-bold mr-2">•</span>
             <span>Product versioning with comparison and rollback</span>
           </li>
           <li className="flex items-start">
-            <span className="font-bold mr-2">✓</span>
+            <span className="font-bold mr-2">•</span>
             <span>Multi-format content (descriptions, images, pricing)</span>
           </li>
           <li className="flex items-start">
-            <span className="font-bold mr-2">✓</span>
+            <span className="font-bold mr-2">•</span>
             <span>Brand management and product categorization</span>
           </li>
           <li className="flex items-start">
-            <span className="font-bold mr-2">✓</span>
+            <span className="font-bold mr-2">•</span>
             <span>File upload to Cloudflare R2 with retry logic</span>
           </li>
           <li className="flex items-start">
-            <span className="font-bold mr-2">✓</span>
+            <span className="font-bold mr-2">•</span>
             <span>Bulk CSV import for products</span>
           </li>
           <li className="flex items-start">
-            <span className="font-bold mr-2">✓</span>
+            <span className="font-bold mr-2">•</span>
             <span>Multi-format export (JSON, CSV, ZIP)</span>
           </li>
           <li className="flex items-start">
-            <span className="font-bold mr-2">✓</span>
+            <span className="font-bold mr-2">•</span>
             <span>Search and filtering capabilities</span>
           </li>
           <li className="flex items-start">
-            <span className="font-bold mr-2">✓</span>
+            <span className="font-bold mr-2">•</span>
             <span>Audit logging for all changes</span>
           </li>
           <li className="flex items-start">
-            <span className="font-bold mr-2">✓</span>
+            <span className="font-bold mr-2">•</span>
             <span>Flexible property system for custom attributes</span>
           </li>
         </ul>

@@ -49,7 +49,7 @@ export default function ProductForm({ product, onSave }: ProductFormProps) {
           <p className="text-sm !text-gray-600">{formData.id}</p>
         </div>
         <span className="text-gray-400">
-          {isExpanded ? '▼' : '▶'}
+          {isExpanded ? '−' : '+'}
         </span>
       </button>
 

@@ -98,7 +98,7 @@ export default function EditorPage() {
 
         {fileLocked && (
           <div className="bg-yellow-100 border border-yellow-400 text-yellow-800 px-4 py-3 rounded mb-4">
-            ⚠️ File is currently locked. Someone may be editing. Please try again in a few moments.
+            WARNING: File is currently locked. Someone may be editing. Please try again in a few moments.
           </div>
         )}
 

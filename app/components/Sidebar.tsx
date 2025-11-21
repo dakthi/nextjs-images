@@ -15,25 +15,25 @@ const navItems: NavItem[] = [
   {
     label: 'Dashboard',
     href: '/',
-    icon: '📊',
+    icon: '▪',
     description: 'Overview & Quick Actions',
   },
   {
     label: 'Products',
     href: '/admin',
-    icon: '📦',
+    icon: '▪',
     description: 'Manage Products & Content',
   },
   {
     label: 'Image Editor',
     href: '/editor',
-    icon: '🎨',
+    icon: '▪',
     description: 'Create Product Images',
   },
   {
     label: 'Catalog',
     href: '/catalog',
-    icon: '📚',
+    icon: '▪',
     description: 'Browse Products',
   },
 ];
@@ -55,7 +55,7 @@ export default function Sidebar() {
         onClick={() => setIsOpen(!isOpen)}
         className="fixed bottom-6 right-6 z-50 md:hidden bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700"
       >
-        {isOpen ? '✕' : '☰'}
+        {isOpen ? '×' : '≡'}
       </button>
 
       {/* Sidebar */}

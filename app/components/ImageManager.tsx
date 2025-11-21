@@ -250,7 +250,7 @@ export default function ImageManager({ versionId, images, onImagesUpdated }: Ima
           className="bg-blue-600 text-white font-bold px-4 py-2 rounded hover:bg-blue-700"
           disabled={loading}
         >
-          {showAddForm ? '✕ Cancel' : '+ Add Image'}
+          {showAddForm ? '× Cancel' : '+ Add Image'}
         </button>
 
         {selectedImages.size > 0 && (
@@ -259,7 +259,7 @@ export default function ImageManager({ versionId, images, onImagesUpdated }: Ima
             className="bg-red-600 text-white font-bold px-4 py-2 rounded hover:bg-red-700"
             disabled={loading}
           >
-            🗑️ Delete {selectedImages.size} Selected
+            Delete {selectedImages.size} Selected
           </button>
         )}
 
@@ -335,13 +335,13 @@ export default function ImageManager({ versionId, images, onImagesUpdated }: Ima
                     className="flex-1 bg-green-600 text-white font-bold px-6 py-2 rounded hover:bg-green-700"
                     disabled={loading}
                   >
-                    {loading ? 'Adding...' : '✓ Add Image'}
+                    {loading ? 'Adding...' : 'Add Image'}
                   </button>
                   <button
                     onClick={() => setNewImage({ imageUrl: '', imageType: 'main', position: 'top', altText: '', label: '' })}
                     className="flex-1 bg-gray-500 text-white font-bold px-6 py-2 rounded hover:bg-gray-600"
                   >
-                    ✕ Clear
+                    × Clear
                   </button>
                 </div>
               </div>
@@ -437,13 +437,13 @@ export default function ImageManager({ versionId, images, onImagesUpdated }: Ima
                     }}
                     className="bg-blue-500 text-white text-xs font-bold px-2 py-1 rounded hover:bg-blue-600"
                   >
-                    ✎
+                    Edit
                   </button>
                   <button
                     onClick={() => handleDeleteImage(image.id)}
                     className="bg-red-500 text-white text-xs font-bold px-2 py-1 rounded hover:bg-red-600"
                   >
-                    🗑️
+                    Delete
                   </button>
                 </div>
               )}
@@ -452,7 +452,7 @@ export default function ImageManager({ versionId, images, onImagesUpdated }: Ima
         </div>
       )}
 
-      <p className="text-xs text-gray-600 mt-4">💡 Drag images to reorder them</p>
+      <p className="text-xs text-gray-600 mt-4">Tip: Drag images to reorder them</p>
     </div>
   );
 }
