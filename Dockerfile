@@ -9,16 +9,14 @@ WORKDIR /app
 # 3. Copy package files
 COPY package*.json ./
 
-# 4. Install dependencies
+# 4. Copy Prisma schema (needed for postinstall script)
+COPY prisma ./prisma
+
+# 5. Install dependencies (postinstall will run prisma generate)
 RUN npm install
 
-# 5. Copy the rest of the app (but not media files)
+# 6. Copy the rest of the app (but not media files)
 COPY . .
-
-# 6. Generate Prisma client before building the app
-# Prisma needs DATABASE_URL for schema validation during generate
-# We provide a dummy value since the actual DB connection happens at runtime
-RUN DATABASE_URL="postgresql://dummy:dummy@localhost:5432/dummy" npx prisma generate
 
 # 7. Build the Next.js app
 RUN npm run build
