@@ -28,11 +28,17 @@ export default function RSSFeedPage() {
   const [editingFeed, setEditingFeed] = useState<RSSFeed | null>(null);
   const [feedForm, setFeedForm] = useState({ name: '', url: '', category: '' });
 
-  const categories = ['all', 'UK News', 'Business', 'Money', 'Real Estate', 'Immigration'];
+  const categories = ['all', 'UK News', 'Business', 'Money', 'Real Estate', 'Immigration', 'Law & Policy'];
 
   useEffect(() => {
     fetchSavedFeeds();
   }, []);
+
+  useEffect(() => {
+    if (feeds.length > 0 && feeds.some(f => f.enabled)) {
+      fetchFeeds();
+    }
+  }, [feeds]);
 
   const fetchSavedFeeds = async () => {
     try {
@@ -215,7 +221,7 @@ export default function RSSFeedPage() {
                 disabled={loading || feeds.filter(f => f.enabled).length === 0}
                 className="w-full mt-4 bg-[#C5A572] text-white font-bold px-4 py-3 rounded-md hover:bg-[#0A1128] transition-colors disabled:opacity-50"
               >
-                {loading ? 'Loading...' : 'Fetch News'}
+                {loading ? 'Loading...' : 'Refresh'}
               </button>
             </div>
           </div>
@@ -249,7 +255,7 @@ export default function RSSFeedPage() {
                 <div className="bg-white p-6 rounded-lg shadow-md border-2 border-[#0A1128]/20 text-center">
                   <p className="text-black/60">
                     {feedItems.length === 0
-                      ? 'Click "Fetch News" to load articles from selected sources'
+                      ? 'Loading articles from selected sources...'
                       : 'No articles found for this category'}
                   </p>
                 </div>
