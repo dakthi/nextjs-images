@@ -15,25 +15,25 @@ const navItems: NavItem[] = [
   {
     label: 'Dashboard',
     href: '/',
-    icon: '▪',
+    icon: '',
     description: 'Overview & Quick Actions',
   },
   {
     label: 'Products',
     href: '/admin',
-    icon: '▪',
+    icon: '',
     description: 'Manage Products & Content',
   },
   {
     label: 'Image Editor',
     href: '/editor',
-    icon: '▪',
+    icon: '',
     description: 'Create Product Images',
   },
   {
     label: 'Catalog',
     href: '/catalog',
-    icon: '▪',
+    icon: '',
     description: 'Browse Products',
   },
 ];
@@ -53,21 +53,21 @@ export default function Sidebar() {
       {/* Mobile Toggle */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-6 right-6 z-50 md:hidden bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700"
+        className="fixed bottom-6 right-6 z-50 md:hidden bg-[#C5A572] text-[#0A1128] p-3 rounded-full shadow-lg hover:bg-[#0A1128] hover:text-white transition-colors border-2 border-[#0A1128]"
       >
         {isOpen ? '×' : '≡'}
       </button>
 
       {/* Sidebar */}
       <aside
-        className={`fixed left-0 top-0 h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white w-64 shadow-xl transform transition-transform duration-300 z-40 ${
+        className={`fixed left-0 top-0 h-screen bg-[#0A1128] text-white w-64 shadow-xl transform transition-transform duration-300 z-40 border-r-4 border-[#C5A572] ${
           isOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'
         }`}
       >
         {/* Logo/Header */}
-        <div className="p-6 border-b border-gray-700">
-          <h1 className="text-2xl font-bold">VL London</h1>
-          <p className="text-sm text-gray-400 mt-1">Product Manager</p>
+        <div className="p-6 border-b-2 border-[#C5A572]">
+          <h1 className="text-2xl font-bold text-white">VL London</h1>
+          <p className="text-sm text-[#C5A572] mt-1">Product Manager</p>
         </div>
 
         {/* Navigation Items */}
@@ -77,35 +77,22 @@ export default function Sidebar() {
               key={item.href}
               href={item.href}
               onClick={() => setIsOpen(false)}
-              className={`flex flex-col p-4 rounded-lg transition-all duration-200 ${
+              className={`flex flex-col p-4 rounded-lg transition-all duration-200 border-2 ${
                 isActive(item.href)
-                  ? 'bg-blue-600 shadow-lg'
-                  : 'hover:bg-gray-700 text-gray-200'
+                  ? 'bg-[#C5A572] text-[#0A1128] border-[#C5A572] shadow-lg font-bold'
+                  : 'text-white border-transparent hover:bg-[#C5A572]/20 hover:border-[#C5A572]'
               }`}
             >
-              <div className="flex items-center gap-3">
-                <span className="text-2xl">{item.icon}</span>
-                <div className="flex-1">
-                  <div className="font-semibold text-sm">{item.label}</div>
-                  <div className="text-xs text-gray-300 mt-0.5">
-                    {item.description}
-                  </div>
+              <div className="flex flex-col">
+                <div className="font-semibold text-sm">{item.label}</div>
+                <div className={`text-xs mt-0.5 ${isActive(item.href) ? 'text-[#0A1128]/70' : 'text-[#C5A572]'}`}>
+                  {item.description}
                 </div>
               </div>
             </Link>
           ))}
         </nav>
 
-        {/* Footer Info */}
-        <div className="absolute bottom-6 left-6 right-6 text-xs text-gray-400 border-t border-gray-700 pt-6">
-          <p className="mb-2">Quick Links:</p>
-          <div className="space-y-1">
-            <p>• Clone products for variants</p>
-            <p>• Export brands as ZIP</p>
-            <p>• Search & filter products</p>
-            <p>• Batch image management</p>
-          </div>
-        </div>
       </aside>
 
       {/* Mobile Overlay */}

@@ -110,32 +110,6 @@ export default function ProductForm({ product, onSave }: ProductFormProps) {
                 className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
               />
             </div>
-
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
-                Discount %
-              </label>
-              <input
-                type="number"
-                name="discountPercentage"
-                value={formData.discountPercentage || 0}
-                onChange={handleInputChange}
-                className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
-              />
-            </div>
-
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
-                Promotion Text
-              </label>
-              <input
-                type="text"
-                name="promotionText"
-                value={formData.promotionText || ''}
-                onChange={handleInputChange}
-                className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
-              />
-            </div>
           </div>
 
           {/* Image Upload */}
@@ -195,37 +169,6 @@ export default function ProductForm({ product, onSave }: ProductFormProps) {
             <h4 className="font-semibold text-gray-900 mb-3">Display Settings</h4>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {/* Badge Position */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Badge Position
-                </label>
-                <div className="space-y-2">
-                  <label className="flex items-center">
-                    <input
-                      type="radio"
-                      name="badgePosition"
-                      value="bottom-right"
-                      checked={(formData.badgePosition || 'bottom-right') === 'bottom-right'}
-                      onChange={handleInputChange}
-                      className="mr-2"
-                    />
-                    <span className="text-sm">Bottom Right</span>
-                  </label>
-                  <label className="flex items-center">
-                    <input
-                      type="radio"
-                      name="badgePosition"
-                      value="middle-right"
-                      checked={formData.badgePosition === 'middle-right'}
-                      onChange={handleInputChange}
-                      className="mr-2"
-                    />
-                    <span className="text-sm">Middle Right</span>
-                  </label>
-                </div>
-              </div>
-
               {/* Table Text Size */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -245,41 +188,6 @@ export default function ProductForm({ product, onSave }: ProductFormProps) {
                   <option value="xl">XL (Extra Large)</option>
                 </select>
               </div>
-            </div>
-
-            {/* Other Options */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-              <label className="flex items-center text-sm">
-                <input
-                  type="checkbox"
-                  name="showOnlyPriceColumn"
-                  checked={formData.showOnlyPriceColumn || false}
-                  onChange={(e) =>
-                    setFormData((prev) => ({
-                      ...prev,
-                      showOnlyPriceColumn: e.target.checked,
-                    }))
-                  }
-                  className="mr-2"
-                />
-                Show Only Price Column
-              </label>
-
-              <label className="flex items-center text-sm">
-                <input
-                  type="checkbox"
-                  name="showSizeAndConditionColumnsOnly"
-                  checked={formData.showSizeAndConditionColumnsOnly || false}
-                  onChange={(e) =>
-                    setFormData((prev) => ({
-                      ...prev,
-                      showSizeAndConditionColumnsOnly: e.target.checked,
-                    }))
-                  }
-                  className="mr-2"
-                />
-                Show Size & Condition Only
-              </label>
             </div>
           </div>
 

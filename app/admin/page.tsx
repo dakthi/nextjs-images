@@ -41,7 +41,8 @@ export default function AdminPage() {
   const [isEditingProduct, setIsEditingProduct] = useState(false);
   const [productForm, setProductForm] = useState<any>({});
   const [selectedProductIds, setSelectedProductIds] = useState<Set<string>>(new Set());
-  const [activeTab, setActiveTab] = useState<'products' | 'brands' | 'import'>('products');
+  const [activeTab, setActiveTab] = useState<'brands' | 'products'>('brands');
+  const [showImportModal, setShowImportModal] = useState(false);
   const [showVersionComparison, setShowVersionComparison] = useState(false);
 
   // Brand form state
@@ -312,66 +313,140 @@ export default function AdminPage() {
           <h1 className="text-4xl font-bold text-black mb-2">Products</h1>
           <p className="text-xl text-black font-semibold">Manage products and brands</p>
         </div>
-        <button
-          onClick={() => setShowCreateBrandModal(true)}
-          className="bg-green-600 text-white font-bold px-6 py-3 rounded-md hover:bg-green-700 transition-colors text-base"
-        >
-          + Create Brand
-        </button>
+        <div className="flex gap-3">
+          <button
+            onClick={() => setShowImportModal(true)}
+            className="bg-[#C5A572] text-white font-bold px-6 py-3 rounded-md hover:bg-[#0A1128] transition-colors text-base"
+          >
+            Import CSV
+          </button>
+          <button
+            onClick={() => setShowCreateBrandModal(true)}
+            className="bg-[#C5A572] text-white font-bold px-6 py-3 rounded-md hover:bg-[#0A1128] transition-colors text-base"
+          >
+            + Create Brand
+          </button>
+        </div>
       </div>
 
       <div>
         {/* Tabs */}
-        <div className="mb-6 flex gap-4 border-b-2 border-gray-300">
-          <button
-            onClick={() => setActiveTab('products')}
-            className={`px-6 py-3 font-bold text-lg transition-colors ${
-              activeTab === 'products'
-                ? 'border-b-4 border-blue-600 text-blue-600'
-                : 'text-gray-600 hover:text-blue-600'
-            }`}
-          >
-            Products ({products.length})
-          </button>
+        <div className="mb-6 flex gap-4 border-b-2 border-[#0A1128]/20">
           <button
             onClick={() => setActiveTab('brands')}
             className={`px-6 py-3 font-bold text-lg transition-colors ${
               activeTab === 'brands'
-                ? 'border-b-4 border-green-600 text-green-600'
-                : 'text-gray-600 hover:text-green-600'
+                ? 'border-b-4 border-[#C5A572] text-[#0A1128]'
+                : 'text-[#0A1128]/70 hover:text-[#0A1128]'
             }`}
           >
             Brands ({brands.length})
           </button>
           <button
-            onClick={() => setActiveTab('import')}
+            onClick={() => setActiveTab('products')}
             className={`px-6 py-3 font-bold text-lg transition-colors ${
-              activeTab === 'import'
-                ? 'border-b-4 border-purple-600 text-purple-600'
-                : 'text-gray-600 hover:text-purple-600'
+              activeTab === 'products'
+                ? 'border-b-4 border-[#0A1128] text-[#C5A572]'
+                : 'text-[#0A1128]/70 hover:text-[#C5A572]'
             }`}
           >
-            Import CSV
+            Products ({products.length})
           </button>
         </div>
 
         {error && (
-          <div className="mb-4 p-4 bg-red-100 border-2 border-red-600 text-black font-medium rounded">
+          <div className="mb-4 p-4 bg-[#0A1128]/10 border-2 border-[#0A1128] text-black font-medium rounded">
             {error}
           </div>
         )}
 
         {success && (
-          <div className="mb-4 p-4 bg-green-100 border-2 border-green-600 text-black font-medium rounded">
+          <div className="mb-4 p-4 bg-[#C5A572]/10 border-2 border-[#C5A572] text-black font-medium rounded">
             {success}
           </div>
+        )}
+
+        {/* BRANDS TAB */}
+        {activeTab === 'brands' && (
+          <>
+            <div className="bg-white rounded-lg shadow-md border-2 border-[#0A1128]/20 overflow-hidden">
+              <table className="w-full">
+                <thead className="bg-[#0A1128] text-white">
+                  <tr>
+                    <th className="px-6 py-4 text-left text-base font-bold">Brand Name</th>
+                    <th className="px-6 py-4 text-left text-base font-bold">Slug</th>
+                    <th className="px-6 py-4 text-left text-base font-bold">Description</th>
+                    <th className="px-6 py-4 text-center text-base font-bold">Products</th>
+                    <th className="px-6 py-4 text-right text-base font-bold">Actions</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y-2 divide-[#0A1128]/10">
+                  {brands.length === 0 ? (
+                    <tr>
+                      <td colSpan={5} className="px-6 py-8 text-center text-black text-base font-medium">
+                        No brands yet. Create your first brand!
+                      </td>
+                    </tr>
+                  ) : (
+                    brands.map((brand: any) => (
+                      <tr
+                        key={brand.id}
+                        className="hover:bg-[#C5A572]/10 transition-colors"
+                      >
+                        <td className="px-6 py-4 text-black font-bold text-base">
+                          {brand.name}
+                        </td>
+                        <td className="px-6 py-4 text-black font-medium text-base">
+                          {brand.slug}
+                        </td>
+                        <td className="px-6 py-4 text-black text-base max-w-md truncate">
+                          {brand.description || '—'}
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                          <span className="bg-[#0A1128]/10 text-[#0A1128] px-3 py-1 rounded-full font-bold">
+                            {brand._count?.products || 0}
+                          </span>
+                        </td>
+                        <td className="px-6 py-4 text-right">
+                          <div className="flex gap-2 justify-end">
+                            <button
+                              onClick={() => fetchBrandDetails(brand.id)}
+                              className="bg-[#0A1128] text-white font-bold px-4 py-2 rounded hover:bg-[#C5A572] transition-colors text-sm"
+                            >
+                              View
+                            </button>
+                            <button
+                              onClick={() => openEditBrandModal(brand)}
+                              className="bg-[#C5A572] text-white font-bold px-4 py-2 rounded hover:bg-[#0A1128] transition-colors text-sm"
+                            >
+                              Edit
+                            </button>
+                            <button
+                              onClick={() => handleDeleteBrand(brand.id, brand.name)}
+                              className="bg-[#0A1128] text-white font-bold px-4 py-2 rounded hover:bg-black transition-colors text-sm"
+                            >
+                              Delete
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    ))
+                  )}
+                </tbody>
+              </table>
+            </div>
+
+            <div className="mt-4 text-black text-base font-bold">
+              Showing {brands.length} brand{brands.length !== 1 ? 's' : ''}
+            </div>
+          </>
         )}
 
         {/* PRODUCTS TAB */}
         {activeTab === 'products' && (
           <>
             {/* Search and Filter */}
-            <div className="bg-white p-6 rounded-lg shadow-md border-2 border-gray-300 mb-6">
+            <div className="bg-white p-6 rounded-lg shadow-md border-2 border-[#0A1128]/20 mb-6">
           <div className="grid grid-cols-2 gap-4 mb-4">
             <div>
               <label className="block text-base font-bold mb-2 text-black">Search Products</label>
@@ -380,7 +455,7 @@ export default function AdminPage() {
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 placeholder="Search by product name, code, or brand..."
-                className="w-full border-2 border-gray-400 rounded-md px-4 py-3 text-base text-black font-medium focus:border-blue-600 focus:ring-2 focus:ring-blue-300 outline-none"
+                className="w-full border-2 border-[#0A1128]/30 rounded-md px-4 py-3 text-base text-black font-medium focus:border-[#0A1128] focus:ring-2 focus:ring-[#C5A572] outline-none"
               />
             </div>
             <div>
@@ -388,7 +463,7 @@ export default function AdminPage() {
               <select
                 value={brandFilter}
                 onChange={(e) => setBrandFilter(e.target.value)}
-                className="w-full border-2 border-gray-400 rounded-md px-4 py-3 text-base text-black font-medium focus:border-blue-600 focus:ring-2 focus:ring-blue-300 outline-none"
+                className="w-full border-2 border-[#0A1128]/30 rounded-md px-4 py-3 text-base text-black font-medium focus:border-[#0A1128] focus:ring-2 focus:ring-[#C5A572] outline-none"
               >
                 <option value="all">All Brands</option>
                 {brands.map((brand) => (
@@ -402,7 +477,7 @@ export default function AdminPage() {
 
           {/* Bulk Actions */}
           {selectedProductIds.size > 0 && (
-            <div className="flex gap-3 items-center p-4 bg-blue-50 rounded-lg border-2 border-blue-300">
+            <div className="flex gap-3 items-center p-4 bg-[#0A1128]/5 rounded-lg border-2 border-[#0A1128]/20">
               <span className="text-black font-bold">
                 {selectedProductIds.size} product{selectedProductIds.size > 1 ? 's' : ''} selected
               </span>
@@ -433,13 +508,13 @@ export default function AdminPage() {
                     setError('Failed to export info pack');
                   }
                 }}
-                className="bg-purple-600 text-white font-bold px-4 py-2 rounded hover:bg-purple-700 text-sm"
+                className="bg-[#C5A572] text-white font-bold px-4 py-2 rounded hover:bg-[#0A1128] text-sm"
               >
                 Export Info Pack (ZIP)
               </button>
               <button
                 onClick={() => setSelectedProductIds(new Set())}
-                className="bg-gray-400 text-white font-bold px-4 py-2 rounded hover:bg-gray-500 text-sm"
+                className="bg-[#0A1128]/40 text-white font-bold px-4 py-2 rounded hover:bg-white0 text-sm"
               >
                 Clear Selection
               </button>
@@ -450,7 +525,7 @@ export default function AdminPage() {
         {/* Create Brand Modal */}
         {showCreateBrandModal && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-            <div className="bg-white p-8 rounded-xl shadow-2xl border-4 border-green-600 max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto">
+            <div className="bg-white p-8 rounded-xl shadow-2xl border-4 border-[#C5A572] max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto">
               <h2 className="text-3xl font-bold text-black mb-6">Create New Brand</h2>
               <form onSubmit={handleCreateBrand} className="space-y-5">
                 <div>
@@ -459,7 +534,7 @@ export default function AdminPage() {
                     type="text"
                     value={brandForm.name}
                     onChange={(e) => setBrandForm({ ...brandForm, name: e.target.value })}
-                    className="w-full border-2 border-gray-400 rounded-md px-4 py-3 text-base text-black font-medium focus:border-blue-600 focus:ring-2 focus:ring-blue-300 outline-none"
+                    className="w-full border-2 border-[#0A1128]/30 rounded-md px-4 py-3 text-base text-black font-medium focus:border-[#0A1128] focus:ring-2 focus:ring-[#C5A572] outline-none"
                     required
                     placeholder="e.g., Blazing Star"
                   />
@@ -470,7 +545,7 @@ export default function AdminPage() {
                     type="text"
                     value={brandForm.slug}
                     onChange={(e) => setBrandForm({ ...brandForm, slug: e.target.value })}
-                    className="w-full border-2 border-gray-400 rounded-md px-4 py-3 text-base text-black font-medium focus:border-blue-600 focus:ring-2 focus:ring-blue-300 outline-none"
+                    className="w-full border-2 border-[#0A1128]/30 rounded-md px-4 py-3 text-base text-black font-medium focus:border-[#0A1128] focus:ring-2 focus:ring-[#C5A572] outline-none"
                     required
                     placeholder="e.g., blazing-star"
                   />
@@ -480,7 +555,7 @@ export default function AdminPage() {
                   <textarea
                     value={brandForm.description}
                     onChange={(e) => setBrandForm({ ...brandForm, description: e.target.value })}
-                    className="w-full border-2 border-gray-400 rounded-md px-4 py-3 text-base text-black font-medium focus:border-blue-600 focus:ring-2 focus:ring-blue-300 outline-none"
+                    className="w-full border-2 border-[#0A1128]/30 rounded-md px-4 py-3 text-base text-black font-medium focus:border-[#0A1128] focus:ring-2 focus:ring-[#C5A572] outline-none"
                     rows={4}
                     placeholder="Brand description and positioning..."
                   />
@@ -491,7 +566,7 @@ export default function AdminPage() {
                     type="url"
                     value={brandForm.logoUrl}
                     onChange={(e) => setBrandForm({ ...brandForm, logoUrl: e.target.value })}
-                    className="w-full border-2 border-gray-400 rounded-md px-4 py-3 text-base text-black font-medium focus:border-blue-600 focus:ring-2 focus:ring-blue-300 outline-none"
+                    className="w-full border-2 border-[#0A1128]/30 rounded-md px-4 py-3 text-base text-black font-medium focus:border-[#0A1128] focus:ring-2 focus:ring-[#C5A572] outline-none"
                     placeholder="https://..."
                   />
                 </div>
@@ -499,7 +574,7 @@ export default function AdminPage() {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="flex-1 bg-green-600 text-white font-bold py-4 rounded-md hover:bg-green-700 disabled:opacity-50 transition-colors text-lg"
+                    className="flex-1 bg-[#C5A572] text-white font-bold py-4 rounded-md hover:bg-[#0A1128] disabled:opacity-50 transition-colors text-lg"
                   >
                     {loading ? 'Creating...' : 'Create Brand'}
                   </button>
@@ -509,7 +584,7 @@ export default function AdminPage() {
                       setShowCreateBrandModal(false);
                       setBrandForm({ name: '', slug: '', description: '', logoUrl: '' });
                     }}
-                    className="px-8 bg-gray-400 text-white font-bold py-4 rounded-md hover:bg-gray-500 transition-colors text-lg"
+                    className="px-8 bg-[#0A1128]/40 text-white font-bold py-4 rounded-md hover:bg-white0 transition-colors text-lg"
                   >
                     Cancel
                   </button>
@@ -522,7 +597,7 @@ export default function AdminPage() {
         {/* Edit Brand Modal */}
         {showEditBrandModal && selectedBrand && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-            <div className="bg-white p-8 rounded-xl shadow-2xl border-4 border-yellow-600 max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto">
+            <div className="bg-white p-8 rounded-xl shadow-2xl border-4 border-[#C5A572] max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto">
               <h2 className="text-3xl font-bold text-black mb-6">Edit Brand</h2>
               <form onSubmit={handleUpdateBrand} className="space-y-5">
                 <div>
@@ -531,7 +606,7 @@ export default function AdminPage() {
                     type="text"
                     value={brandForm.name}
                     onChange={(e) => setBrandForm({ ...brandForm, name: e.target.value })}
-                    className="w-full border-2 border-gray-400 rounded-md px-4 py-3 text-base text-black font-medium focus:border-blue-600 focus:ring-2 focus:ring-blue-300 outline-none"
+                    className="w-full border-2 border-[#0A1128]/30 rounded-md px-4 py-3 text-base text-black font-medium focus:border-[#0A1128] focus:ring-2 focus:ring-[#C5A572] outline-none"
                     required
                   />
                 </div>
@@ -541,7 +616,7 @@ export default function AdminPage() {
                     type="text"
                     value={brandForm.slug}
                     onChange={(e) => setBrandForm({ ...brandForm, slug: e.target.value })}
-                    className="w-full border-2 border-gray-400 rounded-md px-4 py-3 text-base text-black font-medium focus:border-blue-600 focus:ring-2 focus:ring-blue-300 outline-none"
+                    className="w-full border-2 border-[#0A1128]/30 rounded-md px-4 py-3 text-base text-black font-medium focus:border-[#0A1128] focus:ring-2 focus:ring-[#C5A572] outline-none"
                     required
                   />
                 </div>
@@ -550,7 +625,7 @@ export default function AdminPage() {
                   <textarea
                     value={brandForm.description}
                     onChange={(e) => setBrandForm({ ...brandForm, description: e.target.value })}
-                    className="w-full border-2 border-gray-400 rounded-md px-4 py-3 text-base text-black font-medium focus:border-blue-600 focus:ring-2 focus:ring-blue-300 outline-none"
+                    className="w-full border-2 border-[#0A1128]/30 rounded-md px-4 py-3 text-base text-black font-medium focus:border-[#0A1128] focus:ring-2 focus:ring-[#C5A572] outline-none"
                     rows={4}
                   />
                 </div>
@@ -560,14 +635,14 @@ export default function AdminPage() {
                     type="url"
                     value={brandForm.logoUrl}
                     onChange={(e) => setBrandForm({ ...brandForm, logoUrl: e.target.value })}
-                    className="w-full border-2 border-gray-400 rounded-md px-4 py-3 text-base text-black font-medium focus:border-blue-600 focus:ring-2 focus:ring-blue-300 outline-none"
+                    className="w-full border-2 border-[#0A1128]/30 rounded-md px-4 py-3 text-base text-black font-medium focus:border-[#0A1128] focus:ring-2 focus:ring-[#C5A572] outline-none"
                   />
                 </div>
                 <div className="flex gap-4 pt-4">
                   <button
                     type="submit"
                     disabled={loading}
-                    className="flex-1 bg-yellow-600 text-white font-bold py-4 rounded-md hover:bg-yellow-700 disabled:opacity-50 transition-colors text-lg"
+                    className="flex-1 bg-[#C5A572] text-white font-bold py-4 rounded-md hover:bg-[#0A1128] disabled:opacity-50 transition-colors text-lg"
                   >
                     {loading ? 'Updating...' : 'Update Brand'}
                   </button>
@@ -578,7 +653,7 @@ export default function AdminPage() {
                       setSelectedBrand(null);
                       setBrandForm({ name: '', slug: '', description: '', logoUrl: '' });
                     }}
-                    className="px-8 bg-gray-400 text-white font-bold py-4 rounded-md hover:bg-gray-500 transition-colors text-lg"
+                    className="px-8 bg-[#0A1128]/40 text-white font-bold py-4 rounded-md hover:bg-white0 transition-colors text-lg"
                   >
                     Cancel
                   </button>
@@ -591,7 +666,7 @@ export default function AdminPage() {
         {/* Brand Details Modal */}
         {showBrandDetailsModal && selectedBrand && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-            <div className="bg-white rounded-xl shadow-2xl border-4 border-green-600 max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+            <div className="bg-white rounded-xl shadow-2xl border-4 border-[#C5A572] max-w-4xl w-full max-h-[90vh] overflow-y-auto">
               <div className="p-8">
                 <div className="flex justify-between items-start mb-6">
                   <div>
@@ -603,7 +678,7 @@ export default function AdminPage() {
                       setShowBrandDetailsModal(false);
                       setSelectedBrand(null);
                     }}
-                    className="text-gray-500 hover:text-black text-3xl font-bold"
+                    className="text-[#0A1128]/50 hover:text-black text-3xl font-bold"
                   >
                     ×
                   </button>
@@ -613,7 +688,7 @@ export default function AdminPage() {
                 {selectedBrand.description && (
                   <div className="mb-6">
                     <h3 className="text-xl font-bold text-black mb-3">Description</h3>
-                    <p className="text-black bg-gray-100 p-4 rounded-lg">{selectedBrand.description}</p>
+                    <p className="text-black bg-[#0A1128]/5 p-4 rounded-lg">{selectedBrand.description}</p>
                   </div>
                 )}
 
@@ -624,7 +699,7 @@ export default function AdminPage() {
                     <img
                       src={selectedBrand.logoUrl}
                       alt={`${selectedBrand.name} logo`}
-                      className="max-w-xs border-2 border-gray-300 rounded-lg"
+                      className="max-w-xs border-2 border-[#0A1128]/20 rounded-lg"
                     />
                   </div>
                 )}
@@ -637,11 +712,11 @@ export default function AdminPage() {
                     </h3>
                     <div className="grid grid-cols-2 gap-3">
                       {selectedBrand.products.map((product: any) => (
-                        <div key={product.id} className="bg-gray-100 p-4 rounded-lg border-2 border-gray-300">
+                        <div key={product.id} className="bg-[#0A1128]/5 p-4 rounded-lg border-2 border-[#0A1128]/20">
                           <p className="text-base font-bold text-black">{product.name}</p>
                           <p className="text-sm text-black font-medium">Code: {product.productCode}</p>
                           <p className="text-sm text-black">
-                            Status: <span className={product.isActive ? 'text-green-700' : 'text-red-700'}>
+                            Status: <span className={product.isActive ? 'text-[#0A1128]' : 'text-[#0A1128]'}>
                               {product.isActive ? 'Active' : 'Inactive'}
                             </span>
                           </p>
@@ -654,20 +729,20 @@ export default function AdminPage() {
                 {/* Metadata */}
                 <div className="mb-6">
                   <h3 className="text-xl font-bold text-black mb-3">Metadata</h3>
-                  <div className="bg-gray-100 p-4 rounded-lg">
+                  <div className="bg-[#0A1128]/5 p-4 rounded-lg">
                     <p className="text-black font-medium">Created: {new Date(selectedBrand.createdAt).toLocaleString()}</p>
                     <p className="text-black font-medium">Updated: {new Date(selectedBrand.updatedAt).toLocaleString()}</p>
                   </div>
                 </div>
 
                 {/* Actions */}
-                <div className="flex gap-3 pt-4 border-t-2 border-gray-300">
+                <div className="flex gap-3 pt-4 border-t-2 border-[#0A1128]/20">
                   <button
                     onClick={() => {
                       setShowBrandDetailsModal(false);
                       setSelectedBrand(null);
                     }}
-                    className="bg-gray-400 text-white font-bold px-6 py-3 rounded-md hover:bg-gray-500 transition-colors text-base"
+                    className="bg-[#0A1128]/40 text-white font-bold px-6 py-3 rounded-md hover:bg-white0 transition-colors text-base"
                   >
                     Close
                   </button>
@@ -676,7 +751,7 @@ export default function AdminPage() {
                       setShowBrandDetailsModal(false);
                       openEditBrandModal(selectedBrand);
                     }}
-                    className="flex-1 bg-yellow-600 text-white font-bold py-3 rounded-md hover:bg-yellow-700 transition-colors text-base"
+                    className="flex-1 bg-[#C5A572] text-white font-bold py-3 rounded-md hover:bg-[#0A1128] transition-colors text-base"
                   >
                     Edit Brand
                   </button>
@@ -689,7 +764,7 @@ export default function AdminPage() {
         {/* Product Detail Modal */}
         {showProductModal && selectedProduct && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-            <div className="bg-white rounded-xl shadow-2xl border-4 border-blue-600 max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+            <div className="bg-white rounded-xl shadow-2xl border-4 border-[#0A1128] max-w-4xl w-full max-h-[90vh] overflow-y-auto">
               <div className="p-8">
                 {/* Header */}
                 <div className="flex justify-between items-start mb-6">
@@ -704,7 +779,7 @@ export default function AdminPage() {
                       setShowProductModal(false);
                       setSelectedProduct(null);
                     }}
-                    className="text-gray-500 hover:text-black text-3xl font-bold"
+                    className="text-[#0A1128]/50 hover:text-black text-3xl font-bold"
                   >
                     ×
                   </button>
@@ -718,13 +793,13 @@ export default function AdminPage() {
                       {selectedProduct.versions.length > 1 && (
                         <button
                           onClick={() => setShowVersionComparison(true)}
-                          className="text-sm bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 font-bold"
+                          className="text-sm bg-[#C5A572] text-white px-4 py-2 rounded hover:bg-[#0A1128] font-bold"
                         >
                           Compare Versions
                         </button>
                       )}
                     </div>
-                    <div className="bg-gray-100 p-4 rounded-lg">
+                    <div className="bg-[#0A1128]/5 p-4 rounded-lg">
                       <p className="text-black font-medium">
                         Version {selectedProduct.versions[0].versionNumber}
                         {selectedProduct.versions[0].versionName && ` - ${selectedProduct.versions[0].versionName}`}
@@ -732,7 +807,7 @@ export default function AdminPage() {
                       {selectedProduct.versions[0].description && (
                         <p className="text-black mt-2">{selectedProduct.versions[0].description}</p>
                       )}
-                      <p className="text-xs text-gray-600 mt-2">
+                      <p className="text-xs text-[#0A1128]/70 mt-2">
                         {selectedProduct.versions.length} total version{selectedProduct.versions.length > 1 ? 's' : ''}
                       </p>
                     </div>
@@ -753,7 +828,7 @@ export default function AdminPage() {
                               handleAddContent(contentType, content);
                             }
                           }}
-                          className="ml-4 text-sm bg-green-600 text-white px-3 py-1 rounded hover:bg-green-700"
+                          className="ml-4 text-sm bg-[#C5A572] text-white px-3 py-1 rounded hover:bg-[#0A1128]"
                         >
                           + Add Content
                         </button>
@@ -761,7 +836,7 @@ export default function AdminPage() {
                     </h3>
                     <div className="space-y-3">
                       {selectedProduct.versions[0].contents.map((content: any, index: number) => (
-                        <div key={content.id} className="bg-gray-100 p-4 rounded-lg">
+                        <div key={content.id} className="bg-[#0A1128]/5 p-4 rounded-lg">
                           <p className="text-sm font-bold text-black mb-2">
                             {content.contentType} ({content.language})
                           </p>
@@ -774,7 +849,7 @@ export default function AdminPage() {
                                 setProductForm({ ...productForm, contents: newContents });
                               }}
                               onBlur={() => handleUpdateProductContent(content.id, productForm.contents[index]?.content || content.content)}
-                              className="w-full border-2 border-gray-400 rounded px-3 py-2 text-black font-medium min-h-24"
+                              className="w-full border-2 border-[#0A1128]/30 rounded px-3 py-2 text-black font-medium min-h-24"
                             />
                           ) : (
                             <p className="text-black">{content.content}</p>
@@ -810,7 +885,7 @@ export default function AdminPage() {
                     <h3 className="text-xl font-bold text-black mb-3">Properties</h3>
                     <div className="grid grid-cols-2 gap-3">
                       {selectedProduct.versions[0].properties.map((prop: any, index: number) => (
-                        <div key={prop.id} className="bg-gray-100 p-3 rounded-lg">
+                        <div key={prop.id} className="bg-[#0A1128]/5 p-3 rounded-lg">
                           <p className="text-sm font-bold text-black mb-1">{prop.propertyKey}</p>
                           {isEditingProduct ? (
                             <input
@@ -822,7 +897,7 @@ export default function AdminPage() {
                                 setProductForm({ ...productForm, properties: newProps });
                               }}
                               onBlur={() => handleUpdateProperty(prop.id, prop.propertyKey, productForm.properties[index]?.propertyValue || prop.propertyValue)}
-                              className="w-full border-2 border-gray-400 rounded px-2 py-1 text-black font-medium"
+                              className="w-full border-2 border-[#0A1128]/30 rounded px-2 py-1 text-black font-medium"
                             />
                           ) : (
                             <p className="text-black">{prop.propertyValue}</p>
@@ -838,8 +913,8 @@ export default function AdminPage() {
                   <div className="mb-6">
                     <h3 className="text-xl font-bold text-black mb-3">Pricing</h3>
                     <div className="overflow-x-auto">
-                      <table className="w-full border-2 border-gray-300">
-                        <thead className="bg-gray-800 text-white">
+                      <table className="w-full border-2 border-[#0A1128]/20">
+                        <thead className="bg-[#0A1128] text-white">
                           <tr>
                             <th className="px-4 py-2 text-left font-bold">Size</th>
                             <th className="px-4 py-2 text-left font-bold">Price</th>
@@ -847,14 +922,14 @@ export default function AdminPage() {
                             <th className="px-4 py-2 text-left font-bold">Condition</th>
                           </tr>
                         </thead>
-                        <tbody className="divide-y-2 divide-gray-200">
+                        <tbody className="divide-y-2 divide-[#0A1128]/10">
                           {selectedProduct.versions[0].pricing.map((price: any) => (
                             <tr key={price.id}>
                               <td className="px-4 py-2 text-black font-medium">{price.size}</td>
                               <td className="px-4 py-2 text-black font-bold">
                                 {price.currency} {price.price}
                               </td>
-                              <td className="px-4 py-2 text-black font-bold text-green-700">
+                              <td className="px-4 py-2 text-black font-bold text-[#0A1128]">
                                 {price.discountPrice ? `${price.currency} ${price.discountPrice}` : '—'}
                               </td>
                               <td className="px-4 py-2 text-black text-sm">{price.condition || '—'}</td>
@@ -867,7 +942,7 @@ export default function AdminPage() {
                 )}
 
                 {/* Actions */}
-                <div className="flex gap-3 pt-4 border-t-2 border-gray-300">
+                <div className="flex gap-3 pt-4 border-t-2 border-[#0A1128]/20">
                   <button
                     onClick={() => {
                       setShowProductModal(false);
@@ -875,7 +950,7 @@ export default function AdminPage() {
                       setIsEditingProduct(false);
                       setShowVersionComparison(false);
                     }}
-                    className="bg-gray-400 text-white font-bold px-6 py-3 rounded-md hover:bg-gray-500 transition-colors text-base"
+                    className="bg-[#0A1128]/40 text-white font-bold px-6 py-3 rounded-md hover:bg-white0 transition-colors text-base"
                   >
                     Close
                   </button>
@@ -883,8 +958,8 @@ export default function AdminPage() {
                     onClick={() => setIsEditingProduct(!isEditingProduct)}
                     className={`flex-1 font-bold py-3 rounded-md transition-colors text-base ${
                       isEditingProduct
-                        ? 'bg-green-600 text-white hover:bg-green-700'
-                        : 'bg-blue-600 text-white hover:bg-blue-700'
+                        ? 'bg-[#C5A572] text-white hover:bg-[#0A1128]'
+                        : 'bg-[#0A1128] text-white hover:bg-[#C5A572]'
                     }`}
                   >
                     {isEditingProduct ? 'Done Editing' : 'Edit Product'}
@@ -917,7 +992,7 @@ export default function AdminPage() {
                         setError('Failed to export info pack');
                       }
                     }}
-                    className="bg-purple-600 text-white font-bold px-6 py-3 rounded-md hover:bg-purple-700 transition-colors text-base"
+                    className="bg-[#C5A572] text-white font-bold px-6 py-3 rounded-md hover:bg-[#0A1128] transition-colors text-base"
                   >
                     Export Info Pack
                   </button>
@@ -930,7 +1005,7 @@ export default function AdminPage() {
         {/* Version Comparison Modal */}
         {showVersionComparison && selectedProduct && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-            <div className="bg-white rounded-xl shadow-2xl border-4 border-purple-600 max-w-6xl w-full max-h-[95vh] overflow-y-auto">
+            <div className="bg-white rounded-xl shadow-2xl border-4 border-[#C5A572] max-w-6xl w-full max-h-[95vh] overflow-y-auto">
               <div className="p-8">
                 <div className="flex justify-between items-start mb-6">
                   <div>
@@ -939,7 +1014,7 @@ export default function AdminPage() {
                   </div>
                   <button
                     onClick={() => setShowVersionComparison(false)}
-                    className="text-gray-500 hover:text-black text-3xl font-bold"
+                    className="text-[#0A1128]/50 hover:text-black text-3xl font-bold"
                   >
                     ×
                   </button>
@@ -947,10 +1022,10 @@ export default function AdminPage() {
 
                 <VersionComparison productCode={selectedProduct.productCode} />
 
-                <div className="flex gap-3 pt-6 mt-6 border-t-2 border-gray-300">
+                <div className="flex gap-3 pt-6 mt-6 border-t-2 border-[#0A1128]/20">
                   <button
                     onClick={() => setShowVersionComparison(false)}
-                    className="flex-1 bg-gray-400 text-white font-bold px-6 py-3 rounded-md hover:bg-gray-500 transition-colors text-base"
+                    className="flex-1 bg-[#0A1128]/40 text-white font-bold px-6 py-3 rounded-md hover:bg-white0 transition-colors text-base"
                   >
                     Close
                   </button>
@@ -961,9 +1036,9 @@ export default function AdminPage() {
         )}
 
         {/* Products Table */}
-        <div className="bg-white rounded-lg shadow-md border-2 border-gray-300 overflow-hidden">
+        <div className="bg-white rounded-lg shadow-md border-2 border-[#0A1128]/20 overflow-hidden">
           <table className="w-full">
-            <thead className="bg-gray-800 text-white">
+            <thead className="bg-[#0A1128] text-white">
               <tr>
                 <th className="px-4 py-4 text-center text-base font-bold w-12">
                   <input
@@ -984,13 +1059,12 @@ export default function AdminPage() {
                 <th className="px-6 py-4 text-left text-base font-bold">Brand</th>
                 <th className="px-6 py-4 text-center text-base font-bold">Status</th>
                 <th className="px-6 py-4 text-center text-base font-bold">Versions</th>
-                <th className="px-6 py-4 text-right text-base font-bold">Actions</th>
               </tr>
             </thead>
-            <tbody className="divide-y-2 divide-gray-200">
+            <tbody className="divide-y-2 divide-[#0A1128]/10">
               {filteredProducts.length === 0 ? (
                 <tr>
-                  <td colSpan={7} className="px-6 py-8 text-center text-black text-base font-medium">
+                  <td colSpan={6} className="px-6 py-8 text-center text-black text-base font-medium">
                     {searchTerm || brandFilter !== 'all'
                       ? 'No products found matching your filters'
                       : 'No products yet. Import or create your first product!'}
@@ -1000,7 +1074,7 @@ export default function AdminPage() {
                 filteredProducts.map((product) => (
                   <tr
                     key={product.id}
-                    className="hover:bg-blue-50 transition-colors"
+                    className="hover:bg-[#0A1128]/5 transition-colors"
                   >
                     <td className="px-4 py-4 text-center">
                       <input
@@ -1035,7 +1109,7 @@ export default function AdminPage() {
                       onClick={() => fetchProductDetails(product.productCode)}
                       className="px-6 py-4 text-black font-medium text-base cursor-pointer"
                     >
-                      <span className="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-bold">
+                      <span className="bg-[#0A1128]/10 text-[#0A1128] px-3 py-1 rounded-full font-bold">
                         {product.brand?.name || 'Unknown'}
                       </span>
                     </td>
@@ -1046,8 +1120,8 @@ export default function AdminPage() {
                       <span
                         className={`px-3 py-1 rounded-full font-bold text-sm ${
                           product.isActive
-                            ? 'bg-green-100 text-green-800'
-                            : 'bg-red-100 text-red-800'
+                            ? 'bg-[#C5A572]/10 text-[#0A1128]'
+                            : 'bg-[#0A1128]/10 text-[#0A1128]'
                         }`}
                       >
                         {product.isActive ? 'Active' : 'Inactive'}
@@ -1058,22 +1132,6 @@ export default function AdminPage() {
                       className="px-6 py-4 text-center text-black font-medium text-base cursor-pointer"
                     >
                       {product.versions?.length || 0}
-                    </td>
-                    <td className="px-6 py-4 text-right">
-                      <div className="flex gap-2 justify-end">
-                        <button
-                          onClick={() => fetchProductDetails(product.productCode)}
-                          className="bg-blue-600 text-white font-bold px-4 py-2 rounded hover:bg-blue-700 transition-colors text-sm"
-                        >
-                          View
-                        </button>
-                        <button
-                          onClick={(e) => e.stopPropagation()}
-                          className="bg-red-600 text-white font-bold px-4 py-2 rounded hover:bg-red-700 transition-colors text-sm"
-                        >
-                          Delete
-                        </button>
-                      </div>
                     </td>
                   </tr>
                 ))
@@ -1088,87 +1146,24 @@ export default function AdminPage() {
           </>
         )}
 
-        {/* CSV IMPORT TAB */}
-        {activeTab === 'import' && (
-          <div className="bg-white rounded-lg shadow-md border-2 border-gray-300 p-8">
-            <CSVImport />
+        {/* CSV Import Modal */}
+        {showImportModal && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+            <div className="bg-white rounded-xl shadow-2xl border-4 border-[#C5A572] max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+              <div className="p-8">
+                <div className="flex justify-between items-center mb-6">
+                  <h2 className="text-3xl font-bold text-black">Import CSV</h2>
+                  <button
+                    onClick={() => setShowImportModal(false)}
+                    className="text-[#0A1128]/50 hover:text-black text-3xl font-bold"
+                  >
+                    ×
+                  </button>
+                </div>
+                <CSVImport />
+              </div>
+            </div>
           </div>
-        )}
-
-        {/* BRANDS TAB */}
-        {activeTab === 'brands' && (
-          <>
-            <div className="bg-white rounded-lg shadow-md border-2 border-gray-300 overflow-hidden">
-              <table className="w-full">
-                <thead className="bg-gray-800 text-white">
-                  <tr>
-                    <th className="px-6 py-4 text-left text-base font-bold">Brand Name</th>
-                    <th className="px-6 py-4 text-left text-base font-bold">Slug</th>
-                    <th className="px-6 py-4 text-left text-base font-bold">Description</th>
-                    <th className="px-6 py-4 text-center text-base font-bold">Products</th>
-                    <th className="px-6 py-4 text-right text-base font-bold">Actions</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y-2 divide-gray-200">
-                  {brands.length === 0 ? (
-                    <tr>
-                      <td colSpan={5} className="px-6 py-8 text-center text-black text-base font-medium">
-                        No brands yet. Create your first brand!
-                      </td>
-                    </tr>
-                  ) : (
-                    brands.map((brand: any) => (
-                      <tr
-                        key={brand.id}
-                        className="hover:bg-green-50 transition-colors"
-                      >
-                        <td className="px-6 py-4 text-black font-bold text-base">
-                          {brand.name}
-                        </td>
-                        <td className="px-6 py-4 text-black font-medium text-base">
-                          {brand.slug}
-                        </td>
-                        <td className="px-6 py-4 text-black text-base max-w-md truncate">
-                          {brand.description || '—'}
-                        </td>
-                        <td className="px-6 py-4 text-center">
-                          <span className="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-bold">
-                            {brand._count?.products || 0}
-                          </span>
-                        </td>
-                        <td className="px-6 py-4 text-right">
-                          <div className="flex gap-2 justify-end">
-                            <button
-                              onClick={() => fetchBrandDetails(brand.id)}
-                              className="bg-blue-600 text-white font-bold px-4 py-2 rounded hover:bg-blue-700 transition-colors text-sm"
-                            >
-                              View
-                            </button>
-                            <button
-                              onClick={() => openEditBrandModal(brand)}
-                              className="bg-yellow-600 text-white font-bold px-4 py-2 rounded hover:bg-yellow-700 transition-colors text-sm"
-                            >
-                              Edit
-                            </button>
-                            <button
-                              onClick={() => handleDeleteBrand(brand.id, brand.name)}
-                              className="bg-red-600 text-white font-bold px-4 py-2 rounded hover:bg-red-700 transition-colors text-sm"
-                            >
-                              Delete
-                            </button>
-                          </div>
-                        </td>
-                      </tr>
-                    ))
-                  )}
-                </tbody>
-              </table>
-            </div>
-
-            <div className="mt-4 text-black text-base font-bold">
-              Showing {brands.length} brand{brands.length !== 1 ? 's' : ''}
-            </div>
-          </>
         )}
       </div>
     </MainLayout>
