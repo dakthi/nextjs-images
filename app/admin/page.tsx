@@ -33,7 +33,7 @@ export default function AdminPage() {
   const [products, setProducts] = useState<Product[]>([]);
   const [brands, setBrands] = useState<Brand[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
-  const [brandFilter, setBrandFilter] = useState<string>('all');
+  const [selectedBrandIds, setSelectedBrandIds] = useState<Set<string>>(new Set());
   const [showWithImages, setShowWithImages] = useState(false);
   const [showWithoutImages, setShowWithoutImages] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -352,8 +352,9 @@ export default function AdminPage() {
       product.productCode.toLowerCase().includes(search) ||
       product.brand?.name.toLowerCase().includes(search);
 
+    // Brand filter logic: if none selected, show all
     const matchesBrand =
-      brandFilter === 'all' || product.brandId === brandFilter;
+      selectedBrandIds.size === 0 || selectedBrandIds.has(product.brandId);
 
     // Image filter logic: if both unchecked, show all
     const matchesImageFilter =
@@ -366,25 +367,9 @@ export default function AdminPage() {
 
   return (
     <MainLayout>
-      <div className="mb-8 flex justify-between items-center">
-        <div>
-          <h1 className="text-4xl font-bold text-black mb-2">Products</h1>
-          <p className="text-xl text-black font-semibold">Manage products and brands</p>
-        </div>
-        <div className="flex gap-3">
-          <button
-            onClick={() => setShowImportModal(true)}
-            className="bg-[#C5A572] text-white font-bold px-6 py-3 rounded-md hover:bg-[#0A1128] transition-colors text-base"
-          >
-            Import CSV
-          </button>
-          <button
-            onClick={() => setShowCreateBrandModal(true)}
-            className="bg-[#C5A572] text-white font-bold px-6 py-3 rounded-md hover:bg-[#0A1128] transition-colors text-base"
-          >
-            + Create Brand
-          </button>
-        </div>
+      <div className="mb-8">
+        <h1 className="text-4xl font-bold text-black mb-2">Products</h1>
+        <p className="text-xl text-black font-semibold">Manage products and brands</p>
       </div>
 
       <div>
@@ -479,52 +464,79 @@ export default function AdminPage() {
           <>
             {/* Search and Filter */}
             <div className="bg-white p-6 rounded-lg shadow-md border-2 border-[#0A1128]/20 mb-6">
-          <div className="grid grid-cols-2 gap-4 mb-4">
-            <div>
-              <label className="block text-base font-bold mb-2 text-black">Search Products</label>
-              <input
-                type="text"
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                placeholder="Search by product name, code, or brand..."
-                className="w-full border-2 border-[#0A1128]/30 rounded-md px-4 py-3 text-base text-black font-medium focus:border-[#0A1128] focus:ring-2 focus:ring-[#C5A572] outline-none"
-              />
-            </div>
-            <div>
-              <label className="block text-base font-bold mb-2 text-black">Filter by Brand</label>
-              <select
-                value={brandFilter}
-                onChange={(e) => setBrandFilter(e.target.value)}
-                className="w-full border-2 border-[#0A1128]/30 rounded-md px-4 py-3 text-base text-black font-medium focus:border-[#0A1128] focus:ring-2 focus:ring-[#C5A572] outline-none"
-              >
-                <option value="all">All Brands</option>
-                {brands.map((brand) => (
-                  <option key={brand.id} value={brand.id}>
-                    {brand.name}
-                  </option>
-                ))}
-              </select>
-            </div>
+          <div className="mb-4">
+            <label className="block text-base font-bold mb-2 text-black">Search Products</label>
+            <input
+              type="text"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              placeholder="Search by product name, code, or brand..."
+              className="w-full border-2 border-[#0A1128]/30 rounded-md px-4 py-3 text-base text-black font-medium focus:border-[#0A1128] focus:ring-2 focus:ring-[#C5A572] outline-none"
+            />
           </div>
-          <div className="flex gap-6 items-center">
-            <label className="flex items-center gap-2 cursor-pointer">
-              <input
-                type="checkbox"
-                checked={showWithImages}
-                onChange={(e) => setShowWithImages(e.target.checked)}
-                className="w-5 h-5 cursor-pointer"
-              />
-              <span className="text-base font-bold text-black">With Images</span>
-            </label>
-            <label className="flex items-center gap-2 cursor-pointer">
-              <input
-                type="checkbox"
-                checked={showWithoutImages}
-                onChange={(e) => setShowWithoutImages(e.target.checked)}
-                className="w-5 h-5 cursor-pointer"
-              />
-              <span className="text-base font-bold text-black">Without Images</span>
-            </label>
+
+          <div className="space-y-3">
+            <div className="flex flex-wrap gap-3">
+              {brands.map((brand) => (
+                <label key={brand.id} className="flex items-center gap-2 cursor-pointer bg-[#0A1128]/5 px-3 py-2 rounded-md hover:bg-[#0A1128]/10 transition-colors">
+                  <input
+                    type="checkbox"
+                    checked={selectedBrandIds.has(brand.id)}
+                    onChange={(e) => {
+                      const newSet = new Set(selectedBrandIds);
+                      if (e.target.checked) {
+                        newSet.add(brand.id);
+                      } else {
+                        newSet.delete(brand.id);
+                      }
+                      setSelectedBrandIds(newSet);
+                    }}
+                    className="w-4 h-4 cursor-pointer"
+                  />
+                  <span className="text-sm font-medium text-black">
+                    {brand.name}
+                  </span>
+                </label>
+              ))}
+            </div>
+
+            <div className="flex justify-between items-center pt-2 border-t-2 border-[#0A1128]/10">
+              <div className="flex gap-4">
+                <label className="flex items-center gap-2 cursor-pointer bg-[#0A1128]/5 px-3 py-2 rounded-md hover:bg-[#0A1128]/10 transition-colors">
+                  <input
+                    type="checkbox"
+                    checked={showWithImages}
+                    onChange={(e) => setShowWithImages(e.target.checked)}
+                    className="w-4 h-4 cursor-pointer"
+                  />
+                  <span className="text-sm font-medium text-black">With Images</span>
+                </label>
+                <label className="flex items-center gap-2 cursor-pointer bg-[#0A1128]/5 px-3 py-2 rounded-md hover:bg-[#0A1128]/10 transition-colors">
+                  <input
+                    type="checkbox"
+                    checked={showWithoutImages}
+                    onChange={(e) => setShowWithoutImages(e.target.checked)}
+                    className="w-4 h-4 cursor-pointer"
+                  />
+                  <span className="text-sm font-medium text-black">Without Images</span>
+                </label>
+              </div>
+
+              <div className="flex gap-3">
+                <button
+                  onClick={() => setShowImportModal(true)}
+                  className="bg-[#C5A572] text-white font-bold px-4 py-2 rounded-md hover:bg-[#0A1128] transition-colors text-sm"
+                >
+                  Import CSV
+                </button>
+                <button
+                  onClick={() => setShowCreateBrandModal(true)}
+                  className="bg-[#C5A572] text-white font-bold px-4 py-2 rounded-md hover:bg-[#0A1128] transition-colors text-sm"
+                >
+                  Create Brand
+                </button>
+              </div>
+            </div>
           </div>
 
           {/* Bulk Actions */}
@@ -602,7 +614,7 @@ export default function AdminPage() {
               {filteredProducts.length === 0 ? (
                 <tr>
                   <td colSpan={4} className="px-6 py-8 text-center text-black text-base font-medium">
-                    {searchTerm || brandFilter !== 'all'
+                    {searchTerm || selectedBrandIds.size > 0 || showWithImages || showWithoutImages
                       ? 'No products found matching your filters'
                       : 'No products yet. Import or create your first product!'}
                   </td>

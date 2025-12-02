@@ -36,6 +36,12 @@ const navItems: NavItem[] = [
     icon: '',
     description: 'Browse Products',
   },
+  {
+    label: 'RSS Feed',
+    href: '/rss',
+    icon: '',
+    description: 'Product Feed & Updates',
+  },
 ];
 
 export default function Sidebar() {

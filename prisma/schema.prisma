@@ -240,3 +240,20 @@ model AuditLog {
   @@index([createdAt])
   @@map("audit_log")
 }
+
+// ============================================
+// RSS FEEDS (for news aggregator)
+// ============================================
+model RSSFeed {
+  id        String   @id @default(uuid())
+  name      String
+  url       String   @unique
+  category  String
+  isEnabled Boolean  @default(true) @map("is_enabled")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([category])
+  @@index([isEnabled])
+  @@map("rss_feeds")
+}
