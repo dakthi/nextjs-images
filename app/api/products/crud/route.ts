@@ -60,11 +60,24 @@ export async function GET(request: NextRequest) {
         include: {
           brand: true,
           _count: { select: { versions: true } },
+          versions: {
+            take: 1,
+            orderBy: { versionNumber: 'desc' },
+            include: {
+              _count: { select: { images: true } },
+            },
+          },
         },
         orderBy: { createdAt: 'desc' },
       });
 
-      return NextResponse.json(products);
+      // Add hasImages flag to each product
+      const productsWithImageFlag = products.map(product => ({
+        ...product,
+        hasImages: product.versions[0]?._count?.images > 0 || false,
+      }));
+
+      return NextResponse.json(productsWithImageFlag);
     }
   } catch (error) {
     console.error('Failed to fetch products:', error);

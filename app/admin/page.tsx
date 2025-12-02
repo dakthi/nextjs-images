@@ -5,6 +5,7 @@ import MainLayout from '../components/MainLayout';
 import ImageManager from '../components/ImageManager';
 import CSVImport from '../components/CSVImport';
 import VersionComparison from '../components/VersionComparison';
+import TiptapEditor from '../components/TiptapEditor';
 
 interface Brand {
   id: string;
@@ -22,6 +23,10 @@ interface Product {
   brand: Brand;
   createdAt: string;
   versions?: any[];
+  _count?: {
+    versions: number;
+  };
+  hasImages?: boolean;
 }
 
 export default function AdminPage() {
@@ -29,6 +34,8 @@ export default function AdminPage() {
   const [brands, setBrands] = useState<Brand[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [brandFilter, setBrandFilter] = useState<string>('all');
+  const [showWithImages, setShowWithImages] = useState(false);
+  const [showWithoutImages, setShowWithoutImages] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
@@ -292,6 +299,51 @@ export default function AdminPage() {
     fetchBrands();
   }, []);
 
+  // Handle Escape key to close modals
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        if (showProductModal) {
+          setShowProductModal(false);
+          setSelectedProduct(null);
+          setIsEditingProduct(false);
+          setShowVersionComparison(false);
+        } else if (showBrandDetailsModal) {
+          setShowBrandDetailsModal(false);
+          setSelectedBrand(null);
+        } else if (showEditBrandModal) {
+          setShowEditBrandModal(false);
+          setSelectedBrand(null);
+          setBrandForm({ name: '', slug: '', description: '', logoUrl: '' });
+        } else if (showCreateBrandModal) {
+          setShowCreateBrandModal(false);
+          setBrandForm({ name: '', slug: '', description: '', logoUrl: '' });
+        } else if (showImportModal) {
+          setShowImportModal(false);
+        } else if (showVersionComparison) {
+          setShowVersionComparison(false);
+        }
+      }
+    };
+
+    document.addEventListener('keydown', handleEscape);
+    return () => document.removeEventListener('keydown', handleEscape);
+  }, [showProductModal, showBrandDetailsModal, showEditBrandModal, showCreateBrandModal, showImportModal, showVersionComparison]);
+
+  // Brand color mapping
+  const getBrandColor = (brandName: string) => {
+    const name = brandName.toLowerCase();
+    if (name.includes('bold berry')) return 'bg-pink-500 text-white';
+    if (name.includes('mberry')) return 'bg-pink-400 text-white';
+    if (name.includes('blazingstar')) return 'bg-black text-white';
+    if (name.includes('la palm')) return 'bg-green-500 text-white';
+    if (name.includes('kds')) return 'bg-red-600 text-white';
+    if (name.includes('vl london')) return 'bg-[#0A1128] text-white';
+    if (name.includes('dnd')) return 'bg-[#800020] text-white'; // burgundy red
+    if (name.includes('opi')) return 'bg-white text-black border-2 border-gray-300'; // white with border
+    return 'bg-[#0A1128]/10 text-[#0A1128]'; // default
+  };
+
   // Filter products
   const filteredProducts = products.filter((product) => {
     const search = searchTerm.toLowerCase();
@@ -303,7 +355,13 @@ export default function AdminPage() {
     const matchesBrand =
       brandFilter === 'all' || product.brandId === brandFilter;
 
-    return matchesSearch && matchesBrand;
+    // Image filter logic: if both unchecked, show all
+    const matchesImageFilter =
+      (!showWithImages && !showWithoutImages) ||
+      (showWithImages && product.hasImages) ||
+      (showWithoutImages && !product.hasImages);
+
+    return matchesSearch && matchesBrand && matchesImageFilter;
   });
 
   return (
@@ -448,6 +506,26 @@ export default function AdminPage() {
               </select>
             </div>
           </div>
+          <div className="flex gap-6 items-center">
+            <label className="flex items-center gap-2 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={showWithImages}
+                onChange={(e) => setShowWithImages(e.target.checked)}
+                className="w-5 h-5 cursor-pointer"
+              />
+              <span className="text-base font-bold text-black">With Images</span>
+            </label>
+            <label className="flex items-center gap-2 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={showWithoutImages}
+                onChange={(e) => setShowWithoutImages(e.target.checked)}
+                className="w-5 h-5 cursor-pointer"
+              />
+              <span className="text-base font-bold text-black">Without Images</span>
+            </label>
+          </div>
 
           {/* Bulk Actions */}
           {selectedProductIds.size > 0 && (
@@ -515,17 +593,15 @@ export default function AdminPage() {
                     className="w-5 h-5 cursor-pointer"
                   />
                 </th>
-                <th className="px-6 py-4 text-left text-base font-bold">Product Code</th>
-                <th className="px-6 py-4 text-left text-base font-bold">Product Name</th>
                 <th className="px-6 py-4 text-left text-base font-bold">Brand</th>
+                <th className="px-6 py-4 text-left text-base font-bold">Product Name</th>
                 <th className="px-6 py-4 text-center text-base font-bold">Status</th>
-                <th className="px-6 py-4 text-center text-base font-bold">Versions</th>
               </tr>
             </thead>
             <tbody className="divide-y-2 divide-[#0A1128]/10">
               {filteredProducts.length === 0 ? (
                 <tr>
-                  <td colSpan={6} className="px-6 py-8 text-center text-black text-base font-medium">
+                  <td colSpan={4} className="px-6 py-8 text-center text-black text-base font-medium">
                     {searchTerm || brandFilter !== 'all'
                       ? 'No products found matching your filters'
                       : 'No products yet. Import or create your first product!'}
@@ -556,23 +632,17 @@ export default function AdminPage() {
                     </td>
                     <td
                       onClick={() => fetchProductDetails(product.productCode)}
-                      className="px-6 py-4 text-black font-bold text-base cursor-pointer"
+                      className="px-6 py-4 text-black font-medium text-base cursor-pointer"
                     >
-                      {product.productCode}
+                      <span className={`${getBrandColor(product.brand?.name || '')} px-3 py-1 rounded-full font-bold`}>
+                        {product.brand?.name || 'Unknown'}
+                      </span>
                     </td>
                     <td
                       onClick={() => fetchProductDetails(product.productCode)}
                       className="px-6 py-4 text-black font-medium text-base cursor-pointer"
                     >
                       {product.name}
-                    </td>
-                    <td
-                      onClick={() => fetchProductDetails(product.productCode)}
-                      className="px-6 py-4 text-black font-medium text-base cursor-pointer"
-                    >
-                      <span className="bg-[#0A1128]/10 text-[#0A1128] px-3 py-1 rounded-full font-bold">
-                        {product.brand?.name || 'Unknown'}
-                      </span>
                     </td>
                     <td
                       onClick={() => fetchProductDetails(product.productCode)}
@@ -587,12 +657,6 @@ export default function AdminPage() {
                       >
                         {product.isActive ? 'Active' : 'Inactive'}
                       </span>
-                    </td>
-                    <td
-                      onClick={() => fetchProductDetails(product.productCode)}
-                      className="px-6 py-4 text-center text-black font-medium text-base cursor-pointer"
-                    >
-                      {product.versions?.length || 0}
                     </td>
                   </tr>
                 ))
@@ -610,8 +674,14 @@ export default function AdminPage() {
         {/* All Modals - Outside tab sections so they work on any tab */}
         {/* Create Brand Modal */}
         {showCreateBrandModal && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-            <div className="bg-white p-8 rounded-xl shadow-2xl border-4 border-[#C5A572] max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto">
+          <div
+            className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+            onClick={() => {
+              setShowCreateBrandModal(false);
+              setBrandForm({ name: '', slug: '', description: '', logoUrl: '' });
+            }}
+          >
+            <div className="bg-white p-8 rounded-xl shadow-2xl border-4 border-[#C5A572] max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
               <h2 className="text-3xl font-bold text-black mb-6">Create New Brand</h2>
               <form onSubmit={handleCreateBrand} className="space-y-5">
                 <div>
@@ -682,8 +752,15 @@ export default function AdminPage() {
 
         {/* Edit Brand Modal */}
         {showEditBrandModal && selectedBrand && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-            <div className="bg-white p-8 rounded-xl shadow-2xl border-4 border-[#C5A572] max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto">
+          <div
+            className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+            onClick={() => {
+              setShowEditBrandModal(false);
+              setSelectedBrand(null);
+              setBrandForm({ name: '', slug: '', description: '', logoUrl: '' });
+            }}
+          >
+            <div className="bg-white p-8 rounded-xl shadow-2xl border-4 border-[#C5A572] max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
               <h2 className="text-3xl font-bold text-black mb-6">Edit Brand</h2>
               <form onSubmit={handleUpdateBrand} className="space-y-5">
                 <div>
@@ -751,8 +828,14 @@ export default function AdminPage() {
 
         {/* Brand Details Modal */}
         {showBrandDetailsModal && selectedBrand && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-            <div className="bg-white rounded-xl shadow-2xl border-4 border-[#C5A572] max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+          <div
+            className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4"
+            onClick={() => {
+              setShowBrandDetailsModal(false);
+              setSelectedBrand(null);
+            }}
+          >
+            <div className="bg-white rounded-xl shadow-2xl border-4 border-[#C5A572] max-w-4xl w-full max-h-[90vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
               <div className="p-8">
                 <div className="flex justify-between items-start mb-6">
                   <div>
@@ -856,8 +939,16 @@ export default function AdminPage() {
 
         {/* Product Detail Modal */}
         {showProductModal && selectedProduct && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-            <div className="bg-white rounded-xl shadow-2xl border-4 border-[#0A1128] max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+          <div
+            className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4"
+            onClick={() => {
+              setShowProductModal(false);
+              setSelectedProduct(null);
+              setIsEditingProduct(false);
+              setShowVersionComparison(false);
+            }}
+          >
+            <div className="bg-white rounded-xl shadow-2xl border-4 border-[#0A1128] max-w-4xl w-full max-h-[90vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
               <div className="p-8">
                 {/* Header */}
                 <div className="flex justify-between items-start mb-6">
@@ -908,7 +999,7 @@ export default function AdminPage() {
                 )}
 
                 {/* Content */}
-                {selectedProduct.versions?.[0]?.contents && selectedProduct.versions[0].contents.length > 0 && (
+                {selectedProduct.versions?.[0] && (
                   <div className="mb-6">
                     <h3 className="text-xl font-bold text-black mb-3">
                       Content
@@ -927,29 +1018,34 @@ export default function AdminPage() {
                         </button>
                       )}
                     </h3>
-                    <div className="space-y-3">
-                      {selectedProduct.versions[0].contents.map((content: any, index: number) => (
-                        <div key={content.id} className="bg-[#0A1128]/5 p-4 rounded-lg">
-                          <p className="text-sm font-bold text-black mb-2">
-                            {content.contentType} ({content.language})
-                          </p>
-                          {isEditingProduct ? (
-                            <textarea
-                              value={productForm.contents[index]?.content || content.content}
-                              onChange={(e) => {
-                                const newContents = [...productForm.contents];
-                                newContents[index] = { ...content, content: e.target.value };
-                                setProductForm({ ...productForm, contents: newContents });
-                              }}
-                              onBlur={() => handleUpdateProductContent(content.id, productForm.contents[index]?.content || content.content)}
-                              className="w-full border-2 border-[#0A1128]/30 rounded px-3 py-2 text-black font-medium min-h-24"
-                            />
-                          ) : (
-                            <p className="text-black">{content.content}</p>
-                          )}
-                        </div>
-                      ))}
-                    </div>
+                    {selectedProduct.versions[0].contents && selectedProduct.versions[0].contents.length > 0 ? (
+                      <div className="space-y-3">
+                        {selectedProduct.versions[0].contents.map((content: any, index: number) => (
+                          <div key={content.id} className="bg-[#0A1128]/5 p-4 rounded-lg">
+                            <p className="text-sm font-bold text-black mb-2">
+                              {content.contentType} ({content.language})
+                            </p>
+                            {isEditingProduct ? (
+                              <TiptapEditor
+                                content={productForm.contents[index]?.content || content.content}
+                                onChange={(html) => {
+                                  const newContents = [...productForm.contents];
+                                  newContents[index] = { ...content, content: html };
+                                  setProductForm({ ...productForm, contents: newContents });
+                                }}
+                                onBlur={() => handleUpdateProductContent(content.id, productForm.contents[index]?.content || content.content)}
+                              />
+                            ) : (
+                              <div className="text-black prose prose-sm max-w-none" dangerouslySetInnerHTML={{ __html: content.content.replace(/\r\n/g, '<br>').replace(/\n/g, '<br>') }} />
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <div className="bg-[#0A1128]/5 p-4 rounded-lg text-center">
+                        <p className="text-black/60 font-medium">No content yet. Click "+ Add Content" to add content for this product.</p>
+                      </div>
+                    )}
                   </div>
                 )}
 
@@ -1097,8 +1193,11 @@ export default function AdminPage() {
 
         {/* Version Comparison Modal */}
         {showVersionComparison && selectedProduct && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-            <div className="bg-white rounded-xl shadow-2xl border-4 border-[#C5A572] max-w-6xl w-full max-h-[95vh] overflow-y-auto">
+          <div
+            className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4"
+            onClick={() => setShowVersionComparison(false)}
+          >
+            <div className="bg-white rounded-xl shadow-2xl border-4 border-[#C5A572] max-w-6xl w-full max-h-[95vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
               <div className="p-8">
                 <div className="flex justify-between items-start mb-6">
                   <div>
@@ -1130,8 +1229,11 @@ export default function AdminPage() {
 
         {/* CSV Import Modal */}
         {showImportModal && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-            <div className="bg-white rounded-xl shadow-2xl border-4 border-[#C5A572] max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+          <div
+            className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4"
+            onClick={() => setShowImportModal(false)}
+          >
+            <div className="bg-white rounded-xl shadow-2xl border-4 border-[#C5A572] max-w-4xl w-full max-h-[90vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
               <div className="p-8">
                 <div className="flex justify-between items-center mb-6">
                   <h2 className="text-3xl font-bold text-black">Import CSV</h2>
