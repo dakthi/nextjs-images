@@ -1,0 +1,166 @@
+{
+  "product": {
+    "metadata": {
+      "id": "e-file-fx200",
+      "brand": "BlazingStar",
+      "brandCategory": "Nail Essentials",
+      "productType": "Portable E-File",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar FX200 Portable E-File",
+        "vietnamese": "BlazingStar FX200 E-File Portable"
+      },
+      "tagline": {
+        "english": "Portable, brushless motor handpiece for manicure and pedicure work",
+        "vietnamese": "Máy khoan tay brushless portable cho công việc manicure và pedicure"
+      },
+      "overview": {
+        "english": "The BlazingStar FX200 is a compact, portable electric nail file designed for both manicure and pedicure applications. Featuring a brushless motor, quiet operation, and ergonomic design, it's ideal for high-throughput salon environments.",
+        "vietnamese": "BlazingStar FX200 là máy khoan nail điện portable nhỏ gọn được thiết kế cho cả ứng dụng manicure và pedicure. Với động cơ brushless, hoạt động yên tĩnh, và thiết kế ergonomic, nó lý tưởng cho môi trường salon có thông lượng cao."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Portable",
+        "Efficient",
+        "Ergonomic",
+        "Durable",
+        "Versatile"
+      ],
+      "targetAudience": {
+        "professionals": "Nail technicians, salon owners",
+        "salonTypes": "High-throughput salons, multi-station environments, mobile nail services"
+      },
+      "uniqueSelling": [
+        "Single unit serves both manicure and pedicure work",
+        "Brushless motor technology",
+        "Portable and easy to share across stations",
+        "Quiet, low-vibration operation",
+        "Ergonomic design for long sessions"
+      ]
+    },
+    "technical": {
+      "specifications": {
+        "type": {
+          "english": "Portable, brushless motor handpiece",
+          "vietnamese": "Máy khoan tay brushless portable"
+        },
+        "speed": {
+          "english": "Up to 35,000 RPM",
+          "vietnamese": "Lên đến 35,000 RPM"
+        },
+        "direction": {
+          "english": "Forward/Reverse (left/right-hand friendly)",
+          "vietnamese": "Thuận/Ngược (thân thiện với tay trái/phải)"
+        },
+        "operation": {
+          "english": "Quiet, low-vibration; comfortable for long sessions",
+          "vietnamese": "Yên tĩnh, rung động thấp; thoải mái cho các phiên dài"
+        },
+        "design": {
+          "english": "Compact unit with clear display and responsive touch controls",
+          "vietnamese": "Đơn vị nhỏ gọn với màn hình rõ ràng và nút cảm ứng phản ứng"
+        },
+        "grip": {
+          "english": "Secure, ergonomic handpiece reduces fatigue",
+          "vietnamese": "Máy khoan tay an toàn, ergonomic giảm mệt mỏi"
+        },
+        "use": {
+          "english": "Suitable for both manicure and pedicure work",
+          "vietnamese": "Phù hợp cho công việc manicure và pedicure"
+        }
+      },
+      "warranty": {
+        "english": "1 year (serviceable post-warranty per store policy)",
+        "vietnamese": "1 năm (có thể sửa chữa sau bảo hành theo chính sách cửa hàng)"
+      }
+    },
+    "positioning": {
+      "businessBenefits": [
+        {
+          "benefit": {
+            "english": "One unit for hands and feet reduces duplicate spend",
+            "vietnamese": "Một đơn vị cho tay và chân giảm chi phí trùng lặp"
+          },
+          "rationale": {
+            "english": "Eliminates need to purchase separate manicure and pedicure files",
+            "vietnamese": "Loại bỏ nhu cầu mua máy khoan riêng cho manicure và pedicure"
+          }
+        },
+        {
+          "benefit": {
+            "english": "Portable and easy to share across stations; fewer cables, faster turnover",
+            "vietnamese": "Portable và dễ chia sẻ giữa các trạm; ít cáp, quay vòng nhanh hơn"
+          },
+          "rationale": {
+            "english": "Reduces station setup time and increases efficiency",
+            "vietnamese": "Giảm thời gian thiết lập trạm và tăng hiệu quả"
+          }
+        },
+        {
+          "benefit": {
+            "english": "Durable brushless build supports high-throughput salons",
+            "vietnamese": "Xây dựng brushless bền hỗ trợ salon có thông lượng cao"
+          },
+          "rationale": {
+            "english": "Brushless motors require less maintenance and last longer",
+            "vietnamese": "Động cơ brushless cần bảo trì ít và kéo dài hơn"
+          }
+        }
+      ]
+    },
+    "guidance": {
+      "pairing": {
+        "english": "Pair with BlazingStar drill bits appropriate to the task (prep, cleanup, refinement)",
+        "vietnamese": "Ghép với mũi khoan BlazingStar thích hợp cho công việc (chuẩn bị, làm sạch, tinh chỉnh)"
+      },
+      "bestPractices": {
+        "english": "Always follow sanitation and speed best practices per service",
+        "vietnamese": "Luôn tuân theo các quy tắc tốt nhất về vệ sinh và tốc độ theo dịch vụ"
+      }
+    },
+    "relationships": {
+      "works_with": [
+        {
+          "productType": "Drill Bits",
+          "name": "BlazingStar Drill Bits",
+          "description": "Use appropriate drill bits for prep, cleanup, and refinement tasks"
+        }
+      ]
+    },
+    "searchMetadata": {
+      "tags": [
+        "e-file",
+        "portable-drill",
+        "electric-nail-file",
+        "brushless-motor",
+        "nail-tool",
+        "manicure-pedicure",
+        "salon-equipment"
+      ],
+      "keywords": [
+        "e-file",
+        "portable e-file",
+        "electric nail file",
+        "35000 RPM",
+        "brushless motor",
+        "nail drill",
+        "manicure tool",
+        "pedicure tool"
+      ],
+      "use_case": [
+        "nail-prep",
+        "nail-refinement",
+        "nail-cleanup",
+        "manicure-work",
+        "pedicure-work",
+        "multi-service-salon"
+      ],
+      "skill_level": ["intermediate", "advanced"]
+    }
+  }
+}

@@ -374,16 +374,14 @@ export default function AdminPage() {
                 <thead className="bg-[#0A1128] text-white">
                   <tr>
                     <th className="px-6 py-4 text-left text-base font-bold">Brand Name</th>
-                    <th className="px-6 py-4 text-left text-base font-bold">Slug</th>
                     <th className="px-6 py-4 text-left text-base font-bold">Description</th>
                     <th className="px-6 py-4 text-center text-base font-bold">Products</th>
-                    <th className="px-6 py-4 text-right text-base font-bold">Actions</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y-2 divide-[#0A1128]/10">
                   {brands.length === 0 ? (
                     <tr>
-                      <td colSpan={5} className="px-6 py-8 text-center text-black text-base font-medium">
+                      <td colSpan={3} className="px-6 py-8 text-center text-black text-base font-medium">
                         No brands yet. Create your first brand!
                       </td>
                     </tr>
@@ -391,13 +389,11 @@ export default function AdminPage() {
                     brands.map((brand: any) => (
                       <tr
                         key={brand.id}
-                        className="hover:bg-[#C5A572]/10 transition-colors"
+                        onClick={() => fetchBrandDetails(brand.id)}
+                        className="hover:bg-[#C5A572]/10 transition-colors cursor-pointer"
                       >
                         <td className="px-6 py-4 text-black font-bold text-base">
                           {brand.name}
-                        </td>
-                        <td className="px-6 py-4 text-black font-medium text-base">
-                          {brand.slug}
                         </td>
                         <td className="px-6 py-4 text-black text-base max-w-md truncate">
                           {brand.description || '—'}
@@ -406,28 +402,6 @@ export default function AdminPage() {
                           <span className="bg-[#0A1128]/10 text-[#0A1128] px-3 py-1 rounded-full font-bold">
                             {brand._count?.products || 0}
                           </span>
-                        </td>
-                        <td className="px-6 py-4 text-right">
-                          <div className="flex gap-2 justify-end">
-                            <button
-                              onClick={() => fetchBrandDetails(brand.id)}
-                              className="bg-[#0A1128] text-white font-bold px-4 py-2 rounded hover:bg-[#C5A572] transition-colors text-sm"
-                            >
-                              View
-                            </button>
-                            <button
-                              onClick={() => openEditBrandModal(brand)}
-                              className="bg-[#C5A572] text-white font-bold px-4 py-2 rounded hover:bg-[#0A1128] transition-colors text-sm"
-                            >
-                              Edit
-                            </button>
-                            <button
-                              onClick={() => handleDeleteBrand(brand.id, brand.name)}
-                              className="bg-[#0A1128] text-white font-bold px-4 py-2 rounded hover:bg-black transition-colors text-sm"
-                            >
-                              Delete
-                            </button>
-                          </div>
                         </td>
                       </tr>
                     ))
@@ -522,6 +496,118 @@ export default function AdminPage() {
           )}
         </div>
 
+        {/* Products Table */}
+        <div className="bg-white rounded-lg shadow-md border-2 border-[#0A1128]/20 overflow-hidden">
+          <table className="w-full">
+            <thead className="bg-[#0A1128] text-white">
+              <tr>
+                <th className="px-4 py-4 text-center text-base font-bold w-12">
+                  <input
+                    type="checkbox"
+                    checked={filteredProducts.length > 0 && filteredProducts.every(p => selectedProductIds.has(p.productCode))}
+                    onChange={(e) => {
+                      if (e.target.checked) {
+                        setSelectedProductIds(new Set(filteredProducts.map(p => p.productCode)));
+                      } else {
+                        setSelectedProductIds(new Set());
+                      }
+                    }}
+                    className="w-5 h-5 cursor-pointer"
+                  />
+                </th>
+                <th className="px-6 py-4 text-left text-base font-bold">Product Code</th>
+                <th className="px-6 py-4 text-left text-base font-bold">Product Name</th>
+                <th className="px-6 py-4 text-left text-base font-bold">Brand</th>
+                <th className="px-6 py-4 text-center text-base font-bold">Status</th>
+                <th className="px-6 py-4 text-center text-base font-bold">Versions</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y-2 divide-[#0A1128]/10">
+              {filteredProducts.length === 0 ? (
+                <tr>
+                  <td colSpan={6} className="px-6 py-8 text-center text-black text-base font-medium">
+                    {searchTerm || brandFilter !== 'all'
+                      ? 'No products found matching your filters'
+                      : 'No products yet. Import or create your first product!'}
+                  </td>
+                </tr>
+              ) : (
+                filteredProducts.map((product) => (
+                  <tr
+                    key={product.id}
+                    className="hover:bg-[#0A1128]/5 transition-colors"
+                  >
+                    <td className="px-4 py-4 text-center">
+                      <input
+                        type="checkbox"
+                        checked={selectedProductIds.has(product.productCode)}
+                        onChange={(e) => {
+                          const newSet = new Set(selectedProductIds);
+                          if (e.target.checked) {
+                            newSet.add(product.productCode);
+                          } else {
+                            newSet.delete(product.productCode);
+                          }
+                          setSelectedProductIds(newSet);
+                        }}
+                        onClick={(e) => e.stopPropagation()}
+                        className="w-5 h-5 cursor-pointer"
+                      />
+                    </td>
+                    <td
+                      onClick={() => fetchProductDetails(product.productCode)}
+                      className="px-6 py-4 text-black font-bold text-base cursor-pointer"
+                    >
+                      {product.productCode}
+                    </td>
+                    <td
+                      onClick={() => fetchProductDetails(product.productCode)}
+                      className="px-6 py-4 text-black font-medium text-base cursor-pointer"
+                    >
+                      {product.name}
+                    </td>
+                    <td
+                      onClick={() => fetchProductDetails(product.productCode)}
+                      className="px-6 py-4 text-black font-medium text-base cursor-pointer"
+                    >
+                      <span className="bg-[#0A1128]/10 text-[#0A1128] px-3 py-1 rounded-full font-bold">
+                        {product.brand?.name || 'Unknown'}
+                      </span>
+                    </td>
+                    <td
+                      onClick={() => fetchProductDetails(product.productCode)}
+                      className="px-6 py-4 text-center cursor-pointer"
+                    >
+                      <span
+                        className={`px-3 py-1 rounded-full font-bold text-sm ${
+                          product.isActive
+                            ? 'bg-[#C5A572]/10 text-[#0A1128]'
+                            : 'bg-[#0A1128]/10 text-[#0A1128]'
+                        }`}
+                      >
+                        {product.isActive ? 'Active' : 'Inactive'}
+                      </span>
+                    </td>
+                    <td
+                      onClick={() => fetchProductDetails(product.productCode)}
+                      className="px-6 py-4 text-center text-black font-medium text-base cursor-pointer"
+                    >
+                      {product.versions?.length || 0}
+                    </td>
+                  </tr>
+                ))
+              )}
+            </tbody>
+          </table>
+        </div>
+
+            <div className="mt-4 text-black text-base font-bold">
+              Showing {filteredProducts.length} of {products.length} products
+            </div>
+          </>
+        )}
+
+        {/* All Modals - Outside tab sections so they work on any tab */}
         {/* Create Brand Modal */}
         {showCreateBrandModal && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
@@ -712,7 +798,14 @@ export default function AdminPage() {
                     </h3>
                     <div className="grid grid-cols-2 gap-3">
                       {selectedBrand.products.map((product: any) => (
-                        <div key={product.id} className="bg-[#0A1128]/5 p-4 rounded-lg border-2 border-[#0A1128]/20">
+                        <div
+                          key={product.id}
+                          onClick={() => {
+                            setShowBrandDetailsModal(false);
+                            fetchProductDetails(product.productCode);
+                          }}
+                          className="bg-[#0A1128]/5 p-4 rounded-lg border-2 border-[#0A1128]/20 hover:bg-[#C5A572]/10 hover:border-[#C5A572] transition-colors cursor-pointer"
+                        >
                           <p className="text-base font-bold text-black">{product.name}</p>
                           <p className="text-sm text-black font-medium">Code: {product.productCode}</p>
                           <p className="text-sm text-black">
@@ -1033,117 +1126,6 @@ export default function AdminPage() {
               </div>
             </div>
           </div>
-        )}
-
-        {/* Products Table */}
-        <div className="bg-white rounded-lg shadow-md border-2 border-[#0A1128]/20 overflow-hidden">
-          <table className="w-full">
-            <thead className="bg-[#0A1128] text-white">
-              <tr>
-                <th className="px-4 py-4 text-center text-base font-bold w-12">
-                  <input
-                    type="checkbox"
-                    checked={filteredProducts.length > 0 && filteredProducts.every(p => selectedProductIds.has(p.productCode))}
-                    onChange={(e) => {
-                      if (e.target.checked) {
-                        setSelectedProductIds(new Set(filteredProducts.map(p => p.productCode)));
-                      } else {
-                        setSelectedProductIds(new Set());
-                      }
-                    }}
-                    className="w-5 h-5 cursor-pointer"
-                  />
-                </th>
-                <th className="px-6 py-4 text-left text-base font-bold">Product Code</th>
-                <th className="px-6 py-4 text-left text-base font-bold">Product Name</th>
-                <th className="px-6 py-4 text-left text-base font-bold">Brand</th>
-                <th className="px-6 py-4 text-center text-base font-bold">Status</th>
-                <th className="px-6 py-4 text-center text-base font-bold">Versions</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y-2 divide-[#0A1128]/10">
-              {filteredProducts.length === 0 ? (
-                <tr>
-                  <td colSpan={6} className="px-6 py-8 text-center text-black text-base font-medium">
-                    {searchTerm || brandFilter !== 'all'
-                      ? 'No products found matching your filters'
-                      : 'No products yet. Import or create your first product!'}
-                  </td>
-                </tr>
-              ) : (
-                filteredProducts.map((product) => (
-                  <tr
-                    key={product.id}
-                    className="hover:bg-[#0A1128]/5 transition-colors"
-                  >
-                    <td className="px-4 py-4 text-center">
-                      <input
-                        type="checkbox"
-                        checked={selectedProductIds.has(product.productCode)}
-                        onChange={(e) => {
-                          const newSet = new Set(selectedProductIds);
-                          if (e.target.checked) {
-                            newSet.add(product.productCode);
-                          } else {
-                            newSet.delete(product.productCode);
-                          }
-                          setSelectedProductIds(newSet);
-                        }}
-                        onClick={(e) => e.stopPropagation()}
-                        className="w-5 h-5 cursor-pointer"
-                      />
-                    </td>
-                    <td
-                      onClick={() => fetchProductDetails(product.productCode)}
-                      className="px-6 py-4 text-black font-bold text-base cursor-pointer"
-                    >
-                      {product.productCode}
-                    </td>
-                    <td
-                      onClick={() => fetchProductDetails(product.productCode)}
-                      className="px-6 py-4 text-black font-medium text-base cursor-pointer"
-                    >
-                      {product.name}
-                    </td>
-                    <td
-                      onClick={() => fetchProductDetails(product.productCode)}
-                      className="px-6 py-4 text-black font-medium text-base cursor-pointer"
-                    >
-                      <span className="bg-[#0A1128]/10 text-[#0A1128] px-3 py-1 rounded-full font-bold">
-                        {product.brand?.name || 'Unknown'}
-                      </span>
-                    </td>
-                    <td
-                      onClick={() => fetchProductDetails(product.productCode)}
-                      className="px-6 py-4 text-center cursor-pointer"
-                    >
-                      <span
-                        className={`px-3 py-1 rounded-full font-bold text-sm ${
-                          product.isActive
-                            ? 'bg-[#C5A572]/10 text-[#0A1128]'
-                            : 'bg-[#0A1128]/10 text-[#0A1128]'
-                        }`}
-                      >
-                        {product.isActive ? 'Active' : 'Inactive'}
-                      </span>
-                    </td>
-                    <td
-                      onClick={() => fetchProductDetails(product.productCode)}
-                      className="px-6 py-4 text-center text-black font-medium text-base cursor-pointer"
-                    >
-                      {product.versions?.length || 0}
-                    </td>
-                  </tr>
-                ))
-              )}
-            </tbody>
-          </table>
-        </div>
-
-            <div className="mt-4 text-black text-base font-bold">
-              Showing {filteredProducts.length} of {products.length} products
-            </div>
-          </>
         )}
 
         {/* CSV Import Modal */}

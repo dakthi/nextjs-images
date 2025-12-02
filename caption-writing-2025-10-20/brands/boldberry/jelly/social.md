@@ -1,0 +1,12 @@
+# Bold Berry Jelly — Social Caption
+
+Wrap your fingertips in the glow of autumn with Bold Berry Jelly.
+
+✨ Warm, radiant tones that flatter every complexion
+✨ A sheer, juicy tint for that soft, cozy-chic feel
+✨ Nails that look effortless, polished, and perfectly seasonal
+
+💎 Join our members’ list at vldirect.uk for early drops and exclusive offers.
+💅 VLDirect — beauty that makes sense for the tech.
+
+Shop Bold Berry at vldirect.uk today! 🛍️

@@ -1,0 +1,285 @@
+{
+  "product": {
+    "metadata": {
+      "id": "acrylic-powder-maxx-perform",
+      "brand": "BlazingStar",
+      "brandCategory": "Sculpting System",
+      "productType": "Acrylic Powder System",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english", "vietnamese"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Maxx Perform Acrylic Powder",
+        "vietnamese": "Bột Acrylic BlazingStar Maxx Perform"
+      },
+      "productType": "Acrylic Building Powder",
+      "tagline": {
+        "english": "Premium 3-Speed Acrylic Powder System for All Climates",
+        "vietnamese": "Hệ Thống Bột Acrylic 3 Tốc Độ Cao Cấp Cho Mọi Điều Kiện Khí Hậu"
+      },
+      "overview": {
+        "english": "BlazingStar Maxx Perform is a premium acrylic powder system offering three hardening speeds (Slow, Medium, Fast) to optimize performance in any climate condition. Provides excellent coverage, comfortable workability, and natural color finishes suitable for French manicures, ombre effects, and full nail extensions.",
+        "vietnamese": "BlazingStar Maxx Perform là hệ thống bột acrylic cao cấp cung cấp ba tốc độ cứng (Chậm, Vừa, Nhanh) để tối ưu hóa hiệu suất trong bất kỳ điều kiện khí hậu nào. Cung cấp độ che phủ xuất sắc, khả năng làm việc thoải mái, và hoàn thiện màu tự nhiên phù hợp cho French manicure, hiệu ứng ombre, và nối móng hoàn chỉnh."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Durable",
+        "Glossy",
+        "Easy to Use",
+        "Hypoallergenic",
+        "Versatile",
+        "Professional-grade"
+      ],
+      "targetAudience": {
+        "primary": "Professional nail technicians in salons",
+        "secondary": "Nail artists requiring climate-specific options",
+        "experience_level": "Intermediate to Advanced"
+      },
+      "uniqueSelling": [
+        "Three-speed system (Slow, Medium, Fast) adapts to any climate",
+        "Natural color finishes perfect for French and ombre effects",
+        "Easy workability—not particular about liquid brand",
+        "High coverage with single brush stroke",
+        "Multiple collections for different nail styles",
+        "Weather-responsive formulation"
+      ]
+    },
+    "productDetails": {
+      "variants": [
+        {
+          "name": "Slow Set",
+          "description": {
+            "english": "Optimized for warm and hot weather when powder naturally sets faster. Slow Set gives technicians more working time and reduces pressure.",
+            "vietnamese": "Tối ưu hóa cho thời tiết ấm và nóng khi bột tự nhiên cứng nhanh hơn. Slow Set cung cấp thời gian làm việc nhiều hơn cho thợ và giảm áp lực."
+          },
+          "colors": ["Clear"],
+          "recommended_season": "Summer and warm weather",
+          "use_case": "When ambient temperature speeds up natural curing"
+        },
+        {
+          "name": "Medium Set",
+          "description": {
+            "english": "Balanced hardening speed suitable for most conditions and temperate climates. Works well year-round in mild weather.",
+            "vietnamese": "Tốc độ cứng cân bằng phù hợp cho hầu hết điều kiện và khí hậu ôn hòa. Hoạt động tốt quanh năm trong thời tiết dịu nhẹ."
+          },
+          "colors": ["Natural Pink", "Clear"],
+          "recommended_season": "Spring and Autumn; year-round in moderate climates",
+          "use_case": "Default choice for consistent, predictable performance"
+        },
+        {
+          "name": "Fast Set",
+          "description": {
+            "english": "Accelerated hardening for cold and humid weather conditions common in UK winters. Essential for maintaining efficient workflow in low temperatures.",
+            "vietnamese": "Khô nhanh cho điều kiện thời tiết lạnh và ẩm ướt phổ biến trong mùa đông tại Anh. Cần thiết để duy trì quy trình làm việc hiệu quả trong nhiệt độ thấp."
+          },
+          "colors": ["Natural Pink", "Clear"],
+          "recommended_season": "Winter and cold weather",
+          "use_case": "When ambient temperature slows natural curing"
+        }
+      ],
+      "collections": [
+        {
+          "name": "French Collection",
+          "type": "Sheer Finishes",
+          "description": {
+            "english": "Six sheer color options perfect for creating elegant French manicures with natural-looking tips.",
+            "vietnamese": "Sáu tùy chọn màu trong suốt hoàn hảo để tạo French manicure thanh lịch với vẻ ngoài tự nhiên."
+          },
+          "size_options": ["2oz", "23oz"],
+          "color_count": 6,
+          "best_for": "French manicures, elegant finishes"
+        },
+        {
+          "name": "BlazingStar White Collection",
+          "type": "White Finish Specialists",
+          "description": {
+            "english": "Premium white powder collection with three distinct white shades: Milky White, French White, and Soft White for versatile white-based designs.",
+            "vietnamese": "Bộ sưu tập bột trắng cao cấp với ba tông trắng khác biệt: Milky White, French White, và Soft White cho các thiết kế dựa trên trắng đa năng."
+          },
+          "colors": ["Milky White", "French White", "Soft White"],
+          "size_options": ["2oz", "23oz"],
+          "best_for": "White-based designs, French tips, elegant whites"
+        },
+        {
+          "name": "Ombre Collection",
+          "type": "Solid Color Range",
+          "description": {
+            "english": "22 solid colors with natural tones perfect for full nail extensions and ombre effects. Easy to work with, compatible with all liquids, and delivers high coverage.",
+            "vietnamese": "22 màu đặc với tông tự nhiên hoàn hảo cho nối móng hoàn chỉnh và hiệu ứng ombre. Dễ làm việc, tương thích với tất cả dung dịch, và cung cấp độ che phủ cao."
+          },
+          "color_count": 22,
+          "characteristics": [
+            "Natural color tones",
+            "Suitable for full nail extensions and ombre effects",
+            "Not particular about liquid—works with all liquids",
+            "Smooth and easy to apply",
+            "High coverage"
+          ],
+          "size_options": ["2oz", "23oz"],
+          "best_for": "Full nail extensions, ombre effects, color blending"
+        }
+      ],
+      "specifications": {
+        "composition": "Professional-grade acrylic powder",
+        "coverage": "High—single brush stroke application",
+        "workability": "Smooth, easy application",
+        "liquid_compatibility": "Works with all professional acrylic liquids",
+        "color_range": "Natural tones with sheer and solid options"
+      },
+      "features": [
+        "Three hardening speeds optimize for any climate",
+        "Natural-looking color finishes",
+        "Easy application—not particular about liquid brand",
+        "High coverage with single brush stroke",
+        "Smooth, workable consistency",
+        "Multiple collections for different nail styles",
+        "Available in 2oz and 23oz sizes"
+      ],
+      "benefits": [
+        "Speed options eliminate need for temperature management tricks",
+        "No need to heat liquid or adjust environment for powder performance",
+        "Tuning nail application faster by choosing appropriate powder speed",
+        "Natural color finishes deliver professional appearance",
+        "Easy workability reduces application time and technician fatigue",
+        "Universal liquid compatibility provides flexibility",
+        "Multiple collections allow technicians to offer diverse styles"
+      ],
+      "applications": [
+        "Full acrylic nail extensions",
+        "Acrylic overlays",
+        "French manicures",
+        "Ombre and gradient effects",
+        "Solid color nail designs",
+        "White-based nail art",
+        "Professional salon services"
+      ]
+    },
+    "technical": {
+      "material": "Professional-Grade Acrylic Powder",
+      "origin": "UK-Made BlazingStar Professional Products",
+      "composition": {
+        "base": "Polymethyl methacrylate (PMMA)",
+        "pigments": "Professional-grade color pigments",
+        "additives": "Anti-yellowing agents and performance enhancers"
+      },
+      "safety": [
+        "Professional product for trained technicians",
+        "Use in well-ventilated salon environments",
+        "Avoid inhalation of powder dust",
+        "Keep away from moisture until mixed with liquid"
+      ],
+      "certifications": ["UK Professional Grade", "UKCA Approved"],
+      "storage": "Keep container tightly sealed in cool, dry location. Exposure to moisture will affect powder quality."
+    },
+    "commercial": {
+      "sizes": [
+        {
+          "size": "2oz",
+          "description": "Standard salon jar for everyday use"
+        },
+        {
+          "size": "23oz",
+          "description": "Bulk size for high-volume salons"
+        }
+      ],
+      "availability": "Available through VLDirect and authorized BlazingStar distributors",
+      "distribution": "UK-based distribution, internationally available"
+    },
+    "relationships": {
+      "works_with": [
+        "BlazingStar Maxx Perform Liquid (all formulas)",
+        "All professional acrylic liquids",
+        "BlazingStar Acrylic Brushes (all types)",
+        "BlazingStar Acrylic Tips",
+        "BlazingStar Drill Bits"
+      ],
+      "part_of_system": "BlazingStar Complete Acrylic System",
+      "speed_pairing": {
+        "slow_set": "Pair with slow liquid or use in hot weather",
+        "medium_set": "Default option for most conditions",
+        "fast_set": "Pair with Winter Formula liquid in cold weather"
+      }
+    },
+    "guidance": {
+      "best_for": [
+        "Technicians in UK working year-round across seasons",
+        "Salons with high-volume clients needing consistent results",
+        "Professionals creating French manicures and ombre effects",
+        "Nail artists preferring natural color finishes",
+        "Technicians seeking optimal performance without environmental management"
+      ],
+      "technique": [
+        {
+          "name": "Speed Selection",
+          "english": "Choose hardening speed based on ambient temperature: Slow Set for summer heat, Medium Set for mild weather, Fast Set for winter cold. This eliminates the need to heat liquid or adjust workspace.",
+          "vietnamese": "Chọn tốc độ cứng dựa trên nhiệt độ xung quanh: Slow Set cho nóng hè, Medium Set cho thời tiết dịu, Fast Set cho lạnh mùa đông. Điều này loại bỏ nhu cầu làm nóng dung dịch hoặc điều chỉnh không gian làm việc."
+        },
+        {
+          "name": "Application Technique",
+          "english": "Pick up powder bead with appropriate liquid ratio. Powder cures based on selected speed, not environmental temperature.",
+          "vietnamese": "Lấy hạt bột với tỷ lệ dung dịch thích hợp. Bột cứng dựa trên tốc độ được chọn, không phải nhiệt độ môi trường."
+        },
+        {
+          "name": "Ombre Application",
+          "english": "Use Ombre Collection colors for seamless blending. Powder's easy workability allows for smooth color transitions.",
+          "vietnamese": "Sử dụng các màu trong Ombre Collection để pha trộn liền mạch. Khả năng làm việc dễ dàng của bột cho phép chuyển đổi màu mượt mà."
+        }
+      ],
+      "care_instructions": {
+        "storage": "Keep container tightly sealed in cool, dry location",
+        "humidity": "Protect from moisture—humidity will clump powder",
+        "temperature": "Store at room temperature (15-25°C)",
+        "shelf_life": "Maintain quality when stored properly in sealed container"
+      },
+      "tips": [
+        "Stock all three speeds for year-round flexibility",
+        "Winter months in UK: Switch to Fast Set for consistent performance",
+        "Medium Set is excellent default for technicians new to the 3-speed system",
+        "Keep powder dry—humidity causes clumping",
+        "French Collection provides natural elegance without additional effort",
+        "White Collection essential for modern white-focused nail trends",
+        "Single brush stroke coverage saves time and reduces application steps"
+      ]
+    },
+    "searchMetadata": {
+      "tags": [
+        "acrylic-powder",
+        "nail-building",
+        "professional-grade",
+        "multi-speed",
+        "salon-product",
+        "UK-made",
+        "french-collection",
+        "white-collection",
+        "ombre-collection",
+        "maxx-perform"
+      ],
+      "keywords": [
+        "acrylic powder",
+        "nail powder",
+        "fast set",
+        "medium set",
+        "slow set",
+        "professional acrylic",
+        "maxx perform",
+        "french manicure",
+        "ombre effects",
+        "nail extension"
+      ],
+      "season": ["Year-Round", "Winter", "Summer"],
+      "skill_level": ["Intermediate", "Advanced"],
+      "use_case": [
+        "Full acrylic extensions",
+        "Acrylic overlays",
+        "French manicures",
+        "Ombre and gradient effects",
+        "Professional salon services",
+        "Bulk salon use"
+      ],
+      "climate_specific": ["Cold weather", "Hot weather", "Mild weather", "Year-round"]
+    }
+  }
+}

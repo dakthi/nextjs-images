@@ -68,8 +68,16 @@ export async function GET(request: NextRequest) {
     }
   } catch (error) {
     console.error('Failed to fetch products:', error);
+    console.error('Error details:', {
+      message: error instanceof Error ? error.message : 'Unknown error',
+      stack: error instanceof Error ? error.stack : undefined,
+      name: error instanceof Error ? error.name : undefined,
+    });
     return NextResponse.json(
-      { error: 'Failed to fetch products' },
+      {
+        error: 'Failed to fetch products',
+        details: error instanceof Error ? error.message : 'Unknown error'
+      },
       { status: 500 }
     );
   }

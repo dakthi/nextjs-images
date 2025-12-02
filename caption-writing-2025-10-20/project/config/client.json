@@ -1,0 +1,17 @@
+{
+  "client": "BlazingStar",
+  "brand_root": "blazingstar",
+  "knowledge_root": "blazingstar",
+  "brand_folder": "blazingstar",
+  "products_folder": "blazingstar",
+  "style_folders": [
+    "autumn-berry",
+    "bold-berry",
+    "pastel",
+    "mberry",
+    "inspo",
+    "blazingstar"
+  ],
+  "llm_index": "blazingstar/index.json",
+  "notes": "Use brand voice and product docs for captions/copy."
+}

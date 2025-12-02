@@ -31,6 +31,7 @@ model Product {
   brandId     String           @map("brand_id")
   brand       Brand            @relation(fields: [brandId], references: [id])
   productCode String           @unique @map("product_code")
+  sku         String?          @unique
   name        String
   slug        String           @unique
   isActive    Boolean          @default(true) @map("is_active")
@@ -40,6 +41,7 @@ model Product {
 
   @@index([brandId])
   @@index([productCode])
+  @@index([sku])
   @@index([isActive])
   @@index([slug])
   @@map("products")

@@ -1,0 +1,236 @@
+{
+  "product": {
+    "metadata": {
+      "id": "led-lamps-master",
+      "brand": "BlazingStar",
+      "brandCategory": "Nail Essentials",
+      "productType": "LED Curing Lamp System",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar LED Lamps",
+        "vietnamese": "BlazingStar Đèn LED"
+      },
+      "tagline": {
+        "english": "Professional LED curing lamps for all gel applications",
+        "vietnamese": "Đèn LED curing chuyên nghiệp cho tất cả ứng dụng gel"
+      },
+      "overview": {
+        "english": "BlazingStar LED Lamps are professional-grade curing lamps designed to work with all gel polish and builder gel systems. Available in corded and cordless options, these lamps provide sufficient power to cure standard gel formulas reliably.",
+        "vietnamese": "BlazingStar LED Lamps là đèn curing cấp chuyên nghiệp được thiết kế để làm việc với tất cả các hệ thống gel polish và builder gel. Có sẵn trong các tùy chọn dây và không dây, những đèn này cung cấp đủ sức mạnh để curing các công thức gel tiêu chuẩn một cách đáng tin cậy."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Professional-grade",
+        "Compatible",
+        "Reliable",
+        "Durable",
+        "Versatile"
+      ],
+      "targetAudience": {
+        "professionals": "Nail technicians and salon owners",
+        "salonTypes": "Professional salons, mobile services, home-based professionals"
+      },
+      "uniqueSelling": [
+        "Compatible with all gel polish and builder gel systems",
+        "Corded and cordless options available",
+        "Sufficient power for standard gel formulas",
+        "Durable design for daily salon use",
+        "Professional warranty and post-warranty support"
+      ]
+    },
+    "productDetails": {
+      "commonFeatures": [
+        {
+          "feature": {
+            "english": "Universal Gel Compatibility",
+            "vietnamese": "Tương Thích Gel Phổ Biến"
+          },
+          "description": {
+            "english": "Use for curing all gel types, from gel polish to builder gel",
+            "vietnamese": "Sử dụng để curing tất cả các loại gel, từ gel polish đến builder gel"
+          }
+        },
+        {
+          "feature": {
+            "english": "Sufficient Power",
+            "vietnamese": "Sức Mạnh Đủ"
+          },
+          "description": {
+            "english": "Power sufficient to cure standard gel formulas",
+            "vietnamese": "Sức mạnh đủ để curing các công thức gel tiêu chuẩn"
+          }
+        },
+        {
+          "feature": {
+            "english": "Salon-Ready Durability",
+            "vietnamese": "Độ Bền Sẵn Sàng Salon"
+          },
+          "description": {
+            "english": "Durable design for daily salon use",
+            "vietnamese": "Thiết kế bền cho sử dụng hàng ngày trong salon"
+          }
+        }
+      ],
+      "variants": [
+        {
+          "id": "lamp-blazingstar",
+          "name": "BlazingStar LED Lamps",
+          "vietnameseName": "BlazingStar Đèn LED",
+          "compatibility": {
+            "english": "Compatible with all BlazingStar gel systems",
+            "vietnamese": "Tương thích với tất cả các hệ thống gel BlazingStar"
+          },
+          "options": {
+            "english": "Available in corded and cordless versions",
+            "vietnamese": "Có sẵn trong các phiên bản dây và không dây"
+          },
+          "warranty": {
+            "english": "1-year warranty",
+            "vietnamese": "Bảo hành 1 năm"
+          },
+          "bestFor": {
+            "english": "BlazingStar gel polish and builder gel applications",
+            "vietnamese": "Ứng dụng gel polish và builder gel BlazingStar"
+          }
+        },
+        {
+          "id": "lamp-boldberry",
+          "name": "BoldBerry LED Lamps",
+          "vietnameseName": "BoldBerry Đèn LED",
+          "compatibility": {
+            "english": "Compatible with all BoldBerry systems",
+            "vietnamese": "Tương thích với tất cả các hệ thống BoldBerry"
+          },
+          "performance": {
+            "english": "Optimal curing performance",
+            "vietnamese": "Hiệu suất curing tối ưu"
+          },
+          "warranty": {
+            "english": "1-year warranty",
+            "vietnamese": "Bảo hành 1 năm"
+          },
+          "bestFor": {
+            "english": "BoldBerry gel systems and premium applications",
+            "vietnamese": "Hệ thống gel BoldBerry và ứng dụng cao cấp"
+          }
+        },
+        {
+          "id": "lamp-masters-led",
+          "name": "Masters LED Gel Nail Lamp",
+          "vietnameseName": "Masters LED Gel Nail Lamp",
+          "type": {
+            "english": "LED Gel Nail Lamp",
+            "vietnamese": "Đèn LED Gel Nail"
+          },
+          "note": {
+            "english": "Battery life depends on usage patterns",
+            "vietnamese": "Thời lượng pin phụ thuộc vào mẫu sử dụng"
+          },
+          "bestFor": {
+            "english": "Portable gel nail curing applications",
+            "vietnamese": "Ứng dụng curing gel nail portable"
+          }
+        }
+      ]
+    },
+    "technical": {
+      "types": {
+        "english": "Corded and cordless options available",
+        "vietnamese": "Có sẵn các tùy chọn dây và không dây"
+      },
+      "compatibility": {
+        "english": "Works with all gel polish and builder gel systems",
+        "vietnamese": "Phù hợp với tất cả các hệ thống gel polish và builder gel"
+      }
+    },
+    "warranty": {
+      "overview": {
+        "english": "1 year (excludes battery, charging cable, and consumable parts)",
+        "vietnamese": "1 năm (không bao gồm pin, cáp sạc và các bộ phận tiêu hao)"
+      },
+      "coverage": {
+        "english": "Equipment malfunction and defects",
+        "vietnamese": "Hỏng hóc thiết bị và khuyết điểm"
+      },
+      "exclusions": [
+        {
+          "item": "Battery",
+          "vietnameseName": "Pin"
+        },
+        {
+          "item": "Charging Cable",
+          "vietnameseName": "Cáp Sạc"
+        },
+        {
+          "item": "Consumable Parts",
+          "vietnameseName": "Các Bộ Phận Tiêu Hao"
+        }
+      ]
+    },
+    "support": {
+      "afterWarranty": {
+        "english": "VL provides repair service within scope with applicable fees",
+        "vietnamese": "VL cung cấp dịch vụ sửa chữa trong phạm vi với các khoản phí áp dụng"
+      },
+      "contact": {
+        "english": "Contact VL for repair specifics and service fees",
+        "vietnamese": "Liên hệ VL để biết chi tiết sửa chữa và phí dịch vụ"
+      }
+    },
+    "relationships": {
+      "works_with": [
+        {
+          "productType": "Gel Polish",
+          "name": "BlazingStar Gel Polish (362 colors)",
+          "description": "Cure gel polish applications with BlazingStar LED lamps"
+        },
+        {
+          "productType": "Builder Gel",
+          "name": "BlazingStar Builder Gel",
+          "description": "Cure builder gel layers with sufficient power"
+        },
+        {
+          "productType": "Base & Top Gels",
+          "name": "BlazingStar Base Gels and Top Coats",
+          "description": "Complete gel system requiring proper curing"
+        }
+      ]
+    },
+    "searchMetadata": {
+      "tags": [
+        "led-lamp",
+        "curing-lamp",
+        "gel-lamp",
+        "nail-lamp",
+        "cordless-lamp",
+        "corded-lamp",
+        "professional-lamp",
+        "salon-equipment"
+      ],
+      "keywords": [
+        "LED lamp",
+        "gel curing lamp",
+        "nail lamp",
+        "cordless lamp",
+        "corded lamp",
+        "gel polish lamp",
+        "builder gel lamp",
+        "professional curing"
+      ],
+      "use_case": [
+        "gel-polish-curing",
+        "builder-gel-curing",
+        "gel-base-curing",
+        "gel-topcoat-curing",
+        "salon-curing",
+        "portable-curing"
+      ],
+      "skill_level": ["beginner", "intermediate", "advanced"]
+    }
+  }
+}

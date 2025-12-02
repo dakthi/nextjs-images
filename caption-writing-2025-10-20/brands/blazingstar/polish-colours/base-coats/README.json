@@ -1,0 +1,352 @@
+{
+  "product": {
+    "metadata": {
+      "id": "base-coats-master",
+      "brand": "BlazingStar",
+      "brandCategory": "Polish Colours",
+      "productType": "Base Coat System",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english", "vietnamese"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Base Coats",
+        "vietnamese": "BlazingStar Sơn Lót"
+      },
+      "tagline": {
+        "english": "Foundation gel products supporting nail health and performance",
+        "vietnamese": "Sản phẩm gel lót hỗ trợ sức khỏe và hiệu suất móng"
+      },
+      "overview": {
+        "english": "BlazingStar Base Coats are a comprehensive system of foundation gel products designed to support nail health, enhance performance, and suit varied salon techniques. Each variant offers unique benefits for different nail types and application styles.",
+        "vietnamese": "BlazingStar Base Coats là một hệ thống toàn diện các sản phẩm gel lót được thiết kế để hỗ trợ sức khỏe móng, tăng cường hiệu suất, và phù hợp với các kỹ thuật salon khác nhau. Mỗi biến thể cung cấp những lợi ích riêng cho các loại móng và phong cách ứng dụng khác nhau."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Nail-protective",
+        "Performance-enhancing",
+        "Flexible",
+        "Safe",
+        "Versatile"
+      ],
+      "targetAudience": {
+        "professionals": "Nail technicians and salon professionals",
+        "clientTypes": "All nail types, including sensitive clients"
+      },
+      "sharedBenefits": {
+        "english": [
+          "Strength & durability",
+          "Nail protection",
+          "Improved color adhesion"
+        ],
+        "vietnamese": [
+          "Sức mạnh & độ bền",
+          "Bảo vệ móng",
+          "Cải thiện sự bám dính của màu"
+        ]
+      }
+    },
+    "productDetails": {
+      "variants": [
+        {
+          "id": "base-strengthener-original",
+          "name": "Strengthener Gel Base (Original)",
+          "vietnameseName": "Sơn Lót Gel Strengthener (Gốc)",
+          "characteristics": {
+            "texture": {
+              "english": "Thin, easy to apply",
+              "vietnamese": "Mỏng, dễ sơn"
+            },
+            "benefit": {
+              "english": "Nail-nourishing ingredients",
+              "vietnamese": "Thành phần nuôi dưỡng móng"
+            }
+          },
+          "use": {
+            "english": "Regular gel polish manicures",
+            "vietnamese": "Manicure gel polish thường xuyên"
+          },
+          "sizes": ["15ml", "240ml"],
+          "bestFor": {
+            "english": "Standard gel polish applications",
+            "vietnamese": "Ứng dụng gel polish tiêu chuẩn"
+          }
+        },
+        {
+          "id": "base-revive",
+          "name": "Revive Base",
+          "vietnameseName": "Sơn Lót Revive",
+          "characteristics": {
+            "description": {
+              "english": "Protective nail gel base with new Revive formula",
+              "vietnamese": "Dòng base gel bảo vệ móng với công thức Revive mới"
+            },
+            "promise": {
+              "english": "Ensures superior durability without compromising nail health",
+              "vietnamese": "Đảm bảo độ bền vượt trội mà vẫn không ảnh hưởng đến sức khỏe móng"
+            }
+          },
+          "features": [
+            {
+              "feature": {
+                "english": "High Coverage",
+                "vietnamese": "Độ Phủ Cao"
+              },
+              "description": {
+                "english": "Strong texture ensures optimal durability",
+                "vietnamese": "Kết cấu chắc chắn đảm bảo độ bền tối ưu"
+              }
+            },
+            {
+              "feature": {
+                "english": "Balanced Durability",
+                "vietnamese": "Độ Bền Cân Bằng"
+              },
+              "description": {
+                "english": "Keeps gel coat strong and beautiful while maintaining nail health",
+                "vietnamese": "Giữ cho lớp sơn bền, đẹp mà không ảnh hưởng đến sức khỏe móng"
+              }
+            },
+            {
+              "feature": {
+                "english": "Smooth Surface",
+                "vietnamese": "Bề Mặt Mịn"
+              },
+              "description": {
+                "english": "Self-leveling, creates smooth surface for gel color application",
+                "vietnamese": "Tự dàn đều, tạo bề mặt nhẵn mịn cho sơn gel màu"
+              }
+            },
+            {
+              "feature": {
+                "english": "HEMA-Free",
+                "vietnamese": "Không Chứa HEMA"
+              },
+              "description": {
+                "english": "Safe for sensitive clients",
+                "vietnamese": "An toàn cho khách hàng nhạy cảm"
+              }
+            }
+          ],
+          "sizes": ["15ml", "240ml"]
+        },
+        {
+          "id": "base-durabase",
+          "name": "DuraBase",
+          "vietnameseName": "DuraBase",
+          "characteristics": {
+            "description": {
+              "english": "Balanced base gel developed to maintain smooth, natural surface while providing salon-standard durability and nail protection",
+              "vietnamese": "Dòng base gel cân bằng được phát triển để giữ lớp bề mặt mịn, tự nhiên đồng thời cung cấp độ bền chuẩn salon và bảo vệ sức khỏe móng"
+            },
+            "promise": {
+              "english": "Ensures strong nail set without heavy feeling, even on acrylic nails",
+              "vietnamese": "Đảm bảo độ bền chắc của bộ móng mà không có cảm giác nặng nề, kể cả khi sơn trên móng bột"
+            }
+          },
+          "features": [
+            {
+              "feature": {
+                "english": "Balanced Durability",
+                "vietnamese": "Độ Bền Cân Bằng"
+              },
+              "description": {
+                "english": "Maintains strong gel coat while creating natural appearance on acrylic nails",
+                "vietnamese": "Giữ lớp sơn chắc chắn mà vẫn tạo vẻ tự nhiên trên móng bột"
+              }
+            },
+            {
+              "feature": {
+                "english": "Flexible Formula",
+                "vietnamese": "Công Thức Linh Hoạt"
+              },
+              "description": {
+                "english": "Provides durability without heavy feeling",
+                "vietnamese": "Cung cấp độ bền mà không có cảm giác nặng"
+              }
+            },
+            {
+              "feature": {
+                "english": "Smooth Surface",
+                "vietnamese": "Bề Mặt Mịn"
+              },
+              "description": {
+                "english": "Self-leveling, creates smooth surface for gel color",
+                "vietnamese": "Tự dàn đều, tạo bề mặt nhẵn mịn cho sơn gel màu"
+              }
+            },
+            {
+              "feature": {
+                "english": "HEMA-Free",
+                "vietnamese": "Không Chứa HEMA"
+              },
+              "description": {
+                "english": "Safe for sensitive clients",
+                "vietnamese": "An toàn cho khách hàng nhạy cảm"
+              }
+            }
+          ],
+          "sizes": ["15ml"],
+          "idealFor": {
+            "english": "Acrylic overlays with gel polish",
+            "vietnamese": "Móng bột với gel polish"
+          }
+        },
+        {
+          "id": "base-tpo-hema-free",
+          "name": "TPO/HEMA-Free Base Gel",
+          "vietnameseName": "Sơn Lót Gel Không TPO/HEMA",
+          "characteristics": {
+            "texture": {
+              "english": "Smooth, hypoallergenic",
+              "vietnamese": "Mịn, không gây dị ứng"
+            },
+            "benefit": {
+              "english": "Free from TPO and HEMA",
+              "vietnamese": "Không chứa TPO và HEMA"
+            }
+          },
+          "use": {
+            "english": "Safe option for sensitive clients",
+            "vietnamese": "Tùy chọn an toàn cho khách hàng nhạy cảm"
+          },
+          "sizes": ["15ml"],
+          "bestFor": {
+            "english": "Clients with allergies or chemical sensitivities",
+            "vietnamese": "Khách có dị ứng hoặc nhạy cảm hóa chất"
+          }
+        },
+        {
+          "id": "base-express",
+          "name": "Express Base",
+          "vietnameseName": "Sơn Lót Express",
+          "characteristics": {
+            "texture": {
+              "english": "Thin, lightweight",
+              "vietnamese": "Mỏng nhẹ"
+            },
+            "optimization": {
+              "english": "Optimized for acrylic overlay before thin gel polish application",
+              "vietnamese": "Tối ưu cho móng bột trước khi sơn gel mỏng"
+            }
+          },
+          "purpose": {
+            "english": "Quick prep base for powder/acrylic nails before gel color",
+            "vietnamese": "Cơ sở chuẩn bị nhanh cho móng bột trước sơn gel"
+          },
+          "technicalAdvantage": {
+            "english": "Provides adhesion for thin gel polish on acrylic without heavy buildup",
+            "vietnamese": "Cung cấp sự bám dính cho gel polish mỏng trên móng bột mà không có tích tụ nặng"
+          },
+          "application": {
+            "english": "Single thin layer creates smooth surface ready for gel color",
+            "vietnamese": "Chỉ cần một lớp mỏng tạo bề mặt mịn sẵn sàng cho sơn gel"
+          },
+          "performance": {
+            "english": "Strong adhesion prevents lifting/peeling common with thin gel polish directly on acrylic",
+            "vietnamese": "Sự bám dính mạnh ngăn chặn bong tróc phổ biến với gel polish mỏng trực tiếp trên móng bột"
+          },
+          "sizes": ["15ml", "480ml"],
+          "benefits": [
+            {
+              "benefit": {
+                "english": "Thin, Lightweight Texture",
+                "vietnamese": "Kết Cấu Mỏng Nhẹ"
+              },
+              "description": {
+                "english": "Creates smooth surface without thickening nails",
+                "vietnamese": "Tạo bề mặt mịn mà không làm dày móng"
+              }
+            },
+            {
+              "benefit": {
+                "english": "Improved Color Adhesion",
+                "vietnamese": "Cải Thiện Sự Bám Dính Của Màu"
+              },
+              "description": {
+                "english": "Helps gel color apply perfectly, durable and resistant to peeling",
+                "vietnamese": "Giúp gel màu lên chuẩn, bền và khó bong tróc"
+              }
+            },
+            {
+              "benefit": {
+                "english": "Acrylic-Optimized",
+                "vietnamese": "Tối Ưu Cho Móng Bột"
+              },
+              "description": {
+                "english": "Easy to use, perfectly compatible with acrylic surface",
+                "vietnamese": "Dễ sử dụng, tương thích hoàn hảo với bề mặt bột"
+              }
+            },
+            {
+              "benefit": {
+                "english": "Time-Saving",
+                "vietnamese": "Tiết Kiệm Thời Gian"
+              },
+              "description": {
+                "english": "Only one thin layer needed, speeds up nail application process",
+                "vietnamese": "Chỉ cần một lớp mỏng, giúp thợ thao tác nhanh và gọn hơn"
+              }
+            },
+            {
+              "benefit": {
+                "english": "Nail Protection",
+                "vietnamese": "Bảo Vệ Móng"
+              },
+              "description": {
+                "english": "Prevents peeling and maintains durability of nail set",
+                "vietnamese": "Hạn chế bong, tách lớp và giúp duy trì độ bền của bộ móng"
+              }
+            }
+          ],
+          "bestFor": {
+            "english": "Quick acrylic overlay + gel color applications",
+            "vietnamese": "Ứng dụng nhanh móng bột + gel màu"
+          }
+        }
+      ]
+    },
+    "relationships": {
+      "works_with": [
+        {
+          "productType": "Gel Polish",
+          "name": "BlazingStar Gel Polish (362 colors)",
+          "description": "Apply over base coat for color"
+        },
+        {
+          "productType": "Top Coat",
+          "name": "BlazingStar Top Coats",
+          "description": "Finish with top coat for protection"
+        }
+      ]
+    },
+    "searchMetadata": {
+      "tags": [
+        "base-coat",
+        "base-gel",
+        "gel-base",
+        "foundation-gel",
+        "nail-protection",
+        "hema-free"
+      ],
+      "keywords": [
+        "base coat",
+        "base gel",
+        "gel foundation",
+        "nail base",
+        "protective base",
+        "hypoallergenic base",
+        "express base"
+      ],
+      "use_case": [
+        "gel-application",
+        "nail-protection",
+        "acrylic-overlay",
+        "sensitive-nails"
+      ],
+      "skill_level": ["beginner", "intermediate", "advanced"]
+    }
+  }
+}

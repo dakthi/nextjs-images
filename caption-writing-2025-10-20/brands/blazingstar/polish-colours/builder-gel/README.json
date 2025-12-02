@@ -1,0 +1,324 @@
+{
+  "product": {
+    "metadata": {
+      "id": "builder-gel-master",
+      "brand": "BlazingStar",
+      "brandCategory": "Polish Colours",
+      "productType": "Builder Gel System",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english", "vietnamese"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Builder Gel",
+        "vietnamese": "BlazingStar Builder Gel"
+      },
+      "tagline": {
+        "english": "Flexible, durable gel system for natural nail extensions",
+        "vietnamese": "Hệ thống gel dẻo, bền cho nail extensions tự nhiên"
+      },
+      "overview": {
+        "english": "BlazingStar Builder Gel is a comprehensive gel building system designed for creating strong, natural-looking nail extensions. With flexible formulations and hypoallergenic options, it delivers durability up to 4+ weeks with easy removal.",
+        "vietnamese": "BlazingStar Builder Gel là hệ thống xây dựng gel toàn diện được thiết kế để tạo nail extensions mạnh, tự nhiên. Với các công thức dẻo và tùy chọn hypoallergenic, nó mang lại độ bền lên đến 4+ tuần với tháo dễ dàng."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Flexible",
+        "Durable",
+        "Natural-looking",
+        "Safe",
+        "Hypoallergenic"
+      ],
+      "targetAudience": {
+        "professionals": "Nail technicians and nail artists",
+        "clientTypes": "Clients seeking natural nail extensions, those with sensitive skin, clients wanting 4+ week durability"
+      },
+      "keyAttributes": {
+        "english": "Durable up to 4+ weeks, easy to remove, safe for sensitive clients",
+        "vietnamese": "Bền lên đến 4+ tuần, dễ tháo, an toàn cho khách nhạy cảm"
+      },
+      "motto": {
+        "english": "Build strong, Build natural, Build with BLAZINGSTAR!",
+        "vietnamese": "Build strong, Build natural, Build with BLAZINGSTAR!"
+      }
+    },
+    "productDetails": {
+      "coreFeatures": [
+        {
+          "feature": {
+            "english": "Durability",
+            "vietnamese": "Độ Bền"
+          },
+          "description": {
+            "english": "Lasts up to 4+ weeks",
+            "vietnamese": "Kéo dài lên đến 4+ tuần"
+          }
+        },
+        {
+          "feature": {
+            "english": "Easy Removal",
+            "vietnamese": "Tháo Dễ"
+          },
+          "description": {
+            "english": "Simple soak-off removal process",
+            "vietnamese": "Quá trình tháo bằng ngâm đơn giản"
+          }
+        },
+        {
+          "feature": {
+            "english": "Natural Look",
+            "vietnamese": "Vẻ Tự Nhiên"
+          },
+          "description": {
+            "english": "Creates natural-looking nail extensions",
+            "vietnamese": "Tạo ra nail extensions tự nhiên"
+          }
+        },
+        {
+          "feature": {
+            "english": "Flexible Formula",
+            "vietnamese": "Công Thức Dẻo"
+          },
+          "description": {
+            "english": "Flexible yet strong building gel",
+            "vietnamese": "Gel xây dựng dẻo nhưng mạnh"
+          }
+        }
+      ],
+      "mainVariants": [
+        {
+          "id": "builder-flexibuild-x",
+          "name": "FlexiBuild X",
+          "vietnameseName": "FlexiBuild X",
+          "characteristics": {
+            "formula": {
+              "english": "TPO/HEMA FREE",
+              "vietnamese": "Không TPO/HEMA"
+            },
+            "purpose": {
+              "english": "Builder gel for nail extensions",
+              "vietnamese": "Gel xây dựng cho nail extensions"
+            },
+            "specialty": {
+              "english": "Flexible, safe for sensitive clients",
+              "vietnamese": "Dẻo, an toàn cho khách nhạy cảm"
+            }
+          },
+          "benefits": [
+            "Hypoallergenic formulation",
+            "Flexible strength",
+            "Safe for sensitive skin",
+            "Easy to work with"
+          ],
+          "bestFor": {
+            "english": "Clients with sensitivities, flexible extensions",
+            "vietnamese": "Khách nhạy cảm, nail extensions dẻo"
+          }
+        },
+        {
+          "id": "builder-strongbuild-hf",
+          "name": "Strong Build HF (Hypoallergenic Formula)",
+          "vietnameseName": "Strong Build HF (Hypoallergenic Formula)",
+          "description": {
+            "english": "BlazingStar's newest BIAB (Build in a Bottle) Builder Gel",
+            "vietnamese": "BIAB Builder Gel mới nhất của BlazingStar"
+          },
+          "characteristics": {
+            "formula": {
+              "english": "No HEMA & TPO - Safe for sensitive clients",
+              "vietnamese": "Không HEMA & TPO - An toàn cho khách nhạy cảm"
+            },
+            "handWarmth": {
+              "english": "No hand heat/warm sensation - hypoallergenic formula",
+              "vietnamese": "Không nóng tay - công thức hypoallergenic"
+            },
+            "durability": {
+              "english": "Lasts up to 4+ weeks",
+              "vietnamese": "Kéo dài lên đến 4+ tuần"
+            },
+            "removal": {
+              "english": "Easy removal",
+              "vietnamese": "Tháo dễ"
+            }
+          },
+          "benefits": [
+            "Strengthens and conditions weak nails",
+            "Standing gel - suitable for long nail builds",
+            "Prevents nail overflow",
+            "Hypoallergenic",
+            "No hand warmth sensation"
+          ],
+          "collections": [
+            {
+              "name": "Perfect Set",
+              "description": "30 natural colors"
+            }
+          ],
+          "bestFor": {
+            "english": "Clients with allergies, those wanting extended wear",
+            "vietnamese": "Khách có dị ứng, những người muốn mặc lâu"
+          }
+        }
+      ],
+      "collections": [
+        {
+          "id": "collection-36-colors",
+          "name": "SET 36 COLOURS",
+          "vietnameseName": "BỘ 36 MÀUS",
+          "composition": {
+            "english": "18 natural + 18 pastel colors",
+            "vietnamese": "18 màu tự nhiên + 18 màu pastel"
+          },
+          "features": [
+            "Promotes healthy, strong natural nails yet light application",
+            "Durable up to 4+ weeks",
+            "Easy removal"
+          ],
+          "motto": {
+            "english": "Build strong, Build natural, Build with BLAZINGSTAR!",
+            "vietnamese": "Build strong, Build natural, Build with BLAZINGSTAR!"
+          }
+        },
+        {
+          "id": "collection-30-colors-perfect",
+          "name": "SET 30 COLOURS (Perfect)",
+          "vietnameseName": "BỘ 30 MÀUS (Perfect)",
+          "composition": {
+            "english": "30 natural colors",
+            "vietnamese": "30 màu tự nhiên"
+          },
+          "characteristics": {
+            "building": {
+              "english": "Strong, firm building - suitable for thick nail builds",
+              "vietnamese": "Xây dựng chắc chắn - phù hợp build móng dày"
+            },
+            "standingGel": {
+              "english": "Standing gel, no overflow into corners",
+              "vietnamese": "Đứng gel, không tràn khóe"
+            },
+            "nailStrength": {
+              "english": "Strengthens and conditions weak nails",
+              "vietnamese": "Tăng độ cứng và khỏe cho móng yếu"
+            },
+            "durability": {
+              "english": "Durable up to 4+ weeks, easy removal",
+              "vietnamese": "Bền lên đến 4+ tuần, dễ tháo"
+            }
+          }
+        },
+        {
+          "id": "collection-standard-builder",
+          "name": "Standard Builder Gel",
+          "vietnameseName": "Standard Builder Gel",
+          "gelConsistency": {
+            "english": "Moderate consistency - not too thick or too thin",
+            "vietnamese": "Độ đặc vừa phải - không quá dày hay quá loãng"
+          },
+          "characteristics": [
+            "Easy to apply and paint",
+            "Flexible yet strong",
+            "Standing gel, no corner overflow"
+          ],
+          "benefits": [
+            "Strengthens and conditions weak nails",
+            "Durable up to 4+ weeks",
+            "Easy removal"
+          ]
+        },
+        {
+          "id": "collection-revive-base-strongbuild",
+          "name": "Revive Base Strong Build",
+          "vietnameseName": "Revive Base Strong Build",
+          "characteristics": {
+            "gelQuality": {
+              "english": "Stable gel with good balance",
+              "vietnamese": "Gel ổn định, có độ cân bằng tốt"
+            },
+            "building": {
+              "english": "Strong, firm building - suitable for long nails with gel brush",
+              "vietnamese": "Xây dựng chắc chắn - phù hợp build móng dài với chổi gel"
+            }
+          },
+          "benefits": [
+            "Strengthens and conditions weak nails",
+            "Durable up to 4+ weeks",
+            "Easy removal",
+            "Long-wearing formula"
+          ]
+        },
+        {
+          "id": "collection-rubber-base",
+          "name": "Rubber Base",
+          "vietnameseName": "Rubber Base",
+          "characteristics": {
+            "gelQuality": {
+              "english": "Stable gel, not too thick",
+              "vietnamese": "Gel ổn định, không quá dày"
+            },
+            "versatility": {
+              "english": "Works for both gel polish and builder gel",
+              "vietnamese": "Dùng được cho cả gel polish và builder gel"
+            }
+          },
+          "benefits": [
+            "Strengthens and conditions weak nails",
+            "Durable up to 4+ weeks",
+            "Easy removal",
+            "Versatile application"
+          ]
+        }
+      ]
+    },
+    "relationships": {
+      "works_with": [
+        {
+          "productType": "Base Gel",
+          "name": "BlazingStar Revive Base",
+          "description": "Use as foundation for builder gel applications"
+        },
+        {
+          "productType": "Top Gel",
+          "name": "BlazingStar Top Gels/Top Coats",
+          "description": "Finish builder gel with protective topcoat"
+        },
+        {
+          "productType": "Nail Tips",
+          "name": "BlazingStar Nail Tips",
+          "description": "Build extensions on nail tips in various shapes"
+        }
+      ]
+    },
+    "searchMetadata": {
+      "tags": [
+        "builder-gel",
+        "nail-extension",
+        "gel-building",
+        "flexible-gel",
+        "hypoallergenic",
+        "biab",
+        "strong-build",
+        "natural-nails"
+      ],
+      "keywords": [
+        "builder gel",
+        "nail extensions",
+        "gel building",
+        "strong build",
+        "flex build",
+        "hypoallergenic gel",
+        "BIAB",
+        "natural nail extensions"
+      ],
+      "use_case": [
+        "nail-extension-building",
+        "gel-nail-sculpting",
+        "natural-nail-strengthening",
+        "extension-application",
+        "color-building"
+      ],
+      "skill_level": ["intermediate", "advanced"]
+    }
+  }
+}

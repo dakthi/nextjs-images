@@ -1,0 +1,177 @@
+{
+  "product": {
+    "metadata": {
+      "id": "sculpting-system-hub",
+      "brand": "BlazingStar",
+      "brandCategory": "Sculpting System",
+      "productType": "Category Hub",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Sculpting System",
+        "vietnamese": "BlazingStar Hệ Thống Đắp Sculpture"
+      },
+      "tagline": {
+        "english": "Complete end-to-end acrylic enhancement system",
+        "vietnamese": "Hệ thống nâng cao acrylic từ đầu đến cuối"
+      },
+      "overview": {
+        "english": "The Sculpting System is a comprehensive, end-to-end acrylic enhancement system designed for professional nail technicians. It includes liquids (monomer), acrylic powders, brushes, and specialized tools for complete acrylic nail application and refinement.",
+        "vietnamese": "Sculpting System là một hệ thống nâng cao acrylic toàn diện, từ đầu đến cuối, được thiết kế cho các kỹ thuật viên móng chuyên nghiệp. Nó bao gồm dung dịch (monomer), bột acrylic, cọ, và các công cụ chuyên biệt cho ứng dụng và tinh chỉnh móng acrylic hoàn chỉnh."
+      },
+      "scope": {
+        "english": "End-to-end acrylic enhancement system: liquids (monomer), acrylic powders, brushes, tips, drill bits, and refining tools",
+        "vietnamese": "Hệ thống nâng cao acrylic từ đầu đến cuối: dung dịch (monomer), bột acrylic, cọ, mẫu móng, mũi khoan, và công cụ tinh chỉnh"
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Professional-grade",
+        "Comprehensive",
+        "Safe",
+        "Comfortable",
+        "Complete"
+      ],
+      "targetAudience": {
+        "professionals": "Professional acrylic nail technicians",
+        "salonTypes": "Acrylic-focused nail salons"
+      },
+      "positioning": {
+        "english": "Professional, salon-grade performance with options for low-odor comfort and hypoallergenic safety",
+        "vietnamese": "Hiệu suất cấp salon chuyên nghiệp với các tùy chọn cho sự thoải mái ít mùi và an toàn hypoallergenic"
+      }
+    },
+    "systemComponents": {
+      "components": [
+        {
+          "id": "liquids",
+          "name": "Liquids (Monomer)",
+          "vietnameseName": "Dung Dịch (Monomer)",
+          "description": {
+            "english": "Professional-grade monomer liquids: EMA, Traditional Purple, Coffee, Traditional Clear",
+            "vietnamese": "Dung dịch monomer cấp chuyên nghiệp: EMA, Tím Truyền Thống, Cà Phê, Trong Truyền Thống"
+          },
+          "features": [
+            "Temperature-optimized formulations",
+            "Low-odor and hypoallergenic options",
+            "Compatible with all powders"
+          ],
+          "link": "blazingstar/sculpting-system/liquids/README.md"
+        },
+        {
+          "id": "powders",
+          "name": "Acrylic Powder",
+          "vietnameseName": "Bột Acrylic",
+          "description": {
+            "english": "Maxx Perform premium acrylic powder with three hardening speeds",
+            "vietnamese": "Bột acrylic cao cấp Maxx Perform với ba tốc độ cứng"
+          },
+          "features": [
+            "Slow, Medium, Fast set options",
+            "French, White, Ombre collections",
+            "Temperature-adaptive system"
+          ],
+          "link": "blazingstar/sculpting-system/acrylic-powder/README.md"
+        },
+        {
+          "id": "brushes",
+          "name": "Brushes",
+          "vietnameseName": "Cọ Đắp",
+          "description": {
+            "english": "Premium Kolinsky fur brushes for acrylic application",
+            "vietnamese": "Cọ lông cáo Kolinsky cao cấp cho ứng dụng acrylic"
+          },
+          "features": [
+            "Standard and Premium Plus options",
+            "Designed for patting and smoothing techniques",
+            "Professional-grade bristles"
+          ],
+          "link": "blazingstar/sculpting-system/brushes/README.md"
+        },
+        {
+          "id": "drill-bits",
+          "name": "Drill Bits",
+          "vietnameseName": "Mũi Khoan",
+          "description": {
+            "english": "Professional e-file drill bits for nail prep, cleanup, and refinement",
+            "vietnamese": "Mũi khoan e-file chuyên nghiệp cho chuẩn bị móng, làm sạch, và tinh chỉnh"
+          },
+          "features": [
+            "Multiple function types",
+            "Professional quality",
+            "Compatible with e-files"
+          ],
+          "link": "blazingstar/sculpting-system/drill-bits/README.md"
+        },
+        {
+          "id": "tips",
+          "name": "Tips",
+          "vietnameseName": "Mẫu Móng",
+          "description": {
+            "english": "Nail tips in various shapes for acrylic application",
+            "vietnamese": "Mẫu móng nhiều hình dạng cho ứng dụng acrylic"
+          },
+          "features": [
+            "Multiple shape options",
+            "Professional quality",
+            "Compatible with acrylic system"
+          ],
+          "link": "blazingstar/sculpting-system/tips/README.md"
+        }
+      ]
+    },
+    "systemBenefits": {
+      "comprehensive": {
+        "english": "All components designed to work together seamlessly",
+        "vietnamese": "Tất cả các thành phần được thiết kế để hoạt động cùng nhau một cách liền mạch"
+      },
+      "professional": {
+        "english": "Salon-grade quality throughout the entire system",
+        "vietnamese": "Chất lượng cấp salon trong toàn bộ hệ thống"
+      },
+      "safe": {
+        "english": "Hypoallergenic and low-odor options available",
+        "vietnamese": "Các tùy chọn hypoallergenic và ít mùi có sẵn"
+      },
+      "efficient": {
+        "english": "Temperature-optimized for consistent working times",
+        "vietnamese": "Được tối ưu hóa theo nhiệt độ để thời gian làm việc nhất quán"
+      }
+    },
+    "searchMetadata": {
+      "tags": [
+        "sculpting-system",
+        "acrylic-system",
+        "monomer-liquid",
+        "acrylic-powder",
+        "category-hub",
+        "complete-system"
+      ],
+      "keywords": [
+        "sculpting system",
+        "acrylic system",
+        "acrylic enhancement",
+        "monomer liquid",
+        "acrylic powder",
+        "nail sculpting"
+      ],
+      "categories": [
+        "liquids",
+        "acrylic-powder",
+        "brushes",
+        "drill-bits",
+        "tips"
+      ],
+      "use_case": [
+        "acrylic-application",
+        "nail-sculpting",
+        "nail-extension",
+        "professional-acrylic"
+      ],
+      "skill_level": ["intermediate", "advanced"]
+    }
+  }
+}

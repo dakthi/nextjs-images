@@ -1,0 +1,93 @@
+{
+  "product": {
+    "metadata": {
+      "id": "spa-hub",
+      "brand": "BlazingStar",
+      "brandCategory": "Spa",
+      "productType": "Category Hub",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Spa",
+        "vietnameseName": "BlazingStar Spa"
+      },
+      "tagline": {
+        "english": "Spa and pedicure care products for professional salon services",
+        "vietnamese": "Sản phẩm chăm sóc spa và pedicure cho dịch vụ salon chuyên nghiệp"
+      },
+      "overview": {
+        "english": "BlazingStar Spa is a collection of spa and pedicure care products designed to support professional salon services and enhance client comfort. This category includes specialized products for foot spa treatments and pedicure services.",
+        "vietnamese": "BlazingStar Spa là một bộ sưu tập các sản phẩm chăm sóc spa và pedicure được thiết kế để hỗ trợ dịch vụ salon chuyên nghiệp và tăng cường sự thoải mái của khách hàng. Danh mục này bao gồm các sản phẩm chuyên biệt cho các liệu pháp ngâm chân spa và dịch vụ pedicure."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Professional",
+        "Comfort-focused",
+        "Spa-quality",
+        "Service-supporting"
+      ],
+      "targetAudience": {
+        "professionals": "Salon owners and pedicure technicians",
+        "salonTypes": "Full-service nail and spa salons"
+      },
+      "description": {
+        "english": "Spa and pedicure care products supporting salon services and client comfort",
+        "vietnamese": "Sản phẩm chăm sóc spa và pedicure hỗ trợ dịch vụ salon và sự thoải mái của khách hàng"
+      }
+    },
+    "productHierarchy": {
+      "includedCategories": [
+        {
+          "id": "foot-soak",
+          "name": "Foot Soak",
+          "vietnameseName": "Ngâm Chân",
+          "description": {
+            "english": "Professional deodorizing foot soak solution for spa services",
+            "vietnamese": "Dung dịch ngâm chân khử mùi chuyên nghiệp cho dịch vụ spa"
+          },
+          "link": "blazingstar/spa/foot-soak/README.md"
+        }
+      ]
+    },
+    "relatedProducts": {
+      "currentIncluded": [
+        {
+          "productType": "Foot Soak",
+          "examples": ["BlazingStar Foot Soak (1L, 5L)"]
+        }
+      ]
+    },
+    "searchMetadata": {
+      "tags": [
+        "spa-products",
+        "pedicure-care",
+        "foot-spa",
+        "salon-spa",
+        "category-hub"
+      ],
+      "keywords": [
+        "spa products",
+        "pedicure care",
+        "foot spa",
+        "spa services",
+        "professional spa"
+      ],
+      "categories": [
+        "foot-care",
+        "spa-products",
+        "pedicure-products"
+      ],
+      "use_case": [
+        "spa-service",
+        "pedicure-service",
+        "foot-treatment",
+        "client-comfort"
+      ],
+      "skill_level": ["beginner", "intermediate", "advanced"]
+    }
+  }
+}

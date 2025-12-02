@@ -1,0 +1,117 @@
+=========================================
+BRANDS SUMMARY
+=========================================
+ Brand Name  |    Slug     | Product Count |         Created         
+-------------+-------------+---------------+-------------------------
+ BlazingStar | blazingstar |            37 | 2025-11-17 13:08:52.689
+ Bold Berry  | bold-berry  |             9 | 2025-11-17 13:08:52.785
+ CND         | cnd         |             0 | 2025-12-02 12:46:22.057
+ DND         | dnd         |             0 | 2025-12-02 12:46:22.057
+ KDS         | kds         |             6 | 2025-11-17 13:08:52.838
+ La Palm     | lapalm      |            18 | 2025-11-17 13:32:47.561
+ MBerry      | mberry      |             5 | 2025-11-17 13:22:22.986
+ OPI         | opi         |             0 | 2025-12-02 12:46:22.057
+ VL London   | vl-london   |             9 | 2025-12-02 12:37:10.86
+(9 rows)
+
+
+=========================================
+PRODUCTS BY BRAND
+=========================================
+    Brand    |   Product Code   |                     Product Name                     | Active | Versions 
+-------------+------------------+------------------------------------------------------+--------+----------
+ BlazingStar | product-1        | Liquid BlazingStar Nhẹ Mùi                           | t      |        1
+ BlazingStar | product-184      | BlazingStar Maxx Perform - Bột Tốc Độ                | t      |        1
+ BlazingStar | product-185      | BlazingStar Maxx Perform Powder                      | t      |        1
+ BlazingStar | product-187      | Bột Màu - French                                     | t      |        1
+ BlazingStar | product-189      | BlazingStar Maxx Perform - Ombre Collection          | t      |        1
+ BlazingStar | product-191      | BlazingStar Maxx Perform                             | t      |        1
+ BlazingStar | product-197      | Bột Màu - Ombre                                      | t      |        1
+ BlazingStar | product-237      | BlazingStar Gel Top Sunshield                        | t      |        1
+ BlazingStar | product-238      | BlazingStar Gel Base - 15ml                          | t      |        1
+ BlazingStar | product-267      | BlazingStar Liquid Purple/Clear - LIQUID THƯỜNG      | t      |        1
+ BlazingStar | product-270      | BlazingStar Liquid EMA Purple - LIQUID CHẢY          | t      |        1
+ BlazingStar | product-275      | BlazingStar Liquid                                   | t      |        1
+ BlazingStar | product-277      | BlazingStar Brush Standard - LÔNG CỨNG               | t      |        1
+ BlazingStar | product-297-1    | BlazingStar Brush Premium Pro - Size 16              | t      |        1
+ BlazingStar | product-297-2    | BlazingStar Brush Premium Pro - Size 18              | t      |        1
+ BlazingStar | product-297-3    | BlazingStar Brush Premium Pro - Size 20              | t      |        1
+ BlazingStar | product-343      | Flexibuild X                                         | t      |        1
+ BlazingStar | product-343-1    | Strong Build HF                                      | t      |        1
+ BlazingStar | product-347      | Flexibuild X - 240ml Refill - X201, X202, X203, X204 | t      |        1
+ BlazingStar | product-347-1    | Strong Build HF 240ml                                | t      |        1
+ BlazingStar | product-348      | BlazingStar File                                     | t      |        1
+ BlazingStar | product-352      | BlazingStar LED Lamp                                 | t      |        1
+ BlazingStar | product-370      | Máy bào không dây BlazingStar FX200                  | t      |        1
+ BlazingStar | product-385      | BlazingStar Nail Table - MÁY HÚT THƯỜNG              | t      |        1
+ BlazingStar | product-386      | BlazingStar Nail Table - MÁY HÚT TORNADO PRO         | t      |        1
+ BlazingStar | product-393      | Đầu bào các loại - Mix and Match                     | t      |        1
+ BlazingStar | product-394      | BlazingStar - Gel Polish - Revive                    | t      |        1
+ BlazingStar | product-395      | BlazingStar - Gel Polish - Original                  | t      |        1
+ BlazingStar | product-396      | BlazingStar - Gel Top                                | t      |        1
+ BlazingStar | product-397      | BlazingStar - Express Base                           | t      |        1
+ BlazingStar | product-398      | BlazingStar Base MỚI - HEMA FREE - 15ml              | t      |        1
+ BlazingStar | product-399      | Tip Gel BlazingStar                                  | t      |        1
+ BlazingStar | product-400      | Găng tay BlazingStar                                 | t      |        1
+ BlazingStar | product-401      | Tip Natural BlazingStar                              | t      |        1
+ BlazingStar | product-403      | BlazingStar Brush Standard                           | t      |        1
+ BlazingStar | product-404      | BlazingStar Brush Premium Plus                       | t      |        1
+ BlazingStar | product-405      | BlazingStar Brush Premium Pro                        | t      |        1
+ Bold Berry  | product-200      | Bold Berry - Dipping and Ombre - 2oz                 | t      |        1
+ Bold Berry  | product-204      | Bold Berry - French Pearl Cateye                     | t      |        1
+ Bold Berry  | product-208      | Bold Berry - Gel Polish                              | t      |        1
+ Bold Berry  | product-209      | Bold Berry - Gel Polish - Red Collection             | t      |        1
+ Bold Berry  | product-210      | Bold Berry GEL BASE / GEL TOP                        | t      |        1
+ Bold Berry  | product-213      | Bold Berry - Gel Polish - Reflective Collection      | t      |        1
+ Bold Berry  | product-216      | Bold Berry - Gel Polish - Jelly Collection           | t      |        1
+ Bold Berry  | product-218      | Bold Berry Gel Polish Reflective                     | t      |        1
+ Bold Berry  | product-356      | Bold Berry LED LAMP                                  | t      |        1
+ KDS         | product-137      | KDS Callus Remover                                   | t      |        1
+ KDS         | product-138      | KDS Clay Mask Cucumber                               | t      |        1
+ KDS         | product-150      | KDS Deluxe 4 steps                                   | t      |        1
+ KDS         | product-158      | KDS Pedi Salt                                        | t      |        1
+ KDS         | product-161      | KDS Scrub                                            | t      |        1
+ KDS         | product-180      | KDS Sugar Scrub                                      | t      |        1
+ La Palm     | product-107      | La Palm Collagen 5-Steps                             | t      |        1
+ La Palm     | product-115-test | La Palm Fragrance Oil                                | t      |        1
+ La Palm     | product-15       | La Palm Marine Mask                                  | t      |        1
+ La Palm     | product-17       | La Palm Cuticle Oil                                  | t      |        1
+ La Palm     | product-21       | La Palm Cuticle Softener                             | t      |        1
+ La Palm     | product-27       | La Palm Lotion                                       | t      |        1
+ La Palm     | product-3        | La Palm Callus Remover                               | t      |        1
+ La Palm     | product-402      | La Palm Lotion tặng khách                            | t      |        1
+ La Palm     | product-42       | La Palm Massage Oil                                  | t      |        1
+ La Palm     | product-47       | La Palm Sea Salts                                    | t      |        1
+ La Palm     | product-53       | La Palm Jojoba Scrub                                 | t      |        1
+ La Palm     | product-58       | La Palm Sugar Scrub                                  | t      |        1
+ La Palm     | product-58-1     | La Palm Sugar Scrub Extreme                          | t      |        1
+ La Palm     | product-67       | La Palm Flower Soap                                  | t      |        1
+ La Palm     | product-7        | La Palm Cooling Gel                                  | t      |        1
+ La Palm     | product-84       | La Palm Pedicure Trays 4 step                        | t      |        1
+ La Palm     | product-9        | La Palm Cream Mask                                   | t      |        1
+ La Palm     | product-96       | La Palm Volcano 6 Step                               | t      |        1
+ MBerry      | product-225      | MBerry Gel Top                                       | t      |        1
+ MBerry      | product-225-1    | MBerry Gel Polish                                    | t      |        1
+ MBerry      | product-360      | MBerry LED LAMP                                      | t      |        1
+ MBerry      | product-371      | Máy bào không dây MBerry M3                          | t      |        1
+ MBerry      | product-406      | MBerry - Gel Polish - Bảng Màu Mùa Thu               | t      |        1
+ VL London   | product-366      | Tay bào X5 Plus                                      | t      |        1
+ VL London   | product-366-1    | Tay bào X7 Plus                                      | t      |        1
+ VL London   | product-372      | Ghế Thợ                                              | t      |        1
+ VL London   | product-377      | Ghế Khách                                            | t      |        1
+ VL London   | product-378      | Ghế Khách Bendi                                      | t      |        1
+ VL London   | product-381      | Ghế Pedicure Tự Động / Không Tự Động Ngắt Nước       | t      |        1
+ VL London   | product-382      | Ghế New Space VL958                                  | t      |        1
+ VL London   | product-384      | Ghế Luxury VL9615                                    | t      |        1
+ VL London   | product-392      | SỰ KIỆN HOT NHẤT LUÂN-ĐÔN 2025                       | t      |        1
+(84 rows)
+
+
+=========================================
+TOTAL STATISTICS
+=========================================
+ Total Brands | Total Products | Total Versions | Total Images | Total Content Items | Total Properties | Total Pricing Entries 
+--------------+----------------+----------------+--------------+---------------------+------------------+-----------------------
+            9 |             84 |             84 |          252 |                 109 |              505 |                   245
+(1 row)
+

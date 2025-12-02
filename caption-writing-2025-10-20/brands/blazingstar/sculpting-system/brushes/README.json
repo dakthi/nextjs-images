@@ -1,0 +1,225 @@
+{
+  "product": {
+    "brand": "BlazingStar",
+    "category": "Acrylic Brushes",
+    "vietnameseName": "Cọ Đắp Acrylic",
+    "material": "Kolinsky Fur",
+    "overview": {
+      "english": "Professional acrylic brushes designed for precision, control, and durability. All BlazingStar brushes are made with premium Kolinsky fur bristles for superior performance and longevity.",
+      "vietnamese": "Cọ acrylic chuyên nghiệp được thiết kế cho độ chính xác, kiểm soát và độ bền. Tất cả bút cọ BlazingStar được làm từ lông cáo Kolinsky cao cấp để đảm bảo hiệu suất vượt trội và tuổi thọ dài."
+    },
+    "brushTypes": [
+      {
+        "id": 1,
+        "name": "Standard Brush",
+        "vietnameseName": "Cọ Thường",
+        "characteristics": {
+          "bristles": {
+            "english": "Denser, firmer texture",
+            "vietnamese": "Lông dày hơn, cứng hơn"
+          },
+          "control": {
+            "english": "Excellent for precise placement",
+            "vietnamese": "Xuất sắc cho đặt chính xác"
+          },
+          "bestFor": {
+            "english": "Patting and pressing techniques",
+            "vietnamese": "Kỹ thuật vỗ và ấn"
+          },
+          "durability": {
+            "english": "Maintains shape through heavy use",
+            "vietnamese": "Duy trì hình dạng qua sử dụng nhiều"
+          }
+        },
+        "techniques": [
+          {
+            "name": "Patting Technique",
+            "vietnameseName": "Kỹ Thuật Vỗ Bột",
+            "steps": [
+              "Pick up powder bead with appropriate liquid ratio",
+              "Pat bead into place on nail",
+              "Press and shape with controlled movements",
+              "Build structure layer by layer"
+            ]
+          }
+        ],
+        "benefits": [
+          {
+            "english": "Firmer bristles provide better control for patting",
+            "vietnamese": "Lông cứng hơn cung cấp kiểm soát tốt hơn cho vỗ"
+          },
+          {
+            "english": "Maintains consistent bead pickup",
+            "vietnamese": "Duy trì lấy hạt nhất quán"
+          },
+          {
+            "english": "Durable for high-volume salon work",
+            "vietnamese": "Bền cho công việc salon khối lượng cao"
+          },
+          {
+            "english": "Traditional technique support",
+            "vietnamese": "Hỗ trợ kỹ thuật truyền thống"
+          }
+        ],
+        "shapeOptions": ["Square", "Rounded"],
+        "materialQuality": "Premium Kolinsky fur"
+      },
+      {
+        "id": 2,
+        "name": "Premium Plus Brush",
+        "vietnameseName": "Cọ Premium Plus",
+        "characteristics": {
+          "bristles": {
+            "english": "Smoother, softer texture",
+            "vietnamese": "Lông mượt hơn, mềm hơn"
+          },
+          "control": {
+            "english": "Enhanced for drag techniques",
+            "vietnamese": "Tăng cường cho kỹ thuật vuốt"
+          },
+          "bestFor": {
+            "english": "Smoothing and flowing application",
+            "vietnamese": "Ứng dụng vuốt mượt và chảy"
+          },
+          "durability": {
+            "english": "High-quality bristles, longer lifespan",
+            "vietnamese": "Lông chất lượng cao, tuổi thọ dài hơn"
+          }
+        },
+        "techniques": [
+          {
+            "name": "Smoothing/Drag Technique",
+            "vietnameseName": "Kỹ Thuật Vuốt Bột",
+            "steps": [
+              "Pick up powder bead with liquid",
+              "Place bead on nail surface",
+              "Smooth and drag bead across nail",
+              "Create seamless, flowing finish"
+            ]
+          }
+        ],
+        "benefits": [
+          {
+            "english": "Smoother bristles glide effortlessly",
+            "vietnamese": "Lông mượt hơn trượt dễ dàng"
+          },
+          {
+            "english": "Creates seamless, professional finish",
+            "vietnamese": "Tạo hoàn thiện liền mạch, chuyên nghiệp"
+          },
+          {
+            "english": "Reduced application time",
+            "vietnamese": "Giảm thời gian ứng dụng"
+          },
+          {
+            "english": "Premium quality for experienced technicians",
+            "vietnamese": "Chất lượng cao cấp cho thợ có kinh nghiệm"
+          }
+        ],
+        "handleOptions": ["Round", "Tapered"],
+        "shapeOptions": ["Square only"],
+        "materialQuality": "Premium Kolinsky fur"
+      },
+      {
+        "id": 3,
+        "name": "Premium Pro Brush",
+        "vietnameseName": "Cọ Premium Pro",
+        "isNew": true,
+        "characteristics": {
+          "bristles": {
+            "english": "Smooth, soft texture with fuller, denser body",
+            "vietnamese": "Lông mượt, mềm với thân cọ dày hơn, lông nhiều hơn"
+          },
+          "control": {
+            "english": "Premium Plus smoothness + fuller bristle volume for more liquid capacity",
+            "vietnamese": "Mượt như Premium Plus nhưng chứa được nhiều dung dịch hơn"
+          },
+          "bestFor": {
+            "english": "Modern drag technique with greater liquid-holding capacity",
+            "vietnamese": "Kỹ thuật vuốt hiện đại với khả năng giữ dung dịch tốt hơn"
+          },
+          "durability": {
+            "english": "High-quality bristles with enhanced structure",
+            "vietnamese": "Lông chất lượng cao với cấu trúc tăng cường"
+          }
+        },
+        "techniques": [
+          {
+            "name": "Smoothing/Drag Technique with Enhanced Control",
+            "vietnameseName": "Kỹ Thuật Vuốt Với Kiểm Soát Tốt Hơn",
+            "steps": [
+              "Pick up powder bead with liquid",
+              "Place bead on nail surface",
+              "Smooth and drag with fuller bristle body for better coverage",
+              "Create seamless finish with improved liquid control"
+            ]
+          }
+        ],
+        "benefits": [
+          {
+            "english": "Smooth Premium Plus bristles for effortless gliding",
+            "vietnamese": "Lông mượt như Premium Plus để trượt dễ dàng"
+          },
+          {
+            "english": "Fuller body holds more liquid for better flow",
+            "vietnamese": "Thân cọ dày hơn chứa nhiều dung dịch hơn"
+          },
+          {
+            "english": "Better control and coverage than Premium Plus",
+            "vietnamese": "Kiểm soát và phủ tốt hơn Premium Plus"
+          },
+          {
+            "english": "Ideal for technicians preferring modern technique with more bristle support",
+            "vietnamese": "Phù hợp cho thợ thích kỹ thuật vuốt nhưng muốn hỗ trợ lông nhiều hơn"
+          }
+        ],
+        "shapeOptions": ["Square", "Rounded"],
+        "materialQuality": "Premium Kolinsky fur"
+      }
+    ],
+    "comparison": {
+      "standard": {
+        "bristleTexture": "Firm, Dense",
+        "technique": "Patting/Pressing",
+        "liquidCapacity": "Standard",
+        "shapeFlexibility": "Square or Rounded",
+        "bestFor": "Traditional technique lovers"
+      },
+      "premiumPlus": {
+        "bristleTexture": "Smooth, Soft",
+        "technique": "Drag/Smoothing",
+        "liquidCapacity": "Lower",
+        "shapeFlexibility": "Square only",
+        "bestFor": "Modern technique lovers"
+      },
+      "premiumPro": {
+        "bristleTexture": "Smooth, Soft + Fuller Body",
+        "technique": "Drag/Smoothing",
+        "liquidCapacity": "Higher",
+        "shapeFlexibility": "Square or Rounded",
+        "bestFor": "Hybrid technique - wants smooth + more control"
+      }
+    },
+    "keyBenefits": [
+      "Professional salon-grade construction",
+      "Premium Kolinsky fur bristles",
+      "Multiple technique options",
+      "Excellent durability and shape retention",
+      "Acetone-safe for cleaning",
+      "Works with all BlazingStar liquids and powders"
+    ],
+    "careAndMaintenance": {
+      "initialCleaning": "Clean immediately upon receipt with acetone or brush cleaner to remove manufacturing residue",
+      "dailyMaintenance": "Clean after each use, reshape bristles, store in protective case",
+      "cleaningMethod": "Swirl gently in brush cleaner - never soak in acetone",
+      "drying": "Reshape while damp to maintain point"
+    },
+    "relatedProducts": [
+      "BlazingStar Liquid (monomer)",
+      "BlazingStar Acrylic Powder (Maxx Perform)",
+      "BlazingStar Brush Cleaner",
+      "Dappen dishes",
+      "Nail tips"
+    ]
+  }
+}

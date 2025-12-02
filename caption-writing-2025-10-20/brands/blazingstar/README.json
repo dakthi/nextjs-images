@@ -1,0 +1,257 @@
+{
+  "product": {
+    "metadata": {
+      "id": "blazingstar-brand-hub",
+      "brand": "BlazingStar",
+      "brandCategory": "Brand Hub",
+      "productType": "Brand Identity & Navigation",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english", "vietnamese"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar — Professional Nail Products",
+        "vietnamese": "BlazingStar — Sản Phẩm Móng Chuyên Nghiệp"
+      },
+      "tagline": {
+        "english": "Made in UK. Designed by professionals, for professionals.",
+        "vietnamese": "Sản xuất tại UK. Được thiết kế bởi chuyên gia, cho các chuyên gia."
+      },
+      "overview": {
+        "english": "BlazingStar is a professional-grade nail product brand focused on performance, safety, and ease of use. Designed for nail technicians and salons seeking durability, consistency, and versatility across all services.",
+        "vietnamese": "BlazingStar là thương hiệu sản phẩm móng cấp chuyên nghiệp tập trung vào hiệu suất, an toàn và dễ sử dụng. Được thiết kế cho các kỹ thuật viên móng và salon tìm kiếm độ bền, tính nhất quán và tính linh hoạt trên tất cả các dịch vụ."
+      }
+    },
+    "positioning": {
+      "origin": {
+        "country": "United Kingdom",
+        "credentials": "Made in UK"
+      },
+      "visualIdentity": {
+        "english": "Modern, clean, premium, trustworthy",
+        "vietnamese": "Hiện đại, sạch sẽ, cao cấp, đáng tin cậy"
+      },
+      "coreValues": [
+        {
+          "value": "Durable",
+          "vietnamese": "Bền"
+        },
+        {
+          "value": "Glossy",
+          "vietnamese": "Bóng"
+        },
+        {
+          "value": "Simple (Easy to Use)",
+          "vietnamese": "Dễ Dùng"
+        },
+        {
+          "value": "Hypoallergenic",
+          "vietnamese": "Không Dị Ứng"
+        },
+        {
+          "value": "Versatile",
+          "vietnamese": "Phù hợp mọi phong cách"
+        }
+      ],
+      "brandVoice": {
+        "tone": {
+          "english": "Professional, technical, elegant yet approachable; education-first",
+          "vietnamese": "Chuyên nghiệp, kỹ thuật, thanh lịch nhưng dễ tiếp cận; ưu tiên giáo dục"
+        },
+        "strategy": {
+          "english": "Prioritize salon owners; leverage UGC; 'used by professionals' credibility",
+          "vietnamese": "Ưu tiên chủ salon; tận dụng nội dung do người dùng tạo; độ tin cậy 'được sử dụng bởi các chuyên gia'"
+        },
+        "channels": {
+          "english": "VLDirect (B2B soon), Amazon, eBay, select distributors, trade shows",
+          "vietnamese": "VLDirect (B2B sớm), Amazon, eBay, các nhà phân phối chọn lọc, các hội chợ thương mại"
+        },
+        "visualStyle": {
+          "english": "Western style, clean studio/salon shots, neutral backdrops, focus on formula; avoid cluttered graphics",
+          "vietnamese": "Phong cách phương Tây, ảnh chụp studio/salon sạch sẽ, nền trung lập, tập trung vào công thức; tránh đồ họa lộn xộn"
+        }
+      },
+      "brandStory": {
+        "english": "Built from real salon insight to deliver durability, consistency, safety (incl. TPO/HEMA-free options), and versatility across services. Education enables better technique → happier clients → stronger businesses.",
+        "vietnamese": "Xây dựng từ những hiểu biết thực tế về salon để cung cấp độ bền, tính nhất quán, an toàn (bao gồm các lựa chọn không TPO/HEMA) và tính linh hoạt trên tất cả các dịch vụ. Giáo dục cho phép kỹ thuật tốt hơn → khách hàng hạnh phúc hơn → các doanh nghiệp mạnh hơn."
+      }
+    },
+    "productHierarchy": {
+      "categories": [
+        {
+          "categoryName": "Polish Colours",
+          "vietnameseName": "Sơn Màu",
+          "subcategories": [
+            {
+              "name": "Gel Polish",
+              "vietnameseName": "Gel Polish",
+              "description": "362 colors in 10 collections with trend-forward, seasonal palettes",
+              "collections": [
+                {
+                  "name": "Old Money Collection",
+                  "description": "Premium colors from gel polish collection"
+                },
+                {
+                  "name": "Revive Collection",
+                  "description": "Revived classic colors"
+                }
+              ]
+            },
+            {
+              "name": "Builder Gel",
+              "vietnameseName": "Gel Xây Dựng",
+              "description": "Gel building systems for nail extensions",
+              "variants": [
+                "FlexiBuild",
+                "StrongBuild"
+              ]
+            },
+            {
+              "name": "Top Coats",
+              "vietnameseName": "Sơn Phủ",
+              "description": "Finishing layer products"
+            },
+            {
+              "name": "Base Coats",
+              "vietnameseName": "Sơn Lót",
+              "description": "Foundation layer products"
+            }
+          ]
+        },
+        {
+          "categoryName": "Sculpting System",
+          "vietnameseName": "Hệ Thống Đắp Sculpture",
+          "subcategories": [
+            {
+              "name": "Liquids (Monomer)",
+              "vietnameseName": "Chất Lỏng Acrylic",
+              "description": "Monomer liquids for acrylic nail sculpting",
+              "variants": [
+                {
+                  "name": "Maxx Perform Liquid",
+                  "description": "Professional-grade monomer"
+                },
+                {
+                  "name": "Traditional Purple Liquid",
+                  "description": "Classic monomer option"
+                },
+                {
+                  "name": "EMA Liquid",
+                  "description": "Ethyl methacrylate formulation"
+                },
+                {
+                  "name": "Traditional Clear Liquid",
+                  "description": "Clear monomer option"
+                }
+              ]
+            },
+            {
+              "name": "Acrylic Powder",
+              "vietnameseName": "Bột Acrylic",
+              "description": "Professional acrylic powders for sculpting"
+            },
+            {
+              "name": "Brushes",
+              "vietnameseName": "Cọ Đắp",
+              "description": "Premium Kolinsky fur acrylic brushes"
+            },
+            {
+              "name": "Drill Bits",
+              "vietnameseName": "Mũi Khoan",
+              "description": "E-file and manual drill bits"
+            },
+            {
+              "name": "Tips",
+              "vietnameseName": "Mẫu Móng",
+              "description": "Nail tips for extensions"
+            }
+          ]
+        },
+        {
+          "categoryName": "Nail Essentials",
+          "vietnameseName": "Thiết Yếu Cho Móng",
+          "subcategories": [
+            {
+              "name": "Base Gels",
+              "vietnameseName": "Gel Lót",
+              "description": "Foundation gels for gel applications"
+            },
+            {
+              "name": "Top Gels",
+              "vietnameseName": "Gel Phủ",
+              "description": "Finishing gels for gel applications"
+            },
+            {
+              "name": "Gloves",
+              "vietnameseName": "Găng Tay",
+              "description": "Protective latex and nitrile gloves"
+            },
+            {
+              "name": "Lamps",
+              "vietnameseName": "Đèn LED",
+              "description": "LED curing lamps"
+            },
+            {
+              "name": "E-File",
+              "vietnameseName": "E-File",
+              "description": "Electric nail files"
+            }
+          ]
+        },
+        {
+          "categoryName": "Spa",
+          "vietnameseName": "Spa",
+          "subcategories": [
+            {
+              "name": "Foot Soak",
+              "vietnameseName": "Ngâm Chân",
+              "description": "Spa foot soak products"
+            }
+          ]
+        },
+        {
+          "categoryName": "Skin Care",
+          "vietnameseName": "Chăm Sóc Da",
+          "description": "Cuticle oil, lotion, mask, and skin care products"
+        },
+        {
+          "categoryName": "Furniture",
+          "vietnameseName": "Nội Thất",
+          "description": "Salon furniture and equipment"
+        }
+      ]
+    },
+    "searchMetadata": {
+      "tags": [
+        "brand-hub",
+        "blazingstar",
+        "professional-nails",
+        "uk-made",
+        "salon-products",
+        "nail-technician",
+        "acrylic-gel",
+        "brand-identity"
+      ],
+      "keywords": [
+        "BlazingStar",
+        "professional nail products",
+        "UK nail brand",
+        "salon supplies",
+        "gel polish",
+        "acrylic",
+        "nail technician supplies"
+      ],
+      "categories": [
+        "gel-polish",
+        "acrylic-powder",
+        "acrylic-liquid",
+        "brushes",
+        "gloves",
+        "nail-essentials",
+        "spa-products",
+        "furniture"
+      ]
+    }
+  }
+}

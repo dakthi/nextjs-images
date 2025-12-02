@@ -1,0 +1,136 @@
+{
+  "product": {
+    "metadata": {
+      "id": "foot-soak",
+      "brand": "BlazingStar",
+      "brandCategory": "Spa",
+      "productType": "Foot Soak Product",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Foot Soak",
+        "vietnamese": "BlazingStar Ngâm Chân"
+      },
+      "tagline": {
+        "english": "Deodorizing foot soak solution for spa services",
+        "vietnamese": "Dung dịch ngâm chân khử mùi cho dịch vụ spa"
+      },
+      "overview": {
+        "english": "BlazingStar Foot Soak is a professional-grade foot spa solution designed to replace traditional salts. It provides deodorizing benefits and is ideal for spa chair service packages.",
+        "vietnamese": "BlazingStar Foot Soak là dung dịch ngâm chân cấp chuyên nghiệp được thiết kế để thay thế muối truyền thống. Nó cung cấp lợi ích khử mùi và lý tưởng cho các gói dịch vụ ghế spa."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Professional",
+        "Deodorizing",
+        "Convenient",
+        "Spa-ready"
+      ],
+      "targetAudience": {
+        "professionals": "Spa technicians and nail salon owners",
+        "salonTypes": "Full-service nail and spa salons"
+      },
+      "uniqueSelling": [
+        "Replaces traditional foot spa salts",
+        "Convenient pre-mixed solution",
+        "Deodorizing formula",
+        "Perfect for spa chair services"
+      ]
+    },
+    "productDetails": {
+      "sizes": [
+        {
+          "size": "1L",
+          "usage": "Standard bottle for regular salon use"
+        },
+        {
+          "size": "5L",
+          "usage": "Bulk refill for high-volume spas"
+        }
+      ],
+      "usage": {
+        "ratio": {
+          "english": "30ml per foot spa bowl",
+          "vietnamese": "30ml trên bát ngâm chân"
+        },
+        "purpose": {
+          "english": "Replaces traditional salts in foot spa treatments",
+          "vietnamese": "Thay thế muối truyền thống trong các liệu pháp ngâm chân"
+        }
+      },
+      "features": [
+        {
+          "feature": {
+            "english": "Deodorizing",
+            "vietnamese": "Khử Mùi"
+          },
+          "description": {
+            "english": "Eliminates unpleasant odors during foot spa service",
+            "vietnamese": "Loại bỏ mùi không mong muốn trong dịch vụ ngâm chân"
+          }
+        },
+        {
+          "feature": {
+            "english": "Convenient Solution",
+            "vietnamese": "Giải Pháp Tiện Lợi"
+          },
+          "description": {
+            "english": "Pre-mixed liquid eliminates need for measuring salts",
+            "vietnamese": "Dung dịch pha sẵn loại bỏ nhu cầu đo muối"
+          }
+        },
+        {
+          "feature": {
+            "english": "Professional-grade",
+            "vietnamese": "Cấp Chuyên Nghiệp"
+          },
+          "description": {
+            "english": "Formulated for salon and spa environments",
+            "vietnamese": "Được phát triển cho môi trường salon và spa"
+          }
+        }
+      ]
+    },
+    "applications": {
+      "servicePackages": [
+        {
+          "service": {
+            "english": "Spa Chair Services",
+            "vietnamese": "Dịch Vụ Ghế Spa"
+          },
+          "description": {
+            "english": "Perfect addition to professional pedicure and foot spa services",
+            "vietnamese": "Bổ sung hoàn hảo cho dịch vụ pedicure chuyên nghiệp và ngâm chân spa"
+          }
+        }
+      ]
+    },
+    "searchMetadata": {
+      "tags": [
+        "foot-soak",
+        "spa-product",
+        "foot-spa",
+        "deodorizing",
+        "spa-solution",
+        "pedicure-service"
+      ],
+      "keywords": [
+        "foot soak",
+        "foot spa solution",
+        "deodorizing foot soak",
+        "spa product",
+        "pedicure product"
+      ],
+      "use_case": [
+        "foot-spa-service",
+        "pedicure-preparation",
+        "spa-chair-service"
+      ],
+      "skill_level": ["beginner", "intermediate", "advanced"]
+    }
+  }
+}

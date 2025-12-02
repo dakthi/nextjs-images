@@ -10,6 +10,11 @@ const nextConfig = {
         protocol: 'https',
         hostname: '**.r2.cloudflarestorage.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'myvl.app',
+        pathname: '/wp-content/uploads/**',
+      },
     ],
   },
   webpack: (config) => {

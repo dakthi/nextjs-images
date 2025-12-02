@@ -1,0 +1,103 @@
+{
+  "product": {
+    "metadata": {
+      "id": "boldberry-brand-hub",
+      "brand": "BoldBerry",
+      "brandCategory": "Brand Hub",
+      "productType": "Brand Identity & Navigation",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english", "vietnamese"]
+    },
+    "core": {
+      "productName": {
+        "english": "BoldBerry — Premium Nail Products",
+        "vietnamese": "BoldBerry — Sản Phẩm Móng Cao Cấp"
+      },
+      "tagline": {
+        "english": "Premium colors, reliable quality, value-focused pricing",
+        "vietnamese": "Màu sắc cao cấp, chất lượng đáng tin cậy, giá cấp"
+      },
+      "overview": {
+        "english": "BoldBerry is a premium nail brand offering 432+ colors with advanced pearl technology and specialized collections. Made in UK with innovative formula technology and extensive color variety for every style.",
+        "vietnamese": "BoldBerry là thương hiệu móng cao cấp cung cấp 432+ màu với công nghệ pearl tiên tiến và các bộ sưu tập chuyên biệt. Sản xuất tại UK với công nghệ công thức sáng tạo và sự đa dạng màu sắc rộng rãi cho mọi phong cách."
+      }
+    },
+    "positioning": {
+      "quality": {
+        "english": "Premium quality Made in UK",
+        "vietnamese": "Chất lượng cao cấp sản xuất tại UK"
+      },
+      "coverage": {
+        "english": "Standard color coverage, trendy tones, affordable price",
+        "vietnamese": "Độ che phủ chuẩn, tôn màu trendy, giá thành phải chăng"
+      },
+      "durability": {
+        "english": "Durable and reliable",
+        "vietnamese": "Bền và đáng tin cậy"
+      },
+      "colorVariety": {
+        "english": "Extensive color selection: 432 colors including 12 main palettes + 1 special Reflective collection",
+        "vietnamese": "Lựa chọn màu mở rộng: 432 màu bao gồm 12 bảng chính + 1 bộ sưu tập Reflective đặc biệt"
+      }
+    },
+    "productRange": {
+      "products": [
+        {
+          "name": "Gel Polish",
+          "description": "216-432 colors across main and special collections"
+        },
+        {
+          "name": "Dipping & Ombre Powder",
+          "description": "240 colors with glitter options"
+        },
+        {
+          "name": "Base Gel",
+          "description": "Thin, easy-to-apply foundation gel"
+        },
+        {
+          "name": "Top Gel",
+          "description": "Thin, bubble-free finishing gel"
+        }
+      ]
+    },
+    "featuredCollections": [
+      "French Pearl CatEye (special pearl cat eye effect)",
+      "Neon Collection - Notting Hill Carnival",
+      "Reflective Collection - Bảng 12 (36 special reflective colors)",
+      "Dipping & Ombre (240 colors)"
+    ],
+    "technology": {
+      "pearlTechnology": {
+        "english": "Advanced ultra-fine pearl particles creating crystal-clear and mirror-like effects",
+        "vietnamese": "Hạt pearl siêu mịn tạo hiệu ứng trong trẻo và long lanh như gương"
+      },
+      "magneticEffect": {
+        "english": "Magnetic technology for easy design effects",
+        "vietnamese": "Công nghệ từ tạo hiệu ứng thiết kế đơn giản, dễ dàng"
+      }
+    },
+    "origin": {
+      "english": "Made in UK",
+      "vietnamese": "Sản xuất tại UK"
+    },
+    "searchMetadata": {
+      "tags": [
+        "boldberry",
+        "premium-nail",
+        "uk-made",
+        "pearl-technology",
+        "reflective-collection",
+        "brand-hub"
+      ],
+      "keywords": [
+        "BoldBerry",
+        "premium nail brand",
+        "pearl technology",
+        "reflective nails",
+        "cat eye effect",
+        "dipping powder"
+      ]
+    }
+  }
+}

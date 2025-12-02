@@ -1,0 +1,262 @@
+{
+  "product": {
+    "metadata": {
+      "id": "boldberry-gel-polish",
+      "brand": "BoldBerry",
+      "brandCategory": "Gel Polish",
+      "productType": "Gel Polish System",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english", "vietnamese"]
+    },
+    "core": {
+      "productName": {
+        "english": "BoldBerry Gel Polish",
+        "vietnamese": "BoldBerry Gel Polish"
+      },
+      "tagline": {
+        "english": "Trendy colors with premium pearl technology",
+        "vietnamese": "Màu trendy với công nghệ pearl cao cấp"
+      },
+      "overview": {
+        "english": "BoldBerry Gel Polish features 216 colors with thin texture, easy application, and no brush marks. Engineered with advanced pearl technology for crystal-clear effects and mirror-like finishes. Made in UK with vibrant, long-lasting colors.",
+        "vietnamese": "BoldBerry Gel Polish có 216 màu với kết cấu mỏng, ứng dụng dễ dàng, và không có dấu cọ. Được thiết kế với công nghệ pearl tiên tiến cho hiệu ứng trong trẻo và hoàn thiện long lanh. Sản xuất tại UK với màu sắc rực rỡ và bền lâu."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Premium",
+        "Innovative",
+        "Trendy",
+        "Reliable",
+        "Affordable"
+      ],
+      "targetAudience": {
+        "professionals": "Nail artists and salon professionals",
+        "clientTypes": "Clients seeking premium effects at value pricing"
+      },
+      "uniqueSelling": [
+        "216 trendy colors with pearl technology",
+        "Thin texture with full coverage",
+        "Advanced pearl particle technology",
+        "Easy application, no brush marks",
+        "Made in UK quality",
+        "Suitable for full coverage and French base designs"
+      ]
+    },
+    "productDetails": {
+      "formulation": {
+        "texture": {
+          "english": "Thin texture",
+          "vietnamese": "Kết cấu mỏng"
+        },
+        "application": {
+          "english": "Easy to apply",
+          "vietnamese": "Dễ sơn"
+        },
+        "brushMarks": {
+          "english": "No brush marks",
+          "vietnamese": "Không để lại dấu cọ"
+        },
+        "coverage": {
+          "english": "Full coverage",
+          "vietnamese": "Phủ đầy đủ"
+        },
+        "applicationSpeed": {
+          "english": "Quick application",
+          "vietnamese": "Sơn nhanh"
+        },
+        "color": {
+          "english": "Vibrant color",
+          "vietnamese": "Màu sắc rực rỡ"
+        },
+        "shine": {
+          "english": "Long-lasting shine",
+          "vietnamese": "Bóng bền lâu"
+        }
+      },
+      "pearlTechnology": {
+        "name": "Advanced Pearl Technology",
+        "vietnameseName": "Công Nghệ Pearl Tiên Tiến",
+        "description": {
+          "english": "Ultra-fine pearl particles create crystal-clear and mirror-like effects",
+          "vietnamese": "Hạt pearl siêu mịn tạo hiệu ứng trong trẻo và long lanh như gương"
+        },
+        "benefits": [
+          {
+            "benefit": {
+              "english": "Crystal-Clear Effects",
+              "vietnamese": "Hiệu Ứng Trong Trẻo"
+            },
+            "description": {
+              "english": "Creates transparent, sparkling finishes",
+              "vietnamese": "Tạo kết thúc trong suốt, lấp lánh"
+            }
+          },
+          {
+            "benefit": {
+              "english": "Mirror-Like Shine",
+              "vietnamese": "Bóng Long Lanh Như Gương"
+            },
+            "description": {
+              "english": "Reflects light from every angle",
+              "vietnamese": "Phản chiếu ánh sáng từ mọi góc độ"
+            }
+          }
+        ]
+      },
+      "usage": {
+        "english": "Suitable for both full color and French base designs, versatile for full coverage, ombre, French, and nail art",
+        "vietnamese": "Phù hợp cho cả thiết kế màu full và French nền, đa năng cho phủ full, ombre, French, và nail art"
+      },
+      "origin": {
+        "english": "Made in UK",
+        "vietnamese": "Sản xuất tại UK"
+      }
+    },
+    "specialCollections": [
+      {
+        "id": "french-pearl-cateye",
+        "name": "French Pearl CatEye Collection",
+        "vietnameseName": "Bộ Sưu Tập French Pearl CatEye",
+        "description": {
+          "english": "Cat eye effect with special golden pearl",
+          "vietnamese": "Hiệu ứng cat eye với pearl vàng đặc biệt"
+        }
+      },
+      {
+        "id": "neon-collection",
+        "name": "Neon Collection - Notting Hill Carnival",
+        "vietnameseName": "Bộ Sưu Tập Neon - Notting Hill Carnival",
+        "description": {
+          "english": "Vibrant neon colors with special fluorescent pigments",
+          "vietnamese": "Các màu neon sống động với sắc tố huỳnh quang đặc biệt"
+        },
+        "specialNote": {
+          "english": "Neon formula contains fluorescent pigments that temporarily darken under UV/LED curing (24-48 hours) before returning to vibrant neon color. This is a natural characteristic of neon pigments.",
+          "vietnamese": "Công thức neon chứa sắc tố huỳnh quang tạm thời tối đi khi hơ dưới UV/LED (24-48 tiếng) trước khi quay trở về màu neon sống động. Đây là đặc tính tự nhiên của sắc tố neon."
+        },
+        "applicationGuidance": [
+          "Mix bottle well before use to ensure even pigment distribution",
+          "Apply white/milky base layer before neon color",
+          "Wipe alcohol before applying top coat",
+          "Use separate top coat for neon colors",
+          "Inform clients of temporary darkening and color recovery"
+        ]
+      },
+      {
+        "id": "reflective-collection",
+        "name": "Reflective Collection (Bảng 12)",
+        "vietnameseName": "Bộ Sưu Tập Reflective (Bảng 12)",
+        "colorCount": "36 special reflective colors",
+        "description": {
+          "english": "Unique reflective light-catching effects with large glitter particles",
+          "vietnamese": "Hiệu ứng bắt ánh sáng reflective độc nhất vô nhị với hạt glitter to"
+        },
+        "features": [
+          {
+            "feature": {
+              "english": "Multi-Dimensional Sparkle",
+              "vietnamese": "Lấp Lánh Đa Chiều"
+            },
+            "description": {
+              "english": "Catches light from every angle for dazzling brilliance",
+              "vietnamese": "Bắt ánh sáng từ mọi góc độ cho sự rực rỡ lộa lệ"
+            }
+          },
+          {
+            "feature": {
+              "english": "Easy Application",
+              "vietnamese": "Ứng Dụng Dễ"
+            },
+            "description": {
+              "english": "Thin formula, standard application, full coverage in one stroke",
+              "vietnamese": "Công thức mỏng, ứng dụng chuẩn, phủ đầy đủ trong một lần cọ"
+            }
+          },
+          {
+            "feature": {
+              "english": "Long-Lasting Shine",
+              "vietnamese": "Bóng Bền Lâu"
+            },
+            "description": {
+              "english": "Durable, non-fading sparkle perfect for festive seasons",
+              "vietnamese": "Lấp lánh bền, không bị phai hoàn hảo cho mùa lễ hội"
+            }
+          }
+        ],
+        "colorRange": {
+          "english": "From reflective pastels to deep reflective tones covering all client preferences",
+          "vietnamese": "Từ reflective pastel đến reflective đậm, cover mọi nhu cầu khách"
+        },
+        "applications": [
+          {
+            "technique": "Full Coverage",
+            "description": "Apply reflective color to entire nail for maximum sparkle effect"
+          },
+          {
+            "technique": "Elegant Ombre",
+            "description": "Light brush of reflective color on nail tip for subtle sparkle without overwhelming shine"
+          }
+        ],
+        "targetClients": {
+          "english": "Clients seeking sparkle but wanting sophistication, salon upgrades, festive occasions",
+          "vietnamese": "Khách yêu thích lấp lánh nhưng muốn tinh tế, nâng cấp salon, dịp lễ hội"
+        }
+      }
+    ],
+    "baseAndTopGels": {
+      "baseGel": {
+        "name": "BoldBerry Gel Base",
+        "characteristics": {
+          "texture": "Thin, easy to apply",
+          "adhesion": "Good color adhesion",
+          "removability": "Easy removal"
+        },
+        "sizes": ["15ml", "240ml"]
+      },
+      "topGel": {
+        "name": "BoldBerry Top Gel",
+        "characteristics": {
+          "texture": "Thin, easy to apply",
+          "bubbles": "Bubble-free formula",
+          "shine": "Glossy, durable finish"
+        },
+        "sizes": ["15ml", "480ml"]
+      }
+    },
+    "searchMetadata": {
+      "tags": [
+        "boldberry-gel-polish",
+        "gel-polish",
+        "pearl-technology",
+        "reflective-nails",
+        "neon-colors",
+        "cat-eye-effect",
+        "premium-gel"
+      ],
+      "keywords": [
+        "BoldBerry gel polish",
+        "pearl gel polish",
+        "reflective gel",
+        "neon gel polish",
+        "cat eye gel",
+        "premium gel polish",
+        "UK-made gel"
+      ],
+      "use_case": [
+        "gel-manicure",
+        "pearl-effect",
+        "reflective-design",
+        "festive-nails",
+        "premium-application"
+      ],
+      "collections": [
+        "french-pearl-cateye",
+        "neon-collection",
+        "reflective-collection"
+      ],
+      "skill_level": ["intermediate", "advanced"]
+    }
+  }
+}

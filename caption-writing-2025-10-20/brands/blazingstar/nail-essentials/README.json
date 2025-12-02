@@ -1,0 +1,96 @@
+{
+  "product": {
+    "metadata": {
+      "id": "nail-essentials-hub",
+      "brand": "BlazingStar",
+      "brandCategory": "Nail Essentials",
+      "productType": "Category Hub",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Nail Essentials",
+        "vietnamese": "BlazingStar Thiết Yếu Cho Móng"
+      },
+      "tagline": {
+        "english": "Core salon tools and consumables for daily services",
+        "vietnamese": "Công cụ và vật tư salon cốt lõi cho các dịch vụ hàng ngày"
+      },
+      "overview": {
+        "english": "Nail Essentials is a comprehensive hub for core salon tools and consumables that support daily nail services. This category includes essential equipment and supplies required for professional nail care.",
+        "vietnamese": "Nail Essentials là trung tâm toàn diện cho công cụ salon cốt lõi và vật tư tiêu hao hỗ trợ các dịch vụ móng hàng ngày. Danh mục này bao gồm thiết bị và vật tư thiết yếu cần thiết cho chăm sóc móng chuyên nghiệp."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Essential",
+        "Professional",
+        "Comprehensive",
+        "Supportive"
+      ],
+      "targetAudience": {
+        "professionals": "Salon owners and nail technicians",
+        "salonTypes": "Professional nail care salons"
+      },
+      "description": {
+        "english": "A hub for core salon tools and consumables that support daily services",
+        "vietnamese": "Trung tâm cho công cụ salon cốt lõi và vật tư tiêu hao hỗ trợ dịch vụ hàng ngày"
+      }
+    },
+    "productHierarchy": {
+      "includedCategories": [
+        {
+          "id": "lamps",
+          "name": "LED Lamps",
+          "vietnameseName": "Đèn LED",
+          "description": {
+            "english": "Professional LED curing lamps for gel applications",
+            "vietnamese": "Đèn LED curing chuyên nghiệp cho ứng dụng gel"
+          },
+          "link": "blazingstar/nail-essentials/lamps/README.md"
+        }
+      ]
+    },
+    "expansionNotes": {
+      "english": "Additional essentials (e.g., tips, gloves, skin care) can be grouped here on request",
+      "vietnamese": "Các thiết yếu bổ sung (ví dụ: mẫu móng, găng tay, chăm sóc da) có thể được nhóm ở đây theo yêu cầu"
+    },
+    "relatedProducts": {
+      "currentIncluded": [
+        {
+          "productType": "LED Lamps",
+          "examples": ["BlazingStar LED Lamps", "BoldBerry LED Lamps", "Masters LED"]
+        }
+      ],
+      "potentialAdditions": [
+        "Nail Tips",
+        "Protective Gloves",
+        "Cuticle Care Products"
+      ]
+    },
+    "searchMetadata": {
+      "tags": [
+        "nail-essentials",
+        "salon-tools",
+        "salon-supplies",
+        "nail-equipment",
+        "category-hub"
+      ],
+      "keywords": [
+        "nail essentials",
+        "salon tools",
+        "nail equipment",
+        "LED lamp",
+        "salon supplies"
+      ],
+      "categories": [
+        "led-lamps",
+        "nail-tools",
+        "salon-equipment"
+      ],
+      "skill_level": ["beginner", "intermediate", "advanced"]
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "product": {
+    "metadata": {
+      "id": "polish-colours-hub",
+      "brand": "BlazingStar",
+      "brandCategory": "Polish Colours",
+      "productType": "Category Hub",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Polish Colours",
+        "vietnamese": "BlazingStar Sơn Màu"
+      },
+      "tagline": {
+        "english": "Complete color systems for professional nail polish and gel services",
+        "vietnamese": "Hệ thống màu hoàn chỉnh cho dịch vụ gel polish chuyên nghiệp"
+      },
+      "overview": {
+        "english": "Polish Colours is a comprehensive hub for color systems used in professional nail polish and gel services. This category includes gel polishes, builder gels, and coordinated color collections designed for salon use.",
+        "vietnamese": "Polish Colours là trung tâm toàn diện cho hệ thống màu được sử dụng trong dịch vụ gel polish chuyên nghiệp. Danh mục này bao gồm gel polish, builder gel, và các bộ sưu tập màu phối hợp được thiết kế cho sử dụng salon."
+      },
+      "scope": {
+        "english": "Colour systems used for polish and gel services",
+        "vietnamese": "Hệ thống màu sắc được sử dụng cho dịch vụ sơn và gel"
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Colorful",
+        "Professional",
+        "Trendy",
+        "Comprehensive",
+        "Coordinated"
+      ],
+      "targetAudience": {
+        "professionals": "Nail technicians and salon professionals",
+        "salonTypes": "Professional nail salons"
+      }
+    },
+    "productHierarchy": {
+      "includedCategories": [
+        {
+          "id": "gel-polish",
+          "name": "Gel Polish",
+          "vietnameseName": "Gel Polish",
+          "description": {
+            "english": "362 colors of professional-grade gel polish with trendy, seasonal palettes",
+            "vietnamese": "362 màu gel polish cấp chuyên nghiệp với bảng màu trendy, theo mùa"
+          },
+          "link": "blazingstar/polish-colours/gel-polish/README.md",
+          "collections": [
+            {
+              "name": "Old Money Collection",
+              "description": "Premium color selections",
+              "link": "blazingstar/polish-colours/gel-polish/old-money/README.md"
+            }
+          ]
+        },
+        {
+          "id": "builder-gel",
+          "name": "Builder Gel",
+          "vietnameseName": "Builder Gel",
+          "description": {
+            "english": "Flexible, durable gel system for natural nail extensions",
+            "vietnamese": "Hệ thống gel dẻo, bền cho nail extensions tự nhiên"
+          },
+          "link": "blazingstar/polish-colours/builder-gel/README.md"
+        }
+      ]
+    },
+    "usageNotes": {
+      "english": "Use with appropriate base and top coats, and pair with LED lamps in Nail Essentials for curing",
+      "vietnamese": "Sử dụng với lót và sơn phủ thích hợp, và ghép với đèn LED trong Nail Essentials để hơ"
+    },
+    "systemIntegration": {
+      "baseCoats": {
+        "english": "Pair with BlazingStar Base Gels for protection and adhesion",
+        "vietnamese": "Ghép với BlazingStar Base Gels để bảo vệ và bám dính"
+      },
+      "topCoats": {
+        "english": "Finish with BlazingStar Top Coats for durability and shine",
+        "vietnamese": "Hoàn thiệp với BlazingStar Top Coats để độ bền và bóng"
+      },
+      "curing": {
+        "english": "Cure with BlazingStar LED Lamps for optimal results",
+        "vietnamese": "Hơ với BlazingStar LED Lamps để kết quả tối ưu"
+      }
+    },
+    "searchMetadata": {
+      "tags": [
+        "polish-colours",
+        "gel-polish",
+        "builder-gel",
+        "nail-colors",
+        "category-hub"
+      ],
+      "keywords": [
+        "polish colours",
+        "gel polish colors",
+        "nail colors",
+        "color system",
+        "professional colors"
+      ],
+      "categories": [
+        "gel-polish",
+        "builder-gel",
+        "color-collections"
+      ],
+      "use_case": [
+        "gel-manicure",
+        "gel-application",
+        "nail-art",
+        "color-selection"
+      ],
+      "skill_level": ["beginner", "intermediate", "advanced"]
+    }
+  }
+}

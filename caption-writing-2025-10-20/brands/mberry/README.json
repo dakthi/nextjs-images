@@ -1,0 +1,105 @@
+{
+  "product": {
+    "metadata": {
+      "id": "mberry-brand-hub",
+      "brand": "MBerry",
+      "brandCategory": "Brand Hub",
+      "productType": "Brand Identity & Navigation",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english", "vietnamese"]
+    },
+    "core": {
+      "productName": {
+        "english": "MBerry — Fashion-Forward Nail Products",
+        "vietnamese": "MBerry — Sản Phẩm Móng Theo Xu Hướng"
+      },
+      "tagline": {
+        "english": "Smooth. Stylish. Reliable.",
+        "vietnamese": "Mượt. Sành Điệu. Đáng Tin Cậy."
+      },
+      "overview": {
+        "english": "MBerry is a fashion-forward nail brand crafted for nail artists and trendsetters who care about control, consistency, and professional results. Made in UK with innovative brush technology and trendy color palettes.",
+        "vietnamese": "MBerry là thương hiệu móng theo xu hướng được tạo ra cho các nghệ sĩ móng và những người dẫn đầu xu hướng quan tâm đến kiểm soát, tính nhất quán, và kết quả chuyên nghiệp. Sản xuất tại UK với công nghệ cọ sơn sáng tạo và bảng màu trendy."
+      }
+    },
+    "positioning": {
+      "brandPositioning": {
+        "english": "Fashion-forward & new generation",
+        "vietnamese": "Theo xu hướng thời trang & thế hệ mới"
+      },
+      "targetAudience": {
+        "english": "Niche trendsetters, upscale salons",
+        "vietnamese": "Những người dẫn đầu xu hướng, salon cao cấp"
+      },
+      "tone": {
+        "english": "Trendy, sleek, modern",
+        "vietnamese": "Trendy, gọn gàng, hiện đại"
+      },
+      "visualStyle": {
+        "english": "Fashion-styled posters, unique shades and textures",
+        "vietnamese": "Áp phích theo phong cách thời trang, sắc thái và kết cấu độc đáo"
+      },
+      "brandPromise": {
+        "english": "Smooth. Stylish. Reliable. Crafted for nail artists who care about control, consistency, and professional results.",
+        "vietnamese": "Mượt. Sành Điệu. Đáng Tin Cậy. Được tạo ra cho các nghệ sĩ móng quan tâm đến kiểm soát, tính nhất quán, và kết quả chuyên nghiệp."
+      }
+    },
+    "productRange": {
+      "products": [
+        {
+          "name": "Gel Polish",
+          "description": "180 colors with ultra-smooth brush technology"
+        },
+        {
+          "name": "Base Gel",
+          "description": "Foundation gel for optimal adhesion"
+        },
+        {
+          "name": "Top Gel",
+          "description": "Finishing gel for durability and shine"
+        },
+        {
+          "name": "M3 Portable Nail Drill",
+          "description": "Portable electric nail file"
+        }
+      ]
+    },
+    "keyFeature": {
+      "english": "Ultra Smooth brush for improved control near sidewalls and cuticle, reduces streaking",
+      "vietnamese": "Cọ sơn Ultra Smooth để kiểm soát tốt hơn gần tường bên và cuticle, giảm vết sơn"
+    },
+    "origin": {
+      "english": "Made in UK",
+      "vietnamese": "Sản xuất tại UK"
+    },
+    "salesChannels": {
+      "english": ["Soft-launch via poster campaigns", "VLDirect"],
+      "vietnamese": ["Khởi động mềm thông qua các chiến dịch áp phích", "VLDirect"]
+    },
+    "colorPalettes": [
+      "Natural",
+      "Red",
+      "Neon Summer",
+      "Spring-Summer",
+      "Autumn"
+    ],
+    "searchMetadata": {
+      "tags": [
+        "mberry",
+        "fashion-forward",
+        "trendy-nail",
+        "uk-made",
+        "ultra-smooth-brush",
+        "brand-hub"
+      ],
+      "keywords": [
+        "MBerry",
+        "fashion nail brand",
+        "trendy nail products",
+        "ultra smooth brush",
+        "stylish nails"
+      ]
+    }
+  }
+}

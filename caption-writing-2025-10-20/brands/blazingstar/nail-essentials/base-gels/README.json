@@ -1,0 +1,288 @@
+{
+  "product": {
+    "metadata": {
+      "id": "base-gels-master",
+      "brand": "BlazingStar",
+      "brandCategory": "Nail Essentials",
+      "productType": "Base Gel System",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Base Gels",
+        "vietnamese": "BlazingStar Base Gels (Sơn Lót)"
+      },
+      "tagline": {
+        "english": "Foundation products for flawless gel application",
+        "vietnamese": "Sản phẩm lót nền cho ứng dụng gel hoàn hảo"
+      },
+      "overview": {
+        "english": "Foundation products for gel polish and builder gel applications. Each base offers specific benefits for different nail types and application styles.",
+        "vietnamese": "Sản phẩm lót nền cho ứng dụng gel polish và gel xây dựng. Mỗi loại lót nền cung cấp những lợi ích cụ thể cho các loại móng khác nhau và phong cách ứng dụng."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Protective",
+        "Nourishing",
+        "Adhesive",
+        "Safe",
+        "Versatile"
+      ],
+      "targetAudience": {
+        "professionals": "Nail technicians and salon professionals",
+        "clientTypes": "Natural nail wearers, gel polish users, builder gel users, sensitive/allergy-prone clients"
+      },
+      "uniqueSelling": [
+        "Three distinct formulations for different needs",
+        "Hypoallergenic options for sensitive clients",
+        "Works with both gel polish and builder gel systems",
+        "Nourishing formulas that support nail health"
+      ]
+    },
+    "productDetails": {
+      "variants": [
+        {
+          "id": "base-original",
+          "name": "Original Gel Base",
+          "vietnameseName": "Sơn Lót Gel Gốc",
+          "characteristics": {
+            "texture": {
+              "english": "Thin, easy to apply",
+              "vietnamese": "Mỏng, dễ sơn"
+            },
+            "benefit": {
+              "english": "Contains nail care components",
+              "vietnamese": "Chứa thành phần chăm sóc móng"
+            },
+            "bestFor": {
+              "english": "Natural nails, everyday wear",
+              "vietnamese": "Móng tự nhiên, mặc hàng ngày"
+            }
+          },
+          "sizes": ["15ml", "240ml"],
+          "application": {
+            "english": [
+              "Layer before color for protection",
+              "Helps color adhere better",
+              "Nourishes and protects natural nail"
+            ],
+            "vietnamese": [
+              "Lót trước màu để bảo vệ",
+              "Giúp màu bám tốt hơn",
+              "Nuôi dưỡng và bảo vệ móng tự nhiên"
+            ]
+          }
+        },
+        {
+          "id": "base-revive",
+          "name": "Revive Base",
+          "vietnameseName": "Sơn Lót Revive",
+          "characteristics": {
+            "texture": {
+              "english": "Thicker, more substantial",
+              "vietnamese": "Dày hơn, đáng kể hơn"
+            },
+            "benefit": {
+              "english": "Stronger foundation for durability",
+              "vietnamese": "Nền móng mạnh hơn cho độ bền"
+            },
+            "bestFor": {
+              "english": "Gel polish application, builder gel base",
+              "vietnamese": "Ứng dụng gel polish, lót gel xây dựng"
+            }
+          },
+          "sizes": ["15ml", "240ml"],
+          "application": {
+            "english": [
+              "Dual-purpose base for gel and builder",
+              "Provides firm adhesion",
+              "Perfect for extended wear applications"
+            ],
+            "vietnamese": [
+              "Lót nền đa dụng cho gel và xây dựng",
+              "Cung cấp sự bám dính chắc chắn",
+              "Hoàn hảo cho các ứng dụng mặc dài hạn"
+            ]
+          }
+        },
+        {
+          "id": "base-sensitive",
+          "name": "TPO/HEMA-Free Base Gel",
+          "vietnameseName": "Sơn Lót Gel Không TPO/HEMA",
+          "characteristics": {
+            "formula": {
+              "english": "Allergen-reduced formula",
+              "vietnamese": "Công thức giảm dị ứng"
+            },
+            "benefit": {
+              "english": "Safe for sensitive clients",
+              "vietnamese": "An toàn cho khách nhạy cảm"
+            },
+            "bestFor": {
+              "english": "Clients with allergies, sensitive skin",
+              "vietnamese": "Khách có dị ứng, da nhạy cảm"
+            }
+          },
+          "sizes": ["15ml"],
+          "application": {
+            "english": [
+              "Essential for allergy-prone clients",
+              "Maintains durability without harsh chemicals",
+              "Supports nail health"
+            ],
+            "vietnamese": [
+              "Cần thiết cho khách dễ dị ứng",
+              "Duy trì độ bền mà không có hóa chất khắc nghiệt",
+              "Hỗ trợ sức khỏe móng"
+            ]
+          }
+        }
+      ],
+      "selectionGuide": [
+        {
+          "scenario": {
+            "english": "For Natural Nails",
+            "vietnamese": "Cho Móng Tự Nhiên"
+          },
+          "recommendation": {
+            "english": "Original Gel Base (nourishing, protective)",
+            "vietnamese": "Sơn Lót Gel Gốc (nuôi dưỡng, bảo vệ)"
+          }
+        },
+        {
+          "scenario": {
+            "english": "For Gel Polish",
+            "vietnamese": "Cho Gel Polish"
+          },
+          "recommendation": {
+            "english": "Revive Base or Original (provides adhesion)",
+            "vietnamese": "Revive Base hoặc Original (cung cấp sự bám dính)"
+          }
+        },
+        {
+          "scenario": {
+            "english": "For Builder Gel Application",
+            "vietnamese": "Cho Ứng Dụng Gel Xây Dựng"
+          },
+          "recommendation": {
+            "english": "Revive Base (stronger foundation)",
+            "vietnamese": "Revive Base (nền móng mạnh hơn)"
+          }
+        },
+        {
+          "scenario": {
+            "english": "For Sensitive Clients",
+            "vietnamese": "Cho Khách Nhạy Cảm"
+          },
+          "recommendation": {
+            "english": "TPO/HEMA-Free Base (allergen-safe)",
+            "vietnamese": "Sơn Lót Gel Không TPO/HEMA (an toàn dị ứng)"
+          }
+        }
+      ],
+      "features": [
+        {
+          "feature": {
+            "english": "Protection",
+            "vietnamese": "Bảo vệ"
+          },
+          "description": {
+            "english": "Shields natural nail from staining",
+            "vietnamese": "Bảo vệ móng tự nhiên khỏi bị nhiễm bẩn"
+          }
+        },
+        {
+          "feature": {
+            "english": "Adhesion",
+            "vietnamese": "Bám dính"
+          },
+          "description": {
+            "english": "Improves color adherence and durability",
+            "vietnamese": "Cải thiện sự bám dính và độ bền của màu"
+          }
+        },
+        {
+          "feature": {
+            "english": "Health",
+            "vietnamese": "Sức khỏe"
+          },
+          "description": {
+            "english": "Nourishing formulas support nail health",
+            "vietnamese": "Công thức nuôi dưỡng hỗ trợ sức khỏe móng"
+          }
+        },
+        {
+          "feature": {
+            "english": "Safety",
+            "vietnamese": "An toàn"
+          },
+          "description": {
+            "english": "Hypoallergenic options for sensitive clients",
+            "vietnamese": "Tùy chọn không gây dị ứng cho khách nhạy cảm"
+          }
+        },
+        {
+          "feature": {
+            "english": "Versatility",
+            "vietnamese": "Đa năng"
+          },
+          "description": {
+            "english": "Works with both gel polish and builder systems",
+            "vietnamese": "Phù hợp với cả hệ thống gel polish và xây dựng"
+          }
+        }
+      ]
+    },
+    "relationships": {
+      "works_with": [
+        {
+          "productType": "Gel Polish",
+          "name": "BlazingStar Gel Polish Collection (362 colors)",
+          "description": "Apply over base for vibrant, durable color"
+        },
+        {
+          "productType": "Top Gels",
+          "name": "DuraShine, Original, SunShield",
+          "description": "Pair with base for complete gel system"
+        },
+        {
+          "productType": "Builder Gel",
+          "name": "FlexiBuild X, StrongBuild",
+          "description": "Use Revive Base as foundation for extended wear"
+        }
+      ]
+    },
+    "searchMetadata": {
+      "tags": [
+        "base-gel",
+        "gel-polish-base",
+        "builder-gel-base",
+        "nail-foundation",
+        "protective-base",
+        "hypoallergenic",
+        "sensitive-nails",
+        "adhesion"
+      ],
+      "keywords": [
+        "gel base",
+        "nail base coat",
+        "protective gel",
+        "adhesive base",
+        "allergy-free base",
+        "nail nourishment",
+        "gel system foundation"
+      ],
+      "use_case": [
+        "gel-polish-application",
+        "builder-gel-base",
+        "natural-nail-protection",
+        "sensitive-client-care",
+        "extended-nail-wear"
+      ],
+      "skill_level": ["beginner", "intermediate", "advanced"]
+    }
+  }
+}

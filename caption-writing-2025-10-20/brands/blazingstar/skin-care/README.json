@@ -1,0 +1,105 @@
+{
+  "product": {
+    "metadata": {
+      "id": "skin-care-hub",
+      "brand": "BlazingStar",
+      "brandCategory": "Skin Care",
+      "productType": "Category Hub",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Skin Care",
+        "vietnamese": "BlazingStar Chăm Sóc Da"
+      },
+      "tagline": {
+        "english": "Daily-care and finishing products for salon services",
+        "vietnamese": "Sản phẩm chăm sóc hàng ngày và hoàn thiệp cho dịch vụ salon"
+      },
+      "overview": {
+        "english": "BlazingStar Skin Care is a collection of daily-care and finishing products designed to support and enhance salon services. This category includes essential skincare items for hand, cuticle, and nail care.",
+        "vietnamese": "BlazingStar Skin Care là một bộ sưu tập các sản phẩm chăm sóc hàng ngày và hoàn thiệp được thiết kế để hỗ trợ và nâng cao dịch vụ salon. Danh mục này bao gồm các sản phẩm chăm sóc da thiết yếu cho tay, cuticle, và chăm sóc móng."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Professional",
+        "Essential",
+        "Supportive",
+        "Finishing-quality"
+      ],
+      "targetAudience": {
+        "professionals": "Nail technicians and salon professionals",
+        "salonTypes": "Full-service nail and beauty salons"
+      }
+    },
+    "productHierarchy": {
+      "categories": [
+        {
+          "id": "cuticle-oil",
+          "name": "Cuticle Oil",
+          "vietnameseName": "Dầu Cuticle",
+          "category": "Cuticle Care",
+          "description": {
+            "english": "Professional cuticle oil for nail and cuticle care",
+            "vietnamese": "Dầu cuticle chuyên nghiệp cho chăm sóc móng và cuticle"
+          }
+        },
+        {
+          "id": "lotion",
+          "name": "Lotion",
+          "vietnameseName": "Kem Dưỡng",
+          "category": "Hand & Body Care",
+          "description": {
+            "english": "Hydrating lotion for hands and body",
+            "vietnamese": "Kem dưỡng ẩm cho tay và cơ thể"
+          }
+        },
+        {
+          "id": "mask",
+          "name": "Mask",
+          "vietnameseName": "Mặt Nạ",
+          "category": "Intensive Care",
+          "description": {
+            "english": "Professional nail and hand mask treatment",
+            "vietnamese": "Mặt nạ điều trị móng và tay chuyên nghiệp"
+          }
+        }
+      ]
+    },
+    "notes": {
+      "english": "Detailed specifications for individual SKUs (Stock Keeping Units) are available upon request. Please refer to visual and usage assets for complete product information.",
+      "vietnamese": "Các thông số kỹ thuật chi tiết cho từng SKU có sẵn theo yêu cầu. Vui lòng tham khảo các tài sản hình ảnh và sử dụng để biết thông tin sản phẩm đầy đủ."
+    },
+    "searchMetadata": {
+      "tags": [
+        "skin-care",
+        "cuticle-care",
+        "hand-care",
+        "professional-skincare",
+        "salon-product"
+      ],
+      "keywords": [
+        "skin care",
+        "cuticle oil",
+        "hand lotion",
+        "nail care",
+        "professional skincare",
+        "salon skincare"
+      ],
+      "categories": [
+        "cuticle-care",
+        "hand-care",
+        "intensive-care"
+      ],
+      "use_case": [
+        "finishing-service",
+        "daily-care",
+        "client-retail"
+      ],
+      "skill_level": ["beginner", "intermediate", "advanced"]
+    }
+  }
+}

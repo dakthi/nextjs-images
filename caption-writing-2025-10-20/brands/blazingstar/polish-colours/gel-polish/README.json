@@ -1,0 +1,267 @@
+{
+  "product": {
+    "metadata": {
+      "id": "gel-polish-master",
+      "brand": "BlazingStar",
+      "brandCategory": "Polish Colours",
+      "productType": "Gel Polish",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english", "vietnamese"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Gel Polish",
+        "vietnamese": "BlazingStar Gel Polish"
+      },
+      "productType": {
+        "english": "Gel Polish System",
+        "vietnamese": "Hệ Thống Gel Polish"
+      },
+      "tagline": {
+        "english": "362 trendy colors, UK-made with nail-nourishing formula",
+        "vietnamese": "362 màu trendy, sản xuất tại UK với công thức dưỡng móng"
+      },
+      "overview": {
+        "english": "BlazingStar Gel Polish is a premium-quality gel polish line, Made in UK and formulated with nail-nourishing components. Available in 362 colors across 10 color collections featuring hot, trendy, and seasonal tones from spring/summer to autumn/winter.",
+        "vietnamese": "BlazingStar Gel Polish là dòng sơn gel chất lượng cao, sản xuất tại UK và được tạo thành với các thành phần dưỡng móng. Có sẵn trong 362 màu trên 10 bảng màu với các tông màu hot, trendy và theo mùa từ xuân hè đến thu đông."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Trendy",
+        "High-Coverage",
+        "Easy-to-Apply",
+        "Nourishing",
+        "Versatile"
+      ],
+      "targetAudience": {
+        "professionals": "Nail technicians and salon professionals",
+        "clientTypes": "Fashion-forward clients, trend seekers, full-nail and French nail enthusiasts"
+      },
+      "uniqueSelling": [
+        "362 colors across 10 seasonal collections",
+        "Made in UK with nail-nourishing formula",
+        "Excellent color coverage with thin, flexible consistency",
+        "Suitable for both full nail applications and French nail art"
+      ]
+    },
+    "productDetails": {
+      "specifications": {
+        "origin": {
+          "english": "Made in United Kingdom",
+          "vietnamese": "Sản xuất tại Vương quốc Anh"
+        },
+        "totalColors": {
+          "english": "362 colors",
+          "vietnamese": "362 màu"
+        },
+        "collections": {
+          "english": "10 color collections",
+          "vietnamese": "10 bảng màu"
+        },
+        "coverage": {
+          "english": "Excellent, dense coverage",
+          "vietnamese": "Che phủ tuyệt vời, đặc"
+        },
+        "consistency": {
+          "english": "Thin, flexible, non-drip formula",
+          "vietnamese": "Công thức mỏng, dẻo, không chảy"
+        }
+      },
+      "features": [
+        {
+          "feature": {
+            "english": "Diverse Color Range",
+            "vietnamese": "Nhiều Lựa Chọn Màu"
+          },
+          "description": {
+            "english": "Trendy, hot, and seasonal tones to stay ahead of color trends",
+            "vietnamese": "Các tông màu trendy, hot và theo mùa để đón đầu xu hướng màu"
+          }
+        },
+        {
+          "feature": {
+            "english": "Excellent Coverage",
+            "vietnamese": "Che Phủ Tuyệt Vời"
+          },
+          "description": {
+            "english": "Dense pigmentation provides opaque finish with minimal coats",
+            "vietnamese": "Pigment dày cung cấp kết thúc mờ với tối thiểu lớp sơn"
+          }
+        },
+        {
+          "feature": {
+            "english": "Smooth Application",
+            "vietnamese": "Ứng Dụng Mịn"
+          },
+          "description": {
+            "english": "Thin, flexible formula that's easy to apply without dripping",
+            "vietnamese": "Công thức mỏng, dẻo dễ ứng dụng mà không chảy"
+          }
+        },
+        {
+          "feature": {
+            "english": "Nail Nourishment",
+            "vietnamese": "Dưỡng Móng"
+          },
+          "description": {
+            "english": "Contains nail-caring components to support nail health",
+            "vietnamese": "Chứa các thành phần chăm sóc móng để hỗ trợ sức khỏe móng"
+          }
+        },
+        {
+          "feature": {
+            "english": "Versatile Use",
+            "vietnamese": "Sử Dụng Đa Năng"
+          },
+          "description": {
+            "english": "Perfect for full nail coverage and French nail base designs",
+            "vietnamese": "Hoàn hảo cho che phủ full móng và thiết kế nền French"
+          }
+        }
+      ],
+      "applicationGuidance": [
+        {
+          "step": 1,
+          "stepName": {
+            "english": "Nail Preparation",
+            "vietnamese": "Chuẩn Bị Móng"
+          },
+          "instructions": {
+            "english": "Buff the nail surface with a nail file or use a primer (dehydrator) to remove oils and improve adhesion. (Buffing step can be omitted if desired)",
+            "vietnamese": "Bào sần bề mặt móng bằng dũa móng hoặc bôi primer (nước thối) để loại bỏ dầu và cải thiện sự bám dính. (Bước bào sần có thể bỏ qua nếu muốn)"
+          }
+        },
+        {
+          "step": 2,
+          "stepName": {
+            "english": "Apply Base Coat",
+            "vietnamese": "Sơn Lót"
+          },
+          "instructions": {
+            "english": "Apply a protective base gel before the color. The base layer protects natural nails and improves color adhesion.",
+            "vietnamese": "Sơn lót bảo vệ trước màu. Lớp lót bảo vệ móng tự nhiên và cải thiện sự bám dính của màu."
+          }
+        },
+        {
+          "step": 3,
+          "stepName": {
+            "english": "Application on Acrylic Nails (Optional)",
+            "vietnamese": "Ứng Dụng Trên Móng Bột (Nếu Cần)"
+          },
+          "instructions": {
+            "english": "For acrylic nails, a base coat is still recommended. If not using base: Apply first gel color coat very thin, cure for at least 60 seconds, and this thin layer will serve as the base bonding to acrylic nails.",
+            "vietnamese": "Đối với móng bột, lớp lót vẫn được khuyến khích. Nếu không sử dụng lót: Ứng dụng lớp màu gel đầu tiên rất mỏng, hơ ít nhất 60 giây, và lớp mỏng này sẽ hoạt động như lớp bám vào móng bột."
+          },
+          "optional": true
+        },
+        {
+          "step": 4,
+          "stepName": {
+            "english": "Choose Lamp",
+            "vietnamese": "Chọn Đèn Hơp"
+          },
+          "instructions": {
+            "english": "Select a high-quality UV or LED lamp that is powerful enough to properly cure the gel polish.",
+            "vietnamese": "Chọn đèn UV hoặc LED chất lượng cao đủ mạnh để hơ khô gel polish một cách chính xác."
+          }
+        },
+        {
+          "step": 5,
+          "stepName": {
+            "english": "Curing Time",
+            "vietnamese": "Thời Gian Hơ"
+          },
+          "instructions": {
+            "english": "Cure each gel polish coat for 60 to 90 seconds under the lamp.",
+            "vietnamese": "Hơ mỗi lớp gel polish từ 60 đến 90 giây dưới đèn."
+          }
+        }
+      ]
+    },
+    "technical": {
+      "origin": {
+        "country": {
+          "english": "United Kingdom",
+          "vietnamese": "Vương quốc Anh"
+        }
+      },
+      "formulation": {
+        "nailNourishing": {
+          "english": "Contains nail-care components",
+          "vietnamese": "Chứa các thành phần chăm sóc móng"
+        },
+        "consistency": {
+          "english": "Thin, flexible, non-drip formula",
+          "vietnamese": "Công thức mỏng, dẻo, không chảy"
+        }
+      }
+    },
+    "relationships": {
+      "works_with": [
+        {
+          "productType": "Base Gel",
+          "name": "BlazingStar Base Gels (Original, Revive, TPO/HEMA-Free)",
+          "description": "Use as protective foundation before gel polish application"
+        },
+        {
+          "productType": "Top Gel",
+          "name": "BlazingStar Top Gels/Top Coats",
+          "description": "Finish gel polish with protective topcoat"
+        },
+        {
+          "productType": "Nail Prep",
+          "name": "BlazingStar Gloves, Lamps, E-File",
+          "description": "Supporting tools for gel polish application and removal"
+        }
+      ],
+      "partOf": [
+        {
+          "collection": "Old Money Collection",
+          "description": "Premium color selections from gel polish range"
+        },
+        {
+          "collection": "Revive Collection",
+          "description": "Revived classic colors from gel polish range"
+        }
+      ]
+    },
+    "searchMetadata": {
+      "tags": [
+        "gel-polish",
+        "gel-color",
+        "nail-polish",
+        "uk-made",
+        "professional-gel",
+        "color-collection",
+        "trendy-colors",
+        "seasonal-colors"
+      ],
+      "keywords": [
+        "gel polish",
+        "gel color",
+        "nail gel",
+        "362 colors",
+        "UK gel polish",
+        "professional gel polish",
+        "trendy nail colors",
+        "seasonal colors"
+      ],
+      "use_case": [
+        "full-nail-coverage",
+        "french-nail-base",
+        "gel-manicure",
+        "color-selection",
+        "nail-technician"
+      ],
+      "season": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "skill_level": ["intermediate", "advanced"]
+    }
+  }
+}

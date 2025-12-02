@@ -1,0 +1,3051 @@
+{
+  "products": [
+    {
+      "id": "product-187",
+      "category": "BỘT ACRYLIC + OMBRE",
+      "productName": "Bột Màu - French",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-187-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-187-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-187-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "23oz",
+          "price": "£60.00",
+          "condition": "SL <3",
+          "discount": "£48.00"
+        },
+        {
+          "size": "23oz",
+          "price": "£60.00",
+          "condition": "MUA >=4 GIẢM 20% - MIX & MATCH",
+          "discount": "£43.20"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-189",
+      "category": "BỘT ACRYLIC + OMBRE",
+      "productName": "BlazingStar Maxx Perform - Ombre Collection",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-189-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-189-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-189-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "23oz",
+          "price": "£70.00",
+          "condition": "SL <3",
+          "discount": "£63.00"
+        },
+        {
+          "size": "23oz",
+          "price": "£70.00",
+          "condition": "MUA >=4 GIẢM 20% - MIX & MATCH",
+          "discount": "£56.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-191",
+      "category": "BỘT ACRYLIC + OMBRE",
+      "productName": "BlazingStar Maxx Perform",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 25,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-197-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-197-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-197-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "2oz",
+          "price": "£10.00",
+          "condition": "SL >=10 GIẢM 10%",
+          "discount": "£9.00"
+        },
+        {
+          "size": "2oz",
+          "price": "£10.00",
+          "condition": "SL >=20 GIẢM 20%",
+          "discount": "£8.00"
+        },
+        {
+          "size": "Set 22 Ombre Colors (1-22) 23oz",
+          "price": "£1540.00",
+          "condition": "GIẢM 25% TỪ GIÁ GỐC",
+          "discount": "£1155.00"
+        },
+        {
+          "size": "Set 28 (22 Ombre + 6 French) 23oz",
+          "price": "£1900.00",
+          "condition": "GIẢM 25% TỪ GIÁ GỐC",
+          "discount": "£1425.00"
+        },
+        {
+          "size": "Set 31 (22 Ombre + 3 White + 6 French) 23oz",
+          "price": "£2050.00",
+          "condition": "GIẢM 25% TỪ GIÁ GỐC",
+          "discount": "£1537.50"
+        }
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-197",
+      "category": "BỘT ACRYLIC + OMBRE",
+      "productName": "Bột Màu - Ombre",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-197-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-197-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-197-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Set 22 Hũ 2oz",
+          "price": "£220.00",
+          "condition": "GIẢM 20% TỪ GIÁ GỐC",
+          "discount": "£176.00"
+        },
+        {
+          "size": "Set 28 (22 Ombre + 6 French) Hũ 2oz",
+          "price": "£280.00",
+          "condition": "GIẢM 20% TỪ GIÁ GỐC",
+          "discount": "£224.00"
+        },
+        {
+          "size": "Set 31 (22 Ombre + 3 White + 6 French) Hũ 2oz",
+          "price": "£310.00",
+          "condition": "GIẢM 20% TỪ GIÁ GỐC",
+          "discount": "£248.00"
+        }
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-184",
+      "category": "BỘT ACRYLIC + OMBRE",
+      "productName": "BlazingStar Maxx Perform - Bột Tốc Độ",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-184-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-184-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-181-topLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "23oz - Gel Clear",
+          "price": "£40.00",
+          "condition": "MUA >=3 GIẢM 20%",
+          "discount": "£32.00"
+        },
+        {
+          "size": "23oz - Natural Pink",
+          "price": "£36.00",
+          "condition": "MUA >=5 GIẢM 15%",
+          "discount": "£30.60"
+        }
+      ],
+      "scents": [
+        "Medium Set - 4 Mùa",
+        "Fast Set - Bột Mùa Đông",
+        "Slow Set - Bột Mùa Hè"
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-185",
+      "category": "BỘT ACRYLIC + OMBRE",
+      "productName": "BlazingStar Maxx Perform Powder",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-185-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-185-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-185-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "23oz",
+          "price": "£50.00",
+          "condition": "MUA >=4 GIẢM 20% - MIX & MATCH",
+          "discount": "£40.00"
+        }
+      ],
+      "scents": [
+        "Milky White",
+        "Soft White",
+        "French White"
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-200",
+      "category": "BỘT ACRYLIC + OMBRE",
+      "productName": "Bold Berry - Dipping and Ombre - 2oz",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "badgePosition": "bottom-right",
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-200-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-200-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-200-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "2oz",
+          "price": "£10.00",
+          "condition": "SL >=10",
+          "discount": "£9.00"
+        },
+        {
+          "size": "2oz",
+          "price": "£10.00",
+          "condition": "SL >=20",
+          "discount": "£8.00"
+        },
+        {
+          "size": "Set 240",
+          "price": "£2400.00",
+          "condition": "GIẢM 20% TỪ GIÁ GỐC",
+          "discount": "£1920.00"
+        }
+      ]
+    },
+    {
+      "id": "product-204",
+      "category": "SƠN GEL POLISH",
+      "productName": "Bold Berry - French Pearl Cateye",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-204-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-204-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-204-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Lẻ 15ml",
+          "price": "£8.00",
+          "condition": "SL <6 CHAI",
+          "discount": "£8.00"
+        },
+        {
+          "size": "Lẻ 15ml",
+          "price": "£8.00",
+          "condition": "OFF 10% VỚI SL >=6",
+          "discount": "£7.20"
+        },
+        {
+          "size": "Lẻ 15ml",
+          "price": "£8.00",
+          "condition": "OFF 20% VỚI SL >=12",
+          "discount": "£6.40"
+        },
+        {
+          "size": "Set 36 màu 15ml",
+          "price": "£288.00",
+          "condition": "GIẢM 25% TỪ GIÁ ORIGINAL",
+          "discount": "£216.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-210",
+      "category": "SƠN GEL POLISH",
+      "productName": "Bold Berry GEL BASE / GEL TOP",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-210-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-210-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-210-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Lẻ 15ml - Base & Top",
+          "price": "£5.00",
+          "condition": "SL >= 12 GIẢM 10% MIX & MATCH với GEL POLISH",
+          "discount": "£4.50"
+        },
+        {
+          "size": "Base 240ml",
+          "price": "£45.00",
+          "condition": "GIẢM 10% - TẶNG 2 VỎ",
+          "discount": "£40.50"
+        },
+        {
+          "size": "Top 480ml",
+          "price": "£70.00",
+          "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 8 VỎ",
+          "discount": "£42.00"
+        }
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-208",
+      "category": "SƠN GEL POLISH",
+      "productName": "Bold Berry - Gel Polish",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-208-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-208-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-208-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Lẻ 15ml",
+          "price": "£5.00",
+          "condition": "SL <12 CHAI",
+          "discount": "£5.00"
+        },
+        {
+          "size": "Lẻ 15ml",
+          "price": "£5.00",
+          "condition": "SL >= 12 GIẢM 10% MIX & MATCH với BASE và TOP",
+          "discount": "£4.50"
+        },
+        {
+          "size": "Set 36 15ml",
+          "price": "£180.00",
+          "condition": "GIẢM 15% TỪ GIÁ ORIGINAL",
+          "discount": "£153.00"
+        },
+        {
+          "size": "Set 433 (bảng màu 1-11, 13) 15ml",
+          "price": "£2165.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£1732.00"
+        }
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-209",
+      "category": "SƠN GEL POLISH",
+      "productName": "Bold Berry - Gel Polish - Red Collection",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-209-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-209-bottomLeft.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-209-topRight.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Lẻ 15ml",
+          "price": "£5.00",
+          "condition": "SL <12 CHAI",
+          "discount": "£5.00"
+        },
+        {
+          "size": "Lẻ 15ml",
+          "price": "£5.00",
+          "condition": "SL >= 12 GIẢM 10% MIX & MATCH với BASE và TOP",
+          "discount": "£4.50"
+        },
+        {
+          "size": "Set 36 15ml",
+          "price": "£180.00",
+          "condition": "GIẢM 15% TỪ GIÁ ORIGINAL",
+          "discount": "£153.00"
+        },
+        {
+          "size": "Set 433 (bảng màu 1-11, 13) 15ml",
+          "price": "£2165.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£1732.00"
+        }
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-213",
+      "category": "SƠN GEL POLISH",
+      "productName": "Bold Berry - Gel Polish - Reflective Collection",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-213-topRight.jpg",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-213-topLeft.png",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-213-bottomLeft.png"
+      },
+      "pricingTable": [
+        {
+          "size": "Lẻ 15ml",
+          "price": "£7.00",
+          "condition": "GIẢM 10% TỪ GIÁ ORIGINAL",
+          "discount": "£6.30"
+        },
+        {
+          "size": "Set 36 BẢNG SỐ 12",
+          "price": "£252.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£201.60"
+        },
+        {
+          "size": "Set 433 + Set 36 Reflective (BẢNG 12) = SET 469",
+          "price": "£2417.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£1933.60"
+        }
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-216",
+      "category": "SƠN GEL POLISH",
+      "productName": "Bold Berry - Gel Polish - Jelly Collection",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-216-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-216-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-216-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Lẻ 15ml",
+          "price": "£5.00",
+          "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£4.50"
+        }
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-218",
+      "category": "SƠN GEL POLISH",
+      "productName": "Bold Berry Gel Polish Reflective",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-218-topRight.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-218-topLeft.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-218-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Lẻ 15ml",
+          "price": "£7.00",
+          "condition": "GIẢM 10% TỪ GIÁ ORIGINAL",
+          "discount": "£6.30"
+        },
+        {
+          "size": "Set 36 màu 15ml (bảng số 12)",
+          "price": "£252.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£201.60"
+        }
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-225",
+      "category": "SƠN GEL POLISH",
+      "productName": "MBerry Gel Top",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 46,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-225-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-225-3-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-225-3-topLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Top 15ml",
+          "price": "£5.50",
+          "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£4.95"
+        },
+        {
+          "size": "Base 15ml",
+          "price": "£5.50",
+          "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£4.95"
+        },
+        {
+          "size": "Top 480ml",
+          "price": "£75.00",
+          "condition": "OFF 10%",
+          "discount": "£67.5"
+        },
+        {
+          "size": "Top 480ml",
+          "price": "£75.00",
+          "condition": "OFF 10% MUA 2 TẶNG 1 - TẶNG THÊM 2 CHAI TOP 15ML",
+          "discount": "£45"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "sm"
+    },
+    {
+      "id": "product-225-1",
+      "category": "SƠN GEL POLISH",
+      "productName": "MBerry Gel Polish",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-225-1-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-225-1-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-225-1-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "15ml",
+          "price": "£5.50",
+          "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£4.95"
+        },
+        {
+          "size": "Set 36",
+          "price": "£198.00",
+          "condition": "GIẢM 15% TỪ GIÁ ORIGINAL",
+          "discount": "£168.30"
+        },
+        {
+          "size": "Set 180",
+          "price": "£990.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£792.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "sm"
+    },
+    {
+      "id": "product-237",
+      "category": "TOP & BASE",
+      "productName": "BlazingStar Gel Top Sunshield",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 40,
+      "badgePosition": "middle-right",
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-237-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-237-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-237-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Lẻ 480ml",
+          "price": "£80.00",
+          "condition": "GIẢM 10%, MUA 2 TẶNG 1, TẶNG THÊM 6 chai 15ml có gel",
+          "discount": "£48.00"
+        },
+        {
+          "size": "Lẻ 15ml",
+          "price": "£9.00",
+          "condition": "ĐỀU GIÁ £6/CHAI - SL <12",
+          "discount": "£6.00"
+        },
+        {
+          "size": "Lẻ 15ml",
+          "price": "£9.00",
+          "condition": "ĐỀU GIÁ £6/CHAI - SL >=12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£5.40"
+        }
+      ]
+    },
+    {
+      "id": "product-238",
+      "category": "TOP & BASE",
+      "productName": "BlazingStar Gel Base - 15ml",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-238-topRight.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-238-topLeft.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-238-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Revive Base 15ml",
+          "price": "£8.00",
+          "condition": "SL >=12 CHAI - GIẢM 10%",
+          "discount": "£7.20"
+        },
+        {
+          "size": "Original Base 15ml",
+          "price": "£9.00",
+          "condition": "SL <12 CHAI",
+          "discount": "£6.00"
+        },
+        {
+          "size": "Original Base 15ml",
+          "price": "£9.00",
+          "condition": "SL >=12 CHAI - GIẢM 10%",
+          "discount": "£5.40"
+        },
+        {
+          "size": "Original Base Refill 240ml",
+          "price": "£60.00",
+          "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 2 VỎ",
+          "discount": "£40.00"
+        },
+        {
+          "size": "Revive Base Refill 240ml",
+          "price": "£80.00",
+          "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 2 VỎ",
+          "discount": "£48.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "xs",
+      "badgeSize": "sm"
+    },
+    {
+      "id": "product-275",
+      "category": "ACRYLIC LIQUID",
+      "productName": "BlazingStar Liquid",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-275-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-275-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-275-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Gallon",
+          "price": "£60.00",
+          "condition": "",
+          "discount": "£60.00"
+        },
+        {
+          "size": "Case",
+          "price": "£180.00",
+          "condition": "OFF 10%",
+          "discount": "£162.00"
+        },
+        {
+          "size": "Case",
+          "price": "£180.00",
+          "condition": "OFF 15% MUA TRÊN 2",
+          "discount": "£153.00"
+        }
+      ],
+      "badgePosition": "bottom-right",
+      "scents": [
+        "Liquid Coffee",
+        "Liquid Traditional Purple",
+        "Traditional Clear"
+      ]
+    },
+    {
+      "id": "product-270",
+      "category": "ACRYLIC LIQUID",
+      "productName": "BlazingStar Liquid EMA Purple - LIQUID CHẢY",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/ema-liquid-1.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/ema-liquid-2.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/ema-liquid-3.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "16fl/480ml",
+          "price": "£18.00",
+          "condition": "",
+          "discount": "£18.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "£90.00",
+          "condition": "",
+          "discount": "£90.00"
+        },
+        {
+          "size": "Case",
+          "price": "£320.00",
+          "condition": "OFF 10%",
+          "discount": "£288.00"
+        },
+        {
+          "size": "Case",
+          "price": "£320.00",
+          "condition": "OFF 15% MUA TRÊN 2",
+          "discount": "£272.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-267",
+      "category": "ACRYLIC LIQUID",
+      "productName": "BlazingStar Liquid Purple/Clear - LIQUID THƯỜNG",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-267-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-267-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-267-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Gallon",
+          "price": "£60.00",
+          "condition": "",
+          "discount": "£60.00"
+        },
+        {
+          "size": "Case (4 Gallon)",
+          "price": "£180.00",
+          "condition": "OFF 10%",
+          "discount": "£162.00"
+        },
+        {
+          "size": "Case (4 Gallon)",
+          "price": "£180.00",
+          "condition": "OFF 15% SL>=2",
+          "discount": "£153.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-297-1",
+      "category": "ACRYLIC BRUSHES",
+      "productName": "BlazingStar Brush Premium Pro - Size 16",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-297-1-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-297-1-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-297-1-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "16",
+          "price": "£50.00",
+          "condition": "MUA <2 CÂY OFF 10%",
+          "discount": "£45.00"
+        },
+        {
+          "size": "16",
+          "price": "£50.00",
+          "condition": "MUA 2-5 CÂY OFF 15%",
+          "discount": "£42.50"
+        },
+        {
+          "size": "16",
+          "price": "£50.00",
+          "condition": "MUA 6-10 CÂY OFF 20%",
+          "discount": "£40.00"
+        },
+        {
+          "size": "16",
+          "price": "£50.00",
+          "condition": "MUA >=11 CÂY OFF 25%",
+          "discount": "£37.50"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-297-2",
+      "category": "ACRYLIC BRUSHES",
+      "productName": "BlazingStar Brush Premium Pro - Size 18",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-297-2-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-297-2-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-297-2-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "18",
+          "price": "£55.00",
+          "condition": "MUA <2 CÂY OFF 10%",
+          "discount": "£49.50"
+        },
+        {
+          "size": "18",
+          "price": "£55.00",
+          "condition": "MUA 2-5 CÂY OFF 15%",
+          "discount": "£46.75"
+        },
+        {
+          "size": "18",
+          "price": "£55.00",
+          "condition": "MUA 6-10 CÂY OFF 20%",
+          "discount": "£44.00"
+        },
+        {
+          "size": "18",
+          "price": "£55.00",
+          "condition": "MUA >=11 CÂY OFF 25%",
+          "discount": "£41.25"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-297-3",
+      "category": "ACRYLIC BRUSHES",
+      "productName": "BlazingStar Brush Premium Pro - Size 20",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-297-3-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-297-3-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-297-3-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "20",
+          "price": "£60.00",
+          "condition": "MUA <2 CÂY OFF 10%",
+          "discount": "£54.00"
+        },
+        {
+          "size": "20",
+          "price": "£60.00",
+          "condition": "MUA 2-5 CÂY OFF 15%",
+          "discount": "£51.00"
+        },
+        {
+          "size": "20",
+          "price": "£60.00",
+          "condition": "MUA 6-10 CÂY OFF 20%",
+          "discount": "£48.00"
+        },
+        {
+          "size": "20",
+          "price": "£60.00",
+          "condition": "MUA >=11 CÂY OFF 25%",
+          "discount": "£45.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-277",
+      "category": "ACRYLIC BRUSHES",
+      "productName": "BlazingStar Brush Standard - LÔNG CỨNG",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-277-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-277-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-277-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "14",
+          "price": "£40.00",
+          "condition": "MUA <5 OFF 10%",
+          "discount": "£36.00"
+        },
+        {
+          "size": "14",
+          "price": "£40.00",
+          "condition": "MUA >=5 OFF 20% MIX & MATCH",
+          "discount": "£32.00"
+        },
+        {
+          "size": "16",
+          "price": "£45.00",
+          "condition": "MUA <5 OFF 10%",
+          "discount": "£40.50"
+        },
+        {
+          "size": "16",
+          "price": "£45.00",
+          "condition": "MUA >=5 OFF 20% MIX & MATCH",
+          "discount": "£36.00"
+        },
+        {
+          "size": "18",
+          "price": "£50.00",
+          "condition": "MUA <5 OFF 10%",
+          "discount": "£45.00"
+        },
+        {
+          "size": "18",
+          "price": "£50.00",
+          "condition": "MUA >=5 OFF 20% MIX & MATCH",
+          "discount": "£40.00"
+        }
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-347",
+      "category": "BIAB",
+      "productName": "Flexibuild X - 240ml Refill - X201, X202, X203, X204",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 40,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-347-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-347-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-347-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "240ml",
+          "price": "£90.00",
+          "condition": "LẺ OFF 10%",
+          "discount": "£81.00"
+        },
+        {
+          "size": "240ml",
+          "price": "£90.00",
+          "condition": "MUA 2 TẶNG 1 - TẶNG 2 VỎ - MIX & MATCH VỚI REVIVE BASE 240 - CHEAPEST FREE",
+          "discount": "£54.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-347-1",
+      "category": "BIAB",
+      "productName": "Strong Build HF 240ml",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 40,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-347-1-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-347-1-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-347-1-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "240ml",
+          "price": "£90.00",
+          "condition": "LẺ OFF 10%",
+          "discount": "£81.00"
+        },
+        {
+          "size": "240ml",
+          "price": "£90.00",
+          "condition": "OFF 10% - MUA 2 TẶNG 1 - TẶNG 2 VỎ - MIX & MATCH VỚI REVIVE BASE 240 - CHEAPEST FREE",
+          "discount": "£54.00"
+        }
+      ],
+      "badgePosition": "bottom-right",
+      "tableTextSize": "sm"
+    },
+    {
+      "id": "product-343",
+      "category": "BIAB",
+      "productName": "Flexibuild X",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-343-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-343-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-343-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "15ml",
+          "price": "£8.00",
+          "condition": "SL >=6 OFF 10%",
+          "discount": "£7.20"
+        },
+        {
+          "size": "15ml - hộp 6 lọ cùng màu",
+          "price": "£43.20",
+          "condition": "",
+          "discount": "£43.20"
+        },
+        {
+          "size": "15ml - Set 36 màu",
+          "price": "£288.00",
+          "condition": "OFF 20% TỪ GIÁ ORIGINAL",
+          "discount": "£230.40"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-343-1",
+      "category": "BIAB",
+      "productName": "Strong Build HF",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-343-1-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-343-1-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-343-1-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "15ml",
+          "price": "£8.00",
+          "condition": "SL >=6 OFF 10%",
+          "discount": "£7.20"
+        },
+        {
+          "size": "15ml - hộp 6 lọ cùng màu",
+          "price": "£43.20",
+          "condition": "",
+          "discount": "£43.20"
+        },
+        {
+          "size": "15ml - Set 36 màu",
+          "price": "£288.00",
+          "condition": "OFF 20% TỪ GIÁ ORIGINAL",
+          "discount": "£230.40"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-348",
+      "category": "NAIL FILE",
+      "productName": "BlazingStar File",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 15,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-348-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-348-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-348-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Straight",
+          "price": "£16.00",
+          "condition": "MUA >=5 OFF 15%",
+          "discount": "£13.60"
+        },
+        {
+          "size": "Square",
+          "price": "£20.00",
+          "condition": "MUA >=5 OFF 15%",
+          "discount": "£17.00"
+        },
+        {
+          "size": "Curve",
+          "price": "£16.00",
+          "condition": "MUA >=5 OFF 15%",
+          "discount": "£13.60"
+        }
+      ],
+      "scents": [
+        "Straight 80/80",
+        "Straight 100/100",
+        "Straight 180/240",
+        "Square 80/80",
+        "Square 100/100",
+        "Curve 100/100"
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-356",
+      "category": "ELECTRICAL",
+      "productName": "Bold Berry LED LAMP",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-356-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-356-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-356-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Đèn có dây",
+          "price": "£100.00",
+          "condition": "MUA < 4 OFF 10%",
+          "discount": "£90.00"
+        },
+        {
+          "size": "Đèn có dây",
+          "price": "£100.00",
+          "condition": "MUA >=4 OFF 20%",
+          "discount": "£80.00"
+        },
+        {
+          "size": "Đèn không dây",
+          "price": "£130.00",
+          "condition": "MUA < 4 OFF 10%",
+          "discount": "£117.00"
+        },
+        {
+          "size": "Đèn không dây",
+          "price": "£130.00",
+          "condition": "MUA >=4 OFF 20%",
+          "discount": "£104.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "sm"
+    },
+    {
+      "id": "product-370",
+      "category": "ELECTRICAL",
+      "productName": "Máy bào không dây BlazingStar FX200",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-370-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-370-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-370-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "",
+          "price": "£260.00",
+          "condition": "OFF 10%",
+          "discount": "£234.00"
+        },
+        {
+          "size": "",
+          "price": "£260.00",
+          "condition": "MUA >=3 GIẢM 20%",
+          "discount": "£208.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-352",
+      "category": "ELECTRICAL",
+      "productName": "BlazingStar LED Lamp",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-352-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-352-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-352-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Cord",
+          "price": "£180.00",
+          "condition": "MUA < 4 OFF 10%",
+          "discount": "£162.00"
+        },
+        {
+          "size": "Cord",
+          "price": "£180.00",
+          "condition": "MUA >=4 OFF 20%",
+          "discount": "£144.00"
+        },
+        {
+          "size": "Cordless",
+          "price": "£200.00",
+          "condition": "MUA < 4 OFF 10%",
+          "discount": "£180.00"
+        },
+        {
+          "size": "Cordless",
+          "price": "£200.00",
+          "condition": "MUA >=4 OFF 20%",
+          "discount": "£160.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-366",
+      "category": "ELECTRICAL",
+      "productName": "Tay bào X5 Plus",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-366-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-366-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-366-bottomLeft.webp"
+      },
+      "scents": [
+        "Mặc định là dây Super UP200, VL hỗ trợ thay dây UP200 miễn phí vui lòng liên hệ sale khi mua"
+      ],
+      "pricingTable": [
+        {
+          "size": "X5 Plus",
+          "price": "£200.00",
+          "condition": "OFF 10% MUA < 3",
+          "discount": "£180.00"
+        },
+        {
+          "size": "X5 Plus",
+          "price": "£200.00",
+          "condition": "OFF 20% MUA >=3",
+          "discount": "£160.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "lg"
+    },
+    {
+      "id": "product-366-1",
+      "category": "ELECTRICAL",
+      "productName": "Tay bào X7 Plus",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-366-1-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-366-1-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-366-1-bottomLeft.webp"
+      },
+      "scents": [
+        "Mặc định là dây Super UP200, VL hỗ trợ thay dây UP200 miễn phí vui lòng liên hệ sale khi mua"
+      ],
+      "pricingTable": [
+        {
+          "size": "X7 Plus",
+          "price": "£220.00",
+          "condition": "OFF 10% MUA < 3",
+          "discount": "£198.00"
+        },
+        {
+          "size": "X7 Plus",
+          "price": "£220.00",
+          "condition": "OFF 20% MUA >=3",
+          "discount": "£176.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "lg"
+    },
+    {
+      "id": "product-360",
+      "category": "ELECTRICAL",
+      "productName": "MBerry LED LAMP",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-360-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-360-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-360-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Có dây",
+          "price": "£110.00",
+          "condition": "MUA < 4 OFF 10%",
+          "discount": "£99.00"
+        },
+        {
+          "size": "Có dây",
+          "price": "£110.00",
+          "condition": "MUA >=4 OFF 20%",
+          "discount": "£88.00"
+        },
+        {
+          "size": "Không dây",
+          "price": "£140.00",
+          "condition": "MUA < 4 OFF 10%",
+          "discount": "£126.00"
+        },
+        {
+          "size": "Không dây",
+          "price": "£140.00",
+          "condition": "MUA >=4 OFF 20%",
+          "discount": "£112.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "sm"
+    },
+    {
+      "id": "product-371",
+      "category": "ELECTRICAL",
+      "productName": "Máy bào không dây MBerry M3",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-371-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-371-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-371-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "",
+          "price": "£200.00",
+          "condition": "OFF 10%",
+          "discount": "£180.00"
+        },
+        {
+          "size": "",
+          "price": "£200.00",
+          "condition": "MUA >=3 GIẢM 20%",
+          "discount": "£160.00"
+        }
+      ],
+      "badgePosition": "bottom-right",
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-378",
+      "category": "FURNITURE",
+      "productName": "Ghế Khách Bendi",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-378-topLeft.png",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-378-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-378-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Bendi",
+          "price": "£160.00",
+          "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
+          "discount": "£128.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-377",
+      "category": "FURNITURE",
+      "productName": "Ghế Khách",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-377-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-377-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-377-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Etan",
+          "price": "£160.00",
+          "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
+          "discount": "£128.00"
+        },
+        {
+          "size": "Kaylee",
+          "price": "£140.00",
+          "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
+          "discount": "£112.00"
+        },
+        {
+          "size": "Velda",
+          "price": "£150.00",
+          "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
+          "discount": "£120.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-372",
+      "category": "FURNITURE",
+      "productName": "Ghế Thợ",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-372-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-372-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-372-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Kira",
+          "price": "£100.00",
+          "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
+          "discount": "£80.00"
+        },
+        {
+          "size": "MAIA",
+          "price": "£130.00",
+          "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
+          "discount": "£104.00"
+        },
+        {
+          "size": "NORA",
+          "price": "£75.00",
+          "condition": "OFF 20% ( K BAO GỒM PHÍ GỬI )",
+          "discount": "£60.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-381",
+      "category": "PEDICURE CHAIR",
+      "productName": "Ghế Pedicure Tự Động / Không Tự Động Ngắt Nước",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 27,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/chair-1.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/chair-2.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/chair-3.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Tự Động Ngắt Nước",
+          "price": "£3000.00",
+          "condition": "",
+          "discount": "£2200.00"
+        },
+        {
+          "size": "Không Tự Động Ngắt Nước",
+          "price": "£2750.00",
+          "condition": "",
+          "discount": "£2000.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base",
+      "scents": [
+        "Classic VL939",
+        "White Swan VL900",
+        "Black Swan VL900",
+        "White Zebra VL942"
+      ]
+    },
+    {
+      "id": "product-384",
+      "category": "PEDICURE CHAIR",
+      "productName": "Ghế Luxury VL9615",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-384-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-384-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-384-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "",
+          "price": "£3300.00",
+          "condition": "",
+          "discount": "£2650.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-382",
+      "category": "PEDICURE CHAIR",
+      "productName": "Ghế New Space VL958",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-382-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-382-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-382-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Tự động ngắt nước",
+          "price": "£3000.00",
+          "condition": "Free vận chuyển không bao gồm lắp đặt",
+          "discount": "£2400.00"
+        },
+        {
+          "size": "Không tự động",
+          "price": "£2750.00",
+          "condition": "Free vận chuyển không bao gồm lắp đặt",
+          "discount": "£2400.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-386",
+      "category": "NAIL TABLE",
+      "productName": "BlazingStar Nail Table - MÁY HÚT TORNADO PRO",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-386-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-386-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-386-bottomLeft.png"
+      },
+      "pricingTable": [
+        {
+          "size": "BÀN ĐƠN + MÁY HÚT PRO",
+          "price": "£1200.00",
+          "condition": "",
+          "discount": "£1200.00"
+        },
+        {
+          "size": "BÀN ĐÔI + MÁY HÚT PRO",
+          "price": "£2200.00",
+          "condition": "",
+          "discount": "£2200.00"
+        },
+        {
+          "size": "BÀN BA + MÁY HÚT PRO",
+          "price": "£3300.00",
+          "condition": "",
+          "discount": "£3300.00"
+        }
+      ],
+      "badgePosition": "bottom-right",
+      "showOnlyPriceColumn": true,
+      "tableTextSize": "md"
+    },
+    {
+      "id": "product-385",
+      "category": "NAIL TABLE",
+      "productName": "BlazingStar Nail Table - MÁY HÚT THƯỜNG",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-385-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-385-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-385-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Bàn đơn (tặng máy hút thường)",
+          "price": "£700.00",
+          "condition": "OFF 10%",
+          "discount": "£630.00"
+        },
+        {
+          "size": "Bàn đôi (tặng máy hút thường)",
+          "price": "£1200.00",
+          "condition": "OFF 10%",
+          "discount": "£1080.00"
+        },
+        {
+          "size": "Bàn ba (tặng máy hút thường)",
+          "price": "£1800.00",
+          "condition": "OFF 10%",
+          "discount": "£1620.00"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-3",
+      "category": "La Palm",
+      "productName": "La Palm Callus Remover",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-3-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-3-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-3-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "32oz",
+          "price": "£12.00",
+          "condition": "",
+          "discount": "£12.00"
+        },
+        {
+          "size": "32oz Extreme",
+          "price": "£15.00",
+          "condition": "",
+          "discount": "£15.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "£30.00",
+          "condition": "OFF 10%",
+          "discount": "£27.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "£30.00",
+          "condition": "MUA 3 TẶNG 1",
+          "discount": "£20.25"
+        },
+        {
+          "size": "Gallon Extreme",
+          "price": "£40.00",
+          "condition": "OFF 10%",
+          "discount": "£36.00"
+        },
+        {
+          "size": "Gallon Extreme",
+          "price": "£40.00",
+          "condition": "MUA 3 TẶNG 1",
+          "discount": "£27.00"
+        }
+      ],
+      "scents": [
+        "Super Lemon",
+        "French Rose"
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-107",
+      "category": "La Palm",
+      "productName": "La Palm Collagen 5-Steps",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-107-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-107-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-107-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "1 hộp",
+          "price": "£4.50",
+          "condition": "OFF 10%",
+          "discount": "£4.05"
+        },
+        {
+          "size": "1 hộp",
+          "price": "£4.50",
+          "condition": "MUA TRÊN 10 MIX GIẢM 20%",
+          "discount": "£3.60"
+        },
+        {
+          "size": "1 hộp",
+          "price": "£4.50",
+          "condition": "SL>=36 GIẢM 30%",
+          "discount": "£3.15"
+        }
+      ],
+      "scents": [
+        "Honey & Pearl",
+        "Crystal Waters",
+        "Lavender Purple",
+        "Rose & Jasmine",
+        "Ocean Breeze",
+        "Silk Vanilla",
+        "Exotic Orchid",
+        "Luxury Perfume"
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "sm"
+    },
+    {
+      "id": "product-7",
+      "category": "La Palm",
+      "productName": "La Palm Cooling Gel",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-7-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-7-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-7-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "12oz",
+          "price": "£8.00",
+          "condition": "",
+          "discount": "£8.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "£30.00",
+          "condition": "OFF 10%",
+          "discount": "£27.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "£30.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£20.25"
+        }
+      ],
+      "scents": [
+        "Aloe Vera"
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-9",
+      "category": "La Palm",
+      "productName": "La Palm Cream Mask",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-9-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-9-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-9-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "12oz",
+          "price": "£10.00",
+          "condition": "",
+          "discount": "£10.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "£30.00",
+          "condition": "OFF 10%",
+          "discount": "£27.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "£30.00",
+          "condition": "MUA 3 TẶNG 1",
+          "discount": "£20.25"
+        }
+      ],
+      "scents": [
+        "Aloe Vera",
+        "Lemon",
+        "Orange Tangerine Zest"
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-17",
+      "category": "La Palm",
+      "productName": "La Palm Cuticle Oil",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-17-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-17-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-17-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Gallon",
+          "price": "£20.00",
+          "condition": "Lẻ OFF 10% - CASE OFF 20% TỪ GIÁ ORIGINAL",
+          "discount": "£18.00"
+        },
+        {
+          "size": "Case (4 Gallon)",
+          "price": "£80.00",
+          "condition": "CASE OFF 20% TỪ GIÁ ORIGINAL",
+          "discount": "£64.00"
+        }
+      ],
+      "scents": [
+        "Peach",
+        "Yellow Pineapple"
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-21",
+      "category": "La Palm",
+      "productName": "La Palm Cuticle Softener",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-21-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-21-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-21-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "8oz",
+          "price": "£5.00",
+          "condition": "",
+          "discount": "£5.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "£20.00",
+          "condition": "Lẻ OFF 10%",
+          "discount": "£18.00"
+        },
+        {
+          "size": "Case (4 Gallon)",
+          "price": "£80.00",
+          "condition": "CASE OFF 20%",
+          "discount": "£64.00"
+        }
+      ],
+      "scents": [
+        "Mandarin Pear",
+        "Peach & Aloe Vera"
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-67",
+      "category": "La Palm",
+      "productName": "La Palm Flower Soap",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 32,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-67-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-67-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-67-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "12oz",
+          "price": "£15.00",
+          "condition": "LẺ 10%",
+          "discount": "£13.50"
+        },
+        {
+          "size": "12oz",
+          "price": "£15.00",
+          "condition": "LẺ 10% - MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        },
+        {
+          "size": "Gallon",
+          "price": "£40.00",
+          "condition": "LẺ 10%",
+          "discount": "£36.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "£40.00",
+          "condition": "LẺ 10% - MUA 3 TẶNG 1",
+          "discount": "£27.00"
+        }
+      ],
+      "scents": [
+        "Orange No.5",
+        "French Rose",
+        "Rainbow",
+        "Spearmint Eucalyptus CBD",
+        "Lavender Purple",
+        "Tropical Citrus",
+        "Honey Pearl",
+        "Fuji Pearl with CBD",
+        "Hot Lava with CBD"
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "xs"
+    },
+    {
+      "id": "product-115-test",
+      "category": "La Palm",
+      "productName": "La Palm Fragrance Oil",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 32,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-115-test-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-115-test-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-115-test-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "2oz (59ml)",
+          "price": "£15.00",
+          "condition": "OFF 10%",
+          "discount": "£13.50"
+        },
+        {
+          "size": "2oz (59ml)",
+          "price": "£15.00",
+          "condition": "MUA 3 TẶNG 1",
+          "discount": "£10.13"
+        }
+      ],
+      "scents": [
+        "Aloe Vera",
+        "Cucumber Cashmere",
+        "Eucalyptus",
+        "French Floral",
+        "Fresh Linen",
+        "Honey Pearl",
+        "Lavender Tea",
+        "Lemon",
+        "Lemongrass & Ginger",
+        "Mademoiselle",
+        "Mango",
+        "Milk & Honey",
+        "Orange Tangerine Zest",
+        "Perfume No.5",
+        "Raspberry Pomegranate",
+        "Romance",
+        "Rose",
+        "Spearmint",
+        "Tea Tree",
+        "Tropical Citrus"
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-53",
+      "category": "La Palm",
+      "productName": "La Palm Jojoba Scrub",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-53-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-53-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-53-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "12oz",
+          "price": "£12.00",
+          "condition": "",
+          "discount": "£12.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "£25.00",
+          "condition": "OFF 10%",
+          "discount": "£22.50"
+        },
+        {
+          "size": "Gallon",
+          "price": "£25.00",
+          "condition": "MUA 3 TẶNG 1",
+          "discount": "£16.88"
+        },
+        {
+          "size": "Bucket",
+          "price": "£70.00",
+          "condition": "OFF 10%",
+          "discount": "£63.00"
+        }
+      ],
+      "scents": [
+        "Spearmint Eucalyptus",
+        "Lemongrass",
+        "Green Tea"
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-1",
+      "category": "La Palm",
+      "productName": "Liquid BlazingStar Nhẹ Mùi",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-1-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-1-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-1-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Can",
+          "price": "£60.00",
+          "condition": "",
+          "discount": "£60.00"
+        },
+        {
+          "size": "Thùng",
+          "price": "£200.00",
+          "condition": "OFF 10%",
+          "discount": "£180.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "lg",
+      "scents": [
+        "Purple - Liquid Mùa đông",
+        "Clear - Liquid Mùa đông",
+        "Liquid 4 Mùa - Mango"
+      ]
+    },
+    {
+      "id": "product-27",
+      "category": "La Palm",
+      "productName": "La Palm Lotion",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-27-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-27-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-27-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "24oz",
+          "price": "£7.00",
+          "condition": "OFF 10% MUA TRÊN 3",
+          "discount": "£6.30"
+        },
+        {
+          "size": "Gallon",
+          "price": "£25.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£16.88"
+        }
+      ],
+      "scents": [
+        "Coconut Cream",
+        "French Rose",
+        "Green Tea",
+        "Lavender Purple",
+        "Lemon",
+        "Lychee Lemongrass",
+        "Mango",
+        "Tropical Citrus"
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-15",
+      "category": "La Palm",
+      "productName": "La Palm Marine Mask",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-15-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-15-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-15-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "12oz - Cucumber",
+          "price": "£10.00",
+          "condition": "",
+          "discount": "£10.00"
+        },
+        {
+          "size": "Gallon - Cucumber",
+          "price": "£30.00",
+          "condition": "OFF 10%",
+          "discount": "£27.00"
+        },
+        {
+          "size": "Gallon - Cucumber",
+          "price": "£30.00",
+          "condition": "MUA 3 TẶNG 1",
+          "discount": "£20.25"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-42",
+      "category": "La Palm",
+      "productName": "La Palm Massage Oil",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-42-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-42-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-42-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Gallon",
+          "price": "£20.00",
+          "condition": "Lẻ OFF 10%",
+          "discount": "£18.00"
+        },
+        {
+          "size": "Case (4 Gallon)",
+          "price": "£80.00",
+          "condition": "CASE OFF 20%",
+          "discount": "£64.00"
+        }
+      ],
+      "scents": [
+        "Aloe Vera",
+        "Green Tea",
+        "Lavender Purple",
+        "Orange Tangerine Zest"
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-84",
+      "category": "La Palm",
+      "productName": "La Palm Pedicure Trays 4 step",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-84-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-84-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-84-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Tray",
+          "price": "£2.50",
+          "condition": "OFF 10%",
+          "discount": "£2.25"
+        },
+        {
+          "size": "Tray",
+          "price": "£2.50",
+          "condition": "MUA TRÊN 10 MIX GIẢM 20%",
+          "discount": "£2.00"
+        },
+        {
+          "size": "Tray",
+          "price": "£2.50",
+          "condition": "CASE 24 GIẢM 30%",
+          "discount": "£1.75"
+        }
+      ],
+      "scents": [
+        "Aloe Vera CBD",
+        "Lemongrass & Ginger CBD",
+        "Matcha Green Tea",
+        "Milk & Honey CBD",
+        "No.5",
+        "Ocean Pearl",
+        "Orange Tangerine Zest",
+        "Pure Peppermint CBD",
+        "Romantic Rose CBD",
+        "Sweet Lavender Fields",
+        "Tropical Island Mango CBD",
+        "Lemon Lime"
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "xxs"
+    },
+    {
+      "id": "product-47",
+      "category": "La Palm",
+      "productName": "La Palm Sea Salts",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 32,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-47-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-47-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-47-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "10000pcs Tablet",
+          "price": "£98.00",
+          "condition": "OFF 10%",
+          "discount": "£88.20"
+        },
+        {
+          "size": "Bucket",
+          "price": "£60.00",
+          "condition": "OFF 10%",
+          "discount": "£54.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "£20.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£13.50"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "scents": [
+        "Spearmint Eucalyptus"
+      ]
+    },
+    {
+      "id": "product-58",
+      "category": "La Palm",
+      "productName": "La Palm Sugar Scrub",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 32,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-58-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-58-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-58-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "12oz",
+          "price": "£12.00",
+          "condition": "",
+          "discount": "£12.00"
+        },
+        {
+          "size": "Bucket",
+          "price": "£105.00",
+          "condition": "OFF 10%",
+          "discount": "£94.50"
+        },
+        {
+          "size": "Gallon",
+          "price": "£35.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£23.63"
+        }
+      ],
+      "badgePosition": "bottom-right",
+      "scents": [
+        "Tropical Citrus",
+        "Lemon"
+      ]
+    },
+    {
+      "id": "product-58-1",
+      "category": "La Palm",
+      "productName": "La Palm Sugar Scrub Extreme",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 32,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-58-1-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-58-1-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-58-1-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "12oz Extreme",
+          "price": "£15.00",
+          "condition": "",
+          "discount": "£15.00"
+        },
+        {
+          "size": "Bucket Extreme",
+          "price": "£125.00",
+          "condition": "OFF 10%",
+          "discount": "£112.50"
+        },
+        {
+          "size": "Gallon Extreme",
+          "price": "£40.00",
+          "condition": "OFF 10% MUA 3 TẶNG 1",
+          "discount": "£27.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "scents": [
+        "Orange Tangerine Zest",
+        "Lavender Purple"
+      ]
+    },
+    {
+      "id": "product-96",
+      "category": "La Palm",
+      "productName": "La Palm Volcano 6 Step",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 30,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-96-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-96-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-96-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "1 hộp",
+          "price": "£4.80",
+          "condition": "OFF 10%",
+          "discount": "£4.32"
+        },
+        {
+          "size": "1 hộp",
+          "price": "£4.80",
+          "condition": "MUA TRÊN 10 MIX GIẢM 20%",
+          "discount": "£3.84"
+        },
+        {
+          "size": "1 hộp",
+          "price": "£4.80",
+          "condition": "MUA CASE (36 HỘP) TRỞ LÊN GIẢM 30%",
+          "discount": "£3.36"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "xs",
+      "scents": [
+        "Honey Pearl",
+        "Orange No.5",
+        "Romance",
+        "Tropical Citrus",
+        "Green Tea & Aloe",
+        "Lavender Eruption",
+        "Lemongrass Ginger",
+        "Jasmine",
+        "Acacia",
+        "Honeysuckle"
+      ]
+    },
+    {
+      "id": "product-137",
+      "category": "KDS",
+      "productName": "KDS Callus Remover",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/kds-callus-1.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/kds-callus-2.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/kds-callus-3.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "32oz",
+          "price": "£15.00",
+          "condition": "",
+          "discount": "£15.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "£30.00",
+          "condition": "OFF 10% SL<3",
+          "discount": "£27.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "£30.00",
+          "condition": "OFF 10%, MUA 3 TẶNG 1",
+          "discount": "£20.25"
+        },
+        {
+          "size": "Case (4 Gallon)",
+          "price": "£108.00",
+          "condition": "GIẢM 25%",
+          "discount": "£81.00"
+        }
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-138",
+      "category": "KDS",
+      "productName": "KDS Clay Mask Cucumber",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/kds-clay-cucumber.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/kds-clay-2.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/kds-clay-2.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Gallon",
+          "price": "£30.00",
+          "condition": "OFF 10%",
+          "discount": "£27.00"
+        },
+        {
+          "size": "Case",
+          "price": "£108.00",
+          "condition": "",
+          "discount": "£108.00"
+        }
+      ],
+      "badgePosition": "bottom-right",
+      "tableTextSize": "sm"
+    },
+    {
+      "id": "product-150",
+      "category": "KDS",
+      "productName": "KDS Deluxe 4 steps",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-150-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-150-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-150-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "1 hộp",
+          "price": "£2.50",
+          "condition": "SL <30 OFF 10%",
+          "discount": "£2.25"
+        },
+        {
+          "size": "1 hộp",
+          "price": "£2.50",
+          "condition": "SL >=30 OFF 20%",
+          "discount": "£2.00"
+        },
+        {
+          "size": "1 hộp",
+          "price": "£2.50",
+          "condition": "SL >= 1 thùng (88 hộp) OFF 30%",
+          "discount": "£1.75"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "scents": [
+        "Blush Honey Blossom",
+        "Butter Mango",
+        "Elegant Pearl",
+        "Exotic Tropical",
+        "Fresh Cucumber",
+        "Green Tea",
+        "Juicy Orange",
+        "Milk",
+        "Royal Rose",
+        "Soft Lavender",
+        "Tingly Lemon",
+        "White Jasmine"
+      ]
+    },
+    {
+      "id": "product-158",
+      "category": "KDS",
+      "productName": "KDS Pedi Salt",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-158-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-158-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-158-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Bucket",
+          "price": "£60.00",
+          "condition": "OFF 10%",
+          "discount": "£54.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "£20.00",
+          "condition": "OFF 10%",
+          "discount": "£18.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "£20.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£13.50"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "scents": [
+        "Mint"
+      ],
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-161",
+      "category": "KDS",
+      "productName": "KDS Scrub",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-161-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-161-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-161-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Bucket",
+          "price": "£70.00",
+          "condition": "OFF 10%",
+          "discount": "£63.00"
+        },
+        {
+          "size": "Gallon",
+          "price": "£30.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£27.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "scents": [
+        "Lemongrass",
+        "Mint"
+      ],
+      "tableTextSize": "base"
+    },
+    {
+      "id": "product-180",
+      "category": "KDS",
+      "productName": "KDS Sugar Scrub",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-180-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-180-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-180-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Bucket",
+          "price": "£105.00",
+          "condition": "OFF 10%",
+          "discount": "£94.50"
+        },
+        {
+          "size": "Gallon",
+          "price": "£35.00",
+          "condition": "OFF 10% - MUA 3 TẶNG 1",
+          "discount": "£31.50"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "scents": [
+        "Honey Blossom",
+        "Lavender",
+        "Lemon",
+        "Milk",
+        "Orange"
+      ],
+      "tableTextSize": "xs"
+    },
+    {
+      "id": "product-393",
+      "category": "DRILL BIT",
+      "productName": "Đầu bào các loại - Mix and Match",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-393-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-393-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-393-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "",
+          "price": "£12.00",
+          "condition": "MUA <5 OFF 20%",
+          "discount": "£9.60"
+        },
+        {
+          "size": "",
+          "price": "£12.00",
+          "condition": "MUA >=5 OFF 30%",
+          "discount": "£8.40"
+        }
+      ],
+      "badgePosition": "bottom-right",
+      "tableTextSize": "base",
+      "showSizeAndConditionColumnsOnly": true
+    },
+    {
+      "id": "product-392",
+      "category": "SOCIAL",
+      "productName": "SỰ KIỆN HOT NHẤT LUÂN-ĐÔN 2025",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-392-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-392-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-392-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "🎉",
+          "price": "DOUBLE",
+          "condition": "VL SALE TẤT CẢ MỌI THỨ",
+          "discount": "DOUBLE SALE"
+        },
+        {
+          "size": "💥",
+          "price": "GIẢM GIÁ",
+          "condition": "GIẢM GIÁ LẠI",
+          "discount": "GIẢM GIÁ TỔNG BILL"
+        },
+        {
+          "size": "🔥",
+          "price": "+ 10%",
+          "condition": "ÁP DỤNG TẤT CẢ",
+          "discount": "ĐẶC BIỆT"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-394",
+      "category": "SƠN GEL POLISH",
+      "productName": "BlazingStar - Gel Polish - Revive",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-394-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-394-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-394-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Lẻ 15ml",
+          "price": "£12.00",
+          "condition": "SL <12 CHAI",
+          "discount": "£8.00"
+        },
+        {
+          "size": "Lẻ 15ml",
+          "price": "£12.00",
+          "condition": "SL >=12 MUA 2 TẶNG 1 + GIẢM 10%",
+          "discount": "£7.20"
+        },
+        {
+          "size": "Set 36 màu 15ml",
+          "price": "£288.00",
+          "condition": "GIẢM 15% TỪ GIÁ ORIGINAL",
+          "discount": "£244.80"
+        }
+      ],
+      "badgePosition": "bottom-right"
+    },
+    {
+      "id": "product-395",
+      "category": "SƠN GEL POLISH",
+      "productName": "BlazingStar - Gel Polish - Original",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 33,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-395-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-395-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-395-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Lẻ 15ml",
+          "price": "£9.00",
+          "condition": "SL <12 CHAI",
+          "discount": "£6.00"
+        },
+        {
+          "size": "Lẻ 15ml",
+          "price": "£9.00",
+          "condition": "SL >= 12 GIẢM 10% MIX & MATCH",
+          "discount": "£5.40"
+        },
+        {
+          "size": "Set 36 15ml",
+          "price": "£216.00",
+          "condition": "GIẢM 15%",
+          "discount": "£183.60"
+        },
+        {
+          "size": "Set 362 15ml",
+          "price": "£2172.00",
+          "condition": "GIẢM 20% Từ GIÁ ORIGINAL",
+          "discount": "£1737.60"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "sm"
+    },
+    {
+      "id": "product-396",
+      "category": "TOP & BASE",
+      "productName": "BlazingStar - Gel Top",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 33,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-396-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-396-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-396-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Lẻ 15ml",
+          "price": "£9.00",
+          "condition": "SL <12 CHAI",
+          "discount": "£6.00"
+        },
+        {
+          "size": "Lẻ 15ml",
+          "price": "£9.00",
+          "condition": "SL >=12 GIẢM 10% MIX & MATCH",
+          "discount": "£5.40"
+        },
+        {
+          "size": "480ml",
+          "price": "£70.00",
+          "condition": "LẺ",
+          "discount": "£42.00"
+        },
+        {
+          "size": "480ml",
+          "price": "£70.00",
+          "condition": "MUA 2 TẶNG 1 + GIẢM 10% + TẶNG 8 VỎ",
+          "discount": "£42.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "xs",
+      "scents": [
+        "Durashine",
+        "Original",
+        "TPO/HEMA Free",
+        "Sunshield",
+        "Chrome",
+        "Blooming",
+        "Matte"
+      ]
+    },
+    {
+      "id": "product-397",
+      "category": "TOP & BASE",
+      "productName": "BlazingStar - Express Base",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 40,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-397-bottomLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-397-topLeft.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-397-topRight.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Lẻ 15ml",
+          "price": "£9.00",
+          "condition": "SL <12 CHAI",
+          "discount": "£6.00"
+        },
+        {
+          "size": "Lẻ 15ml",
+          "price": "£9.00",
+          "condition": "SL >=12 GIẢM 10% MIX & MATCH",
+          "discount": "£5.40"
+        },
+        {
+          "size": "Lẻ 480ml",
+          "price": "£80.00",
+          "condition": "MUA 2 TẶNG 1 VÀ GIẢM 10% - TẶNG 8 VỎ",
+          "discount": "£48.00"
+        }
+      ],
+      "badgePosition": "middle-right"
+    },
+    {
+      "id": "product-398",
+      "category": "TOP & BASE",
+      "productName": "BlazingStar Base MỚI - HEMA FREE - 15ml",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/base-new-1.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/base-new-2.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/base-new.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Revive Base 15ml",
+          "price": "£12.00",
+          "condition": "SL <12",
+          "discount": "£7.20"
+        },
+        {
+          "size": "Revive Base 15ml",
+          "price": "£12.00",
+          "condition": "SL >=12",
+          "discount": "£6.48"
+        },
+        {
+          "size": "DuraBase 15ml",
+          "price": "£9.00",
+          "condition": "SL <12",
+          "discount": "£6.00"
+        },
+        {
+          "size": "DuraBase 15ml",
+          "price": "£9.00",
+          "condition": "SL >=12",
+          "discount": "£5.40"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "lg"
+    },
+    {
+      "id": "product-399",
+      "category": "NAIL TIP",
+      "productName": "Tip Gel BlazingStar",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 20,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-258-topLeft.png",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-258-topRight.png",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-258-bottomLeft.png"
+      },
+      "pricingTable": [
+        {
+          "size": "",
+          "price": "£6.00 / £12.00 / £50.00",
+          "condition": "OFF 20%",
+          "discount": "£4.80 / £9.60 / £40.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base",
+      "scents": [
+        "Straight",
+        "Stiletto",
+        "Long"
+      ],
+      "showSizeAndConditionColumnsOnly": true
+    },
+    {
+      "id": "product-400",
+      "category": "PROTECTIVE GLOVES",
+      "productName": "Găng tay BlazingStar",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/gang-tay-1.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/gang-tay-2.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/gang-tay-3.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Latex Protect+ - Trắng",
+          "price": "£40.00",
+          "condition": "OFF 10%",
+          "discount": "£36.00"
+        },
+        {
+          "size": "Latex Protect+ - Trắng",
+          "price": "£40.00",
+          "condition": "MUA TRÊN 3 THÙNG GIẢM 15% MIX & MATCH",
+          "discount": "£34.00"
+        },
+        {
+          "size": "Nitrile - Đen",
+          "price": "£40.00",
+          "condition": "OFF 10%",
+          "discount": "£36.00"
+        },
+        {
+          "size": "Nitrile - Đen",
+          "price": "£40.00",
+          "condition": "MUA TRÊN 3 THÙNG GIẢM 15% MIX & MATCH",
+          "discount": "£34.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "xs",
+      "scents": [
+        "Latex Protect+ - Trắng",
+        "Nitrile - Đen"
+      ]
+    },
+    {
+      "id": "product-401",
+      "category": "NAIL TIP",
+      "productName": "Tip Natural BlazingStar",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/natural.png",
+        "topRight": "https://vllondon.chartedconsultants.com/images/natural-1.png",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/natural-2.png"
+      },
+      "pricingTable": [
+        {
+          "size": "Pack 10",
+          "price": "£4.00",
+          "condition": "SL ≥ 10 giảm 10%",
+          "discount": "£3.60"
+        },
+        {
+          "size": "Set box (0–10–50 pcs)",
+          "price": "£4.00",
+          "condition": "Giảm 10%",
+          "discount": "£3.60"
+        },
+        {
+          "size": "Pack 100",
+          "price": "£4.00",
+          "condition": "SL ≥ 5 giảm 10%",
+          "discount": "£3.60"
+        },
+        {
+          "size": "Case 0–10",
+          "price": "£320.00",
+          "condition": "Giảm 15% từ giá original",
+          "discount": "£272.00"
+        },
+        {
+          "size": "Case 0–10 (Curve)",
+          "price": "£320.00",
+          "condition": "Giảm 20% từ giá original",
+          "discount": "£256.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "sm",
+      "scents": [
+        "Straight / Thẳng",
+        "Stiletto / Nhọn",
+        "Coffin / Thẳng",
+        "Curve / Cong"
+      ],
+      "showSizeAndConditionColumnsOnly": true
+    },
+    {
+      "id": "product-402",
+      "category": "LOTION",
+      "productName": "La Palm Lotion tặng khách",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/lotion-1.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/lotion-2.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/lotion-3.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "Mua 1 thùng (96 lọ)",
+          "price": "£1.20/lọ",
+          "condition": "/lọ",
+          "discount": "£1.20"
+        },
+        {
+          "size": "Mua trên 3 thùng (96 lọ)",
+          "price": "£1.00/lọ",
+          "condition": "/lọ",
+          "discount": "£1.00"
+        },
+        {
+          "size": "Mua 8 thùng (96 lọ), 8 mùi",
+          "price": "£0.90/lọ",
+          "condition": "/lọ",
+          "discount": "£0.90"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base",
+      "showOnlyPriceColumn": true,
+      "scents": [
+        "Lavender Indulgence",
+        "No.5 Perfume",
+        "Spearmint Eucalyptus Burst",
+        "Aloe Vera Green Tea",
+        "Rose Gold",
+        "Soothing Honey Pearl",
+        "Orange Tangerine Twist",
+        "Radiant Rose Petal"
+      ]
+    },
+    {
+      "id": "product-403",
+      "category": "ACRYLIC BRUSHES",
+      "productName": "BlazingStar Brush Standard",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-277-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-277-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-277-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "MUA <5",
+          "price": "£40.00",
+          "condition": "OFF 10%",
+          "discount": "£36.00"
+        },
+        {
+          "size": "MUA >=5",
+          "price": "£40.00",
+          "condition": "OFF 20% MIX & MATCH",
+          "discount": "£32.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "scents": [
+        "Size 14",
+        "Size 16",
+        "Size 18"
+      ],
+      "showSizeAndConditionColumnsOnly": true,
+      "tableTextSize": "sm"
+    },
+    {
+      "id": "product-404",
+      "category": "ACRYLIC BRUSHES",
+      "productName": "BlazingStar Brush Premium Plus",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-283-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-283-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-283-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "MUA <5",
+          "price": "£30.00",
+          "condition": "OFF 10%",
+          "discount": "£27.00"
+        },
+        {
+          "size": "MUA >=5",
+          "price": "£30.00",
+          "condition": "OFF 20% MIX & MATCH",
+          "discount": "£24.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base",
+      "scents": [
+        "Size 8 - Cán Tròn",
+        "Size 10 - Cán Tròn",
+        "Size 12 - Cán Tròn / Nhọn",
+        "Size 14 - Cán Tròn / Nhọn",
+        "Size 16 - Cán Tròn / Nhọn",
+        "Size 18 - Cán Tròn / Nhọn",
+        "Size 20 - Cán Tròn / Nhọn"
+      ],
+      "showSizeAndConditionColumnsOnly": true
+    },
+    {
+      "id": "product-405",
+      "category": "ACRYLIC BRUSHES",
+      "productName": "BlazingStar Brush Premium Pro",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 10,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/product-297-topLeft.webp",
+        "topRight": "https://vllondon.chartedconsultants.com/images/product-297-topRight.webp",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/product-297-bottomLeft.webp"
+      },
+      "pricingTable": [
+        {
+          "size": "MUA <5",
+          "price": "£45.00",
+          "condition": "OFF 10%",
+          "discount": "£40.50"
+        },
+        {
+          "size": "MUA >=5",
+          "price": "£45.00",
+          "condition": "OFF 20% MIX & MATCH",
+          "discount": "£36.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "base",
+      "scents": [
+        "Size 14",
+        "Size 16",
+        "Size 18",
+        "Size 20"
+      ],
+      "showSizeAndConditionColumnsOnly": true
+    },
+    {
+      "id": "product-406",
+      "category": "SƠN GEL POLISH",
+      "productName": "MBerry - Gel Polish - Bảng Màu Mùa Thu",
+      "promotionText": "Áp dụng từ ngày 16/11 đến hết ngày 30/11",
+      "discountPercentage": 0,
+      "images": {
+        "topLeft": "https://vllondon.chartedconsultants.com/images/au.png",
+        "topRight": "https://vllondon.chartedconsultants.com/images/au-3.jpg",
+        "bottomLeft": "https://vllondon.chartedconsultants.com/images/au-1.png"
+      },
+      "pricingTable": [
+        {
+          "size": "15ml",
+          "price": "£5.50",
+          "condition": "SL >= 12 GIẢM THÊM 10% MIX & MATCH",
+          "discount": "£4.95"
+        },
+        {
+          "size": "Set 36",
+          "price": "£198.00",
+          "condition": "GIẢM 15% TỪ GIÁ ORIGINAL",
+          "discount": "£168.30"
+        },
+        {
+          "size": "Set 180",
+          "price": "£990.00",
+          "condition": "GIẢM 20% TỪ GIÁ ORIGINAL",
+          "discount": "£792.00"
+        }
+      ],
+      "badgePosition": "middle-right",
+      "tableTextSize": "sm",
+      "scents": [
+        "Hàng sắp về các anh chị order để giữ giá sale"
+      ]
+    }
+  ]
+}

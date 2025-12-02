@@ -1,0 +1,12 @@
+{
+  "lastProcessedRow": 7956,
+  "timestamp": "2025-12-02T13:51:58.639Z",
+  "stats": {
+    "total": 7957,
+    "created": 7790,
+    "updated": 100,
+    "skipped": 0,
+    "failed": 67,
+    "startTime": "2025-12-02T13:36:28.323Z"
+  }
+}

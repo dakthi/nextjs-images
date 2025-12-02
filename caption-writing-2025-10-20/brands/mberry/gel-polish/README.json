@@ -1,0 +1,228 @@
+{
+  "product": {
+    "metadata": {
+      "id": "mberry-gel-polish",
+      "brand": "MBerry",
+      "brandCategory": "Gel Polish",
+      "productType": "Gel Polish",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english", "vietnamese"]
+    },
+    "core": {
+      "productName": {
+        "english": "MBerry Gel Polish",
+        "vietnamese": "MBerry Gel Polish"
+      },
+      "tagline": {
+        "english": "Nails Glowing Like a Goddess",
+        "vietnamese": "Móng Sáng Như Nữ Thần"
+      },
+      "overview": {
+        "english": "MBerry Gel Polish features 144 high-quality colors with excellent coverage and quick color application. Engineered with an innovative Ultra Smooth brush for improved control and reduced streaking.",
+        "vietnamese": "MBerry Gel Polish có 144 màu chất lượng cao với độ che phủ tốt và lên màu nhanh. Được thiết kế với cọ sơn Ultra Smooth cải tiến cho kiểm soát tốt hơn và giảm vết sơn."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Trendy",
+        "Sleek",
+        "Modern",
+        "Professional",
+        "Innovative"
+      ],
+      "targetAudience": {
+        "professionals": "Nail artists and fashion-conscious salons",
+        "clientTypes": "Trendsetters and style-focused clients"
+      },
+      "uniqueSelling": [
+        "144 trendy, high-pigment colors",
+        "Ultra Smooth brush technology",
+        "High coverage, quick application",
+        "Made in UK quality",
+        "Smooth, sleek, reliable performance"
+      ]
+    },
+    "productDetails": {
+      "specifications": {
+        "size": "15ML / 0.5 Fluid Oz",
+        "pigmentation": {
+          "english": "High pigmentation",
+          "vietnamese": "Pigment cao"
+        },
+        "coverage": {
+          "english": "High coverage",
+          "vietnamese": "Độ phủ cao"
+        },
+        "finish": {
+          "english": "High gloss finish",
+          "vietnamese": "Kết thúc bóng cao"
+        },
+        "application": {
+          "english": "Smooth application",
+          "vietnamese": "Ứng dụng mượt"
+        },
+        "origin": {
+          "english": "Made in UK",
+          "vietnamese": "Sản xuất tại UK"
+        }
+      },
+      "brushTechnology": {
+        "name": "Ultra Smooth Brush",
+        "vietnameseName": "Cọ Sơn Ultra Smooth",
+        "benefits": [
+          {
+            "benefit": {
+              "english": "Easy Application",
+              "vietnamese": "Ứng Dụng Dễ"
+            },
+            "description": {
+              "english": "Smooth brush glides on easily",
+              "vietnamese": "Cọ mượt trượt lên dễ dàng"
+            }
+          },
+          {
+            "benefit": {
+              "english": "Improved Control",
+              "vietnamese": "Kiểm Soát Cải Tiến"
+            },
+            "description": {
+              "english": "Better control near sidewalls and cuticle",
+              "vietnamese": "Kiểm soát tốt hơn gần tường bên và cuticle"
+            }
+          },
+          {
+            "benefit": {
+              "english": "Streak-Free",
+              "vietnamese": "Không Vết Sơn"
+            },
+            "description": {
+              "english": "Reduces streaking for clean finish",
+              "vietnamese": "Giảm vết sơn cho kết thúc sạch sẽ"
+            }
+          }
+        ]
+      },
+      "colorPalettes": [
+        {
+          "palette": "Natural",
+          "description": {
+            "english": "Fresh, natural tones perfect for gentle days",
+            "vietnamese": "Tông tự nhiên tươi sáng hoàn hảo cho những ngày nhẹ nhàng"
+          }
+        },
+        {
+          "palette": "Red",
+          "description": {
+            "english": "Range from seductive to luxurious tones - shine in every occasion",
+            "vietnamese": "Phạm vi từ các tông quyến rũ đến sang trọng - tỏa sáng trong mọi dịp"
+          }
+        },
+        {
+          "palette": "Neon Summer",
+          "description": {
+            "english": "Bright, fresh, seasonal colors",
+            "vietnamese": "Màu sắc tươi sáng, tươi mát và theo mùa"
+          }
+        },
+        {
+          "palette": "Spring-Summer",
+          "description": {
+            "english": "Bright and gentle seasonal palette",
+            "vietnamese": "Bảng màu mùa đẹp tươi sáng và nhẹ nhàng"
+          }
+        },
+        {
+          "palette": "Fall-Winter",
+          "description": {
+            "english": "Deep, sophisticated seasonal tones trending now",
+            "vietnamese": "Các tông màu trầm nhưng sang trọng phù hợp với xu hướng mới"
+          }
+        }
+      ],
+      "specialChromePowders": [
+        {
+          "name": "Chrome Red",
+          "description": {
+            "english": "Red chrome effect",
+            "vietnamese": "Hiệu ứng chrome đỏ"
+          }
+        },
+        {
+          "name": "Holographic Chrome",
+          "description": {
+            "english": "Multi-dimensional chrome effect",
+            "vietnamese": "Hiệu ứng chrome đa chiều",
+            "application": "Rub on any color"
+          }
+        },
+        {
+          "name": "Sterling Silver Chrome",
+          "description": {
+            "english": "Silver metallic chrome effect",
+            "vietnamese": "Hiệu ứng chrome ánh bạc",
+            "application": "Rub on black for silver effect"
+          }
+        },
+        {
+          "name": "Christo Pearl",
+          "description": {
+            "english": "Pearl chrome effect",
+            "vietnamese": "Hiệu ứng ngọc trai chrome",
+            "application": "Rub on any color"
+          }
+        },
+        {
+          "name": "Pinky Pearl",
+          "description": {
+            "english": "Pink pearl chrome effect",
+            "vietnamese": "Hiệu ứng ngọc trai hồng",
+            "application": "Rub on any color"
+          }
+        }
+      ]
+    },
+    "durability": {
+      "wearTime": {
+        "english": "Up to 6 weeks wear",
+        "vietnamese": "Mặc lên đến 6 tuần"
+      },
+      "recommendation": {
+        "english": "Use with proper base coat for optimal adhesion and longevity",
+        "vietnamese": "Sử dụng lót gel thích hợp để bám dính tối ưu và tuổi thọ"
+      }
+    },
+    "searchMetadata": {
+      "tags": [
+        "mberry-gel-polish",
+        "gel-polish",
+        "trendy-colors",
+        "ultra-smooth-brush",
+        "chrome-powder",
+        "fashionable-nails"
+      ],
+      "keywords": [
+        "MBerry gel polish",
+        "trendy nail color",
+        "ultra smooth brush",
+        "chrome effect",
+        "pearl chrome",
+        "high pigment gel"
+      ],
+      "use_case": [
+        "gel-manicure",
+        "fashion-nails",
+        "trendy-designs",
+        "professional-application"
+      ],
+      "collections": [
+        "natural",
+        "red",
+        "neon-summer",
+        "spring-summer",
+        "fall-winter"
+      ],
+      "skill_level": ["beginner", "intermediate", "advanced"]
+    }
+  }
+}

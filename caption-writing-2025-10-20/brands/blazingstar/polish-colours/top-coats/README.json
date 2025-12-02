@@ -1,0 +1,326 @@
+{
+  "product": {
+    "metadata": {
+      "id": "top-coats-master",
+      "brand": "BlazingStar",
+      "brandCategory": "Polish Colours",
+      "productType": "Top Coat System",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Top Coats",
+        "vietnamese": "BlazingStar Sơn Phủ"
+      },
+      "productType": {
+        "english": "Top Coat System",
+        "vietnamese": "Hệ Thống Sơn Phủ"
+      },
+      "tagline": {
+        "english": "Premium finishing layer products for perfect gel manicures",
+        "vietnamese": "Sản phẩm lớp phủ hoàn thiệt cao cấp cho manicure gel hoàn hảo"
+      },
+      "overview": {
+        "english": "BlazingStar Top Coats are premium finishing products designed to seal and protect gel nail applications. Each variant offers specific benefits for different finishes, effects, and durability requirements.",
+        "vietnamese": "BlazingStar Top Coats là sản phẩm hoàn thiệt cao cấp được thiết kế để che phủ và bảo vệ ứng dụng móng gel. Mỗi biến thể cung cấp những lợi ích cụ thể cho các kết thúc, hiệu ứng và yêu cầu độ bền khác nhau."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Glossy",
+        "Durable",
+        "Easy-to-Apply",
+        "Bubble-Free",
+        "Versatile"
+      ],
+      "targetAudience": {
+        "professionals": "Nail technicians and salon professionals",
+        "clientTypes": "All nail care clients, including those with aesthetic and durability preferences"
+      },
+      "uniqueSelling": [
+        "7 specialized top coat variants for different finishes and effects",
+        "Durability up to 4+ weeks",
+        "Made in UK quality standards",
+        "Hypoallergenic options available",
+        "Easy soak-off removal"
+      ]
+    },
+    "productDetails": {
+      "coreFeatures": [
+        {
+          "feature": {
+            "english": "Glossy",
+            "vietnamese": "Bóng"
+          },
+          "description": {
+            "english": "High-shine finish for brilliant, reflective nails",
+            "vietnamese": "Kết thúc bóng cao cho móng sáng, phản chiếu"
+          }
+        },
+        {
+          "feature": {
+            "english": "Durable",
+            "vietnamese": "Bền"
+          },
+          "description": {
+            "english": "Long-lasting protection lasting up to 4+ weeks",
+            "vietnamese": "Bảo vệ lâu dài kéo dài đến 4+ tuần"
+          }
+        },
+        {
+          "feature": {
+            "english": "Easy to Apply",
+            "vietnamese": "Dễ Sơn"
+          },
+          "description": {
+            "english": "Smooth, bubble-free application for professional results",
+            "vietnamese": "Ứng dụng mịn, không có bong bóng cho kết quả chuyên nghiệp"
+          }
+        },
+        {
+          "feature": {
+            "english": "No Bubbles",
+            "vietnamese": "Không Bong Bóng"
+          },
+          "description": {
+            "english": "Clean finish without air pockets or imperfections",
+            "vietnamese": "Kết thúc sạch sẽ mà không có túi hơi hoặc khuyết điểm"
+          }
+        }
+      ],
+      "variants": [
+        {
+          "id": "topcoat-durashine",
+          "name": "DuraShine",
+          "vietnameseName": "DuraShine",
+          "characteristics": {
+            "specialty": {
+              "english": "Anti-scratch, high shine",
+              "vietnamese": "Chống xước, bóng cao"
+            },
+            "durability": {
+              "english": "Durable up to 4+ weeks",
+              "vietnamese": "Bền đến 4+ tuần"
+            },
+            "removal": {
+              "english": "Easy soak-off",
+              "vietnamese": "Dễ tẩy bằng ngâm"
+            },
+            "origin": {
+              "english": "Made in UK",
+              "vietnamese": "Sản xuất tại UK"
+            }
+          },
+          "sizes": ["15ml", "480ml refill"],
+          "bestFor": {
+            "english": "Clients seeking maximum durability and shine",
+            "vietnamese": "Khách tìm kiếm độ bền và bóng tối đa"
+          },
+          "features": [
+            "Anti-scratch protection",
+            "High-gloss finish",
+            "Extended wear (4+ weeks)",
+            "Easy removal process"
+          ]
+        },
+        {
+          "id": "topcoat-geltop-original",
+          "name": "GelTop Original",
+          "vietnameseName": "GelTop Original",
+          "characteristics": {
+            "texture": {
+              "english": "Thin texture",
+              "vietnamese": "Kết cấu mỏng"
+            },
+            "application": {
+              "english": "Quick-drying",
+              "vietnamese": "Khô nhanh"
+            }
+          },
+          "sizes": ["15ml", "480ml"],
+          "bestFor": {
+            "english": "Quick salon applications and time-efficient services",
+            "vietnamese": "Ứng dụng salon nhanh và dịch vụ hiệu quả về thời gian"
+          },
+          "features": [
+            "Fast curing time",
+            "Thin, easy-to-apply texture",
+            "Professional shine",
+            "Reliable performance"
+          ]
+        },
+        {
+          "id": "topcoat-sunshield",
+          "name": "SunShield",
+          "vietnameseName": "SunShield",
+          "characteristics": {
+            "specialty": {
+              "english": "Anti-yellowing",
+              "vietnamese": "Chống ố vàng"
+            },
+            "idealFor": {
+              "english": "Whites and neutrals",
+              "vietnamese": "Trắng và các màu trung tính"
+            }
+          },
+          "sizes": ["15ml", "480ml"],
+          "bestFor": {
+            "english": "Light and white nail designs that need UV protection",
+            "vietnamese": "Thiết kế móng sáng và trắng cần bảo vệ UV"
+          },
+          "features": [
+            "UV protection prevents yellowing",
+            "Maintains clarity on light colors",
+            "Perfect for white and neutral shades",
+            "Long-lasting color preservation"
+          ]
+        },
+        {
+          "id": "topcoat-matte",
+          "name": "Matte",
+          "vietnameseName": "Sơn Phủ Matt",
+          "characteristics": {
+            "finish": {
+              "english": "Matte finish",
+              "vietnamese": "Kết thúc mờ"
+            }
+          },
+          "bestFor": {
+            "english": "Contemporary, modern nail designs",
+            "vietnamese": "Thiết kế móng hiện đại, đương đại"
+          },
+          "features": [
+            "Velvety matte appearance",
+            "Reduces glare",
+            "Sophisticated finish",
+            "Pairs well with any nail art style"
+          ]
+        },
+        {
+          "id": "topcoat-blooming",
+          "name": "Blooming",
+          "vietnameseName": "Sơn Phủ Blooming",
+          "characteristics": {
+            "specialty": {
+              "english": "Blooming effect",
+              "vietnamese": "Hiệu ứng nở hoa"
+            }
+          },
+          "bestFor": {
+            "english": "Creative nail art and special effects",
+            "vietnamese": "Nail art sáng tạo và hiệu ứng đặc biệt"
+          },
+          "features": [
+            "Creates blooming/crystalline effect",
+            "Unique texture finish",
+            "Perfect for nail art designs",
+            "Adds dimension and visual interest"
+          ]
+        },
+        {
+          "id": "topcoat-chrome",
+          "name": "Chrome",
+          "vietnameseName": "Sơn Phủ Chrome",
+          "characteristics": {
+            "specialty": {
+              "english": "Optimized for chrome powder rubbing",
+              "vietnamese": "Được tối ưu hóa cho chà chrome"
+            }
+          },
+          "bestFor": {
+            "english": "Chrome nail designs and metallic effects",
+            "vietnamese": "Thiết kế móng chrome và hiệu ứng kim loại"
+          },
+          "features": [
+            "Designed for chrome powder application",
+            "Enhanced metallic effect",
+            "Smooth base for chrome rubbing",
+            "Professional chrome results"
+          ]
+        },
+        {
+          "id": "topcoat-hypoallergenic",
+          "name": "TPO/HEMA-Free",
+          "vietnameseName": "Sơn Phủ Không TPO/HEMA",
+          "characteristics": {
+            "formula": {
+              "english": "Hypoallergenic formula",
+              "vietnamese": "Công thức không gây dị ứng"
+            },
+            "safety": {
+              "english": "Safe for sensitive clients",
+              "vietnamese": "An toàn cho khách nhạy cảm"
+            }
+          },
+          "bestFor": {
+            "english": "Clients with allergies or chemical sensitivities",
+            "vietnamese": "Khách có dị ứng hoặc nhạy cảm hóa chất"
+          },
+          "features": [
+            "TPO and HEMA-free formulation",
+            "Reduced allergen risk",
+            "Safe for sensitive clients",
+            "Professional performance without harsh chemicals"
+          ]
+        }
+      ]
+    },
+    "relationships": {
+      "works_with": [
+        {
+          "productType": "Gel Polish",
+          "name": "BlazingStar Gel Polish (362 colors)",
+          "description": "Apply top coat over gel polish for protection and shine"
+        },
+        {
+          "productType": "Builder Gel",
+          "name": "BlazingStar Builder Gel",
+          "description": "Finish builder gel applications with appropriate top coat"
+        },
+        {
+          "productType": "Base Gel",
+          "name": "BlazingStar Base Gels",
+          "description": "Create complete gel system with base and top coat"
+        }
+      ]
+    },
+    "searchMetadata": {
+      "tags": [
+        "top-coat",
+        "gel-topcoat",
+        "nail-finish",
+        "glossy-finish",
+        "matte-finish",
+        "anti-scratch",
+        "uk-made",
+        "hypoallergenic-topcoat"
+      ],
+      "keywords": [
+        "top coat",
+        "gel top coat",
+        "nail finish",
+        "protective coat",
+        "durable topcoat",
+        "anti-yellowing",
+        "chrome topcoat",
+        "matte topcoat"
+      ],
+      "finishTypes": [
+        "glossy",
+        "matte",
+        "blooming",
+        "chrome-optimized"
+      ],
+      "use_case": [
+        "gel-manicure-finish",
+        "nail-art-sealing",
+        "protection-layer",
+        "special-effects",
+        "chrome-designs"
+      ],
+      "skill_level": ["beginner", "intermediate", "advanced"]
+    }
+  }
+}

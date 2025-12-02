@@ -1,0 +1,559 @@
+{
+  "product": {
+    "metadata": {
+      "id": "monomer-liquids-master",
+      "brand": "BlazingStar",
+      "brandCategory": "Sculpting System",
+      "productType": "Monomer Liquid System",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english", "vietnamese"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Monomer Liquids",
+        "vietnamese": "BlazingStar Dung Dịch Monomer"
+      },
+      "tagline": {
+        "english": "Professional-grade liquids for optimal acrylic powder application",
+        "vietnamese": "Dung dịch cấp chuyên nghiệp cho ứng dụng bột acrylic tối ưu"
+      },
+      "overview": {
+        "english": "Professional-grade monomer liquids designed for optimal acrylic powder application. Each liquid offers specific working characteristics to match your technique, environment, and speed requirements.",
+        "vietnamese": "Dung dịch monomer chuyên nghiệp được thiết kế cho ứng dụng bột acrylic tối ưu. Mỗi dung dịch cung cấp các đặc tính làm việc cụ thể để phù hợp với kỹ thuật, môi trường và yêu cầu tốc độ của bạn."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Professional-grade",
+        "Safety-focused",
+        "Versatile",
+        "Reliable",
+        "Options-driven"
+      ],
+      "targetAudience": {
+        "professionals": "Nail technicians and acrylic specialists",
+        "salonTypes": "Professional salons, sensitive environments, traditional salons, precision-focused studios"
+      },
+      "uniqueSelling": [
+        "Four distinct liquid formulations for different needs",
+        "Compatible with all BlazingStar acrylic powders",
+        "Temperature and speed optimization system",
+        "EMA-based options for health-conscious salons",
+        "Professional salon-grade performance"
+      ]
+    },
+    "productDetails": {
+      "variants": [
+        {
+          "id": "liquid-ema",
+          "variantNumber": 1,
+          "name": "EMA Liquid",
+          "vietnameseName": "Dung Dịch EMA",
+          "characteristics": {
+            "formula": {
+              "english": "Ethyl Methacrylate (safer alternative to MMA)",
+              "vietnamese": "Ethyl Methacrylate (thay thế an toàn hơn MMA)"
+            },
+            "odor": {
+              "english": "Low odor formula",
+              "vietnamese": "Công thức ít mùi"
+            },
+            "bestFor": {
+              "english": "Sensitive technicians and clients",
+              "vietnamese": "Thợ và khách hàng nhạy cảm"
+            },
+            "safetyRating": {
+              "english": "Professional-grade, safe for salon use",
+              "vietnamese": "Cấp chuyên nghiệp, an toàn cho salon"
+            }
+          },
+          "applications": {
+            "english": [
+              "Compatible with all BlazingStar acrylic powders",
+              "Ideal for technicians seeking low-odor environment",
+              "Consistent working time across temperatures",
+              "Professional salon standard"
+            ],
+            "vietnamese": [
+              "Tương thích với tất cả bột acrylic BlazingStar",
+              "Lý tưởng cho thợ tìm kiếm môi trường ít mùi",
+              "Thời gian làm việc nhất quán qua nhiệt độ",
+              "Tiêu chuẩn salon chuyên nghiệp"
+            ]
+          },
+          "targetUser": {
+            "english": "Health-conscious salons, technicians with chemical sensitivities",
+            "vietnamese": "Salon quan tâm sức khỏe, thợ nhạy cảm hóa chất"
+          }
+        },
+        {
+          "id": "liquid-purple",
+          "variantNumber": 2,
+          "name": "Traditional Purple Liquid",
+          "vietnameseName": "Dung Dịch Tím Truyền Thống",
+          "characteristics": {
+            "color": {
+              "english": "Purple-tinted formula",
+              "vietnamese": "Công thức màu tím"
+            },
+            "workingTime": {
+              "english": "Moderate set speed",
+              "vietnamese": "Tốc độ cứng vừa phải"
+            },
+            "bestFor": {
+              "english": "Traditional acrylic techniques",
+              "vietnamese": "Kỹ thuật acrylic truyền thống"
+            },
+            "versatility": {
+              "english": "All-season performance",
+              "vietnamese": "Hiệu suất mọi mùa"
+            }
+          },
+          "applications": {
+            "english": [
+              "Classic monomer for experienced technicians",
+              "Reliable working characteristics",
+              "Balanced set time for precision work",
+              "Compatible with all powder speeds"
+            ],
+            "vietnamese": [
+              "Monomer cổ điển cho thợ có kinh nghiệm",
+              "Đặc tính làm việc đáng tin cậy",
+              "Thời gian cứng cân bằng cho công việc chính xác",
+              "Tương thích với tất cả tốc độ bột"
+            ]
+          },
+          "targetUser": {
+            "english": "Experienced technicians, traditional technique practitioners",
+            "vietnamese": "Thợ có kinh nghiệm, những người thực hành kỹ thuật truyền thống"
+          }
+        },
+        {
+          "id": "liquid-coffee",
+          "variantNumber": 3,
+          "name": "Coffee Liquid",
+          "vietnameseName": "Dung Dịch Cà Phê",
+          "characteristics": {
+            "odorMasking": {
+              "english": "Coffee scent to reduce chemical smell",
+              "vietnamese": "Mùi cà phê để giảm mùi hóa chất"
+            },
+            "workingTime": {
+              "english": "Standard professional timing",
+              "vietnamese": "Thời gian chuyên nghiệp tiêu chuẩn"
+            },
+            "bestFor": {
+              "english": "Salons seeking pleasant environment",
+              "vietnamese": "Salon tìm kiếm môi trường dễ chịu"
+            },
+            "uniqueFeature": {
+              "english": "Aromatherapy benefit",
+              "vietnamese": "Lợi ích hương liệu"
+            }
+          },
+          "applications": {
+            "english": [
+              "Masks strong monomer odor naturally",
+              "Creates more pleasant salon atmosphere",
+              "Same professional performance as traditional",
+              "Client-friendly experience"
+            ],
+            "vietnamese": [
+              "Che mùi monomer mạnh tự nhiên",
+              "Tạo không khí salon dễ chịu hơn",
+              "Hiệu suất chuyên nghiệp giống truyền thống",
+              "Trải nghiệm thân thiện với khách hàng"
+            ]
+          },
+          "targetUser": {
+            "english": "Salons prioritizing client experience, aromatherapy-focused studios",
+            "vietnamese": "Salon ưu tiên trải nghiệm khách hàng, studio tập trung vào liệu pháp thơm"
+          }
+        },
+        {
+          "id": "liquid-clear",
+          "variantNumber": 4,
+          "name": "Traditional Clear Liquid",
+          "vietnameseName": "Dung Dịch Trong Suốt Truyền Thống",
+          "characteristics": {
+            "formula": {
+              "english": "Clear, colorless liquid",
+              "vietnamese": "Dung dịch trong suốt, không màu"
+            },
+            "workingTime": {
+              "english": "Traditional professional timing",
+              "vietnamese": "Thời gian chuyên nghiệp truyền thống"
+            },
+            "bestFor": {
+              "english": "Technicians who prefer visual clarity",
+              "vietnamese": "Thợ thích độ trong rõ ràng"
+            },
+            "versatility": {
+              "english": "Works with all powder types",
+              "vietnamese": "Làm việc với tất cả loại bột"
+            }
+          },
+          "applications": {
+            "english": [
+              "Classic clear formula for precision work",
+              "Easy to see bead consistency",
+              "Professional-grade performance",
+              "Reliable for all acrylic techniques"
+            ],
+            "vietnamese": [
+              "Công thức trong cổ điển cho công việc chính xác",
+              "Dễ thấy độ đặc của hạt",
+              "Hiệu suất cấp chuyên nghiệp",
+              "Đáng tin cậy cho tất cả kỹ thuật acrylic"
+            ]
+          },
+          "targetUser": {
+            "english": "Precision-focused technicians, visual learners, traditional practitioners",
+            "vietnamese": "Thợ tập trung vào độ chính xác, những người học bằng hình ảnh, những người thực hành truyền thống"
+          }
+        }
+      ],
+      "selectionGuide": [
+        {
+          "scenario": {
+            "english": "For Sensitive Environments",
+            "vietnamese": "Cho Môi Trường Nhạy Cảm"
+          },
+          "recommendation": {
+            "english": "EMA Liquid (low odor, safer formula)",
+            "vietnamese": "Dung Dịch EMA (ít mùi, công thức an toàn hơn)"
+          },
+          "reasoning": {
+            "english": "Best for technicians and salons concerned with health and chemical exposure",
+            "vietnamese": "Tốt nhất cho thợ và salon lo lắng về sức khỏe và tiếp xúc hóa chất"
+          }
+        },
+        {
+          "scenario": {
+            "english": "For Pleasant Salon Atmosphere",
+            "vietnamese": "Cho Không Khí Salon Dễ Chịu"
+          },
+          "recommendation": {
+            "english": "Coffee Liquid (coffee scent masking)",
+            "vietnamese": "Dung Dịch Cà Phê (mùi cà phê che)"
+          },
+          "reasoning": {
+            "english": "Masks chemical odors while providing aromatherapy benefits for clients",
+            "vietnamese": "Che mùi hóa chất trong khi cung cấp lợi ích hương liệu cho khách hàng"
+          }
+        },
+        {
+          "scenario": {
+            "english": "For Traditional Techniques",
+            "vietnamese": "Cho Kỹ Thuật Truyền Thống"
+          },
+          "recommendation": {
+            "english": "Traditional Purple or Clear (classic formulas)",
+            "vietnamese": "Tím hoặc Trong Truyền Thống (công thức cổ điển)"
+          },
+          "reasoning": {
+            "english": "Reliable, well-known formulas with balanced working characteristics",
+            "vietnamese": "Công thức đáng tin cậy, nổi tiếng với đặc tính làm việc cân bằng"
+          }
+        },
+        {
+          "scenario": {
+            "english": "For Visual Precision",
+            "vietnamese": "Cho Độ Chính Xác Trực Quan"
+          },
+          "recommendation": {
+            "english": "Traditional Clear (see bead consistency clearly)",
+            "vietnamese": "Trong Truyền Thống (thấy độ đặc hạt rõ ràng)"
+          },
+          "reasoning": {
+            "english": "Colorless formula allows technicians to see bead formation and consistency clearly",
+            "vietnamese": "Công thức không màu cho phép thợ thấy hình thành và độ đặc hạt rõ ràng"
+          }
+        }
+      ],
+      "features": [
+        {
+          "feature": {
+            "english": "Versatility",
+            "vietnamese": "Tính Đa Năng"
+          },
+          "description": {
+            "english": "Works with all BlazingStar acrylic powders",
+            "vietnamese": "Làm việc với tất cả bột acrylic BlazingStar"
+          }
+        },
+        {
+          "feature": {
+            "english": "Professional Quality",
+            "vietnamese": "Chất Lượng Chuyên Nghiệp"
+          },
+          "description": {
+            "english": "Salon-grade formulas",
+            "vietnamese": "Công thức cấp salon"
+          }
+        },
+        {
+          "feature": {
+            "english": "Safety",
+            "vietnamese": "An Toàn"
+          },
+          "description": {
+            "english": "EMA-based options for health-conscious salons",
+            "vietnamese": "Tùy chọn dựa trên EMA cho salon quan tâm sức khỏe"
+          }
+        },
+        {
+          "feature": {
+            "english": "Consistency",
+            "vietnamese": "Tính Nhất Quán"
+          },
+          "description": {
+            "english": "Reliable working characteristics",
+            "vietnamese": "Đặc tính làm việc đáng tin cậy"
+          }
+        },
+        {
+          "feature": {
+            "english": "Options",
+            "vietnamese": "Lựa Chọn"
+          },
+          "description": {
+            "english": "Multiple formulas for different preferences",
+            "vietnamese": "Nhiều công thức cho các sở thích khác nhau"
+          }
+        }
+      ]
+    },
+    "guidance": {
+      "temperatureOptimization": {
+        "overview": {
+          "english": "All liquids work with BlazingStar's 3-speed powder system for temperature-dependent control",
+          "vietnamese": "Tất cả dung dịch hoạt động với hệ thống bột 3 tốc độ của BlazingStar để kiểm soát phụ thuộc vào nhiệt độ"
+        },
+        "conditions": [
+          {
+            "season": {
+              "english": "Hot Weather (Summer)",
+              "vietnamese": "Thời Tiết Nóng (Mùa Hè)"
+            },
+            "recommendation": {
+              "english": "Use Slow Set powder",
+              "vietnamese": "Dùng bột Khô Chậm"
+            },
+            "reason": {
+              "english": "Slows curing time to prevent premature set in heat",
+              "vietnamese": "Làm chậm thời gian cứng để ngăn cứng sớm trong nhiệt"
+            }
+          },
+          {
+            "season": {
+              "english": "Moderate Weather (Spring/Fall)",
+              "vietnamese": "Thời Tiết Vừa (Xuân/Thu)"
+            },
+            "recommendation": {
+              "english": "Use Medium Set powder",
+              "vietnamese": "Dùng bột Khô Vừa"
+            },
+            "reason": {
+              "english": "Balanced working time for consistent results",
+              "vietnamese": "Thời gian làm việc cân bằng cho kết quả nhất quán"
+            }
+          },
+          {
+            "season": {
+              "english": "Cold Weather (Winter)",
+              "vietnamese": "Thời Tiết Lạnh (Mùa Đông)"
+            },
+            "recommendation": {
+              "english": "Use Fast Set powder",
+              "vietnamese": "Dùng bột Khô Nhanh"
+            },
+            "reason": {
+              "english": "Speeds up curing in cold conditions",
+              "vietnamese": "Tăng tốc cứng trong điều kiện lạnh"
+            }
+          }
+        ],
+        "benefit": {
+          "english": "This system allows you to maintain consistent working time regardless of temperature",
+          "vietnamese": "Hệ thống này cho phép bạn duy trì thời gian làm việc nhất quán bất kể nhiệt độ"
+        }
+      },
+      "applicationTips": [
+        {
+          "tip": {
+            "english": "Proper Ratio",
+            "vietnamese": "Tỷ Lệ Đúng"
+          },
+          "description": {
+            "english": "Mix correct powder-to-liquid ratio for optimal consistency",
+            "vietnamese": "Trộn tỷ lệ bột-dung dịch đúng để độ đặc tối ưu"
+          }
+        },
+        {
+          "tip": {
+            "english": "Room Temperature Storage",
+            "vietnamese": "Bảo Quản Ở Nhiệt Độ Phòng"
+          },
+          "description": {
+            "english": "Store at room temperature for best performance",
+            "vietnamese": "Bảo quản ở nhiệt độ phòng để hiệu suất tốt nhất"
+          }
+        },
+        {
+          "tip": {
+            "english": "Work Quickly",
+            "vietnamese": "Làm Nhanh"
+          },
+          "description": {
+            "english": "Once bead is formed, work efficiently",
+            "vietnamese": "Khi hạt được tạo thành, làm việc hiệu quả"
+          }
+        },
+        {
+          "tip": {
+            "english": "Clean Tools Immediately",
+            "vietnamese": "Làm Sạch Dụng Cụ Ngay"
+          },
+          "description": {
+            "english": "Clean brushes immediately after use to prevent monomer hardening",
+            "vietnamese": "Làm sạch cọ ngay sau khi sử dụng để ngăn monomer cứng"
+          }
+        },
+        {
+          "tip": {
+            "english": "Proper Ventilation",
+            "vietnamese": "Thông Gió Thích Hợp"
+          },
+          "description": {
+            "english": "Ensure proper ventilation in salon",
+            "vietnamese": "Đảm bảo thông gió thích hợp trong salon"
+          }
+        }
+      ],
+      "safetyPrecautions": {
+        "english": [
+          "Use in well-ventilated area",
+          "Avoid skin contact",
+          "Keep away from heat sources",
+          "Professional use only"
+        ],
+        "vietnamese": [
+          "Sử dụng trong khu vực thông gió tốt",
+          "Tránh tiếp xúc da",
+          "Giữ xa nguồn nhiệt",
+          "Chỉ sử dụng chuyên nghiệp"
+        ]
+      },
+      "storage": {
+        "english": [
+          "Store in cool, dry place",
+          "Keep container tightly closed",
+          "Away from direct sunlight",
+          "Follow local disposal regulations"
+        ],
+        "vietnamese": [
+          "Bảo quản ở nơi mát, khô",
+          "Giữ nắp đậy chặt",
+          "Tránh ánh sáng mặt trời trực tiếp",
+          "Tuân theo quy định xử lý địa phương"
+        ]
+      }
+    },
+    "completeSystem": {
+      "workflowSteps": [
+        {
+          "step": 1,
+          "description": {
+            "english": "Choose your Monomer Liquid (EMA, Purple, Coffee, or Clear)",
+            "vietnamese": "Chọn Dung Dịch Monomer của bạn (EMA, Tím, Cà Phê, hoặc Trong)"
+          }
+        },
+        {
+          "step": 2,
+          "description": {
+            "english": "Select appropriate Acrylic Powder speed (Slow, Medium, or Fast Set)",
+            "vietnamese": "Chọn tốc độ Bột Acrylic thích hợp (Khô Chậm, Vừa, hoặc Nhanh)"
+          }
+        },
+        {
+          "step": 3,
+          "description": {
+            "english": "Use proper BlazingStar Brushes (Standard or Premium)",
+            "vietnamese": "Sử dụng Cọ BlazingStar đúng cách (Thường hoặc Premium)"
+          }
+        },
+        {
+          "step": 4,
+          "description": {
+            "english": "Apply with professional technique for optimal results",
+            "vietnamese": "Áp dụng với kỹ thuật chuyên nghiệp để kết quả tối ưu"
+          }
+        }
+      ]
+    },
+    "relationships": {
+      "works_with": [
+        {
+          "productType": "Acrylic Powder",
+          "name": "BlazingStar Maxx Perform",
+          "description": "Available in Slow/Medium/Fast Set speeds in Clear and Natural Pink"
+        },
+        {
+          "productType": "Brushes",
+          "name": "BlazingStar Sculpting Brushes",
+          "description": "Standard (patting technique) and Premium (smoothing technique)"
+        },
+        {
+          "productType": "Nail Tips",
+          "name": "BlazingStar Nail Tips",
+          "description": "Available in Straight, Coffin, Stiletto shapes"
+        },
+        {
+          "productType": "Tools",
+          "name": "BlazingStar Drill Bits, Files, Buffers",
+          "description": "For shaping, refining, and finishing acrylic applications"
+        }
+      ]
+    },
+    "searchMetadata": {
+      "tags": [
+        "monomer-liquid",
+        "acrylic-liquid",
+        "acrylic-monomer",
+        "ema-liquid",
+        "professional-grade",
+        "temperature-optimization",
+        "low-odor",
+        "salon-grade"
+      ],
+      "keywords": [
+        "monomer liquid",
+        "acrylic monomer",
+        "EMA liquid",
+        "acrylic liquid",
+        "professional acrylic",
+        "low-odor monomer",
+        "acrylic system",
+        "nail sculpting liquid"
+      ],
+      "use_case": [
+        "acrylic-nail-sculpting",
+        "acrylic-application",
+        "precision-work",
+        "salon-use",
+        "temperature-dependent-application",
+        "sensitive-environments"
+      ],
+      "season": [
+        "all-seasons",
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "skill_level": ["intermediate", "advanced"]
+    }
+  }
+}

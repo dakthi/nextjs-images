@@ -1,0 +1,292 @@
+{
+  "product": {
+    "metadata": {
+      "id": "blazingstar-gloves",
+      "brand": "BlazingStar",
+      "brandCategory": "Professional Acrylic & Gel Products",
+      "productCategory": "Protective Gloves",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english", "vietnamese"],
+      "source": "blazingstar/nail-essentials/gloves/README.md"
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Protective Gloves",
+        "vietnamese": "Găng Tay Bảo Vệ BlazingStar"
+      },
+      "productType": "Professional Protective Gloves",
+      "tagline": {
+        "english": "Latex & Nitrile Options for Maximum Protection and Comfort",
+        "vietnamese": "Lựa Chọn Latex & Nitrile Cho Bảo Vệ Và Thoải Mái Tối Đa"
+      },
+      "overview": {
+        "english": "Professional-grade protective gloves available in two material options: Latex Protect+ (natural latex, white) and Nitrile (synthetic, black). Both are powder-free, offer excellent chemical resistance, and provide the flexibility and comfort needed for extended salon work. UKCA certified for professional safety standards.",
+        "vietnamese": "Găng tay bảo vệ cấp chuyên nghiệp có sẵn trong hai lựa chọn vật liệu: Latex Protect+ (latex tự nhiên, trắng) và Nitrile (tổng hợp, đen). Cả hai không bột, cung cấp khả năng chống hóa chất xuất sắc, và cung cấp tính linh hoạt và thoải mái cần thiết cho công việc salon kéo dài. Được chứng nhận UKCA theo tiêu chuẩn an toàn chuyên nghiệp."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Safety-conscious",
+        "Professional-grade",
+        "Versatile",
+        "Comfort-focused",
+        "Hypoallergenic options"
+      ],
+      "targetAudience": {
+        "primary": "Professional nail technicians and salon workers",
+        "secondary": "Spa professionals, aestheticians, hygiene workers",
+        "experience_level": "All levels"
+      },
+      "uniqueSelling": [
+        "Two material options to accommodate all needs and allergies",
+        "Both materials are powder-free for reduced irritation",
+        "Strong chemical resistance to acetone, monomer, and cleaning solutions",
+        "UKCA PPE Category I certification for professional standards",
+        "100-piece boxes for salon convenience",
+        "Comfortable fit for extended wear",
+        "Available in S, M, L sizes"
+      ]
+    },
+    "productDetails": {
+      "variants": [
+        {
+          "name": "Latex Protect+",
+          "material": "Natural Latex",
+          "color": "Ivory White",
+          "description": {
+            "english": "Premium natural latex gloves with excellent elasticity and durability. Ideal for salons with no latex-allergic clients. Provides comfortable fit even during extended hours of work.",
+            "vietnamese": "Găng tay latex tự nhiên cao cấp với độ co giãn và độ bền xuất sắc. Lý tưởng cho salon không có khách hàng dị ứng latex. Cung cấp vừa vặn thoải mái ngay cả trong các giờ làm việc kéo dài."
+          },
+          "origin": "Malaysia",
+          "specifications": {
+            "size_range": "S / M / L",
+            "per_box": "100 pieces",
+            "per_case": "10 boxes (1000 pieces total)",
+            "powder_free": true,
+            "thickness": "Professional grade"
+          },
+          "certifications": ["UKCA", "PPE Category I"],
+          "color_characteristics": "Ivory white, natural latex appearance"
+        },
+        {
+          "name": "Nitrile",
+          "material": "Synthetic Nitrile",
+          "color": "Black",
+          "description": {
+            "english": "High-performance synthetic nitrile gloves with superior durability and chemical resistance. Ideal for salons with latex-allergic clients or team members. Professional appearance with reduced visible staining.",
+            "vietnamese": "Găng tay nitrile tổng hợp hiệu suất cao với độ bền vượt trội và khả năng chống hóa chất. Lý tưởng cho salon có khách hàng hoặc nhân viên dị ứng latex. Giao diện chuyên nghiệp với giảm bị dính bẩn nhìn thấy."
+          },
+          "origin": "China",
+          "specifications": {
+            "size_range": "S / M / L",
+            "per_box": "100 pieces",
+            "per_case": "10 boxes (1000 pieces total)",
+            "powder_free": true,
+            "thickness": "Professional grade"
+          },
+          "certifications": ["UKCA", "PPE Category I"],
+          "color_characteristics": "Professional black, hides stains and soiling"
+        }
+      ],
+      "specifications": {
+        "packaging": "100 pieces per box; 10 boxes per case (1000 pieces)",
+        "sizes": ["S (Small)", "M (Medium)", "L (Large)"],
+        "powder_free": true,
+        "chemical_resistance": "Excellent against acetone, monomer, brush cleaner, and salon chemicals",
+        "durability": "High—resistant to tearing and puncture",
+        "fit": "Flexible, form-fitting, precise handling",
+        "comfort": "Comfortable for extended wear and frequent changes"
+      },
+      "features": [
+        "Powder-free formula reduces irritation and allergy risk",
+        "Chemical resistant to acetone, monomer, and cleaning solutions",
+        "Excellent flexibility for precise nail work",
+        "Durable construction prevents tearing and puncture",
+        "UKCA certified Professional Personal Protective Equipment",
+        "Available in multiple sizes for proper fit",
+        "Quick and easy to put on and remove",
+        "Two material options accommodate all allergies and preferences"
+      ],
+      "benefits": [
+        "Full hand protection during chemical exposure",
+        "Reduced risk of allergic reactions with two material options",
+        "Latex-free option (Nitrile) available for sensitive teams",
+        "Professional appearance suitable for client-facing work",
+        "Comfort enables longer wear without hand fatigue",
+        "Chemical resistance prevents damage to skin from harsh products",
+        "Cost-effective bulk packaging for high-volume salons",
+        "Easy size selection ensures proper fit for all technicians"
+      ],
+      "applications": [
+        "Acrylic nail application and removal",
+        "Gel nail application and removal",
+        "Chemical cleaning and sanitization",
+        "General salon hygiene and protection",
+        "Spa and pedicure services",
+        "Aesthetic and beauty treatments",
+        "Chemical handling in professional salons"
+      ]
+    },
+    "technical": {
+      "material": {
+        "latex_protect": "Natural rubber latex (Hevea latex)",
+        "nitrile": "Synthetic nitrile rubber"
+      },
+      "origin": {
+        "latex_protect": "Malaysia",
+        "nitrile": "China"
+      },
+      "chemical_composition": {
+        "latex_protect": "Natural latex with processing agents",
+        "nitrile": "Synthetic nitrile polymer"
+      },
+      "safety": [
+        "UKCA certification (UK Conformity Assessed)",
+        "PPE Category I (Low-risk personal protective equipment)",
+        "Suitable for contact with acetone, monomer, and salon chemicals",
+        "Not suitable for people with latex allergies (use Nitrile variant)",
+        "Use alongside other PPE for comprehensive protection"
+      ],
+      "certifications": [
+        "UKCA (UK Conformity Assessed)",
+        "PPE Category I",
+        "Professional healthcare and salon standard"
+      ],
+      "care_and_storage": {
+        "storage": "Keep in cool, dry location away from direct sunlight",
+        "temperature": "Store between 15-25°C",
+        "humidity": "Protect from excessive moisture",
+        "shelf_life": "Maintain quality in original sealed packaging"
+      }
+    },
+    "commercial": {
+      "sizes": [
+        {
+          "size": "S (Small)",
+          "per_box": 100,
+          "per_case": 1000,
+          "description": "For smaller hands; comfortable fit without excess material"
+        },
+        {
+          "size": "M (Medium)",
+          "per_box": 100,
+          "per_case": 1000,
+          "description": "Standard sizing; fits most technicians"
+        },
+        {
+          "size": "L (Large)",
+          "per_box": 100,
+          "per_case": 1000,
+          "description": "For larger hands; maintains flexibility and comfort"
+        }
+      ],
+      "packaging": {
+        "unit": "100 gloves per box",
+        "case": "10 boxes (1000 gloves per case)",
+        "pricing_structure": {
+          "single_box": "per box",
+          "case": "per case (10 boxes, all same size or mixed)"
+        }
+      },
+      "availability": "Available through VLDirect and authorized BlazingStar distributors",
+      "distribution": "UK-based distribution, internationally available"
+    },
+    "relationships": {
+      "works_with": [
+        "All BlazingStar acrylic products",
+        "All professional nail products",
+        "Acetone and cleaning solutions",
+        "Brush cleaners",
+        "Sanitizing solutions"
+      ],
+      "complementary_products": [
+        "Acrylic powders and liquids",
+        "Gel polishes",
+        "Brush cleaners",
+        "Acetone",
+        "Hand sanitizer",
+        "Moisturizing hand lotion"
+      ]
+    },
+    "guidance": {
+      "best_for": [
+        "Professional nail technicians requiring daily hand protection",
+        "Salons without latex-allergic clients (Latex Protect+ option)",
+        "Salons with latex-allergic clients or staff (Nitrile option)",
+        "High-volume salons requiring bulk glove quantities",
+        "Technicians performing acrylic and gel services",
+        "Professionals handling chemical products"
+      ],
+      "technique": [
+        {
+          "name": "Selecting Material",
+          "english": "Choose Latex Protect+ for high elasticity and comfort if no allergy concerns. Choose Nitrile if any technician or regular client has latex allergy. Nitrile offers excellent protection without allergy risk.",
+          "vietnamese": "Chọn Latex Protect+ để có độ co giãn cao và thoải mái nếu không có mối lo ngại dị ứng. Chọn Nitrile nếu bất kỳ thợ hoặc khách hàng thường xuyên có dị ứng latex. Nitrile cung cấp bảo vệ xuất sắc mà không có nguy cơ dị ứng."
+        },
+        {
+          "name": "Proper Fit",
+          "english": "Select appropriate size (S, M, L) for comfortable fit. Too-small gloves restrict movement; too-large gloves reduce tactile sensitivity. Proper fit is essential for precision work.",
+          "vietnamese": "Chọn kích thước thích hợp (S, M, L) để vừa vặn thoải mái. Găng tay quá nhỏ hạn chế chuyển động; găng tay quá lớn giảm độ nhạy cảm xúc. Vừa vặn đúng là cần thiết cho công việc chính xác."
+        },
+        {
+          "name": "Frequency of Change",
+          "english": "Change gloves between clients to prevent cross-contamination. Some technicians prefer to change gloves every few clients for maximum hygiene.",
+          "vietnamese": "Thay đổi găng tay giữa các khách hàng để ngăn ngừa nhiễm chéo. Một số thợ thích thay đổi găng tay cứ sau vài khách để vệ sinh tối đa."
+        }
+      ],
+      "care_instructions": {
+        "before_use": "Remove gloves from box and let adjust to room temperature",
+        "during_use": "Change gloves when visibly soiled or per salon hygiene protocols",
+        "removal": "Pinch outer side and peel off; discard in appropriate waste",
+        "hand_care": "Apply moisturizing lotion after frequent glove use"
+      },
+      "tips": [
+        "Stock both Latex and Nitrile—helps accommodate all clients and staff allergies",
+        "Bulk case purchase is more cost-effective for high-volume salons",
+        "Keep multiple size options on hand for team member comfort",
+        "Change gloves between clients to maintain hygiene standards",
+        "Nitrile black color hides soiling better than white latex",
+        "Latex Protect+ offers superior comfort for all-day wear if no allergies present",
+        "Store gloves away from heat and direct sunlight for longer shelf life"
+      ]
+    },
+    "searchMetadata": {
+      "tags": [
+        "protective-gloves",
+        "latex-gloves",
+        "nitrile-gloves",
+        "professional-ppe",
+        "salon-safety",
+        "chemical-resistant",
+        "powder-free",
+        "UKCA-certified",
+        "nail-salon",
+        "hand-protection"
+      ],
+      "keywords": [
+        "protective gloves",
+        "latex gloves",
+        "nitrile gloves",
+        "powder-free gloves",
+        "salon gloves",
+        "professional gloves",
+        "chemical resistant",
+        "UKCA certified",
+        "PPE",
+        "hand protection"
+      ],
+      "season": ["Year-Round"],
+      "skill_level": ["All Levels"],
+      "use_case": [
+        "Acrylic nail services",
+        "Gel nail services",
+        "Chemical handling",
+        "Salon hygiene",
+        "Spa services",
+        "Professional protection"
+      ],
+      "material_type": ["Latex", "Nitrile", "Powder-free"]
+    }
+  }
+}

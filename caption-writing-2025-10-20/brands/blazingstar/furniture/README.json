@@ -1,0 +1,209 @@
+{
+  "product": {
+    "metadata": {
+      "id": "furniture-system",
+      "brand": "BlazingStar",
+      "brandCategory": "Furniture",
+      "productType": "Salon Furniture System",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Salon Furniture",
+        "vietnamese": "BlazingStar Nội Thất Salon"
+      },
+      "tagline": {
+        "english": "Professional salon tables for nail and beauty services",
+        "vietnamese": "Bàn salon chuyên nghiệp cho dịch vụ móng và làm đẹp"
+      },
+      "overview": {
+        "english": "BlazingStar Salon Furniture offers a range of professional-grade nail and beauty tables designed for salon environments. Each table features chemical-resistant surfaces, elegant finishes, and practical drawer systems for workflow efficiency.",
+        "vietnamese": "BlazingStar Salon Furniture cung cấp một loạt bàn salon chuyên nghiệp được thiết kế cho môi trường salon. Mỗi bàn có bề mặt chống hóa chất, kết thúc thanh lịch, và hệ thống ngăn kéo thực tế cho hiệu quả quy trình làm việc."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Professional",
+        "Durable",
+        "Elegant",
+        "Functional",
+        "Chemical-resistant"
+      ],
+      "targetAudience": {
+        "professionals": "Salon owners and salon managers",
+        "salonTypes": "Professional nail salons, beauty salons"
+      },
+      "uniqueSelling": [
+        "Chemical-resistant surfaces",
+        "Soft-close drawer systems",
+        "Natural wood with premium finishes",
+        "Scalable capacity options",
+        "Salon-optimized design"
+      ]
+    },
+    "productDetails": {
+      "variants": [
+        {
+          "id": "single-table",
+          "name": "Single Table",
+          "vietnameseName": "Bàn Đơn",
+          "description": {
+            "english": "Compact, elegant table ideal for individual use",
+            "vietnamese": "Bàn nhỏ gọn, thanh lịch lý tưởng cho sử dụng cá nhân"
+          },
+          "capacity": "1 seat",
+          "dimensions": {
+            "width": "106 cm",
+            "depth": "56 cm",
+            "height": "79.5 cm"
+          },
+          "surface": {
+            "material": {
+              "english": "Natural wood",
+              "vietnamese": "Gỗ tự nhiên"
+            },
+            "resistance": {
+              "english": "Resistant to scratches and salon chemicals (acetone, alcohol, oils)",
+              "vietnamese": "Chống xước và hóa chất salon (acetone, rượu, dầu)"
+            }
+          },
+          "finish": {
+            "english": "Ultra-glossy lacquer",
+            "vietnamese": "Sơn bóng siêu"
+          },
+          "features": [
+            "Multiple drawers for storage",
+            "Soft-close rails for silent operation",
+            "Neutral tone color",
+            "Compact workspace"
+          ],
+          "color": {
+            "english": "Neutral tone",
+            "vietnamese": "Tông màu trung tính"
+          }
+        },
+        {
+          "id": "double-table",
+          "name": "Double Table",
+          "vietnameseName": "Bàn Đôi",
+          "description": {
+            "english": "Two-seat setup providing shared convenience with individual workspace",
+            "vietnamese": "Bàn hai chỗ cung cấp sự tiện lợi chung với không gian làm việc riêng"
+          },
+          "capacity": "2 seats",
+          "dimensions": {
+            "width": "183.5 cm",
+            "depth": "60 cm",
+            "height": "80 cm"
+          },
+          "surface": {
+            "material": {
+              "english": "Chemical-resistant surface",
+              "vietnamese": "Bề mặt chống hóa chất"
+            },
+            "resistance": {
+              "english": "Scratch-proof, resistant to salon products",
+              "vietnamese": "Chống xước, chống sản phẩm salon"
+            }
+          },
+          "finish": {
+            "english": "Glossy, easy-to-clean",
+            "vietnamese": "Bóng, dễ làm sạch"
+          },
+          "features": [
+            "Central and side drawers",
+            "Soft-close drawer system",
+            "Dual seating layout",
+            "Enhanced storage capacity",
+            "Professional workflow support"
+          ],
+          "color": {
+            "english": "Neutral tone",
+            "vietnamese": "Tông màu trung tính"
+          }
+        },
+        {
+          "id": "triple-table",
+          "name": "Triple Table",
+          "vietnameseName": "Bàn Ba Chỗ",
+          "description": {
+            "english": "High-capacity table designed for flow and aesthetics",
+            "vietnamese": "Bàn có công suất cao được thiết kế cho luồng và thẩm mỹ"
+          },
+          "capacity": "3 seats",
+          "dimensions": {
+            "width": "252.7 cm",
+            "depth": "50 cm",
+            "height": "79 cm"
+          },
+          "surface": {
+            "material": {
+              "english": "Durable wood",
+              "vietnamese": "Gỗ bền"
+            },
+            "resistance": {
+              "english": "Resistant to acetone and salon products",
+              "vietnamese": "Chống acetone và sản phẩm salon"
+            }
+          },
+          "finish": {
+            "english": "Premium gloss",
+            "vietnamese": "Gloss cao cấp"
+          },
+          "features": [
+            "Extended drawer system",
+            "Three-seat capacity",
+            "High-volume salon support",
+            "Premium finishing",
+            "Optimized for busy salons"
+          ],
+          "color": {
+            "english": "Neutral tone",
+            "vietnamese": "Tông màu trung tính"
+          }
+        }
+      ]
+    },
+    "technical": {
+      "material": {
+        "english": "Natural wood with premium finishes",
+        "vietnamese": "Gỗ tự nhiên với kết thúc cao cấp"
+      },
+      "chemicalResistance": {
+        "english": "Resistant to acetone, alcohol, oils, and common salon chemicals",
+        "vietnamese": "Chống acetone, rượu, dầu, và các hóa chất salon phổ biến"
+      },
+      "operability": {
+        "english": "Soft-close drawer systems for silent, smooth operation",
+        "vietnamese": "Hệ thống ngăn kéo soft-close để hoạt động yên tĩnh, mượt mà"
+      }
+    },
+    "searchMetadata": {
+      "tags": [
+        "salon-furniture",
+        "nail-table",
+        "beauty-furniture",
+        "professional-furniture",
+        "chemical-resistant"
+      ],
+      "keywords": [
+        "salon table",
+        "nail table",
+        "salon furniture",
+        "professional salon table",
+        "nail station",
+        "beauty table"
+      ],
+      "use_case": [
+        "nail-salon-setup",
+        "beauty-salon-equipment",
+        "salon-workspace",
+        "client-seating"
+      ],
+      "capacity": ["single-seat", "double-seat", "triple-seat"],
+      "skill_level": ["beginner", "intermediate", "advanced"]
+    }
+  }
+}

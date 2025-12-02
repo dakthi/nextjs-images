@@ -1,0 +1,245 @@
+{
+  "product": {
+    "metadata": {
+      "id": "drill-bits-system",
+      "brand": "BlazingStar",
+      "brandCategory": "Sculpting System",
+      "productType": "Drill Bit System",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english", "vietnamese"]
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Drill Bits",
+        "vietnamese": "BlazingStar Mũi Khoan"
+      },
+      "tagline": {
+        "english": "Professional carbide drill bits for nail prep, removal, and finishing",
+        "vietnamese": "Mũi khoan carbide chuyên nghiệp cho chuẩn bị, loại bỏ, và hoàn thiệp"
+      },
+      "overview": {
+        "english": "BlazingStar Drill Bits are professional-grade carbide tools designed for versatile nail work including cuticle prep, product removal, and detailed finishing. Each bit is engineered for comfort, safety, and efficiency in salon environments.",
+        "vietnamese": "BlazingStar Drill Bits là công cụ carbide chuyên nghiệp được thiết kế cho công việc móng đa năng bao gồm chuẩn bị cuticle, loại bỏ sản phẩm, và hoàn thiệp chi tiết. Mỗi mũi được thiết kế cho sự thoải mái, an toàn, và hiệu quả trong môi trường salon."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Durable",
+        "Professional",
+        "Safe",
+        "Efficient",
+        "Versatile"
+      ],
+      "targetAudience": {
+        "professionals": "Nail technicians and e-file specialists",
+        "skillLevels": "Beginner to Advanced"
+      },
+      "summary": {
+        "english": "Durable carbide with precise removal and clean detailing, built for comfort, safety, and speed in salon use",
+        "vietnamese": "Carbide bền với khả năng loại bỏ chính xác và chi tiết sạch sẽ, được xây dựng cho sự thoải mái, an toàn, và tốc độ trong sử dụng salon"
+      }
+    },
+    "productDetails": {
+      "bitCategories": [
+        {
+          "category": "Cuticle Prep & Polish Cleanup",
+          "vietnameseName": "Chuẩn Bị Cuticle & Làm Sạch Sơn",
+          "bits": [
+            {
+              "name": "Diamond 5.5 / 4 / 2.5",
+              "description": {
+                "english": "Medium-sharp tips for detailed cuticle cleaning",
+                "vietnamese": "Mũi trung bình sắc cho làm sạch cuticle chi tiết"
+              },
+              "purpose": "Precision cuticle work",
+              "skillLevel": "All levels"
+            },
+            {
+              "name": "Diamond M / Disc M",
+              "description": {
+                "english": "Gentle disc bits for safe polish cleanup",
+                "vietnamese": "Mũi đĩa nhẹ nhàng cho làm sạch sơn an toàn"
+              },
+              "purpose": "Safe polish removal",
+              "skillLevel": "Beginner-friendly"
+            },
+            {
+              "name": "XF Pear / XF Coni",
+              "description": {
+                "english": "Multi-use bits for cuticle + cleanup work",
+                "vietnamese": "Mũi đa dụng cho công việc cuticle + làm sạch"
+              },
+              "purpose": "Versatile work",
+              "skillLevel": "Intermediate"
+            }
+          ]
+        },
+        {
+          "category": "Product Removal (Gel, Acrylic, Builder)",
+          "vietnameseName": "Loại Bỏ Sản Phẩm (Gel, Acrylic, Builder)",
+          "bits": [
+            {
+              "name": "x5",
+              "description": {
+                "english": "Extra coarse; bulk removal",
+                "vietnamese": "Cực thô; loại bỏ khối"
+              },
+              "grit": "Extra coarse",
+              "purpose": "Heavy removal work"
+            },
+            {
+              "name": "x4 / x3",
+              "description": {
+                "english": "Medium-coarse; builds/fills",
+                "vietnamese": "Trung bình-thô; xây dựng/lấp đầy"
+              },
+              "grit": "Medium-coarse",
+              "purpose": "Intermediate removal"
+            },
+            {
+              "name": "x2 / x1",
+              "description": {
+                "english": "Light removal or smoothing near natural nail",
+                "vietnamese": "Loại bỏ nhẹ hoặc làm mịn gần móng tự nhiên"
+              },
+              "grit": "Fine",
+              "purpose": "Gentle work near natural nail"
+            }
+          ]
+        },
+        {
+          "category": "Finishing & Smoothing",
+          "vietnameseName": "Hoàn Thiệp & Làm Mịn",
+          "bits": [
+            {
+              "name": "Fine Smooth Bit",
+              "description": {
+                "english": "Blunt tip for soft smoothing without scratches",
+                "vietnamese": "Mũi tù cho làm mịn mềm mà không xước"
+              },
+              "purpose": "Safe smoothing",
+              "feature": "Prevents scratching"
+            },
+            {
+              "name": "Sharp Fine Bit",
+              "description": {
+                "english": "Precision in sidewalls (requires light hand)",
+                "vietnamese": "Độ chính xác ở tường bên (cần tay nhẹ)"
+              },
+              "purpose": "Precision detail work",
+              "skillLevel": "Advanced",
+              "caution": "Requires practiced technique"
+            },
+            {
+              "name": "Round Safety / Leaf Safety",
+              "description": {
+                "english": "Safe for sensitive areas and beginners",
+                "vietnamese": "An toàn cho các vùng nhạy cảm và người mới bắt đầu"
+              },
+              "purpose": "Safe finishing",
+              "skillLevel": "Beginner-friendly"
+            }
+          ]
+        },
+        {
+          "category": "Specialty Shapes",
+          "vietnameseName": "Hình Dạng Đặc Biệt",
+          "bits": [
+            {
+              "name": "Triangle",
+              "description": {
+                "english": "Angular, very sharp; advanced detailing (experienced techs)",
+                "vietnamese": "Hình tam giác, cực sắc; chi tiết nâng cao (thợ có kinh nghiệm)"
+              },
+              "sharpness": "Very sharp",
+              "purpose": "Detailed work",
+              "skillLevel": "Advanced",
+              "caution": "Requires extensive experience"
+            },
+            {
+              "name": "Diamond Pointed",
+              "description": {
+                "english": "Tapered; precise with improved safety vs triangle",
+                "vietnamese": "Có đầu nhon; chính xác với an toàn cải tiến so với tam giác"
+              },
+              "sharpness": "Sharp",
+              "purpose": "Precise detailing",
+              "skillLevel": "Intermediate-Advanced",
+              "advantage": "Safer than triangle"
+            },
+            {
+              "name": "Pedicure Bit",
+              "description": {
+                "english": "Removes thick heel skin and calluses",
+                "vietnamese": "Loại bỏ da gót dày và chai"
+              },
+              "purpose": "Pedicure prep",
+              "specialization": "Foot care"
+            }
+          ]
+        },
+        {
+          "category": "5-in-1 Multi-Use Bits",
+          "vietnameseName": "Mũi Đa Dụng 5-in-1",
+          "bits": [
+            {
+              "name": "Graduated Multi-Use Bit",
+              "description": {
+                "english": "Graduated grit from tip to base for removal, cuticle cleaning, and smoothing in one bit",
+                "vietnamese": "Độ mịn theo từng vùng từ mũi đến đáy cho loại bỏ, làm sạch cuticle, và làm mịn trong một mũi"
+              },
+              "purpose": "All-purpose work",
+              "feature": "Graduated grit system",
+              "benefit": "Versatile, space-saving"
+            }
+          ]
+        }
+      ]
+    },
+    "guidance": {
+      "skillRequirements": {
+        "beginner": [
+          "Diamond M / Disc M (safe cleanup)",
+          "Round Safety / Leaf Safety (safe finishing)"
+        ],
+        "intermediate": [
+          "XF Pear / XF Coni (multi-use)",
+          "Diamond Pointed (precise)",
+          "x2 / x1 (light removal)"
+        ],
+        "advanced": [
+          "Sharp Fine Bit (precision)",
+          "Triangle (expert detailing)",
+          "x3 / x4 / x5 (product removal)"
+        ]
+      }
+    },
+    "searchMetadata": {
+      "tags": [
+        "drill-bits",
+        "e-file-bits",
+        "carbide-bits",
+        "nail-tools",
+        "professional-tools"
+      ],
+      "keywords": [
+        "drill bits",
+        "e-file bits",
+        "carbide drill bits",
+        "nail drill bits",
+        "cuticle bits",
+        "removal bits",
+        "finishing bits"
+      ],
+      "use_case": [
+        "cuticle-prep",
+        "product-removal",
+        "nail-finishing",
+        "detail-work",
+        "pedicure-prep"
+      ],
+      "skill_level": ["beginner", "intermediate", "advanced"]
+    }
+  }
+}

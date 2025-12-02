@@ -1,0 +1,247 @@
+{
+  "product": {
+    "metadata": {
+      "id": "blazingstar-maxx-perform-liquid",
+      "brand": "BlazingStar",
+      "brandCategory": "Professional Acrylic & Gel Products",
+      "productCategory": "Acrylic Monomer Liquid",
+      "createdDate": "2025-11-18",
+      "lastUpdated": "2025-11-18",
+      "language": ["english", "vietnamese"],
+      "source": "blazingstar/sculpting-system/liquids/maxx-perform-liquid/README.md"
+    },
+    "core": {
+      "productName": {
+        "english": "BlazingStar Maxx Perform Liquid",
+        "vietnamese": "Dung Dịch Acrylic BlazingStar Maxx Perform"
+      },
+      "productType": "Acrylic Monomer Liquid",
+      "tagline": {
+        "english": "Low-Odor Professional Acrylic Liquid with Stable Control",
+        "vietnamese": "Dung Dịch Acrylic Nhẹ Mùi Chuyên Nghiệp với Kiểm Soát Ổn Định"
+      },
+      "overview": {
+        "english": "Professional acrylic liquid designed for comfort and performance with reduced odor. Maintains strong adhesion, stable set time, and high anti-yellowing for clear, bright powder color. Available in Winter and Oxygen formulas to suit different climate conditions and preferences.",
+        "vietnamese": "Dung dịch acrylic chuyên nghiệp được thiết kế cho sự thoải mái và hiệu suất với mùi giảm. Duy trì độ bám chặt mạnh, thời gian cứng ổn định, và chống vàng hiệu quả để màu bột sáng và trong suốt. Có sẵn trong các công thức Mùa Đông và Oxygen để phù hợp với các điều kiện khí hậu và sở thích khác nhau."
+      }
+    },
+    "positioning": {
+      "brandValues": [
+        "Durable",
+        "Professional",
+        "Performance-focused",
+        "Safety-conscious",
+        "Comfortable for technicians"
+      ],
+      "targetAudience": {
+        "primary": "Professional nail technicians in salons",
+        "secondary": "Nail artists in cold/humid climates",
+        "experience_level": "Intermediate to Advanced"
+      },
+      "uniqueSelling": [
+        "Low-odor formula for improved salon comfort",
+        "Stable drying control for precise brush lines and form control",
+        "High anti-yellowing properties keep nudes/ombre/whites clear and bright",
+        "Climate-specific formulas (Winter & Oxygen)",
+        "Mango fragrance option (Oxygen Formula)"
+      ]
+    },
+    "productDetails": {
+      "variants": [
+        {
+          "name": "Winter Formula",
+          "type": "Cold-Climate Optimized",
+          "description": {
+            "english": "Optimized for cold and humid environments with faster set without losing workability. Ideal for UK winter conditions.",
+            "vietnamese": "Tối ưu hóa cho môi trường lạnh và ẩm ướt với khô nhanh hơn mà không mất khả năng làm việc. Lý tưởng cho điều kiện mùa đông tại Anh."
+          },
+          "colors": ["Purple (Easier to gauge)", "Clear (Universal)"],
+          "performance": {
+            "setSpeed": "Fast",
+            "odor": "Reduced",
+            "workability": "Stable even in low temperatures"
+          }
+        },
+        {
+          "name": "Oxygen Formula",
+          "type": "Year-Round All-Season",
+          "description": {
+            "english": "Year-round balance for comfort and stability. Features mango low-odor fragrance with reduced stinging and eye irritation.",
+            "vietnamese": "Cân bằng quanh năm cho sự thoải mái và ổn định. Có hương xoài nhẹ mùi với giảm sting và kích ứng mắt."
+          },
+          "colors": ["Clear (Primary)"],
+          "fragrance": "Mango low-odor",
+          "performance": {
+            "setSpeed": "Balanced",
+            "odor": "Low (Mango fragrance)",
+            "workability": "Even set, crystal-clear finish"
+          }
+        }
+      ],
+      "specifications": {
+        "composition": "Professional acrylic monomer (EMA-based)",
+        "odor_level": "Low (compared to traditional monomer)",
+        "anti_yellowing": "High",
+        "adhesion": "Strong",
+        "set_stability": "Stable and predictable",
+        "workability": "Excellent in all formulas"
+      },
+      "features": [
+        "Low-odor composition reduces salon discomfort",
+        "Stable drying control for precise application",
+        "High anti-yellowing formula",
+        "Works with all BlazingStar acrylic powders",
+        "Available in multiple options: Purple (easier gauge), Clear (universal)",
+        "Reduced eye irritation and stinging (Oxygen Formula)"
+      ],
+      "benefits": [
+        "Improved comfort for nail technicians during long working hours",
+        "Stable set time allows for better control and precision",
+        "Keeps nude, ombre, and white colors bright and clear",
+        "Winter Formula essential for UK technicians during cold months",
+        "Oxygen Formula provides year-round consistency",
+        "Professional-grade performance at all temperatures"
+      ],
+      "applications": [
+        "Full acrylic nail extensions",
+        "Acrylic overlays",
+        "Acrylic nail art and designs",
+        "Ombre and gradient nail effects",
+        "French manicure base application",
+        "White/nude nail bases",
+        "Salon and professional nail services"
+      ]
+    },
+    "technical": {
+      "material": "Acrylic Monomer (Professional Grade)",
+      "origin": "UK-Made BlazingStar Professional Products",
+      "composition": {
+        "base": "EMA (Ethyl Methacrylate)",
+        "odor_reduction": "Proprietary low-odor technology",
+        "anti_yellowing": "High-performance UV inhibitors"
+      },
+      "safety": [
+        "Professional product for trained technicians",
+        "Use in well-ventilated salon environments",
+        "Avoid direct skin and eye contact",
+        "Keep away from heat sources and flame"
+      ],
+      "certifications": ["UK Professional Grade", "UKCA Approved"],
+      "storage": "Cool, well-ventilated area. Keep container tightly sealed to prevent evaporation."
+    },
+    "commercial": {
+      "pricing": [
+        {
+          "variant": "Winter Formula - Purple",
+          "unit": "Standard salon bottle",
+          "description": "Easier to gauge liquid ratio"
+        },
+        {
+          "variant": "Winter Formula - Clear",
+          "unit": "Standard salon bottle",
+          "description": "Universal use, natural appearance"
+        },
+        {
+          "variant": "Oxygen Formula",
+          "unit": "Standard salon bottle",
+          "description": "Year-round, mango fragrance"
+        }
+      ],
+      "availability": "Available through VLDirect and authorized BlazingStar distributors",
+      "distribution": "UK-based distribution, also available in selected international markets"
+    },
+    "relationships": {
+      "works_with": [
+        "BlazingStar Maxx Perform Acrylic Powder (all speeds)",
+        "BlazingStar Acrylic Brushes (all types)",
+        "BlazingStar Acrylic Tips",
+        "BlazingStar Drill Bits"
+      ],
+      "part_of_system": "BlazingStar Complete Acrylic System",
+      "complementary_products": [
+        "Acrylic powder (Slow, Medium, Fast Set)",
+        "Brush cleaner",
+        "Dappen dishes",
+        "Lint-free cloths"
+      ]
+    },
+    "guidance": {
+      "best_for": [
+        "Nail technicians working in cold/humid UK environments (Winter Formula)",
+        "Salons seeking year-round consistency (Oxygen Formula)",
+        "Technicians requiring low-odor solutions for comfort",
+        "Professionals needing stable drying control",
+        "Nail artists creating ombre and gradient effects"
+      ],
+      "technique": [
+        {
+          "name": "Acrylic Application",
+          "english": "Pick up appropriate powder-to-liquid ratio bead. Monomer ratio depends on technique and environmental conditions.",
+          "vietnamese": "Lấy hạt bột với tỷ lệ dung dịch thích hợp. Tỷ lệ monomer phụ thuộc vào kỹ thuật và điều kiện môi trường."
+        },
+        {
+          "name": "Winter Formula Usage",
+          "english": "In UK winter conditions, Winter Formula provides faster set without losing control. Pair with Fast Set acrylic powder for optimal performance in cold weather.",
+          "vietnamese": "Trong điều kiện mùa đông tại Anh, Công thức Mùa Đông cung cấp khô nhanh hơn mà không mất kiểm soát. Kết hợp với bột Fast Set để hiệu suất tối ưu trong thời tiết lạnh."
+        },
+        {
+          "name": "Year-Round Usage",
+          "english": "Oxygen Formula provides consistent performance across all seasons. Stable set time allows technicians to work at their preferred pace without climate adjustments.",
+          "vietnamese": "Công thức Oxygen cung cấp hiệu suất nhất quán quanh năm. Thời gian cứng ổn định cho phép thợ làm việc với tốc độ ưa thích mà không cần điều chỉnh khí hậu."
+        }
+      ],
+      "care_instructions": {
+        "storage": "Keep container tightly sealed in cool, well-ventilated area",
+        "temperature": "Store between 15-25°C for optimal stability",
+        "ventilation": "Always use in well-ventilated salon with proper air circulation",
+        "disposal": "Dispose according to local regulations for professional chemical products",
+        "shelf_life": "Maintain quality when stored properly; check expiration date"
+      },
+      "tips": [
+        "Winter Formula is essential for UK technicians—stock during cold months",
+        "Oxygen Formula provides consistency year-round for stable workflow",
+        "Use Purple Winter Formula to easily gauge liquid-to-powder ratio",
+        "Work efficiently while liquid consistency is optimal",
+        "Pair liquid formula with matching powder speed (Fast Set for Winter, Medium for Oxygen)",
+        "Monitor dappen dish cleanliness to maintain liquid quality",
+        "Avoid mixing formulas; use consistently for best results"
+      ]
+    },
+    "searchMetadata": {
+      "tags": [
+        "acrylic-liquid",
+        "monomer",
+        "low-odor",
+        "professional-grade",
+        "salon-product",
+        "UK-made",
+        "winter-formula",
+        "all-season-formula",
+        "maxx-perform",
+        "anti-yellowing"
+      ],
+      "keywords": [
+        "acrylic liquid",
+        "monomer",
+        "low odor",
+        "winter formula",
+        "oxygen formula",
+        "professional acrylic",
+        "nail technician",
+        "salon product",
+        "maxx perform",
+        "EMA liquid"
+      ],
+      "season": ["Winter", "Year-Round"],
+      "skill_level": ["Intermediate", "Advanced"],
+      "use_case": [
+        "Full acrylic extensions",
+        "Acrylic overlays",
+        "Ombre and gradient effects",
+        "French manicure",
+        "Professional salon services"
+      ],
+      "climate_specific": ["Cold weather", "Humid conditions", "Year-round"]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+# MBerry — Social Caption (Autumn Edit)
+
+Wrap your fingertips in autumn’s glow with MBerry.
+
+✨ Warm, romantic tones that flatter every skin tone
+✨ Sheer-to-bold finishes you can layer or wear solo
+✨ Nails that look effortless, polished, and perfectly seasonal
+
+💎 Join our members’ list at vldirect.uk for early drops and exclusive offers.
+💅 VLDirect — beauty that makes sense for the tech.
+
+Shop the MBerry Autumn Edit at vldirect.uk today! 🍂🍷
