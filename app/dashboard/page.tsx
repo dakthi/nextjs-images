@@ -48,7 +48,7 @@ export default function DashboardPage() {
         <div className="text-center md:text-left">
           <h1 className="text-3xl md:text-4xl font-bold text-black mb-2">Welcome to VL London</h1>
           <p className="text-base md:text-lg text-black/70">
-            Manage your nail product catalog and content
+            Manage our nail product catalog and content
           </p>
         </div>
 
@@ -135,7 +135,7 @@ export default function DashboardPage() {
               <div>
                 <h3 className="font-bold text-black text-sm md:text-base">Edit products</h3>
                 <p className="text-xs md:text-sm text-black/60">
-                  Update product information, prices, and photos
+                  Update our nail products with new details and photos
                 </p>
               </div>
             </div>
@@ -145,7 +145,7 @@ export default function DashboardPage() {
               <div>
                 <h3 className="font-bold text-black text-sm md:text-base">Find products</h3>
                 <p className="text-xs md:text-sm text-black/60">
-                  Search by name or browse by brand
+                  Quickly search through our collection
                 </p>
               </div>
             </div>
@@ -155,7 +155,7 @@ export default function DashboardPage() {
               <div>
                 <h3 className="font-bold text-black text-sm md:text-base">Copy products</h3>
                 <p className="text-xs md:text-sm text-black/60">
-                  Make copies to create similar items quickly
+                  Duplicate products to save time
                 </p>
               </div>
             </div>
@@ -163,9 +163,9 @@ export default function DashboardPage() {
             <div className="flex gap-3 md:gap-4 p-3 md:p-4 bg-[#F9FAFA] rounded-lg border border-[#0A1128]/10">
               <div className="text-2xl">📤</div>
               <div>
-                <h3 className="font-bold text-black text-sm md:text-base">Export data</h3>
+                <h3 className="font-bold text-black text-sm md:text-base">Export catalog</h3>
                 <p className="text-xs md:text-sm text-black/60">
-                  Download product lists and images
+                  Download our product collection
                 </p>
               </div>
             </div>
@@ -173,19 +173,19 @@ export default function DashboardPage() {
             <div className="flex gap-3 md:gap-4 p-3 md:p-4 bg-[#F9FAFA] rounded-lg border border-[#0A1128]/10">
               <div className="text-2xl">📸</div>
               <div>
-                <h3 className="font-bold text-black text-sm md:text-base">Manage photos</h3>
+                <h3 className="font-bold text-black text-sm md:text-base">Add photos</h3>
                 <p className="text-xs md:text-sm text-black/60">
-                  Upload and organize multiple product images
+                  Upload beautiful images of our products
                 </p>
               </div>
             </div>
 
             <div className="flex gap-3 md:gap-4 p-3 md:p-4 bg-[#F9FAFA] rounded-lg border border-[#0A1128]/10">
-              <div className="text-2xl">📝</div>
+              <div className="text-2xl">💅</div>
               <div>
-                <h3 className="font-bold text-black text-sm md:text-base">Track changes</h3>
+                <h3 className="font-bold text-black text-sm md:text-base">Showcase nail art</h3>
                 <p className="text-xs md:text-sm text-black/60">
-                  See history of all updates made
+                  Share our stunning nail designs
                 </p>
               </div>
             </div>
@@ -197,7 +197,7 @@ export default function DashboardPage() {
           <h2 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Getting started</h2>
           <ol className="space-y-2 md:space-y-3 ml-4 md:ml-6 text-sm md:text-base">
             <li className="list-decimal">
-              Click <strong>Manage products</strong> to view your catalog
+              Click <strong>Manage products</strong> to view our catalog
             </li>
             <li className="list-decimal">
               Use the search bar to find specific items

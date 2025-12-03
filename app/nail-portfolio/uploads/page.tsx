@@ -9,6 +9,10 @@ interface NailWork {
   artist: string;
   products: ProductUsed[];
   createdAt: string;
+  productId?: number;
+  productName?: string;
+  productCode?: string;
+  brandName?: string;
 }
 
 interface Brand {
@@ -50,6 +54,7 @@ export default function NailPortfolioUploadPage() {
     productName: '',
     color: ''
   });
+  const [primaryProduct, setPrimaryProduct] = useState<Product | null>(null);
   const [uploadError, setUploadError] = useState('');
   const [uploadSuccess, setUploadSuccess] = useState('');
 
@@ -207,6 +212,10 @@ export default function NailPortfolioUploadPage() {
         artist: artistName,
         products: productsUsed,
         createdAt: new Date().toISOString(),
+        productId: primaryProduct ? parseInt(primaryProduct.id) : undefined,
+        productName: primaryProduct?.name,
+        productCode: primaryProduct?.productCode,
+        brandName: primaryProduct?.brand?.name,
       }));
 
       const updatedWorks = [...newWorks, ...uploadedWorks];
@@ -220,6 +229,7 @@ export default function NailPortfolioUploadPage() {
       setArtistName('');
       setProductsUsed([]);
       setCurrentProduct({ brand: '', productName: '', color: '' });
+      setPrimaryProduct(null);
 
       setTimeout(() => {
         setUploadSuccess('');
@@ -310,10 +320,67 @@ export default function NailPortfolioUploadPage() {
               </div>
             </div>
 
+            {/* Primary Product for Info Pack */}
+            <div>
+              <label className="block text-base font-bold text-black mb-2">
+                Main product for info pack download
+              </label>
+              <p className="text-sm text-black/60 mb-3">
+                Select the main product you used. This will allow viewers to download a complete information pack about this product.
+              </p>
+              <div className="grid grid-cols-2 gap-3 p-4 bg-[#C5A572]/5 rounded-md border-2 border-[#C5A572]/30">
+                <div>
+                  <label className="block text-xs font-semibold text-black/70 mb-1">Brand</label>
+                  <select
+                    value={primaryProduct?.brand?.id || ''}
+                    onChange={(e) => {
+                      setPrimaryProduct(null);
+                      const brand = brands.find(b => b.id === e.target.value);
+                      if (brand) {
+                        const firstProduct = allProducts.find(p => p.brand?.id === brand.id);
+                        if (firstProduct) {
+                          setPrimaryProduct({ ...firstProduct, brand });
+                        }
+                      }
+                    }}
+                    className="w-full p-2 border-2 border-[#C5A572]/30 rounded text-sm focus:border-[#C5A572] focus:outline-none"
+                  >
+                    <option value="">Select brand</option>
+                    {brands.map((b) => (
+                      <option key={b.id} value={b.id}>{b.name}</option>
+                    ))}
+                  </select>
+                </div>
+
+                <div>
+                  <label className="block text-xs font-semibold text-black/70 mb-1">Product</label>
+                  <select
+                    value={primaryProduct?.id || ''}
+                    onChange={(e) => {
+                      const product = allProducts.find(p => p.id === e.target.value);
+                      setPrimaryProduct(product || null);
+                    }}
+                    disabled={!primaryProduct?.brand?.id}
+                    className="w-full p-2 border-2 border-[#C5A572]/30 rounded text-sm focus:border-[#C5A572] focus:outline-none disabled:bg-gray-100"
+                  >
+                    <option value="">Select product</option>
+                    {allProducts.filter(p => p.brand?.id === primaryProduct?.brand?.id).map((p) => (
+                      <option key={p.id} value={p.id}>{p.name} ({p.productCode})</option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+              {primaryProduct && (
+                <div className="mt-2 p-3 bg-green-50 border border-green-300 rounded text-sm text-green-800">
+                  <strong>Selected:</strong> {primaryProduct.brand?.name} - {primaryProduct.name} ({primaryProduct.productCode})
+                </div>
+              )}
+            </div>
+
             {/* Products Used (Optional) */}
             <div>
               <label className="block text-base font-bold text-black mb-2">
-                Products used (optional)
+                Additional products used (optional)
               </label>
 
               {/* Added Products List */}

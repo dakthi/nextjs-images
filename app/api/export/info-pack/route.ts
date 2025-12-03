@@ -18,6 +18,13 @@ interface ExportOptions {
   allActive?: boolean;
   format: 'json' | 'csv' | 'zip';
   includeImages?: boolean;
+  nailArtImage?: string;
+  nailArtInfo?: {
+    artist: string;
+    description: string;
+    uploadDate: string;
+    products?: any[];
+  };
 }
 
 /**
@@ -38,6 +45,8 @@ export async function POST(request: NextRequest) {
       allActive = false,
       format = 'zip',
       includeImages = true,
+      nailArtImage,
+      nailArtInfo,
     } = body;
 
     let productCodes: string[] = [];
@@ -110,7 +119,7 @@ export async function POST(request: NextRequest) {
     }
 
     if (format === 'zip') {
-      const zipBuffer = await generateZIPExport(productsToExport, includeImages);
+      const zipBuffer = await generateZIPExport(productsToExport, includeImages, nailArtImage, nailArtInfo);
       const buffer = Buffer.from(zipBuffer);
       return new NextResponse(buffer, {
         status: 200,

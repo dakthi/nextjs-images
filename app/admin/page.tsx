@@ -1148,6 +1148,34 @@ export default function AdminPage() {
                   </div>
                 )}
 
+                {/* Nail Art Showcase */}
+                {(() => {
+                  const nailWorks = typeof window !== 'undefined' ? JSON.parse(localStorage.getItem('nail_portfolio_works') || '[]') : [];
+                  const linkedWorks = nailWorks.filter((work: any) => work.productCode === selectedProduct.productCode);
+
+                  return linkedWorks.length > 0 ? (
+                    <div className="mb-6">
+                      <h3 className="text-xl font-bold text-black mb-3">Nail art showcase ({linkedWorks.length})</h3>
+                      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                        {linkedWorks.map((work: any) => (
+                          <div key={work.id} className="bg-[#F9FAFA] rounded-lg border-2 border-[#0A1128]/20 overflow-hidden hover:border-[#C5A572] transition-all">
+                            <img
+                              src={work.imageUrl}
+                              alt={work.description}
+                              className="w-full h-40 object-cover"
+                            />
+                            <div className="p-3">
+                              <p className="text-xs font-bold text-[#C5A572] mb-1">By {work.artist}</p>
+                              <p className="text-xs text-black/70 line-clamp-2">{work.description}</p>
+                              <p className="text-xs text-black/60 mt-1">{new Date(work.createdAt).toLocaleDateString()}</p>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ) : null;
+                })()}
+
                 {/* Actions */}
                 <div className="flex gap-3 pt-4 border-t-2 border-[#0A1128]/20">
                   <button

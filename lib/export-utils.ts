@@ -203,9 +203,53 @@ export function generateCSVExport(products: ProductExportData[]): string {
  */
 export async function generateZIPExport(
   products: ProductExportData[],
-  includeImages: boolean = true
+  includeImages: boolean = true,
+  nailArtImage?: string,
+  nailArtInfo?: {
+    artist: string;
+    description: string;
+    uploadDate: string;
+    products?: any[];
+  }
 ): Promise<Uint8Array> {
   const zip = new JSZip();
+
+  // Add nail art showcase if provided
+  if (nailArtImage && nailArtInfo) {
+    const showcaseFolder = zip.folder('nail-art-showcase');
+    if (showcaseFolder) {
+      // Download and add the nail art image
+      const imageBuffer = await downloadImage(nailArtImage);
+      if (imageBuffer) {
+        const ext = getFileExtension(nailArtImage);
+        showcaseFolder.file(`nail-art.${ext}`, imageBuffer);
+      }
+
+      // Create nail art info file
+      const nailArtInfoText = `
+NAIL ART SHOWCASE
+═══════════════════════════════════════════════════════
+
+Artist: ${nailArtInfo.artist}
+Uploaded: ${new Date(nailArtInfo.uploadDate).toLocaleDateString()}
+
+Description:
+${nailArtInfo.description}
+
+${nailArtInfo.products && nailArtInfo.products.length > 0 ? `
+Products Used:
+${nailArtInfo.products.map(p => `- ${p.brand} - ${p.productName}${p.color ? ` (${p.color})` : ''}`).join('\n')}
+` : ''}
+
+Image URL: ${nailArtImage}
+
+═══════════════════════════════════════════════════════
+Generated: ${new Date().toLocaleString()}
+      `.trim();
+
+      showcaseFolder.file('nail-art-info.txt', nailArtInfoText);
+    }
+  }
 
   // Add main products file
   zip.file('products.json', generateJSONExport(products));
