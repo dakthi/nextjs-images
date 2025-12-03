@@ -42,6 +42,12 @@ const navItems: NavItem[] = [
     icon: '',
     description: 'Product Feed & Updates',
   },
+  {
+    label: 'Transcribe',
+    href: '/transcribe',
+    icon: '',
+    description: 'Audio/Video Transcription',
+  },
 ];
 
 export default function Sidebar() {
