@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
+import { NodeHttpHandler } from '@smithy/node-http-handler';
 import https from 'https';
 
 const s3Client = new S3Client({
@@ -11,7 +12,7 @@ const s3Client = new S3Client({
   },
   // Add retry configuration for SSL/network issues
   maxAttempts: 3,
-  requestHandler: {
+  requestHandler: new NodeHttpHandler({
     connectionTimeout: 30000,
     requestTimeout: 60000,
     httpsAgent: new https.Agent({
@@ -21,7 +22,7 @@ const s3Client = new S3Client({
       minVersion: 'TLSv1.2',
       secureOptions: 0, // Allow all cipher suites
     }),
-  },
+  }),
 });
 
 const BUCKET_NAME = process.env.R2_BUCKET_NAME || 'vl-london-images';
