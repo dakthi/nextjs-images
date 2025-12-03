@@ -36,6 +36,12 @@ const navItems: NavItem[] = [
     icon: '',
     description: 'Audio/Video Transcription',
   },
+  {
+    label: 'Nail Portfolio',
+    href: '/nail-portfolio',
+    icon: '💅',
+    description: 'Upload Nail Art Designs',
+  },
 ];
 
 export default function Sidebar() {
