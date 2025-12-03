@@ -524,6 +524,12 @@ export default function AdminPage() {
 
               <div className="flex gap-3">
                 <button
+                  onClick={() => window.location.href = '/editor'}
+                  className="bg-[#0A1128] text-white font-bold px-4 py-2 rounded-md hover:bg-[#C5A572] hover:text-[#0A1128] transition-colors text-sm border-2 border-[#C5A572]"
+                >
+                  Image Editor
+                </button>
+                <button
                   onClick={() => setShowImportModal(true)}
                   className="bg-[#C5A572] text-white font-bold px-4 py-2 rounded-md hover:bg-[#0A1128] transition-colors text-sm"
                 >

@@ -25,18 +25,6 @@ const navItems: NavItem[] = [
     description: 'Manage Products & Content',
   },
   {
-    label: 'Image Editor',
-    href: '/editor',
-    icon: '',
-    description: 'Create Product Images',
-  },
-  {
-    label: 'Catalog',
-    href: '/catalog',
-    icon: '',
-    description: 'Browse Products',
-  },
-  {
     label: 'RSS Feed',
     href: '/rss',
     icon: '',
