@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
+import https from 'https';
 
 const s3Client = new S3Client({
   region: 'auto',
@@ -13,6 +14,13 @@ const s3Client = new S3Client({
   requestHandler: {
     connectionTimeout: 30000,
     requestTimeout: 60000,
+    httpsAgent: new https.Agent({
+      keepAlive: true,
+      maxSockets: 50,
+      // Allow legacy TLS versions for R2 compatibility with Node.js v23
+      minVersion: 'TLSv1.2',
+      secureOptions: 0, // Allow all cipher suites
+    }),
   },
 });
 

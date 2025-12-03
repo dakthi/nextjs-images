@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
 import { v4 as uuidv4 } from 'uuid';
+import https from 'https';
 
 export const maxDuration = 60;
 export const runtime = 'nodejs';
@@ -18,6 +19,15 @@ const s3Client = new S3Client({
   },
   endpoint: process.env.R2_ENDPOINT,
   forcePathStyle: true,
+  requestHandler: {
+    httpsAgent: new https.Agent({
+      keepAlive: true,
+      maxSockets: 50,
+      // Allow legacy TLS versions for R2 compatibility with Node.js v23
+      minVersion: 'TLSv1.2',
+      secureOptions: 0, // Allow all cipher suites
+    }),
+  },
 });
 
 const MAX_RETRIES = 3;
