@@ -81,10 +81,9 @@ export default function DashboardPage() {
           <h2 className="text-xl md:text-2xl font-bold text-black mb-4 md:mb-6">What would you like to do?</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4">
             <Link
-              href="/admin"
+              href="/products"
               className="flex flex-col items-center p-4 md:p-6 rounded-lg border-2 border-[#0A1128]/20 hover:border-[#C5A572] hover:bg-[#C5A572]/10 transition-all"
             >
-              <div className="text-3xl md:text-4xl mb-2">📦</div>
               <h3 className="font-bold text-black mb-1 text-base md:text-lg text-center">Manage products</h3>
               <p className="text-xs md:text-sm text-black/60 text-center">
                 Edit product details and images
@@ -95,7 +94,6 @@ export default function DashboardPage() {
               href="/rss"
               className="flex flex-col items-center p-4 md:p-6 rounded-lg border-2 border-[#0A1128]/20 hover:border-[#C5A572] hover:bg-[#C5A572]/10 transition-all"
             >
-              <div className="text-3xl md:text-4xl mb-2">📰</div>
               <h3 className="font-bold text-black mb-1 text-base md:text-lg text-center">News feeds</h3>
               <p className="text-xs md:text-sm text-black/60 text-center">
                 Stay updated with industry news
@@ -106,7 +104,6 @@ export default function DashboardPage() {
               href="/transcribe"
               className="flex flex-col items-center p-4 md:p-6 rounded-lg border-2 border-[#0A1128]/20 hover:border-[#C5A572] hover:bg-[#C5A572]/10 transition-all"
             >
-              <div className="text-3xl md:text-4xl mb-2">🎤</div>
               <h3 className="font-bold text-black mb-1 text-base md:text-lg text-center">Transcribe</h3>
               <p className="text-xs md:text-sm text-black/60 text-center">
                 Convert audio and video to text
@@ -117,7 +114,6 @@ export default function DashboardPage() {
               href="/nail-portfolio"
               className="flex flex-col items-center p-4 md:p-6 rounded-lg border-2 border-[#0A1128]/20 hover:border-[#C5A572] hover:bg-[#C5A572]/10 transition-all"
             >
-              <div className="text-3xl md:text-4xl mb-2">💅</div>
               <h3 className="font-bold text-black mb-1 text-base md:text-lg text-center">Nail portfolio</h3>
               <p className="text-xs md:text-sm text-black/60 text-center">
                 View uploaded nail art designs
@@ -131,8 +127,7 @@ export default function DashboardPage() {
           <h2 className="text-xl md:text-2xl font-bold text-black mb-4 md:mb-6">What you can do here</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
             <div className="flex gap-3 md:gap-4 p-3 md:p-4 bg-[#F9FAFA] rounded-lg border border-[#0A1128]/10">
-              <div className="text-2xl">✏️</div>
-              <div>
+              <div className="flex-1">
                 <h3 className="font-bold text-black text-sm md:text-base">Edit products</h3>
                 <p className="text-xs md:text-sm text-black/60">
                   Update our nail products with new details and photos
@@ -141,8 +136,7 @@ export default function DashboardPage() {
             </div>
 
             <div className="flex gap-3 md:gap-4 p-3 md:p-4 bg-[#F9FAFA] rounded-lg border border-[#0A1128]/10">
-              <div className="text-2xl">🔍</div>
-              <div>
+              <div className="flex-1">
                 <h3 className="font-bold text-black text-sm md:text-base">Find products</h3>
                 <p className="text-xs md:text-sm text-black/60">
                   Quickly search through our collection
@@ -151,41 +145,37 @@ export default function DashboardPage() {
             </div>
 
             <div className="flex gap-3 md:gap-4 p-3 md:p-4 bg-[#F9FAFA] rounded-lg border border-[#0A1128]/10">
-              <div className="text-2xl">📋</div>
-              <div>
-                <h3 className="font-bold text-black text-sm md:text-base">Copy products</h3>
+              <div className="flex-1">
+                <h3 className="font-bold text-black text-sm md:text-base">Upload nail art</h3>
                 <p className="text-xs md:text-sm text-black/60">
-                  Duplicate products to save time
+                  Artists can upload their nail designs and link products
                 </p>
               </div>
             </div>
 
             <div className="flex gap-3 md:gap-4 p-3 md:p-4 bg-[#F9FAFA] rounded-lg border border-[#0A1128]/10">
-              <div className="text-2xl">📤</div>
-              <div>
-                <h3 className="font-bold text-black text-sm md:text-base">Export catalog</h3>
+              <div className="flex-1">
+                <h3 className="font-bold text-black text-sm md:text-base">Approve products</h3>
                 <p className="text-xs md:text-sm text-black/60">
-                  Download our product collection
+                  Review and approve product links from artist uploads
                 </p>
               </div>
             </div>
 
             <div className="flex gap-3 md:gap-4 p-3 md:p-4 bg-[#F9FAFA] rounded-lg border border-[#0A1128]/10">
-              <div className="text-2xl">📸</div>
-              <div>
-                <h3 className="font-bold text-black text-sm md:text-base">Add photos</h3>
+              <div className="flex-1">
+                <h3 className="font-bold text-black text-sm md:text-base">Export info packs</h3>
                 <p className="text-xs md:text-sm text-black/60">
-                  Upload beautiful images of our products
+                  Download complete product details with nail art showcase
                 </p>
               </div>
             </div>
 
             <div className="flex gap-3 md:gap-4 p-3 md:p-4 bg-[#F9FAFA] rounded-lg border border-[#0A1128]/10">
-              <div className="text-2xl">💅</div>
-              <div>
-                <h3 className="font-bold text-black text-sm md:text-base">Showcase nail art</h3>
+              <div className="flex-1">
+                <h3 className="font-bold text-black text-sm md:text-base">View showcase</h3>
                 <p className="text-xs md:text-sm text-black/60">
-                  Share our stunning nail designs
+                  See which products are used in nail art designs
                 </p>
               </div>
             </div>
@@ -195,23 +185,45 @@ export default function DashboardPage() {
         {/* Getting Started */}
         <div className="bg-gradient-to-r from-[#C5A572] to-[#0A1128] rounded-lg shadow-md p-4 md:p-8 text-white">
           <h2 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Getting started</h2>
-          <ol className="space-y-2 md:space-y-3 ml-4 md:ml-6 text-sm md:text-base">
-            <li className="list-decimal">
-              Click <strong>Manage products</strong> to view our catalog
-            </li>
-            <li className="list-decimal">
-              Use the search bar to find specific items
-            </li>
-            <li className="list-decimal">
-              Click on any product to edit details
-            </li>
-            <li className="list-decimal">
-              Upload photos in the images section
-            </li>
-            <li className="list-decimal">
-              Use <strong>Copy product</strong> to create variations
-            </li>
-          </ol>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <h3 className="font-bold mb-3 text-base md:text-lg">Managing products</h3>
+              <ol className="space-y-2 ml-4 md:ml-6 text-sm md:text-base">
+                <li className="list-decimal">
+                  Click <strong>Manage products</strong> to view our catalog
+                </li>
+                <li className="list-decimal">
+                  Use the search bar to find specific items
+                </li>
+                <li className="list-decimal">
+                  Click on any product to edit details or upload photos
+                </li>
+                <li className="list-decimal">
+                  Download info packs to share product details
+                </li>
+              </ol>
+            </div>
+            <div>
+              <h3 className="font-bold mb-3 text-base md:text-lg">Nail art workflow</h3>
+              <ol className="space-y-2 ml-4 md:ml-6 text-sm md:text-base">
+                <li className="list-decimal">
+                  Artists upload nail art via <strong>Nail portfolio uploads</strong>
+                </li>
+                <li className="list-decimal">
+                  They select products used in their design
+                </li>
+                <li className="list-decimal">
+                  Review uploads in <strong>Nail portfolio</strong>
+                </li>
+                <li className="list-decimal">
+                  Click <strong>Approve</strong> to link products for info packs
+                </li>
+                <li className="list-decimal">
+                  Export includes both product and nail art images
+                </li>
+              </ol>
+            </div>
+          </div>
         </div>
       </div>
     </MainLayout>

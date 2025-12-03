@@ -48,6 +48,8 @@ export default function AdminPage() {
   const [isEditingProduct, setIsEditingProduct] = useState(false);
   const [productForm, setProductForm] = useState<any>({});
   const [selectedProductIds, setSelectedProductIds] = useState<Set<string>>(new Set());
+  const [currentPage, setCurrentPage] = useState(1);
+  const PRODUCTS_PER_PAGE = 200;
   const [activeTab, setActiveTab] = useState<'brands' | 'products'>('brands');
   const [showImportModal, setShowImportModal] = useState(false);
   const [showVersionComparison, setShowVersionComparison] = useState(false);
@@ -365,6 +367,17 @@ export default function AdminPage() {
     return matchesSearch && matchesBrand && matchesImageFilter;
   });
 
+  // Pagination
+  const totalPages = Math.ceil(filteredProducts.length / PRODUCTS_PER_PAGE);
+  const startIndex = (currentPage - 1) * PRODUCTS_PER_PAGE;
+  const endIndex = startIndex + PRODUCTS_PER_PAGE;
+  const paginatedProducts = filteredProducts.slice(startIndex, endIndex);
+
+  // Reset to page 1 when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchTerm, selectedBrandIds, showWithImages, showWithoutImages]);
+
   return (
     <MainLayout>
       <div className="mb-8">
@@ -536,6 +549,32 @@ export default function AdminPage() {
                   Import CSV
                 </button>
                 <button
+                  onClick={() => {
+                    // Export current filtered products as CSV
+                    const headers = ['Code', 'Name', 'Brand', 'Active'];
+                    const rows = filteredProducts.map(p => [
+                      p.productCode,
+                      p.name,
+                      p.brand?.name || '',
+                      p.isActive ? 'Yes' : 'No'
+                    ]);
+                    const csv = [
+                      headers.join(','),
+                      ...rows.map(row => row.map(cell => `"${cell}"`).join(','))
+                    ].join('\n');
+                    const blob = new Blob([csv], { type: 'text/csv' });
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = `products-${new Date().toISOString().split('T')[0]}.csv`;
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                  }}
+                  className="bg-[#0A1128] text-white font-bold px-4 py-2 rounded-md hover:bg-[#C5A572] transition-colors text-sm"
+                >
+                  Export CSV
+                </button>
+                <button
                   onClick={() => setShowCreateBrandModal(true)}
                   className="bg-[#C5A572] text-white font-bold px-4 py-2 rounded-md hover:bg-[#0A1128] transition-colors text-sm"
                 >
@@ -592,6 +631,34 @@ export default function AdminPage() {
           )}
         </div>
 
+        {/* Products Count and Pagination */}
+        <div className="mb-4 flex justify-between items-center">
+          <div className="text-black text-base font-bold">
+            Number of products: {filteredProducts.length} of {products.length}
+          </div>
+          {totalPages > 1 && (
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => setCurrentPage(prev => Math.max(1, prev - 1))}
+                disabled={currentPage === 1}
+                className="px-4 py-2 bg-[#0A1128] text-white font-bold rounded-md hover:bg-[#C5A572] disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm"
+              >
+                Previous
+              </button>
+              <span className="px-4 py-2 text-black font-bold">
+                Page {currentPage} of {totalPages}
+              </span>
+              <button
+                onClick={() => setCurrentPage(prev => Math.min(totalPages, prev + 1))}
+                disabled={currentPage === totalPages}
+                className="px-4 py-2 bg-[#0A1128] text-white font-bold rounded-md hover:bg-[#C5A572] disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm"
+              >
+                Next
+              </button>
+            </div>
+          )}
+        </div>
+
         {/* Products Table */}
         <div className="bg-white rounded-lg shadow-md border-2 border-[#0A1128]/20 overflow-hidden">
           <table className="w-full">
@@ -626,7 +693,7 @@ export default function AdminPage() {
                   </td>
                 </tr>
               ) : (
-                filteredProducts.map((product) => (
+                paginatedProducts.map((product) => (
                   <tr
                     key={product.id}
                     className="hover:bg-[#0A1128]/5 transition-colors"
@@ -683,9 +750,28 @@ export default function AdminPage() {
           </table>
         </div>
 
-            <div className="mt-4 text-black text-base font-bold">
-              Showing {filteredProducts.length} of {products.length} products
-            </div>
+            {/* Pagination Controls */}
+            {totalPages > 1 && (
+              <div className="mt-6 flex justify-center items-center gap-2">
+                <button
+                  onClick={() => setCurrentPage(prev => Math.max(1, prev - 1))}
+                  disabled={currentPage === 1}
+                  className="px-4 py-2 bg-[#0A1128] text-white font-bold rounded-md hover:bg-[#C5A572] disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                >
+                  Previous
+                </button>
+                <span className="px-4 py-2 text-black font-bold">
+                  Page {currentPage} of {totalPages}
+                </span>
+                <button
+                  onClick={() => setCurrentPage(prev => Math.min(totalPages, prev + 1))}
+                  disabled={currentPage === totalPages}
+                  className="px-4 py-2 bg-[#0A1128] text-white font-bold rounded-md hover:bg-[#C5A572] disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                >
+                  Next
+                </button>
+              </div>
+            )}
           </>
         )}
 

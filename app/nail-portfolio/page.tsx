@@ -142,6 +142,43 @@ export default function NailPortfolioManagePage() {
     setArtists([]);
   };
 
+  const handleExportCSV = () => {
+    if (filteredWorks.length === 0) {
+      alert('No nail art works to export');
+      return;
+    }
+
+    // Create CSV content
+    const headers = ['ID', 'Artist', 'Description', 'Upload Date', 'Linked Product Code', 'Linked Product Name', 'Brand', 'Products Used', 'Image URL'];
+    const rows = filteredWorks.map(work => [
+      work.id,
+      work.artist,
+      work.description.replace(/"/g, '""'), // Escape quotes
+      new Date(work.createdAt).toLocaleDateString(),
+      work.productCode || '',
+      work.productName || '',
+      work.brandName || '',
+      work.products?.map(p => `${p.brand} - ${p.productName}${p.color ? ` (${p.color})` : ''}`).join('; ') || '',
+      work.imageUrl
+    ]);
+
+    const csvContent = [
+      headers.join(','),
+      ...rows.map(row => row.map(cell => `"${cell}"`).join(','))
+    ].join('\n');
+
+    // Download CSV
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = window.URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `nail-portfolio-${new Date().toISOString().split('T')[0]}.csv`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    window.URL.revokeObjectURL(url);
+  };
+
   const openModal = (work: NailWork) => {
     setSelectedWork(work);
     setEditedDescription(work.description);

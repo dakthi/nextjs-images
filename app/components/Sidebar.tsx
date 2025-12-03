@@ -20,7 +20,7 @@ const navItems: NavItem[] = [
   },
   {
     label: 'Products',
-    href: '/admin',
+    href: '/products',
     icon: '',
     description: 'Manage Products & Content',
   },
@@ -39,7 +39,7 @@ const navItems: NavItem[] = [
   {
     label: 'Nail Portfolio',
     href: '/nail-portfolio',
-    icon: '💅',
+    icon: '',
     description: 'Upload Nail Art Designs',
   },
 ];
