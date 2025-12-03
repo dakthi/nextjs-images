@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import MainLayout from '../components/MainLayout';
 
 interface TranscriptionResult {
@@ -17,8 +17,18 @@ export default function TranscribePage() {
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<TranscriptionResult | null>(null);
   const [error, setError] = useState('');
+  const [progress, setProgress] = useState(0);
+  const [statusMessage, setStatusMessage] = useState('');
+  const wsRef = useRef<WebSocket | null>(null);
 
-  const API_BASE = 'https://transcribe.chartedconsultants.com';
+  // Cleanup WebSocket on unmount
+  useEffect(() => {
+    return () => {
+      if (wsRef.current) {
+        wsRef.current.close();
+      }
+    };
+  }, []);
 
   const handleFileUpload = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -27,15 +37,52 @@ export default function TranscribePage() {
       return;
     }
 
+    // Generate unique job ID
+    const jobId = `job_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+
     const formData = new FormData();
     formData.append('file', file);
 
     setLoading(true);
     setError('');
     setResult(null);
+    setProgress(0);
+    setStatusMessage('Connecting...');
+
+    // Setup WebSocket for progress tracking
+    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    const ws = new WebSocket(`${protocol}//transcribe.chartedconsultants.com/ws/${jobId}`);
+    wsRef.current = ws;
+
+    ws.onopen = () => {
+      setStatusMessage('Connected. Starting transcription...');
+    };
+
+    ws.onmessage = (event) => {
+      try {
+        const data = JSON.parse(event.data);
+        if (data.progress !== undefined) {
+          setProgress(data.progress);
+        }
+        if (data.status) {
+          setStatusMessage(data.status);
+        }
+      } catch (err) {
+        console.error('WebSocket message parse error:', err);
+      }
+    };
+
+    ws.onerror = (error) => {
+      console.error('WebSocket error:', error);
+      setStatusMessage('Connection error, but transcription continues...');
+    };
+
+    ws.onclose = () => {
+      console.log('WebSocket closed');
+    };
 
     try {
-      const response = await fetch(`${API_BASE}/transcribe`, {
+      const response = await fetch(`/api/transcribe?job_id=${jobId}`, {
         method: 'POST',
         body: formData,
       });
@@ -45,6 +92,8 @@ export default function TranscribePage() {
       }
 
       const data = await response.json();
+      setProgress(100);
+      setStatusMessage('Transcription complete!');
       setResult({
         text: data.text || data.transcription || JSON.stringify(data),
         filename: file.name,
@@ -53,6 +102,9 @@ export default function TranscribePage() {
       setError(err instanceof Error ? err.message : 'Failed to transcribe file');
     } finally {
       setLoading(false);
+      if (ws.readyState === WebSocket.OPEN) {
+        ws.close();
+      }
     }
   };
 
@@ -63,12 +115,49 @@ export default function TranscribePage() {
       return;
     }
 
+    // Generate unique job ID
+    const jobId = `job_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+
     setLoading(true);
     setError('');
     setResult(null);
+    setProgress(0);
+    setStatusMessage('Connecting...');
+
+    // Setup WebSocket for progress tracking
+    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    const ws = new WebSocket(`${protocol}//transcribe.chartedconsultants.com/ws/${jobId}`);
+    wsRef.current = ws;
+
+    ws.onopen = () => {
+      setStatusMessage('Connected. Processing YouTube video...');
+    };
+
+    ws.onmessage = (event) => {
+      try {
+        const data = JSON.parse(event.data);
+        if (data.progress !== undefined) {
+          setProgress(data.progress);
+        }
+        if (data.status) {
+          setStatusMessage(data.status);
+        }
+      } catch (err) {
+        console.error('WebSocket message parse error:', err);
+      }
+    };
+
+    ws.onerror = (error) => {
+      console.error('WebSocket error:', error);
+      setStatusMessage('Connection error, but processing continues...');
+    };
+
+    ws.onclose = () => {
+      console.log('WebSocket closed');
+    };
 
     try {
-      const response = await fetch(`${API_BASE}/youtube/download`, {
+      const response = await fetch(`/api/transcribe/youtube?job_id=${jobId}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -83,6 +172,8 @@ export default function TranscribePage() {
       }
 
       const data = await response.json();
+      setProgress(100);
+      setStatusMessage('Complete!');
 
       if (shouldTranscribe && (data.text || data.transcription)) {
         setResult({
@@ -99,6 +190,9 @@ export default function TranscribePage() {
       setError(err instanceof Error ? err.message : 'Failed to process YouTube video');
     } finally {
       setLoading(false);
+      if (ws.readyState === WebSocket.OPEN) {
+        ws.close();
+      }
     }
   };
 
@@ -169,6 +263,22 @@ export default function TranscribePage() {
               >
                 {loading ? 'Transcribing...' : 'Transcribe File'}
               </button>
+
+              {/* Progress Bar */}
+              {loading && (
+                <div className="space-y-2">
+                  <div className="flex justify-between text-sm">
+                    <span className="font-semibold text-[#0A1128]">{statusMessage}</span>
+                    <span className="font-bold text-[#C5A572]">{progress}%</span>
+                  </div>
+                  <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden border-2 border-[#0A1128]/20">
+                    <div
+                      className="bg-gradient-to-r from-[#C5A572] to-[#0A1128] h-full transition-all duration-500 ease-out"
+                      style={{ width: `${progress}%` }}
+                    />
+                  </div>
+                </div>
+              )}
             </form>
           )}
 
@@ -235,6 +345,22 @@ export default function TranscribePage() {
               >
                 {loading ? 'Processing...' : 'Download & Transcribe'}
               </button>
+
+              {/* Progress Bar */}
+              {loading && (
+                <div className="space-y-2">
+                  <div className="flex justify-between text-sm">
+                    <span className="font-semibold text-[#0A1128]">{statusMessage}</span>
+                    <span className="font-bold text-[#C5A572]">{progress}%</span>
+                  </div>
+                  <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden border-2 border-[#0A1128]/20">
+                    <div
+                      className="bg-gradient-to-r from-[#C5A572] to-[#0A1128] h-full transition-all duration-500 ease-out"
+                      style={{ width: `${progress}%` }}
+                    />
+                  </div>
+                </div>
+              )}
             </form>
           )}
 
