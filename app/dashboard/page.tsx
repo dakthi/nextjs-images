@@ -18,8 +18,6 @@ export default function DashboardPage() {
     const fetchStats = async () => {
       try {
         setLoading(true);
-        // In a real app, this would be an API endpoint
-        // For now, we'll fetch basic product data
         const response = await fetch('/api/products/crud');
         const products = await response.json();
 
@@ -45,145 +43,149 @@ export default function DashboardPage() {
 
   return (
     <MainLayout>
-      <div className="space-y-8">
+      <div className="space-y-6 md:space-y-8 max-w-7xl mx-auto">
         {/* Header */}
-        <div>
-          <h1 className="text-4xl font-bold text-black mb-2">Dashboard</h1>
-          <p className="text-gray-600">
-            Welcome to VL London Product Management System
+        <div className="text-center md:text-left">
+          <h1 className="text-3xl md:text-4xl font-bold text-black mb-2">Welcome to VL London</h1>
+          <p className="text-base md:text-lg text-black/70">
+            Manage your nail product catalog and content
           </p>
         </div>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="bg-white rounded-lg shadow-md border-2 border-blue-200 p-6">
-            <div className="text-5xl font-bold text-blue-600 mb-2">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
+          <div className="bg-white rounded-lg shadow-md border-2 border-[#C5A572]/30 p-4 md:p-6 text-center">
+            <div className="text-4xl md:text-5xl font-bold text-[#C5A572] mb-2">
               {loading ? '...' : stats?.totalProducts || 0}
             </div>
-            <p className="text-gray-600 font-semibold">Total Products</p>
-            <p className="text-sm text-gray-500 mt-2">
-              All products in your catalog
-            </p>
+            <p className="text-black font-semibold text-sm md:text-base">Products in catalog</p>
           </div>
 
-          <div className="bg-white rounded-lg shadow-md border-2 border-green-200 p-6">
-            <div className="text-5xl font-bold text-green-600 mb-2">
+          <div className="bg-white rounded-lg shadow-md border-2 border-[#0A1128]/30 p-4 md:p-6 text-center">
+            <div className="text-4xl md:text-5xl font-bold text-[#0A1128] mb-2">
               {loading ? '...' : stats?.activeProducts || 0}
             </div>
-            <p className="text-gray-600 font-semibold">Active Products</p>
-            <p className="text-sm text-gray-500 mt-2">
-              Currently published products
-            </p>
+            <p className="text-black font-semibold text-sm md:text-base">Available to view</p>
           </div>
 
-          <div className="bg-white rounded-lg shadow-md border-2 border-purple-200 p-6">
-            <div className="text-5xl font-bold text-purple-600 mb-2">
+          <div className="bg-white rounded-lg shadow-md border-2 border-[#C5A572]/30 p-4 md:p-6 text-center">
+            <div className="text-4xl md:text-5xl font-bold text-[#C5A572] mb-2">
               {loading ? '...' : stats?.totalBrands || 0}
             </div>
-            <p className="text-gray-600 font-semibold">Brands</p>
-            <p className="text-sm text-gray-500 mt-2">
-              Brand collections
-            </p>
+            <p className="text-black font-semibold text-sm md:text-base">Brands</p>
           </div>
         </div>
 
         {/* Quick Actions */}
-        <div className="bg-white rounded-lg shadow-md border-2 border-gray-300 p-6">
-          <h2 className="text-2xl font-bold text-black mb-6">Quick Actions</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="bg-white rounded-lg shadow-md border-2 border-[#0A1128]/20 p-4 md:p-6">
+          <h2 className="text-xl md:text-2xl font-bold text-black mb-4 md:mb-6">What would you like to do?</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4">
             <Link
               href="/admin"
-              className="flex flex-col items-center p-6 rounded-lg border-2 border-gray-300 hover:border-blue-500 hover:bg-blue-50 transition-all"
+              className="flex flex-col items-center p-4 md:p-6 rounded-lg border-2 border-[#0A1128]/20 hover:border-[#C5A572] hover:bg-[#C5A572]/10 transition-all"
             >
-              <h3 className="font-bold text-black mb-1 text-xl">Manage Products</h3>
-              <p className="text-sm text-gray-600 text-center">
-                Edit product details, images, and pricing
+              <div className="text-3xl md:text-4xl mb-2">📦</div>
+              <h3 className="font-bold text-black mb-1 text-base md:text-lg text-center">Manage products</h3>
+              <p className="text-xs md:text-sm text-black/60 text-center">
+                Edit product details and images
               </p>
             </Link>
 
             <Link
-              href="/editor"
-              className="flex flex-col items-center p-6 rounded-lg border-2 border-gray-300 hover:border-green-500 hover:bg-green-50 transition-all"
+              href="/rss"
+              className="flex flex-col items-center p-4 md:p-6 rounded-lg border-2 border-[#0A1128]/20 hover:border-[#C5A572] hover:bg-[#C5A572]/10 transition-all"
             >
-              <h3 className="font-bold text-black mb-1 text-xl">Create Images</h3>
-              <p className="text-sm text-gray-600 text-center">
-                Design and generate product images
+              <div className="text-3xl md:text-4xl mb-2">📰</div>
+              <h3 className="font-bold text-black mb-1 text-base md:text-lg text-center">News feeds</h3>
+              <p className="text-xs md:text-sm text-black/60 text-center">
+                Stay updated with industry news
               </p>
             </Link>
 
             <Link
-              href="/catalog"
-              className="flex flex-col items-center p-6 rounded-lg border-2 border-gray-300 hover:border-purple-500 hover:bg-purple-50 transition-all"
+              href="/transcribe"
+              className="flex flex-col items-center p-4 md:p-6 rounded-lg border-2 border-[#0A1128]/20 hover:border-[#C5A572] hover:bg-[#C5A572]/10 transition-all"
             >
-              <h3 className="font-bold text-black mb-1 text-xl">View Catalog</h3>
-              <p className="text-sm text-gray-600 text-center">
-                Browse all products and collections
+              <div className="text-3xl md:text-4xl mb-2">🎤</div>
+              <h3 className="font-bold text-black mb-1 text-base md:text-lg text-center">Transcribe</h3>
+              <p className="text-xs md:text-sm text-black/60 text-center">
+                Convert audio and video to text
               </p>
             </Link>
 
-            <div className="flex flex-col items-center p-6 rounded-lg border-2 border-gray-300 bg-gray-50">
-              <h3 className="font-bold text-black mb-1 text-xl">Settings</h3>
-              <p className="text-sm text-gray-600 text-center">
-                Coming soon
+            <Link
+              href="/nail-portfolio"
+              className="flex flex-col items-center p-4 md:p-6 rounded-lg border-2 border-[#0A1128]/20 hover:border-[#C5A572] hover:bg-[#C5A572]/10 transition-all"
+            >
+              <div className="text-3xl md:text-4xl mb-2">💅</div>
+              <h3 className="font-bold text-black mb-1 text-base md:text-lg text-center">Nail portfolio</h3>
+              <p className="text-xs md:text-sm text-black/60 text-center">
+                View uploaded nail art designs
               </p>
-            </div>
+            </Link>
           </div>
         </div>
 
-        {/* Key Features */}
-        <div className="bg-white rounded-lg shadow-md border-2 border-gray-300 p-6">
-          <h2 className="text-2xl font-bold text-black mb-6">Key Features</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="flex gap-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+        {/* What you can do */}
+        <div className="bg-white rounded-lg shadow-md border-2 border-[#0A1128]/20 p-4 md:p-6">
+          <h2 className="text-xl md:text-2xl font-bold text-black mb-4 md:mb-6">What you can do here</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+            <div className="flex gap-3 md:gap-4 p-3 md:p-4 bg-[#F9FAFA] rounded-lg border border-[#0A1128]/10">
+              <div className="text-2xl">✏️</div>
               <div>
-                <h3 className="font-bold text-black">Export Products</h3>
-                <p className="text-sm text-gray-600">
-                  Export individual products, entire brands, or search results as JSON, CSV, or ZIP with images
+                <h3 className="font-bold text-black text-sm md:text-base">Edit products</h3>
+                <p className="text-xs md:text-sm text-black/60">
+                  Update product information, prices, and photos
                 </p>
               </div>
             </div>
 
-            <div className="flex gap-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+            <div className="flex gap-3 md:gap-4 p-3 md:p-4 bg-[#F9FAFA] rounded-lg border border-[#0A1128]/10">
+              <div className="text-2xl">🔍</div>
               <div>
-                <h3 className="font-bold text-black">Smart Search</h3>
-                <p className="text-sm text-gray-600">
-                  Search products by name or code with pagination support
+                <h3 className="font-bold text-black text-sm md:text-base">Find products</h3>
+                <p className="text-xs md:text-sm text-black/60">
+                  Search by name or browse by brand
                 </p>
               </div>
             </div>
 
-            <div className="flex gap-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+            <div className="flex gap-3 md:gap-4 p-3 md:p-4 bg-[#F9FAFA] rounded-lg border border-[#0A1128]/10">
+              <div className="text-2xl">📋</div>
               <div>
-                <h3 className="font-bold text-black">Clone Products</h3>
-                <p className="text-sm text-gray-600">
-                  Duplicate products with all content for quick variations
+                <h3 className="font-bold text-black text-sm md:text-base">Copy products</h3>
+                <p className="text-xs md:text-sm text-black/60">
+                  Make copies to create similar items quickly
                 </p>
               </div>
             </div>
 
-            <div className="flex gap-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+            <div className="flex gap-3 md:gap-4 p-3 md:p-4 bg-[#F9FAFA] rounded-lg border border-[#0A1128]/10">
+              <div className="text-2xl">📤</div>
               <div>
-                <h3 className="font-bold text-black">Batch Image Manage</h3>
-                <p className="text-sm text-gray-600">
-                  Upload, reorder, and manage multiple images per product
+                <h3 className="font-bold text-black text-sm md:text-base">Export data</h3>
+                <p className="text-xs md:text-sm text-black/60">
+                  Download product lists and images
                 </p>
               </div>
             </div>
 
-            <div className="flex gap-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+            <div className="flex gap-3 md:gap-4 p-3 md:p-4 bg-[#F9FAFA] rounded-lg border border-[#0A1128]/10">
+              <div className="text-2xl">📸</div>
               <div>
-                <h3 className="font-bold text-black">Validation</h3>
-                <p className="text-sm text-gray-600">
-                  Type-safe input validation with Zod schemas
+                <h3 className="font-bold text-black text-sm md:text-base">Manage photos</h3>
+                <p className="text-xs md:text-sm text-black/60">
+                  Upload and organize multiple product images
                 </p>
               </div>
             </div>
 
-            <div className="flex gap-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+            <div className="flex gap-3 md:gap-4 p-3 md:p-4 bg-[#F9FAFA] rounded-lg border border-[#0A1128]/10">
+              <div className="text-2xl">📝</div>
               <div>
-                <h3 className="font-bold text-black">Audit Logs</h3>
-                <p className="text-sm text-gray-600">
-                  Track all changes with comprehensive audit logging
+                <h3 className="font-bold text-black text-sm md:text-base">Track changes</h3>
+                <p className="text-xs md:text-sm text-black/60">
+                  See history of all updates made
                 </p>
               </div>
             </div>
@@ -191,23 +193,23 @@ export default function DashboardPage() {
         </div>
 
         {/* Getting Started */}
-        <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-md p-8 text-white">
-          <h2 className="text-2xl font-bold mb-4">Getting Started</h2>
-          <ol className="space-y-3 ml-6">
+        <div className="bg-gradient-to-r from-[#C5A572] to-[#0A1128] rounded-lg shadow-md p-4 md:p-8 text-white">
+          <h2 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Getting started</h2>
+          <ol className="space-y-2 md:space-y-3 ml-4 md:ml-6 text-sm md:text-base">
             <li className="list-decimal">
-              Go to <strong>Products</strong> to manage your product catalog
+              Click <strong>Manage products</strong> to view your catalog
             </li>
             <li className="list-decimal">
-              Use <strong>Image Editor</strong> to create product visuals
+              Use the search bar to find specific items
             </li>
             <li className="list-decimal">
-              <strong>Search and filter</strong> products by brand or name
+              Click on any product to edit details
             </li>
             <li className="list-decimal">
-              <strong>Export</strong> products for sharing or backup
+              Upload photos in the images section
             </li>
             <li className="list-decimal">
-              <strong>Clone products</strong> to quickly create variations
+              Use <strong>Copy product</strong> to create variations
             </li>
           </ol>
         </div>
