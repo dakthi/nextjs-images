@@ -31,9 +31,19 @@ export async function POST(request: NextRequest) {
           return [];
         }
 
-        const xmlText = await response.text();
-        const items = parseRSS(xmlText, feed.source);
-        return items;
+        const contentType = response.headers.get('content-type') || '';
+
+        // Check if it's a JSON feed (like Reddit)
+        if (contentType.includes('application/json') || feed.url.includes('.json')) {
+          const jsonData = await response.json();
+          const items = parseJSON(jsonData, feed.source);
+          return items;
+        } else {
+          // Parse as XML/RSS
+          const xmlText = await response.text();
+          const items = parseRSS(xmlText, feed.source);
+          return items;
+        }
       } catch (error) {
         console.error(`Error fetching ${feed.url}:`, error);
         return [];
@@ -134,11 +144,63 @@ function isRelevantForSalonOwners(item: FeedItem): boolean {
   return hasRelevantContent;
 }
 
+function parseJSON(jsonData: any, source: string): FeedItem[] {
+  const items: FeedItem[] = [];
+
+  try {
+    // Reddit JSON format
+    if (jsonData.kind === 'Listing' && jsonData.data && jsonData.data.children) {
+      for (const child of jsonData.data.children) {
+        if (child.kind === 't3' && child.data) {
+          const post = child.data;
+          const title = post.title || '';
+          const link = post.url || `https://reddit.com${post.permalink}`;
+          const pubDate = post.created ? new Date(post.created * 1000).toISOString() : new Date().toISOString();
+          const description = post.selftext || post.title || '';
+
+          if (title) {
+            items.push({
+              title: cleanText(title),
+              link: cleanText(link),
+              pubDate,
+              description: cleanText(description.substring(0, 300)), // Limit description length
+              source,
+            });
+          }
+        }
+      }
+    }
+    // Generic JSON feed format (for future compatibility)
+    else if (Array.isArray(jsonData.items)) {
+      for (const item of jsonData.items) {
+        if (item.title && item.link) {
+          items.push({
+            title: cleanText(item.title),
+            link: cleanText(item.link),
+            pubDate: item.pubDate || item.published || new Date().toISOString(),
+            description: cleanText(item.description || item.content || ''),
+            source,
+          });
+        }
+      }
+    }
+  } catch (error) {
+    console.error('Error parsing JSON feed:', error);
+  }
+
+  return items;
+}
+
 function parseRSS(xmlText: string, source: string): FeedItem[] {
   const items: FeedItem[] = [];
 
   try {
-    // Simple regex-based parsing (good enough for most RSS feeds)
+    // Check if it's an Atom feed
+    if (xmlText.includes('<feed') && xmlText.includes('xmlns="http://www.w3.org/2005/Atom"')) {
+      return parseAtomFeed(xmlText, source);
+    }
+
+    // Parse as RSS feed
     const itemMatches = xmlText.match(/<item[^>]*>[\s\S]*?<\/item>/gi);
 
     if (!itemMatches) return items;
@@ -161,6 +223,39 @@ function parseRSS(xmlText: string, source: string): FeedItem[] {
     }
   } catch (error) {
     console.error('Error parsing RSS:', error);
+  }
+
+  return items;
+}
+
+function parseAtomFeed(xmlText: string, source: string): FeedItem[] {
+  const items: FeedItem[] = [];
+
+  try {
+    // Parse Atom feed entries
+    const entryMatches = xmlText.match(/<entry[^>]*>[\s\S]*?<\/entry>/gi);
+
+    if (!entryMatches) return items;
+
+    for (const entryXml of entryMatches) {
+      const title = extractTag(entryXml, 'title');
+      const linkMatch = entryXml.match(/<link[^>]*href=["']([^"']+)["'][^>]*>/i);
+      const link = linkMatch ? linkMatch[1] : '';
+      const updated = extractTag(entryXml, 'updated') || extractTag(entryXml, 'published');
+      const summary = extractTag(entryXml, 'summary') || extractTag(entryXml, 'content');
+
+      if (title && link) {
+        items.push({
+          title: cleanText(title),
+          link: cleanText(link),
+          pubDate: updated || new Date().toISOString(),
+          description: cleanText(summary || ''),
+          source,
+        });
+      }
+    }
+  } catch (error) {
+    console.error('Error parsing Atom feed:', error);
   }
 
   return items;

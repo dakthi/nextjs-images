@@ -163,6 +163,16 @@ export default function RSSFeedPage() {
     setFeeds(newFeeds);
   };
 
+  const selectAll = () => {
+    const newFeeds = feeds.map(f => ({ ...f, enabled: true }));
+    setFeeds(newFeeds);
+  };
+
+  const deselectAll = () => {
+    const newFeeds = feeds.map(f => ({ ...f, enabled: false }));
+    setFeeds(newFeeds);
+  };
+
   const filteredItems = selectedCategory === 'all'
     ? feedItems
     : feedItems.filter(item => item.source.includes(selectedCategory));
@@ -186,6 +196,25 @@ export default function RSSFeedPage() {
                   + Add
                 </button>
               </div>
+
+              {/* Select All / Deselect All buttons */}
+              {feeds.length > 0 && (
+                <div className="flex gap-2 mb-3">
+                  <button
+                    onClick={selectAll}
+                    className="flex-1 bg-[#0A1128]/10 text-[#0A1128] font-semibold px-3 py-2 rounded-md hover:bg-[#0A1128]/20 transition-colors text-xs"
+                  >
+                    Select All
+                  </button>
+                  <button
+                    onClick={deselectAll}
+                    className="flex-1 bg-[#0A1128]/10 text-[#0A1128] font-semibold px-3 py-2 rounded-md hover:bg-[#0A1128]/20 transition-colors text-xs"
+                  >
+                    Deselect All
+                  </button>
+                </div>
+              )}
+
               <div className="space-y-2 max-h-96 overflow-y-auto">
                 {feeds.map((feed, index) => (
                   <div key={feed.id || index} className="flex items-start gap-2 p-2 hover:bg-[#0A1128]/5 rounded group">

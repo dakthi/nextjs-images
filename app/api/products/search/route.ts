@@ -11,7 +11,7 @@ export async function GET(request: NextRequest) {
     const q = searchParams.get('q') || '';
     const brand = searchParams.get('brand');
     const active = searchParams.get('active');
-    const limit = Math.min(parseInt(searchParams.get('limit') || '50'), 100);
+    const limit = Math.min(parseInt(searchParams.get('limit') || '50'), 2000);
     const offset = parseInt(searchParams.get('offset') || '0');
 
     const where: any = {};
