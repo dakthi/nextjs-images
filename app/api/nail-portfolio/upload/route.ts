@@ -8,6 +8,12 @@ const s3Client = new S3Client({
     accessKeyId: process.env.R2_ACCESS_KEY_ID!,
     secretAccessKey: process.env.R2_SECRET_ACCESS_KEY!,
   },
+  // Add retry configuration for SSL/network issues
+  maxAttempts: 3,
+  requestHandler: {
+    connectionTimeout: 30000,
+    requestTimeout: 60000,
+  },
 });
 
 const BUCKET_NAME = process.env.R2_BUCKET_NAME || 'vl-london-images';
@@ -60,8 +66,23 @@ export async function POST(request: NextRequest) {
     });
   } catch (error) {
     console.error('Upload error:', error);
+
+    // Provide more specific error messages
+    let errorMessage = 'Failed to upload image';
+    if (error instanceof Error) {
+      if (error.message.includes('EPROTO') || error.message.includes('SSL')) {
+        errorMessage = 'SSL/Network error connecting to storage. Please try again.';
+      } else if (error.message.includes('timeout')) {
+        errorMessage = 'Upload timeout. Please check your connection and try again.';
+      }
+    }
+
     return NextResponse.json(
-      { error: 'Failed to upload image', details: error instanceof Error ? error.message : 'Unknown error' },
+      {
+        error: errorMessage,
+        details: error instanceof Error ? error.message : 'Unknown error',
+        timestamp: new Date().toISOString()
+      },
       { status: 500 }
     );
   }
